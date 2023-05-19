@@ -1,30 +1,30 @@
 /** @jsx jsx */
 import React, { useState, useEffect, useContext } from "react";
-import { LogoImage, NavLinks } from "@/data";
+import { LogoImage, NavLinks, SocialIcons } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
 import { Link } from "gatsby";
-import { jsx } from '@emotion/react'
+import { jsx } from "@emotion/react";
 
-import { 
+import {
   header,
   logo,
   mainMenu,
   submenu,
-  navigator 
-}  from '../assets/styles/Header.styles'
-
+  navigator,
+  socialList
+} from "../assets/styles/Header.styles";
 
 const HeaderOne = () => {
   const [sticky, setSticky] = useState(false);
   const { searchStatus, updateSearchStatus } = useContext(SearchContext);
   const { menuStatus, updateMenuStatus } = useContext(MenuContext);
-  const handleSearchClick = e => {
+  const handleSearchClick = (e) => {
     e.preventDefault();
     updateSearchStatus(!searchStatus);
   };
-  const handleMenuClick = e => {
+  const handleMenuClick = (e) => {
     e.preventDefault();
     updateMenuStatus(!menuStatus);
   };
@@ -45,23 +45,22 @@ const HeaderOne = () => {
   }, [sticky]);
 
   return (
-    <header css={header}
-      className={`${
-        true === sticky ? "fixedHeader animated flipInX" : null
-      }`}
+    <header
+      css={header}
+      className={`${true === sticky ? "fixedHeader animated flipInX" : null}`}
       id="header"
     >
-      
-      <Container fluid>
+      <Container>
         <Row className="justify-content-between">
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div css={logo}>
               <Link to="/">
-                <img src={LogoImage.light} alt="" />
+                <img src={LogoImage.light} alt="Evex" className="d-none d-lg-block" />
+                <img src={LogoImage.mobile} alt="Evex" className="d-block d-md-block d-lg-none" />
               </Link>
             </div>
           </Col>
-          <Col lg={8} sm={8} md={7} className="d-none d-lg-block ">
+          <Col lg={8} sm={8} md={7} className="d-none d-lg-block">
             <nav css={mainMenu} className="text-center">
               <ul>
                 {NavLinks.map((links, index) => {
@@ -90,21 +89,72 @@ const HeaderOne = () => {
               </ul>
             </nav>
           </Col>
-          <Col lg={2} md={2} sm={4} className="col-6">
+          <Col
+            lg={2}
+            md={2}
+            sm={4}
+            className="col-6 d-none d-lg-block"
+          >
+            <ul  css={socialList}>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.instagram} alt="instagram" className="socialicon" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.twitter} alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.linkedin} alt="linkedin" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.youtube} alt="youtube" />
+                </a>
+              </li>
+            </ul>
+          </Col>
+          <Col
+            lg={2}
+            md={2}
+            sm={4}
+            className="col-6 d-block d-md-block d-lg-none"
+          >
             <div css={navigator} className="text-right">
-              <a
+              {/* <a
                 className="search searchToggler"
                 href="#"
                 onClick={handleSearchClick}
               >
                 <i className="mei-magnifying-glass"></i>
-              </a>
-              <a
+              </a> */}
+               <ul  css={socialList}>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.instagram} alt="instagram" className="socialicon" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.twitter} alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src={SocialIcons.linkedin} alt="linkedin" />
+                </a>
+              </li>
+            </ul>
+              {/* <a
                 href="#"
                 className="menu mobilemenu d-none d-md-none d-lg-none"
               >
                 <i className="mei-menu"></i>
-              </a>
+              </a> */}
               <a
                 id="open-overlay-nav"
                 className="menu hamburger"

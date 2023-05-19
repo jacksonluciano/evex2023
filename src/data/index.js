@@ -1,5 +1,5 @@
-import logoLight from "@/images/logo.png"
-import logoDark from "@/images/logo2.png"
+import logo from "@/images/logo.svg"
+import logoMobile from "@/images/logo-mobile.svg"
 import sliderOne01 from "@/images/slider/1_1.jpg"
 import sliderOne02 from "@/images/slider/1_2.jpg"
 import sliderTwo01 from "@/images/slider/2_1.jpg"
@@ -56,86 +56,58 @@ import aboutTwo01 from "@/images/home_1/2.jpg"
 import aboutTwo02 from "@/images/home_1/1.jpg"
 import featureTwo01 from "@/images/home_1/5.jpg"
 
+import instagramIcon from "@/images/icons/instagram.svg"
+import linkedinIcon from "@/images/icons/linkedin.svg"
+import twitterIcon from "@/images/icons/twitter.svg"
+import youtubeIcon from "@/images/icons/youtube.svg"
+
 export const LogoImage = {
-  light: logoLight,
-  dark: logoDark,
+  light: logo,
+  mobile: logoMobile,
+};
+
+export const SocialIcons = {
+  instagram: instagramIcon,
+  linkedin: linkedinIcon,
+  twitter: twitterIcon,
+  youtube: youtubeIcon,
 };
 
 export const NavLinks = [
   {
-    name: "Home",
+    name: "O EVEx",
     url: "/",
-    subItems: [
-      {
-        name: "Home 01",
-        url: "/",
-      },
-      {
-        name: "Home 02",
-        url: "/index-2",
-      },
-      {
-        name: "Home 03",
-        url: "/index-3",
-      },
-    ],
   },
   {
-    name: "Lorem",
+    name: "Lisboa",
     url: "/about",
   },
   {
-    name: "Lorem",
+    name: "Experiências",
     url: "/service",
-    subItems: [
-      {
-        name: "Lorem",
-        url: "/service",
-      },
-      {
-        name: "Lorem ipsum",
-        url: "/service-details",
-      },
-    ],
   },
   {
-    name: "Lorem",
+    name: "Speakers",
     url: "/portfolio",
-    subItems: [
-      {
-        name: "Lorem 01",
-        url: "/portfolio",
-      },
-      {
-        name: "Lorem Ipsum",
-        url: "/portfolio-details",
-      },
-    ],
   },
   {
-    name: "Lorem",
+    name: "Comitê",
     url: "/blog",
-    subItems: [
-      {
-        name: "Lorem 01",
-        url: "/blog",
-      },
-      {
-        name: "Lorem 02",
-        url: "/blog-2",
-      },
-      {
-        name: "Lorem 03",
-        url: "/blog-3",
-      },
-      {
-        name: "Lorem Ipsum",
-        url: "/blog-single",
-      },
-    ],
   },
   {
-    name: "Lorem",
+    name: "Papers",
+    url: "/contact",
+  },
+  {
+    name: "Agenda",
+    url: "/contact",
+  },
+  {
+    name: "Inscrições",
+    url: "/contact",
+  },
+  {
+    name: "Contato",
     url: "/contact",
   },
 ];

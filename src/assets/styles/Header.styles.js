@@ -1,18 +1,20 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 
+import { colors } from "./layout.styles";
+
 export const header = css`
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 5;
-  background: transparent;
-  padding: 39px 40px 0 45px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  background: ${colors.secondaryMain};
+  padding: 11px 40px 11px 45px;
+  /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
 
   &.fixedHeader {
-    background-color: #000000;
+    background-color: ${colors.secondaryMain};
     left: 0;
     position: fixed;
     right: 0;
@@ -48,13 +50,13 @@ export const header = css`
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 39px 0 0;
+    padding: 23px 0;
   }
 `;
 
 export const logo = css`
   text-align: left;
-  padding: 0 0 39px;
+  padding: 0;
   img {
     max-width: 100%;
     height: auto;
@@ -62,17 +64,23 @@ export const logo = css`
 `;
 
 export const mainMenu = css`
+  height: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 
   ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
     & li {
       list-style: none;
       display: inline-block;
       line-height: 0.8;
-      padding: 0 20px 53px;
+      padding: 0px;
       position: relative;
 
       & > .active a {
@@ -84,26 +92,29 @@ export const mainMenu = css`
 
       & a {
         display: block;
-        color: #fff;
+        color: ${colors.primaryMain};
         font-size: 16px;
-        line-height: 0.8;
-        text-transform: uppercase;
+        font-weight: 500;
+        line-height: 120%;
         position: relative;
+        letter-spacing: -1px;
 
         &:hover {
-          color: #ffffff;
+          color: ${colors.brandingSalmon};
+          text-decoration: none;
           &:after {
             width: 100%;
-            background-color: #ffffff;
+            opacity: 1;
           }
         }
 
         &:after {
           position: absolute;
-          width: 0;
-          height: 1px;
+          width: 100%;
+          height: 2px;
+          opacity: 0;
           content: "";
-          background: #fff;
+          background: ${colors.brandingSalmon};
           left: 0;
           right: 0;
           bottom: -5px;
@@ -178,11 +189,14 @@ export const submenu = css`
 
 export const navigator = css`
   position: relative;
-  padding: 6px 0 37px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
 
   & a {
     display: inline-block;
-    color: #fff;
+    color: ${colors.primaryMain};
     line-height: 0.8;
     font-size: 25px;
     margin: 0;
@@ -200,10 +214,60 @@ export const navigator = css`
   @media (min-width: 320px) and (max-width: 767px) {
     padding-top: 0;
 
+    a{
+      display:flex;
+      justify-content: center;
+
+      i{
+        padding: 10px 0 10px 10px;
+      }
+    }
+
     & a {
       &.search {
         margin-right: 10px;
       }
+    }
+  }
+`;
+
+export const socialList = css`
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+
+  li {
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 4px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        margin: 0;
+        height: 26px;
+        line-height: 26px;
+      }
+
+    a {
+      @media (min-width: 320px) and (max-width: 767px) {
+        width: 23px;
+        height: 23px;
+      }
+      img {
+        transition: 0.2s;
+
+        @media (min-width: 320px) and (max-width: 767px) {
+          width: 100%;
+        }
+      }
+    }
+    a:hover img {
+      filter: invert(61%) sepia(55%) saturate(446%) hue-rotate(307deg)
+        brightness(101%) contrast(89%);
     }
   }
 `;

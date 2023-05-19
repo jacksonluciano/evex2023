@@ -1,6 +1,16 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 
+export const colors = {
+  primaryMain: "#1e1e1c",
+  primaryLight: "#686868",
+  secondaryMain: "#f5f5f5",
+  brandingPurple: "#9a6dac",
+  brandingSalmon: "#f18e96",
+  brandingBlue: "#727dbc",
+  brandingBlue: "#f5a282"
+};
+
 export const commonSection = css`
   padding: 120px 0;
   position: relative;

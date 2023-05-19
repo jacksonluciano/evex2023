@@ -17,6 +17,7 @@ import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
+import HeroVideo from "@/components/hero-video";
 
 const HomeOne = () => {
   return (
@@ -24,20 +25,21 @@ const HomeOne = () => {
       <SearchContextProvider>
         <Layout PageTitle="Home One">
           <HeaderOne />
-          <SliderOne />
-          <ServiceTwo />
+          {/* <SliderOne /> */}
+          {/* <ServiceTwo /> */}
+          <HeroVideo />
           <AboutTwo />
-          <VideoTwo />
-          <SubscribeForm />
-          <PortfolioHome />
-          <FunfactOne />
-          <TrustedClient />
-          <TeamCarousel />
-          <ClientCarouselOne />
-          <ParallaxOne />
-          <BlogHome />
-          <CallToActionOne extraClassName="ready" />
-          <Footer />
+          {/* <VideoTwo /> */}
+          {/* <SubscribeForm /> */}
+          {/* <PortfolioHome /> */}
+          {/* <FunfactOne /> */}
+          {/* <TrustedClient /> */}
+          {/* <TeamCarousel /> */}
+          {/* <ClientCarouselOne /> */}
+          {/* <ParallaxOne /> */}
+          {/* <BlogHome /> */}
+          {/* <CallToActionOne extraClassName="ready" /> */}
+          {/* <Footer /> */}
         </Layout>
       </SearchContextProvider>
     </MenuContextProvider>
