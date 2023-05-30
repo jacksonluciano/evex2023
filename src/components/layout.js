@@ -18,20 +18,21 @@ import "@/css/icons.css";
 // import "@/css/theme.css";
 // import "@/css/responsive.css";
 
-import { showIt } from "../assets/styles/layout.styles";
+import { showIt, colors } from "../assets/styles/layout.styles";
 
 const GlobalStyles = () => {
   return (
     <Global
       styles={css`
         /* @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700'); */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
         
         @font-face {
           font-family: 'bw_gradual_demoregular';
           font-display: swap;
           font-style: normal;
           font-named-instance: 'Regular';
-          src: url(/fonts/bwgradualdemo-bold-webfont.woff2) format("woff2");
+          src: url(/fonts/bwgradualdemo-regular-webfont.woff2) format("woff2");
         }
 
         @font-face {
@@ -39,7 +40,15 @@ const GlobalStyles = () => {
           font-display: swap;
           font-style: normal;
           font-named-instance: 'Medium';
-          src: url(/bwgradualdemo-medium-webfont.woff2) format("woff2");
+          src: url(/fonts/bwgradualdemo-medium-webfont.woff2) format("woff2");
+        }
+
+        @font-face {
+          font-family: 'bw_gradual_demobold';
+          font-display: swap;
+          font-style: normal;
+          font-named-instance: 'Bold';
+          src: url(/fonts/bwgradualdemo-bold-webfont.woff2) format("woff2");
         }
 
         body,
@@ -48,11 +57,11 @@ const GlobalStyles = () => {
           padding: 0;
         }
         body {
+          background-color: ${colors.secondaryMain} !important;
           line-height: 32px;
-          color: #818181;
           letter-spacing: 0.64px;
           font-size: 16px;
-          font-family: "bw_gradual_demoregular" !important;
+          font-family: 'Open Sans', sans-serif !important;
           /* font-weight: 400; */
           /* transition: all ease 400ms;
           -webkit-transition: all ease 400ms;
@@ -90,6 +99,9 @@ const GlobalStyles = () => {
           margin: 0;
           padding: 0;
           list-style: none;
+        }
+        p{
+          color: #686868;
         }
 
         @media (min-width: 1200px) {

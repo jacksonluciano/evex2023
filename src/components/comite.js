@@ -1,28 +1,30 @@
 /** @jsx jsx */
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Element7 from "@/images/elements/element-07.svg";
-import { TeamOneData } from "@/data";
+import Element8 from "@/images/elements/element-08.png";
+import Element9 from "@/images/elements/element-09.svg";
+import Arrow from '@/images/icons/arrow-down.svg'
+import { ComiteData } from "@/data";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TeamCard from "@/components/team-card";
+import ComiteCard from "@/components/comite-card";
 import { jsx } from "@emotion/react";
 import "swiper/swiper-bundle.min.css";
 
 import {
   team,
   teamSlider,
-  moreBt,
-  element
-} from "../assets/styles/TeamCarousel.styles";
+  element,
+  element9
+} from "../assets/styles/Comite.styles";
 
-import { commonSection, commonBtn }  from '../assets/styles/layout.styles'
+import { commonSection }  from '../assets/styles/layout.styles'
 
 import SwiperCore, { Pagination } from "swiper";
 
 SwiperCore.use([Pagination]);
 
-const TeamCarousel = () => {
-  const { sectionContent, posts } = TeamOneData;
+const Comite = () => {
+  const { sectionContent, posts } = ComiteData;
   const carouselOptions = {
     spaceBetween: 0,
     loop: false,
@@ -68,24 +70,23 @@ const TeamCarousel = () => {
              <h2>{sectionContent.title}</h2>
           </Col>
         </Row>
-     
+      
       <Swiper css={teamSlider} {...carouselOptions}>
-        <span id="main-slider-next">{`>`}</span>
+        <span id="main-slider-next">
+          <img src={Arrow} />
+        </span>
         {posts.map((post, index) => (
           <SwiperSlide key={index}>
-            <TeamCard data={post} />
+            <ComiteCard data={post} />
           </SwiperSlide>
         ))}
         {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
       </Swiper>
-      <div css={moreBt}>
-        <button css={commonBtn}>Saiba mais</button>
-      </div>
-      <img css={element} src={Element7} />
+      <img css={element} src={Element8} />
+      <img css={element9} src={Element9} />
       </Container>
-      
     </section>
   );
 };
 
-export default TeamCarousel;
+export default Comite;

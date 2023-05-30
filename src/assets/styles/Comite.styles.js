@@ -3,17 +3,17 @@ import { css } from "@emotion/react";
 import { colors } from './layout.styles'
 
 export const team = css`
-  padding-bottom: 120px !important;
-  padding-top: 0 !important;
+  padding-bottom: 20px !important;
   background-color: ${colors.primaryMain};
-  position: relative;
 
   h2{
     font-size: 56px;
+    margin-left: 40px;
     font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
     text-decoration: underline;
-    margin-left: 40px;
+    z-index: 2;
+    position: relative;
   }
 `;
 
@@ -26,7 +26,7 @@ export const teamSlider = css`
   #main-slider-next{
       width: 48px;
       height: 48px;
-      background-color: #fff;
+      background-color:${colors.secondaryMain};
       border: 1px solid #000;
       position: absolute;
       right: 17px;
@@ -36,6 +36,14 @@ export const teamSlider = css`
       justify-content: center;
       align-items: center;
       cursor: pointer;
+
+      img{
+        transform: rotate(270deg);
+      }
+
+      :hover{
+        background-color:${colors.brandingSalmon};
+      }
     }
 
   & .slick-slide {
@@ -180,9 +188,8 @@ export const tmImg = css`
 
 export const speakerInfo = css`
   display: flex;
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.secondaryMain};
   border-radius: 8px;
-  border:1px solid ${colors.secondaryMain};
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -193,17 +200,16 @@ export const speakerInfo = css`
   h4{
     font-family: 'bw_gradual_demoregular';
     font-size: 24px;
-    color:  ${colors.secondaryMain};
+    color: ${colors.primaryMain};
     margin-bottom: 16px;
     text-decoration: underline;
   }
   p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color:  ${colors.secondaryMain};
+    color:  ${colors.primaryMain};
     line-height: 21px;
   }
-
 `
 
 export const detailTM = css`
@@ -313,7 +319,13 @@ export const moreBt = css`
 `
 
 export const element = css`
-    position: absolute;
-    bottom: -170px;
-    left: 40px;
+  position: absolute;
+  top: -100px;
+  right: -80px;
+`
+
+export const element9 = css`
+  position: absolute;
+  bottom: -70px;
+  right: 100px;
 `

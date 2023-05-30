@@ -8,7 +8,7 @@ export const colors = {
   brandingPurple: "#9a6dac",
   brandingSalmon: "#f18e96",
   brandingBlue: "#727dbc",
-  brandingBlue: "#f5a282"
+  brandingOrange: "#f5a282"
 };
 
 export const commonSection = css`
@@ -32,14 +32,16 @@ export const subtitle = css`
 `;
 
 export const secTitle = css`
-  font-size: 50px;
-  line-height: 60px;
-  font-weight: 400;
-  color: #000;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0 0 25px;
-  white-space: pre-line;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 400;
+    color: #f5f5f5;
+    letter-spacing: -1px;
+    margin: 0 0 25px;
+    white-space: pre-line;
+    margin-bottom: 45px;
+    display: inline-block;
+    width: auto;
 
   @media (min-width: 320px) and (max-width: 767px) {
     font-size: 34px;
@@ -74,32 +76,31 @@ export const colorAaa = css`
 export const commonBtn = css`
   border: none;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   background: #000000;
   color: #fff;
-  height: 70px;
-  text-transform: uppercase;
   text-align: center;
-  padding: 28px 45.5px;
-  display: inline-block;
+  padding: 18px 45.5px;
   line-height: 0.8;
   letter-spacing: 1.6px;
   position: relative;
   outline: none;
-  transition: all 0.4s ease-out;
+  /* transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -webkit-transition: all 0.4s ease-out;
   -ms-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out; */
 
   &:hover {
     color: #000;
+    background-color: ${colors.secondaryMain};
+    box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
     &:after {
       width: 100%;
     }
   }
 
-  &:after {
+  /* &:after {
     content: "";
     width: 4px;
     height: 100%;
@@ -112,7 +113,7 @@ export const commonBtn = css`
     -webkit-transition: all 0.4s ease-out;
     -ms-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
-  }
+  } */
 
   span {
     position: relative;
@@ -201,9 +202,17 @@ export const noPadding = css`
 `
 
 export const noPaddingRight = css`
-  padding-right:0;
+  padding-right:0 !important;
 `
 
 export const noPaddingLeft = css`
-  padding-left:0;
+  padding-left:0 !important;
+`
+
+export const mb16 = css`
+  margin-bottom:16px !important;
+`
+
+export const mb32 = css`
+  margin-bottom:32px !important;
 `

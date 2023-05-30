@@ -1,5 +1,7 @@
 import logo from "@/images/logo.svg"
 import logoMobile from "@/images/logo-mobile.svg"
+import logoLuz from "@/images/logo-luz.svg"
+import logoSmall from "@/images/logo-small.svg"
 import sliderOne01 from "@/images/slider/1_1.jpg"
 import sliderOne02 from "@/images/slider/1_2.jpg"
 import sliderTwo01 from "@/images/slider/2_1.jpg"
@@ -32,18 +34,14 @@ import serviceOne01 from "@/images/home_1/6.jpg"
 import serviceOne02 from "@/images/home_1/7.jpg"
 import serviceOne03 from "@/images/home_1/8.jpg"
 import trustClient01 from "@/images/home_1/4.jpg"
-import ClientCarousel01 from "@/images/client/1.png"
-import ClientCarousel02 from "@/images/client/2.png"
-import ClientCarousel03 from "@/images/client/3.png"
-import ClientCarousel04 from "@/images/client/4.png"
-import ClientCarousel05 from "@/images/client/5.png"
 import aboutOne01 from "@/images/about/1.jpg"
 import aboutOne02 from "@/images/about/2.jpg"
-import team01 from "@/images/team/1.jpg"
+import team01 from "@/images/speaker/speaker.png"
 import team02 from "@/images/team/2.jpg"
 import team03 from "@/images/team/3.jpg"
 import team04 from "@/images/team/4.jpg"
 import team05 from "@/images/team/5.jpg"
+import Comite01 from "@/images/comite/comite.png"
 import video01 from "@/images/about/3.jpg"
 import testimonial01 from "@/images/home_1/t1.jpg"
 import testimonial02 from "@/images/home_1/t2.jpg"
@@ -55,6 +53,16 @@ import video02 from "@/images/home_1/3.jpg"
 import aboutTwo01 from "@/images/home_1/2.jpg"
 import aboutTwo02 from "@/images/home_1/1.jpg"
 import featureTwo01 from "@/images/home_1/5.jpg"
+import oEvex from "@/images/o-evex.jpg"
+import element01 from "@/images/elements/element-01.svg"
+import element02 from "@/images/elements/element-02.svg"
+import virtualPresencial from "@/images/virtual-presencial.jpg"
+
+import ExperienciaIcon01 from "@/images/icons/icon-talks.svg"
+import ExperienciaIcon02 from "@/images/icons/icon-master-classes.svg"
+import ExperienciaIcon03 from "@/images/icons/icon-academy.svg"
+import ExperienciaIcon04 from "@/images/icons/icon-expo.svg"
+// import ClientCarousel05 from "@/images/client/5.png"
 
 import instagramIcon from "@/images/icons/instagram.svg"
 import linkedinIcon from "@/images/icons/linkedin.svg"
@@ -64,6 +72,8 @@ import youtubeIcon from "@/images/icons/youtube.svg"
 export const LogoImage = {
   light: logo,
   mobile: logoMobile,
+  luz: logoLuz,
+  small: logoSmall
 };
 
 export const SocialIcons = {
@@ -574,20 +584,20 @@ export const ServicePostThreeData = {
 
 export const FunfactData = [
   {
-    title: "Lorem ipsum",
-    countNumber: 705,
+    title: "Eventos",
+    countNumber: 2,
   },
   {
-    title: "Lorem ipsum",
-    countNumber: 480,
+    title: "Experiências",
+    countNumber: 4,
   },
   {
-    title: "Lorem ipsum",
-    countNumber: 626,
+    title: "Dias",
+    countNumber: 6,
   },
   {
-    title: "Lorem ipsum",
-    countNumber: 774,
+    title: "Speakers",
+    countNumber: 100,
   },
 ];
 
@@ -601,7 +611,7 @@ export const TrustClientData = {
 
 export const ClientCarouselData = {
   sectionContent: {
-    title: "Lorem ipsum dolor",
+    title: "Experiências Interativas",
     subTitle: "Lorem ipsum",
     text:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet \n libero in augue volutpat varius.",
@@ -609,23 +619,27 @@ export const ClientCarouselData = {
   items: [
     {
       url: "#",
-      image: ClientCarousel01,
+      image: ExperienciaIcon01,
+      title: 'Energy Talks',
+      text: 'Conversas e debates com líderes e players da indústria energética ibero-latino-americana.'
     },
     {
       url: "#",
-      image: ClientCarousel02,
+      image: ExperienciaIcon02,
+      title: 'Energy MasterClasses',
+      text: 'Masterclasses com grandes nomes dos setores energéticos do Brasil e de Portugal.'
     },
     {
       url: "#",
-      image: ClientCarousel03,
+      image: ExperienciaIcon03,
+      title: 'Energy Academy',
+      text: 'Minicursos, workshops e apresentações de trabalhos técnico-científicos no âmbito da energia.'
     },
     {
       url: "#",
-      image: ClientCarousel04,
-    },
-    {
-      url: "#",
-      image: ClientCarousel05,
+      image: ExperienciaIcon04,
+      title: 'Energy Expo/Business',
+      text: 'Exposição de serviços, novas tecnologias e modelos de negócios para a transição energética.'
     },
   ],
 };
@@ -644,113 +658,118 @@ export const AboutOneData = {
 
 export const TeamOneData = {
   sectionContent: {
-    title: "Lorem ipsum dolor",
-    subTitle: "Lorem ipsum dolor dolor",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet \n libero in augue volutpat varius.",
+    title: "Speakers",
   },
   posts: [
     {
       image: team01,
       name: "Lorem ipsum",
       designation: "Lorem ipsum",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
     },
     {
-      image: team02,
+      image: team01,
       name: "Lorem ipsum",
       designation: "Lorem ipsum",
-      url: "",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
     },
     {
-      image: team03,
+      image: team01,
       name: "Lorem ipsum",
       designation: "Lorem ipsum",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
     },
     {
-      image: team04,
+      image: team01,
       name: "Lorem ipsum",
       designation: "Lorem ipsum",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
     },
     {
-      image: team05,
+      image: team01,
       name: "Lorem ipsum",
       designation: "Lorem ipsum",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
     },
-  ],
+    {
+      image: team01,
+      name: "Lorem ipsum",
+      designation: "Lorem ipsum",
+    },
+    {
+      image: team01,
+      name: "Lorem ipsum",
+      designation: "Lorem ipsum",
+    },
+    {
+      image: team01,
+      name: "Lorem ipsum",
+      designation: "Lorem ipsum",
+    },
+    {
+      image: team01,
+      name: "Lorem ipsum",
+      designation: "Lorem ipsum",
+    },
+    {
+      image: team01,
+      name: "Lorem ipsum",
+      designation: "Lorem ipsum",
+    },
+  ]
+};
+
+export const ComiteData = {
+  sectionContent: {
+    title: "Comitê Científico e Organizador",
+  },
+  posts: [
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+    {
+      image: Comite01,
+      name: "Lorem ipsum",
+      description: "Lorem ipsum",
+    },
+  ]
 };
 
 export const VideoOneData = {
@@ -975,6 +994,105 @@ export const VideoTwoData = {
   },
 };
 
+export const OevexData = {
+  sectionContent: {
+    title: "O EVEx",
+    text:
+      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, com o objetivo de debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Brasil, Portugal e Espanha. Criado em 2020 no início da pandemia, o “V” de seu nome advém de “Virtual”, porque as suas duas primeiras edições foram realizadas de forma online.",
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  image: oEvex,
+  element: element01
+};
+
+export const VirtualPresencialData = {
+  sectionContent: {
+    title: "O EVEx",
+    text:
+      "No ano passado, a terceira edição do EVEx inaugurou um formato composto por dois eventos, sendo um online e outro físico. Assim, sem abandonar as origens virtuais, o EVEx chegou em Portugal para o seu primeiro encontro presencial, realizado na Reitoria da Universidade NOVA de Lisboa. Sucesso de público e de crítica, o EVEx Lisboa 2022 contou com a participação dos principais agentes dos mercados ibérico e latino-americano de energia, incluindo importantes autoridades públicas.",
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  image: virtualPresencial,
+  element: element01
+};
+
+export const EvexLisboaData = {
+  sectionContent: {
+    title: "O EVEx",
+    text:
+      `Neste ano, a capital de Portugal e a NOVA continuam a ser a nossa casa.
+      O EVEx, em sua quarta edição, repetirá o formato de sucesso da edição passada e terá novamente dois eventos. O primeiro vai ocorrer totalmente online e ao vivo, nos dias 18 a 21 de setembro. Já o segundo será presencial, na Reitoria da Universidade NOVA de Lisboa, nos dias 25 e 26 de outubro.
+      Mal podemos esperar para regressar com toda a energia!`,
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  element: element02
+};
+
+export const PatrocinadoresData = {
+  sectionContent: {
+    title: "Patrocinadores",
+    text:
+      `Neste ano, a capital de Portugal e a NOVA continuam a ser a nossa casa.
+      O EVEx, em sua quarta edição, repetirá o formato de sucesso da edição passada e terá novamente dois eventos. O primeiro vai ocorrer totalmente online e ao vivo, nos dias 18 a 21 de setembro. Já o segundo será presencial, na Reitoria da Universidade NOVA de Lisboa, nos dias 25 e 26 de outubro.
+      Mal podemos esperar para regressar com toda a energia!`,
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  element: element02
+};
+
+export const TransicoesEnergeticasData = {
+  sectionContent: {
+    title: `Transição Energética e Novas 
+            Tecnologias:`,
+    text:
+      `De volta ao futuro da energia ibero-latino-americana`,
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  element: element02
+};
+
+
+export const blocksTeData = [
+  {
+    date: '18 a 21 de Setembro',
+    text: 
+        `Energy Virtual Experience Evento Online`
+  },
+  {
+    date: '25 e 26 de Outubro',
+      text: 'Lisbon Energy Experience Evento Presencial'
+  },
+];
+
+export const BigCtaData = [
+  {
+    date: 'Agenda',
+    text: 
+        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, a agenda dos eventos do EVEx Lisboa 2023 será divulgada em breve.`,
+        button: 'Agenda Preliminar'
+  },
+  {
+    date: 'Inscrições',
+      text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
+      button: 'Inscreva-se já!'
+  },
+];
+
 
 export const AboutTwoData = {
   sectionContent: {
@@ -1028,5 +1146,34 @@ export const CallToActionTwoData = [
   {
     label: "Reqeust a free quote",
     url: "/contact",
+  },
+];
+
+
+export const FaqData = [
+  {
+    question: "Call for Papers/Projects",
+    response: `
+    Incentivar a produção acadêmica e científica na área de energia é uma das missões do EVEx.
+A chamada de trabalhos desta edição continuará abrindo um espaço de debate e grande visibilidade para apresentações de pesquisas, projetos e soluções inovadoras desenvolvidas por estudantes, professores, pesquisadores, startups e empresas.
+Os resumos deverão ser enviados exclusivamente para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, normas, formulário e eixos temáticos abaixo disponíveis.
+Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Online ou no EVEx Presencial, após as devidas inscrições dos autores.
+As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023, em formato digital (e-book). Confira abaixo as publicações organizadas pelo EVEx`,
+  },
+  {
+    question: "Cronograma",
+    response: "Acesse o Syllabus (plano de estudos) e siga as referências acadêmicas que estão aqui no site.",
+  },
+  {
+    question: "Só pode participar da Vitalis quem vai fazer Medicina?",
+    response: "Não, a olimpíada é aberta para todos os interessados pelas áreas de saúde, biologia e medicina.",
+  },
+  {
+    question: "Estou no 4º ano do ensino técnico integrado ao ensino médio, coloco pré-vestibular ou terceira série na inscrição?",
+    response: "Terceira série",
+  },
+  {
+    question: "Concluí o ensino médio há dois anos, é viável a participação na modalidade Sênior Regular?",
+    response: "Não, essa modalidade é para quem está no ensino médio ou concluiu no ano anterior. Pode escolher a Livre.",
   },
 ];

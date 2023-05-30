@@ -1,25 +1,31 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
-import bg5 from "../images/bg/5.jpg";
+import { colors } from './layout.styles'
 
 export const footer1 = css`
   position: relative;
   padding: 130px 0 0;
-  background: url(${bg5}) no-repeat center center / cover;
+  background-color: ${colors.primaryMain};
 `;
 
 export const widget = css`
   position: relative;
   padding: 0 0 112px;
 
-  h3 {
-    font-size: 18px;
-    letter-spacing: 0.72px;
-    color: #fff;
-    line-height: 0.8;
-    margin: 0 0 43px;
+  h2 {
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: ${colors.secondaryMain};
+    line-height: 48px;
+    margin: 0 0 16px;
     position: relative;
-    text-transform: uppercase;
+    font-family: 'bw_gradual_demomedium';
+    text-decoration: underline;
+    font-style: normal;
+  }
+
+  p{
+    color: ${colors.secondaryMain};
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -29,8 +35,6 @@ export const widget = css`
 `;
 
 export const aboutWidget = css`
-  padding-right: 110px;
-  margin-top: -8px;
 
   & img {
     max-width: 100%;
@@ -41,8 +45,9 @@ export const aboutWidget = css`
   & p {
     font-size: 14px;
     letter-spacing: 0.56px;
-    color: #aaaaaa;
+    color: ${colors.secondaryMain};
     margin: 0;
+    margin-bottom: 24px;
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -60,18 +65,22 @@ export const contactWidget = css`
   & p {
     font-size: 14px;
     letter-spacing: 0.56px;
-    color: #aaaaaa;
+    color: ${colors.secondaryMain};
     margin: 0;
+    line-height: 20px;
 
-    &:first-of-type {
+    &:nth-of-type(2){
       margin-bottom: 32px;
+    }
+
+    &:first-of-type { 
       @media (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 15px;
       }
     }
 
     & a {
-      color: #aaaaaa;
+      color: ${colors.secondaryMain};
       &:hover {
         color: #e62b4a;
       }
@@ -102,6 +111,10 @@ export const socialWidget = css`
   & ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 180px;
     & li {
       padding: 0;
       margin: 0 0 0;
@@ -118,7 +131,7 @@ export const socialWidget = css`
           color: #fff;
         }
         & i {
-          font-size: 16px;
+          font-size: 24px;
           color: #fff;
           margin-right: 12px;
         }
@@ -127,5 +140,59 @@ export const socialWidget = css`
   }
   @media (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 80px;
+  }
+`;
+
+
+export const subscribeFrom = css`
+  position: relative;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    text-align: left;
+  }
+
+  & input[type="email"] {
+    width: 260px;
+    background: ${colors.primaryMain};
+    color: ${colors.secondaryMain};
+    border: 1px solid ${colors.secondaryMain};
+    font-weight: 400;
+    letter-spacing: 0.56px;
+    padding: 10px 20px;
+    outline: none;
+    margin-right: 8px;
+
+    &::-moz-placeholder,
+    &::-ms-input-placeholder,
+    &::-webkit-input-placeholder {
+      color: ${colors.secondaryMain} !important;
+      /* opacity: 1 !important; */
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+
+  button{
+    background-color: ${colors.secondaryMain};
+    color: ${colors.primaryMain};
+    font-family: 'bw_gradual_demobold';
+    border: none;
+    box-shadow: none;
+      padding: 21px 28px;
+
+    &:hover{
+      background-color: ${colors.secondaryMain};
+      color: ${colors.primaryMain};
+      box-shadow: none;
+    }
+  }
+
+  button {
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0;
+    }
   }
 `;

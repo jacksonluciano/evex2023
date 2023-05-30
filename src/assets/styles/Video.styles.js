@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
+import { colors } from './layout.styles'
 
 export const whatWedo = css`
   position: relative;
-  border-bottom: 1px solid #e7e7e7;
   padding-bottom: 72px;
-
-  &:after {
+  background-color: ${colors.primaryMain};
+  padding: 120px 0 44px;
+  /* &:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -14,12 +15,19 @@ export const whatWedo = css`
     height: 50%;
     content: "";
     background: #f4f4f4;
-  }
+  } */
 `;
 
 export const videoWrap = css`
-  position: relative;
-  margin-bottom: 100px;
+    position: relative;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 980px;
+    height: 560px;
+    background-color: #dfdfdf;
+    margin: 0 auto;
+    z-index: 2;
 
   & img {
     width: 100%;
@@ -29,6 +37,18 @@ export const videoWrap = css`
     margin-bottom: 50px;
   }
 `;
+
+export const video = css`
+position: relative;
+`
+
+export const element03 = css`
+position: absolute;
+top: -200px;
+width: auto !important;
+right: -20px;
+`
+
 
 export const playVideo = css`
   left: 0;
@@ -41,17 +61,19 @@ export const playVideo = css`
   z-index: 2;
 
   & a {
-    display: inline-block;
-    width: 115px;
-    height: 115px;
-    border-radius: 0;
+    display: flex;
+    width: 70px;
+    height: 70px;
     position: relative;
-    background: #e62b4a;
-    color: #fff;
+    background: transparent;
+    color: #1d1d1b;
+    border: 2px solid #1d1d1b;
     font-size: 30px;
-    line-height: 0.8;
-    padding: 42px 0;
-    margin-bottom: 31px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 
     @media (min-width: 320px) and (max-width: 767px) {
       width: 45px;
@@ -64,6 +86,7 @@ export const playVideo = css`
     &:hover {
       background: #000;
       color: #fff;
+      text-decoration: none;
     }
   }
 

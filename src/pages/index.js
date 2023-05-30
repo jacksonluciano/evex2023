@@ -11,13 +11,21 @@ import TrustedClient from "@/components/trusted-client";
 import PortfolioHome from "@/components/portfolio-home";
 import SubscribeForm from "@/components/subscribe-form";
 import ServiceTwo from "@/components/service-two";
-import AboutTwo from "@/components/about-two";
+import OEvex from "@/components/o-evex";
 import VideoTwo from "@/components/video-two";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import HeroVideo from "@/components/hero-video";
+import VirtualPresencial from "@/components/virtual-presencial";
+import EvexLisboa2023 from "@/components/evex-lisboa-2023";
+import TransicoesEnergeticas from "@/components/transicoes-energeticas";
+import Comite from "@/components/comite";
+import Faq from "@/components/faq"
+import Bigcta from "@/components/big-cta";
+import Patrocinadores from "@/components/patrocinadores";
+import Duvidas from "@/components/duvidas"
 
 const HomeOne = () => {
   return (
@@ -25,21 +33,29 @@ const HomeOne = () => {
       <SearchContextProvider>
         <Layout PageTitle="Home One">
           <HeaderOne />
-          {/* <SliderOne /> */}
-          {/* <ServiceTwo /> */}
           <HeroVideo />
-          <AboutTwo />
-          {/* <VideoTwo /> */}
+          <OEvex />
+          <VirtualPresencial />
+          <EvexLisboa2023 />
+          <VideoTwo />         
+          <FunfactOne />
+          <TransicoesEnergeticas />         
+          <ClientCarouselOne />
+          <TeamCarousel />
+          <Comite />
+          <Faq />
+          <Bigcta />
+          <Patrocinadores />
+          <Duvidas />
           {/* <SubscribeForm /> */}
           {/* <PortfolioHome /> */}
-          {/* <FunfactOne /> */}
+          {/* <SliderOne /> */}
+          {/* <ServiceTwo /> */}
           {/* <TrustedClient /> */}
-          {/* <TeamCarousel /> */}
-          {/* <ClientCarouselOne /> */}
           {/* <ParallaxOne /> */}
           {/* <BlogHome /> */}
           {/* <CallToActionOne extraClassName="ready" /> */}
-          {/* <Footer /> */}
+          <Footer />
         </Layout>
       </SearchContextProvider>
     </MenuContextProvider>

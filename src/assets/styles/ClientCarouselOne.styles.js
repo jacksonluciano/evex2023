@@ -1,22 +1,32 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
+import { colors } from './layout.styles'
 
 export const client = css`
-  background: #f4f4f4;
+  background-color: ${colors.primaryMain};
+  padding: 120px 0 160px;
+
+  h2{
+    color:${colors.secondaryMain};
+    font-size:56px;
+    font-family: 'bw_gradual_demomedium';
+    text-decoration: underline;
+    font-style: normal;
+    margin-bottom: 32px;
+  }
 `;
 
 export const singleClient = css`
   position: relative;
   width: 100%;
-  height: 208px;
-  margin-bottom: 30px;
-  background: #fff;
-  text-align: center;
+  height: auto;
   transition: all ease 500ms;
   -moz-transition: all ease 500ms;
   -webkit-transition: all ease 500ms;
+  padding: 24px;
 
-  &:after {
+
+  /* &:after {
     width: 4px;
     height: 0;
     position: absolute;
@@ -31,7 +41,7 @@ export const singleClient = css`
     transition: all ease 500ms;
     -moz-transition: all ease 500ms;
     -webkit-transition: all ease 500ms;
-  }
+  } */
 
   &:hover {
     -webkit-box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
@@ -51,23 +61,20 @@ export const singleClient = css`
   & a {
     width: 100%;
     height: 100%;
-    text-align: center;
     display: inline-block;
 
     img {
-      max-width: 119px;
       height: auto;
-      position: absolute;
+      /* position: absolute;
       left: 0;
       top: 0;
       right: 0;
-      bottom: 0;
-      margin: auto;
-      opacity: 0.4;
+      bottom: 0; */
       display: inline-block !important;
       transition: all ease 500ms;
       -moz-transition: all ease 500ms;
       -webkit-transition: all ease 500ms;
+      margin-bottom: 16px;
     }
   }
 `;
@@ -113,4 +120,71 @@ export const clientSlider = css`
   margin-top: 25px;
 }
 
+.swiper-slide{
+  background-color: ${colors.secondaryMain};
+  border-radius: 8px;
+  transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+  min-height: 456px;
+
+  :hover{
+      background-color: ${colors.brandingOrange};
+    }
+  
+    &:nth-of-type(2):hover{
+      background-color: ${colors.brandingPurple};
+    }
+
+    &:nth-of-type(3):hover{
+      background-color: ${colors.brandingBlue};
+    }
+
+    &:nth-of-type(4):hover{
+      background-color: ${colors.brandingSalmon};
+    }
+  
+  h3{
+    font-family: 'bw_gradual_demomedium';
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    height: 80px;
+    margin: 0;
+  }
+
+  p{
+    color:${colors.primaryMain};
+    font-size: 14px;
+    margin: 0;
+    line-height: 21px;
+  }
+}
 `
+
+export const moreBt = css`
+  display: flex;
+  justify-content: center;
+
+  button{
+    background-color:${colors.brandingSalmon};
+    color:${colors.primaryMain};
+    font-family: 'bw_gradual_demobold';
+    font-size: 16px;
+    letter-spacing: 0;
+    padding: 13px 50px;
+
+    :hover{
+      background-color:${colors.brandingSalmon};
+      box-shadow: none;
+    }
+  }
+`
+
+export const element = css`
+  position: absolute;
+  bottom: 0px;
+  right: 14%;
+`
+
+

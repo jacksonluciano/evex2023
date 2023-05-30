@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import { ClientCarouselData } from "@/data";
+import Element6 from "@/images/elements/element-06.svg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import { jsx } from '@emotion/react'
@@ -10,10 +11,12 @@ import { jsx } from '@emotion/react'
 import { 
   client,
   singleClient,
-  clientSlider
+  clientSlider,
+  moreBt,
+  element
  }  from '../assets/styles/ClientCarouselOne.styles'
 
- import { commonSection }  from '../assets/styles/layout.styles'
+ import { commonSection, commonBtn }  from '../assets/styles/layout.styles'
 
 import "swiper/swiper-bundle.min.css";
 
@@ -25,7 +28,7 @@ const ClientCarouselOne = () => {
 
   const carouselOptions = {
     spaceBetween: 0,
-    loop: true,
+    loop: false,
     slidesPerView: 1,
     pagination: {
       el: "#client-carousel-pagination",
@@ -39,17 +42,17 @@ const ClientCarouselOne = () => {
         slidesPerGroup: 2,
       },
       576: {
-        spaceBetween: 30,
+        spaceBetween: 8,
         slidesPerView: 2,
         slidesPerGroup: 2,
       },
       992: {
-        spaceBetween: 30,
+        spaceBetween: 8,
         slidesPerView: 3,
         slidesPerGroup: 3,
       },
       1200: {
-        spaceBetween: 30,
+        spaceBetween: 8,
         slidesPerView: 4,
         slidesPerGroup: 4,
       },
@@ -61,19 +64,21 @@ const ClientCarouselOne = () => {
       <Container>
         <Row>
           <Col lg={12} className="text-center">
-            <h4 className="sub_title">{subTitle}</h4>
+            {/* <h4 className="sub_title">{subTitle}</h4> */}
             <h2 className="sec_title">{title}</h2>
-            <p className="sec_desc">{text}</p>
+            {/* <p className="sec_desc">{text}</p> */}
           </Col>
         </Row>
         <Row>
           <Col lg={12}>
             <Swiper  css={clientSlider} {...carouselOptions}>
-              {items.map(({ url, image }, index) => (
+              {items.map(({ url, image, title, text }, index) => (
                 <SwiperSlide key={index}>
                   <div css={singleClient}>
                     <Link to={url}>
                       <img src={image} alt="" />
+                    <h3>{title}</h3>
+                    <p>{text}</p>
                     </Link>
                   </div>
                 </SwiperSlide>
@@ -83,9 +88,13 @@ const ClientCarouselOne = () => {
                 id="client-carousel-pagination"
               ></div>
             </Swiper>
+           <div css={moreBt}>
+              <button css={commonBtn}>Saiba mais</button>
+           </div>
           </Col>
         </Row>
       </Container>
+      <img css={element} src={Element6} />
     </section>
   );
 };

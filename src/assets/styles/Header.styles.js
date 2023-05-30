@@ -98,6 +98,7 @@ export const mainMenu = css`
         line-height: 120%;
         position: relative;
         letter-spacing: -1px;
+        font-family: 'bw_gradual_demomedium';
 
         &:hover {
           color: ${colors.brandingSalmon};

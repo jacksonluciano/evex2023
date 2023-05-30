@@ -3,12 +3,16 @@ import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import { FunfactData } from "@/data";
+import { FunfactData, LogoImage } from "@/data";
+import Element04 from "@/images/elements/element-04.svg"
 import { jsx } from "@emotion/react";
 
 import {
   funfact,
-  singleFunfact
+  singleFunfact,
+  numbers,
+  logoLight,
+  element04
 } from "../assets/styles/FunfactOne.styles";
 
 import {
@@ -27,24 +31,32 @@ const FunfactOne = () => {
   return (
     <section css={[funfact,commonSection]}>
       <Container>
-        <Row>
+        <div css={numbers}>
           {FunfactData.map(({ title, countNumber }, index) => (
-            <Col lg={3} md={6} sm={12} key={index}>
-              <div css={singleFunfact} className="text-center">
-                <h1>
+           
+              <div key={index} css={singleFunfact} className="text-center">
+                <h2>
+                  {index === 3 && '+'}
                   <VisibilitySensor
                     onChange={onVisibilityChange}
                     offset={{ top: 10 }}
                     delayedCall
                   >
-                    <CountUp end={counter.startCounter ? countNumber : 0} />
+                    
+                    <CountUp duration={5} end={counter.startCounter ? countNumber : 0} />
                   </VisibilitySensor>
-                </h1>
-                <h3>{title}</h3>
+                   <span>{title}</span>
+                </h2>
+                {/* <h3></h3> */}
               </div>
-            </Col>
           ))}
-        </Row>
+          
+        </div>
+       <div css={logoLight}>
+          <img src={LogoImage.luz} />
+       </div>
+
+       <img src={Element04} css={element04} />
       </Container>
     </section>
   );

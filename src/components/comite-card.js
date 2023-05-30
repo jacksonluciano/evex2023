@@ -5,15 +5,15 @@ import {
   singleTM,
   tmImg,
   speakerInfo
-} from "../assets/styles/TeamCarousel.styles";
+} from "../assets/styles/Comite.styles";
 
-const TeamCard = ({ data }) => {
-  const { image, name, designation, url, socials } = data;
+const ComiteCard = ({ data }) => {
+  const { image, name, description} = data;
   return (
     <div css={singleTM}>
       <div css={speakerInfo}>
-        <h4>Élbia Gannoum</h4>
-        <p>CEO, ABEEólica - Associação Brasileira de Energia Eólica 88</p>
+        <h4>{name}</h4>
+        <p>{description}</p>
       </div>
       <div css={tmImg}>
         <img src={image} alt={name} />
@@ -35,4 +35,4 @@ const TeamCard = ({ data }) => {
   );
 };
 
-export default TeamCard;
+export default ComiteCard;
