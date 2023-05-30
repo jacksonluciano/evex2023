@@ -2,6 +2,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Element7 from "@/images/elements/element-07.svg";
+import Arrow from '@/images/icons/arrow-down.svg'
 import { TeamOneData } from "@/data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TeamCard from "@/components/team-card";
@@ -70,7 +71,9 @@ const TeamCarousel = () => {
         </Row>
      
       <Swiper css={teamSlider} {...carouselOptions}>
-        <span id="main-slider-next">{`>`}</span>
+        <span id="main-slider-next">
+        <img src={Arrow} />
+        </span>
         {posts.map((post, index) => (
           <SwiperSlide key={index}>
             <TeamCard data={post} />

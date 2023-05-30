@@ -35,7 +35,7 @@ const Bigcta = () => {
             {BigCtaData.map(({ date, text, button }, index) => (
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} key={index} className={index == 1 ? 'purple' : ''}>
-                  <h3>{date}</h3>
+                  <h2>{date}</h2>
                   <p>{text}</p>
                   <button css={commonBtn}>{button}</button>
                 </div>

@@ -149,11 +149,14 @@ export const dateBlock = css`
     }
   }
 
-  h3{
+  h2{
     font-family: 'bw_gradual_demomedium';
     color: ${colors.primaryMain};
-    font-size: 40px;
+    font-size: 56px;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
   }
 
   P{
@@ -164,6 +167,10 @@ export const dateBlock = css`
     margin: 0;
     line-height: 21px;
     margin-bottom: 32px;
+  }
+
+  button{
+    letter-spacing: 0;
   }
 `
 export const asideBlock = css`

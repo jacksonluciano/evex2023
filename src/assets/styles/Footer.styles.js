@@ -21,6 +21,8 @@ export const widget = css`
     position: relative;
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     font-style: normal;
   }
 

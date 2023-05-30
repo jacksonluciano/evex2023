@@ -4,14 +4,15 @@ import { colors } from './layout.styles'
 
 export const client = css`
   background-color: ${colors.primaryMain};
-  padding: 120px 0 160px;
+  padding: 40px 0 160px !important;
 
   h2{
     color:${colors.secondaryMain};
     font-size:56px;
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
-    font-style: normal;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     margin-bottom: 32px;
   }
 `;
@@ -173,6 +174,7 @@ export const moreBt = css`
     font-size: 16px;
     letter-spacing: 0;
     padding: 13px 50px;
+    z-index: 2;
 
     :hover{
       background-color:${colors.brandingSalmon};
@@ -183,8 +185,9 @@ export const moreBt = css`
 
 export const element = css`
   position: absolute;
-  bottom: 0px;
-  right: 14%;
+  bottom: -190px;
+  right: 15px;
+  z-index: 0;
 `
 
 

@@ -9,9 +9,12 @@ export const team = css`
   h2{
     font-size: 56px;
     margin-left: 40px;
+    margin-bottom: 24px;
     font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     z-index: 2;
     position: relative;
   }
@@ -321,7 +324,7 @@ export const moreBt = css`
 export const element = css`
   position: absolute;
   top: -100px;
-  right: -80px;
+  right: -70px;
 `
 
 export const element9 = css`

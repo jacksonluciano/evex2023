@@ -43,6 +43,8 @@ export const about = css`
     color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     &:after{
       content: '';
       width: 186px;
@@ -55,7 +57,7 @@ export const about = css`
 
   p{
     font-size: 14px;
-    line-height: 28px;
+    line-height: 21px;
     font-weight: 400;
   }
 

@@ -48,6 +48,10 @@ export const element04 = css`
       right: -100px;
       top: -110px;
       z-index: -1; 
+
+      @media (min-width: 768px) and (max-width: 1440px) {
+        right: -70px;
+  }
 `
 
 export const singleFunfact = css`

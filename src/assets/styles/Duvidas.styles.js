@@ -113,6 +113,8 @@ export const contact = css`
     h2{
         font-size: 56px;
         text-decoration: underline;
+        text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
         font-family: 'bw_gradual_demomedium';
         margin-bottom: 16px;
     }

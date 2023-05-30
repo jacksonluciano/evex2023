@@ -47,6 +47,8 @@ export const about = css`
     text-align: center;
     text-decoration: underline;
     margin-bottom: 16px;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
   }
 
   p{
@@ -136,7 +138,7 @@ export const dateBlock = css`
   transition: all .2s;
 
   :hover{
-    background-color: ${colors.brandingSalmon};
+    background-color: ${colors.brandingOrange};
     h3, p{
       color: ${colors.primaryMain};
     }
@@ -167,5 +169,6 @@ export const asideBlock = css`
     top: 15px;
     left: 30px;
     height: 100%;
+    z-index: 1;
 `
 

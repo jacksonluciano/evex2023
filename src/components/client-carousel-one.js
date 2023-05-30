@@ -92,9 +92,10 @@ const ClientCarouselOne = () => {
               <button css={commonBtn}>Saiba mais</button>
            </div>
           </Col>
+          <img css={element} src={Element6} />
         </Row>
       </Container>
-      <img css={element} src={Element6} />
+     
     </section>
   );
 };

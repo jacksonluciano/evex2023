@@ -36,6 +36,7 @@ padding-top: 70px !important;
   }
   .accordion__item {
     /* border-top: 1px solid #dbdbdb; */
+    padding-top: 14px;
   }
   .accordion__item:last-child {
     /* border-bottom: 1px solid #dbdbdb; */

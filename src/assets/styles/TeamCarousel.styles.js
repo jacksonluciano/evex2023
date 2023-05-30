@@ -13,7 +13,10 @@ export const team = css`
     font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     margin-left: 40px;
+    margin-bottom:24px
   }
 `;
 
@@ -36,7 +39,14 @@ export const teamSlider = css`
       justify-content: center;
       align-items: center;
       cursor: pointer;
+
+      img{
+        transform: rotate(270deg);
+      }
+
     }
+
+   
 
   & .slick-slide {
     margin: 0 15px;
@@ -304,6 +314,7 @@ export const moreBt = css`
     font-size: 16px;
     letter-spacing: 0;
     padding: 13px 50px;
+    z-index: 2;
 
     :hover{
       background-color:${colors.brandingSalmon};

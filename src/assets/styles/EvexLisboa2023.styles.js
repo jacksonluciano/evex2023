@@ -11,7 +11,7 @@ export const abAgency = css`
 `
 
 export const pr79 = css`
-  padding-right: 79px;
+  /* padding-right: 79px; */
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding-right: 15px;
@@ -42,6 +42,8 @@ export const about = css`
   h2{
     color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     &:after{
       content: '';
       height: 3px;
@@ -70,6 +72,10 @@ export const element02 = css`
     width: auto !important;
     top: -70px;
     left: -15px;
+
+    @media (min-width: 768px) and (max-width: 1400px) {
+      top: -35px;
+  }
 `
 
 export const imgFull = css`

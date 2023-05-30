@@ -216,6 +216,9 @@ export const element11 = css`
     top: 80px;
     left: 140px;
     z-index: 0;
+    @media (min-width: 768px) and (max-width: 1440px) {
+      left: 70px;
+    }
 `
 
 export const element12 = css`
@@ -224,6 +227,9 @@ export const element12 = css`
     top: 0px;
     right: 226px;
     z-index: 0;
+    @media (min-width: 768px) and (max-width: 1440px) {
+      right: 190px;
+    }
 `
 
 export const element13 = css`
