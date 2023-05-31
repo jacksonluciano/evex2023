@@ -4,13 +4,13 @@ import { colors } from './layout.styles'
 
 export const footer1 = css`
   position: relative;
-  padding: 130px 0 0;
+  padding: 80px 0 !important;
   background-color: ${colors.primaryMain};
 `;
 
 export const widget = css`
   position: relative;
-  padding: 0 0 112px;
+  padding: 0px;
 
   h2 {
     font-size: 40px;

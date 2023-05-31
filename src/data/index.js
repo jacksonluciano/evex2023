@@ -64,6 +64,10 @@ import ExperienciaIcon03 from "@/images/icons/icon-academy.svg"
 import ExperienciaIcon04 from "@/images/icons/icon-expo.svg"
 // import ClientCarousel05 from "@/images/client/5.png"
 
+import Lisboa from "@/images/lisboa.jpg"
+import Capital from "@/images/capital.jpg"
+import Alfama from "@/images/alfama.jpg"
+
 import instagramIcon from "@/images/icons/instagram.svg"
 import linkedinIcon from "@/images/icons/linkedin.svg"
 import twitterIcon from "@/images/icons/twitter.svg"
@@ -1019,6 +1023,22 @@ export const VirtualPresencialData = {
     url: "#",
   },
   image: virtualPresencial,
+  element: element01
+};
+
+export const LisboaData = {
+  sectionContent: {
+    title: "O EVEx",
+    text:
+      "No ano passado, a terceira edição do EVEx inaugurou um formato composto por dois eventos, sendo um online e outro físico. Assim, sem abandonar as origens virtuais, o EVEx chegou em Portugal para o seu primeiro encontro presencial, realizado na Reitoria da Universidade NOVA de Lisboa. Sucesso de público e de crítica, o EVEx Lisboa 2022 contou com a participação dos principais agentes dos mercados ibérico e latino-americano de energia, incluindo importantes autoridades públicas.",
+  },
+  button: {
+    label: "Lorem ipsum",
+    url: "#",
+  },
+  image: Lisboa,
+  image2:Capital,
+  image3: Alfama,
   element: element01
 };
 

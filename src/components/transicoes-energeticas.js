@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import React from "react";
 import { TransicoesEnergeticasData, blocksTeData } from "@/data";
-import Element05 from "@/images/elements/element-05.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -10,7 +9,7 @@ import {
   pr79,
   mb45,
   about,
-  element05,
+  element02,
   dateBlock,
   blocks,
   asideBlock
@@ -54,7 +53,6 @@ const TransicoesEnergeticas = () => {
           </Row>
         </div>
       </Container>
-      <img css={element05} src={Element05} />
     </section>
   );
 };

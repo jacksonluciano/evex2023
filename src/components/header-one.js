@@ -47,7 +47,7 @@ const HeaderOne = () => {
   return (
     <header
       css={header}
-      className={`${true === sticky ? "fixedHeader animated flipInX" : null}`}
+      className={`${true === sticky ? "fixedHeader animated slideInDown" : null}`}
       id="header"
     >
       <Container>

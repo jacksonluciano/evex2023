@@ -4,7 +4,6 @@ import { colors } from './layout.styles'
 
 export const abAgency = css`
   background-color: transparent;
-  position: relative;
 
   img{
     width: 100%;
@@ -12,7 +11,7 @@ export const abAgency = css`
 `
 
 export const pr79 = css`
-  padding-right: 79px;
+  /* padding-right: 79px; */
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding-right: 15px;
@@ -32,7 +31,7 @@ export const mb45 = css`
 
 export const about = css`
   position: relative;
-  padding: 0px;
+  padding: 60px 0 120px !important;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -43,6 +42,8 @@ export const about = css`
   h2{
     color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
     &:after{
       content: '';
       height: 3px;
@@ -52,118 +53,44 @@ export const about = css`
     }
   }
 
+  h3{
+    font-size: 40px;
+    color: ${colors.brandingOrange};
+    font-family: 'bw_gradual_demomedium';
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+
+    &:nth-of-type(2){
+      margin-bottom: 32px;
+    }
+  }
+
   p{
+    color: ${colors.primaryLight};
     width: 100%;
-    max-width: 920px;
+    max-width: 800px;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 32px;
   }
   button{
     font-family: 'bw_gradual_demobold';
     font-size: 16px;
   }
-  h4{
-    text-decoration: underline;
-    margin-bottom: 16px;
-    text-align: center;
-  }
-
 `
-export const realization = css`
-     width: 100%;
-    max-width: 980px;
-    margin: 0 auto 80px;
-
-    div div{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    h4{
-        margin-bottom: 16px;
-        text-decoration: underline;
-    }
-
-    img{
-        width: 100%;
-        max-width: 256px;
-    }
-
-`
-
-export const contact = css`
-    width: 100%;
-    max-width: 980px;
-    margin: 0 auto;
-    padding-bottom: 60px;
-
-    .inner-div{
-        width: 100%;
-        max-width: 410px;
-
-        &.rl{
-            float: right;
-        }
-    }
-
-    h2{
-        font-size: 56px;
-        text-decoration: underline;
-        text-decoration-thickness: 3px;
-        text-underline-offset: 6px;
-        font-family: 'bw_gradual_demomedium';
-        margin-bottom: 16px;
-    }
-
-    p{
-        font-size: 14px;
-        margin-bottom: 32px;
-        color: ${colors.primaryMain};
-    }
-
-    button{
-        margin-bottom: 16px;
-    }
-`
-
-export const contactFrom = css`
-  position: relative;
-
-  input{
-    width: 100%;
-    border: 1px solid ${colors.primaryMain};
-    height: 37px;
-    padding: 10px;
-    margin-bottom: 8px;
-  }
-
-  textarea {
-    border: 1px solid ${colors.primaryMain};
-    height: 90px;
-    resize: none;
-    line-height: 30px;
-    padding: 21px 10px;
-    margin-bottom: 21px;
-  }
-
-  p{
-    color: ${colors.primaryMain};
-  }
-
-  button{
-    padding: 16px 42.5px;
-  }
-`;
 
 export const element02 = css`
     position: absolute;
     width: auto !important;
     top: -70px;
     left: -15px;
+
+    @media (min-width: 768px) and (max-width: 1400px) {
+      top: -35px;
+  }
 `
 
 export const imgFull = css`
@@ -208,28 +135,4 @@ export const abImg = css`
     float: right;
     right: -5px;
   }
-`
-export const element14 = css`
-    position: absolute;
-    width: auto !important;
-    top: 0px;
-    left: 0;
-    z-index: 0;
-`
-
-export const element15 = css`
-    position: absolute;
-    width: auto !important;
-    bottom: 0px;
-    right: 0;
-    z-index: 0;
-`
-
-export const element8 = css`
-    position: absolute;
-    width: auto !important;
-    transform: translateX(-50%);
-    top: 0;
-    left: 50%;
-    z-index: -1;
 `
