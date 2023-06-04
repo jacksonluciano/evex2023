@@ -3,21 +3,17 @@ import { css } from '@emotion/react'
 import { colors } from './layout.styles'
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
-  padding: 180px 0 0px !important;
+  background-color: ${colors.secondaryMain};
+  padding-top: 140px;
   position: relative;
-  overflow: hidden;
   img{
     width: 100%;
-  }
-
-  p{
-    margin-bottom: 48px;
   }
 `
 
 export const pr79 = css`
   padding-right: 79px;
+  z-index: 2;
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding-right: 15px;
@@ -46,11 +42,13 @@ export const about = css`
   align-items: center;
 
   h2{
-    color: ${colors.secondaryMain};
+    color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
     text-align: center;
     text-decoration: underline;
     margin-bottom: 16px;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
   }
 
   p{
@@ -65,32 +63,14 @@ export const about = css`
   button{
     font-family: 'bw_gradual_demobold';
     font-size: 16px;
-    letter-spacing: -1px;
   }
 `
 
 export const element05 = css`
-   position: absolute;
+    position: absolute;
     width: auto!important;
-    top: 200px;
-    left: 185px;
-`
-
-export const element08 = css`
-   position: absolute;
-    width: 100%;
-    max-width: 467px;
-    top: 360px;
-    right: 165px;
-    z-index: 0;
-`
-
-export const element04 = css`
-   position: absolute;
-    width: 100%;
-    max-width: 467px;
-    top: -120px;
-    right: -178px;
+    top: -130px;
+    left: 10%;
     z-index: 0;
 `
 
@@ -140,17 +120,15 @@ export const abImg = css`
 
 export const blocks = css`
   width: 100%;
-  max-width: 996px;
+  max-width: 970px;
   margin: 0 auto;
-  padding-bottom: 120px;
-  position: relative;
-
+  padding-bottom: 80px;
 `
 
 export const dateBlock = css`
   background-color: ${colors.secondaryMain};
-  height: 100%;
-  padding: 80px 18px;
+  border: 2px solid ${colors.primaryMain};
+  padding: 50px 37px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,112 +136,45 @@ export const dateBlock = css`
   position: relative;
   z-index: 2;
   transition: all .2s;
+  margin-bottom: 40px;
+  cursor: pointer;
 
-  &.orange{
-    background-color: ${colors.brandingOrange};
-  }
-
-  &.salmon{
-    background-color: ${colors.brandingSalmon};
-  }
-
-  &.purple{
-        background-color: ${colors.brandingPurple};
-  }
-
-  &.blue{
-    background-color:${colors.brandingBlue}
-  }
-
-  h2{
-    font-family: 'bw_gradual_demobold';
-    color: ${colors.primaryMain};
-    font-size: 40px;
-    text-align: center;
+  :hover{
+    background-color: ${colors.primaryMain};
+    border: 2px solid ${colors.secondaryMain};
+    h3, p{
+      color: ${colors.secondaryMain};
+    }
   }
 
   h3{
-    font-size: 24px;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
-    margin-bottom: 24px;
     font-family: 'bw_gradual_demomedium';
-    font-weight: 500;
+    color: ${colors.primaryMain};
+    font-size: 40px;
     text-align: center;
-  }
-
-  h4{
-    font-family: 'bw_gradual_demomedium';
-    font-weight: 500;
+    margin-bottom: 0;
   }
 
   P{
     color: ${colors.primaryMain};
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
-    padding: 0;
+    font-family: 'bw_gradual_demomedium';
+    padding: 0px 10px 4px;
     margin: 0;
-    line-height: 21px;
-    margin-bottom: 8px;
-
-    &.text{
-      margin: 16px 0 40px;
-    }
-  }
-
-  button{
-    letter-spacing: 0;
-
-    width: 250px;
-
-    &:nth-of-type(2){
-      background-color: transparent;
-      box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
-      color: ${colors.primaryMain};
-      margin-top: 16px;
-
-      :hover{
-        background-color: ${colors.secondaryMain};
-        color: ${colors.primaryMain};
-      }
-    }
+    line-height: 28px;
   }
 `
 export const asideBlock = css`
+background-color: ${colors.primaryMain};
     position: absolute;
     width: 100%;
     max-width: 470px;
     display: block;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     top: 15px;
-    left: 42px;
-    height: 100%;
+    left: 30px;
+    height: 222px;
     z-index: 1;
 `
 
-export const sectionTitle = css`
-    text-align: center;
-
-    h2{
-    font-size: 56px;
-    font-family: 'bw_gradual_demomedium';
-    color: ${colors.secondaryMain};
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
-    margin-left: 40px;
-    margin-bottom:24px
-  }
-
-    p{
-        
-        font-weight: 400;
-        width: 100%;
-        max-width: 755px;
-        margin: 16px auto 32px;
-        color: ${colors.secondaryMain};
-        font-size: 14px;
-        line-height: 21px;
-    }
-`

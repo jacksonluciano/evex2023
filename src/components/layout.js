@@ -146,7 +146,7 @@ const Layout = ({ PageTitle, children }) => {
       {true === searchStatus ? <SearchPopup /> : null}
       {true === menuStatus ? <PopupMenu /> : null}
 
-      {scrollTop === true ? (
+      {/* {scrollTop === true ? (
         <ScrollLink
           css={showIt}
           to="wrapper"
@@ -157,7 +157,7 @@ const Layout = ({ PageTitle, children }) => {
         >
           <i className="fa fa-angle-double-up"></i>
         </ScrollLink>
-      ) : null}
+      ) : null} */}
     </Fragment>
   );
 };

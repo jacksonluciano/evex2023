@@ -77,7 +77,7 @@ export const commonBtn = css`
   border: none;
   font-size: 16px;
   font-weight: 500;
-  background: #000000;
+  background: ${colors.primaryMain};
   color: #fff;
   text-align: center;
   padding: 18px 45.5px;

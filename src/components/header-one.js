@@ -158,7 +158,7 @@ const HeaderOne = () => {
               <a
                 id="open-overlay-nav"
                 className="menu hamburger"
-                onClick={handleMenuClick}
+                // onClick={handleMenuClick}
                 href="#"
               >
                 <i className="mei-menu"></i>

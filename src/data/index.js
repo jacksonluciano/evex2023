@@ -56,6 +56,7 @@ import featureTwo01 from "@/images/home_1/5.jpg"
 import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images/elements/element-01.svg"
 import element02 from "@/images/elements/element-02.svg"
+import element05 from "@/images/elements/element-05.svg"
 import virtualPresencial from "@/images/virtual-presencial.jpg"
 
 import ExperienciaIcon01 from "@/images/icons/icon-talks.svg"
@@ -88,42 +89,42 @@ export const SocialIcons = {
 };
 
 export const NavLinks = [
-  {
-    name: "O EVEx",
-    url: "/",
-  },
+  // {
+  //   name: "O EVEx",
+  //   url: "/",
+  // },
   {
     name: "Lisboa",
-    url: "/about",
+    url: "/lisboa",
   },
-  {
-    name: "Experiências",
-    url: "/service",
-  },
+  // {
+  //   name: "Experiências",
+  //   url: "/service",
+  // },
   {
     name: "Speakers",
-    url: "/portfolio",
+    url: "/speakers",
   },
-  {
-    name: "Comitê",
-    url: "/blog",
-  },
-  {
-    name: "Papers",
-    url: "/contact",
-  },
-  {
-    name: "Agenda",
-    url: "/contact",
-  },
+  // {
+  //   name: "Comitê",
+  //   url: "/blog",
+  // },
+  // {
+  //   name: "Papers",
+  //   url: "/contact",
+  // },
+  // {
+  //   name: "Agenda",
+  //   url: "/agenda",
+  // },
   {
     name: "Inscrições",
-    url: "/contact",
+    url: "/inscricoes",
   },
-  {
-    name: "Contato",
-    url: "/contact",
-  },
+  // {
+  //   name: "Contato",
+  //   url: "/contact",
+  // },
 ];
 
 
@@ -1083,7 +1084,7 @@ export const TransicoesEnergeticasData = {
     label: "Lorem ipsum",
     url: "#",
   },
-  element: element02
+  element: element05
 };
 
 
@@ -1099,6 +1100,25 @@ export const blocksTeData = [
   },
 ];
 
+export const AgendaData = [
+  {
+    date: '18/09/22',
+    day: `Segunda-feira`,
+  },
+  {
+    date: '18/09/22',
+    day: `Segunda-feira`,
+  },
+  {
+    date: '18/09/22',
+    day: `Segunda-feira`,
+  },
+  {
+    date: '18/09/22',
+    day: `Segunda-feira`,
+  },
+];
+
 export const BigCtaData = [
   {
     date: 'Agenda',
@@ -1108,6 +1128,34 @@ export const BigCtaData = [
   },
   {
     date: 'Inscrições',
+      text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
+      button: 'Inscreva-se já!'
+  },
+];
+
+export const onlineData = [
+  {
+    title: 'EVEx Pass',
+    text: 
+        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, a agenda dos eventos do EVEx Lisboa 2023 será divulgada em breve.`,
+        button: 'Agenda Preliminar'
+  },
+  {
+    title: 'Inscrições',
+      text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
+      button: 'Inscreva-se já!'
+  },
+];
+
+export const presencialData = [
+  {
+    title: 'Agenda',
+    text: 
+        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, a agenda dos eventos do EVEx Lisboa 2023 será divulgada em breve.`,
+        button: 'Agenda Preliminar'
+  },
+  {
+    title: 'Inscrições',
       text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
       button: 'Inscreva-se já!'
   },

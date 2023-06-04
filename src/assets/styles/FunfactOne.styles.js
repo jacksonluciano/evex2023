@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from './layout.styles'
 
 export const funfact = css`
-  padding: 0 !important;
+  padding: 0 0 100px !important;
   background-color: ${colors.primaryMain};
 `;
 

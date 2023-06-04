@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { TransicoesEnergeticasData, blocksTeData } from "@/data";
+import { TransicoesEnergeticasData, AgendaData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -13,7 +13,7 @@ import {
   dateBlock,
   blocks,
   asideBlock
-} from "../assets/styles/TransicoesEnergeticas.style";
+} from "../assets/styles/Agenda.styles";
 import {
   secTitle,
   subtitle,
@@ -24,7 +24,7 @@ import {
   noPaddingRight,
 } from "../assets/styles/layout.styles";
 
-const TransicoesEnergeticas = () => {
+const Agenda = () => {
   const { sectionContent, element } = TransicoesEnergeticasData;
   return (
     <section css={[abAgency]}>
@@ -32,7 +32,7 @@ const TransicoesEnergeticas = () => {
         <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
-              <h2 css={[secTitle, mb45]}>{sectionContent.title}</h2>
+              <h2 css={[secTitle, mb45]}>Agenda</h2>
               <p css={secDesk}>{sectionContent.text}</p>
             </div>
           </Col>
@@ -40,11 +40,12 @@ const TransicoesEnergeticas = () => {
 
         <div css={blocks}>
           <Row>
-            {blocksTeData.map(({ date, text }, index) => (
+            {AgendaData.map(({ date, day }, index) => (
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} key={index}>
                   <h3>{date}</h3>
-                  <p>{text}</p>
+                  <p>{day}</p>
+                  <p>Horário de Brasília</p>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -57,4 +58,4 @@ const TransicoesEnergeticas = () => {
   );
 };
 
-export default TransicoesEnergeticas;
+export default Agenda;
