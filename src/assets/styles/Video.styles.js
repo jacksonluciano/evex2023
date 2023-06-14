@@ -35,6 +35,7 @@ export const videoWrap = css`
   }
   @media (min-width: 320px) and (max-width: 767px) {
     margin-bottom: 50px;
+    height: 218px;
   }
 `;
 
@@ -47,6 +48,9 @@ position: absolute;
 top: -200px;
 width: auto !important;
 right: -20px;
+@media (min-width: 320px) and (max-width: 767px) {
+display: none;
+    }
 `
 
 

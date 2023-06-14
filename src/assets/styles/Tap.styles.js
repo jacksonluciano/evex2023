@@ -42,15 +42,15 @@ export const about = css`
   h2{
     color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
+    text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
-    &:after{
-      content: '';
-      height: 3px;
-      background-color: ${colors.primaryMain};
-      display: block;
-      margin-top: -3px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 56px;
+      line-height:64px
     }
+
   }
 
   h3{
@@ -63,6 +63,11 @@ export const about = css`
 
     &:nth-of-type(2){
       margin-bottom: 32px;
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 24px;
+      margin-bottom: 16px;
     }
   }
 

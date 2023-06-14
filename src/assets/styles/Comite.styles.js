@@ -5,6 +5,12 @@ import { colors } from './layout.styles'
 export const team = css`
   padding-bottom: 20px !important;
   background-color: ${colors.primaryMain};
+  overflow-x: clip;
+  padding-top: 80px !important;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding-top: 0px !important;
+    }
 
   h2{
     font-size: 56px;
@@ -17,6 +23,10 @@ export const team = css`
     text-underline-offset: 6px;
     z-index: 2;
     position: relative;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0px;
+    }
   }
 `;
 
@@ -25,6 +35,10 @@ export const teamSlider = css`
   margin-left: 40px;
   position: relative;
   margin-bottom:32px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0px;
+    }
 
   #main-slider-next{
       width: 48px;
@@ -42,6 +56,33 @@ export const teamSlider = css`
 
       img{
         transform: rotate(270deg);
+      }
+
+      :hover{
+        background-color:${colors.brandingSalmon};
+      }
+    }
+
+    #main-slider-prev{
+      width: 48px;
+      height: 48px;
+      background-color:${colors.secondaryMain};
+      border: 1px solid #000;
+      position: absolute;
+      left: 17px;
+      top: 158px;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &.swiper-button-disabled{
+        display: none;
+      }
+
+      img{
+        transform: rotate(90deg);
       }
 
       :hover{
@@ -325,10 +366,20 @@ export const element = css`
   position: absolute;
   top: -100px;
   right: -70px;
+  @media (min-width: 320px) and (max-width: 767px) {
+     
+      left: -64px;
+      top: 0px
+     
+    }
 `
 
 export const element9 = css`
   position: absolute;
   bottom: -70px;
   right: 100px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+     
+    }
 `

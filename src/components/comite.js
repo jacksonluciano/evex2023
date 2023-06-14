@@ -63,7 +63,7 @@ const Comite = () => {
   };
 
   return (
-    <section css={[team,commonSection]}>
+    <section id="comite" css={[team,commonSection]}>
       <Container>
         <Row>
           <Col lg={12}>
@@ -72,6 +72,9 @@ const Comite = () => {
         </Row>
       
       <Swiper css={teamSlider} {...carouselOptions}>
+      <span id="main-slider-prev">
+          <img src={Arrow} />
+        </span>
         <span id="main-slider-next">
           <img src={Arrow} />
         </span>

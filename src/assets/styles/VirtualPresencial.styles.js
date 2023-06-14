@@ -8,14 +8,18 @@ export const abAgency = css`
   img{
     width: 100%;
   }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .container-fluid .row{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
 `
 
 export const pr79 = css`
-  padding-right: 79px;
-
   @media (min-width: 320px) and (max-width: 767px) {
-    padding-right: 15px;
-    text-align: center;
+    padding: 32px 0px;
+    justify-content: flex-start;
   }
   @media (min-width: 768px) and (max-width: 990px) {
     padding-right: 15px;
@@ -45,26 +49,35 @@ export const about = css`
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
-    &:after{
-      content: '';
-      width: 186px;
-      height: 3px;
-      background-color: #f5f5f5;
-      display: block;
-      margin-top: -3px;
+    letter-spacing: 0;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+     font-size: 54px;
     }
   }
 
   p{
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
     font-weight: 400;
   }
 
-  button{
+  a{
     font-family: 'bw_gradual_demomedium';
     :hover{
       font-weight: 600;
+    }
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin: 0 auto;
+      z-index: 2;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 32px 12px;
+
+    h2{
+      line-height: 68px;
     }
   }
 `

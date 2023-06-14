@@ -3,6 +3,7 @@ import React from "react";
 import { EvexLisboaData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
+import { Link } from "gatsby";
 
 import { 
   abAgency,
@@ -31,7 +32,7 @@ const EvexLisboa2023 = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>EVEx Lisboa 2023</h2>
               <p css={secDesk}>{sectionContent.text}</p>
-              <button css={commonBtn}>Porque Lisboa?</button>
+              <Link to="/lisboa" css={commonBtn}>Porque Lisboa?</Link>
               <img css={element02} src={element} />
            </div>
           </Col>

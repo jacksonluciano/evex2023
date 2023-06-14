@@ -143,7 +143,7 @@ export const pergunta = css`
       /* background-color: transparent; */
     }
     @media (min-width: 320px) and (max-width: 767px) {
-      padding: 20px 50px 20px 18px;
+      padding: 20px 0px 10px 0px;
       font-size: 16px;
     }
   }
@@ -155,8 +155,8 @@ export const resposta = css`
   background-color: ${colors.brandingOrange};
   
   p {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
     color: ${colors.primaryMain};
     margin: 0;
     span{
@@ -167,7 +167,7 @@ export const resposta = css`
     }
   }
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 0px 50px 20px 18px;
+    padding: 0px 30px 20px 12px;
     p {
       font-size: 14px;
     }

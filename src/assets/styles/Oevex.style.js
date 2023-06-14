@@ -8,14 +8,21 @@ export const abAgency = css`
   img{
     width: 100%;
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .container-fluid .row{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
 `
 
 export const pr79 = css`
-  padding-right: 79px;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding-right: 15px;
-    text-align: center;
+    padding: 32px 16px;
+    justify-content: flex-start;
   }
   @media (min-width: 768px) and (max-width: 990px) {
     padding-right: 15px;
@@ -41,20 +48,29 @@ export const about = css`
   h2{
     color: ${colors.secondaryMain};
     font-family: 'bw_gradual_demomedium';
-    &:after{
-      content: '';
-      width: 186px;
-      height: 3px;
-      background-color: #f5f5f5;
-      display: block;
-      margin-top: -3px;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+     font-size: 56px;
     }
   }
 
   p{
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 23px;
     font-weight: 400;
+    color: ${colors.secondaryMain};
+    @media (min-width: 320px) and (max-width: 767px) {
+        margin-bottom: 0;
+        line-height: 21px;
+      }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 12px;
+    justify-content: flex-start;
   }
 `
 
@@ -63,6 +79,12 @@ export const element01 = css`
     width: auto !important;
     top: 0;
     right: -15px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 121px !important;
+      top: -28px;
+      right: -15px;
+  }
 `
 
 export const abImg = css`

@@ -27,7 +27,7 @@ import {
 const Faq = () => {
 
   return (
-    <section css={[commonSection, faqSection]}>
+    <section id="papers" css={[commonSection, faqSection]}>
 
       <div className="container">
         <div className="row">
@@ -38,7 +38,7 @@ const Faq = () => {
                   <AccordionItemHeading css={pergunta}>
                     <AccordionItemButton>
                      <h3>
-                     Call for Papers/Projects
+                     Call for Papers/ Projects
                       <span>
                         <img src={Arrow} />
                       </span>

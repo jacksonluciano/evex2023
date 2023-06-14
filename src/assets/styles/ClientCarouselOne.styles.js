@@ -76,11 +76,14 @@ export const singleClient = css`
       -moz-transition: all ease 500ms;
       -webkit-transition: all ease 500ms;
       margin-bottom: 16px;
+      width: 100%;
     }
   }
 `;
 
 export const clientSlider = css`
+
+margin-bottom: 24px;
 
 .owl-controls .owl-nav {
   display: none;
@@ -156,9 +159,9 @@ export const clientSlider = css`
 
   p{
     color:${colors.primaryMain};
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
-    line-height: 21px;
+    line-height: 23px;
   }
 }
 `
@@ -188,6 +191,10 @@ export const element = css`
   bottom: -190px;
   right: 15px;
   z-index: 0;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    bottom: -120px
+  }
 `
 
 

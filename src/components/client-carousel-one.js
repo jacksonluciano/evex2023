@@ -37,9 +37,9 @@ const ClientCarouselOne = () => {
     },
     breakpoints: {
       0: {
-        spaceBetween: 0,
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        spaceBetween: 8,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
       },
       576: {
         spaceBetween: 8,
@@ -83,10 +83,6 @@ const ClientCarouselOne = () => {
                   </div>
                 </SwiperSlide>
               ))}
-              <div
-                className="swiper-pagination"
-                id="client-carousel-pagination"
-              ></div>
             </Swiper>
            <div css={moreBt}>
               <button css={commonBtn}>Saiba mais</button>

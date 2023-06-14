@@ -55,6 +55,7 @@ const GlobalStyles = () => {
         html {
           margin: 0;
           padding: 0;
+          scroll-behavior: smooth;
         }
         body {
           background-color: ${colors.secondaryMain} !important;
@@ -67,6 +68,10 @@ const GlobalStyles = () => {
           -webkit-transition: all ease 400ms;
           -moz-transition: all ease 400ms; */
         }
+        /* p{
+          font-size: 16px !important;
+          line-height: 23px;
+        } */
 
         /*------------------------------------------------------------------------------
         / 2. Typography Settings

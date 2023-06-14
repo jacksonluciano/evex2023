@@ -1,20 +1,20 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
-import { colors } from './layout.styles'
+import { css } from "@emotion/react";
+import { colors } from "./layout.styles";
 
 export const abAgency = css`
   background-color: ${colors.primaryMain};
   padding: 180px 0 0px !important;
   position: relative;
   overflow: hidden;
-  img{
+  img {
     width: 100%;
   }
 
-  p{
+  p {
     margin-bottom: 48px;
   }
-`
+`;
 
 export const pr79 = css`
   padding-right: 79px;
@@ -26,14 +26,14 @@ export const pr79 = css`
   @media (min-width: 768px) and (max-width: 990px) {
     padding-right: 15px;
   }
-`
+`;
 
 export const mb45 = css`
   margin-bottom: 40px;
   @media (min-width: 768px) and (max-width: 990px) {
     margin-bottom: 30px;
   }
-`
+`;
 
 export const about = css`
   position: relative;
@@ -45,15 +45,15 @@ export const about = css`
   color: ${colors.secondaryMain};
   align-items: center;
 
-  h2{
+  h2 {
     color: ${colors.secondaryMain};
-    font-family: 'bw_gradual_demomedium';
+    font-family: "bw_gradual_demomedium";
     text-align: center;
     text-decoration: underline;
     margin-bottom: 16px;
   }
 
-  p{
+  p {
     width: 100%;
     max-width: 920px;
     font-size: 14px;
@@ -62,41 +62,48 @@ export const about = css`
     text-align: center;
     color: ${colors.secondaryMain};
   }
-  button{
-    font-family: 'bw_gradual_demobold';
+  button {
+    font-family: "bw_gradual_demobold";
     font-size: 16px;
     letter-spacing: -1px;
   }
-`
+`;
 
 export const element05 = css`
-   position: absolute;
-    width: auto!important;
-    top: 200px;
-    left: 185px;
-`
+  position: absolute;
+  width: auto !important;
+  top: 200px;
+  left: 185px;
+  display: none;
+`;
 
 export const element08 = css`
-   position: absolute;
-    width: 100%;
-    max-width: 467px;
-    top: 360px;
-    right: 165px;
-    z-index: 0;
-`
+  position: absolute;
+  width: 100%;
+  max-width: 467px;
+  top: 360px;
+  right: 165px;
+  z-index: 0;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    left: 50%;
+    transform: translateX(-44%);
+    top: 470px;
+  }
+`;
 
 export const element04 = css`
-   position: absolute;
-    width: 100%;
-    max-width: 467px;
-    top: -120px;
-    right: -178px;
-    z-index: 0;
-`
+  position: absolute;
+  width: 100%;
+  max-width: 467px;
+  top: -120px;
+  right: -178px;
+  z-index: 0;
+`;
 
 export const imgFull = css`
-    width: 100%;
-`
+  width: 100%;
+`;
 
 export const abImg = css`
   position: absolute;
@@ -104,11 +111,11 @@ export const abImg = css`
   top: 0;
   z-index: 1;
 
-  &:nth-child(2){
+  &:nth-child(2) {
     position: relative;
     top: 30px;
     margin-top: 0;
-    &:after{
+    &:after {
       @media (min-width: 768px) and (max-width: 990px) {
         width: 350px;
         left: 15px;
@@ -116,7 +123,7 @@ export const abImg = css`
     }
   }
 
-  & img{
+  & img {
     max-width: 100%;
     height: auto;
     -webkit-box-shadow: -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
@@ -127,8 +134,8 @@ export const abImg = css`
   @media (min-width: 320px) and (max-width: 767px) {
     position: relative;
     margin: 50px 0 0;
-    &:after{
-      display:none;
+    &:after {
+      display: none;
     }
   }
   @media (min-width: 768px) and (max-width: 990px) {
@@ -136,7 +143,7 @@ export const abImg = css`
     float: right;
     right: -5px;
   }
-`
+`;
 
 export const blocks = css`
   width: 100%;
@@ -145,7 +152,16 @@ export const blocks = css`
   padding-bottom: 120px;
   position: relative;
 
-`
+  @media (min-width: 320px) and (max-width: 767px) {
+    z-index: 2;
+
+    .row {
+      div:nth-of-type(2) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+`;
 
 export const dateBlock = css`
   background-color: ${colors.secondaryMain};
@@ -157,48 +173,53 @@ export const dateBlock = css`
   align-items: center;
   position: relative;
   z-index: 2;
-  transition: all .2s;
+  transition: all 0.2s;
 
-  &.orange{
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 95%;
+    border: 2px solid ${colors.primaryMain};
+  }
+
+  &.orange {
     background-color: ${colors.brandingOrange};
   }
 
-  &.salmon{
+  &.salmon {
     background-color: ${colors.brandingSalmon};
   }
 
-  &.purple{
-        background-color: ${colors.brandingPurple};
+  &.purple {
+    background-color: ${colors.brandingPurple};
   }
 
-  &.blue{
-    background-color:${colors.brandingBlue}
+  &.blue {
+    background-color: ${colors.brandingBlue};
   }
 
-  h2{
-    font-family: 'bw_gradual_demobold';
+  h2 {
+    font-family: "bw_gradual_demobold";
     color: ${colors.primaryMain};
     font-size: 40px;
     text-align: center;
   }
 
-  h3{
+  h3 {
     font-size: 24px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
     margin-bottom: 24px;
-    font-family: 'bw_gradual_demomedium';
+    font-family: "bw_gradual_demomedium";
     font-weight: 500;
     text-align: center;
   }
 
-  h4{
-    font-family: 'bw_gradual_demomedium';
+  h4 {
+    font-family: "bw_gradual_demomedium";
     font-weight: 500;
   }
 
-  P{
+  P {
     color: ${colors.primaryMain};
     font-size: 14px;
     text-align: center;
@@ -207,63 +228,70 @@ export const dateBlock = css`
     line-height: 21px;
     margin-bottom: 8px;
 
-    &.text{
+    &.text {
       margin: 16px 0 40px;
     }
   }
 
-  button{
+  button {
     letter-spacing: 0;
 
     width: 250px;
 
-    &:nth-of-type(2){
+    &:nth-of-type(2) {
       background-color: transparent;
       box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
       color: ${colors.primaryMain};
       margin-top: 16px;
 
-      :hover{
+      :hover {
         background-color: ${colors.secondaryMain};
         color: ${colors.primaryMain};
       }
     }
   }
-`
+`;
 export const asideBlock = css`
-    position: absolute;
-    width: 100%;
-    max-width: 470px;
-    display: block;
-    border: 2px solid #fff;
-    top: 15px;
-    left: 42px;
-    height: 100%;
-    z-index: 1;
-`
+  position: absolute;
+  width: 100%;
+  max-width: 470px;
+  display: block;
+  border: 2px solid #fff;
+  top: 15px;
+  left: 42px;
+  height: 100%;
+  z-index: 1;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 85%;
+  }
+`;
 
 export const sectionTitle = css`
-    text-align: center;
+  text-align: center;
 
-    h2{
+  h2 {
     font-size: 56px;
-    font-family: 'bw_gradual_demomedium';
+    font-family: "bw_gradual_demomedium";
     color: ${colors.secondaryMain};
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
     margin-left: 40px;
-    margin-bottom:24px
+    margin-bottom: 24px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0;
+    }
   }
 
-    p{
-        
-        font-weight: 400;
-        width: 100%;
-        max-width: 755px;
-        margin: 16px auto 32px;
-        color: ${colors.secondaryMain};
-        font-size: 14px;
-        line-height: 21px;
-    }
-`
+  p {
+    font-weight: 400;
+    width: 100%;
+    max-width: 755px;
+    margin: 16px auto 32px;
+    color: ${colors.secondaryMain};
+    font-size: 14px;
+    line-height: 21px;
+  }
+`;

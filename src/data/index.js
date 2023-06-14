@@ -69,6 +69,20 @@ import Lisboa from "@/images/lisboa.jpg"
 import Capital from "@/images/capital.jpg"
 import Alfama from "@/images/alfama.jpg"
 
+import Evex01 from "@/images/evex1.jpg"
+import Evex02 from "@/images/evex2.jpg"
+import Evex03 from "@/images/evex3.jpg"
+
+import Gallery01 from "@/images/gallery/01.png"
+import Gallery02 from "@/images/gallery/02.png"
+import Gallery03 from "@/images/gallery/03.png"
+import Gallery04 from "@/images/gallery/04.png"
+import Gallery05 from "@/images/gallery/05.png"
+import Gallery06 from "@/images/gallery/06.png"
+import Gallery07 from "@/images/gallery/07.png"
+
+import EventSpeakers from "@/images/event/speakers.png"
+
 import instagramIcon from "@/images/icons/instagram.svg"
 import linkedinIcon from "@/images/icons/linkedin.svg"
 import twitterIcon from "@/images/icons/twitter.svg"
@@ -89,42 +103,42 @@ export const SocialIcons = {
 };
 
 export const NavLinks = [
-  // {
-  //   name: "O EVEx",
-  //   url: "/",
-  // },
+  {
+    name: "O EVEx",
+    url: "/o-evex",
+  },
   {
     name: "Lisboa",
     url: "/lisboa",
   },
-  // {
-  //   name: "Experiências",
-  //   url: "/service",
-  // },
+  {
+    name: "Experiência",
+    url: "/experiencias",
+  },
   {
     name: "Speakers",
     url: "/speakers",
   },
-  // {
-  //   name: "Comitê",
-  //   url: "/blog",
-  // },
-  // {
-  //   name: "Papers",
-  //   url: "/contact",
-  // },
-  // {
-  //   name: "Agenda",
-  //   url: "/agenda",
-  // },
+  {
+    name: "Comitê",
+    url: "/#comite",
+  },
+  {
+    name: "Papers",
+    url: "/#papers",
+  },
+  {
+    name: "Agenda",
+    url: "/agenda",
+  },
   {
     name: "Inscrições",
     url: "/inscricoes",
   },
-  // {
-  //   name: "Contato",
-  //   url: "/contact",
-  // },
+  {
+    name: "Contato",
+    url: "/#contato",
+  },
 ];
 
 
@@ -999,6 +1013,20 @@ export const VideoTwoData = {
   },
 };
 
+export const VideoThreeData = {
+  sectionContent: {
+    title: "Lorem ipsum",
+    subTitle: "Lorem ipsum dolor",
+    text:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet \n libero in augue volutpat varius.",
+  },
+  video: {
+    title: "Watch Video",
+    ID: "y2Eqx6ys1hQ",
+    image: video02,
+  },
+};
+
 export const OevexData = {
   sectionContent: {
     title: "O EVEx",
@@ -1040,8 +1068,106 @@ export const LisboaData = {
   image: Lisboa,
   image2:Capital,
   image3: Alfama,
-  element: element01
+  element: element01,
+  posts: {
+    img: Lisboa,
+    img: Lisboa,
+    img: Lisboa
+  }
 };
+
+export const LisboaSlideData = [
+  {
+    img: Lisboa
+  },
+  {
+    img: Lisboa
+  },
+  {
+    img: Lisboa
+  },
+  {
+    img: Lisboa
+  }
+]
+
+export const CapitalSlideData = [
+  {
+    img: Capital
+  },
+  {
+    img: Capital
+  },
+]
+
+export const AlfamaSlideData = [
+  {
+    img: Alfama
+  },
+  {
+    img: Alfama
+  },
+]
+
+export const Evex1Data = [
+  {
+    img: Evex01
+  },
+  {
+    img: Evex01
+  },
+]
+
+export const Evex2Data = [
+  {
+    img: Evex02
+  },
+  {
+    img: Evex02
+  },
+]
+
+export const Evex3Data = [
+  {
+    img: Evex03
+  },
+  {
+    img: Evex03
+  },
+]
+
+export const ExperienceGalleryData = [
+  {
+    img: Gallery01
+  },
+  {
+    img: Gallery02
+  },
+  {
+    img: Gallery03
+  },
+  {
+    img: Gallery04
+  },
+  {
+    img: Gallery05
+  },
+  {
+    img: Gallery06
+  },
+  {
+    img: Gallery07
+  },
+]
+
+export const SixtySpeakers = [
+  {
+    img: EventSpeakers
+  },
+  {
+    img: EventSpeakers
+  },
+]
 
 export const EvexLisboaData = {
   sectionContent: {
@@ -1100,23 +1226,101 @@ export const blocksTeData = [
   },
 ];
 
-export const AgendaData = [
+export const AgendaOnlineData = [
   {
     date: '18/09/22',
     day: `Segunda-feira`,
   },
   {
-    date: '18/09/22',
-    day: `Segunda-feira`,
+    date: '19/09/22',
+    day: `Terça-feira`,
   },
   {
-    date: '18/09/22',
-    day: `Segunda-feira`,
+    date: '20/09/22',
+    day: `Quarta-feira`,
   },
   {
-    date: '18/09/22',
-    day: `Segunda-feira`,
+    date: '21/09/22',
+    day: `Quinta-feira`,
   },
+];
+
+export const AgendaPresencialData = [
+  {
+    date: '25/10/2023',
+    day: `Quarta-feira`,
+  },
+  {
+    date: '26/10/2023',
+    day: `Quinta-feira`,
+  },
+];
+
+export const ContentData = [
+  {
+    text:`<h3>Dia 10 de Outubro (Horário de Brasília)</h3>
+<p>
+<strong>09h00 – Boas-vindas</strong><br></br>
+Caio César Cavalcanti
+CEO e Fundador, EVEx
+<br></br><br></br>
+<strong>09h15 – Abertura do EVEx On-line 2022: Energy Virtual Talks</strong><br></br>
+Energia em Tempos de Guerra: os impactos do conflito europeu na Transição Energética<br></br>
+Daniel Elias<br></br>
+CEO, Petrogal Brasil & Country Chair Galp<br></br>
+Nelson Lage<br></br>
+Presidente, ADENE – Agência para a Energia<br></br>
+Fernanda Delgado<br></br>
+Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás<br></br>
+Maria João Rolim<br></br>
+Sócia, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
+Camila Maia – Moderadora<br></br>
+Jornalista, MegaWhat<br></br>
+<br></br><br></br>
+<strong>11h00 – Energy Virtual MasterClasses</strong><br></br>
+Medidas de resposta à crise de preços da energia<br></br>
+Filipe Matias Santos<br></br>
+Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos<br></br>
+Caio Alves – Moderador<br></br>
+Advogado, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
+<br></br><br></br>
+<strong>14h00 – Energy Virtual Academy</strong><br></br>
+Aspectos críticos do controle judicial da regulação em energia: Brasil e Portugal<br></br>
+Alice Khouri<br></br>
+Coordenadora de Regulatório e Energia, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
+Cácia Pimentel – Moderadora<br></br>
+Doutora e Consultora em Direito das Energias Renováveis e Sustentabilidade<br></br>
+<br></br><br></br>
+<strong>15h15 – Energy Virtual Expo/Business</strong><br></br>
+Transição Energética Justa<br></br>
+Alexandre Siciliano<br></br>
+Gerente do Departamento de Energia, BNDES – Banco Nacional de Desenvolvimento Econômico e Social<br></br>
+Flávia Bellaguarda<br></br>
+Fundadora, LACLIMA<br></br>
+Silvia Cabral<br></br>
+Superintendente de Sustentabilidade, Norte Energia<br></br>
+Rodrigo Sluminsky – Moderador<br></br>
+Consultor, Rolim, Viotti, Goulart, Cardoso Avogados<br></br>
+<br></br><br></br>
+<strong>16h30 – Energy Virtual MasterClasses</strong><br></br>
+Energias Renováveis no novo contexto político e econômico da Transição Energética<br></br>
+Elbia Gannoum<br></br>
+CEO, ABEEólica – Associação Brasileira de Energia Eólica<br></br>
+Gerusa Magalhães – Moderadora<br></br>
+Sócia Fundadora, MRF Advogados
+</p>
+    `
+  },
+  {
+    text:`<h3>Agenda indisponível no momento</h3>`
+  },
+  {
+    text:`<h3>Agenda indisponível no momento</h3>`
+  },
+  {
+    text:`<h3>Agenda indisponível no momento</h3>`
+  }
+  
 ];
 
 export const BigCtaData = [

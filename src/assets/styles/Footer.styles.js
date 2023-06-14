@@ -55,6 +55,7 @@ export const aboutWidget = css`
   @media (min-width: 320px) and (max-width: 767px) {
     padding-right: 0;
     margin-top: 0;
+    text-align: center;
   }
   @media (min-width: 768px) and (max-width: 990px) {
     padding-right: 0;
@@ -63,6 +64,10 @@ export const aboutWidget = css`
 
 export const contactWidget = css`
   padding-left: 60px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+  }
 
   & p {
     font-size: 14px;
@@ -110,6 +115,14 @@ export const copyright = css`
 `;
 
 export const socialWidget = css`
+
+ @media (min-width: 320px) and (max-width: 767px) {
+    text-align: center;
+
+    h2{
+  margin-bottom: 32px;
+}
+  }
   & ul {
     margin: 0;
     padding: 0;
@@ -117,6 +130,10 @@ export const socialWidget = css`
     justify-content: space-between;
     margin-bottom: 40px;
     max-width: 180px;
+    @media (min-width: 320px) and (max-width: 767px) {
+     margin: 0 auto;
+     margin-bottom: 64px;
+    }
     & li {
       padding: 0;
       margin: 0 0 0;
@@ -172,7 +189,7 @@ export const subscribeFrom = css`
     }
 
     @media (min-width: 320px) and (max-width: 767px) {
-      width: 100%;
+      width: 57%;
       margin-bottom: 15px;
     }
   }
@@ -195,6 +212,8 @@ export const subscribeFrom = css`
   button {
     @media (min-width: 320px) and (max-width: 767px) {
       margin-left: 0;
+      width: 40%;
+    padding: 21px 0;
     }
   }
 `;

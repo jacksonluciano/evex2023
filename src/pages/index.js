@@ -47,14 +47,6 @@ const HomeOne = () => {
           <Bigcta />
           <Patrocinadores />
           <Duvidas />
-          {/* <SubscribeForm /> */}
-          {/* <PortfolioHome /> */}
-          {/* <SliderOne /> */}
-          {/* <ServiceTwo /> */}
-          {/* <TrustedClient /> */}
-          {/* <ParallaxOne /> */}
-          {/* <BlogHome /> */}
-          {/* <CallToActionOne extraClassName="ready" /> */}
           <Footer />
         </Layout>
       </SearchContextProvider>

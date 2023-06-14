@@ -39,7 +39,7 @@ const TeamCarousel = () => {
     },
     breakpoints: {
       0: {
-        spaceBetween: 0,
+        spaceBetween: 8,
         slidesPerView: 1,
         slidesPerGroup: 1,
       },
@@ -71,6 +71,9 @@ const TeamCarousel = () => {
         </Row>
      
       <Swiper css={teamSlider} {...carouselOptions}>
+      <span id="main-slider-prev">
+          <img src={Arrow} />
+        </span>
         <span id="main-slider-next">
         <img src={Arrow} />
         </span>
@@ -82,7 +85,7 @@ const TeamCarousel = () => {
         {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
       </Swiper>
       <div css={moreBt}>
-        <button css={commonBtn}>Saiba mais</button>
+        <button css={commonBtn}>Todos os Speakers</button>
       </div>
       <img css={element} src={Element7} />
       </Container>

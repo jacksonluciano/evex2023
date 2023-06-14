@@ -1,9 +1,10 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 import lineMarker from "../images/line-maker.svg";
+import { colors } from './layout.styles'
 
 export const popUp = css`
-  background: rgba(17, 17, 17, 0.98);
+  background: ${colors.primaryMain};
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -moz-box;
@@ -39,7 +40,7 @@ export const showOverlayNav = css`
   .popup.popup__menu  {
     opacity: 1;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     visibility: visible;
     transform: translateY(0);
   }
@@ -48,22 +49,20 @@ export const showOverlayNav = css`
 `;
 
 export const popUpMenu = css`
-  background-image: url(${lineMarker});
+
   background-repeat: repeat;
   background-position: center center;
   padding: 0;
 `;
 
 export const closepopUp = css`
-  background-color: #fff;
   border-radius: 50%;
-  box-shadow: 0 0 0 0px #fff;
   font-weight: 600;
   height: 50px;
   width: 50px;
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: 3px;
+    top: 17px;
   text-transform: uppercase;
   transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   -moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
@@ -80,9 +79,9 @@ export const closepopUp = css`
   }
 
   &:after {
-    width: 15px;
-    height: 1px;
-    background: #000;
+    width: 24px;
+    height: 2px;
+    background: ${colors.secondaryMain};
     position: absolute;
     right: 17.5px;
     top: 24px;
@@ -96,9 +95,9 @@ export const closepopUp = css`
   }
 
   &:before {
-    width: 15px;
-    height: 1px;
-    background: #000;
+    width: 24px;
+    height: 2px;
+    background: ${colors.secondaryMain};
     position: absolute;
     right: 17.5px;
     top: 24px;
@@ -136,7 +135,7 @@ export const footerContacts = css`
 export const popUpSocial = css`
   position: absolute;
   right: 0;
-  bottom: 34px;
+  bottom: 100px;
   padding: 0;
 
   ul {
@@ -145,16 +144,14 @@ export const popUpSocial = css`
 
     li {
       padding: 0;
-      margin: 0 20px 0 0;
+      margin: 0 20px 20px 0;
       list-style: none;
-      display: inline-block;
 
       &:last-of-type {
         margin-right: 0;
       }
 
       a {
-        font-size: 14px;
         letter-spacing: 0.56px;
         color: #aaaaaa;
         margin: 0;
@@ -166,7 +163,7 @@ export const popUpSocial = css`
         }
 
         i {
-          font-size: 16px;
+          font-size: 48px;
           color: #fff;
           margin-right: 10px;
         }
@@ -180,6 +177,11 @@ export const logo2 = css`
   position: absolute;
   left: 0;
   top: 30px;
+
+  h4{
+    color: ${colors.secondaryMain};
+    padding-left: 12px;
+  }
 `;
 
 export const popUpInner = css`
@@ -205,9 +207,9 @@ export const dlMenuWrap = css`
   position: relative;
   perspective: 600px;
   perspective-origin: 50% -200%;
-  text-align: center;
   transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
   width: 100%;
+  z-index: 99;
 
   button {
     border: none;
@@ -222,12 +224,13 @@ export const dlMenuWrap = css`
     transform-style: preserve-3d;
 
     li {
-      margin: 13px 0;
+      margin: 28px 0;
       position: relative;
       display: block;
 
       .menu-item-has-children > a {
         position: relative;
+        
       }
 
       button {
@@ -241,16 +244,23 @@ export const dlMenuWrap = css`
 
       a {
         color: #fff;
-        text-transform: uppercase;
-        font-size: 16px;
+        font-size: 40px;
         line-height: 0.8;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         font-weight: 400;
         position: relative;
         display: inline-block;
         text-decoration: none;
         -webkit-text-decoration-skip: objects;
         transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+        font-family: 'bw_gradual_demoregular';
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 6px;
+
+        &:active{
+          color: ${colors.brandingSalmon};
+        }
 
         &:hover {
           &::after {
@@ -286,3 +296,18 @@ export const subMenu = css`
     display: block;
   }
 `;
+
+export const element = css`
+  position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 100px;
+`;
+
+export const element8 = css`
+  position: absolute;
+  z-index: -1;
+    right: -70%;
+    bottom: -20%;
+`;
+

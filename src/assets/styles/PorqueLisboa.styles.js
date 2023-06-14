@@ -6,6 +6,13 @@ export const abAgency = css`
   background-color: transparent;
   margin-top: 87px;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+    .container-fluid .row{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
   img{
     width: 100%;
   }
@@ -28,6 +35,7 @@ export const mb45 = css`
   @media (min-width: 768px) and (max-width: 990px) {
     margin-bottom: 30px;
   }
+  
 `
 
 export const about = css`
@@ -39,6 +47,8 @@ export const about = css`
   height: 100%;
   color: ${colors.secondaryMain};
   align-items: center;
+
+ 
 
   h2{
     color: ${colors.primaryMain};
@@ -70,6 +80,15 @@ export const about = css`
       font-weight: 600;
     }
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 12px;
+
+    h2{
+      font-size: 56px;
+      line-height: 65px;
+    }
+  }
 `
 
 
@@ -82,6 +101,10 @@ export const lisboaTwo = css`
   height: 100%;
   align-items: center;
   background-color: ${colors.secondaryMain};
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 24px 12px;
+  }
 
   h2{
     color: ${colors.primaryMain};
@@ -170,5 +193,119 @@ export const abImg = css`
     position: relative;
     float: right;
     right: -5px;
+  }
+`
+
+export const testiCarouselPagination = css`
+  position: absolute;
+  right: 15px;
+  top: 0;
+  z-index: 9;
+  bottom: auto;
+  left: auto;
+  text-align: right;
+  line-height: 1;
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 0;
+    background: #1a1a1a;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    opacity: 1;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+  }
+
+  .swiper-pagination-bullet-active,
+  .swiper-pagination-bullet:hover {
+    background: #fff;
+  }
+`;
+
+export const slider = css`
+
+  #main-slider-next{
+        width: 48px;
+        height: 48px;
+        background-color:${colors.secondaryMain};
+        border: 1px solid #000;
+        position: absolute;
+        right: 17px;
+        top: 45%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        img{
+          width: auto !important;
+          transform: rotate(270deg);
+        }
+
+        :hover{
+          background-color:${colors.brandingSalmon};
+        }
+  }
+
+  #main-slider-prev{
+        width: 48px;
+        height: 48px;
+        background-color:${colors.secondaryMain};
+        border: 1px solid #000;
+        position: absolute;
+        left: 17px;
+        top: 45%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        img{
+          width: auto !important;
+          transform: rotate(90deg);
+        }
+
+        :hover{
+          background-color:${colors.brandingSalmon};
+        }
+
+        &.swiper-button-disabled{
+          display: none;
+        }
+  }
+
+  .swiper-pagination{
+    text-align: left;
+    margin-left: 20px;
+
+    .swiper-pagination-bullet{
+      width: 16px;
+      height: 16px;
+      background-color:${colors.secondaryMain};
+      border:1px solid ${colors.primaryMain};
+      opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+      background-color:${colors.primaryMain};
+    }
+  }
+
+`
+
+export const element17 = css`
+    display: none;
+   @media (min-width: 320px) and (max-width: 767px) {
+    display: block;
+    position: absolute;
+    top: 25px;
+    width: 130px !important;
+    right: 0;
   }
 `

@@ -2,6 +2,7 @@
 import React from "react";
 import { TransicoesEnergeticasData} from "@/data";
 import Element05 from "@/images/elements/element-05.svg"
+import Element08 from "@/images/elements/element-08.png"
 import ImgReitoria from "@/images/reitoria.jpg"
 import ImgOperadora from "@/images/operadora.jpg"
 import { Col, Container, Row } from "react-bootstrap";
@@ -12,7 +13,8 @@ import {
   mb45,
   about,
   element05,
-  operadora
+  operadora,
+  element08
 } from "../assets/styles/Reitoria.styles";
 import {
   secTitle,
@@ -37,6 +39,7 @@ const Reitoria = () => {
               No ano passado, fomos muito bem acolhidos no prédio da Reitoria da NOVA, localizado no Campus de Campolide. Os seus espaços de alto nível, especialmente projetados para a realização de eventos, permitiram-nos realizar uma edição física inesquecível.
               Fundada em agosto de 1973, a NOVA celebra, este ano, 50 anos de existência. Nós estaremos lá para comemorar essa data especial durante a realização do EVEx Lisboa 2023. Vamos juntos?`}</p>
             </div>
+            <img css={element08} src={Element08} />
           </Col>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={about}>
@@ -44,23 +47,9 @@ const Reitoria = () => {
             </div>
           </Col>
         </Row>
-
-        {/* <div css={blocks}>
-          <Row>
-            {blocksTeData.map(({ date, text }, index) => (
-              <Col lg={6} md={6} sm={12}>
-                <div css={dateBlock} key={index}>
-                  <h3>{date}</h3>
-                  <p>{text}</p>
-                  
-                </div>
-                <div css={asideBlock}></div>
-              </Col>
-            ))}
-          </Row>
-        </div> */}
       </Container>
       <img css={element05} src={Element05} />
+     
     </section>
     <div css={operadora}>
     <img src={ImgOperadora} /> 

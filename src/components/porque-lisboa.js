@@ -1,18 +1,32 @@
 /** @jsx jsx */
-import React from "react";
-import { LisboaData } from "@/data";
+import React, { useState } from "react";
+import {
+  LisboaData,
+  LisboaSlideData,
+  CapitalSlideData,
+  AlfamaSlideData,
+} from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
-import { jsx } from '@emotion/react'
+import { jsx } from "@emotion/react";
+import Arrow from "@/images/icons/arrow-down.svg";
+import Element17 from "@/images/elements/element-17.svg";
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination } from "swiper/core";
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css";
 
-import { 
+import {
   abAgency,
   pr79,
   mb45,
   about,
   imgFull,
   lisboaTwo,
-  orangeBg
-}  from '../assets/styles/PorqueLisboa.styles'
+  orangeBg,
+  slider,
+  element17
+} from "../assets/styles/PorqueLisboa.styles";
 import {
   secTitle,
   subtitle,
@@ -21,62 +35,135 @@ import {
   commonBtn,
   redBg,
   noPadding,
-  noPaddingRight
+  noPaddingRight,
 } from "../assets/styles/layout.styles";
 
-const virtualPresencial = () => {
-  const { image3, image, image2} = LisboaData;
+SwiperCore.use([Pagination, Navigation]);
+
+const PorqueLisboa = () => {
+  const { image, image2 } = LisboaData;
+
+  const testimonialsOptions = {
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#main-slider-next",
+      prevEl: "#main-slider-prev",
+    },
+    slidesPerView: 1,
+  };
+
   return (
     <section css={[abAgency]}>
       <Container fluid>
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
-           <div css={about}>
+            <div css={about}>
               <h2 css={[secTitle, mb45]}>Porque Lisboa?</h2>
               <p css={secDesk}>
-              Lisboa foi escolhida para sediar os eventos presenciais do EVEx, 
-              por ser uma das cidades da Península Ibérica que mais tem ganhado 
-              destaque no cenário internacional. Nos World Travel Awards 2022, 
-              conhecidos como os “Óscares do Turismo”, recebeu o prêmio global 
-              de Melhor Destino Europeu. Do Castelo de São Jorge ao Parque das 
-              Nações; da Praça do Comércio até a Torre de Belém; são muitos os 
-              pontos turísticos que a tornam inesquecível.
+                Lisboa foi escolhida para sediar os eventos presenciais do EVEx,
+                por ser uma das cidades da Península Ibérica que mais tem
+                ganhado destaque no cenário internacional. Nos World Travel
+                Awards 2022, conhecidos como os “Óscares do Turismo”, recebeu o
+                prêmio global de Melhor Destino Europeu. Do Castelo de São Jorge
+                ao Parque das Nações; da Praça do Comércio até a Torre de Belém;
+                são muitos os pontos turísticos que a tornam inesquecível.
               </p>
-           </div>
+            </div>
+            <img css={element17} src={Element17} />
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img css={imgFull} src={image} />
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {LisboaSlideData.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
-           <div css={[lisboaTwo,orangeBg]}>
+            <div css={[lisboaTwo, orangeBg]}>
               <p css={secDesk}>
-              A capital lusitana respira história e cultura, mas sem deixar de se modernizar,
-               apostando na criatividade e na inovação tecnológica – inclusive, também é sede 
-               do maior evento da área de tecnologia do mundo, o Web Summit Lisbon.
-Possui excelentes infraestruturas e opções de hospedagem, além de transportes públicos eficientes, 
-incluindo os famosos bondinhos elétricos e o Elevador de Santa Justa, verdadeiros cartões postais.
+                A capital lusitana respira história e cultura, mas sem deixar de
+                se modernizar, apostando na criatividade e na inovação
+                tecnológica – inclusive, também é sede do maior evento da área
+                de tecnologia do mundo, o Web Summit Lisbon. Possui excelentes
+                infraestruturas e opções de hospedagem, além de transportes
+                públicos eficientes, incluindo os famosos bondinhos elétricos e
+                o Elevador de Santa Justa, verdadeiros cartões postais.
               </p>
-           </div>
+            </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img css={imgFull} src={image2} />
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {CapitalSlideData.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
-           <div css={lisboaTwo}>
+            <div css={lisboaTwo}>
               <p css={secDesk}>
-              Em complemento à programação do EVEx Lisboa 2023, os participantes do evento
-              poderão ter uma experiência gastronômica única, que vai muito além do bacalhau 
-              e do pastel de nata. Em Alfama, no Bairro Alto e no Cais de Sodré, também poderão 
-              descobrir a noite lisboeta, uma das mais animadas e boemias de toda a Europa.
+                Em complemento à programação do EVEx Lisboa 2023, os
+                participantes do evento poderão ter uma experiência gastronômica
+                única, que vai muito além do bacalhau e do pastel de nata. Em
+                Alfama, no Bairro Alto e no Cais de Sodré, também poderão
+                descobrir a noite lisboeta, uma das mais animadas e boemias de
+                toda a Europa.
               </p>
-           </div>
+            </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img css={imgFull} src={image3} />
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {AlfamaSlideData.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
       </Container>
@@ -84,4 +171,4 @@ incluindo os famosos bondinhos elétricos e o Elevador de Santa Justa, verdadeir
   );
 };
 
-export default virtualPresencial;
+export default PorqueLisboa;

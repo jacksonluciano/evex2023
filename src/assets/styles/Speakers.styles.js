@@ -329,6 +329,11 @@ export const element = css`
     position: absolute;
     top: 100px;
     right: 16%;
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 100%;
+    left: 50%;
+    transform: translate(-46%, 60px);
+    }
 `
 export const speakersTitle = css`
     text-align: center;

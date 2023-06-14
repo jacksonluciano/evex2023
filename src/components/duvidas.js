@@ -31,7 +31,7 @@ import {
   textarea,
 } from "../assets/styles/layout.styles";
 
-const Patrocinadores = () => {
+const Duvidas = () => {
   const { sectionContent, element } = PatrocinadoresData;
   return (
     <section css={[abAgency]}>
@@ -80,7 +80,7 @@ const Patrocinadores = () => {
                       type="text"
                       name="f_name"
                       id="f_name"
-                      placeholder="First Name"
+                      placeholder="Nome"
                     />
                   </div>
                   <div>
@@ -90,7 +90,7 @@ const Patrocinadores = () => {
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="Email Address"
+                      placeholder="Email"
                     />
                   </div>
                   <div>
@@ -99,7 +99,7 @@ const Patrocinadores = () => {
                       className="input-form required"
                       name="con_message"
                       id="con_message"
-                      placeholder="Write Message"
+                      placeholder="Mensagem"
                     ></textarea>
                   </div>
                   <button
@@ -113,7 +113,7 @@ const Patrocinadores = () => {
               </div>
             </Col>
             <Col lg={6} md={6} sm={12}>
-              <div className="inner-div rl">
+              <div id="contato" className="inner-div rl">
                 <h2 css={secDesk}>Patrocinador e/ou Expositor!</h2>
                 <p>
                   Entre em contato com o nosso time comercial e receba uma
@@ -123,12 +123,12 @@ const Patrocinadores = () => {
                 <button css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}
                 </button>
-                <button css={commonBtn}>
+                {/* <button css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}
                 </button>
                 <button css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}
-                </button>
+                </button> */}
               </div>
             </Col>
           </Row>
@@ -140,4 +140,4 @@ const Patrocinadores = () => {
   );
 };
 
-export default Patrocinadores;
+export default Duvidas;

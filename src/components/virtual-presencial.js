@@ -3,6 +3,7 @@ import React from "react";
 import { VirtualPresencialData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
+import { Link } from "gatsby";
 
 import { 
   abAgency,
@@ -18,7 +19,7 @@ import {
   commonSection,
   commonBtn,
   redBg,
-  noPaddingRight
+  noPadding
 } from "../assets/styles/layout.styles";
 
 const virtualPresencial = () => {
@@ -31,10 +32,10 @@ const virtualPresencial = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Do Virtual ao <br/> Presencial</h2>
               <p css={secDesk}>{sectionContent.text}</p>
-              <button css={commonBtn}>Confira os destaques</button>
+              <Link to="/o-evex" css={commonBtn}>Confira os destaques</Link>
            </div>
           </Col>
-          <Col lg={6} md={6} sm={12} css={noPaddingRight}>
+          <Col lg={6} md={6} sm={12} css={noPadding}>
             <img css={imgFull} src={image} />
           </Col>
         </Row>

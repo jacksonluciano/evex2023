@@ -62,7 +62,7 @@ const VideoTwo = () => {
         autoplay
         isOpen={isOpen}
         onClose={() => setOpen(false)}
-        videoId="672843429000"
+        videoId="672843429"
         />
         }
     </Fragment>

@@ -7,6 +7,12 @@ export const team = css`
   padding-top: 0 !important;
   background-color: ${colors.primaryMain};
   position: relative;
+ 
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding-bottom: 100px !important;
+    overflow-x: hidden;
+    }
 
   h2{
     font-size: 56px;
@@ -16,7 +22,11 @@ export const team = css`
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
     margin-left: 40px;
-    margin-bottom:24px
+    margin-bottom:24px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0;
+    }
   }
 `;
 
@@ -25,6 +35,10 @@ export const teamSlider = css`
   margin-left: 40px;
   position: relative;
   margin-bottom:32px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin-left: 0px;
+  }
 
   #main-slider-next{
       width: 48px;
@@ -44,6 +58,32 @@ export const teamSlider = css`
         transform: rotate(270deg);
       }
 
+    }
+    #main-slider-prev{
+      width: 48px;
+      height: 48px;
+      background-color:${colors.secondaryMain};
+      border: 1px solid #000;
+      position: absolute;
+      left: 17px;
+      top: 158px;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &.swiper-button-disabled{
+        display: none;
+      }
+
+      img{
+        transform: rotate(90deg);
+      }
+
+      :hover{
+        background-color:${colors.brandingSalmon};
+      }
     }
 
    
@@ -327,4 +367,10 @@ export const element = css`
     position: absolute;
     bottom: -170px;
     left: 40px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 90% !important;
+      left: 40px;
+      bottom:-77px
+    }
 `

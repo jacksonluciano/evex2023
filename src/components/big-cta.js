@@ -4,6 +4,7 @@ import { BigCtaData, blocksTeData } from "@/data";
 import Element10 from '@/images/elements/element-10.svg'
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
+import { Link } from "gatsby";
 
 import {
   abAgency,
@@ -37,7 +38,7 @@ const Bigcta = () => {
                 <div css={dateBlock} key={index} className={index == 1 ? 'purple' : ''}>
                   <h2>{date}</h2>
                   <p>{text}</p>
-                  <button css={commonBtn}>{button}</button>
+                  <Link to={index == 1 ? '/inscricoes' : '/agenda'} css={commonBtn}>{button}</Link>
                 </div>
                 <div css={asideBlock}></div>
               </Col>

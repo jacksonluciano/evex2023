@@ -6,6 +6,7 @@ export const abAgency = css`
   background-color: ${colors.primaryMain};
   padding-top: 20px;
   position: relative;
+  overflow-x:clip;
   img{
     width: 100%;
   }
@@ -49,13 +50,18 @@ export const about = css`
     margin-bottom: 16px;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       font-size: 56px;
+       line-height: 68px;
+    }
   }
 
   p{
     width: 100%;
     max-width: 920px;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
     font-weight: 400;
     text-align: center;
     color: ${colors.secondaryMain};
@@ -72,6 +78,14 @@ export const element05 = css`
     top: -130px;
     left: 10%;
     z-index: 0;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+       left: 65%;
+       transform: translateX(-50%);
+       top: -50px;
+    }
+
 `
 
 export const imgFull = css`
@@ -137,6 +151,17 @@ export const dateBlock = css`
   z-index: 2;
   transition: all .2s;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 330px;
+    margin: 0 auto 32px;
+    padding: 20px 30px;
+    background-color: ${colors.brandingOrange};
+    h3, p{
+      color: ${colors.primaryMain} !important;
+    }
+
+  }
+
   :hover{
     background-color: ${colors.brandingOrange};
     h3, p{
@@ -153,7 +178,7 @@ export const dateBlock = css`
 
   P{
     color: ${colors.secondaryMain};
-    font-size: 24px;
+    font-size: 24px !important;
     text-align: center;
     padding: 0 10px;
     margin: 0;
@@ -170,5 +195,18 @@ export const asideBlock = css`
     left: 30px;
     height: 100%;
     z-index: 1;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      position: absolute;
+    width: 330px;
+    max-width: 470px;
+    display: block;
+    border: 2px solid #fff;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-45%);
+    height: 236px;
+    z-index: 1;
+  }
 `
 

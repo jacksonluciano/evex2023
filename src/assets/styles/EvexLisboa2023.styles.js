@@ -39,25 +39,29 @@ export const about = css`
   color: ${colors.secondaryMain};
   align-items: center;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 0 0 120px;
+  }
+
   h2{
     color: ${colors.primaryMain};
     font-family: 'bw_gradual_demomedium';
+    text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
-    &:after{
-      content: '';
-      height: 3px;
-      background-color: ${colors.primaryMain};
-      display: block;
-      margin-top: -3px;
-    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        font-size:56px;
+        line-height: 68px;
+        padding-top: 120px;
+      }
   }
 
   p{
     width: 100%;
     max-width: 920px;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 23px;
     font-weight: 400;
     text-align: center;
   }
@@ -72,6 +76,14 @@ export const element02 = css`
     width: auto !important;
     top: -70px;
     left: -15px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      transform: scaleX(-1);
+    right: 0;
+    left: auto;
+    top: -103px;
+    z-index: 0;
+  }
 
     @media (min-width: 768px) and (max-width: 1400px) {
       top: -35px;

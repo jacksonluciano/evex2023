@@ -32,6 +32,10 @@ const TestimonialsOneCarousel = () => {
     slidesPerGroup: 3,
     spaceBetween: 0,
     speed: 1400,
+    navigation: {
+      nextEl: "#main-slider-next",
+      prevEl: "#main-slider-prev",
+    },
     pagination: {
       el: "#testimonials-carousel-pagination",
       type: "bullets",

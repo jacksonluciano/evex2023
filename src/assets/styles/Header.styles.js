@@ -73,8 +73,7 @@ export const mainMenu = css`
     margin: 0;
     padding: 0;
     display: flex;
-    /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 
     & li {
@@ -83,7 +82,6 @@ export const mainMenu = css`
       line-height: 0.8;
       padding: 0px;
       position: relative;
-      padding: 10px;
 
       & > .active a {
         color: #fff;

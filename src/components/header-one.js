@@ -50,7 +50,7 @@ const HeaderOne = () => {
       className={`${true === sticky ? "fixedHeader animated slideInDown" : null}`}
       id="header"
     >
-      <Container>
+      <Container fluid>
         <Row className="justify-content-between">
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div css={logo}>
@@ -158,7 +158,7 @@ const HeaderOne = () => {
               <a
                 id="open-overlay-nav"
                 className="menu hamburger"
-                // onClick={handleMenuClick}
+                onClick={handleMenuClick}
                 href="#"
               >
                 <i className="mei-menu"></i>
