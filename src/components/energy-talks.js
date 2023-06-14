@@ -3,7 +3,7 @@ import React from "react";
 import { VirtualPresencialData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import IconEnergy from "@/images/icons/icon-energy-talks.svg";
-import MobileIconEnergy from "@/images/icons/icon-talks.svg"
+import MobileIconEnergy from "@/images/icons/icon-talks.svg";
 import ImgEnergyTalks from "@/images/Energy-talks.jpg";
 import { jsx } from '@emotion/react'
 
