@@ -4,7 +4,7 @@ import { TransicoesEnergeticasData} from "@/data";
 import Element05 from "@/images/elements/element-05.svg";
 import Element16 from "@/images/elements/element-16.svg";
 import Element08 from "@/images/elements/element-08.png";
-import ImgEnergyMaster from "@/images/Energy-Masterclasses.jpg";
+import ImgEnergyMaster from "@/images/energy_masterclasses.jpg";
 import MobileIconMaster from "@/images/icons/icon-master-classes.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
