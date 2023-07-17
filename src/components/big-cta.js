@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React from "react";
-import { BigCtaData, blocksTeData } from "@/data";
+import { BigCtaData} from "@/data";
 import Element10 from '@/images/elements/element-10.svg'
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
@@ -8,26 +8,16 @@ import { Link } from "gatsby";
 
 import {
   abAgency,
-  pr79,
-  mb45,
-  about,
   element10,
   dateBlock,
   blocks,
   asideBlock
 } from "../assets/styles/BigCta.styles";
 import {
-  secTitle,
-  subtitle,
-  secDesk,
-  commonSection,
   commonBtn,
-  redBg,
-  noPaddingRight,
 } from "../assets/styles/layout.styles";
 
 const Bigcta = () => {
-  const { sectionContent, element } = BigCtaData;
   return (
     <section css={[abAgency]}>
       <Container fluid>

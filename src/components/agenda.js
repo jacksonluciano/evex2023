@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AgendaOnlineData, ContentData, AgendaPresencialData } from "@/data";
 import element03 from "@/images/elements/element-03.svg"
 import element07 from "@/images/elements/element-07.svg"
@@ -28,12 +28,7 @@ import {
 } from "../assets/styles/Agenda.styles";
 import {
   secTitle,
-  subtitle,
   secDesk,
-  commonSection,
-  commonBtn,
-  redBg,
-  noPaddingRight,
 } from "../assets/styles/layout.styles";
 
 

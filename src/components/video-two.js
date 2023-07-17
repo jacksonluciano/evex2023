@@ -2,19 +2,20 @@
 import React, { Fragment, useState } from "react";
 import { VideoTwoData } from "@/data";
 import ModalVideo from "react-modal-video";
-import SectionTitle from "@/components/section-title";
 import Element03 from "@/images/elements/element-03.svg"
+import Video from "@/components/video";
 import "react-modal-video/css/modal-video.min.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
 import { 
   whatWedo, 
-  videoWrap, 
-  playVideo,
   element03,
-  video
 }  from '../assets/styles/Video.styles'
+
+import {  
+  videoWrap
+}  from '../assets/styles/VideoTwo.styles'
 
 import {
   commonSection
@@ -36,7 +37,7 @@ const VideoTwo = () => {
             <Col lg={12}>
              <section css={video}>
               <div css={videoWrap} className="mb-0"> 
-                  <div css={playVideo}>
+                  {/* <div css={playVideo}>
                     <a
                       className="video_popup"
                       onClick={e => {
@@ -47,8 +48,11 @@ const VideoTwo = () => {
                     >
                       <i className="fa fa-play"></i>
                     </a>
-                    {/* <h2>{video.title}</h2> */}
-                  </div>
+                  </div> */}
+                    <Video
+            videoSrcURL="https://www.youtube.com/embed/WihQbRen5bc?rel=0"
+            videoTitle="Highlights EVEx Lisboa 2022"
+          />
                 </div>
                 <img css={element03} src={Element03} />
              </section>
@@ -58,11 +62,11 @@ const VideoTwo = () => {
         </Container>
       </section>
       {(typeof(window) !== 'undefined') && <ModalVideo
-        channel="vimeo"
+        channel="youtube"
         autoplay
         isOpen={isOpen}
         onClose={() => setOpen(false)}
-        videoId="672843429"
+        videoId="WihQbRen5bc"
         />
         }
     </Fragment>

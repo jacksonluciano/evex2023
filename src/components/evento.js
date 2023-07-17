@@ -11,7 +11,7 @@ import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
 import Element02 from "@/images/elements/element-02.svg";
 import Element17 from "@/images/elements/element-17.svg";
-import Evex3 from "@/images/evex3.jpg";
+import Evex3 from "@/images/oevex/evento03.png";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
@@ -149,25 +149,6 @@ const Evento = () => {
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            {/* <Swiper css={slider} {...testimonialsOptions}>
-              <span id="main-slider-prev">
-                <img src={Arrow} />
-              </span>
-
-              <span id="main-slider-next">
-                <img src={Arrow} />
-              </span>
-
-              {Evex3Data.map(({ img }, index) => (
-                <SwiperSlide key={index}>
-                  <img css={imgFull} src={img} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div
-              className="swiper-pagination"
-              id="client-carousel-pagination"
-            ></div> */}
             <img src={Evex3} />
           </Col>
         </Row>

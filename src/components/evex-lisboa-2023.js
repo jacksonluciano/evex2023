@@ -14,12 +14,8 @@ import {
 }  from '../assets/styles/EvexLisboa2023.styles'
 import {
   secTitle,
-  subtitle,
   secDesk,
-  commonSection,
   commonBtn,
-  redBg,
-  noPaddingRight
 } from "../assets/styles/layout.styles";
 
 const EvexLisboa2023 = () => {

@@ -37,11 +37,26 @@ import trustClient01 from "@/images/home_1/4.jpg"
 import aboutOne01 from "@/images/about/1.jpg"
 import aboutOne02 from "@/images/about/2.jpg"
 import team01 from "@/images/speaker/speaker.png"
-import team02 from "@/images/team/2.jpg"
-import team03 from "@/images/team/3.jpg"
-import team04 from "@/images/team/4.jpg"
-import team05 from "@/images/team/5.jpg"
-import Comite01 from "@/images/comite/comite.png"
+import Comite01 from "@/images/comite/1_caio_cesar_cavalcanti.jpg"
+import Comite02 from "@/images/comite/2_maria_joao_rolim.jpg"
+import Comite03 from "@/images/comite/3_nelson_lage.jpg"
+import Comite04 from "@/images/comite/4_fernanda_delgado.jpg"
+import Comite05 from "@/images/comite/5_alexandre_ramos.jpg"
+import Comite06 from "@/images/comite/6_teresa_ponce_de_leao.jpg"
+import Comite07 from "@/images/comite/7_carlos_henggeler_antunes.jpg"
+import Comite08 from "@/images/comite/8_solange_david.jpg"
+import Comite09 from "@/images/comite/9_filipe_matias_santos.jpg"
+import Comite10 from "@/images/comite/10_lucila_de_almeida.jpg"
+import Comite11 from "@/images/comite/11_rui_pestana.jpg"
+import Comite12 from "@/images/comite/12_alice_khouri.jpg"
+import Comite13 from "@/images/comite/13_gustavo_de_marchi.jpg"
+import Comite14 from "@/images/comite/14_natalia_moreno.jpg"
+import Comite15 from "@/images/comite/15_caio_alves.jpg"
+import Comite16 from "@/images/comite/16_larissa_araium.jpg"
+import Comite17 from "@/images/comite/17_francisco_paes_marques.jpg"
+import Comite18 from "@/images/comite/18_hirdan_medeiros_costa.jpg"
+import Comite19 from "@/images/comite/19_rui_castro.jpg"
+import Comite20 from "@/images/comite/20_alfonso_blanco_bonilha.jpg"
 import video01 from "@/images/about/3.jpg"
 import testimonial01 from "@/images/home_1/t1.jpg"
 import testimonial02 from "@/images/home_1/t2.jpg"
@@ -57,7 +72,7 @@ import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images/elements/element-01.svg"
 import element02 from "@/images/elements/element-02.svg"
 import element05 from "@/images/elements/element-05.svg"
-import virtualPresencial from "@/images/virtual-presencial.jpg"
+import virtualPresencial from "@/images/virtualPresencial.png"
 
 import ExperienciaIcon01 from "@/images/icons/icon-talks.svg"
 import ExperienciaIcon02 from "@/images/icons/icon-master-classes.svg"
@@ -72,6 +87,25 @@ import Alfama from "@/images/alfama.jpg"
 import Evex01 from "@/images/evex1.jpg"
 import Evex02 from "@/images/evex2.jpg"
 import Evex03 from "@/images/evex3.jpg"
+
+import EvexSlide01 from "@/images/oevex/slide01_01.png"
+import EvexSlide02 from "@/images/oevex/slide01_02.png"
+import EvexSlide03 from "@/images/oevex/slide01_03.png"
+import EvexSlide04 from "@/images/oevex/slide01_04.png"
+import EvexSlide05 from "@/images/oevex/slide01_05.png"
+
+import EvexSlide06 from "@/images/oevex/slide02_01.png"
+import EvexSlide07 from "@/images/oevex/slide02_02.png"
+import EvexSlide08 from "@/images/oevex/slide02_03.png"
+import EvexSlide09 from "@/images/oevex/slide02_04.png"
+
+import EventSpeakers00 from "@/images/oevex/speakers-0.png"
+import EventSpeakers01 from "@/images/oevex/speakers-1.png"
+import EventSpeakers02 from "@/images/oevex/speakers-2.png"
+import EventSpeakers03 from "@/images/oevex/speakers-3.png"
+import EventSpeakers04 from "@/images/oevex/speakers-4.png"
+import EventSpeakers05 from "@/images/oevex/speakers-5.png"
+
 
 import Gallery01 from "@/images/gallery/01.png"
 import Gallery02 from "@/images/gallery/02.png"
@@ -740,53 +774,103 @@ export const ComiteData = {
   posts: [
     {
       image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      name: "Caio César Cavalcanti",
+      description: "Presidente e Fundador, EVEx – Energy Virtual Experience Investigador Científico, Universidade de Coimbra",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite02,
+      name: "Maria João Rolim",
+      description: "PhD em Direito da Energia e Sustentabilidade, CEPMLP, Universidade de Dundee",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite03,
+      name: "Nelson Lage",
+      description: "Presidente, ADENE – Agência para a Energia",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite04,
+      name: "Fernanda Delgado ",
+      description: "Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite05,
+      name: "Alexandre Ramos",
+      description: "Presidente, CCEE – Câmara de Comercialização de Energia Elétrica",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite06,
+      name: "Teresa Ponce de Leão",
+      description: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite07,
+      name: "Carlos Henggeler Antunes",
+      description: "Professor Catedrático, Universidade de Coimbra",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite08,
+      name: "Solange David",
+      description: "Vice-Presidente do Conselho de Administração, SAE – Santo Antônio Energia",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite09,
+      name: "Filipe Matias Santos",
+      description: "Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos",
     },
     {
-      image: Comite01,
-      name: "Lorem ipsum",
-      description: "Lorem ipsum",
+      image: Comite10,
+      name: "Lucila de Almeida",
+      description: "Abreu Chair in ESG Impact, NOVA School of Law",
+    },
+    {
+      image: Comite11,
+      name: "Rui Pestana ",
+      description: "Assessor da Divisão do Gestor do Sistema, REN – Redes Energéticas Nacionais ",
+    },
+    {
+      image: Comite12,
+      name: "Alice Khouri",
+      description: "Founder, Women in ESG Portugal",
+    },
+    {
+      image: Comite13,
+      name: "Gustavo De Marchi",
+      description: "Consultor Jurídico, FGV Energia",
+    },
+    {
+      image: Comite14,
+      name: "Natália Moreno",
+      description: "Docente, Universidade de Coimbra",
+    },
+    {
+      image: Comite15,
+      name: "Caio Alves ",
+      description: "Ex-Assessor da Diretoria, ANEEL – Agência Nacional de Energia Elétrica",
+    },
+    {
+      image: Comite16,
+      name: "Larissa Araium",
+      description: "Presidente, MegaWhat",
+    },
+    {
+      image: Comite17,
+      name: "Francisco Paes Marques",
+      description: "Professor Auxiliar, Universidade de Lisboa",
+    },
+    {
+      image: Comite18,
+      name: "Hirdan Medeiros Costa",
+      description: "Professora Colaboradora, PPGE/USP – Universidade de São Paulo",
+    },
+    {
+      image: Comite19,
+      name: "Rui Castro",
+      description: "Professor Associado, Técnico Lisboa – IST",
+    },
+    {
+      image: Comite20,
+      name: "Alfonso Blanco Bonilla",
+      description: "Ex-Secretário Executivo, OLADE – Organização Latino-Americana de Energia",
     },
   ]
 };
@@ -1111,19 +1195,34 @@ export const AlfamaSlideData = [
 
 export const Evex1Data = [
   {
-    img: Evex01
+    img: EvexSlide01
   },
   {
-    img: Evex01
+    img: EvexSlide02
+  },
+  {
+    img: EvexSlide03
+  },
+  {
+    img: EvexSlide04
+  },
+  {
+    img: EvexSlide05
   },
 ]
 
 export const Evex2Data = [
   {
-    img: Evex02
+    img: EvexSlide06
   },
   {
-    img: Evex02
+    img: EvexSlide07
+  },
+  {
+    img: EvexSlide08
+  },
+  {
+    img: EvexSlide09
   },
 ]
 
@@ -1162,10 +1261,22 @@ export const ExperienceGalleryData = [
 
 export const SixtySpeakers = [
   {
-    img: EventSpeakers
+    img: EventSpeakers00
   },
   {
-    img: EventSpeakers
+    img: EventSpeakers01
+  },
+  {
+    img: EventSpeakers02
+  },
+  {
+    img: EventSpeakers03
+  },
+  {
+    img: EventSpeakers04
+  },
+  {
+    img: EventSpeakers05
   },
 ]
 

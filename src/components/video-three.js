@@ -2,7 +2,7 @@
 import React, { Fragment, useState } from "react";
 import { VideoThreeData } from "@/data";
 import ModalVideo from "react-modal-video";
-import SectionTitle from "@/components/section-title";
+import Video from "@/components/video";
 import Element05 from "@/images/elements/element-05.svg"
 import "react-modal-video/css/modal-video.min.css";
 import { Col, Container, Row } from "react-bootstrap";
@@ -10,11 +10,12 @@ import { jsx } from '@emotion/react'
 
 import { 
   whatWedo, 
-  videoWrap, 
-  playVideo,
   element05,
-  video
 }  from '../assets/styles/videoThree.styles'
+
+import {  
+  videoWrap
+}  from '../assets/styles/VideoTwo.styles'
 
 import {
   commonSection
@@ -36,19 +37,10 @@ const VideoThree = () => {
             <Col lg={12}>
              <section css={video}>
               <div css={videoWrap} className="mb-0"> 
-                  <div css={playVideo}>
-                    <a
-                      className="video_popup"
-                      onClick={e => {
-                        e.preventDefault();
-                        setOpen(true);
-                      }}
-                      href="#"
-                    >
-                      <i className="fa fa-play"></i>
-                    </a>
-                    {/* <h2>{video.title}</h2> */}
-                  </div>
+              <Video
+            videoSrcURL="https://www.youtube.com/embed/5ah-KK5t8Ok?rel=0"
+            videoTitle="Highlights EVEx 2022 - Energy Virtual Experience"
+          />
                 </div>
                 <img css={element05} src={Element05} />
              </section>

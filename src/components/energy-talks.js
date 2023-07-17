@@ -4,7 +4,7 @@ import { VirtualPresencialData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import IconEnergy from "@/images/icons/icon-energy-talks.svg";
 import MobileIconEnergy from "@/images/icons/icon-talks.svg";
-import ImgEnergyTalks from "@/images/energy_talks.jpg";
+import ImgEnergyTalks from "@/images/energy_talks.png";
 import { jsx } from '@emotion/react'
 
 import { 
@@ -17,11 +17,7 @@ import {
 }  from '../assets/styles/EnergyTalks.styles'
 import {
   secTitle,
-  subtitle,
   secDesk,
-  commonSection,
-  commonBtn,
-  redBg,
   noPaddingRight
 } from "../assets/styles/layout.styles";
 

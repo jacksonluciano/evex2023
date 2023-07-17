@@ -56,7 +56,7 @@ const HeaderOne = () => {
             <div css={logo}>
               <Link to="/">
                 <img src={LogoImage.light} alt="Evex" className="d-none d-lg-block" />
-                <img src={LogoImage.mobile} alt="Evex" className="d-block d-md-block d-lg-none" />
+                <img src={LogoImage.light} alt="Evex" className="d-block d-md-block d-lg-none" />
               </Link>
             </div>
           </Col>
@@ -97,22 +97,22 @@ const HeaderOne = () => {
           >
             <ul  css={socialList}>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/evexenergy/" target="_blank">
                   <img src={SocialIcons.instagram} alt="instagram" className="socialicon" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/evexenergy" target="_blank">
                   <img src={SocialIcons.twitter} alt="twitter" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/energy-virtual-experience-evex/?originalSubdomain=pt" target="_blank">
                   <img src={SocialIcons.linkedin} alt="linkedin" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.youtube.com/@evexenergy" target="_blank">
                   <img src={SocialIcons.youtube} alt="youtube" />
                 </a>
               </li>
@@ -134,17 +134,17 @@ const HeaderOne = () => {
               </a> */}
                <ul  css={socialList}>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/evexenergy/">
                   <img src={SocialIcons.instagram} alt="instagram" className="socialicon" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/evexenergy">
                   <img src={SocialIcons.twitter} alt="twitter" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/energy-virtual-experience-evex/?originalSubdomain=pt">
                   <img src={SocialIcons.linkedin} alt="linkedin" />
                 </a>
               </li>

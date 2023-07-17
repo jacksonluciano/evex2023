@@ -4,14 +4,13 @@ import { PatrocinadoresData } from "@/data";
 import Element8 from "@/images/elements/element-08.png"
 import Element14 from "@/images/elements/element-14.svg"
 import Element15 from "@/images/elements/element-15.svg"
-import { Col, Container, Row } from "react-bootstrap";
-import Img from "@/images/pat.png";
+import LogoTap from "@/images/logo_tap.svg"
+import LogoEvex from "@/images/logo-evex.png" 
+import { Col, Container, Row } from "react-bootstrap";  
 import { jsx } from "@emotion/react";
 
 import {
   abAgency,
-  pr79,
-  mb45,
   contact,
   element8,
   element14,
@@ -20,13 +19,9 @@ import {
   contactFrom,
 } from "../assets/styles/Duvidas.styles";
 import {
-  secTitle,
-  subtitle,
   secDesk,
-  commonSection,
   commonBtn,
   redBg,
-  noPaddingRight,
   inputForm,
   textarea,
 } from "../assets/styles/layout.styles";
@@ -47,12 +42,12 @@ const Duvidas = () => {
         <section css={realization}>
           <Row>
             <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Promoção e realização</h4>
-              <img src={Img} />
+              <h4 css={secDesk}>Promoção e Realização</h4>
+              <img src={LogoEvex} />
             </Col>
             <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Operadora oficial</h4>
-              <img src={Img} />
+              <h4 css={secDesk}>Operadora Oficial</h4>
+              <img src={LogoTap} />
             </Col>
           </Row>
         </section>

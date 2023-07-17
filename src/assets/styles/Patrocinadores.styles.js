@@ -5,7 +5,7 @@ import { colors } from "./layout.styles";
 export const abAgency = css`
   background-color: transparent;
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
   img {
     width: 100%;
@@ -247,6 +247,7 @@ export const about = css`
 
       li {
         margin: 10px;
+        width: 120px;
 
         @media (min-width: 320px) and (max-width: 767px) {
         width: 20%;

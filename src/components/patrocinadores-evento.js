@@ -14,7 +14,7 @@ import {
   pr79,
   mb45,
   about,
-  element11,
+  patrocinadores,
   element12,
   caio,
   element7
@@ -40,7 +40,7 @@ const PatrocinadoresEvento = () => {
               <h2 css={[secTitle, mb45]}>Patrocinadores</h2>
               <p>A terceira edição do EVEx foi assim especial e histórica, principalmente, por marcar a sua chegada em ambiente físico, estreitando ainda mais os “laços energéticos” entre Brasil, Portugal e Espanha, com o apoio fundamental dos seguintes patrocinadores:</p>
            <img css={element7} src={Element07} />   
-              <section className='diamante'>
+              {/* <section className='diamante'>
                 <h4 css={secDesk}>Diamante</h4>
                   <ul>
                     <li><img src={Img} /></li>
@@ -80,7 +80,15 @@ const PatrocinadoresEvento = () => {
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                   </ul>
-               </section>
+               </section> */}
+
+               <p css={patrocinadores} className="text-center">
+                · Patrocínio Diamante: Galp.<br/>
+· Patrocínio Platina: ADENE – Agência para a Energia e European Energy Network (EnR).<br/>
+· Patrocínio Ouro: Cemig e Governo do Estado de Minas Gerais.<br/>
+· Patrocínio Prata: EDP, Elétron Energy, Norte Energia e Comerc Energia.<br/>
+· Patrocínio Bronze: REN, Enel Brasil e ROLIM Advogados.<br/>
+               </p>
 
            </div>
           </Col>

@@ -170,7 +170,7 @@ export const moreBt = css`
   display: flex;
   justify-content: center;
 
-  button{
+  a{
     background-color:${colors.brandingSalmon};
     color:${colors.primaryMain};
     font-family: 'bw_gradual_demobold';

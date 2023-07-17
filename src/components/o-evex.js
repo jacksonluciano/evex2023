@@ -14,11 +14,7 @@ import {
 }  from '../assets/styles/Oevex.style'
 import {
   secTitle,
-  subtitle,
   secDesk,
-  commonSection,
-  commonBtn,
-  redBg,
   noPaddingRight
 } from "../assets/styles/layout.styles";
 

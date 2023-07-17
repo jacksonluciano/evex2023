@@ -1,10 +1,9 @@
 /** @jsx jsx */
 import React from "react";
 import { TransicoesEnergeticasData} from "@/data";
-import Element05 from "@/images/elements/element-05.svg"
 import IconEnergyExpo from "@/images/icons/icon-energy-expo.svg"
 import MobileIconExpo from "@/images/icons/icon-expo.svg"
-import ImgEnergyExpo from "@/images/Energy-Expo.jpg"
+import ImgEnergyExpo from "@/images/energy_expo.png"
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -12,8 +11,6 @@ import {
   abAgency,
   mb45,
   about,
-  element05,
-  operadora,
   p50,
   mobileIconExpo
 } from "../assets/styles/EnergyExpo.styles";

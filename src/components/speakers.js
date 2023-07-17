@@ -2,11 +2,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Element8 from "@/images/elements/element-08.png";
-import Arrow from '@/images/icons/arrow-down.svg'
 import image from '@/images/speaker/speaker.png'
 import { TeamOneData } from "@/data";
-import { Swiper, SwiperSlide } from "swiper/react";
-import TeamCard from "@/components/team-card";
 import { jsx } from "@emotion/react";
 import "swiper/swiper-bundle.min.css";
 
@@ -19,7 +16,7 @@ import {
   element
 } from "../assets/styles/Speakers.styles";
 
-import { commonSection, commonBtn }  from '../assets/styles/layout.styles'
+import { commonSection }  from '../assets/styles/layout.styles'
 
 import SwiperCore, { Pagination } from "swiper";
 

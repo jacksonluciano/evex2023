@@ -24,7 +24,7 @@ SwiperCore.use([Pagination]);
 
 const ClientCarouselOne = () => {
   const { sectionContent, items } = ClientCarouselData;
-  const { title, subTitle, text } = sectionContent;
+  const { title } = sectionContent;
 
   const carouselOptions = {
     spaceBetween: 0,
@@ -85,7 +85,7 @@ const ClientCarouselOne = () => {
               ))}
             </Swiper>
            <div css={moreBt}>
-              <button css={commonBtn}>Saiba mais</button>
+              <a href="/experiencias" css={commonBtn}>Saiba mais</a>
            </div>
           </Col>
           <img css={element} src={Element6} />

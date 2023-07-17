@@ -6,11 +6,11 @@ import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
 import Element08 from "@/images/elements/element-08.png";
 import Element03 from "@/images/elements/element-03.svg";
-import Evex3 from "@/images/evex3.jpg";
-import Abraceel from "@/images/event/abraceel.png";
-import Premios from "@/images/event/premios.png";
-import Acemel from "@/images/event/acemel.png";
-import MegaWhat from "@/images/event/megawhat.png";
+import Pdf from "@/images/Especial MW - Brasil e Portugal - Lições de um mercado de energia livre.pdf";
+import Abraceel from "@/images/oevex/missao-abraceel.png";
+import Premios from "@/images/oevex/premios-evex.png";
+import Acemel from "@/images/oevex/acemel.png";
+import MegaWhat from "@/images/oevex/especial-megawhat.png";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
@@ -177,7 +177,7 @@ const Evento = () => {
                 esteve presente no EVEx Lisboa 2022. A CEO, Larissa Araium, 
                 e os jornalistas, Camila Maia e Rodrigo Polito, além de representarem 
                 a MegaWhat como moderadores de painéis, fizeram uma cobertura especial 
-                das principais discussões do evento.<br></br> <a href="#">Confira o editorial aqui</a>.
+                das principais discussões do evento.<br></br> <a href={Pdf} target="_blank">Confira o editorial aqui</a>.
                 </p>
               </div>
               <img src={Element08} css={element8} />

@@ -8,7 +8,6 @@ import {
   widget,
   aboutWidget,
   contactWidget,
-  copyright,
   socialWidget,
   subscribeFrom,
 } from "../assets/styles/Footer.styles";

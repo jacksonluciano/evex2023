@@ -346,6 +346,10 @@ export const caio = css`
   margin-bottom: 40px;
 `;
 
+export const patrocinadores = css`
+  font-weight: 700 !important;
+`;
+
 export const abImg = css`
   position: absolute;
   right: 0;

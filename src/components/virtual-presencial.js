@@ -14,16 +14,13 @@ import {
 }  from '../assets/styles/VirtualPresencial.styles'
 import {
   secTitle,
-  subtitle,
   secDesk,
-  commonSection,
   commonBtn,
-  redBg,
   noPadding
 } from "../assets/styles/layout.styles";
 
 const virtualPresencial = () => {
-  const { sectionContent, image, element} = VirtualPresencialData;
+  const { sectionContent, image} = VirtualPresencialData;
   return (
     <section css={[abAgency]}>
       <Container fluid>

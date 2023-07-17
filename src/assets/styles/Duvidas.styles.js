@@ -7,6 +7,8 @@ export const abAgency = css`
   position: relative;
   overflow-x: hidden;
 
+  padding-top: 40px;
+
   @media (min-width: 320px) and (max-width: 767px) {
     padding-top: 120px;
   }
@@ -82,9 +84,14 @@ export const realization = css`
 
   div div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    &:nth-of-type(1){
+      img{
+        max-width: 180px;
+      }
+    }
   }
 
   h4 {
@@ -96,6 +103,7 @@ export const realization = css`
     width: 100%;
     max-width: 256px;
   }
+  
 `;
 
 export const contact = css`

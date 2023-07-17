@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import { FunfactData, LogoImage } from "@/data";

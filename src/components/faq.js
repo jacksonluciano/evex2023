@@ -1,7 +1,5 @@
 /** @jsx jsx */
 import React from "react";
-import { Link } from "gatsby";
-import { FaqData } from "@/data";
 import Arrow from '@/images/icons/arrow-down.svg'
 import Download from '@/images/icons/icon-download.svg'
 import Publicacao from '@/images/icons/icon-pub.svg'
