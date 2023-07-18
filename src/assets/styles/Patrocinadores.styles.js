@@ -41,6 +41,10 @@ export const about = css`
   color: ${colors.secondaryMain};
   align-items: center;
 
+  img{
+    mix-blend-mode: multiply;
+  }
+
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 100px 0px 00px;
   }
