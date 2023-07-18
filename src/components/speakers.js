@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Element8 from "@/images/elements/element-08.png";
 import image from '@/images/speaker/speaker.png'
 import { TeamOneData } from "@/data";
+import TeamCard from "@/components/team-card";
 import { jsx } from "@emotion/react";
 import "swiper/swiper-bundle.min.css";
 
@@ -13,7 +14,8 @@ import {
   speakerInfo,
   tmImg,
   speakersTitle,
-  element
+  element,
+  speakerCard
 } from "../assets/styles/Speakers.styles";
 
 import { commonSection }  from '../assets/styles/layout.styles'
@@ -72,7 +74,15 @@ const TeamCarousel = () => {
         </Row>
 
       <Row>
-      <Col lg={4} md={4} >
+
+
+      {posts.map((post, index) => (
+        <Col css={speakerCard} lg={4} md={4} >
+            <TeamCard data={post} />
+        </Col>
+        ))}
+
+      {/* <Col lg={4} md={4} >
        <div css={singleTM}> 
             <div css={tmImg}>
                 <img src={image} />
@@ -88,93 +98,7 @@ const TeamCarousel = () => {
                 </p>
             </div>
         </div>
-        </Col>
-
-        <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. 
-                </p>
-            </div>
-        </div>
-        </Col>
-
-        <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. 
-                </p>
-            </div>
-        </div>
-        </Col>
-
-        <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. 
-                </p>
-            </div>
-        </div>
-        </Col>
-
-        <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. 
-                </p>
-            </div>
-        </div>
-        </Col>
-
-        <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. 
-                </p>
-            </div>
-        </div>
-        </Col>
-
+        </Col> */}
 
       </Row>
         

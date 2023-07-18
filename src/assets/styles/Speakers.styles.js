@@ -347,3 +347,11 @@ export const speakersTitle = css`
         line-height: 21px;
     }
 `
+
+export const speakerCard = css`
+  margin-bottom: 32px;
+
+  div div:nth-of-type(1){
+    bottom: 0;
+  }
+`;
