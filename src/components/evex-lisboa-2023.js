@@ -28,7 +28,7 @@ const EvexLisboa2023 = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>EVEx Lisboa 2023</h2>
               <p css={secDesk}>{sectionContent.text}</p>
-              <Link to="/lisboa" css={commonBtn}>Porque Lisboa?</Link>
+              <Link to="/lisboa" css={commonBtn}>Por que Lisboa?</Link>
               <img css={element02} src={element} />
            </div>
           </Col>

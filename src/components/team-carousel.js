@@ -18,9 +18,9 @@ import {
 
 import { commonSection, commonBtn }  from '../assets/styles/layout.styles'
 
-import SwiperCore, { Pagination } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper";
 
-SwiperCore.use([Pagination]);
+SwiperCore.use([Pagination, Navigation]);
 
 const TeamCarousel = () => {
   const { sectionContent, posts } = TeamOneData;

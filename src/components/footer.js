@@ -59,22 +59,22 @@ const Footer = () => {
               <h2 className="widget_title">Siga-nos</h2>
               <ul>
               <li>
-                  <a href="#">
+                  <a href="https://www.youtube.com/channel/UCKJjSpLyJVn_6VVqzM9RKTw?app=desktop" target="_blank">
                     <i className="fa fa-youtube-play"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/evexenergy" target="_blank">
                     <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/evexenergy/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
                     <i className="fa fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/energy-virtual-experience-evex/" target="_blank">
                     <i className="fa fa-linkedin"></i>
                   </a>
                 </li>

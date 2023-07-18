@@ -213,6 +213,8 @@ export const singleTM = css`
 
 export const tmImg = css`
   position: relative;
+  border-radius: 0 0 8px 8px;
+    overflow: hidden;
 
   & img {
     width: 100%;
@@ -234,10 +236,10 @@ export const speakerInfo = css`
   border-radius: 8px;
   border:1px solid ${colors.secondaryMain};
   position: absolute;
-  bottom: 0;
+  bottom: 1px;
   z-index: 2;
   flex-direction: column;
-  padding: 24px;
+  padding: 20px 24px 4px;
   width: 100%;
 
   h4{

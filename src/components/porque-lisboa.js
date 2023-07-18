@@ -60,7 +60,7 @@ const PorqueLisboa = () => {
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={about}>
-              <h2 css={[secTitle, mb45]}>Porque Lisboa?</h2>
+              <h2 css={[secTitle, mb45]}>Por que Lisboa?</h2>
               <p css={secDesk}>
                 Lisboa foi escolhida para sediar os eventos presenciais do EVEx,
                 por ser uma das cidades da Península Ibérica que mais tem

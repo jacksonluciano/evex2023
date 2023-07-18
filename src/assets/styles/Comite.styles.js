@@ -215,6 +215,8 @@ export const singleTM = css`
 
 export const tmImg = css`
   position: relative;
+  border-radius: 0 0 8px 8px;
+  overflow: hidden;
 
   & img {
     width: 100%;
@@ -238,7 +240,7 @@ export const speakerInfo = css`
   bottom: 0;
   z-index: 2;
   flex-direction: column;
-  padding: 24px;
+  padding: 20px 24px 16px;
   width: 100%;
 
   h4{
@@ -253,6 +255,7 @@ export const speakerInfo = css`
     font-size: 14px;
     color:  ${colors.primaryMain};
     line-height: 21px;
+    margin-bottom: 0;
   }
 `
 

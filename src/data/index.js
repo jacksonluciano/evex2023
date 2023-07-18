@@ -122,6 +122,17 @@ import linkedinIcon from "@/images/icons/linkedin.svg"
 import twitterIcon from "@/images/icons/twitter.svg"
 import youtubeIcon from "@/images/icons/youtube.svg"
 
+import Speaker01 from "@/images/speaker/alexandre_zucarato.jpg"
+import Speaker02 from "@/images/speaker/fernanda_delgado.jpg"
+import Speaker03 from "@/images/speaker/pedro_jorge_amaral.jpg"
+import Speaker04 from "@/images/speaker/maria_joao_rolim.jpg"
+import Speaker05 from "@/images/speaker/filipe_matias_santos.jpg"
+import Speaker06 from "@/images/speaker/joana_freitas.jpg"
+import Speaker07 from "@/images/speaker/rodrigo_ferreira.jpg"
+import Speaker08 from "@/images/speaker/rosana_santos.jpg"
+import Speaker09 from "@/images/speaker/ricardo_nunes.jpg"
+import Speaker10 from "@/images/speaker/alice_khouri.jpg"
+
 export const LogoImage = {
   light: logo,
   mobile: logoMobile,
@@ -715,54 +726,54 @@ export const TeamOneData = {
   },
   posts: [
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker01,
+      name: "Alexandre Zucarato",
+      designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico ",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker02,
+      name: "Fernanda Delgado",
+      designation: "Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás ",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker03,
+      name: "Pedro Amaral Jorge",
+      designation: "Presidente, APREN – Associação Portuguesa de Energias Renováveis",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker04,
+      name: "Maria João Rolim",
+      designation: "Sócia, Rolim Goulart Cardoso",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker05,
+      name: "Filipe Matias Santos",
+      designation: "Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker06,
+      name: "Joana Freitas",
+      designation: "Administradora, EDP Produção",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker07,
+      name: "Rodrigo Ferreira",
+      designation: "Presidente, ABRACEEL – Associação Brasileira dos Comercializadores de Energia",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker08,
+      name: "Rosana Santos",
+      designation: "Diretora Executiva, Instituto E+ Transição Energética ",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker09,
+      name: "Ricardo Nunes",
+      designation: "Chief Strategy Officer, OMIP – The Iberian Energy Derivates Exchange e OMIClear – The Iberian Energy Clearing House ",
     },
     {
-      image: team01,
-      name: "Lorem ipsum",
-      designation: "Lorem ipsum",
+      image: Speaker10,
+      name: "Alice Khouri",
+      designation: "Founder, Women in ESG Portugal",
     },
   ]
 };
@@ -775,7 +786,8 @@ export const ComiteData = {
     {
       image: Comite01,
       name: "Caio César Cavalcanti",
-      description: "Presidente e Fundador, EVEx – Energy Virtual Experience Investigador Científico, Universidade de Coimbra",
+      description:"Presidente e Fundador, EVEx – Energy Virtual Experience;",
+      line: "Investigador Científico, Universidade de Coimbra",
     },
     {
       image: Comite02,
@@ -1285,7 +1297,7 @@ export const EvexLisboaData = {
     title: "O EVEx",
     text:
       `Neste ano, a capital de Portugal e a NOVA continuam a ser a nossa casa.
-      O EVEx, em sua quarta edição, repetirá o formato de sucesso da edição passada e terá novamente dois eventos. O primeiro vai ocorrer totalmente online e ao vivo, nos dias 18 a 21 de setembro. Já o segundo será presencial, na Reitoria da Universidade NOVA de Lisboa, nos dias 25 e 26 de outubro.
+      O EVEx, em sua quarta edição, repetirá o formato de sucesso da edição passada e terá novamente dois eventos. O primeiro vai ocorrer totalmente online e ao vivo, nos dias 02 a 05 de outubro. Já o segundo será presencial, na Reitoria da Universidade NOVA de Lisboa, nos dias 25 e 26 de outubro.
       Mal podemos esperar para regressar com toda a energia!`,
   },
   button: {
@@ -1327,9 +1339,9 @@ export const TransicoesEnergeticasData = {
 
 export const blocksTeData = [
   {
-    date: '18 a 21 de Setembro',
-    text: 
-        `Energy Virtual Experience Evento Online`
+    date: '02 a 05 de Outubro',
+    text:`Energy Virtual Experience 
+    Evento Online`
   },
   {
     date: '25 e 26 de Outubro',

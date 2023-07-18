@@ -115,9 +115,9 @@ const Duvidas = () => {
                   proposta de patrocínio e/ou exposição, conforme as
                   necessidades específicas da sua empresa.
                 </p>
-                <button css={commonBtn}>
+                <a href="https://wa.me/+351912349476" css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}
-                </button>
+                </a>
                 {/* <button css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}
                 </button>

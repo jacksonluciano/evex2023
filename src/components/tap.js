@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { EvexLisboaData } from "@/data";
+import Regulamento from "@/images/regulamento_tap.pdf"
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
@@ -36,9 +37,9 @@ const Tap = () => {
               <h3>10% em classe econômica;</h3>
               <h3>10% em classe executiva.</h3>
               <p css={secDesk}>
-                {`Os descontos são aplicáveis para viagens de ida e volta de qualquer destino TAP para Lisboa e é válido apenas em voos operados pela TAP. Para demais condições e instruções de como efetuar a reserva online, consulte o regulamento abaixo disponível para download. Qualquer dúvida, entre em contato com a secretaria do EVEx através do e-mail secretaria@evex.energy`}
+                {`Os descontos são aplicáveis para viagens de ida e volta de qualquer destino TAP para Lisboa e são válidos apenas em voos operados pela TAP. Para demais condições e instruções de como efetuar a reserva online, consulte o regulamento abaixo disponível para download. Qualquer dúvida, entre em contato com a secretaria do EVEx através do e-mail secretaria@evex.energy`}
               </p>
-              <button css={commonBtn}>Regulamento TAP</button>
+              <a href={Regulamento} target="_blank" css={commonBtn}>Regulamento TAP</a>
            </div>
           </Col>
         </Row>
