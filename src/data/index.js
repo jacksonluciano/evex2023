@@ -157,7 +157,7 @@ export const NavLinks = [
     url: "/lisboa",
   },
   {
-    name: "Experiência",
+    name: "Experiências",
     url: "/experiencias",
   },
   {
