@@ -13,7 +13,6 @@ export const abAgency = css`
 `
 
 export const pr79 = css`
-  padding-right: 79px;
   z-index: 2;
 
   @media (min-width: 320px) and (max-width: 767px) {

@@ -19,6 +19,7 @@ import {
 import { commonSection, commonBtn }  from '../assets/styles/layout.styles'
 
 import SwiperCore, { Pagination, Navigation } from "swiper";
+import { Link } from "gatsby";
 
 SwiperCore.use([Pagination, Navigation]);
 
@@ -85,7 +86,7 @@ const TeamCarousel = () => {
         {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
       </Swiper>
       <div css={moreBt}>
-        <button css={commonBtn}>Todos os Speakers</button>
+        <Link to='/speakers' css={commonBtn}>Todos os Speakers</Link>
       </div>
       <img css={element} src={Element7} />
       </Container>

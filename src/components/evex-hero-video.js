@@ -37,10 +37,10 @@ const Inscricoes = () => {
 
       <Row>
           <Col css={sectionTitle} lg={12}>
-             <h2>EVEx Lisboa 2023: <br></br> Do Virtul ao Presencial</h2>
+             <h2>EVEx Lisboa: <br></br> Do Virtual ao Presencial</h2>
              <p>
                 {`Com o tema “Transição e Transformação Energética: novos rumos para Europa e América Latina”, os dois eventos do EVEx Lisboa 2022 (Energy Virtual Experience e Lisbon Energy Experience) reuniram alguns dos principais players e stakeholders dos mercados ibérico e latino-americano de energia.
-O encontro online foi realizado nos dias 10 a 14 de outubro de 2022, no mesmo formato clássico das edições anteriores, incluindo mais de 25 sessões de Energy Virtual Talks, Energy Virtual MasterClasses, Energy Virtual Academy e Energy Virtual Expo/Business. Ao todo, foram mais de 30 horas de transmissão livestream, com cerca de 80 oradores e 350 participantes inscritos..`}
+O encontro online foi realizado nos dias 10 a 14 de outubro de 2022, no mesmo formato clássico das edições anteriores, incluindo mais de 25 sessões de Energy Virtual Talks, Energy Virtual MasterClasses, Energy Virtual Academy e Energy Virtual Expo/Business. Ao todo, foram mais de 30 horas de transmissão livestream, com cerca de 80 oradores e 350 participantes inscritos.`}
              </p>
           </Col>
         </Row>

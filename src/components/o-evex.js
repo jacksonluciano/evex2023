@@ -15,7 +15,8 @@ import {
 import {
   secTitle,
   secDesk,
-  noPaddingRight
+  noPaddingRight,
+  noPaddingLeft
 } from "../assets/styles/layout.styles";
 
 const OEvex = () => {
@@ -31,7 +32,7 @@ const OEvex = () => {
               <img css={element01} src={element} />
            </div>
           </Col>
-          <Col lg={6} md={6} sm={12} css={noPaddingRight}>
+          <Col lg={6} md={6} sm={12} css={[noPaddingRight, noPaddingLeft]}>
             <img css={imgFull} src={image} />
           </Col>
         </Row>

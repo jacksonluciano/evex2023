@@ -264,6 +264,10 @@ export const slider = css`
     :hover {
       background-color: ${colors.brandingSalmon};
     }
+
+    &.swiper-button-disabled {
+      display: none;
+    }
   }
 
   #main-slider-prev {

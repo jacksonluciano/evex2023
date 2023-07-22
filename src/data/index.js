@@ -107,15 +107,17 @@ import EventSpeakers04 from "@/images/oevex/speakers-4.png"
 import EventSpeakers05 from "@/images/oevex/speakers-5.png"
 
 
-import Gallery01 from "@/images/gallery/01.png"
-import Gallery02 from "@/images/gallery/02.png"
-import Gallery03 from "@/images/gallery/03.png"
-import Gallery04 from "@/images/gallery/04.png"
-import Gallery05 from "@/images/gallery/05.png"
-import Gallery06 from "@/images/gallery/06.png"
-import Gallery07 from "@/images/gallery/07.png"
+import Gallery01 from "@/images/lisbon_energy/lisbon_energy_01.png"
+import Gallery02 from "@/images/lisbon_energy/lisbon_energy_02.png"
+import Gallery03 from "@/images/lisbon_energy/lisbon_energy_03.png"
+import Gallery04 from "@/images/lisbon_energy/lisbon_energy_04.png"
+import Gallery05 from "@/images/lisbon_energy/lisbon_energy_05.png"
+import Gallery06 from "@/images/lisbon_energy/lisbon_energy_06.png"
+import Gallery07 from "@/images/lisbon_energy/lisbon_energy_07.png"
+import Gallery08 from "@/images/lisbon_energy/lisbon_energy_08.png"
+import Gallery09 from "@/images/lisbon_energy/lisbon_energy_09.png"
 
-import EventSpeakers from "@/images/event/speakers.png"
+// import EventSpeakers from "@/images/event/speakers.png"
 
 import instagramIcon from "@/images/icons/instagram.svg"
 import linkedinIcon from "@/images/icons/linkedin.svg"
@@ -1218,9 +1220,6 @@ export const Evex1Data = [
   {
     img: EvexSlide04
   },
-  {
-    img: EvexSlide05
-  },
 ]
 
 export const Evex2Data = [
@@ -1268,6 +1267,12 @@ export const ExperienceGalleryData = [
   },
   {
     img: Gallery07
+  },
+  {
+    img: Gallery08
+  },
+  {
+    img: Gallery09
   },
 ]
 
@@ -1351,19 +1356,19 @@ export const blocksTeData = [
 
 export const AgendaOnlineData = [
   {
-    date: '18/09/22',
+    date: '02/10/23',
     day: `Segunda-feira`,
   },
   {
-    date: '19/09/22',
+    date: '03/10/23',
     day: `Terça-feira`,
   },
   {
-    date: '20/09/22',
+    date: '04/10/23',
     day: `Quarta-feira`,
   },
   {
-    date: '21/09/22',
+    date: '05/10/23',
     day: `Quinta-feira`,
   },
 ];

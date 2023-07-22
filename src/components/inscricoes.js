@@ -57,7 +57,7 @@ const Inscricoes = () => {
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} className="orange" >
                   <h2>EVEx Pass</h2>
-                  <h3>18 a 21 de Setembro</h3>
+                  <h3>02 a 05 de Outubro</h3>
                   <p>Profissionais</p>
                   <h4>R$ 648,00 / € 129,00</h4>
                   <p>Estudantes</p>

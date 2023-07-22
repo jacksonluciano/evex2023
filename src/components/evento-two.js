@@ -113,12 +113,13 @@ const Evento = () => {
                   Missão <br></br> Abraceel
                 </h2>
                 <p css={secDesk}>
-                  Entre as autoridades participantes, estavam o Secretário de
-                  Estado do Ambiente e da Energia de Portugal, João Galamba; o
-                  Presidente da ADENE – Agência para a Energia, Nelson Lage; o
-                  Presidente do MIBGAS – Mercado Ibérico de Gás Natural, Raúl
-                  Yunta Huete; e o Embaixador do Brasil em Portugal, Raimundo
-                  Carreiro.
+                  O EVEx Lisboa também foi palco da Missão ABRACEEL – Associação
+                  Brasileira dos Comercializadores de Energia, liderada por seu
+                  Presidente Executivo, Rodrigo Ferreira, que levou ao evento um
+                  grupo de mais de 40 pessoas, entre profissionais das empresas
+                  associadas, da ANEEL, do Congresso Nacional e do Ministério de
+                  Minas e Energia do Brasil, para conhecer aspectos do MIBEL –
+                  Mercado Ibérico de Eletricidade.
                 </p>
               </div>
             </div>
@@ -129,11 +130,13 @@ const Evento = () => {
             <div css={[lisboaTwo, darkBg]}>
               <div>
                 <p css={secDesk}>
-                Um dos frutos da missão foi a negociação de um acordo de cooperação 
-                entre a ABRACEEL e a ACEMEL – Associação dos Comercializadores de 
-                Energia no Mercado Liberalizado (na ocasião, presidida por Ricardo Antunes), 
-                com vista à troca de informações e condução de inciativas comuns para o
-                 desenvolvimento do mercado livre de energia do Brasil e de Portugal.
+                  Um dos frutos da missão foi a negociação de um acordo de
+                  cooperação entre a ABRACEEL e a ACEMEL – Associação dos
+                  Comercializadores de Energia no Mercado Liberalizado (na
+                  ocasião, presidida por Ricardo Antunes), com vista à troca de
+                  informações e condução de inciativas comuns para o
+                  desenvolvimento do mercado livre de energia do Brasil e de
+                  Portugal.
                 </p>
               </div>
             </div>
@@ -149,17 +152,16 @@ const Evento = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, darkBg]}>
               <div>
-                <h2 css={[secTitle, mb45]}>
-                  Prêmios Evex
-                </h2>
+                <h2 css={[secTitle, mb45]}>Prêmios Evex</h2>
                 <p css={secDesk}>
-                A advogada Maria João Rolim, personalidade homenageada no EVEx 2021, 
-                e Caio César Cavalcanti, fundador do EVEx, entregaram os Prêmios EVEx 
-                Personalidades do Ano 2022 para: Teresa Ponce de Leão, Presidente do 
-                Laboratório Nacional de Energia e Geologia – LNEG, na categoria 
-                “Personalidade da Península Ibérica”, e Reynaldo Passanezi, CEO da 
-                Companhia Energética de Minas Gerais – Cemig, na categoria “Personalidade 
-                da América Latina”.
+                  A advogada Maria João Rolim, personalidade homenageada no EVEx
+                  2021, e Caio César Cavalcanti, fundador do EVEx, entregaram os
+                  Prêmios EVEx Personalidades do Ano 2022 para: Teresa Ponce de
+                  Leão, Presidente do Laboratório Nacional de Energia e Geologia
+                  – LNEG, na categoria “Personalidade da Península Ibérica”, e
+                  Reynaldo Passanezi, CEO da Companhia Energética de Minas
+                  Gerais – Cemig, na categoria “Personalidade da América
+                  Latina”.
                 </p>
               </div>
             </div>
@@ -169,15 +171,20 @@ const Evento = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo]}>
               <div>
-              <h2 css={[secTitle, mb45]}>
+                <h2 css={[secTitle, mb45]}>
                   Especial <br></br> MegaWhat
                 </h2>
                 <p css={secDesk}>
-                A MegaWhat, media partner do EVEx desde a sua primeira edição, 
-                esteve presente no EVEx Lisboa 2022. A CEO, Larissa Araium, 
-                e os jornalistas, Camila Maia e Rodrigo Polito, além de representarem 
-                a MegaWhat como moderadores de painéis, fizeram uma cobertura especial 
-                das principais discussões do evento.<br></br> <a href={Pdf} target="_blank">Confira o editorial aqui</a>.
+                  A MegaWhat, media partner do EVEx desde a sua primeira edição,
+                  esteve presente no EVEx Lisboa 2022. A CEO, Larissa Araium, e
+                  os jornalistas, Camila Maia e Rodrigo Polito, além de
+                  representarem a MegaWhat como moderadores de painéis, fizeram
+                  uma cobertura especial das principais discussões do evento.
+                  <br></br>{" "}
+                  <a href={Pdf} target="_blank">
+                    Confira o editorial aqui
+                  </a>
+                  .
                 </p>
               </div>
               <img src={Element08} css={element8} />
@@ -186,7 +193,6 @@ const Evento = () => {
           <Col lg={6} md={6} sm={12} css={noPadding}>
             <img src={MegaWhat} />
           </Col>
-         
         </Row>
       </Container>
     </section>

@@ -63,10 +63,19 @@ export const about = css`
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
 
+    img{
+      width: 56px;
+      margin-left: 4px;
+    }
+
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 56px;
       line-height: 64px;
       margin: 60px 0 24px;
+
+      img{
+        display: none;
+      }
     }
   }
 

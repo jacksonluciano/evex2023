@@ -61,6 +61,10 @@ export const teamSlider = css`
       :hover{
         background-color:${colors.brandingSalmon};
       }
+
+      &.swiper-button-disabled {
+      display: none;
+    }
     }
 
     #main-slider-prev{

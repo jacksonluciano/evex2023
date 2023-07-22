@@ -4,7 +4,7 @@ import { PatrocinadoresData } from "@/data";
 import Element11 from "@/images/elements/element-11.svg"
 import Element12 from "@/images/elements/element-12.svg"
 import Element07 from "@/images/elements/element-07.svg"
-import Caio from "@/images/caio.jpg"
+import Caio from "@/images/caio_.jpg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images/pat.png'
 import { jsx } from '@emotion/react'

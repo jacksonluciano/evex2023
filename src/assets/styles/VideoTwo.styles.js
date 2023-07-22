@@ -31,8 +31,6 @@ export const videoWrap = css`
   width:100%;
   margin: 80px 0;
   border-radius: 10px;
-  margin-left:15px;
-  margin-right:15px;
   z-index: 2;
 
   iframe{

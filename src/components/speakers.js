@@ -74,50 +74,14 @@ const TeamCarousel = () => {
         </Row>
 
       <Row>
-
-
       {posts.map((post, index) => (
         <Col css={speakerCard} lg={4} md={4} >
             <TeamCard data={post} />
         </Col>
         ))}
 
-      {/* <Col lg={4} md={4} >
-       <div css={singleTM}> 
-            <div css={tmImg}>
-                <img src={image} />
-            </div>
-            <div css={speakerInfo}>
-                <h4>Élbia Gannoum</h4>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
-                specimen book. It has survived not only five centuries, but also the leap 
-                into electronic typesetting, remaining essentially unchanged. 
-                </p>
-            </div>
-        </div>
-        </Col> */}
-
       </Row>
         
-      
-      {/* <Swiper css={teamSlider} {...carouselOptions}>
-        <span id="main-slider-next">
-        <img src={Arrow} />
-        </span>
-        {posts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <TeamCard data={post} />
-          </SwiperSlide>
-        ))}
-        <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div>
-      </Swiper>
-      <div css={moreBt}>
-        <button css={commonBtn}>Saiba mais</button>
-      </div>
-      <img css={element} src={Element7} /> */}
       </Container>
       <img css={element} src={Element8} />
     </section>

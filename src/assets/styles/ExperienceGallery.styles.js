@@ -71,6 +71,9 @@ export const teamSlider = css`
       img{
         transform: rotate(270deg);
       }
+      &.swiper-button-disabled {
+      display: none;
+    }
 
     }
     #main-slider-prev{

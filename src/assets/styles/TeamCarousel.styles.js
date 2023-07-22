@@ -57,6 +57,9 @@ export const teamSlider = css`
       img{
         transform: rotate(270deg);
       }
+      &.swiper-button-disabled{
+        display: none;
+      }
 
     }
     #main-slider-prev{
@@ -349,7 +352,7 @@ export const moreBt = css`
   display: flex;
   justify-content: center;
 
-  button{
+  a{
     background-color:${colors.brandingSalmon};
     color:${colors.primaryMain};
     font-family: 'bw_gradual_demobold';

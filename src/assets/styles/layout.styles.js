@@ -198,7 +198,7 @@ export const textarea = css`
 `
 
 export const noPadding = css`
-  padding:0;
+  padding:0 !important;
 `
 
 export const noPaddingRight = css`
