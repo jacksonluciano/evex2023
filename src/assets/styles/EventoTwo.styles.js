@@ -40,7 +40,7 @@ export const mb45 = css`
 
 export const about = css`
   position: relative;
-  padding: 50px;
+  padding: 36px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -93,7 +93,7 @@ export const about = css`
 
 export const lisboaTwo = css`
   position: relative;
-  padding: 60px;
+  padding: 18px;
   display: flex;
   justify-content: center;
   flex-direction: column;
