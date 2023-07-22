@@ -7,6 +7,10 @@ export const whatWedo = css`
   padding-bottom: 72px;
   background-color: ${colors.primaryMain};
   padding: 120px 0 44px;
+
+   @media (min-width: 320px) and (max-width: 767px) {
+    padding: 0px 0 44px;
+  }
   /* &:after {
     position: absolute;
     left: 0;

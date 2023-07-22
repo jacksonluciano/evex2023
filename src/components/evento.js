@@ -103,7 +103,7 @@ const Evento = () => {
              <div>
              <h2 css={[secTitle, mb45]}>Autoridades</h2>
               <p css={secDesk}>
-                Entre as autoridades participantes, estavam o Secretário de
+                Entre as autoridades participantes, estavam o então Secretário de
                 Estado do Ambiente e da Energia de Portugal, João Galamba; o
                 Presidente da ADENE – Agência para a Energia, Nelson Lage; o
                 Presidente do MIBGAS – Mercado Ibérico de Gás Natural, Raúl
@@ -144,7 +144,7 @@ const Evento = () => {
                 Jurídicos da ERSE – Entidade Reguladora dos Serviços
                 Energéticos, Filipe Matias Santos, e do Procurador-Geral da
                 ANEEL – Agência Nacional de Energia Elétrica, Luiz Eduardo Diniz
-                Araújo
+                Araújo.
               </p>
             </div>
           </Col>

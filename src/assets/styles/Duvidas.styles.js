@@ -92,6 +92,9 @@ export const realization = css`
         max-width: 180px;
       }
     }
+    @media (min-width: 320px) and (max-width: 767px) {
+    margin-bottom: 32px;
+  }
   }
 
   h4 {
@@ -233,7 +236,7 @@ export const element14 = css`
   z-index: 0;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    width: 120px;
+    width: 30% !important;
   }
 `;
 

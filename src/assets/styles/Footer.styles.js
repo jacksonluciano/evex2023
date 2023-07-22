@@ -82,7 +82,7 @@ export const contactWidget = css`
 
     &:first-of-type { 
       @media (min-width: 320px) and (max-width: 767px) {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
       }
     }
 

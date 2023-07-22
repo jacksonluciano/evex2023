@@ -81,7 +81,7 @@ export const about = css`
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 12px;
+    padding: 42px 12px 12px;
 
     h2{
       font-size: 56px;
@@ -103,6 +103,7 @@ export const lisboaTwo = css`
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 24px 12px;
+    overflow-x: hidden; 
   }
 
   h2{
