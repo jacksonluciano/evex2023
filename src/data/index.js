@@ -85,6 +85,7 @@ import Lisboa01 from "@/images/lisboa/01.jpg"
 import Lisboa02 from "@/images/lisboa/02.jpg"
 import Lisboa03 from "@/images/lisboa/03.jpg"
 import Lisboa04 from "@/images/lisboa/04.jpg"
+import Lisboa05 from "@/images/lisboa/08.jpg"
 
 import Capital from "@/images/lisboa/04.jpg"
 import Capital02 from "@/images/lisboa/06.jpg"
@@ -1196,7 +1197,7 @@ export const LisboaSlideData = [
     img: Lisboa03
   },
   {
-    img: Lisboa04
+    img: Lisboa05
   }
 ]
 
