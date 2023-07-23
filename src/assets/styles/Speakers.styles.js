@@ -330,7 +330,7 @@ export const element = css`
     top: 100px;
     right: 16%;
     @media (min-width: 320px) and (max-width: 767px) {
-      width: 100%;
+      width: 90%;
     left: 50%;
     transform: translate(-46%, 60px);
     }

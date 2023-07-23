@@ -38,7 +38,7 @@ const ClientCarouselOne = () => {
     breakpoints: {
       0: {
         spaceBetween: 8,
-        slidesPerView: 1,
+        slidesPerView: 'auto',
         slidesPerGroup: 1,
       },
       576: {

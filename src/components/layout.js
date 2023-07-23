@@ -142,7 +142,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Helmet>
-        <title>{PageTitle} - LOREM IPSUM</title>
+        <title>{PageTitle} - EVEx 2023</title>
       </Helmet>
       <div id="wrapper">
         <GlobalStyles />

@@ -10,6 +10,7 @@ export const team = css`
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 100px !important;
+    padding: 0px 0!important;
     overflow-x: hidden;
     }
 
@@ -340,6 +341,10 @@ export const teamPagination = css`
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
 
+    .swiper-pagination{
+      bottom: -32px;
+    }
+
     &.swiper-pagination-bullet-active {
       background: #000;
     }
@@ -388,6 +393,7 @@ export const element = css`
     @media (min-width: 320px) and (max-width: 767px) {
       width: 90% !important;
       left: 40px;
-      bottom:-77px
+      bottom:-77px;
+      display: none;
     }
 `

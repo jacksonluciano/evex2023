@@ -220,7 +220,7 @@ export const navigator = css`
       justify-content: center;
 
       i{
-        padding: 10px 0 10px 10px;
+        padding: 20px 0 10px 10px;
       }
     }
 

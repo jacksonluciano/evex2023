@@ -311,5 +311,7 @@ export const element2 = css`
     left: 0;
     width: 223px !important;
     z-index: 9;
-  
+    @media (min-width: 320px) and (max-width: 767px) {
+    display:none;
+  }
 `

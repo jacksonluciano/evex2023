@@ -145,6 +145,8 @@ export const orangeBg = css`
     }
 `
 
+
+
 export const element01 = css`
     position: absolute;
     width: auto !important;
@@ -300,6 +302,17 @@ export const slider = css`
     }
   }
 
+  @media (min-width: 320px) and (max-width: 767px) {
+  margin-left: 8px;
+  .swiper-slide{
+      width: 90% !important;
+    }
+    #main-slider-next,
+    #main-slider-prev{
+      display: none;
+    }
+  }
+
 `
 
 export const element17 = css`
@@ -310,5 +323,22 @@ export const element17 = css`
     top: 25px;
     width: 130px !important;
     right: 0;
+  }
+`
+
+export const bgSalmon = css`
+ @media (min-width: 320px) and (max-width: 767px) {
+    background-color: ${colors.brandingOrange};
+    padding-left: 8px;
+    padding-top: 8px !important;
+    margin-left: 0%;
+  }
+`
+
+export const bgWhite = css`
+ @media (min-width: 320px) and (max-width: 767px) {
+    padding-left: 8px;
+    padding-top: 8px !important;
+    margin-left: 0%;
   }
 `

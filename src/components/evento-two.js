@@ -29,6 +29,8 @@ import {
   element3,
   element8,
   divider,
+  lisboaTwoRow,
+  premiosMobile
 } from "../assets/styles/EventoTwo.styles";
 import {
   secTitle,
@@ -125,7 +127,7 @@ const Evento = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row css={[lisboaTwoRow]}>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, darkBg]}>
               <div>
@@ -150,7 +152,7 @@ const Evento = () => {
             <img src={Premios} />
           </Col>
           <Col css={noPadding} lg={6} md={6} sm={12}>
-            <div css={[lisboaTwo, darkBg]}>
+            <div css={[lisboaTwo, darkBg, premiosMobile]}>
               <div>
                 <h2 css={[secTitle, mb45]}>Prêmios Evex</h2>
                 <p css={secDesk}>
@@ -167,7 +169,7 @@ const Evento = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row css={[lisboaTwoRow]}>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo]}>
               <div>

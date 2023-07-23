@@ -25,7 +25,9 @@ import {
   lisboaTwo,
   orangeBg,
   slider,
-  element17
+  element17,
+  bgSalmon,
+  bgWhite
 } from "../assets/styles/PorqueLisboa.styles";
 import {
   secTitle,
@@ -51,7 +53,8 @@ const PorqueLisboa = () => {
       nextEl: "#main-slider-next",
       prevEl: "#main-slider-prev",
     },
-    slidesPerView: 1,
+    slidesPerView: 'auto',
+    spaceBetween: 8,
   };
 
   return (
@@ -110,7 +113,7 @@ const PorqueLisboa = () => {
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <Swiper css={slider} {...testimonialsOptions}>
+            <Swiper css={[slider, bgSalmon]} {...testimonialsOptions}>
               <span id="main-slider-prev">
                 <img src={Arrow} />
               </span>
@@ -145,7 +148,7 @@ const PorqueLisboa = () => {
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <Swiper css={slider} {...testimonialsOptions}>
+            <Swiper css={[slider,bgWhite]} {...testimonialsOptions}>
               <span id="main-slider-prev">
                 <img src={Arrow} />
               </span>

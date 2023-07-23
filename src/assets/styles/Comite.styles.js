@@ -65,6 +65,7 @@ export const teamSlider = css`
       &.swiper-button-disabled {
       display: none;
     }
+
     }
 
     #main-slider-prev{
@@ -97,6 +98,12 @@ export const teamSlider = css`
   & .slick-slide {
     margin: 0 15px;
     outline: none;
+  }
+
+  .swiper-slide{
+    @media (min-width: 320px) and (max-width: 767px) {
+    width: 80%;
+  }
   }
 `;
 

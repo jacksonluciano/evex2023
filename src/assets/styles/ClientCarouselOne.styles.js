@@ -153,7 +153,7 @@ margin-bottom: 24px;
     font-size: 24px;
     text-decoration: underline;
     margin-bottom: 40px;
-    height: 80px;
+    height: 70px;
     margin: 0;
   }
 
@@ -162,6 +162,11 @@ margin-bottom: 24px;
     font-size: 16px;
     margin: 0;
     line-height: 23px;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width:85% !important;
+    min-height: 508px;
   }
 }
 `

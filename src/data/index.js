@@ -80,9 +80,17 @@ import ExperienciaIcon03 from "@/images/icons/icon-academy.svg"
 import ExperienciaIcon04 from "@/images/icons/icon-expo.svg"
 // import ClientCarousel05 from "@/images/client/5.png"
 
-import Lisboa from "@/images/lisboa.jpg"
-import Capital from "@/images/capital.jpg"
-import Alfama from "@/images/alfama.jpg"
+import Lisboa from "@/images/lisboa/lisboa.jpg"
+import Lisboa01 from "@/images/lisboa/01.jpg"
+import Lisboa02 from "@/images/lisboa/02.jpg"
+import Lisboa03 from "@/images/lisboa/03.jpg"
+import Lisboa04 from "@/images/lisboa/04.jpg"
+
+import Capital from "@/images/lisboa/04.jpg"
+import Capital02 from "@/images/lisboa/06.jpg"
+
+import Alfama from "@/images/lisboa/07.jpg"
+import Alfama02 from "@/images/lisboa/05.jpg"
 
 import Evex01 from "@/images/evex1.jpg"
 import Evex02 from "@/images/evex2.jpg"
@@ -1179,13 +1187,16 @@ export const LisboaSlideData = [
     img: Lisboa
   },
   {
-    img: Lisboa
+    img: Lisboa01
   },
   {
-    img: Lisboa
+    img: Lisboa02
   },
   {
-    img: Lisboa
+    img: Lisboa03
+  },
+  {
+    img: Lisboa04
   }
 ]
 
@@ -1194,7 +1205,7 @@ export const CapitalSlideData = [
     img: Capital
   },
   {
-    img: Capital
+    img: Capital02
   },
 ]
 
@@ -1203,7 +1214,7 @@ export const AlfamaSlideData = [
     img: Alfama
   },
   {
-    img: Alfama
+    img: Alfama02
   },
 ]
 

@@ -40,8 +40,8 @@ const Comite = () => {
     },
     breakpoints: {
       0: {
-        spaceBetween: 0,
-        slidesPerView: 1,
+        spaceBetween: 8,
+        slidesPerView: 'auto',
         slidesPerGroup: 1,
       },
       576: {
