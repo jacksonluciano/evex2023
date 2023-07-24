@@ -15,7 +15,13 @@ export const team = css`
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
     margin-left: 40px;
-    margin-bottom:24px
+    margin-bottom:24px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-left: 0;
+      text-align: center;
+    }
+    
   }
 `;
 
