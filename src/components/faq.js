@@ -5,7 +5,8 @@ import Download from '@/images/icons/icon-download.svg'
 import Publicacao from '@/images/icons/icon-pub.svg'
 import Normas from '@/images/EVEx2023 - Regras de Formatação.pdf'
 import Eixos from '@/images/EVEx2023 - Eixos Temáticos.pdf'
-// import Resumo from '@/images/Resumo.docx'
+import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
+import Anais from '@/images/Anais EVEx 2020.pdf'
 import { jsx } from "@emotion/react";
 
 import {
@@ -130,7 +131,7 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a target="_blank">
+                      <a href={'#'} target="_blank">
                         <img src={Download} /> Template Resumo
                       </a>
                     </p>
@@ -164,17 +165,17 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                   <AccordionItemPanel css={resposta}>
                     
                     <p css={mb16}>
-                      <a href="#">
+                      <a href={Ebook} target="_blank">
                         <img src={Publicacao} /> Energia em Tempos de Pandemia
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href="#">
+                      <a>
                         <img src={Publicacao} /> Energia nos Tempos da Pandemia: Da segunda onda ao cenário vacinal no contexto ibero-americano
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href="#">
+                      <a href={Anais} target="_blank">
                         <img src={Publicacao} /> Anais EVEx 2020
                       </a>
                     </p>
