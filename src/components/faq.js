@@ -131,12 +131,12 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href={'#'} target="_blank">
+                      <a href='https://www.playbook.com/s/jacksonides/GkGbSc2tRcAaeZ92hUEJsiEE' target="_blank">
                         <img src={Download} /> Template Resumo
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href="#">
+                      <a href="https://www.playbook.com/s/jacksonides/vhyHpyb4GSxNoT3DSmsoV5cX" target="_blank">
                         <img src={Download} /> Template Apresentação
                       </a>
                     </p>
