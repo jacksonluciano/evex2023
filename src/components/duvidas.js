@@ -48,11 +48,16 @@ const Duvidas = () => {
             </Col>
             <Col lg={4} md={4} sm={12}>
               <h4 css={secDesk}>Hotel Oficial</h4>
-              <img src={Hotel} />
+              <a href='https://www.dompedrolisboa.com/m/' target='_blank'>
+                <img src={Hotel} />
+              </a>
+              
             </Col>
             <Col lg={4} md={4} sm={12}>
               <h4 css={secDesk}>Operadora Oficial</h4>
+              <a href='https://www.flytap.com/pt-br/' target='_blank'>
               <img src={LogoTap} />
+              </a>
             </Col>
           </Row>
         </section>
