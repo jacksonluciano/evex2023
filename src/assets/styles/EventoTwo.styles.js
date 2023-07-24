@@ -112,7 +112,7 @@ export const premiosMobile = css`
 
 export const lisboaTwo = css`
   position: relative;
-  padding: 18px;
+  padding: 0px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -139,6 +139,7 @@ export const lisboaTwo = css`
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
+    margin-bottom:24px
     a {
       color: ${colors.brandingOrange};
       font-weight: 600;
