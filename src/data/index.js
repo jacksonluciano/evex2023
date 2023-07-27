@@ -1476,6 +1476,7 @@ export const ContentData2 = [
   {
     text:`<h3>Dia 25 de Outubro</h3>
 <p>
+<strong>
 08h30 – Credenciamento e Welcome Drink<br></br>
 09h05 – Boas-Vindas<br></br>
 09h15 – Painel de Abertura – Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana <br></br>
@@ -1495,19 +1496,20 @@ export const ContentData2 = [
 17h10 – EVEx Talks – Fórum C-Level – Segurança Energética, Descarbonização da Economia e Ação Climática: cenários para uma transição justa e eficiente <br></br>
 
 18h15 – Entrega dos Prêmios EVEx Personalidades do Ano<br></br>
-
+</strong>
 •	Personalidade da Península Ibérica <br></br>
 
 •	Personalidade da América Latina<br></br>
-
+<strong>
 18h30 – Encerramento do primeiro dia<br></br>
-
+</strong>
 </p>
     `
   },
   {
     text:`<h3>Dia 26 de Outubro</h3>
     <p>
+    <strong>
     09h00 – EVEx Talks – Segurança e Diversificação da Matriz Energética: desafios e oportunidades rumo a uma economia de baixo carbono<br></br>
 
 10h05 – EVEx MasterClasses – Eólicas Offshore na Península Ibérica e na América Latina: avanços e desafios a superar <br></br>
@@ -1527,7 +1529,7 @@ export const ContentData2 = [
 17h05 – EVEx Talks – COP28 e as perspectivas para Mercados de Carbono no combate à Mudança Climática: o que esperar no futuro próximo?<br></br>
 
 18h15 – Encerramento do evento<br></br>
-
+</strong>
     </p>
     `
   },

@@ -40,7 +40,7 @@ export const mb45 = css`
 
 export const about = css`
   position: relative;
-  padding: 40px;
+  padding: 28px;
   display: flex;
   justify-content: center;
   flex-direction: column;
