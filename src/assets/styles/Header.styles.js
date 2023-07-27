@@ -265,6 +265,9 @@ export const socialList = css`
           width: 100%;
         }
       }
+      svg{
+        margin-bottom: -4px;
+      }
     }
     a:hover img,
     a:hover svg {

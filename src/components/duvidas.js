@@ -118,7 +118,7 @@ const Duvidas = () => {
             </Col>
             <Col lg={6} md={6} sm={12}>
               <div id="contato" className="inner-div rl">
-                <h2 css={secDesk}>Patrocínio e/ou Exposição</h2>
+                <h2 css={secDesk}>Patrocínio e Exposição</h2>
                 <p>
                 Seja patrocinador do EVEx Lisboa 2023 e esteja ao lado das maiores empresas na vanguarda da Transição Energética Ibero-Latino-Americana. Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada. 
                 </p>

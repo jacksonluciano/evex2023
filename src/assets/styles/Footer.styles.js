@@ -152,11 +152,14 @@ export const socialWidget = css`
         & i {
           font-size: 24px;
           color: #fff;
-          margin-right: 12px;
+          margin-right: 7px;
+          margin-left: 6px;
         }
         & svg{
           filter: brightness(0) invert(1);
-          margin-right: 12px;
+          margin-right: 7px;
+          margin-left: 6px;
+          margin-bottom: -2px;
         }
       }
     }
