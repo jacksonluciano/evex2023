@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { useState } from "react";
-import { AgendaOnlineData, ContentData, AgendaPresencialData } from "@/data";
+import { AgendaOnlineData, ContentData, ContentData2, AgendaPresencialData } from "@/data";
 import element03 from "@/images/elements/element-03.svg"
 import element07 from "@/images/elements/element-07.svg"
 import element05 from "@/images/elements/element-05.svg"
@@ -117,7 +117,7 @@ const Agenda = () => {
          
         </div>
         <section css={[contentData,contentPresData]}>    
-            {ContentData.map(({ text }, index) => (
+            {ContentData2.map(({ text }, index) => (
               selectedPres != null && selectedPres === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />

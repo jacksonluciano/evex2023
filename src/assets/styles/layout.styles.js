@@ -80,7 +80,7 @@ export const commonBtn = css`
   background: ${colors.primaryMain};
   color: #fff;
   text-align: center;
-  padding: 18px 45.5px;
+  padding: 18px 24.5px;
   line-height: 0.8;
   letter-spacing: 1.6px;
   position: relative;

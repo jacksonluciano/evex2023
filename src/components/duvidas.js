@@ -68,8 +68,7 @@ const Duvidas = () => {
               <div className="inner-div">
                 <h2 css={secDesk}>Dúvidas e Sugestões</h2>
                 <p>
-                  Entre em contato conosco e tire suas dúvidas, faça sugestões e
-                  garanta sua participação nos eventos!
+                Entre em contato com a gente e tire suas dúvidas, faça sugestões e garanta sua participação nos eventos do EVEx Lisboa 2023.
                 </p>
 
                 <form
@@ -119,11 +118,9 @@ const Duvidas = () => {
             </Col>
             <Col lg={6} md={6} sm={12}>
               <div id="contato" className="inner-div rl">
-                <h2 css={secDesk}>Patrocinador e/ou Expositor!</h2>
+                <h2 css={secDesk}>Patrocínio e/ou Exposição</h2>
                 <p>
-                  Entre em contato com o nosso time comercial e receba uma
-                  proposta de patrocínio e/ou exposição, conforme as
-                  necessidades específicas da sua empresa.
+                Seja patrocinador do EVEx Lisboa 2023 e esteja ao lado das maiores empresas na vanguarda da Transição Energética Ibero-Latino-Americana. Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada. 
                 </p>
                 <a href="https://wa.me/+351912349476" css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}

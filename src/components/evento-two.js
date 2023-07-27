@@ -154,7 +154,7 @@ const Evento = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, darkBg, premiosMobile]}>
               <div>
-                <h2 css={[secTitle, mb45]}>Prêmios Evex</h2>
+                <h2 css={[secTitle, mb45]}>Prêmios EVEx</h2>
                 <p css={secDesk}>
                   A advogada Maria João Rolim, personalidade homenageada no EVEx
                   2021, e Caio César Cavalcanti, fundador do EVEx, entregaram os

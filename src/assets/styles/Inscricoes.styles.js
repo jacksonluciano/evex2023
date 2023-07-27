@@ -294,3 +294,10 @@ export const sectionTitle = css`
     line-height: 21px;
   }
 `;
+
+
+export const underline = css`
+    span{
+      text-decoration: underline;
+    }
+`

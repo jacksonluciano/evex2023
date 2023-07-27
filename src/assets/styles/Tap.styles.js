@@ -102,6 +102,12 @@ export const imgFull = css`
     width: 100%;
 `
 
+export const underline = css`
+    span{
+      text-decoration: underline;
+    }
+`
+
 export const abImg = css`
   position: absolute;
   right: 0;

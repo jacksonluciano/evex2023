@@ -10,7 +10,8 @@ import {
   pr79,
   mb45,
   about,
-  element02
+  element02,
+  underline
 }  from '../assets/styles/Tap.styles'
 import {
   secTitle,
@@ -36,10 +37,22 @@ const Tap = () => {
               </p>
               <h3>10% em classe econômica;</h3>
               <h3>10% em classe executiva.</h3>
-              <p css={secDesk}>
-                {`Os descontos são aplicáveis para viagens de ida e volta de qualquer destino TAP para Lisboa e são válidos apenas em voos operados pela TAP. Para demais condições e instruções de como efetuar a reserva online, consulte o regulamento abaixo disponível para download. Qualquer dúvida, entre em contato com a secretaria do EVEx através do e-mail secretaria@evex.energy`}
+              <p css={[secDesk,underline]}>
+                Os descontos são aplicáveis para viagens de ida e volta de qualquer destino TAP para Lisboa e são válidos apenas em voos operados pela TAP. Para demais condições e instruções de como efetuar a reserva online, consulte o regulamento abaixo disponível para download. Qualquer dúvida, entre em contato com a secretaria do EVEx através do e-mail <span>secretaria@evex.energy</span>.
               </p>
               <a href={Regulamento} target="_blank" css={commonBtn}>Regulamento TAP</a>
+              <br/><br/><br/>
+              <h2 css={[secTitle, mb45]}>Hotel Oficial</h2>
+              <p css={secDesk}>
+              O Dom Pedro Lisboa, um dos melhores hotéis cinco estrelas de Lisboa, é o hotel oficial do EVEx Lisboa 2023. Está localizado estrategicamente no coração da cidade e a menos de 3,5 km do local do evento.
+Para reservas com condições especiais, siga as seguintes orientações:
+              </p>
+              <p>
+              1.	Acesse o website: <a href="https://www.dompedro.com/pt/">https://www.dompedro.com/pt/</a>;<br/>
+2.	Selecione o Hotel: Dom Pedro Lisboa;<br/>
+3.	Preencha as informações de Check-in, Check-out, Quartos e Adultos,<br/> utilizando ao final o Promo Code: EVEX23
+
+              </p>
            </div>
           </Col>
         </Row>

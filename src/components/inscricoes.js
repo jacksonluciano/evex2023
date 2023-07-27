@@ -17,7 +17,8 @@ import {
   dateBlock,
   blocks,
   asideBlock,
-  sectionTitle
+  sectionTitle,
+  underline
 } from "../assets/styles/Inscricoes.styles";
 import {
   secTitle,
@@ -38,12 +39,12 @@ const Inscricoes = () => {
       <Row>
           <Col css={sectionTitle} lg={12}>
              <h2>Inscrições</h2>
-             <p>
-                {`Escolha abaixo sua(s) categoria(s) de inscrição no EVEx Lisboa 2023 e vamos juntos de volta ao futuro da
+             <p css={underline}>
+                Escolha abaixo sua(s) categoria(s) de inscrição no EVEx Lisboa 2023 e vamos juntos de volta ao futuro da
                  energia ibero-latino-americana. 
                  Observações: os ingressos darão acesso ao respectivo evento (EVEx Online ou EVEx Presencial); aos valores
                  apresentados acresce IVA à taxa legal em vigor, quando aplicável; para pagamentos através de depósito,
-                 transferência bancária ou PIX, favor enviar solicitação para secretaria@evex.energy.`}
+                 transferência bancária ou PIX, favor enviar solicitação para <span>secretaria@evex.energy</span>.
              </p>
           </Col>
         </Row>
@@ -59,9 +60,9 @@ const Inscricoes = () => {
                   <h2>EVEx Pass</h2>
                   <h3>02 a 05 de Outubro</h3>
                   <p>Profissionais</p>
-                  <h4>R$ 648,00 / € 129,00</h4>
+                  <h4>R$ 665,00 / € 95,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 324,00 / € 64,50</h4>
+                  <h4>R$ 332,00 / € 47,50</h4>
                   <p className="text">
                     Acesso a todas as sessões do EVEx Online <br></br> 
                     +25 horas de conteúdo exclusivo <br></br> 
@@ -69,7 +70,7 @@ const Inscricoes = () => {
                     Gravações do evento <br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se aqui</button>
+                  <button css={commonBtn}>Inscreva-se em breve</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -79,9 +80,9 @@ const Inscricoes = () => {
                   <h2>EVEx Paper/Project</h2>
                   <h3>Apresentação de trabalho e publicação</h3>
                   <p>Profissionais</p>
-                  <h4>R$ 998,00 / € 199,00</h4>
+                  <h4>R$ 1.260,00 / € 180,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 499,00 / € 99,50</h4>
+                  <h4>R$ 630,00 / € 90,00</h4>
                   <p className="text">
                     Publicação nos Anais do EVEx Lisboa 2023<br></br> 
                     Acesso a todas as sessões do EVEx Online<br></br> 
@@ -90,7 +91,7 @@ const Inscricoes = () => {
                     Gravações de todo o evento<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se aqui</button>
+                  <button css={commonBtn}>Inscreva-se em breve</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -109,9 +110,9 @@ const Inscricoes = () => {
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>25 e 26 de Outubro</h3>
                   <p>Profissionais (1º lote)</p>
-                  <h4>R$ 1.398,00 / € 279,60</h4>
+                  <h4>R$ 1.750,00 / € 250,00</h4>
                   <p>Estudantes (1º lote)</p>
-                  <h4>R$ 699,00 / € 139,80</h4>
+                  <h4>R$ 875,00 / € 125,00</h4>
                   <p className="text">
                     Acesso à programação completa do EVEx Presencial<br></br> 
                     Kit de credenciamento<br></br> 
@@ -119,8 +120,8 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscrições em euros</button>
-                  <button css={commonBtn}>Inscrições em reais</button>
+                  <button css={commonBtn}>Inscreva-se em breve (€)</button>
+                  <button css={commonBtn}>Inscreva-se em breve (R$)</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -130,9 +131,9 @@ const Inscricoes = () => {
                   <h2>EVEx Paper/Project Lisboa</h2>
                   <h3>Apresentação de trabalho e publicação</h3>
                   <p>Profissionais</p>
-                  <h4>R$ 1.697,00 / € 339,40</h4>
+                  <h4>R$ 2.240,00 / € 320,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 848,50 / € 169,70</h4>
+                  <h4>R$ 1.120,00 / € 160,00</h4>
                   <p className="text">
                     Publicação nos Anais do EVEx Lisboa 2023<br></br> 
                     Acesso à programação completa do EVEx Presencial<br></br> 
@@ -141,8 +142,8 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscrições em euros</button>
-                  <button css={commonBtn}>Inscrições em reais</button>
+                  <button css={commonBtn}>Inscreva-se em breve (€)</button>
+                  <button css={commonBtn}>Inscreva-se em breve (R$)</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>

@@ -154,6 +154,9 @@ export const socialWidget = css`
           color: #fff;
           margin-right: 12px;
         }
+        & svg{
+          filter: brightness(0) invert(1);
+        }
       }
     }
   }

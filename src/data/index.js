@@ -138,11 +138,21 @@ import Speaker02 from "@/images/speaker/fernanda_delgado.jpg"
 import Speaker03 from "@/images/speaker/pedro_jorge_amaral.jpg"
 import Speaker04 from "@/images/speaker/maria_joao_rolim.jpg"
 import Speaker05 from "@/images/speaker/filipe_matias_santos.jpg"
-import Speaker06 from "@/images/speaker/joana_freitas.jpg"
-import Speaker07 from "@/images/speaker/rodrigo_ferreira.jpg"
+import Speaker06 from "@/images/speaker/alexandre_ramos.png"
+import Speaker07 from "@/images/speaker/elbia_gannoum.jpg"
 import Speaker08 from "@/images/speaker/rosana_santos.jpg"
 import Speaker09 from "@/images/speaker/ricardo_nunes.jpg"
 import Speaker10 from "@/images/speaker/alice_khouri.jpg"
+import Speaker11 from "@/images/speaker/teresa.jpg"
+import Speaker12 from "@/images/speaker/elisa_bastos.jpg"
+import Speaker13 from "@/images/speaker/joao_torres.jpg"
+import Speaker14 from "@/images/speaker/ana_quelhas.jpg"
+import Speaker15 from "@/images/speaker/eduardo_rossi.jpg"
+import Speaker16 from "@/images/speaker/lucila.jpg"
+import Speaker17 from "@/images/speaker/natalia_moreno.jpg"
+import Speaker18 from "@/images/speaker/vladia.jpg"
+import Speaker19 from "@/images/speaker/gustavo.jpg"
+import Speaker20 from "@/images/speaker/claudio_ribeiro.jpg"
 
 export const LogoImage = {
   light: logo,
@@ -702,7 +712,7 @@ export const ClientCarouselData = {
       url: "#",
       image: ExperienciaIcon02,
       title: 'Energy MasterClasses',
-      text: 'Masterclasses com grandes nomes dos setores energéticos do Brasil e de Portugal.'
+      text: 'Masterclasses com grandes nomes dos setores energéticos do Brasil, de Portugal e da Espanha.'
     },
     {
       url: "#",
@@ -737,6 +747,26 @@ export const TeamOneData = {
   },
   posts: [
     {
+      image: Speaker06,
+      name: "Alexandre Ramos",
+      designation: "Presidente, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker07,
+      name: "Elbia Gannoum",
+      designation: "CEO, ABEEólica – Associação Brasileira de Energia Eólica",
+    },
+    {
+      image: Speaker03,
+      name: "Pedro Amaral Jorge",
+      designation: "CEO, APREN – Associação Portuguesa de Energias Renováveis",
+    },
+    {
+      image: Speaker11,
+      name: "Teresa Ponce de Leão",
+      designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia",
+    },
+    {
       image: Speaker01,
       name: "Alexandre Zucarato",
       designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico ",
@@ -744,17 +774,7 @@ export const TeamOneData = {
     {
       image: Speaker02,
       name: "Fernanda Delgado",
-      designation: "Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás ",
-    },
-    {
-      image: Speaker03,
-      name: "Pedro Amaral Jorge",
-      designation: "Presidente, APREN – Associação Portuguesa de Energias Renováveis",
-    },
-    {
-      image: Speaker04,
-      name: "Maria João Rolim",
-      designation: "Sócia, Rolim Goulart Cardoso",
+      designation: "Professora, FGV ",
     },
     {
       image: Speaker05,
@@ -762,19 +782,19 @@ export const TeamOneData = {
       designation: "Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos",
     },
     {
-      image: Speaker06,
-      name: "Joana Freitas",
-      designation: "Administradora, EDP Produção",
+      image: Speaker12,
+      name: "Elisa Bastos",
+      designation: "Diretora de Assuntos Corporativos, ONS – Operador Nacional do Sistema Elétrico",
     },
     {
-      image: Speaker07,
-      name: "Rodrigo Ferreira",
-      designation: "Presidente, ABRACEEL – Associação Brasileira dos Comercializadores de Energia",
+      image: Speaker13,
+      name: "João Torres",
+      designation: "Chairman, APE – Associação Portuguesa da Energia ",
     },
     {
-      image: Speaker08,
-      name: "Rosana Santos",
-      designation: "Diretora Executiva, Instituto E+ Transição Energética ",
+      image: Speaker14,
+      name: "Ana Quelhas ",
+      designation: "Managing Director for Hydrogen, EDP Renováveis ",
     },
     {
       image: Speaker09,
@@ -782,9 +802,49 @@ export const TeamOneData = {
       designation: "Chief Strategy Officer, OMIP – The Iberian Energy Derivates Exchange e OMIClear – The Iberian Energy Clearing House ",
     },
     {
+      image: Speaker08,
+      name: "Rosana Santos",
+      designation: "Diretora Executiva, Instituto E+ Transição Energética ",
+    },
+    {
+      image: Speaker15,
+      name: "Eduardo Rossi",
+      designation: "Conselheiro, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker04,
+      name: "Maria João Rolim",
+      designation: "Sócia, Rolim Goulart Cardoso",
+    },
+    {
+      image: Speaker20,
+      name: "Claudio Ribeiro",
+      designation: "CEO, 2W EcoBank",
+    },
+    {
       image: Speaker10,
       name: "Alice Khouri",
       designation: "Founder, Women in ESG Portugal",
+    },
+    {
+      image: Speaker19,
+      name: "Gustavo De Marchi",
+      designation: "Consultor Jurídico, FGV Energia",
+    },
+    {
+      image: Speaker18,
+      name: "Vladia Viana Regis",
+      designation: "Superintendente de Regulação, Eletrobras",
+    },
+    {
+      image: Speaker16,
+      name: "Lucila de Almeida",
+      designation: "Abreu Chair in ESG Impact, NOVA School of Law",
+    },
+    {
+      image: Speaker17,
+      name: "Natalia Moreno",
+      designation: "Docente, Universidade de Coimbra",
     },
   ]
 };
@@ -797,7 +857,7 @@ export const ComiteData = {
     {
       image: Comite01,
       name: "Caio César Cavalcanti",
-      description:"Presidente e Fundador, EVEx – Energy Virtual Experience;",
+      description:"Presidente e Fundador, EVEx;",
       line: "Investigador Científico, Universidade de Coimbra",
     },
     {
@@ -813,7 +873,7 @@ export const ComiteData = {
     {
       image: Comite04,
       name: "Fernanda Delgado ",
-      description: "Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás",
+      description: "Professora, FGV",
     },
     {
       image: Comite05,
@@ -1398,58 +1458,7 @@ export const AgendaPresencialData = [
 
 export const ContentData = [
   {
-    text:`<h3>Dia 10 de Outubro (Horário de Brasília)</h3>
-<p>
-<strong>09h00 – Boas-vindas</strong><br></br>
-Caio César Cavalcanti
-CEO e Fundador, EVEx
-<br></br><br></br>
-<strong>09h15 – Abertura do EVEx On-line 2022: Energy Virtual Talks</strong><br></br>
-Energia em Tempos de Guerra: os impactos do conflito europeu na Transição Energética<br></br>
-Daniel Elias<br></br>
-CEO, Petrogal Brasil & Country Chair Galp<br></br>
-Nelson Lage<br></br>
-Presidente, ADENE – Agência para a Energia<br></br>
-Fernanda Delgado<br></br>
-Diretora Executiva Corporativa, IBP – Instituto Brasileiro de Petróleo e Gás<br></br>
-Maria João Rolim<br></br>
-Sócia, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
-Camila Maia – Moderadora<br></br>
-Jornalista, MegaWhat<br></br>
-<br></br><br></br>
-<strong>11h00 – Energy Virtual MasterClasses</strong><br></br>
-Medidas de resposta à crise de preços da energia<br></br>
-Filipe Matias Santos<br></br>
-Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos<br></br>
-Caio Alves – Moderador<br></br>
-Advogado, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
-<br></br><br></br>
-<strong>14h00 – Energy Virtual Academy</strong><br></br>
-Aspectos críticos do controle judicial da regulação em energia: Brasil e Portugal<br></br>
-Alice Khouri<br></br>
-Coordenadora de Regulatório e Energia, Rolim, Viotti, Goulart, Cardoso Advogados<br></br>
-Cácia Pimentel – Moderadora<br></br>
-Doutora e Consultora em Direito das Energias Renováveis e Sustentabilidade<br></br>
-<br></br><br></br>
-<strong>15h15 – Energy Virtual Expo/Business</strong><br></br>
-Transição Energética Justa<br></br>
-Alexandre Siciliano<br></br>
-Gerente do Departamento de Energia, BNDES – Banco Nacional de Desenvolvimento Econômico e Social<br></br>
-Flávia Bellaguarda<br></br>
-Fundadora, LACLIMA<br></br>
-Silvia Cabral<br></br>
-Superintendente de Sustentabilidade, Norte Energia<br></br>
-Rodrigo Sluminsky – Moderador<br></br>
-Consultor, Rolim, Viotti, Goulart, Cardoso Avogados<br></br>
-<br></br><br></br>
-<strong>16h30 – Energy Virtual MasterClasses</strong><br></br>
-Energias Renováveis no novo contexto político e econômico da Transição Energética<br></br>
-Elbia Gannoum<br></br>
-CEO, ABEEólica – Associação Brasileira de Energia Eólica<br></br>
-Gerusa Magalhães – Moderadora<br></br>
-Sócia Fundadora, MRF Advogados
-</p>
-    `
+    text:`<h3>Agenda indisponível no momento</h3>`
   },
   {
     text:`<h3>Agenda indisponível no momento</h3>`
@@ -1463,6 +1472,68 @@ Sócia Fundadora, MRF Advogados
   
 ];
 
+export const ContentData2 = [
+  {
+    text:`<h3>Dia 25 de Outubro</h3>
+<p>
+08h30 – Credenciamento e Welcome Drink<br></br>
+09h05 – Boas-Vindas<br></br>
+09h15 – Painel de Abertura – Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana <br></br>
+
+10:45 – Coffee Break<br></br>
+
+11h15 – EVEx MasterClasses – Hidrogênio Verde como acelerador da Transição Energética: tecnologias e projetos em desenvolvimento <br></br>
+
+12h30 – Intervalo para Almoço<br></br>
+
+14h00 – EVEx Expo/Business – Comunidades de Energia Renovável: cases, oportunidades e modelos de negócio<br></br>
+
+15h30 – EVEx Talks – Transição Energética na Indústria de Petróleo & Gás: integração com renováveis e geopolítica em tempos de guerra<br></br>
+
+16h45 – Coffee Break<br></br>
+
+17h10 – EVEx Talks – Fórum C-Level – Segurança Energética, Descarbonização da Economia e Ação Climática: cenários para uma transição justa e eficiente <br></br>
+
+18h15 – Entrega dos Prêmios EVEx Personalidades do Ano<br></br>
+
+•	Personalidade da Península Ibérica <br></br>
+
+•	Personalidade da América Latina<br></br>
+
+18h30 – Encerramento do primeiro dia<br></br>
+
+</p>
+    `
+  },
+  {
+    text:`<h3>Dia 26 de Outubro</h3>
+    <p>
+    09h00 – EVEx Talks – Segurança e Diversificação da Matriz Energética: desafios e oportunidades rumo a uma economia de baixo carbono<br></br>
+
+10h05 – EVEx MasterClasses – Eólicas Offshore na Península Ibérica e na América Latina: avanços e desafios a superar <br></br>
+
+11h10 – Coffee Break<br></br>
+
+11h30 – EVEx Expo/Business – Abertura e Segurança dos Mercados de Energia: a experiência ibero-brasileira <br></br>
+
+13h00 – Intervalo para Almoço <br></br>
+
+14h30 – EVEx MasterClasses – ESG e Inovação: estratégias para a transição justa e a sustentabilidade transversal <br></br>
+
+15h45 – EVEx Expo/Business – Financiamento Vede e Transição Climática: novos instrumentos financeiros para a descarbonização <br></br>
+
+16h45 – Coffee Break <br></br>
+
+17h05 – EVEx Talks – COP28 e as perspectivas para Mercados de Carbono no combate à Mudança Climática: o que esperar no futuro próximo?<br></br>
+
+18h15 – Encerramento do evento<br></br>
+
+    </p>
+    `
+  },
+  
+];
+
 export const BigCtaData = [
   {
     date: 'Agenda',
@@ -1473,7 +1544,7 @@ export const BigCtaData = [
   {
     date: 'Inscrições',
       text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
-      button: 'Inscreva-se já!'
+      button: 'Inscreva-se em breve'
   },
 ];
 

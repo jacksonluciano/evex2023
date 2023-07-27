@@ -75,7 +75,7 @@ const TeamCarousel = () => {
              assim, mais de 10 painéis de Lisbon Energy Talks, 
              Lisbon Energy MasterClasses, Lisbon Energy Academy e 
              Lisbon Energy Expo/Business, seguidos de debates, 
-             coffee breaks e networking
+             coffee breaks e networking.
              </p>
           </Col>
         </Row>

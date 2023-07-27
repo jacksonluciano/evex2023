@@ -54,7 +54,7 @@ const Faq = () => {
 A chamada de trabalhos desta edição continuará abrindo um espaço de debate e grande visibilidade para apresentações de pesquisas, projetos e soluções inovadoras desenvolvidas por estudantes, professores, pesquisadores, startups e empresas.
 Os resumos deverão ser enviados exclusivamente para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, normas, formulário e eixos temáticos abaixo disponíveis.
 Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Online ou no EVEx Presencial, após as devidas inscrições dos autores.
-As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023, em formato digital (e-book). Confira abaixo as publicações organizadas pelo EVEx
+As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023, em formato digital (e-book). Confira abaixo as publicações organizadas pelo EVEx.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -73,8 +73,8 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p>Data limite para envio de resumos: <span>16/07/2023;</span></p>
-                    <p>Data limite para divulgação das propostas selecionadas: <span>31/07/2023;</span></p>
+                    <p>Data limite para envio de resumos: <span>20/09/2023;</span></p>
+                    <p>Data limite para divulgação das propostas selecionadas: <span>22/09/2023;</span></p>
                     <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2024.</span></p>
                    
                   </AccordionItemPanel>

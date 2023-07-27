@@ -44,7 +44,7 @@ const ExperienciasHero = () => {
             <div css={about}>
               <h2 css={[secTitle, mb45]}>Experiências <br></br>Interativas</h2>
               <p css={secDesk}>
-              O EVEx é composto por quatro experiências energéticas disruptivas. Conheça mais sobre cada uma delas:
+              O EVEx é composto por quatro experiências interativas de natureza profissional e científica. Conheça mais sobre cada uma delas:
               </p>
             </div>
             <img src={Element1} css={element01} />

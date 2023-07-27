@@ -41,7 +41,7 @@ const EnergyMasterclasses = () => {
             <div css={about}>
               <h2 css={[secTitle, mb45]}>
                 {'Energy'}<img src={MobileIconMaster} /><br/>
-                {'Master Classes'}
+                {'MasterClasses'}
               </h2>
               <p css={secDesk}>{`
               Na EVEx MasterClassses, os participantes podem aprender diretamente com profissionais que são referências nos seus campos de atuação, em especial, no Brasil e em Portugal. São discutidas diversas questões técnicas, políticas, econômicas, jurídicas e regulatórias de temáticas que estão na agenda dos setores energéticos.`}</p>
