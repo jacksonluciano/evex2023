@@ -62,7 +62,7 @@ const Inscricoes = () => {
                   <p>Profissionais</p>
                   <h4>R$ 665,00 / € 95,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 332,00 / € 47,50</h4>
+                  <h4>R$ 332,50 / € 47,50</h4>
                   <p className="text">
                     Acesso a todas as sessões do EVEx Online <br></br> 
                     +25 horas de conteúdo exclusivo <br></br> 
@@ -110,9 +110,9 @@ const Inscricoes = () => {
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>25 e 26 de Outubro</h3>
                   <p>Profissionais (1º lote)</p>
-                  <h4>R$ 1.750,00 / € 250,00</h4>
+                  <h4>€ 250,00 / R$ 1.750,00</h4>
                   <p>Estudantes (1º lote)</p>
-                  <h4>R$ 875,00 / € 125,00</h4>
+                  <h4>€ 125,00 / R$ 875,00</h4>
                   <p className="text">
                     Acesso à programação completa do EVEx Presencial<br></br> 
                     Kit de credenciamento<br></br> 
@@ -131,9 +131,9 @@ const Inscricoes = () => {
                   <h2>EVEx Paper/Project Lisboa</h2>
                   <h3>Apresentação de trabalho e publicação</h3>
                   <p>Profissionais</p>
-                  <h4>R$ 2.240,00 / € 320,00</h4>
+                  <h4>€ 320,00 / R$ 2.240,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 1.120,00 / € 160,00</h4>
+                  <h4>€ 160,00 / R$ 1.120,00</h4>
                   <p className="text">
                     Publicação nos Anais do EVEx Lisboa 2023<br></br> 
                     Acesso à programação completa do EVEx Presencial<br></br> 

@@ -799,7 +799,7 @@ export const TeamOneData = {
     {
       image: Speaker09,
       name: "Ricardo Nunes",
-      designation: "Chief Strategy Officer, OMIP – The Iberian Energy Derivates Exchange e OMIClear – The Iberian Energy Clearing House ",
+      designation: "Chief Strategy Officer, OMIP – The Iberian Energy Derivates Exchange ",
     },
     {
       image: Speaker08,
@@ -819,7 +819,7 @@ export const TeamOneData = {
     {
       image: Speaker20,
       name: "Claudio Ribeiro",
-      designation: "CEO, 2W EcoBank",
+      designation: "CEO, 2W Ecobank",
     },
     {
       image: Speaker10,
@@ -843,7 +843,7 @@ export const TeamOneData = {
     },
     {
       image: Speaker17,
-      name: "Natalia Moreno",
+      name: "Natália Moreno",
       designation: "Docente, Universidade de Coimbra",
     },
   ]
@@ -953,7 +953,7 @@ export const ComiteData = {
     {
       image: Comite20,
       name: "Alfonso Blanco Bonilla",
-      description: "Ex-Secretário Executivo, OLADE – Organização Latino-Americana de Energia",
+      description: "Ex-Diretor Executivo, OLADE – Organização Latino-Americana de Energia",
     },
   ]
 };

@@ -33,7 +33,7 @@ const Tap = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Operadora Oficial</h2>
               <p css={secDesk}>
-                {`A TAP Air Portugal é a operadora oficial do EVEx Lisboa 2023. A todos os participantes do evento que efetuarem a sua reserva de avião e adquirirem o respectivo bilhete através do website da TAP (www.flytap.com), a TAP concederá os seguintes descontos:`}
+                A TAP Air Portugal é a operadora oficial do EVEx Lisboa 2023. A todos os participantes do evento que efetuarem a sua reserva de avião e adquirirem o respectivo bilhete através do website da TAP (<a href="https://www.flytap.com/pt-br/">www.flytap.com</a>), a TAP concederá os seguintes descontos:
               </p>
               <h3>10% em classe econômica;</h3>
               <h3>10% em classe executiva.</h3>

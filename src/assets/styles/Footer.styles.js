@@ -144,7 +144,7 @@ export const socialWidget = css`
         letter-spacing: 0.56px;
         color: #aaaaaa;
         margin: 0;
-        display: block;
+        display: flex;
         text-align: left;
         &:hover {
           color: #fff;
@@ -156,6 +156,7 @@ export const socialWidget = css`
         }
         & svg{
           filter: brightness(0) invert(1);
+          margin-right: 12px;
         }
       }
     }

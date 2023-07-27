@@ -137,6 +137,7 @@ export const contact = css`
     font-size: 14px;
     margin-bottom: 32px;
     color: ${colors.primaryMain};
+    line-height: 24px;
   }
 
   button {
