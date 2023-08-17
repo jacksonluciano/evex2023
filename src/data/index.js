@@ -153,6 +153,18 @@ import Speaker17 from "@/images/speaker/natalia_moreno.jpg"
 import Speaker18 from "@/images/speaker/vladia.jpg"
 import Speaker19 from "@/images/speaker/gustavo.jpg"
 import Speaker20 from "@/images/speaker/claudio_ribeiro.jpg"
+import Speaker21 from "@/images/speaker/efrain_pereira.jpg"
+import Speaker22 from "@/images/speaker/carla_primavera.jpg"
+import Speaker23 from "@/images/speaker/nelson_lage.jpg"
+import Speaker24 from "@/images/speaker/reynaldo_passanezi.jpg"
+import Speaker25 from "@/images/speaker/heloisa_borges.jpg"
+import Speaker26 from "@/images/speaker/andre_pepitone.jpg"
+import Speaker27 from "@/images/speaker/solange_david.jpg"
+import Speaker28 from "@/images/speaker/carlos_quintella.jpg"
+import Speaker29 from "@/images/speaker/julia_seixas.jpg"
+import Speaker30 from "@/images/speaker/carlos_henggeler.jpg"
+import Speaker31 from "@/images/speaker/cacia_pimentel.jpg"
+import Speaker32 from "@/images/speaker/ricardo_gedra.jpg"
 
 export const LogoImage = {
   light: logo,
@@ -747,6 +759,21 @@ export const TeamOneData = {
   },
   posts: [
     {
+      image: Speaker21,
+      name: "Efrain Pereira da Cruz",
+      designation: "Secretário-Executivo, Ministério de Minas e Energia do Brasil",
+    },
+    {
+      image: Speaker22,
+      name: "Carla Primavera",
+      designation: "Superintendente da Área de Transição Energética e Clima, BNDES – Banco Nacional de Desenvolvimento Econômico e Social",
+    },
+    {
+      image: Speaker23,
+      name: "Nelson Lage",
+      designation: "Presidente, ADENE – Agência para a Energia",
+    },
+    {
       image: Speaker06,
       name: "Alexandre Ramos",
       designation: "Presidente, CCEE – Câmara de Comercialização de Energia Elétrica",
@@ -762,9 +789,19 @@ export const TeamOneData = {
       designation: "CEO, APREN – Associação Portuguesa de Energias Renováveis",
     },
     {
-      image: Speaker11,
-      name: "Teresa Ponce de Leão",
-      designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia",
+      image: Speaker24,
+      name: "Reynaldo Passanezi",
+      designation: "CEO, Cemig – Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker25,
+      name: "Heloísa Borges",
+      designation: "Diretora de Estudos de Petróleo, Gás Natural e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
+    },
+    {
+      image: Speaker26,
+      name: "André Pepitone",
+      designation: "CFO, Itaipu Binacional",
     },
     {
       image: Speaker01,
@@ -774,7 +811,7 @@ export const TeamOneData = {
     {
       image: Speaker02,
       name: "Fernanda Delgado",
-      designation: "Professora, FGV ",
+      designation: "Especialista em Energia, Petróleo e Gás",
     },
     {
       image: Speaker05,
@@ -790,6 +827,21 @@ export const TeamOneData = {
       image: Speaker13,
       name: "João Torres",
       designation: "Chairman, APE – Associação Portuguesa da Energia ",
+    },
+    {
+      image: Speaker27,
+      name: "Solange David",
+      designation: "Vice-Presidente do Conselho de Administração, Santo Antônio Energia",
+    },
+    {
+      image: Speaker28,
+      name: "Carlos Quintella",
+      designation: "Diretor Executivo, FGV Energia",
+    },
+    {
+      image: Speaker29,
+      name: "Júlia Seixas",
+      designation: "Pró-Reitora, Universidade NOVA de Lisboa",
     },
     {
       image: Speaker14,
@@ -842,6 +894,21 @@ export const TeamOneData = {
       designation: "Abreu Chair in ESG Impact, NOVA School of Law",
     },
     {
+      image: Speaker30,
+      name: "Carlos Hanggeler Antunes",
+      designation: "Professor Catedrático, Departamento de Engenharia Eletrotécnica e de Computadores da Faculdade de Ciências e Tecnologia da Universidade de Coimbra",
+    },
+    {
+      image: Speaker31,
+      name: "Cácia Pimentel",
+      designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade",
+    },
+    {
+      image: Speaker32,
+      name: "Ricardo Gedra",
+      designation: "Gerente de Análise e Informações ao Mercado, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
       image: Speaker17,
       name: "Natália Moreno",
       designation: "Docente, Universidade de Coimbra",
@@ -861,9 +928,19 @@ export const ComiteData = {
       line: "Investigador Científico, Universidade de Coimbra",
     },
     {
+      image: Comite06,
+      name: "Teresa Ponce de Leão",
+      description: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia",
+    },
+    {
       image: Comite02,
       name: "Maria João Rolim",
       description: "PhD em Direito da Energia e Sustentabilidade, CEPMLP, Universidade de Dundee",
+    },
+    {
+      image: Comite05,
+      name: "Alexandre Ramos",
+      description: "Presidente, CCEE – Câmara de Comercialização de Energia Elétrica",
     },
     {
       image: Comite03,
@@ -873,17 +950,7 @@ export const ComiteData = {
     {
       image: Comite04,
       name: "Fernanda Delgado ",
-      description: "Professora, FGV",
-    },
-    {
-      image: Comite05,
-      name: "Alexandre Ramos",
-      description: "Presidente, CCEE – Câmara de Comercialização de Energia Elétrica",
-    },
-    {
-      image: Comite06,
-      name: "Teresa Ponce de Leão",
-      description: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia",
+      description: "Especialista em Energia, Petróleo e Gás",
     },
     {
       image: Comite07,

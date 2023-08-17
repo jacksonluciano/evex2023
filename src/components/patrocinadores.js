@@ -17,6 +17,8 @@ import Img10 from '@/images/apoio/o_instalador.png'
 import Img11 from '@/images/apoio/olade.png'
 import Img12 from '@/images/apoio/uc.png'
 import Img13 from '@/images/apoio/WINESG.svg'
+import Img14 from '@/images/apoio/mackenzie.png'
+import Img15 from '@/images/apoio/fgv_energia.png'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -106,16 +108,20 @@ const Patrocinadores = () => {
                     <li><img src={Img3} /></li>
                     <li><img src={Img4} /></li>
                     <li><img src={Img5} /></li>
-                    <li><img src={Img6} /></li>
-                    <li><img src={Img7} /></li>
                   </ul>
                   <ul>
+                    <li><img src={Img6} /></li>
+                    <li><img src={Img7} /></li>
                     <li><img src={Img8} /></li>
                     <li><img src={Img9} /></li>
                     <li><img src={Img10} /></li>
+                  </ul>
+                  <ul>
                     <li><img src={Img11} /></li>
                     <li><img src={Img12} /></li>
                     <li><img src={Img13} /></li>
+                    <li><img src={Img14} /></li>
+                    <li><img src={Img15} /></li>
                   </ul>
                </section>
                {/* <img css={element13} src={Element13} /> */}
