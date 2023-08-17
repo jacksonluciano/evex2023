@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import React from "react";
+import { Link } from "gatsby";
 import Element04 from '@/images/elements/element-04.svg'
 import Element05 from '@/images/elements/element-05.svg'
 import Element08 from '@/images/elements/element-08.png'
@@ -10,7 +11,7 @@ import {
   abAgency,
   pr79,
   mb45,
-  about,
+  linkBorder,
   element04,
   element05,
   element08,
@@ -44,7 +45,7 @@ const Inscricoes = () => {
                  energia ibero-latino-americana. 
                  Observações: os ingressos darão acesso ao respectivo evento (EVEx Online ou EVEx Presencial); aos valores
                  apresentados acresce IVA à taxa legal em vigor, quando aplicável; para pagamentos através de depósito,
-                 transferência bancária ou PIX, favor enviar solicitação para <span>secretaria@evex.energy</span>.
+                 transferência bancária ou PIX, favor enviar solicitação para <span>secretaria@evex.energy</span>
              </p>
           </Col>
         </Row>
@@ -120,8 +121,8 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se em breve (€)</button>
-                  <button css={commonBtn}>Inscreva-se em breve (R$)</button>
+                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696129912307?aff=ebdsoporgprofile" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
+                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696294243827?aff=oddtdtcreator" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em agora (R$)</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>

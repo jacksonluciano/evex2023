@@ -233,6 +233,11 @@ export const dateBlock = css`
     }
   }
 
+  a{
+    width: 250px;
+    letter-spacing: 0;
+  }
+
   button {
     letter-spacing: 0;
 
@@ -251,6 +256,20 @@ export const dateBlock = css`
     }
   }
 `;
+
+export const linkBorder = css`
+       background-color: transparent;
+      box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
+      color: ${colors.primaryMain};
+      margin-top: 16px;
+
+      :hover {
+        background-color: ${colors.secondaryMain};
+        color: ${colors.primaryMain};
+      }
+`
+
+
 export const asideBlock = css`
   position: absolute;
   width: 100%;
