@@ -1613,7 +1613,7 @@ export const BigCtaData = [
   {
     date: 'Inscrições',
       text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
-      button: 'Inscreva-se em agora'
+      button: 'Inscreva-se agora'
   },
 ];
 
