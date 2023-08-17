@@ -885,7 +885,7 @@ export const TeamOneData = {
     },
     {
       image: Speaker18,
-      name: "Vladia Viana Regis",
+      name: "Vládia Viana Regis",
       designation: "Superintendente de Regulação, Eletrobras",
     },
     {
@@ -895,7 +895,7 @@ export const TeamOneData = {
     },
     {
       image: Speaker30,
-      name: "Carlos Hanggeler Antunes",
+      name: "Carlos Henggeler Antunes",
       designation: "Professor Catedrático, Departamento de Engenharia Eletrotécnica e de Computadores da Faculdade de Ciências e Tecnologia da Universidade de Coimbra",
     },
     {
