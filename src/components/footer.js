@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { LogoImage } from "@/data";
+import { useLocation } from '@reach/router';
 import { jsx } from "@emotion/react";
 
 import {
@@ -15,6 +16,21 @@ import {
 import { commonBtn, redBg } from "../assets/styles/layout.styles";
 
 const Footer = () => {
+
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const formValue = searchParams.get('form');
+
+  let message = '';
+
+  if (formValue === 'newsletter') {
+    message = 'Obrigado por se inscrever na nossa newsletter!';
+  } else {
+    message = 'Bem-vindo ao nosso site!';
+  }
+
+  console.log('MESSAGE ', message)
+
   const { small } = LogoImage;
   return (
     <footer css={footer1}>
