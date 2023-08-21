@@ -27,7 +27,7 @@ const Footer = () => {
               </a> */}
               <h2>News</h2>
               <p>Fique por dentro das novidades do EVEx Lisboa 2023.</p>
-              <form action="" method="post" css={subscribeFrom}>
+              <form method="POST" action="https://formsubmit.co/jackson.ides@gmail.com" encType="multipart/form-data" css={subscribeFrom}>
                 <input
                   type="email"
                   placeholder="Digite o seu email"
