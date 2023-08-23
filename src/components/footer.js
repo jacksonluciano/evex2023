@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { LogoImage } from "@/data";
 import { useLocation } from '@reach/router';
 import { jsx } from "@emotion/react";
@@ -11,6 +11,7 @@ import {
   contactWidget,
   socialWidget,
   subscribeFrom,
+  messageBox
 } from "../assets/styles/Footer.styles";
 
 import { commonBtn, redBg } from "../assets/styles/layout.styles";
@@ -21,19 +22,25 @@ const Footer = () => {
   const searchParams = new URLSearchParams(location.search);
   const formValue = searchParams.get('form');
 
-  let message = '';
+  const [message, setMessage] = useState('');
+  const [isVisible, setIsVisible] = useState(false);
 
-  if (formValue === 'newsletter') {
-    message = 'Obrigado por se inscrever na nossa newsletter!';
-  } else {
-    message = 'Bem-vindo ao nosso site!';
-  }
+  useEffect(() => {
+    if (formValue === 'newsletter') {
+      setMessage('Obrigado por se inscrever na nossa newsletter!');
+      setIsVisible(true);
+      const timeout = setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
+      return () => clearTimeout(timeout);
+    }
+  }, [formValue]);
 
-  console.log('MESSAGE ', message)
 
   const { small } = LogoImage;
   return (
     <footer css={footer1}>
+     
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-sm-6 col-md-5">
@@ -56,6 +63,10 @@ const Footer = () => {
                 </button>
               </form>
             </aside>
+           {isVisible ?  
+           <div css={messageBox}>
+              <p>{message}</p>
+            </div> : null}
           </div>
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside css={[widget, contactWidget]}>

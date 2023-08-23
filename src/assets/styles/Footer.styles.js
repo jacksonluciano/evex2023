@@ -169,6 +169,24 @@ export const socialWidget = css`
   }
 `;
 
+export const messageBox=css`
+    transition: .5s ease-in-out;
+    background: #f18e96;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 428px;
+    line-height: 24px;
+    margin-top: 16px;
+    position: absolute;
+
+    p{
+      margin: 0;
+    color: #1e1e1c;
+    font-size: 14px;
+    text-align: center;
+    }
+`
 
 export const subscribeFrom = css`
   position: relative;
