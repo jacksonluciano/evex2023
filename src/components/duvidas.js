@@ -71,18 +71,18 @@ const Duvidas = () => {
                 Entre em contato com a gente e tire suas dúvidas, faça sugestões e garanta sua participação nos eventos do EVEx Lisboa 2023.
                 </p>
 
-                <form
-                  action="#"
-                  method="post"
+                <form method="POST" action="https://formsubmit.co/jackson.ides@gmail.com" encType="multipart/form-data"
                   id="contactForm"
                   css={contactFrom}
                 >
+                  <input type="hidden" name="_next" value="https://evex.energy?form=contato" />
+                 <input type="hidden" name="_captcha" value="false" />
                   <div>
                     <input
                       css={inputForm}
                       className="input-form required"
                       type="text"
-                      name="f_name"
+                      name="nome"
                       id="f_name"
                       placeholder="Nome"
                     />
@@ -101,7 +101,7 @@ const Duvidas = () => {
                     <textarea
                       css={[inputForm, textarea]}
                       className="input-form required"
-                      name="con_message"
+                      name="mensagem"
                       id="con_message"
                       placeholder="Mensagem"
                     ></textarea>
