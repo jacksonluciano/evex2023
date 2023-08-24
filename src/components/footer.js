@@ -27,7 +27,7 @@ const Footer = () => {
 
   useEffect(() => {
     if (formValue === 'newsletter') {
-      setMessage('Obrigado por se inscrever na nossa newsletter!');
+      setMessage('Obrigado por se inscrever em nossa newsletter!');
       setIsVisible(true);
       const timeout = setTimeout(() => {
         setIsVisible(false);
@@ -61,12 +61,15 @@ const Footer = () => {
                 <button css={[commonBtn, redBg]} type="submit" name="submit">
                   <span>Inscreva-se</span>
                 </button>
-              </form>
-            </aside>
-           {isVisible ?  
-           <div css={messageBox}>
+                {isVisible ?  
+                <div css={{...messageBox,
+                  opacity: isVisible ? 1 : 0,
+                  transition: 'opacity 0.5s ease-in-out', // Ajuste a duração e o tipo de transição conforme necessário
+                }}>
               <p>{message}</p>
             </div> : null}
+              </form>
+            </aside>
           </div>
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside css={[widget, contactWidget]}>

@@ -5,7 +5,7 @@ import Element11 from "@/images/elements/element-11.svg"
 import Element12 from "@/images/elements/element-12.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img1 from '@/images/apoio/abeeolica.svg'
-import Img2 from '@/images/apoio/abraceel.png'
+import Img2 from '@/images/apoio/ABRADEE.png'
 import Img3 from '@/images/apoio/ape.jpg'
 import Img4 from '@/images/apoio/enova.png'
 import Img5 from '@/images/apoio/ibp.jpg'
@@ -19,6 +19,7 @@ import Img12 from '@/images/apoio/uc.png'
 import Img13 from '@/images/apoio/WINESG.svg'
 import Img14 from '@/images/apoio/mackenzie.png'
 import Img15 from '@/images/apoio/fgv_energia.png'
+import Img16 from '@/images/apoio/ccee.png'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -122,6 +123,7 @@ const Patrocinadores = () => {
                     <li><img src={Img13} /></li>
                     <li><img src={Img14} /></li>
                     <li><img src={Img15} /></li>
+                    <li><img src={Img16} /></li>
                   </ul>
                </section>
                {/* <img css={element13} src={Element13} /> */}

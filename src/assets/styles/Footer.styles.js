@@ -171,14 +171,15 @@ export const socialWidget = css`
 
 export const messageBox=css`
     transition: .5s ease-in-out;
-    background: #f18e96;
-    border-radius: 8px;
-    padding: 12px 24px;
+    background: #8dffb5;
     width: 100%;
     max-width: 428px;
     line-height: 24px;
     margin-top: 16px;
     position: absolute;
+    bottom: 0;
+    z-index: 999;
+    padding: 16px;
 
     p{
       margin: 0;

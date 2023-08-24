@@ -165,6 +165,7 @@ import Speaker29 from "@/images/speaker/julia_seixas.jpg"
 import Speaker30 from "@/images/speaker/carlos_henggeler.jpg"
 import Speaker31 from "@/images/speaker/cacia_pimentel.jpg"
 import Speaker32 from "@/images/speaker/ricardo_gedra.jpg"
+import Speaker33 from "@/images/speaker/wagner_ferreira.jpg"
 
 export const LogoImage = {
   light: logo,
@@ -762,6 +763,11 @@ export const TeamOneData = {
       image: Speaker21,
       name: "Efrain Pereira da Cruz",
       designation: "Secretário-Executivo, Ministério de Minas e Energia do Brasil",
+    },
+    {
+      image: Speaker33,
+      name: "Wagner Ferreira",
+      designation: "Diretor Institucional e Jurídico, ABRADEE - Associação Brasileira de Distribuidores de Energia Elétrica",
     },
     {
       image: Speaker22,
