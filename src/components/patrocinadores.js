@@ -104,10 +104,11 @@ const Patrocinadores = () => {
               <section className='apoio'>
             
                   <ul>
-                    <li><img src={Img1} /></li>
+                    <li><img src={Img16} /></li>
                     <li><img src={Img2} /></li>
+                    <li><img src={Img1} /></li>
                     <li><img src={Img3} /></li>
-                    <li><img src={Img4} /></li>
+                    {/* <li><img src={Img4} /></li> */}
                     <li><img src={Img5} /></li>
                   </ul>
                   <ul>
@@ -123,7 +124,7 @@ const Patrocinadores = () => {
                     <li><img src={Img13} /></li>
                     <li><img src={Img14} /></li>
                     <li><img src={Img15} /></li>
-                    <li><img src={Img16} /></li>
+                    
                   </ul>
                </section>
                {/* <img css={element13} src={Element13} /> */}
