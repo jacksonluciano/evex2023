@@ -99,7 +99,7 @@ const Duvidas = () => {
                 Entre em contato com a gente e tire suas dúvidas, faça sugestões e garanta sua participação nos eventos do EVEx Lisboa 2023.
                 </p>
 
-                <form method="POST" action="https://formsubmit.co/jackson.ides@gmail.com" encType="multipart/form-data"
+                <form method="POST" action="https://formsubmit.co/secretaria@evex.energy" encType="multipart/form-data"
                   id="contactForm"
                   css={contactFrom}
                   onSubmit={handleFormSubmit}
