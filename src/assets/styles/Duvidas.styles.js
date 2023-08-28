@@ -268,3 +268,24 @@ export const element8 = css`
     top: 415px;
   }
 `;
+
+
+export const messageBox=css`
+    transition: .5s ease-in-out;
+    background: #8dffb5;
+    width: 100%;
+    max-width: 428px;
+    line-height: 24px;
+    margin-top: 16px;
+    position: absolute;
+    top: -116px;
+    z-index: 999;
+    padding: 22px 16px;
+
+    p{
+      margin: 0;
+    color: #1e1e1c;
+    font-size: 14px;
+    text-align: center;
+    }
+`

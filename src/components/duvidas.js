@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { PatrocinadoresData } from "@/data";
 import Element8 from "@/images/elements/element-08.png"
 import Element14 from "@/images/elements/element-14.svg"
@@ -8,6 +8,7 @@ import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
 import Hotel from "@/images/hotel_dom_pedro.png" 
 import { Col, Container, Row } from "react-bootstrap";  
+import { useLocation } from '@reach/router';
 import { jsx } from "@emotion/react";
 
 import {
@@ -18,6 +19,7 @@ import {
   element15,
   realization,
   contactFrom,
+  messageBox
 } from "../assets/styles/Duvidas.styles";
 import {
   secDesk,
@@ -28,6 +30,32 @@ import {
 } from "../assets/styles/layout.styles";
 
 const Duvidas = () => {
+
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const formValue = searchParams.get('form');
+
+  const [buttonText, setButtonText] = useState('Enviar');
+
+  const [message, setMessage] = useState('');
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleFormSubmit = () => {
+    setButtonText('Enviando...');
+  };
+
+  useEffect(() => {
+    if (formValue === 'contato') {
+      setMessage('Obrigado por nos enviar sua sua mensagem!');
+      setIsVisible(true);
+      const timeout = setTimeout(() => {
+        setIsVisible(false);
+      }, 5000);
+      return () => clearTimeout(timeout);
+    }
+  }, [formValue]);
+
+
   const { sectionContent, element } = PatrocinadoresData;
   return (
     <section css={[abAgency]}>
@@ -74,6 +102,7 @@ const Duvidas = () => {
                 <form method="POST" action="https://formsubmit.co/jackson.ides@gmail.com" encType="multipart/form-data"
                   id="contactForm"
                   css={contactFrom}
+                  onSubmit={handleFormSubmit}
                 >
                   <input type="hidden" name="_next" value="https://evex.energy?form=contato" />
                  <input type="hidden" name="_captcha" value="false" />
@@ -107,12 +136,19 @@ const Duvidas = () => {
                     ></textarea>
                   </div>
                   <button
-                    css={[commonBtn, redBg]}
+                    css={[commonBtn]}
                     type="submit"
                     id="con_submit"
                   >
-                    <span>Enviar</span>
+                    <span>{buttonText}</span>
                   </button>
+                  {isVisible ?  
+                <div css={{...messageBox,
+                  opacity: isVisible ? 1 : 0,
+                  transition: 'opacity 0.5s ease-in-out',
+                }}>
+              <p>{message}</p>
+            </div> : null}
                 </form>
               </div>
             </Col>

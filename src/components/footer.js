@@ -22,8 +22,14 @@ const Footer = () => {
   const searchParams = new URLSearchParams(location.search);
   const formValue = searchParams.get('form');
 
+  const [buttonText, setButtonText] = useState('Inscreva-se');
+
   const [message, setMessage] = useState('');
   const [isVisible, setIsVisible] = useState(false);
+
+  const handleFormSubmit = () => {
+    setButtonText('Enviando...');
+  };
 
   useEffect(() => {
     if (formValue === 'newsletter') {
@@ -50,7 +56,13 @@ const Footer = () => {
               </a> */}
               <h2>News</h2>
               <p>Fique por dentro das novidades do EVEx Lisboa 2023.</p>
-              <form method="POST" action="https://formsubmit.co/secretaria@evex.energy" encType="multipart/form-data" css={subscribeFrom}>
+              <form 
+                method="POST" 
+                action="https://formsubmit.co/secretaria@evex.energy" 
+                encType="multipart/form-data" 
+                css={subscribeFrom}
+                onSubmit={handleFormSubmit}
+              >
               <input type="hidden" name="_next" value="https://evex.energy?form=newsletter" />
               <input type="hidden" name="_captcha" value="false" />
                 <input
@@ -59,7 +71,7 @@ const Footer = () => {
                   name="email"
                 />
                 <button css={[commonBtn, redBg]} type="submit" name="submit">
-                  <span>Inscreva-se</span>
+                  <span>{buttonText}</span>
                 </button>
                 {isVisible ?  
                 <div css={{...messageBox,
