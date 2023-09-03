@@ -110,10 +110,10 @@ const Inscricoes = () => {
                 <div css={dateBlock} className="purple" >
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>25 e 26 de Outubro</h3>
-                  <p>Profissionais (1° lote até 31/08)</p>
-                  <h4>€ 250,00 / R$ 1.750,00</h4>
-                  <p>Estudantes (1° lote até 31/08)</p>
-                  <h4>€ 125,00 / R$ 875,00</h4>
+                  <p>Profissionais (2° lote até 25/09)</p>
+                  <h4>€ 300,00 / R$ 2.100,00</h4>
+                  <p>Estudantes (2° lote até 25/09)</p>
+                  <h4>€ 150,00 / R$ 1.050,00</h4>
                   <p className="text">
                     Acesso à programação completa do EVEx Presencial<br></br> 
                     Kit de credenciamento<br></br> 
