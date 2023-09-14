@@ -7,6 +7,7 @@ import Normas from '@/images/EVEx2023 - Regras de Formatação.pdf'
 import Eixos from '@/images/EVEx2023 - Eixos Temáticos.pdf'
 import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
 import Anais from '@/images/Anais EVEx 2020.pdf'
+import Anais2021 from '@/images/Anais EVEx 2021 - Energy Virtual Experience .pdf'
 import { jsx } from "@emotion/react";
 
 import {
@@ -177,6 +178,11 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                     <p css={mb16}>
                       <a href={Anais} target="_blank">
                         <img src={Publicacao} /> Anais EVEx 2020
+                      </a>
+                    </p>
+                    <p css={mb16}>
+                      <a href={Anais2021} target="_blank">
+                        <img src={Publicacao} /> Anais EVEx 2021
                       </a>
                     </p>
                 
