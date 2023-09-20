@@ -156,14 +156,14 @@ export const about = css`
 
       li {
         @media (min-width: 320px) and (max-width: 767px) {
-        width: 33.3%;
+        /* width: 33.3%; */
         padding: 2px;
           float: left;
       }
         img {
-          height: 108px;
+          height: 132px;
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto !important;
+            /* height: auto !important; */
           }
         }
       }
@@ -180,10 +180,11 @@ export const about = css`
       display: flex;
       justify-content: center;
       align-items: center;
+      
 
-      /* @media (min-width: 320px) and (max-width: 767px) {
-        flex-direction: column;
-      } */
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
 
       li {
         padding: 0 16px;
@@ -202,7 +203,7 @@ export const about = css`
 
 
         @media (min-width: 320px) and (max-width: 767px) {
-          width: 25%;
+          width: 50%;
           padding: 8px;
           float: left;
       }
@@ -228,9 +229,9 @@ export const about = css`
       justify-content: space-between;
       align-items: center;
 
-      /* @media (min-width: 320px) and (max-width: 767px) {
-        flex-direction: column;
-      } */
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
 
       li {
         padding: 0 8px;
@@ -252,7 +253,7 @@ export const about = css`
           }
 
         @media (min-width: 320px) and (max-width: 767px) {
-        width: 20%;
+        width: 33.3%;
         padding: 8px;
           float: left;
       }
