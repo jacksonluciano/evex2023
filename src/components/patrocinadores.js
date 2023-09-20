@@ -4,6 +4,7 @@ import { PatrocinadoresData } from "@/data";
 import Element11 from "@/images/elements/element-11.svg"
 import Element12 from "@/images/elements/element-12.svg"
 import { Col, Container, Row } from "react-bootstrap";
+import Img from '@/images/pat.png'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
 import Img3 from '@/images/apoio/ape.jpg'
@@ -20,6 +21,18 @@ import Img13 from '@/images/apoio/WINESG.svg'
 import Img14 from '@/images/apoio/mackenzie.png'
 import Img15 from '@/images/apoio/fgv_energia.png'
 import Img16 from '@/images/apoio/ccee.png'
+
+import Pat01 from '@/images/patrocinio/adene.jpeg'
+import Pat02 from '@/images/patrocinio/cemig.png'
+import Pat03 from '@/images/patrocinio/edp.png'
+import Pat04 from '@/images/patrocinio/galp.png'
+import Pat05 from '@/images/patrocinio/minasGerais.png'
+import Pat06 from '@/images/patrocinio/rolim.png'
+import Pat07 from '@/images/patrocinio/MotaEngilATIV.png'
+import Pat08 from '@/images/patrocinio/hegatech.png'
+import Pat09 from '@/images/patrocinio/blomstein.png'
+import Pat10 from '@/images/patrocinio/renewing.png'
+import Pat11 from '@/images/patrocinio/ren.png'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -32,6 +45,7 @@ import {
 }  from '../assets/styles/Patrocinadores.styles'
 import {
   secTitle,
+  secDesk
 } from "../assets/styles/layout.styles";
 
 const Patrocinadores = () => {
@@ -42,7 +56,7 @@ const Patrocinadores = () => {
         <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
-              {/* <h2 css={[secTitle, mb45]}>Patrocinadores</h2> */}
+              <h2 css={[secTitle, mb45]}>Patrocinadores</h2>
            <img css={element11} src={Element11} />   
            <img css={element12} src={Element12} />
               {/* <section className='diamante'>
@@ -61,42 +75,36 @@ const Patrocinadores = () => {
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                   </ul>
-               </section>
+               </section> */}
 
                <section className='ouro'>
                 <h4 css={secDesk}>Ouro</h4>
-                  <ul>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
+                  <ul  style={{display:"flex", justifyContent:'center'}}>
+                    <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
                   </ul>
                </section>
 
                <section className='prata'>
                 <h4 css={secDesk}>Prata</h4>
                   <ul>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
+                    <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
+                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li>
+                    <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
+                    <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
                   </ul>
                </section>
 
                <section className='bronze'>
                 <h4 css={secDesk}>Bronze</h4>
                   <ul>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
+                    <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li>
+                    <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
+                    <li><a href="https://www.ativ.pt" target="_blank"><img src={Pat07} /></a></li>
+                    <li><a href="http://www.hega-tech.com" target="_blank"><img src={Pat08} /></a></li>
+                    <li><a href="https://www.blomstein.com" target="_blank"><img src={Pat09} /></a></li>
+                    <li><a href="https://renewing.pt" target="_blank"><img src={Pat10} /></a></li>
                   </ul>
-               </section> */}
+               </section>
 
 
               <h2 css={[secTitle, mb45]}>Apoio Institucional</h2>

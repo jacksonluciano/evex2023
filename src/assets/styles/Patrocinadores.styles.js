@@ -142,7 +142,7 @@ export const about = css`
   .ouro {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     ul {
       margin: 0;
       padding: 0;
@@ -161,9 +161,9 @@ export const about = css`
           float: left;
       }
         img {
-          height: 72px;
+          height: 108px;
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto;
+            height: auto !important;
           }
         }
       }
@@ -173,28 +173,44 @@ export const about = css`
   .prata {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     ul {
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
-      @media (min-width: 320px) and (max-width: 767px) {
-        display: inline;
-      }
+      /* @media (min-width: 320px) and (max-width: 767px) {
+        flex-direction: column;
+      } */
 
       li {
+        padding: 0 16px;
+
+        :nth-of-type(1) img{
+            height: 68px;
+          }
+          :nth-of-type(2) img{
+            height: 62px;
+          }
+
+          :nth-of-type(3) img,
+          :nth-of-type(4) img{
+            height: 42px;
+          }
+
+
         @media (min-width: 320px) and (max-width: 767px) {
-        width: 25%;
-        padding: 2px;
+          width: 25%;
+          padding: 8px;
           float: left;
       }
         img {
-          height: 64px;
+          height: 50px;
+         
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto;
+            height: auto !important;
           }
         }
       }
@@ -212,21 +228,39 @@ export const about = css`
       justify-content: space-between;
       align-items: center;
 
-      @media (min-width: 320px) and (max-width: 767px) {
-        display: inline;
-      }
+      /* @media (min-width: 320px) and (max-width: 767px) {
+        flex-direction: column;
+      } */
 
       li {
+        padding: 0 8px;
+
+        :nth-of-type(2) img{
+            height: 72px;
+          }
+          :nth-of-type(3) img{
+            height: 42px;
+          }
+          :nth-of-type(4) img{
+            height: 42px;
+          }
+          :nth-of-type(5) img{
+            height: 22px;
+          }
+          :nth-of-type(6) img{
+            height: 38px;
+          }
+
         @media (min-width: 320px) and (max-width: 767px) {
         width: 20%;
-        padding: 2px;
+        padding: 8px;
           float: left;
       }
         img {
-          height: 48px;
+          height: 38px;
 
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto;
+            height: auto !important;
           }
         }
       }

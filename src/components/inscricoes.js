@@ -71,7 +71,7 @@ const Inscricoes = () => {
                     Gravações do evento <br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se em breve</button>
+                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -92,7 +92,7 @@ const Inscricoes = () => {
                     Gravações de todo o evento<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se em breve</button>
+                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
