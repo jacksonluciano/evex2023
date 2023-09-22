@@ -163,7 +163,8 @@ export const about = css`
         img {
           height: 132px;
           @media (min-width: 320px) and (max-width: 767px) {
-            /* height: auto !important; */
+            height: auto !important;
+            max-height: 128px;
           }
         }
       }
