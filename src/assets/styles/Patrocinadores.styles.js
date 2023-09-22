@@ -164,7 +164,6 @@ export const about = css`
           height: 132px;
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
-            max-height: 128px;
           }
         }
       }
