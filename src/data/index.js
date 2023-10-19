@@ -1917,7 +1917,7 @@ export const ContentData2 = [
             <p style="padding-left:45px">
               <b>Júlia Seixas</b></br>
               Pró-Reitora, Universidade NOVA de Lisboa
-            </p> </br>
+            </p>
 
             <p style="padding-left:45px">
             <b>Caio César Cavalcanti</b></br>
@@ -1932,27 +1932,27 @@ export const ContentData2 = [
             <p style="padding-left:45px">
               <b>Efrain Pereira da Cruz</b></br>
               Secretário Executivo, Ministério de Minas e Energia do Brasil
-            </p> </br>
+            </p> 
 
             <p style="padding-left:45px">
               <b>Bruno Veloso</b></br>
               Vice-Presidente do Conselho de Administração, ADENE - Agência para a Energia
-            </p> </br>
+            </p> 
 
             <p style="padding-left:45px">
               <b>Alexandre Ramos</b></br>
               Presidente, CCEE - Câmara de Comercialização de Energia Elétrica
-            </p> </br>
+            </p> 
 
             <p style="padding-left:45px">
               <b>Thiago Prado</b></br>
               Presidente, EPE - Empresa de Pesquisa Energética
-            </p> </br>
+            </p> 
 
             <p style="padding-left:45px">
               <b>Maria João Rolim</b></br>
               Sócia, Rolim Goulart Cardoso
-            </p> </br>
+            </p> 
 
             <p style="padding-left:45px">
               <b>Joana Garoupa – Moderadora</b></br>
