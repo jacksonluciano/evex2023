@@ -839,11 +839,11 @@ export const TeamOneData = {
       name: "Solange David",
       designation: "Vice-Presidente do Conselho de Administração, Santo Antônio Energia",
     },
-    {
-      image: Speaker28,
-      name: "Carlos Quintella",
-      designation: "Diretor Executivo, FGV Energia",
-    },
+    // {
+    //   image: Speaker28,
+    //   name: "Carlos Quintella",
+    //   designation: "Diretor Executivo, FGV Energia",
+    // },
     {
       image: Speaker29,
       name: "Júlia Seixas",
@@ -889,21 +889,21 @@ export const TeamOneData = {
       name: "Gustavo De Marchi",
       designation: "Consultor Jurídico, FGV Energia",
     },
-    {
-      image: Speaker18,
-      name: "Vládia Viana Regis",
-      designation: "Superintendente de Regulação, Eletrobras",
-    },
+    // {
+    //   image: Speaker18,
+    //   name: "Vládia Viana Regis",
+    //   designation: "Superintendente de Regulação, Eletrobras",
+    // },
     {
       image: Speaker16,
       name: "Lucila de Almeida",
       designation: "Abreu Chair in ESG Impact, NOVA School of Law",
     },
-    {
-      image: Speaker30,
-      name: "Carlos Henggeler Antunes",
-      designation: "Professor Catedrático, Departamento de Engenharia Eletrotécnica e de Computadores da Faculdade de Ciências e Tecnologia da Universidade de Coimbra",
-    },
+    // {
+    //   image: Speaker30,
+    //   name: "Carlos Henggeler Antunes",
+    //   designation: "Professor Catedrático, Departamento de Engenharia Eletrotécnica e de Computadores da Faculdade de Ciências e Tecnologia da Universidade de Coimbra",
+    // },
     {
       image: Speaker31,
       name: "Cácia Pimentel",
@@ -973,11 +973,11 @@ export const ComiteData = {
       name: "Filipe Matias Santos",
       description: "Diretor de Serviços Jurídicos, ERSE – Entidade Reguladora dos Serviços Energéticos",
     },
-    {
-      image: Comite10,
-      name: "Lucila de Almeida",
-      description: "Abreu Chair in ESG Impact, NOVA School of Law",
-    },
+    // {
+    //   image: Comite10,
+    //   name: "Lucila de Almeida",
+    //   description: "Abreu Chair in ESG Impact, NOVA School of Law",
+    // },
     {
       image: Comite11,
       name: "Rui Pestana ",
@@ -1907,63 +1907,231 @@ Missão EVEx | CCEE | ABRADEE | ABEEólica ao EVEx Lisboa e ao Mercado Ibérico:
 
 export const ContentData2 = [
   {
-    text:`<h3>Dia 25 de Outubro</h3>
-<p>
-<strong>
-08h30 – Credenciamento e Welcome Drink<br></br>
-09h05 – Boas-Vindas<br></br>
-09h15 – Painel de Abertura – Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana <br></br>
+    text:`
+    <h3 style="margin-bottom:4px">Dia 25 de Outubro</h3>
+    <p>Horário de Portugal Continental</p>
 
-10:45 – Coffee Break<br></br>
+    <b>08h45 – Acreditação e Welcome Drink</b></br></br>
+    <b>09h15 – Boas-Vindas</b></br></br>
 
-11h15 – EVEx MasterClasses – Hidrogênio Verde como acelerador da Transição Energética: tecnologias e projetos em desenvolvimento <br></br>
+            <p style="padding-left:45px">
+              <b>Júlia Seixas</b></br>
+              Pró-Reitora, Universidade NOVA de Lisboa
+            </p> </br>
 
-12h30 – Intervalo para Almoço<br></br>
+            <p style="padding-left:45px">
+            <b>Caio César Cavalcanti</b></br>
+            Presidente, EVEx
+          </p> </br>
 
-14h00 – EVEx Expo/Business – Comunidades de Energia Renovável: cases, oportunidades e modelos de negócio<br></br>
+    <b>09h30 – Painel de Abertura</b></br>
+    Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana</br></br>
 
-15h30 – EVEx Talks – Transição Energética na Indústria de Petróleo & Gás: integração com renováveis e geopolítica em tempos de guerra<br></br>
+            <p><b>Representante do Ministério do Ambiente e da Ação Climática de Portugal</b></p>
 
-16h45 – Coffee Break<br></br>
+            <p style="padding-left:45px">
+              <b>Efrain Pereira da Cruz</b></br>
+              Secretário Executivo, Ministério de Minas e Energia do Brasil
+            </p> </br>
 
-17h10 – EVEx Talks – Fórum C-Level – Segurança Energética, Descarbonização da Economia e Ação Climática: cenários para uma transição justa e eficiente <br></br>
+            <p style="padding-left:45px">
+              <b>Bruno Veloso</b></br>
+              Vice-Presidente do Conselho de Administração, ADENE - Agência para a Energia
+            </p> </br>
 
-18h15 – Entrega dos Prêmios EVEx Personalidades do Ano<br></br>
-</strong>
-•	Personalidade da Península Ibérica <br></br>
+            <p style="padding-left:45px">
+              <b>Alexandre Ramos</b></br>
+              Presidente, CCEE - Câmara de Comercialização de Energia Elétrica
+            </p> </br>
 
-•	Personalidade da América Latina<br></br>
-<strong>
-18h30 – Encerramento do primeiro dia<br></br>
-</strong>
-</p>
-    `
-  },
-  {
-    text:`<h3>Dia 26 de Outubro</h3>
-    <p>
-    <strong>
-    09h00 – EVEx Talks – Segurança e Diversificação da Matriz Energética: desafios e oportunidades rumo a uma economia de baixo carbono<br></br>
+            <p style="padding-left:45px">
+              <b>Thiago Prado</b></br>
+              Presidente, EPE - Empresa de Pesquisa Energética
+            </p> </br>
 
-10h05 – EVEx MasterClasses – Eólicas Offshore na Península Ibérica e na América Latina: avanços e desafios a superar <br></br>
+            <p style="padding-left:45px">
+              <b>Maria João Rolim</b></br>
+              Sócia, Rolim Goulart Cardoso
+            </p> </br>
 
-11h10 – Coffee Break<br></br>
+            <p style="padding-left:45px">
+              <b>Joana Garoupa – Moderadora</b></br>
+              Diretora Geral, Garoupa INC
+            </p> </br>
 
-11h30 – EVEx Expo/Business – Abertura e Segurança dos Mercados de Energia: a experiência ibero-brasileira <br></br>
+   <b>10h45</b> – Coffee Break</br></br>
+  
+   <b>11h15 – Lisbon Energy Expo/Business</b></br>
+   Hidrogênio Verde como acelerador da Transição Energética:
+  tecnologias e projetos em desenvolvimento</br></br>
 
-13h00 – Intervalo para Almoço <br></br>
+  <b style="text-decoration:underline">Exposição de Cases:</b></br></br>
 
-14h30 – EVEx MasterClasses – ESG e Inovação: estratégias para a transição justa e a sustentabilidade transversal <br></br>
+            <p style="padding-left:45px">
+              <b>Ana Quelhas</b></br>
+              Managing Director for Hydrogen, EDP Renewables 
+            </p> 
+            <p style="padding-left:45px">
+              <b>Bruno Galvão</b></br>
+              Special Counsel, BLOMSTEIN
+            </p> 
 
-15h45 – EVEx Expo/Business – Financiamento Vede e Transição Climática: novos instrumentos financeiros para a descarbonização <br></br>
+<b style="text-decoration:underline">Debate:</b></br></br>
 
-16h45 – Coffee Break <br></br>
+            <p style="padding-left:45px">
+              <b>Gema Blanco-Salvá</b></br>
+              Ajunta a la Dirección General, MIBGAS - Mercado Iberico del Gas
+            </p> 
+            <p style="padding-left:45px">
+              <b>Ricardo Gedra</b></br>
+              Gerente de Análise e Informações ao Mercado, CCEE - Câmara de Comercialização de Energia Elétrica
+            </p> 
+            <p style="padding-left:45px">
+              <b>Afonso Henriques Moreira Santos</b></br>
+              Membro do Conselho de Administração, CEMIG - Companhia Energética de Minas Gerais
+            </p> 
+            <p style="padding-left:45px">
+              <b>Fernanda Delgado – Moderadora</b></br>
+              Diretora Executiva, ABIHV - Associação Brasileira da Indústria de Hidrogênio Verde
+            </p> 
+            </br>
 
-17h05 – EVEx Talks – COP28 e as perspectivas para Mercados de Carbono no combate à Mudança Climática: o que esperar no futuro próximo?<br></br>
+            <b>12h15</b> – Intervalo</br></br>
 
-18h15 – Encerramento do evento<br></br>
-</strong>
-    </p>
+<b>14h00 – Lisbon Energy MasterClasses</b></br>
+Redes do Futuro: modernização dos Mercados Ibérico e Brasileiro de Energia à luz da sustentabilidade</br></br>
+
+<b style="text-decoration:underline">MasterClasses:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Wagner Ferreira</b></br>
+              Diretor Institucional e Jurídico, ABRADEE - Associação Brasileira dosDistribuidores de Energia Elétrica
+            </p> 
+            <p style="padding-left:45px">
+              <b>Ferrari Careto</b></br>
+              CEO, E-Redes 
+            </p> 
+
+            <b style="text-decoration:underline">Debate:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Jorge Esteves</b></br>
+              Diretor de Infraestruturas e Redes, ERSE - Entidade Reguladora dos Serviços Energéticos
+            </p> 
+            <p style="padding-left:45px">
+              <b>Anna Paula Pacheco</b></br>
+              Diretora de Regulação, Enel Brasil
+            </p> 
+            <p style="padding-left:45px">
+              <b>Rui Pestana – Moderador</b></br>
+              Assessor da Divisão do Sistema, REN - Redes Energéticas Nacionais 
+            </p> </br>
+
+<b>15h00 – Lisbon Energy Talks</b></br>
+Eólicas Offshore na Península Ibérica e na América Latina: avanços e desafios a superar</br></br>
+
+            <p style="padding-left:45px">
+              <b>Pedro Amaral Jorge</b></br>
+              CEO, APREN - Associação Portuguesa de Energias Renováveis
+            </p> 
+            <p style="padding-left:45px">
+              <b>Elbia Gannoum</b></br>
+              CEO, ABEEólica - Associação Brasileira de Energia Eólica e Novas Tecnologias
+            </p> 
+            <p style="padding-left:45px">
+              <b>José Partida Solano</b></br>
+              Head of Offshore Wind Business Development, Repsol
+            </p> 
+            <p style="padding-left:45px">
+              <b>José Pinheiro</b></br>
+              Country Manager - Southern Europe, OW Ocean Winds
+            </p> 
+            <p style="padding-left:45px">
+              <b>Miguel Prado – Moderador</b></br>
+              Jornalista, Expresso 
+            </p> </br>
+
+            <b>16h00</b> – Coffee Break</br></br>
+
+<b>16h30 – Lisbon Energy Expo/Business</b></br>
+Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades e modelos de negócio</br></br>
+
+            <p style="padding-left:45px">
+            <b>Paulo Nogueira</b></br>
+            Coordenador, ADENE - Agência para a Energia
+            </p> 
+            <p style="padding-left:45px">
+            <b>Susana Dolores
+            </b></br>
+            Business Developer | Renewable Energy Communities, Mota-Engil Renewing
+            </p> 
+            <p style="padding-left:45px">
+            <b>Marney Antunes</b></br>
+            Diretor de Distribuição, CEMIG - Companhia Energética de Minas Gerais
+            </p> 
+            <p style="padding-left:45px">
+            <b>Murilo Portela</b></br>
+            Consultor, Hegatech
+            </p> 
+            <p style="padding-left:45px">
+            <b>Alice Khouri – Moderadora
+            </b></br>
+            Founder, Women in ESG Portugal 
+            </p> </br>
+
+            <b>17h30 – Lisbon Energy Talks | Fórum C-Level</b></br>
+            Segurança Energética, Descarbonização da Economia e Ação Climática:
+            cenários para uma transição justa e eficiente</br></br>
+
+            <p style="padding-left:45px">
+            <b>Nelson Lage</b></br>
+            Presidente, ADENE - Agência para a Energia
+            </p> 
+            <p style="padding-left:45px">
+            <b>Reynaldo Passanezi
+            </b></br>
+            CEO, CEMIG - Companhia Energética de Minas Gerais
+            </p> 
+            <p style="padding-left:45px">
+            <b>André Pepitone</b></br>
+            CFO, Itaipu Binacional
+            </p> 
+            <p style="padding-left:45px">
+            <b>Jerónimo Meira da Cunha</b></br>
+            Diretor Geral, DGEG - Direção Geral de Energia e Geologia
+            </p> 
+            <p style="padding-left:45px">
+            <b>Alexandre Zucarato</b></br>
+            Diretor de Planejamento, ONS - Operador Nacional do Sistema Elétrico
+            </p> 
+            <p style="padding-left:45px">
+            <b>Maria João Rolim – Moderadora</b></br>
+            Sócia, Rolim Goulart Cardoso Advogados
+            </p> </br>
+
+            <b>18h30 – Entrega dos Prêmios EVEx Personalidades do Ano</b></br></br>
+
+<b style="text-decoration:underline">Personalidade da Península Ibérica</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Nelson Lage</b></br>
+              Presidente, ADENE - Agência para a Energia
+            </p> 
+
+            <b style="text-decoration:underline">Personalidade da América Latina</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Elbia Gannoum</b></br>
+              CEO, ABEEólica - Associação Brasileira de Energia Eólica e Novas Tecnologias
+            </p> 
+
+            <b>18h45 – Lisbon Energy Celebration</b></br></br>
+
+            <b style="text-decoration:underline">Coquetel em comemoração aos 50 anos da Universidade NOVA
+            de Lisboa e aos 30 anos do Rolim Goulart Cardoso Advogados</b></br></br>
+
+            <b>19h30 – Encerramento do Primeiro Dia</b></br></br>
+
     `
   },
   
@@ -1973,8 +2141,8 @@ export const BigCtaData = [
   {
     date: 'Agenda',
     text: 
-        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, a agenda dos eventos do EVEx Lisboa 2023 será divulgada em breve.`,
-        button: 'Agenda Preliminar'
+        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, confira a agenda dos eventos do EVEx Lisboa 2023.`,
+        button: 'Agenda Oficial'
   },
   {
     date: 'Inscrições',

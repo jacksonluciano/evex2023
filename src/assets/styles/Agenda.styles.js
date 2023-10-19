@@ -261,8 +261,9 @@ export const asidePresBlock = css`
 export const contentPresData = css`
   margin-bottom: 0px;
   padding-bottom: 40px;
+  color: ${colors.secondaryMain};
 
-  p {
+  p, b {
     color: ${colors.secondaryMain};
   }
 `;

@@ -71,7 +71,8 @@ const Inscricoes = () => {
                     Gravações do evento <br></br> 
                     Certificado internacional de participação
                   </p>
-                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a>
+                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a> */}
+                  <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -92,7 +93,8 @@ const Inscricoes = () => {
                     Gravações de todo o evento<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a>
+                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a> */}
+                  <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -110,10 +112,10 @@ const Inscricoes = () => {
                 <div css={dateBlock} className="purple" >
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>25 e 26 de Outubro</h3>
-                  <p>Profissionais (2° lote até 25/09)</p>
-                  <h4>€ 300,00 / R$ 2.100,00</h4>
-                  <p>Estudantes (2° lote até 25/09)</p>
-                  <h4>€ 150,00 / R$ 1.050,00</h4>
+                  <p>Profissionais (último lote)</p>
+                  <h4>€ 320,00 / R$ 2.240,00</h4>
+                  <p>Estudantes (último lote)</p>
+                  <h4>€ 160,00 / R$ 1.120,00</h4>
                   <p className="text">
                     Acesso à programação completa do EVEx Presencial<br></br> 
                     Kit de credenciamento<br></br> 
@@ -123,6 +125,7 @@ const Inscricoes = () => {
                   </p>
                   <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696129912307?aff=ebdsoporgprofile" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
                   <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696294243827?aff=oddtdtcreator" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>
+                  {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -143,8 +146,9 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado internacional de participação
                   </p>
-                  <button css={commonBtn}>Inscreva-se em breve (€)</button>
-                  <button css={commonBtn}>Inscreva-se em breve (R$)</button>
+                  {/* <button css={commonBtn}>Inscreva-se em breve (€)</button>
+                  <button css={commonBtn}>Inscreva-se em breve (R$)</button> */}
+                  <button css={commonBtn}>Inscrições encerradas</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
