@@ -2134,6 +2134,221 @@ Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades 
 
     `
   },
+  {
+    text:`
+    <h3 style="margin-bottom:4px">Dia 26 de Outubro</h3>
+    <p>Horário de Portugal Continental</p>
+
+    <b>09h00 – Lisbon Energy MasterClasses</b></br>
+    Arbitragem e Transição Energética Justa: resolução de conflitos rumo a uma economia de baixo carbono e redução de desigualdades</br></br>
+    
+    <b style="text-decoration:underline">MasterClasses:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Solange David</b></br>
+              Vice-Presidente do Conselho de Administração, Santo Antônio Energia
+            </p>
+
+            <p style="padding-left:45px">
+            <b>Filipe Matias Santos</b></br>
+            Diretor de Serviços Jurídicos, ERSE - Entidade Reguladora dos Serviços Energéticos
+          </p> </br>
+
+  <b style="text-decoration:underline">Debate:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Vicente López-Ibor Mayor</b></br>
+              Presidente, EFELA - European Federation of Energy Law Associations
+            </p>
+
+            <p style="padding-left:45px">
+            <b>Luiz Eduardo Diniz Araújo</b></br>
+            Procurador Federal, ex-Procurador-Geral da ANEEL - Agência Nacional de Energia Elétrica
+          </p>
+
+            <p style="padding-left:45px">
+            <b>Gustavo De Marchi – Moderador</b></br>
+            Consultor, FGV Energia
+          </p> </br>
+
+    <b>10h05 – Lisbon Energy MasterClasses</b></br>
+    Transição Energética na Indústria de Petróleo & Gás: integração com renováveis e geopolítica em tempos de guerra</br></br>
+
+    <b style="text-decoration:underline">MasterClasses:</b></br></br>
+
+    <p style="padding-left:45px">
+      <b>Mauricio Tolmasquim</b></br>
+      Diretor de Transição Energética e Sustentabilidade, Petrobras
+    </p></br>
+
+<b style="text-decoration:underline">Debate:</b></br></br>
+
+    <p style="padding-left:45px">
+      <b>Heloísa Borges Esteves</b></br>
+      Diretora de Estudos de Petróleo, Gás Natural e Biocombustíveis, EPE - Empresa de Pesquisa Energética
+    </p>
+
+    <p style="padding-left:45px">
+    <b>Ana Serrano Oñate</b></br>
+    Former Vice President, Equinor
+  </p>
+
+  <p style="padding-left:45px">
+      <b>Sérgio Goulart Machado</b></br>
+      Diretor de Hidrogênio e Biocombustíveis, Galp
+    </p>
+
+    <p style="padding-left:45px">
+    <b>Roland M. Stein</b></br>
+    Sócio, BLOMSTEIN
+  </p>
+
+    <p style="padding-left:45px">
+    <b>Fernanda Delgado – Moderadora</b></br>
+    Diretora Executiva, ABIHV - Associação Brasileira da Indústria de Hidrogênio Verde
+  </p> </br>
+
+   <b>11h05</b> – Coffee Break</br></br>
+  
+   <b>11h30 – Lisbon Energy Expo/Business</b></br>
+   Abertura e Segurança dos Mercados de Energia: a experiência ibero-brasileira</br></br>
+
+  <b style="text-decoration:underline">Exposição sobre o Mercado Ibérico:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Ricardo Nunes</b></br>
+              Chief Strategy Officer, OMIP - The Iberian Energy Derivates Exchange e OMIClear - The Iberian Energy Clearing House 
+            </p> 
+
+<b style="text-decoration:underline">Exposição sobre o Mercado Brasileiro:</b></br></br>
+
+<p style="padding-left:45px">
+              <b>Eduardo Rossi</b></br>
+              Conselheiro, CCEE - Câmara de Comercialização de Energia Elétrica 
+            </p> 
+
+<b style="text-decoration:underline">Debate:</b></br></br>
+
+            <p style="padding-left:45px">
+              <b>Claudio Ribeiro</b></br>
+              CEO, 2W Ecobank
+            </p> 
+            <p style="padding-left:45px">
+              <b>Aprígio Guimarães
+              </b></br>
+              Country Sales Manager, ACCIONA Energía Portugal
+            </p> 
+            <p style="padding-left:45px">
+              <b>Paulo Tarso – Moderador</b></br>
+              Diretor de Comercialização de Energia, Galp Brasil
+            </p> 
+            </br>
+
+            <b>12h30</b> – Intervalo</br></br>
+
+<b>14h20 – Lisbon Energy Academy</b></br>
+Lançamento do Tomo X do Livro “Temas Relevantes no Direito de Energia Elétrica”</br></br>
+
+
+            <p style="padding-left:45px">
+              <b>Fábio Amorim da Rocha – Coordenador da Obra</b></br>
+              Chefe da Consultoria Jurídica, ENBPar - Empresa Brasileira de Participações
+ em Energia Nuclear e Binacional S.A.
+            </p> 
+            <p style="padding-left:45px">
+              <b>Natália Moreno – Coautora da Obra</b></br>
+              Docente, Faculdade de Direito da Universidade de Coimbra
+            </p></br>
+
+<b>14h30 – Lisbon Energy Talks</b></br>
+ESG e Inovação: estratégias para a transição justae a sustentabilidade transversal</br></br>
+
+            <p style="padding-left:45px">
+              <b>Maria Marta Geraldes</b></br>
+              Global Head of External Affairs, EDP
+            </p> 
+            <p style="padding-left:45px">
+              <b>Elisa Bastos</b></br>
+              Diretora de Assuntos Corporativos, ONS - Operador Nacional
+ do Sistema Elétrico
+            </p> 
+            <p style="padding-left:45px">
+              <b>Lucila de Almeida</b></br>
+              Abreu Chair in ESG Impact, NOVA School of Law
+            </p> 
+            <p style="padding-left:45px">
+              <b>Roberta Nanini</b></br>
+              Diretora de Regulação, CEMIG - Companhia Energética de Minas Gerais
+            </p> 
+            <p style="padding-left:45px">
+            <b>Agnes da Costa – Energy Virtual Experience</b></br>
+            Diretora, ANEEL – Agência Nacional de Energia Elétrica
+          </p> 
+            <p style="padding-left:45px">
+              <b>Alice Khouri – Moderadora</b></br>
+              Founder, Women in ESG Portugal 
+            </p> </br>
+
+
+ <b>15h30 – Lisbon Energy Expo/Business</b></br>
+ Mobilidade Elétrica e Sustentável: como acelerar a transição
+ energética no setor dos transportes?</br></br>
+            
+                        <p style="padding-left:45px">
+                          <b>Nuno Valadares Reis</b></br>
+                          Head of Smart Charging Business Development, Mota-Engil Renewing
+                        </p> 
+                        <p style="padding-left:45px">
+                          <b>Representante da ADENE - Agência para a Energia</b></br>
+                        </p> 
+                        <p style="padding-left:45px">
+                          <b>Débora Melo Fernandes</b></br>
+                          Sócia, Gama Glória
+                        </p> 
+                        <p style="padding-left:45px">
+                        <b>Luís Barroso</b></br>
+                        CEO, MOBI.E
+                      </p> 
+                        <p style="padding-left:45px">
+                          <b>João Torres – Moderador</b></br>
+                          Chairman, APE - Associação Portuguesa da Energia
+                        </p> </br>
+
+            <b>16h30</b> – Coffee Break</br></br>
+
+<b>17h00 – Lisbon Energy Expo/Business</b></br>
+COP28 e as perspectivas para Mercados de Carbono no combate
+à Mudança Climática: o que esperar no futuro próximo?</br></br>
+
+<b style="text-decoration:underline">Exposição de Cases:</b></br></br>
+
+            <p style="padding-left:45px">
+            <b>Dora Miranda</b></br>
+            Direção de Gestão de Carbono, Mota-Engil ATIV
+            </p> 
+            <p style="padding-left:45px">
+            <b>Cácia Pimentel
+            </b></br>
+            Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas
+ Públicas e Integridade
+            </p>
+
+            <b style="text-decoration:underline">Debate:</b></br></br>
+
+            <p style="padding-left:45px">
+            <b>Júlia Seixas</b></br>
+            Pró-Reitora, Universidade NOVA de Lisboa
+            </p> 
+            <p style="padding-left:45px">
+            <b>Rosana Santos
+            </b></br>
+            Diretora Executiva, Instituto E+ Transição Energética
+            </p></br>
+
+            <b>18h00 – Encerramento do Evento</b></br></br>
+
+    `
+  },
   
 ];
 
