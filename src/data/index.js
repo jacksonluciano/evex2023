@@ -1927,11 +1927,9 @@ export const ContentData2 = [
     <b>09h30 – Painel de Abertura</b></br>
     Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana</br></br>
 
-            <p><b>Representante do Ministério do Ambiente e da Ação Climática de Portugal</b></p>
-
             <p style="padding-left:45px">
-              <b>Efrain Pereira da Cruz</b></br>
-              Secretário Executivo, Ministério de Minas e Energia do Brasil
+              <b>Alexandre Fernandes</b></br>
+              Presidente, ENSE - Entidade Nacional para o Setor Energético
             </p> 
 
             <p style="padding-left:45px">
@@ -2005,7 +2003,7 @@ Redes do Futuro: modernização dos Mercados Ibérico e Brasileiro de Energia à
 
             <p style="padding-left:45px">
               <b>Wagner Ferreira</b></br>
-              Diretor Institucional e Jurídico, ABRADEE - Associação Brasileira dosDistribuidores de Energia Elétrica
+              Diretor Institucional e Jurídico, ABRADEE - Associação Brasileira dos Distribuidores de Energia Elétrica
             </p> 
             <p style="padding-left:45px">
               <b>Ferrari Careto</b></br>
@@ -2024,7 +2022,7 @@ Redes do Futuro: modernização dos Mercados Ibérico e Brasileiro de Energia à
             </p> 
             <p style="padding-left:45px">
               <b>Rui Pestana – Moderador</b></br>
-              Assessor da Divisão do Sistema, REN - Redes Energéticas Nacionais 
+              Assessor do Gestor do Sistema, REN - Rede Elétrica Nacional  
             </p> </br>
 
 <b>15h00 – Lisbon Energy Talks</b></br>
@@ -2054,7 +2052,7 @@ Eólicas Offshore na Península Ibérica e na América Latina: avanços e desafi
             <b>16h00</b> – Coffee Break</br></br>
 
 <b>16h30 – Lisbon Energy Expo/Business</b></br>
-Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades e modelos de negócio</br></br>
+Geração Distribuída e Comunidades de Energia Renovável: cases, oportunidades e modelos de negócio</br></br>
 
             <p style="padding-left:45px">
             <b>Paulo Nogueira</b></br>
@@ -2086,11 +2084,6 @@ Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades 
             <p style="padding-left:45px">
             <b>Nelson Lage</b></br>
             Presidente, ADENE - Agência para a Energia
-            </p> 
-            <p style="padding-left:45px">
-            <b>Reynaldo Passanezi
-            </b></br>
-            CEO, CEMIG - Companhia Energética de Minas Gerais
             </p> 
             <p style="padding-left:45px">
             <b>André Pepitone</b></br>
@@ -2142,7 +2135,7 @@ Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades 
     <b>09h00 – Lisbon Energy MasterClasses</b></br>
     Arbitragem e Transição Energética Justa: resolução de conflitos rumo a uma economia de baixo carbono e redução de desigualdades</br></br>
     
-    <b style="text-decoration:underline">MasterClasses:</b></br></br>
+    <b style="text-decoration:underline">MasterClass:</b></br></br>
 
             <p style="padding-left:45px">
               <b>Solange David</b></br>
@@ -2155,11 +2148,6 @@ Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades 
           </p> </br>
 
   <b style="text-decoration:underline">Debate:</b></br></br>
-
-            <p style="padding-left:45px">
-              <b>Vicente López-Ibor Mayor</b></br>
-              Presidente, EFELA - European Federation of Energy Law Associations
-            </p>
 
             <p style="padding-left:45px">
             <b>Luiz Eduardo Diniz Araújo</b></br>
@@ -2246,7 +2234,33 @@ Geração Distribuída e Comunidades de Energia Renovável:cases, oportunidades 
 
             <b>12h30</b> – Intervalo</br></br>
 
-<b>14h20 – Lisbon Energy Academy</b></br>
+            <b>14h00 – Lisbon Energy Academy</b></br>
+            Apresentação dos Melhores Trabalhos Acadêmicos </br></br>
+
+            <p style="padding-left:45px">
+            A função da Mediação Cultura-Cultivo do Instituto Fronteiras 
+            na transição energética Amazônica: um estudo de caso sobre a 
+            instalação das placas solares e inclusão digital na comunidade
+             da Apiwtxa<br>
+             <b>Larissa Barbosa Nicolosi Soares</b>
+             </p>
+
+             <p style="padding-left:45px">
+             Lobo em pele de cordeiro? Como pensar a regulação da atividade da mineração no Brasil em tempos de transição energética<br>
+             <b>Mariana Melo Botelho</b>
+             </p>
+
+             <p style="padding-left:45px">
+             Viabilidade técnica e econômica de projetos de eficiência energética em hospitais públicos brasileiros: estudo de caso do Hospital Universitário da Universidade de São Paulo, Brasil.<br>
+             <b>Márcio R. Ribeiro</b>
+             </p>
+
+             <p style="padding-left:45px">
+              <b>Natália Moreno – Moderadora</b></br>
+              Docente, Faculdade de Direito da Universidade de Coimbra
+            </p></br>
+
+<b>14h30 – Lisbon Energy Academy</b></br>
 Lançamento do Tomo X do Livro “Temas Relevantes no Direito de Energia Elétrica”</br></br>
 
 
@@ -2256,25 +2270,21 @@ Lançamento do Tomo X do Livro “Temas Relevantes no Direito de Energia Elétri
  em Energia Nuclear e Binacional S.A.
             </p> 
             <p style="padding-left:45px">
-              <b>Natália Moreno – Coautora da Obra</b></br>
+              <b>Natália Moreno – Moderadora e Coautora da Obra</b></br>
               Docente, Faculdade de Direito da Universidade de Coimbra
             </p></br>
 
-<b>14h30 – Lisbon Energy Talks</b></br>
+<b>14h45 – Lisbon Energy Talks</b></br>
 ESG e Inovação: estratégias para a transição justae a sustentabilidade transversal</br></br>
 
             <p style="padding-left:45px">
-              <b>Maria Marta Geraldes</b></br>
-              Global Head of External Affairs, EDP
+              <b>Sara Esteves</b></br>
+              Social Impact Coordination Director, EDP
             </p> 
             <p style="padding-left:45px">
               <b>Elisa Bastos</b></br>
               Diretora de Assuntos Corporativos, ONS - Operador Nacional
  do Sistema Elétrico
-            </p> 
-            <p style="padding-left:45px">
-              <b>Lucila de Almeida</b></br>
-              Abreu Chair in ESG Impact, NOVA School of Law
             </p> 
             <p style="padding-left:45px">
               <b>Roberta Nanini</b></br>
@@ -2290,7 +2300,7 @@ ESG e Inovação: estratégias para a transição justae a sustentabilidade tran
             </p> </br>
 
 
- <b>15h30 – Lisbon Energy Expo/Business</b></br>
+ <b>15h45 – Lisbon Energy Expo/Business</b></br>
  Mobilidade Elétrica e Sustentável: como acelerar a transição
  energética no setor dos transportes?</br></br>
             
@@ -2299,7 +2309,8 @@ ESG e Inovação: estratégias para a transição justae a sustentabilidade tran
                           Head of Smart Charging Business Development, Mota-Engil Renewing
                         </p> 
                         <p style="padding-left:45px">
-                          <b>Representante da ADENE - Agência para a Energia</b></br>
+                          <b>Vanessa Faia</b></br>
+                          Técnica Especialista, ADENE - Agência para a Energia
                         </p> 
                         <p style="padding-left:45px">
                           <b>Débora Melo Fernandes</b></br>
@@ -2314,17 +2325,17 @@ ESG e Inovação: estratégias para a transição justae a sustentabilidade tran
                           Chairman, APE - Associação Portuguesa da Energia
                         </p> </br>
 
-            <b>16h30</b> – Coffee Break</br></br>
+            <b>16h45</b> – Coffee Break</br></br>
 
-<b>17h00 – Lisbon Energy Expo/Business</b></br>
+<b>17h15 – Lisbon Energy Expo/Business</b></br>
 COP28 e as perspectivas para Mercados de Carbono no combate
 à Mudança Climática: o que esperar no futuro próximo?</br></br>
 
 <b style="text-decoration:underline">Exposição de Cases:</b></br></br>
 
             <p style="padding-left:45px">
-            <b>Dora Miranda</b></br>
-            Direção de Gestão de Carbono, Mota-Engil ATIV
+            <b>José Costa Pinheiro</b></br>
+            Especialista em Crédito de Carbono, Mota-Engil ATIV
             </p> 
             <p style="padding-left:45px">
             <b>Cácia Pimentel
@@ -2335,17 +2346,19 @@ COP28 e as perspectivas para Mercados de Carbono no combate
 
             <b style="text-decoration:underline">Debate:</b></br></br>
 
-            <p style="padding-left:45px">
-            <b>Júlia Seixas</b></br>
-            Pró-Reitora, Universidade NOVA de Lisboa
-            </p> 
+           
             <p style="padding-left:45px">
             <b>Rosana Santos
             </b></br>
             Diretora Executiva, Instituto E+ Transição Energética
-            </p></br>
+            </p>
+            <p style="padding-left:45px">
+            <b>Juliana Barbosa – Moderadora</b></br>
+            Investigadora na Unidade de Economia de Recursos, LNEG -Laboratório Nacional de Energia e Geologia 
+            </p> 
+            </br>
 
-            <b>18h00 – Encerramento do Evento</b></br></br>
+            <b>18h15 – Encerramento do Evento</b></br></br>
 
     `
   },
