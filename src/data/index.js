@@ -769,11 +769,11 @@ export const TeamOneData = {
       name: "Wagner Ferreira",
       designation: "Diretor Institucional e Jurídico, ABRADEE - Associação Brasileira de Distribuidores de Energia Elétrica",
     },
-    {
-      image: Speaker22,
-      name: "Carla Primavera",
-      designation: "Superintendente da Área de Transição Energética e Clima, BNDES – Banco Nacional de Desenvolvimento Econômico e Social",
-    },
+    // {
+    //   image: Speaker22,
+    //   name: "Carla Primavera",
+    //   designation: "Superintendente da Área de Transição Energética e Clima, BNDES – Banco Nacional de Desenvolvimento Econômico e Social",
+    // },
     {
       image: Speaker23,
       name: "Nelson Lage",
@@ -794,11 +794,11 @@ export const TeamOneData = {
       name: "Pedro Amaral Jorge",
       designation: "CEO, APREN – Associação Portuguesa de Energias Renováveis",
     },
-    {
-      image: Speaker24,
-      name: "Reynaldo Passanezi",
-      designation: "CEO, Cemig – Companhia Energética de Minas Gerais",
-    },
+    // {
+    //   image: Speaker24,
+    //   name: "Reynaldo Passanezi",
+    //   designation: "CEO, Cemig – Companhia Energética de Minas Gerais",
+    // },
     {
       image: Speaker25,
       name: "Heloísa Borges",
@@ -894,11 +894,11 @@ export const TeamOneData = {
     //   name: "Vládia Viana Regis",
     //   designation: "Superintendente de Regulação, Eletrobras",
     // },
-    {
-      image: Speaker16,
-      name: "Lucila de Almeida",
-      designation: "Abreu Chair in ESG Impact, NOVA School of Law",
-    },
+    // {
+    //   image: Speaker16,
+    //   name: "Lucila de Almeida",
+    //   designation: "Abreu Chair in ESG Impact, NOVA School of Law",
+    // },
     // {
     //   image: Speaker30,
     //   name: "Carlos Henggeler Antunes",
