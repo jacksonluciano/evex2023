@@ -919,6 +919,141 @@ export const TeamOneData = {
       name: "Natália Moreno",
       designation: "Docente, Universidade de Coimbra",
     },
+    {
+      image: Speaker17,
+      name: "Alexandre Fernandes",
+      designation: "Presidente, ENSE - Entidade Nacional para o Setor Energético",
+    },
+    {
+      image: Speaker17,
+      name: "Bruno Veloso",
+      designation: "Vice-Presidente do Conselho de Administração, ADENE - Agência para a Energia ",
+    },
+    {
+      image: Speaker17,
+      name: "Thiago Prado",
+      designation: "Presidente, EPE - Empresa de Pesquisa Energética",
+    },
+    {
+      image: Speaker17,
+      name: "Joana Garoupa",
+      designation: "Diretora Geral, Garoupa INC",
+    },
+    {
+      image: Speaker17,
+      name: "Caio César Cavalcanti",
+      designation: "Presidente, EVEx",
+    },
+    {
+      image: Speaker17,
+      name: "Bruno Galvão",
+      designation: "Special Counsel, BLOMSTEIN",
+    },
+    {
+      image: Speaker17,
+      name: "Gema Blanco-Salvá",
+      designation: "Ajunta a la Dirección General, MIBGAS - Mercado Iberico del Gas",
+    },
+    {
+      image: Speaker17,
+      name: "Afonso Henriques Moreira Santos",
+      designation: "Membro do Conselho de Administração, CEMIG - Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker17,
+      name: "Ferrari Careto",
+      designation: "CEO, E-Redes",
+    },
+    {
+      image: Speaker17,
+      name: "Jorge Esteves",
+      designation: "Diretor de Infraestruturas e Redes, ERSE - Entidade Reguladora dos Serviços Energéticos",
+    },
+    {
+      image: Speaker17,
+      name: "Anna Paula Pacheco",
+      designation: "Diretora de Regulação, Enel Brasil",
+    },
+    {
+      image: Speaker17,
+      name: "Rui Pestana",
+      designation: "Assessor do Gestor do Sistema, REN - Rede Elétrica Nacional ",
+    },
+    {
+      image: Speaker17,
+      name: "José Partida Solano",
+      designation: "Head of Offshore Wind Business Development, Repsol",
+    },
+    {
+      image: Speaker17,
+      name: "José Pinheiro",
+      designation: "Country Manager - Southern Europe, OW Ocean Winds ",
+    },
+    {
+      image: Speaker17,
+      name: "Miguel Prado",
+      designation: "Jornalista, Expresso ",
+    },
+    {
+      image: Speaker17,
+      name: "Paulo Nogueira",
+      designation: "Coordenador da área “Transição Energética” da Direção de Indústria e Transição Energética, ADENE",
+    },
+    {
+      image: Speaker17,
+      name: "Susana Dolores",
+      designation: "Business Developer | Renewable Energy Communities, Mota-Engil Renewing",
+    },
+    {
+      image: Speaker17,
+      name: "Marney Antunes",
+      designation: "Diretor de Distribuição, CEMIG - Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker17,
+      name: "Murilo Portela",
+      designation: "Consultor, Hegatech",
+    },
+    {
+      image: Speaker17,
+      name: "Jerónimo Meira da Cunha",
+      designation: "Diretor Geral, DGEG - Direção Geral de Energia e Geologia",
+    },
+    {
+      image: Speaker17,
+      name: "Luiz Eduardo Diniz Araújo",
+      designation: "Procurador Federal",
+    },
+    {
+      image: Speaker17,
+      name: "Mauricio Tolmasquim",
+      designation: "Diretor de Transição Energética e Sustentabilidade, Petrobras",
+    },
+    {
+      image: Speaker17,
+      name: "Aprígio Guimarães",
+      designation: "Country Manager - Southern Europe, OW Ocean Winds",
+    },
+    {
+      image: Speaker17,
+      name: "Paulo Tarso ",
+      designation: "Diretor de Comercialização de Energia, Galp Brasil",
+    },
+    {
+      image: Speaker17,
+      name: "Ana Serrano Oñate",
+      designation: "Former Vice President, Equinor",
+    },
+    {
+      image: Speaker17,
+      name: "Sérgio Goulart Machado",
+      designation: "Country Manager - Southern Europe, OW Ocean Winds",
+    },
+    {
+      image: Speaker17,
+      name: "Roland M. Stein ",
+      designation: Sócio, BLOMSTEIN,
+    },
   ]
 };
 
