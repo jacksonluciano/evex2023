@@ -1052,7 +1052,7 @@ export const TeamOneData = {
     {
       image: Speaker17,
       name: "Roland M. Stein ",
-      designation: Sócio, BLOMSTEIN,
+      designation: "Sócio, BLOMSTEIN"
     },
   ]
 };

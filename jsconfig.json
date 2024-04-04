@@ -3,10 +3,13 @@
     "baseUrl": ".",
     "paths": {
       "@/data": ["data/index"],
+      "@/data-br": ["data-br/index"],
       "@/components/*": ["components/*"],
+      "@/components-br/*": ["components-br/*"],
       "@/context/*": ["context/*"],
       "@/css/*": ["assets/css/*"],
-      "@/images/*": ["assets/images/*"]
+      "@/images/*": ["assets/images/*"],
+      "@/images-br/*": ["assets/images-br/*"]
     }
   }
 }
