@@ -11,6 +11,17 @@ export const colors = {
   brandingOrange: "#f5a282"
 };
 
+export const colorsBr = {
+  themeRed: "#FF4001",
+  themePink: "#FE05C5",
+  themePurple: "#9A2FF6",
+  themeGreen: "#01F201",
+  secondaryYellow: "#E4A939",
+  secondaryPink: "#EF2483",
+  secondaryPurple: "#CC6AE3",
+  secondaryBlue: "#4CD6D9"
+};
+
 export const commonSection = css`
   padding: 120px 0;
   position: relative;
