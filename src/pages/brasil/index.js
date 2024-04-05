@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import ClientCarouselOne from "@/components/client-carousel-one";
 import TeamCarousel from "@/components/team-carousel";
 import FunfactOne from "@/components/funfact-one";
-import OEvex from "@/components/o-evex";
+import LisboaToNatal from "@/components-br/lisboa-to-natal";
 import VideoTwo from "@/components/video-two";
 import HeaderOne from "@/components-br/header-one";
 import SearchContextProvider from "@/context/search-context";
@@ -18,6 +18,7 @@ import Faq from "@/components/faq"
 import Bigcta from "@/components/big-cta";
 import Patrocinadores from "@/components/patrocinadores";
 import Duvidas from "@/components/duvidas"
+import QuintaEdicao from "@/components-br/5-edicao";
 
 const HomeOne = () => {
   return (
@@ -26,7 +27,8 @@ const HomeOne = () => {
         <Layout PageTitle="Evex Brasil">
           <HeaderOne />
           <HeroVideo />
-          <OEvex />
+          <LisboaToNatal />
+          <QuintaEdicao />
           <VirtualPresencial />
           <EvexLisboa2023 />
           <VideoTwo />         
