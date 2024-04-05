@@ -9,7 +9,7 @@ export const header = css`
   top: 0;
   width: 100%;
   z-index: 5;
-  background: ${colors.secondaryMain};
+  background-color: #ffffff;
   padding: 11px 40px 11px 45px;
   /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
 
