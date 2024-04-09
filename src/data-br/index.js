@@ -30,6 +30,21 @@ import Evex03CarouselImg10 from '@/images-br/o-evex/carousel03-img-10.png'
 import Evex03CarouselImg11 from '@/images-br/o-evex/carousel03-img-11.png'
 import Evex03CarouselImg12 from '@/images-br/o-evex/carousel03-img-12.png'
 
+import Natal01CarouselImg01 from '@/images-br/natal/natal-carousel01-img01.png'
+import Natal01CarouselImg02 from '@/images-br/natal/natal-carousel01-img02.png'
+import Natal01CarouselImg03 from '@/images-br/natal/natal-carousel01-img03.png'
+import Natal02CarouselImg01 from '@/images-br/natal/natal-carousel02-img01.png'
+import Natal02CarouselImg02 from '@/images-br/natal/natal-carousel02-img02.png'
+import Natal02CarouselImg03 from '@/images-br/natal/natal-carousel02-img03.png'
+import Natal03CarouselImg01 from '@/images-br/natal/natal-carousel03-img01.png'
+import Natal03CarouselImg02 from '@/images-br/natal/natal-carousel03-img02.png'
+import Natal03CarouselImg03 from '@/images-br/natal/natal-carousel03-img03.png'
+import Natal03CarouselImg04 from '@/images-br/natal/natal-carousel03-img04.png'
+import Natal03CarouselImg05 from '@/images-br/natal/natal-carousel03-img05.png'
+import Natal03CarouselImg06 from '@/images-br/natal/natal-carousel03-img06.png'
+import Natal03CarouselImg07 from '@/images-br/natal/natal-carousel03-img07.png'
+import Natal03CarouselImg08 from '@/images-br/natal/natal-carousel03-img08.png'
+
 export const LogoBrasil = {
   black: logo
 };
@@ -169,5 +184,71 @@ export const EvexData3 = [
   {
     id: 12,
     img: Evex03CarouselImg12
+  }
+]
+
+/* ----- Página 'Natal' ----- */
+export const NatalData1 = [
+  {
+    id: 1,
+    img: Natal01CarouselImg01
+  },
+  {
+    id: 2,
+    img: Natal01CarouselImg02
+  },
+  {
+    id: 3,
+    img: Natal01CarouselImg03
+  }
+]
+
+export const NatalData2 = [
+  {
+    id: 1,
+    img: Natal02CarouselImg01
+  },
+  {
+    id: 2,
+    img: Natal02CarouselImg02
+  },
+  {
+    id: 3,
+    img: Natal02CarouselImg03
+  }
+]
+
+export const NatalData3 = [
+  {
+    id: 1,
+    img: Natal03CarouselImg01
+  },
+  {
+    id: 2,
+    img: Natal03CarouselImg02
+  },
+  {
+    id: 3,
+    img: Natal03CarouselImg03
+  },
+  {
+    id: 4,
+    img: Natal03CarouselImg04
+  },
+  {
+    id: 5,
+    img: Natal03CarouselImg05
+  },
+  {
+    id: 6,
+    img: Natal03CarouselImg06
+  },
+  {
+    id: 7,
+    img: Natal03CarouselImg07
+  },
+  {
+    id: 8,
+    img: Natal03CarouselImg08
   }
 ]
