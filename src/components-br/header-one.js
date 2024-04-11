@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React, { useState, useEffect, useContext } from "react";
 import { LogoImage, NavLinks, SocialIcons } from "@/data";
-import { LogoBrasil } from "@/data-br";
+import { LogoBrasil, NavBrLinks } from "@/data-br";
 import { Col, Container, Row } from "react-bootstrap";
 import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
@@ -64,7 +64,7 @@ const HeaderOne = () => {
           <Col lg={8} sm={8} md={7} className="d-none d-lg-block">
             <nav css={mainMenu} className="text-center">
               <ul>
-                {NavLinks.map((links, index) => {
+                {NavBrLinks.map((links, index) => {
                   return (
                     <li
                       key={index}

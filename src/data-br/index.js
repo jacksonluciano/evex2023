@@ -68,6 +68,45 @@ export const LisboaParaNatal = {
   element: element01
 };
 
+export const NavBrLinks = [
+  {
+    name: "O EVEx",
+    url: "/brasil/o-evex",
+  },
+  {
+    name: "Natal",
+    url: "/brasil/natal",
+  },
+  {
+    name: "Experiências",
+    url: "/brasil/experiencias",
+  },
+  {
+    name: "Speakers",
+    url: "/brasil/speakers",
+  },
+  {
+    name: "Comitê",
+    url: "/brasil/#comite",
+  },
+  {
+    name: "Papers",
+    url: "/brasil/#papers",
+  },
+  {
+    name: "Agenda",
+    url: "/brasil/agenda",
+  },
+  {
+    name: "Inscrições",
+    url: "/brasil/inscricoes",
+  },
+  {
+    name: "Contato",
+    url: "/brasil/#contato",
+  },
+];
+
 
 /* ----- Página 'O Evex' ----- */
 
