@@ -1,9 +1,11 @@
 /** @jsx jsx */
 import { css } from '@emotion/react'
-import { colors } from '../styles/layout.styles'
+import { colors, colorsBr } from '../styles/layout.styles'
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.secondaryMain};
+  position: relative;
+  padding-bottom: 140px;
   /* padding-top: 32px; */
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -40,10 +42,12 @@ export const mb45 = css`
 
 export const gradient = css`
 width: 100%;
-background: rgba(227, 227, 226, 1);
+/* background: rgba(227, 227, 226, 1); */
 /* background: radial-gradient(at center bottom, circle, rgba(255, 64, 1, 1) 0%, rgba(228, 169, 57, 1) 25%, rgba(227, 227, 226, 1) 75%); */
-background: radial-gradient(at center bottom, rgba(255, 64, 1, 1), rgba(228, 169, 57, 1), rgba(227, 227, 226, 1));
+/* background: radial-gradient(at center bottom, rgba(255, 64, 1, 1), rgba(228, 169, 57, 1), rgba(227, 227, 226, 1)); */
+background: radial-gradient(36.39% 193.29% at 50% 122.29%, #FF4001 3.05%, #E4A939 50%, #E3E3E2 100%);
 
+padding: 16px 0;
 h1{
     color:#ffffff;
     text-align: center;
@@ -115,7 +119,7 @@ export const lisboaTwo = css`
   position: relative;
   padding: 60px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
   height: 100%;
   background-color: ${colors.secondaryMain};
@@ -248,7 +252,7 @@ export const slider = css`
         position: absolute;
         right: 17px;
         top: 45%;
-        z-index: 2;
+        z-index: 99;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -275,7 +279,7 @@ export const slider = css`
         position: absolute;
         left: 17px;
         top: 45%;
-        z-index: 2;
+        z-index: 99;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -296,18 +300,19 @@ export const slider = css`
   }
 
   .swiper-pagination{
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
+    top:22px;
 
     .swiper-pagination-bullet{
       width: 16px;
       height: 16px;
-      background-color:${colors.secondaryMain};
-      border:1px solid ${colors.primaryMain};
-      opacity: 1;
+      background-color:#F68515;
+      opacity: 0.5;
     }
     .swiper-pagination-bullet-active{
-      background-color:${colors.primaryMain};
+      background-color:#F68515;
+      opacity: 1;
     }
   }
 
@@ -326,11 +331,61 @@ export const element17 = css`
 
 export const element2 = css`
    position: absolute;
-    bottom: -71px;
+    bottom:0px;
     left: 0;
-    width: 223px !important;
     z-index: 9;
     @media (min-width: 320px) and (max-width: 767px) {
-    display:none;
+   
+  }
+`
+
+export const sideColumn = css`
+  height: 135px;
+  width: 100%;
+  background: radial-gradient(109.03% 260.11% at 114.03% 139.57%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+
+  h5{
+    margin-bottom: 0px;
+  }
+  p{
+    color: #000;
+    margin: 0;
+  }
+`
+
+export const centerColumn = css`
+  height: 135px;
+  background: radial-gradient(97.33% 211.75% at 102.33% 133.81%, ${colorsBr.themeRed} 0%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
+`
+
+export const content = css`
+  background: radial-gradient(105.42% 191.13% at 110.42% 110.55%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
+  padding: 30px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-family: 'bw_gradual_demobold';
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    margin-bottom: 31px;
+  }
+
+  p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+  }
+
+  a{
+    align-self: flex-start;
   }
 `

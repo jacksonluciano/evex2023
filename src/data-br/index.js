@@ -29,7 +29,6 @@ import Evex03CarouselImg09 from '@/images-br/o-evex/carousel03-img-09.png'
 import Evex03CarouselImg10 from '@/images-br/o-evex/carousel03-img-10.png'
 import Evex03CarouselImg11 from '@/images-br/o-evex/carousel03-img-11.png'
 import Evex03CarouselImg12 from '@/images-br/o-evex/carousel03-img-12.png'
-
 import Natal01CarouselImg01 from '@/images-br/natal/natal-carousel01-img01.png'
 import Natal01CarouselImg02 from '@/images-br/natal/natal-carousel01-img02.png'
 import Natal01CarouselImg03 from '@/images-br/natal/natal-carousel01-img03.png'
@@ -44,6 +43,12 @@ import Natal03CarouselImg05 from '@/images-br/natal/natal-carousel03-img05.png'
 import Natal03CarouselImg06 from '@/images-br/natal/natal-carousel03-img06.png'
 import Natal03CarouselImg07 from '@/images-br/natal/natal-carousel03-img07.png'
 import Natal03CarouselImg08 from '@/images-br/natal/natal-carousel03-img08.png'
+import EvexBrasilImg01 from '@/images-br/home-br/carousel-quemsomos-01.jpg'
+import EvexBrasilImg02 from '@/images-br/home-br/carousel-quemsomos-02.jpg'
+import EvexBrasilImg03 from '@/images-br/home-br/carousel-quemsomos-03.jpg'
+import EvexBrasilImg04 from '@/images-br/home-br/carousel-quemsomos-04.jpg'
+import EvexBrasilImg05 from '@/images-br/home-br/carousel-quemsomos-05.jpg'
+import EvexBrasilImg06 from '@/images-br/home-br/carousel-quemsomos-06.jpg'
 
 export const LogoBrasil = {
   black: logo
@@ -251,4 +256,27 @@ export const NatalData3 = [
     id: 8,
     img: Natal03CarouselImg08
   }
+]
+
+/* ----- Página 'Brasil' ----- */
+
+export const EvexBrasil2024 = [
+  {
+    img: EvexBrasilImg01
+  },
+  {
+    img: EvexBrasilImg02
+  },
+  {
+    img: EvexBrasilImg03
+  },
+  {
+    img: EvexBrasilImg04
+  },
+  {
+    img: EvexBrasilImg05
+  },
+  {
+    img: EvexBrasilImg06
+  },
 ]

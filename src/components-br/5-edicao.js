@@ -1,17 +1,11 @@
 /** @jsx jsx */
 import React, { useState } from "react";
-import {
-  LisboaData,
-  Evex1Data,
-  Evex2Data,
-  Evex3Data,
-} from "@/data";
+import { LisboaData, Evex1Data, Evex2Data, Evex3Data } from "@/data";
+import { EvexBrasil2024 } from "@/data-br";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
-import Element02 from "@/images/elements/element-02.svg";
-import Element17 from "@/images/elements/element-17.svg";
-import Evex3 from "@/images/oevex/evento03.png";
+import Element02 from "@/images-br/orange-elements-02.png";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
@@ -29,7 +23,10 @@ import {
   slider,
   element17,
   element2,
-  gradient
+  gradient,
+  centerColumn,
+  content,
+  sideColumn,
 } from "../assets/styles-br/QuintaEdicao.styles";
 import {
   secTitle,
@@ -41,6 +38,7 @@ import {
   noPadding,
   noPaddingRight,
 } from "../assets/styles/layout.styles";
+import { Link } from "gatsby";
 
 SwiperCore.use([Pagination, Navigation]);
 
@@ -60,66 +58,82 @@ const QuintaEdicao = () => {
 
   return (
     <section css={[abAgency]}>
+      <img css={element2} src={Element02} />
       <Container fluid>
-        {/* <Row>
-          <Col css={noPadding} lg={6} md={6} sm={12}>
-            <div css={about}>
-             <div>
-             <p css={secDesk}>
-                Em seguida, nos dias 29 e 30 de novembro de 2022, ocorreu o
-                primeiro evento presencial do EVEx, na Reitoria da Universidade
-                NOVA de Lisboa, com um público seleto formado por 250
-                especialistas do mundo da energia, de acadêmicos a executivos
-                C-Level, de jornalistas a reguladores e protagonistas políticos.
-              </p>
-             </div>
-            </div>
-            <img css={element17} src={Element17} />
-          </Col>
-          <Col lg={6} md={6} sm={12} css={noPadding}>
-            <Swiper css={slider} {...testimonialsOptions}>
-              <span id="main-slider-prev">
-                <img src={Arrow} />
-              </span>
-
-              <span id="main-slider-next">
-                <img src={Arrow} />
-              </span>
-
-              {Evex1Data.map(({ img }, index) => (
-                <SwiperSlide key={index}>
-                  <img css={imgFull} src={img} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div
-              className="swiper-pagination"
-              id="client-carousel-pagination"
-            ></div>
-          </Col>
-        </Row> */}
-<Row>
-    
-<div css={gradient}>
+        <Row>
+          <div css={gradient}>
             <h1>5º Edição do EVEx</h1>
-        </div>
-</Row>
-
+          </div>
+        </Row>
+        <Row>
+          <Col xs={6} className="px-0">
+            <div css={content}>
+              <p>
+                Após o enorme sucesso das últimas edições virtuais e presenciais
+                em Lisboa, o EVEx vai desembarcar este ano pela primeira vez no
+                Brasil, para iniciar uma edição especial do maior e mais
+                prestigiado encontro de transição energética da Península
+                Ibérica e da América Latina.
+              </p>
+              <p>
+                Com o tema “Transição Energética Justa e Industrialização Verde:
+                na rota ibero-latino-americana”, a quinta edição do EVEx
+                promoverá uma expedição energética inédita e transformadora,
+                mediante formato composto por três eventos:
+              </p>
+              <Link css={commonBtn} to="/brasil/o-evex">
+                Edições passadas
+              </Link>
+            </div>
+          </Col>
+          <Col xs={6} className="px-0">
+            <div css={sideColumn}>
+              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              <p>
+                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+              </p>
+            </div>
+            <div css={sideColumn}>
+              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              <p>
+                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+              </p>
+            </div>
+            <div css={sideColumn}>
+              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              <p>
+                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+              </p>
+            </div>
+          </Col>
+        </Row>
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, lightBg]}>
-             <div>
-             <h2 css={[secTitle, mb45]}>EVEx Brasil 2024</h2>
-              <p css={secDesk}>
-                Entre as autoridades participantes, estavam o então Secretário de
-                Estado do Ambiente e da Energia de Portugal, João Galamba; o
-                Presidente da ADENE – Agência para a Energia, Nelson Lage; o
-                Presidente do MIBGAS – Mercado Ibérico de Gás Natural, Raúl
-                Yunta Huete; e o Embaixador do Brasil em Portugal, Raimundo
-                Carreiro.
-              </p>
-             </div>
-              <img css={element2} src={Element02} />
+              <div>
+                <h2 css={[secTitle, mb45]}>EVEx Brasil 2024</h2>
+                <p css={secDesk}>
+                  Nos dias 03 e 04 de julho, o EVEx Brasil 2024 vai reunir na
+                  cidade de Natal, capital do Rio Grande do Norte, os principais
+                  agentes dos mercados ibérico e latino-americano de energia,
+                  incluindo executivos C-Level, renomados especialistas e
+                  autoridades públicas, sobretudo do Brasil e de Portugal.
+                  <br />
+                  <br />
+                  O objetivo do evento é promover a troca de conhecimentos e
+                  experiências entre players e stakeholders do setor, visando a
+                  impulsionar soluções sustentáveis, tecnologias inovadoras e
+                  novos negócios em prol da transformação energética e
+                  industrial.
+                  <br />
+                  <br />
+                  Vamos juntos acelerar a transição energética e
+                  industrialização verde na rota ibero-latino-americana?
+                </p>
+                <Link css={commonBtn} to="/brasil/o-evex">
+                  Quem Somos?
+                </Link>
+              </div>
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
@@ -132,7 +146,7 @@ const QuintaEdicao = () => {
                 <img src={Arrow} />
               </span>
 
-              {Evex2Data.map(({ img }, index) => (
+              {EvexBrasil2024.map(({ img }, index) => (
                 <SwiperSlide key={index}>
                   <img css={imgFull} src={img} />
                 </SwiperSlide>
@@ -144,22 +158,6 @@ const QuintaEdicao = () => {
             ></div>
           </Col>
         </Row>
-        {/* <Row>
-          <Col css={noPadding} lg={6} md={6} sm={12}>
-            <div css={lisboaTwo}>
-              <p css={secDesk}>
-                Destacaram-se também as participações do Diretor de Serviços
-                Jurídicos da ERSE – Entidade Reguladora dos Serviços
-                Energéticos, Filipe Matias Santos, e do Procurador-Geral da
-                ANEEL – Agência Nacional de Energia Elétrica, Luiz Eduardo Diniz
-                Araújo.
-              </p>
-            </div>
-          </Col>
-          <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={Evex3} />
-          </Col>
-        </Row> */}
       </Container>
     </section>
   );
