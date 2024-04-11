@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@/components/layout";
-import Footer from "@/components/footer";
+import Footer from "@/components-br/footer";
 import ClientCarouselOne from "@/components/client-carousel-one";
 import TeamCarousel from "@/components/team-carousel";
 import FunfactOne from "@/components/funfact-one";
