@@ -77,21 +77,21 @@ export const NavBrLinks = [
     name: "Natal",
     url: "/brasil/natal",
   },
-  {
-    name: "Experiências",
-    url: "/brasil/experiencias",
-  },
+  // {
+  //   name: "Experiências",
+  //   url: "/brasil/experiencias",
+  // },
   {
     name: "Speakers",
     url: "/brasil/speakers",
   },
   {
-    name: "Comitê",
-    url: "/brasil/#comite",
-  },
-  {
     name: "Papers",
     url: "/brasil/#papers",
+  },
+  {
+    name: "Comitê",
+    url: "/brasil/comite",
   },
   {
     name: "Agenda",
@@ -319,3 +319,26 @@ export const EvexBrasil2024 = [
     img: EvexBrasilImg06
   },
 ]
+
+
+export const BigCtaBrData = [
+  {
+    date: 'Call for \n Papers/ \nProjects',
+    text: 
+        `Alô, comunidade acadêmica e científica! Já está aberta a chamada de trabalhos e projetos para apresentação no EVEx Brasil 2024.`,
+        button: 'saiba mais',
+        link: '/brasil/agenda'
+  },
+  {
+    date: 'Rotas \nTemáticas',
+      text: '- Transição Energética Justa \n - Industrialização Verde \nDescarbonização \nSegurança Energética \nHidrogênio Verde \nEólicas Offshore \nMercado Livre de Energia \nCombustíveis do Futuro',
+      button: 'Agenda Preliminar',
+      link: '/brasil/agenda'
+  },
+  {
+    date: 'Inscrições \nEVEx Pass',
+      text: 'Participe da primeira parada da rota ibero-latino-americana da transição energética e industrialização verde. O EVEx Brasil 2024 espera pela sua energia!',
+      button: 'Inscreva-se agora',
+      link: '/brasil/agenda'
+  },
+];
