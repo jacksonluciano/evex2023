@@ -122,7 +122,7 @@ export const lisboaTwo = css`
   justify-content: start;
   flex-direction: column;
   height: 100%;
-  background-color: ${colors.secondaryMain};
+  background: #E3E3E2;
   align-items: center;
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -151,10 +151,18 @@ export const lisboaTwo = css`
       font-weight: 600;
     }
   }
+
+  .evex-2024{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105px;
+    height: 475px
+  }
 `
 
 export const lightBg = css`
-    background-color: ${colors.secondaryMain};
+   background: #E3E3E2;
     p{
     color: ${colors.primaryMain};
     }

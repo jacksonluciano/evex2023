@@ -6,6 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
 import Element02 from "@/images-br/orange-elements-02.png";
+import Evex2024 from "@/images-br/home-br/2024.svg";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
@@ -110,6 +111,7 @@ const QuintaEdicao = () => {
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, lightBg]}>
+              <img className="evex-2024" src={Evex2024} />
               <div>
                 <h2 css={[secTitle, mb45]}>EVEx Brasil 2024</h2>
                 <p css={secDesk}>
