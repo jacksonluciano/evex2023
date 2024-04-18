@@ -183,10 +183,18 @@ export const dateBlock = css`
   }
 
   &:hover {
-    background-color: ${colors.brandingSalmon};
-    h3,
+    /* background-color: ${colors.brandingSalmon}; */
+    background: radial-gradient(123.18% 83.31% at 21.05% 91.82%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%) ;
+
+    h3,h2,
     p {
-      color: ${colors.primaryMain};
+      color: #000;
+    }
+
+    a{
+      background-color: #ffffff;
+      color: #000;
+      border-color: #000;
     }
   }
 

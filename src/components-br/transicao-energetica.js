@@ -1,7 +1,10 @@
 /** @jsx jsx */
-import React from "react";
+import React, { useState } from "react";
 import { TransicoesEnergeticasData, blocksTeData } from "@/data";
 import Evex2024Brasil from "@/images-br/home-br/evex2024brasil.png";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
+import { FunfactBrData } from "@/data-br";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -19,6 +22,14 @@ import { secTitle, secDesk } from "../assets/styles/layout.styles";
 
 const TransicaoEnergetica = () => {
   const { sectionContent, element } = TransicoesEnergeticasData;
+  const [counter, setCounter] = useState({
+    startCounter: false,
+  });
+  const onVisibilityChange = isVisible => {
+    if (isVisible) {
+      setCounter({ startCounter: true });
+    }
+  };
   return (
     <section css={[abAgency]}>
       <Container fluid>
@@ -58,28 +69,38 @@ const TransicaoEnergetica = () => {
           </Row>
           
           <Row>
-            <Col lg={4} md={4} sm={12} className='px-0'>
-              <div css={dateBlock} className='greenbg'>
-                <p>
-                1 Dias
-                </p>
-              </div>
-            </Col>
-            <Col lg={4} md={4} sm={12} className='px-0'>
-              <div css={dateBlock} className='greenbg'>
-                <p>
-                1 Experiências
-                </p>
-              </div>
-            </Col>
-            <Col lg={4} md={4} sm={12} className='px-0'>
-              <div css={dateBlock} className='greenbg'>
-                <p>
-                +10 Speakers
-                </p>
-              </div>
-            </Col>
-        
+            {FunfactBrData.map(({ title, countNumber }, index) => (
+              <Col lg={4} md={4} sm={12} className='px-0'>
+                <div css={dateBlock} className='greenbg'>
+                  <p>
+                  {index === 2 && '+'} 
+                  <VisibilitySensor
+                    onChange={onVisibilityChange}
+                    offset={{ top: 10 }}
+                    delayedCall
+                  >
+                    
+                    <CountUp duration={5} end={counter.startCounter ? countNumber : 0} />
+                  </VisibilitySensor>
+                  {` ` + title}
+                  </p>
+                </div>
+              </Col>
+              // <Col lg={4} md={4} sm={12} className='px-0'>
+              //   <div css={dateBlock} className='greenbg'>
+              //     <p>
+              //     1 Experiências
+              //     </p>
+              //   </div>
+              // </Col>
+              // <Col lg={4} md={4} sm={12} className='px-0'>
+              //   <div css={dateBlock} className='greenbg'>
+              //     <p>
+              //     +10 Speakers
+              //     </p>
+              //   </div>
+              // </Col>
+              ))}
           </Row>
         </div>
         {/* <img css={element05} src={element} /> */}

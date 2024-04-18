@@ -17,8 +17,8 @@ import TransicaoEnergetica from "@/components-br/transicao-energetica";
 // import Comite from "@/components/comite";
 // import Faq from "@/components/faq"
 import Bigcta from "@/components-br/big-cta";
-import Patrocinadores from "@/components/patrocinadores";
-import Duvidas from "@/components/duvidas"
+import Patrocinadores from "@/components-br/patrocinadores";
+import Duvidas from "@/components-br/duvidas"
 import QuintaEdicao from "@/components-br/5-edicao";
 
 const HomeOne = () => {

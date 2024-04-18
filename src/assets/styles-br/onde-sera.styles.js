@@ -19,6 +19,7 @@ export const abAgency = css`
     position: absolute;
     right: 0;
     top: 32px;
+    z-index: 1;
   }
 `
 
@@ -48,6 +49,7 @@ export const about = css`
   height: 100%;
   color: ${colors.secondaryMain};
   align-items: flex-start;
+  padding-left: 16px;
 
   h2{
     color: ${colors.primaryMain};
@@ -98,6 +100,8 @@ export const element01 = css`
 
 export const imgFull = css`
     width: 100%;
+    position: relative;
+    z-index: 3;
 `
 
 export const abImg = css`
@@ -197,4 +201,15 @@ export const header = css`
       text-align: left;
     }
   }
+`
+
+export const elem1 = css`
+  position: absolute;
+  left: -120px;
+  bottom: -60px;
+`
+export const elem2 = css`
+  position: absolute;
+  right: -26px;
+  top: -88px;
 `
