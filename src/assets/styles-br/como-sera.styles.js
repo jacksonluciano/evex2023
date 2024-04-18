@@ -182,18 +182,28 @@ export const section = css`
 
         &:nth-of-type(1){
             background: radial-gradient(81.7% 260.32% at 95.86% 110.76%, #FD7912 0.06%, #F5B54C 39.52%, #E1E1E0 100%);
+            &:hover{
+              background: radial-gradient(81.7% 260.32% at 95.86% 110.76%, #F5B54C 0%, #FD7912 49.1%, #E1E1E0 100%) ;
+            }
         }
         &:nth-of-type(2){
             background: radial-gradient(82.68% 263.44% at 96.84% 120.25%, #8516FD 0.06%, #D373E0 37.65%, #E1E1E0 100%);
-
+          &:hover{
+            background: radial-gradient(82.68% 263.44% at 96.84% 120.25%, #D373E0 0%, #8516FD 49.1%, #E1E1E0 100%);
+          }
         }
         &:nth-of-type(3){
             background: radial-gradient(79.74% 254.08% at 93.9% 120.57%, #01F101 0%, #63CFBC 41.29%, #E1E1E0 100%);
+            &:hover{
+              background: radial-gradient(79.74% 254.08% at 93.9% 120.57%, #63CFBC 0%, #01F101 50.1%, #E1E1E0 100%);
 
+          }
         }
         &:nth-of-type(4){
             background: radial-gradient(81.25% 258.88% at 95.41% 108.54%, #FF03DA 0.06%, #E93269 40.69%, #E1E1E0 100%);
-
+            &:hover{
+              background: radial-gradient(81.25% 258.88% at 95.41% 108.54%, #E93269 0%, #FF03DA 47.6%, #E1E1E0 100%);
+          }
         }
 
         padding: 16px 0;

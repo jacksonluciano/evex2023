@@ -58,6 +58,7 @@ export const Buttons = css`
 display: flex;
 align-items: center;
 flex-direction: column;
+margin-top: 48px;
 
   li{
     display: inline-block;
@@ -65,10 +66,21 @@ flex-direction: column;
     color: #fff;
     margin: 8px 0;
     padding: 8px 32px;
+    width: 383px;
+    border: 4px solid #000;
+
+    &:hover{
+      background-color: #fff;
+      a{
+        color: #000;
+      }
+    }
 
     a{
+      font-family: 'bw_gradual_demomedium';
         color: #ffffff;
-
+font-size: 24px;
+line-height: 28px;
         :hover{
             text-decoration: none;
         }

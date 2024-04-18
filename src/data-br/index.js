@@ -327,7 +327,7 @@ export const BigCtaBrData = [
     text: 
         `Alô, comunidade acadêmica e científica! Já está aberta a chamada de trabalhos e projetos para apresentação no EVEx Brasil 2024.`,
         button: 'saiba mais',
-        link: '/brasil/agenda'
+        link: '/brasil/papers'
   },
   {
     date: 'Rotas \nTemáticas',
@@ -339,6 +339,21 @@ export const BigCtaBrData = [
     date: 'Inscrições \nEVEx Pass',
       text: 'Participe da primeira parada da rota ibero-latino-americana da transição energética e industrialização verde. O EVEx Brasil 2024 espera pela sua energia!',
       button: 'Inscreva-se agora',
-      link: '/brasil/agenda'
+      link: '/brasil/inscricoes'
+  },
+];
+
+export const FunfactBrData = [
+  {
+    title: "Dias",
+    countNumber: 2,
+  },
+  {
+    title: "Experiências",
+    countNumber: 4,
+  },
+  {
+    title: "Speakers",
+    countNumber: 10,
   },
 ];

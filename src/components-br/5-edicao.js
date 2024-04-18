@@ -82,7 +82,7 @@ const QuintaEdicao = () => {
                 promoverá uma expedição energética inédita e transformadora,
                 mediante formato composto por três eventos:
               </p>
-              <Link css={commonBtn} to="/brasil/o-evex">
+              <Link css={commonBtn} to="/brasil/o-evex#last-editions">
                 Edições passadas
               </Link>
             </div>
@@ -132,7 +132,7 @@ const QuintaEdicao = () => {
                   Vamos juntos acelerar a transição energética e
                   industrialização verde na rota ibero-latino-americana?
                 </p>
-                <Link css={commonBtn} to="/brasil/o-evex">
+                <Link css={commonBtn} to="/brasil/comite">
                   Quem Somos?
                 </Link>
               </div>

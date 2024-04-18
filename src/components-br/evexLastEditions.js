@@ -6,7 +6,7 @@ import { centerColumn, content, sideColumn } from '../assets/styles-br/evexLastE
 
 const EvexLastEditions = () => {
   return (
-    <section>
+    <section id="last-editions">
       <Container fluid>
         <Row>
           <Col xs={4} className='px-0'>

@@ -47,7 +47,7 @@ const ComoSera = () => {
             <h2 className='title'>Nata Energy <br /> Experience</h2>
             <p>Experiências Interativas, Conteúdos de Alto Nível e Networking Estratégico</p>
             <br/>
-            <Link to="/o-evex" css={commonBtn}>Por que Natal?</Link>
+            <Link to="/brasil/inscricoes" css={commonBtn}>Por que Natal?</Link>
           </div>
         </Col>
         <Col lg={7} md={7} sm={12} className='px-0'>

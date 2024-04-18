@@ -5,6 +5,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 import { Link } from "gatsby";
 import NatalLogo from '@/images-br/home-br/natal.svg'
+import NatalElement1 from '@/images-br/home-br/natal_element_1.svg'
+import NatalElement2 from '@/images-br/home-br/natal_element_2.svg'
 import SerhsImg from '@/images-br/home-br/serhs.jpg'
 import GreenElementImage from '@/images-br/natal/natal-green-element01.svg'
 
@@ -17,7 +19,9 @@ import {
   section,
   header,
   bg,
-  natalHeroContainer
+  natalHeroContainer,
+  elem1,
+  elem2,
 }  from '../assets/styles-br/onde-sera.styles'
 import {
   secTitle,
@@ -81,10 +85,12 @@ const ondeSera = () => {
   </section>
     <section css={[abAgency]} style={{padding: '120px 0 0'}}>
     <img src={NatalLogo} className='natal_logo' />
-      <Container>
+      <Container style={{position: 'relative', zIndex: 2}}>
         <Row>       
-          <Col lg={6} md={6} sm={12} css={noPadding}>
+          <Col lg={6} md={6} sm={12} css={noPadding} style={{position: 'relative'}} >
             <img css={imgFull} src={SerhsImg} />
+            <img css={elem1} src={NatalElement1} />
+            <img css={elem2} src={NatalElement2} />
           </Col>
           <Col css={pr79} lg={6} md={6} sm={12}>
            <div css={about}>
@@ -95,7 +101,7 @@ const ondeSera = () => {
               <p css={secDesk}>
               Com todos os ambientes voltados para o mar, o resort possui uma arquitetura imponente, permitindo que participantes do EVEx Brasil também apreciem as belezas do litoral potiguar e tenham uma vista privilegiada do Morro do Careca, cartão postal da cidade.
               </p>
-              <Link to="/o-evex" css={commonBtn}>Por que Natal?ga</Link>
+              <Link to="/brasil/natal" css={commonBtn}>Por que Natal?</Link>
            </div>
           </Col>
         </Row>
