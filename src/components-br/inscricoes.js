@@ -1,9 +1,10 @@
 /** @jsx jsx */
 import React from "react";
 import { Link } from "gatsby";
-import Element04 from '@/images/elements/element-04.svg'
-import Element05 from '@/images/elements/element-05.svg'
-import Element08 from '@/images/elements/element-08.png'
+import Element01 from '@/images-br/home-br/inscricao_elem1.png'
+import Element02 from '@/images-br/home-br/inscricao_elem2.png'
+import Element03 from '@/images-br/home-br/inscricao_elem3.png'
+import Bg from '@/images-br/home-br/bg-speakers.jpg'
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -19,8 +20,10 @@ import {
   blocks,
   asideBlock,
   sectionTitle,
-  underline
-} from "../assets/styles-br/Inscricoes.styles";
+  underline,
+  inscriHero,
+  bgElement
+} from "../assets/styles-br/inscricoes.styles";
 import {
   secTitle,
   subtitle,
@@ -37,24 +40,30 @@ const Inscricoes = () => {
     <section css={abAgency}>
       <Container fluid>
 
-      <Row>
-          <Col css={sectionTitle} lg={12}>
-             <h2>Inscrições</h2>
-             <p css={underline}>
-                Escolha abaixo sua(s) categoria(s) de inscrição no EVEx Lisboa 2023 e vamos juntos de volta ao futuro da
-                 energia ibero-latino-americana. 
-                 Observações: os ingressos darão acesso ao respectivo evento (EVEx Online ou EVEx Presencial); aos valores
-                 apresentados acresce IVA à taxa legal em vigor, quando aplicável; para pagamentos através de depósito,
-                 transferência bancária ou PIX, favor enviar solicitação para <span>secretaria@evex.energy</span>
-             </p>
-          </Col>
+    <div css={inscriHero}>
+        <Row>
+            <Col css={sectionTitle} lg={6}>
+              <div className="inscriTitle">
+                <h2>Inscrições</h2>
+                <img src={Element03} />
+                <img src={Element02}/>
+                <img src={Element01} />               
+                
+              </div>
+            </Col>
+              <Col css={sectionTitle} lg={6}>
+              <p css={underline}>
+              Prepare-se para viver uma experiência única e transformadora! <br/><br/> Serão dois dias de debates intensos, networking estratégico e conexões valiosas que vão impulsionar sua jornada profissional na transição energética rumo a uma economia verde. Escolha abaixo sua categoria de inscrição no EVEx Brasil 2024 e garanta sua vaga na rota ibero-latino-americana da energia! <br/><br/> Observação: para pagamentos através de depósito, transferência bancária ou PIX, envie solicitação via e-mail (secretaria@evex.energy).
+              </p>
+            </Col>
         </Row>
+    </div>
 
         <div css={blocks}>
           <Row>
-          <Col css={sectionTitle} lg={12}>
+          {/* <Col css={sectionTitle} lg={12}>
              <h2>Online</h2>
-          </Col>
+          </Col> */}
            
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} className="orange" >
@@ -74,7 +83,6 @@ const Inscricoes = () => {
                   {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a> */}
                   <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
                 </div>
-                <div css={asideBlock}></div>
               </Col>
 
               <Col lg={6} md={6} sm={12}>
@@ -96,13 +104,12 @@ const Inscricoes = () => {
                   {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a> */}
                   <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
                 </div>
-                <div css={asideBlock}></div>
               </Col>
           
           </Row>
         </div>
 
-        <div css={blocks}>
+        {/* <div css={blocks}>
           <Row>
           <Col css={sectionTitle} lg={12}>
              <h2>Presencial</h2>
@@ -125,7 +132,7 @@ const Inscricoes = () => {
                   </p>
                   <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696129912307?aff=ebdsoporgprofile" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
                   <a href="https://www.eventbrite.pt/e/evex-lisboa-2023-tickets-696294243827?aff=oddtdtcreator" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>
-                  {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
+  
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -146,19 +153,15 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado internacional de participação
                   </p>
-                  {/* <button css={commonBtn}>Inscreva-se em breve (€)</button>
-                  <button css={commonBtn}>Inscreva-se em breve (R$)</button> */}
                   <button css={commonBtn}>Inscrições encerradas</button>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
             
           </Row>
-          <img css={element04} src={Element04} />
-        </div>
+        </div> */}
       </Container>
-      <img css={element05} src={Element05} />
-      <img css={element08} src={Element08} />
+      <img css={bgElement} src={Bg} />
     </section>
   );
 };

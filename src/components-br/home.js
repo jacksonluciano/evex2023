@@ -1,7 +1,10 @@
 /** @jsx jsx */
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { jsx } from '@emotion/react'
 import { Link } from "gatsby";
+import homePurple from '@/images-br/home-purple.jpg';
+import homeBlue from '@/images-br/home-blue.jpg';
+import homeYellow from '@/images-br/home-yellow.jpg';
 
 import { 
     homeBg,
@@ -9,7 +12,37 @@ import {
   Buttons
 }  from '../assets/styles-br/Home.styles'
 
+/** @jsx jsx */
+import { css } from "@emotion/react";
+
+
+
 const Home = ({ title, name }) => {
+
+  const [backgroundImage, setBackgroundImage] = useState(homePurple);
+
+  const homeBg = css`
+  position: relative;
+  background: url(${backgroundImage}) no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 0.9s ease;
+`;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setBackgroundImage((prevImage) => {
+        if (prevImage === homePurple) return homeBlue;
+        if (prevImage === homeBlue) return homeYellow;
+        return homePurple;
+      });
+    }, 7000); 
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section css={homeBg}>
       <div className="container">

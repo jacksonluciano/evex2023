@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
-import { colors } from "./layout.styles";
+import { colors } from "../styles/layout.styles";
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
-  padding: 180px 0 0px !important;
+  background-color: #e3e3e2;
+  padding: 0px 0 0px !important;
   position: relative;
   overflow: hidden;
   img {
@@ -32,6 +32,18 @@ export const mb45 = css`
   margin-bottom: 40px;
   @media (min-width: 768px) and (max-width: 990px) {
     margin-bottom: 30px;
+  }
+`;
+
+export const inscriHero = css`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: #000 !important;
+    text-align: left;
   }
 `;
 
@@ -149,7 +161,7 @@ export const blocks = css`
   width: 100%;
   max-width: 996px;
   margin: 0 auto;
-  padding-bottom: 120px;
+  padding-bottom: 220px;
   position: relative;
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -164,7 +176,7 @@ export const blocks = css`
 `;
 
 export const dateBlock = css`
-  background-color: ${colors.secondaryMain};
+  background-color: #000;
   height: 100%;
   padding: 80px 18px;
   display: flex;
@@ -180,7 +192,7 @@ export const dateBlock = css`
     border: 2px solid ${colors.primaryMain};
   }
 
-  &.orange {
+  /* &.orange {
     background-color: ${colors.brandingOrange};
   }
 
@@ -194,11 +206,11 @@ export const dateBlock = css`
 
   &.blue {
     background-color: ${colors.brandingBlue};
-  }
+  } */
 
   h2 {
     font-family: "bw_gradual_demobold";
-    color: ${colors.primaryMain};
+    color: #ffffff;
     font-size: 40px;
     text-align: center;
   }
@@ -212,15 +224,17 @@ export const dateBlock = css`
     font-family: "bw_gradual_demomedium";
     font-weight: 500;
     text-align: center;
+    color: #ffffff;
   }
 
   h4 {
     font-family: "bw_gradual_demomedium";
     font-weight: 500;
+    color: #ffffff;
   }
 
   P {
-    color: ${colors.primaryMain};
+    color: #ffffff;
     font-size: 14px;
     text-align: center;
     padding: 0;
@@ -233,9 +247,11 @@ export const dateBlock = css`
     }
   }
 
-  a{
+  a {
     width: 250px;
     letter-spacing: 0;
+    background-color: #ffffff;
+    color: #000;
   }
 
   button {
@@ -258,17 +274,16 @@ export const dateBlock = css`
 `;
 
 export const linkBorder = css`
-       background-color: transparent;
-      box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
-      color: ${colors.primaryMain};
-      margin-top: 16px;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 3px ${colors.primaryMain};
+  color: ${colors.primaryMain};
+  margin-top: 16px;
 
-      :hover {
-        background-color: ${colors.secondaryMain};
-        color: ${colors.primaryMain};
-      }
-`
-
+  :hover {
+    background-color: ${colors.secondaryMain};
+    color: ${colors.primaryMain};
+  }
+`;
 
 export const asideBlock = css`
   position: absolute;
@@ -312,11 +327,67 @@ export const sectionTitle = css`
     font-size: 14px;
     line-height: 21px;
   }
+
+  .inscriTitle {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      position: relative;
+      z-index: 3;
+      font-family: "bw_gradual_demobold";
+      text-decoration: none;
+      font-size: 94px;
+    }
+
+    p {
+      color: #000 !important;
+      text-align: left;
+    }
+
+    img {
+      position: absolute;
+      &:nth-of-type(1) {
+        left: -123px;
+        top: -110px;
+        width: auto;
+      }
+      &:nth-of-type(2) {
+        top: -124px;
+        left: 57px;
+        width: auto;
+        -webkit-transform: rotate(142.7deg);
+        -moz-transform: rotate(142.7deg);
+        -ms-transform: rotate(142.7deg);
+        transform: rotate(142.7deg);
+      }
+      &:nth-of-type(3) {
+        top: -42px;
+        left: 84px;
+        width: auto;
+        -webkit-transform: rotate(27deg);
+        -moz-transform: rotate(27deg);
+        -ms-transform: rotate(27deg);
+        transform: rotate(27deg);
+      }
+    }
+  }
 `;
 
-
 export const underline = css`
-    span{
-      text-decoration: underline;
-    }
-`
+  color: #000;
+  text-align: left;
+  span {
+    text-decoration: underline;
+  }
+`;
+
+export const bgElement = css`
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+`;

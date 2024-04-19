@@ -87,7 +87,7 @@ export const NavBrLinks = [
   },
   {
     name: "Papers",
-    url: "/brasil/#papers",
+    url: "/brasil/papers",
   },
   {
     name: "Comitê",

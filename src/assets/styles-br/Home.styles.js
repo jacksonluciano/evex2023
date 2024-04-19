@@ -1,6 +1,8 @@
+
 /** @jsx jsx */
 import { css } from "@emotion/react";
-import homePurple from "../images-br/home-purple.jpg";
+import homePurple from '../images-br/home-purple.jpg';
+
 
 export const homeBg = css`
   position: relative;
