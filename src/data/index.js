@@ -184,39 +184,39 @@ export const SocialIcons = {
 export const NavLinks = [
   {
     name: "O EVEx",
-    url: "/o-evex",
+    url: "/lisboa/o-evex",
   },
   {
     name: "Lisboa",
-    url: "/lisboa",
+    url: "/lisboa/lisboa",
   },
   {
     name: "Experiências",
-    url: "/experiencias",
+    url: "/lisboa/experiencias",
   },
   {
     name: "Speakers",
-    url: "/speakers",
+    url: "/lisboa/speakers",
   },
   {
     name: "Comitê",
-    url: "/#comite",
+    url: "/lisboa/#comite",
   },
   {
     name: "Papers",
-    url: "/#papers",
+    url: "/lisboa/#papers",
   },
   {
     name: "Agenda",
-    url: "/agenda",
+    url: "/lisboa/agenda",
   },
   {
     name: "Inscrições",
-    url: "/inscricoes",
+    url: "/lisboa/inscricoes",
   },
   {
     name: "Contato",
-    url: "/#contato",
+    url: "/lisboa/#contato",
   },
 ];
 
