@@ -8,11 +8,11 @@ import {
   AccordionCollapse
 } from '../assets/styles-br/accordion.styles'
 
-const Accordion = ({ accordionHeader, accordionBody }) => {
+const Accordion = ({ accordionHeader, accordionBody, width }) => {
   const [openAccordion, setOpenAccordion] = useState(false)
 
   return (
-    <AccordionContainer width='630px' isOpen={openAccordion}>
+    <AccordionContainer width={width} isOpen={openAccordion}>
       <AccordionHeader
         onClick={() => setOpenAccordion(prevState => !prevState)}
         isOpen={openAccordion}

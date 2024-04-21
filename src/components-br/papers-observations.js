@@ -2,27 +2,16 @@
 import React from 'react'
 import { jsx } from '@emotion/react'
 import { Container, Col, Row } from 'react-bootstrap'
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel
-// } from 'react-accessible-accordion'
 import Accordion from './accordion'
-
 import 'react-accessible-accordion/dist/fancy-example.css'
 import PinkElementImage from '@/images-br/papers/papers-pink-element02.svg'
 import PapersLogo from '@/images-br/papers/papers-logo.svg'
-// import Arrow from '@/images/icons/arrow-down.svg'
 import {
   accordion,
   bgPapers,
   container,
   contentContainer,
-  imageContainer,
-  pergunta,
-  resposta
+  imageContainer
 } from '../assets/styles-br/papers-observations.styles'
 
 const PapersObservations = () => {
@@ -67,43 +56,11 @@ const PapersObservations = () => {
         </Row>
       </Container>
 
-      {/* <Container css={accordion}>
-        <Row>
-          <Col xs={12}>
-            <Accordion allowZeroExpanded>
-              <AccordionItem>
-                <AccordionItemHeading css={pergunta}>
-                  <AccordionItemButton>
-                    <div className='accordion_title'>
-                      <h3>
-                        Downloads
-                      </h3>
-                      <span>
-                        <img src={Arrow} />
-                      </span>
-                    </div>
-                  </AccordionItemButton>
-                </AccordionItemHeading>
-
-                <AccordionItemPanel css={resposta}>
-                  <div className='accordion_informations'>
-                    <a href='#' target='_blank'>Normas</a>
-                    <a href='#' target='_blank'>Eixos Temáticos</a>
-                    <a href='#' target='_blank'>Formulário de Resumo</a>
-                    <a href='#' target='_blank'>Template de Apresentação</a>
-                    <a href='#' target='_blank'>Template de Artigo</a>
-                  </div>
-                </AccordionItemPanel>
-              </AccordionItem>
-            </Accordion>
-          </Col>
-        </Row>
-      </Container> */}
-
       <Container css={accordion}>
         <Row>
           <Col xs={12}>
             <Accordion
+              width='630px'
               accordionHeader={
                 <h3>
                   Downloads
@@ -123,6 +80,7 @@ const PapersObservations = () => {
 
           <Col xs={12}>
             <Accordion
+              width='630px'
               accordionHeader={
                 <h3>
                   Publicações

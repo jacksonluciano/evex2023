@@ -61,6 +61,14 @@ export const logo = css`
     max-width: 100%;
     height: auto;
   }
+
+  @media (max-width: 576px) {
+    max-width: 114px;
+
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export const mainMenu = css`

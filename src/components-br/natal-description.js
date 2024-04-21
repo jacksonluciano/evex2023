@@ -114,7 +114,7 @@ const NatalDescription = () => {
             </Col>
 
             <Col lg={6} md={6} sm={12} css={description}>
-              <div class='description_container'>
+              <div className='description_container'>
                 <p>
                   A cidade de Natal foi escolhida para sediar o primeiro evento presencial do EVEx no Brasil, por estar localizada em uma região estratégica do Nordeste do país, com abundância de recursos naturais e grande potencial para a transição energética.
                 </p>
