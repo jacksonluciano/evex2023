@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { LogoBrasil } from "@/data-br";
 import { useLocation } from "@reach/router";
 import Envelop from "@/images-br/home-br/envelop.svg";
+import linkedinIcon from "@/images-br/linkedin.svg"
 import { jsx } from "@emotion/react";
 
 import {
@@ -14,6 +15,8 @@ import {
   socialWidget,
   subscribeFrom,
   messageBox,
+  reverse,
+  mobileSide
 } from "../assets/styles-br/footer.styles";
 
 import { commonBtn, redBg } from "../assets/styles/layout.styles";
@@ -48,13 +51,13 @@ const Footer = () => {
   return (
     <footer css={footer1}>
       <Container fluid>
-        <Row>
-          <Col xs={6} className="px-0">
+        <Row css={reverse}>
+          <Col xs={12} lg={6} className="px-0">
             <div css={sideColumn}>
               <h2>Contatos</h2>
             </div>
             <div css={sideColumn}>
-              <h5>Caio César Cavalcanti | CEO</h5>
+              <h5>Caio César Cavalcanti <span>| CEO</span></h5>
               <p><img src={Envelop} /> {`caiocavalcanti@evex.energy`}</p>
             </div>
             <div css={sideColumn}>
@@ -66,7 +69,7 @@ const Footer = () => {
               <p><img src={Envelop} /> {`comite@evex.energy`}</p>
             </div>
           </Col>
-          <Col xs={6} className="px-0">
+          <Col xs={12} lg={6} className="px-0">
             <div css={sideColumn} style={{height : '50%'}}>
               <aside css={[widget, aboutWidget]}>
                 <h2>News</h2>
@@ -109,18 +112,11 @@ const Footer = () => {
 
              <div className="row" style={{margin: 0, height: '50%'}}>
              <Col xs={6} className="px-0">
-                <div css={sideColumn} style={{height : '100%', padding: '32px', alignItems: 'center'}}>
+                <div css={[sideColumn, mobileSide]} style={{height : '100%', padding: '32px', alignItems: 'center'}}>
                   <aside css={[widget, socialWidget]}>
                     <h2 className="widget_title">Siga-nos</h2>
                     <ul>
-                      <li>
-                        <a
-                          href="https://www.youtube.com/channel/UCKJjSpLyJVn_6VVqzM9RKTw?app=desktop"
-                          target="_blank"
-                        >
-                          <i className="fa fa-youtube-play"></i>
-                        </a>
-                      </li>
+                     
                       {/* <li>
                         <a
                           href="https://twitter.com/evexenergy"
@@ -139,6 +135,7 @@ const Footer = () => {
                           </svg>
                         </a>
                       </li> */}
+                      
                       <li>
                         <a
                           href="https://www.instagram.com/evexenergy/?igshid=MzRlODBiNWFlZA%3D%3D"
@@ -152,7 +149,16 @@ const Footer = () => {
                           href="https://www.linkedin.com/company/energy-virtual-experience-evex/"
                           target="_blank"
                         >
-                          <i className="fa fa-linkedin"></i>
+                          {/* <i className="fa-brands fa-linkedin"></i> */}
+                          <img src={linkedinIcon} />
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.youtube.com/channel/UCKJjSpLyJVn_6VVqzM9RKTw?app=desktop"
+                          target="_blank"
+                        >
+                          <i className="fa fa-youtube-play"></i>
                         </a>
                       </li>
                     </ul>

@@ -67,42 +67,51 @@ const Inscricoes = () => {
            
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} className="orange" >
-                  <h2>EVEx Pass</h2>
-                  <h3>02 a 05 de Outubro</h3>
-                  <p>Profissionais</p>
-                  <h4>R$ 665,00 / € 95,00</h4>
-                  <p>Estudantes</p>
-                  <h4>R$ 332,50 / € 47,50</h4>
-                  <p className="text">
-                    Acesso a todas as sessões do EVEx Online <br></br> 
-                    +25 horas de conteúdo exclusivo <br></br> 
-                    Materiais das apresentações <br></br> 
-                    Gravações do evento <br></br> 
-                    Certificado internacional de participação
-                  </p>
-                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a> */}
-                  <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
+                  <h2>EVEx Pass Brasil</h2>
+                  <p className="text">Ingresso para os<br/> 2 dias de evento</p>
+                  {/* <h3>02 a 05 de Outubro</h3> */}
+                  <p>Profissionais (1° lote até 30/04)</p>
+                  <h4>R$ 1.260,00</h4><br/>
+                  <p>Estudantes (1° lote até 30/04)</p>
+                  <h4>R$ 630,00</h4>
+                  
+                  <ul>
+                  <p style={{textAlign: 'left', marginLeft: '-20px'}}>O investimento inclui:</p>
+                    <li>
+                      <p>- Acesso à programação completa</p>
+                      <p>- Kit de credenciamento</p>
+                      <p>- Coffee breaks</p>
+                      <p>- Materiai das apresentações</p>
+                      <p>- Certificado de participação</p>
+                    </li>
+                  </ul>
+                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                  {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
                 </div>
               </Col>
 
               <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock} className="salmon" >
-                  <h2>EVEx Paper/Project</h2>
-                  <h3>Apresentação de trabalho e publicação</h3>
+                  <h2>EVEx Paper/Project Brasil</h2>
+                  <p className="text">Ingresso exclusivo para autores<br/> aprovados no evento</p>
                   <p>Profissionais</p>
-                  <h4>R$ 1.260,00 / € 180,00</h4>
+                  <h4>R$ 2.240,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 630,00 / € 90,00</h4>
-                  <p className="text">
-                    Publicação nos Anais do EVEx Lisboa 2023<br></br> 
-                    Acesso a todas as sessões do EVEx Online<br></br> 
-                    +25 horas de conteúdo exclusivo<br></br> 
-                    Materiais das apresentações<br></br> 
-                    Gravações de todo o evento<br></br> 
-                    Certificado internacional de participação
-                  </p>
-                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a> */}
-                  <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
+                  <h4>R$ 2.240,00</h4>
+                  <ul>
+                     <p style={{textAlign: 'left', marginLeft: '-20px'}}>O investimento inclui:</p>
+                    <li>
+                      <p>- Apresentação de 1 trabalho</p>
+                      <p>- Publicação internacional nos Anais do EVEx 2024</p>
+                      <p>- Acesso à programação completa</p>
+                      <p>- Kit de credenciamento</p>
+                      <p>- Coffee breaks</p>
+                      <p>- Materiais das apresentações</p>
+                      <p>- Certificado de participação</p>
+                    </li>
+                  </ul>
+                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                  {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
                 </div>
               </Col>
           

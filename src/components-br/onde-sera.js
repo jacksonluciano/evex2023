@@ -22,6 +22,7 @@ import {
   natalHeroContainer,
   elem1,
   elem2,
+  vidSection
 }  from '../assets/styles-br/onde-sera.styles'
 import {
   secTitle,
@@ -43,56 +44,34 @@ const ondeSera = () => {
     <section css={section}>
     <Container fluid>
       <Row>
-        <Col xs={7} md={7} sm={12} css={header}>
+        <Col xs={9} md={7} sm={12} css={header}>
           <div className='title_container'>
             <h2 className='title'>SERHS Natal <br /> Grand Hotel & Resort</h2>
           </div>
         </Col>
-        <Col xs={5} md={5} sm={0} className='px-0'>
+        <Col xs={3} md={5} sm={0} className='px-0'>
           <Container fluid style={{ height: '100%' }}>
             <Row style={{ height: '100%' }}>
-              <Col xs={6} css={bg} className='px-0'></Col>
-              <Col xs={6} css={bg} className='px-0'></Col>
+              <Col xs={12} lg={6} css={bg} className='px-0'></Col>
+              <Col xs={12} lg={6} css={bg} className='px-0'></Col>
             </Row>
           </Container>
         </Col>
       </Row>
-
-      {/* <Row>
-        <Col xs={7} md={7} sm={12} className='px-0' css={content}>
-          <div className='content_container'>
-            <p>
-              O EVEx Brasil 2024 será realizado no SERHS Natal Grand Hotel & Resort, que oferece toda a infraestrutura necessária para o formato do evento, além de ser condizente com o seu principal público-alvo – as mais importantes lideranças e autoridades dos mercados ibérico e latino-americano de energia.
-            </p>
-
-            <p>
-              Durante a realização do encontro, os participantes terão condições especiais para se hospedarem e desfrutarem de uma estadia agradável no Serhs Natal, com todos os confortos proporcionados por um dos melhores resorts da capital do Rio Grande do Norte. Para mais informações e instruções sobre como efetuar a reserva de quartos, entre em contato com a secretaria do EVEx através do seguinte e-mail: secretaria@evex.energy
-            </p>
-          </div>
-        </Col>
-
-        <Col xs={5} md={5} sm={12} className='px-0'>
-         
-          <div
-            className="swiper-pagination"
-            id="client-carousel-pagination"
-          ></div>
-        </Col>
-      </Row> */}
     </Container>
 
 
   </section>
-    <section css={[abAgency]} style={{padding: '120px 0 0'}}>
+    <section css={[abAgency]}>
     <img src={NatalLogo} className='natal_logo' />
       <Container style={{position: 'relative', zIndex: 2}}>
         <Row>       
-          <Col lg={6} md={6} sm={12} css={noPadding} style={{position: 'relative'}} >
+          <Col lg={7} md={7} sm={12} css={vidSection} style={{position: 'relative'}} >
             <img css={imgFull} src={SerhsImg} />
             <img css={elem1} src={NatalElement1} />
             <img css={elem2} src={NatalElement2} />
           </Col>
-          <Col css={pr79} lg={6} md={6} sm={12}>
+          <Col css={pr79} lg={5} md={5} sm={12}>
            <div css={about}>
               {/* <h2 css={[secTitle, mb45]}>Do Virtual ao <br/> Presencial</h2> */}
               <p css={secDesk}>

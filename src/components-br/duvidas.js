@@ -104,9 +104,10 @@ const Duvidas = () => {
             <Col id="contact-form" lg={6} md={6} sm={12}>
               <img src={EvexContact} />
               <div className="inner-div" style={{'max-width': '480px'}}>
-                <h2 css={secDesk}>Dúvidas e Sugestões</h2>
+                <h2 css={secDesk} className="desktop">Dúvidas e Sugestões</h2>
+                <h2 css={secDesk} className="mobile">Dúvidas e<br/> Sugestões</h2>
                 <p>
-                Entre em contato com a gente e tire suas dúvidas, faça sugestões e garanta sua participação nos eventos do EVEx Lisboa 2023.
+                Entre em contato conosco para tirar dúvidas e fazer sugestões. Sua mensagem será muito bem-vinda!
                 </p>
 
                 <form method="POST" action="https://formsubmit.co/secretaria@evex.energy" encType="multipart/form-data"
@@ -200,7 +201,7 @@ const Duvidas = () => {
             </Col>
             <Col lg={6} md={6} sm={12} className="px-0">
               <div id="contato" className="inner-div rl">
-                <h2 css={secDesk}>Patrocínio e<br/> Exposição</h2>
+                <h2 css={secDesk}>Patrocínio e<br/> Exposição</h2>        
                 <p>
                 Seja patrocinador(a) do EVEx Brasil 2024 e posicione sua marca na vanguarda da Transição Energética Ibero-Latino-Americana. Entre em contato com nosso time comercial e receba uma proposta personalizada para a sua empresa. 
                 </p>
@@ -215,10 +216,10 @@ const Duvidas = () => {
                 </button> */}
               </div>
               <Row>
-                <Col lg={6}>
+                <Col lg={6} xs={6}>
                 <div className="content"></div>
                 </Col>
-                <Col lg={6}>
+                <Col lg={6} xs={6}>
                 <div className="content"></div>
                 </Col>
               </Row>

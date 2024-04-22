@@ -1,12 +1,9 @@
 /** @jsx jsx */
 import { css } from '@emotion/react'
 import { colors } from '../styles/layout.styles'
-import  bgImg  from '../images-br/lisboaToNatal.jpg'
-import  orangeElements01  from '../images-br/orange-elements-01.png'
 
 export const abAgency = css`
-  /* background-color: ${colors.primaryMain}; */
-  background-image: url(${bgImg});
+  background-color: ${colors.primaryMain};
   min-height: 710px;
   position: relative;
   display: flex;
@@ -16,18 +13,34 @@ export const abAgency = css`
     width: 100%;
   }
 
+  .mobileBg{
+    display: none;
+  }
+
   @media (min-width: 320px) and (max-width: 767px) {
     .container-fluid .row{
       display: flex;
       flex-direction: column-reverse;
     }
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: auto;
+
+    .desktopBg{
+      display: none;
+    }
+    .mobileBg{
+    display: block;
   }
+  }
+
+ 
 
 `
 
 export const pr79 = css`
-
-z-index: 99;
+  position: absolute;
+  z-index: 99;
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 32px 16px;
@@ -53,19 +66,21 @@ export const about = css`
   flex-direction: column;
   height: 100%;
   color: #ffffff;
+  align-items: center;
 
   h2{
     color: #ffffff;
     font-family: 'bw_gradual_demomedium';
     text-align: center;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 700;
     /* text-decoration:underline; */
     /* text-decoration-thickness: 3px; */
     /* text-underline-offset: 6px; */
 
     @media (min-width: 320px) and (max-width: 767px) {
-     font-size: 56px;
+     font-size: 20px;
+     line-height: 24px;
     }
   }
 
@@ -75,6 +90,9 @@ export const about = css`
     text-align: center;
     font-weight: 100;
     font-size: 56px;
+    @media (min-width: 320px) and (max-width: 767px) {
+     font-size: 20px;
+    }
   }
 
   p{
@@ -84,9 +102,15 @@ export const about = css`
     font-weight: 100;
     color: #ffffff;
     text-align: center;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+
     @media (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 0;
         line-height: 21px;
+        font-size: 14px;
+        width: 90%;
       }
   }
 
@@ -103,9 +127,8 @@ export const element01 = css`
     left: 0;
 
     @media (min-width: 320px) and (max-width: 767px) {
-      width: 121px !important;
-      top: -28px;
-      right: -15px;
+      width: 100% !important;
+      bottom: 0px;
   }
 `
 

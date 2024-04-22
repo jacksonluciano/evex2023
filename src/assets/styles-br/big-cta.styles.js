@@ -7,7 +7,11 @@ export const abAgency = css`
   padding-top: 90px;
   position: relative;
   /* overflow: hidden; */
-  padding-bottom: 120px;
+  padding-bottom: 160px;
+    overflow-x: clip;
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding-bottom: 0;
+  }
   img {
     width: 100%;
   }
@@ -73,18 +77,27 @@ export const element10 = css`
   left: 0;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    transform: rotate(90deg) scale(-1);
-    bottom: -182px;
-    left: 320px;
+    transform: none;
+    left: 0;
+    bottom: 0;
   }
 `;
 
 export const elementPink = css`
   position: absolute;
   width: auto !important;
-  top: -260px;
-  right: 0;
   z-index: 1;
+  top: -240px;
+  right: 0px;
+  /* height: 300px; */
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: auto !important;
+    z-index: 1;
+    top: -160px;
+    right: -52px;
+    height: 300px;
+  }
 `;
 
 export const imgFull = css`
@@ -149,6 +162,11 @@ export const dateBlock = css`
   z-index: 2;
   transition: all 0.2s;
 
+  a {
+      padding: 16px 18px;
+      font-size: 15px;
+    }
+
   ul {
     margin: 0;
     padding: 0;
@@ -167,10 +185,10 @@ export const dateBlock = css`
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-    width: 94%;
-    margin-bottom: 60px;
-    border: 2px solid ${colors.secondaryMain};
-    background-color: ${colors.brandingSalmon};
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto 60px;
+    background-color: #000;
   }
 
   &.purple {
@@ -184,17 +202,24 @@ export const dateBlock = css`
 
   &:hover {
     /* background-color: ${colors.brandingSalmon}; */
-    background: radial-gradient(123.18% 83.31% at 21.05% 91.82%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%) ;
+    background: radial-gradient(
+      123.18% 83.31% at 21.05% 91.82%,
+      #9a2ff6 3.05%,
+      #cc6ae3 35.31%,
+      #e3e3e2 100%
+    );
 
-    h3,h2,
+    h3,
+    h2,
     p {
       color: #000;
     }
 
-    a{
+    a {
       background-color: #ffffff;
       color: #000;
       border-color: #000;
+      text-decoration: none;
     }
   }
 

@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import React from "react";
 import { PatrocinadoresData } from "@/data";
-import Element11 from "@/images/elements/element-11.svg"
-import Element12 from "@/images/elements/element-12.svg"
+import Element11 from "@/images-br/home-br/element_patrocinio.svg"
+import Element12 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images/pat.png'
 import Img1 from '@/images/apoio/abeeolica.svg'
@@ -69,10 +69,10 @@ const Patrocinadores = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               
-           {/* <img css={element11} src={Element11} />   
-           <img css={element12} src={Element12} /> */}
-              {/* <section className='diamante'>
-                <h4 css={secDesk}>Diamante</h4>
+           <img css={element11} src={Element11} />   
+           <img css={element12} src={Element12} />
+              <section className='diamante'>
+                <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
@@ -81,23 +81,23 @@ const Patrocinadores = () => {
                </section>
 
                <section className='platina'>
-                <h4 css={secDesk}>Platina</h4>
+                <h4 css={secDesk}>Patrocínio Platina</h4>
                   <ul>
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                   </ul>
-               </section> */}
+               </section>
 
                <section className='ouro'>
-                <h4 css={secDesk}>Ouro</h4>
+                <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul  style={{display:"flex", justifyContent:'center'}}>
                     <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
                   </ul>
                </section>
 
                <section className='prata'>
-                <h4 css={secDesk}>Prata</h4>
+                <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
                     <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
                     <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li>
@@ -107,7 +107,7 @@ const Patrocinadores = () => {
                </section>
 
                <section className='bronze'>
-                <h4 css={secDesk}>Bronze</h4>
+                <h4 css={secDesk}>Patrocínio Bronze</h4>
                   <ul>
                     <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li>
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>

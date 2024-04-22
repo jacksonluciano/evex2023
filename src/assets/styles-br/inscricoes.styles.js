@@ -211,7 +211,7 @@ export const dateBlock = css`
   h2 {
     font-family: "bw_gradual_demobold";
     color: #ffffff;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -243,7 +243,7 @@ export const dateBlock = css`
     margin-bottom: 8px;
 
     &.text {
-      margin: 16px 0 40px;
+      margin: 8px 0 40px;
     }
   }
 
@@ -252,6 +252,7 @@ export const dateBlock = css`
     letter-spacing: 0;
     background-color: #ffffff;
     color: #000;
+    font-size: 16px;
   }
 
   button {
@@ -268,6 +269,17 @@ export const dateBlock = css`
       :hover {
         background-color: ${colors.secondaryMain};
         color: ${colors.primaryMain};
+      }
+    }
+  }
+
+  ul{
+    margin: 24px 0 48px 0;
+    padding: 0;
+    li{
+      p{
+        text-align: left;
+        margin: 0;
       }
     }
   }

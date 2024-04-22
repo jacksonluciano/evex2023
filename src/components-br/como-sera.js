@@ -20,7 +20,8 @@ import {
   section,
   header,
   bg,
-  comoSeraContainer
+  comoSeraContainer,
+  reverse
 }  from '../assets/styles-br/como-sera.styles'
 import {
   secTitle,
@@ -41,7 +42,7 @@ const ComoSera = () => {
     </section>
     <section css={section}>
     <Container fluid>
-      <Row>
+      <Row css={reverse}>
         <Col lg={5} md={5} sm={12} css={header}>
           <div className='title_container'>
             <h2 className='title'>Nata Energy <br /> Experience</h2>
