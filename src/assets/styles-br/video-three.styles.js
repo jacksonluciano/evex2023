@@ -27,4 +27,18 @@ export const videoWrap = css`
   iframe{
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 80px 0;
+    border-radius: 10px;
+    z-index: 2;
+  }
+
+ 
 `

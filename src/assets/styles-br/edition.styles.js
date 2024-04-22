@@ -37,4 +37,11 @@ export const bg = css`
 
 export const container = css`
   margin-top: 121px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+     div{
+      text-align: center;
+      margin-bottom: 24px;
+     }
+    }
 `
