@@ -29,6 +29,10 @@ const Home = ({ title, name }) => {
   justify-content: center;
   align-items: center;
   transition: background-image 0.9s ease;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    background: url(${backgroundImage}) no-repeat top left 14% / cover;
+    }
 `;
 
   useEffect(() => {
@@ -57,20 +61,20 @@ const Home = ({ title, name }) => {
               <ul css={Buttons}>
                 <li>
                     <Link to="/brasil">
-                        EVEx Brasil 2024 <br/>
-                        Natal Energy Experience
+                        <span>EVEx Brasil 2024 </span>
+                        <span>Natal Energy Experience</span>
                     </Link>
                 </li>
                 <li>
                     <Link to="/">
-                        EVEx 2024 <br/>
-                        Energy Virtual Experience
+                      <span>EVEx 2024</span>
+                      <span>Energy Virtual Experience</span>               
                     </Link>
                 </li>
                 <li>
                     <Link to="/lisboa">
-                        EVEx Lisboa 2024 <br/>
-                        Lisbon Energy Experience
+                      <span>EVEx Lisboa 2024</span>
+                      <span>Lisbon Energy Experience</span>
                     </Link>
                 </li>
               </ul>

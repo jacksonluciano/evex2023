@@ -41,7 +41,7 @@ export const about = css`
   color: ${colors.secondaryMain};
   align-items: center;
 
-  img{
+  img {
     mix-blend-mode: multiply;
   }
 
@@ -51,16 +51,10 @@ export const about = css`
 
   h2 {
     color: ${colors.primaryMain};
-    font-family: "bw_gradual_demomedium";
-    &:after {
-      content: "";
-      height: 3px;
-      background-color: ${colors.primaryMain};
-      display: block;
-      margin-top: -3px;
-    }
+    font-family: "bw_gradual_demobold";
+    font-size: 25px;
     @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 40px;
+      
     }
   }
 
@@ -77,9 +71,10 @@ export const about = css`
     font-size: 16px;
   }
   h4 {
-    text-decoration: underline;
+    font-size: 25px;
     margin-bottom: 16px;
     text-align: center;
+    font-family: "bw_gradual_demobold";
   }
 
   .diamante {
@@ -142,7 +137,7 @@ export const about = css`
   .ouro {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     ul {
       margin: 0;
       padding: 0;
@@ -156,10 +151,10 @@ export const about = css`
 
       li {
         @media (min-width: 320px) and (max-width: 767px) {
-        /* width: 33.3%; */
-        padding: 2px;
+          /* width: 33.3%; */
+          padding: 2px;
           float: left;
-      }
+        }
         img {
           height: 132px;
           @media (min-width: 320px) and (max-width: 767px) {
@@ -174,14 +169,13 @@ export const about = css`
   .prata {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     ul {
       margin: 0;
       padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      
 
       @media (min-width: 320px) and (max-width: 767px) {
         flex-wrap: wrap;
@@ -190,27 +184,26 @@ export const about = css`
       li {
         padding: 0 16px;
 
-        :nth-of-type(1) img{
-            height: 68px;
-          }
-          :nth-of-type(2) img{
-            height: 62px;
-          }
+        :nth-of-type(1) img {
+          height: 68px;
+        }
+        :nth-of-type(2) img {
+          height: 62px;
+        }
 
-          :nth-of-type(3) img,
-          :nth-of-type(4) img{
-            height: 42px;
-          }
-
+        :nth-of-type(3) img,
+        :nth-of-type(4) img {
+          height: 42px;
+        }
 
         @media (min-width: 320px) and (max-width: 767px) {
           width: 50%;
           padding: 8px;
           float: left;
-      }
+        }
         img {
           height: 50px;
-         
+
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
           }
@@ -237,27 +230,27 @@ export const about = css`
       li {
         padding: 0 8px;
 
-        :nth-of-type(2) img{
-            height: 72px;
-          }
-          :nth-of-type(3) img{
-            height: 42px;
-          }
-          :nth-of-type(4) img{
-            height: 42px;
-          }
-          :nth-of-type(5) img{
-            height: 22px;
-          }
-          :nth-of-type(6) img{
-            height: 38px;
-          }
+        :nth-of-type(2) img {
+          height: 72px;
+        }
+        :nth-of-type(3) img {
+          height: 42px;
+        }
+        :nth-of-type(4) img {
+          height: 42px;
+        }
+        :nth-of-type(5) img {
+          height: 22px;
+        }
+        :nth-of-type(6) img {
+          height: 38px;
+        }
 
         @media (min-width: 320px) and (max-width: 767px) {
-        width: 33.3%;
-        padding: 8px;
+          width: 33.3%;
+          padding: 8px;
           float: left;
-      }
+        }
         img {
           height: 38px;
 
@@ -290,11 +283,11 @@ export const about = css`
         width: 120px;
 
         @media (min-width: 320px) and (max-width: 767px) {
-        width: 20%;
-        padding: 2px;
+          width: 20%;
+          padding: 2px;
           float: left;
           margin: 0;
-      }
+        }
         /* img{
                 height: 48px;
             } */
@@ -327,10 +320,11 @@ export const realization = css`
 
 export const element11 = css`
   position: absolute;
-  width: auto !important;
-  top: 80px;
-  left: 140px;
-  z-index: 0;
+    width: 300px !important;
+    top: 280px;
+    left: -15px;
+    z-index: 0;
+    transform: rotate(180deg);
   @media (min-width: 320px) and (max-width: 767px) {
     right: auto;
     left: 0;
@@ -343,10 +337,10 @@ export const element11 = css`
 
 export const element12 = css`
   position: absolute;
-  width: auto !important;
-  top: 0px;
-  right: 226px;
-  z-index: 0;
+    width: 300px !important;
+    top: 700px;
+    right: -14px;
+    z-index: 1;
   @media (min-width: 320px) and (max-width: 767px) {
     display: none;
   }
@@ -368,27 +362,39 @@ export const imgFull = css`
 `;
 
 export const titleHero = css`
-  background-color: #ffff00;
+  div {
+    background: radial-gradient(
+      76.58% 213.19% at 97.41% 97.62%,
+      #fe05c5 3.05%,
+      #ef2483 35.31%,
+      #e3e3e2 100%
+    );
 
-  div{
-    background: radial-gradient(76.58% 213.19% at 97.41% 97.62%, #FE05C5 3.05%, #EF2483 35.31%, #E3E3E2 100%) ;
-    
-    .px-0{
+    .px-0 {
       padding: 60px 0;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        &:nth-of-type(1),
+        &:nth-of-type(3) {
+          display: none;
+        }
+      }
     }
 
-    h2{
+    h2 {
       margin: 0;
-      font-family: 'bw_gradual_demobold';
+      font-family: "bw_gradual_demobold";
       font-size: 78px;
+      @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 40px;
+      }
     }
 
-    &:nth-of-type(2){
+    &:nth-of-type(2) {
       display: flex;
       align-items: center;
       justify-content: center;
     }
-
   }
 `;
 

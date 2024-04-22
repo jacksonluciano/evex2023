@@ -49,14 +49,14 @@ const TransicaoEnergetica = () => {
 
         <div css={blocks}>
           <Row>
-            <Col lg={6} md={6} sm={12} className='px-0'>
+            <Col lg={6} md={6} sm={6} xs={6} className='px-0'>
               <div css={dateBlock}>
                 <p>
                 03 e 04 de Julho
                 </p>
               </div>
             </Col>
-            <Col lg={6} md={6} sm={12} className='px-0'>
+            <Col lg={6} md={6} sm={6} xs={6} className='px-0'>
               <div css={dateBlock}>
                 <p>
                 {`SERHS Natal Grand`}
@@ -70,8 +70,8 @@ const TransicaoEnergetica = () => {
           
           <Row>
             {FunfactBrData.map(({ title, countNumber }, index) => (
-              <Col lg={4} md={4} sm={12} className='px-0'>
-                <div css={dateBlock} className='greenbg'>
+              <Col lg={4} md={4} sm={4} xs={4}  className='px-0'>
+                <div css={dateBlock} className={`greenbg-${index}`}>
                   <p>
                   {index === 2 && '+'} 
                   <VisibilitySensor

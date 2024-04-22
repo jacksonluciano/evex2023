@@ -11,6 +11,9 @@ export const homeBg = css`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (min-width: 320px) and (max-width: 767px) {
+       background: url(${homePurple}) no-repeat top left 14% / cover;
+    }
 `;
 
 export const bannerContent = css`
@@ -20,9 +23,14 @@ export const bannerContent = css`
     font-size: 40px;
     line-height: 1;
     font-weight: 700;
-    letter-spacing: 2.8px;
+    letter-spacing: 0px;
     margin: 0;
     color: #fff;
+    font-family: "bw_gradual_demobold";
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 16px;
+    }
 
     span{
         display: inline-block;
@@ -62,6 +70,10 @@ align-items: center;
 flex-direction: column;
 margin-top: 48px;
 
+@media (min-width: 320px) and (max-width: 767px) {
+      padding: 0;
+    }
+
   li{
     display: inline-block;
     background-color: #000;
@@ -86,6 +98,20 @@ line-height: 28px;
         :hover{
             text-decoration: none;
         }
+        span{
+          display: block;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 247px;
+      padding: 8px 12px;
+      a{
+        font-size: 14px;
+        span{
+          line-height: 20px;
+        }
+      }
     }
   }
 `;

@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import React from "react";
 import { LisboaParaNatal } from "@/data-br";
+import LisboaToNatalBg from '@/images-br/home-br/lisboaToNatal.jpg';
+import LisboaToNatalMobileBg from '@/images-br/home-br/lisboaToNatalMobile.jpg';
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
@@ -23,6 +25,8 @@ const LisboaToNatal = () => {
   const { sectionContent, image, element} = LisboaParaNatal;
   return (
     <section css={[abAgency]}>
+      <img src={LisboaToNatalBg} className="desktopBg" />
+      <img src={LisboaToNatalMobileBg} className="mobileBg" />
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               <h2 css={[secTitle, mb45]}>De Lisboa para Natal:</h2>

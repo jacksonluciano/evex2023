@@ -76,6 +76,7 @@ export const mainMenu = css`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   ul {
     margin: 0;
@@ -83,6 +84,7 @@ export const mainMenu = css`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    max-width: 800px;
 
     & li {
       list-style: none;
@@ -109,12 +111,12 @@ export const mainMenu = css`
         font-family: 'bw_gradual_demomedium';
 
         &:hover {
-          color: ${colors.brandingSalmon};
+          color: #f68515;
           text-decoration: none;
-          &:after {
+          /* &:after {
             width: 100%;
             opacity: 1;
-          }
+          } */
         }
 
         &:after {
@@ -250,7 +252,7 @@ export const socialList = css`
   align-items: center;
 
   li {
-    padding: 0 10px;
+    padding: 0 6px;
     height: 20px;
     line-height: 20px;
     margin-bottom: 4px;

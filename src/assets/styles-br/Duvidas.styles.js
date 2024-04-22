@@ -49,14 +49,14 @@ export const about = css`
 
   h2 {
     color: ${colors.primaryMain};
-    font-family: "bw_gradual_demomedium";
-    &:after {
+    font-family: "bw_gradual_demobold";
+    /* &:after {
       content: "";
       height: 3px;
       background-color: ${colors.primaryMain};
       display: block;
       margin-top: -3px;
-    }
+    } */
   }
 
   p {
@@ -87,19 +87,19 @@ export const realization = css`
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 48px;
-    &:nth-of-type(1){
-      img{
+    margin-bottom: 64px;
+    &:nth-of-type(1) {
+      img {
         max-width: 180px;
       }
     }
     @media (min-width: 320px) and (max-width: 767px) {
-    margin-bottom: 32px;
-  }
+      margin-bottom: 32px;
+    }
   }
 
   h4 {
-    margin-bottom: 16px;
+    margin-bottom: 48px;
     font-family: "bw_gradual_demobold";
     /* text-decoration: underline; */
   }
@@ -108,7 +108,6 @@ export const realization = css`
     width: 100%;
     max-width: 256px;
   }
-  
 `;
 
 export const contact = css`
@@ -128,60 +127,92 @@ export const contact = css`
 
   h2 {
     font-size: 56px;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
-    font-family: "bw_gradual_demomedium";
+    font-family: "bw_gradual_demobold";
     margin-bottom: 16px;
   }
 
   p {
+    width: 100%;
+    max-width: 500px;
     font-size: 14px;
     margin-bottom: 32px;
-    color: ${colors.primaryMain};
-    line-height: 24px;
+    color: #000;
+    line-height: 21px;
   }
 
   button {
     margin-bottom: 16px;
   }
 
-  .content{
-    background: radial-gradient(76.58% 213.19% at 97.41% 97.62%, #FE05C5 3.05%, #EF2483 35.31%, #E3E3E2 100%);
+  .content {
+    background: radial-gradient(
+      76.58% 213.19% at 97.41% 97.62%,
+      #fe05c5 3.05%,
+      #ef2483 35.31%,
+      #e3e3e2 100%
+    );
     position: relative;
     height: 100%;
     min-height: 244px;
   }
 
-  #contato{
-    background: radial-gradient(76.58% 213.19% at 97.41% 97.62%, #FE05C5 3.05%, #EF2483 35.31%, #E3E3E2 100%);
+  #contato {
+    background: radial-gradient(
+      76.58% 213.19% at 97.41% 97.62%,
+      #fe05c5 3.05%,
+      #ef2483 35.31%,
+      #e3e3e2 100%
+    );
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 40px 60px 40px 16px;
 
-    h2{
-      text-decoration:none;
+    h2 {
+      text-decoration: none;
       letter-spacing: 0;
       font-family: "bw_gradual_demobold";
+      @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 20px;
+      }
     }
 
-    a{
+    a {
       display: flex;
       align-self: flex-start;
     }
   }
 
-  #contact-form{
+  #contact-form {
     padding: 40px 60px;
     display: flex;
     justify-content: flex-end;
 
-    img{
-      width: auto;
+    .mobile {
+      display: none;
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      padding: 40px 40px;
+
+      .mobile {
+        display: block;
+        font-size: 20px;
+      }
+      .desktop {
+        display: none;
+      }
+    }
+
+    img {
+      width: 130px;
       position: absolute;
       left: 0;
       bottom: 32px;
+      @media (min-width: 320px) and (max-width: 767px) {
+        width: 39px;
+        bottom: 300px;
+      }
     }
   }
 `;
@@ -190,8 +221,6 @@ export const contactFrom = css`
   position: relative;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    text-align: center;
-    margin-bottom: 80px;
   }
 
   input {
@@ -290,7 +319,7 @@ export const element15 = css`
   z-index: 0;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    bottom:170px;
+    bottom: 170px;
     width: 60% !important;
   }
 `;
@@ -310,23 +339,22 @@ export const element8 = css`
   }
 `;
 
+export const messageBox = css`
+  transition: 0.5s ease-in-out;
+  background: #8dffb5;
+  width: 100%;
+  max-width: 428px;
+  line-height: 24px;
+  margin-top: 16px;
+  position: absolute;
+  top: -116px;
+  z-index: 999;
+  padding: 22px 16px;
 
-export const messageBox=css`
-    transition: .5s ease-in-out;
-    background: #8dffb5;
-    width: 100%;
-    max-width: 428px;
-    line-height: 24px;
-    margin-top: 16px;
-    position: absolute;
-    top: -116px;
-    z-index: 999;
-    padding: 22px 16px;
-
-    p{
-      margin: 0;
+  p {
+    margin: 0;
     color: #1e1e1c;
     font-size: 14px;
     text-align: center;
-    }
-`
+  }
+`;

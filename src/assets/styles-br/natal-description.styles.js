@@ -160,6 +160,7 @@ export const section = css`
     top: 0;
     top: 50%;
     transform: translateY(-50%);
+    width: 130px;
   }
 `
 

@@ -50,6 +50,11 @@ import EvexBrasilImg04 from '@/images-br/home-br/carousel-quemsomos-04.jpg'
 import EvexBrasilImg05 from '@/images-br/home-br/carousel-quemsomos-05.jpg'
 import EvexBrasilImg06 from '@/images-br/home-br/carousel-quemsomos-06.jpg'
 
+import instagramIcon from "@/images-br/instagram.svg"
+import linkedinIcon from "@/images-br/linkedin.svg"
+import twitterIcon from "@/images/icons/twitter.svg"
+import youtubeIcon from "@/images-br/youtube.svg"
+
 export const LogoBrasil = {
   black: logo
 };
@@ -58,7 +63,7 @@ export const LogoBrasil = {
 export const LisboaParaNatal = {
   sectionContent: {
     title: "De Lisboa para Natal",
-    text: `O maior e mais prestigiado encontro de Transição \n Energética da Península Ibérica e da América Latina`,
+    text: `O maior e mais prestigiado encontro de Transição Energética da Península Ibérica e da América Latina`,
   },
   button: {
     label: "Lorem ipsum",
@@ -357,3 +362,10 @@ export const FunfactBrData = [
     countNumber: 10,
   },
 ];
+
+export const SocialIcons = {
+  instagram: instagramIcon,
+  linkedin: linkedinIcon,
+  twitter: twitterIcon,
+  youtube: youtubeIcon,
+};

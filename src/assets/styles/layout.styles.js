@@ -86,7 +86,7 @@ export const colorAaa = css`
 
 export const commonBtn = css`
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   background: ${colors.primaryMain};
   color: #fff;
@@ -101,6 +101,7 @@ export const commonBtn = css`
   -webkit-transition: all 0.4s ease-out;
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out; */
+  font-family: "bw_gradual_demobold";
 
   &:hover {
     color: #000;

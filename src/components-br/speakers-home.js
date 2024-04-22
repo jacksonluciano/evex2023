@@ -15,6 +15,7 @@ import {
   moreBt,
   element,
   content,
+  speakersContent
 } from "../assets/styles-br/speakers-home.styles";
 
 import { commonSection, commonBtn } from "../assets/styles/layout.styles";
@@ -72,17 +73,17 @@ const TeamCarousel = () => {
             </Container>
         </div>
         <Row className="mx-0">
-          <Col lg={6} className="px-0">
+          <Col lg={6} xs={9} className="px-0">
             <div css={content}>
               
             </div>
           </Col>
-          <Col lg={6} className="px-0">
-            <Row className="mx-0">
-              <Col lg={6} className="px-0">
+          <Col lg={6} xs={3} className="px-0">
+            <Row css={speakersContent} className="mx-0">
+              <Col lg={6} xs={12} className="px-0">
                 <div css={content}></div>
               </Col>
-              <Col lg={6} className="px-0">
+              <Col lg={6} xs={6} className="px-0">
                 <div css={content}></div>
               </Col>
             </Row>

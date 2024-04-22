@@ -13,6 +13,12 @@ export const abAgency = css`
   overflow-x: clip;
   img {
     width: 100%;
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 140%;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding-bottom: 100px;
   }
 `;
 
@@ -56,8 +62,8 @@ export const about = css`
     text-underline-offset: 6px; */
 
     @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 56px;
-      line-height: 68px;
+      font-size: 20px;
+      line-height: 22px;
     }
   }
 
@@ -70,6 +76,11 @@ export const about = css`
     text-align: center;
     color: #000;
     font-family: "bw_gradual_demomedium";
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 20px;
+      line-height: 22px;
+      margin-bottom: 32px;
+    }
   }
   button {
     font-family: "bw_gradual_demobold";
@@ -79,6 +90,10 @@ export const about = css`
     overflow: hidden;
     top: -340px;
     position: relative;
+    @media (min-width: 320px) and (max-width: 767px) {
+      left: 0;
+      top: -90px;
+    }
   }
 `;
 
@@ -147,17 +162,19 @@ export const blocks = css`
   margin: 0 auto;
   top: -310px;
   position: relative;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 88%;
+    top: -80px;
+  }
 `;
 
 export const dateBlock = css`
-  /* background: radial-gradient(76.58% 139.19% at 97.41% 97.62%, ${colorsBr.themeGreen} 3.05%, ${colorsBr.secondaryBlue} 49.44%, #E3E3E2 100%); */
   background: radial-gradient(
-      97.41% 169.56% at 97.41% 97.62%,
-      #01f201 3.05%,
-      #4cd6d9 35.31%,
-      #e3e3e2 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    97.41% 169.56% at 97.41% 97.62%,
+    #01f201 3.05%,
+    #4cd6d9 35.31%,
+    #e3e3e2 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,23 +185,17 @@ export const dateBlock = css`
   height: 125px;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    width: 330px;
-    margin: 0 auto 32px;
-    padding: 20px 30px;
-    background-color: ${colors.brandingOrange};
-    h3,
-    p {
-      color: ${colors.primaryMain} !important;
-    }
+    padding: 10px 0px;
+    height: 85px;
   }
 
-  :hover {
+  /* :hover {
     background-color: ${colors.brandingOrange};
     h3,
     p {
       color: ${colors.primaryMain};
     }
-  }
+  } */
 
   h3 {
     font-family: "bw_gradual_demomedium";
@@ -201,16 +212,33 @@ export const dateBlock = css`
     padding: 0 10px;
     margin: 0;
     line-height: 28px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 16px !important;
+      line-height: 18px;
+      padding: 0;
+    }
   }
 
-  .greenbg {
+  &:hover{
     background: radial-gradient(
-      97.41% 169.56% at 97.41% 98.62%,
-      #01f201 17.05%,
-      #4cd6d9 106.31%,
-      #e3e3e2 166%
+      100% 188.29% at 100% 103.68%,
+      #4cd6d9 4.5%,
+      #01f201 35.73%,
+      #e3e3e2 100%
     );
   }
+
+  /* &.greenbg-0,
+  &.greenbg-1,
+  &.greenbg-2 {
+    background: radial-gradient(
+      100% 188.29% at 100% 103.68%,
+      #4cd6d9 4.5%,
+      #01f201 35.73%,
+      #e3e3e2 100%
+    );
+  } */
 `;
 export const asideBlock = css`
   position: absolute;

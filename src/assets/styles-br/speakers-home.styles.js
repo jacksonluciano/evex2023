@@ -18,6 +18,10 @@ export const team = css`
         text-decoration: none !important;
         padding-left: 24px;
         font-family: 'bw_gradual_demobold';
+        padding-top: 30px;
+        @media (min-width: 320px) and (max-width: 767px) {
+          font-size: 20px;
+    }
     }
   }
  
@@ -97,9 +101,9 @@ export const teamSlider = css`
         transform: rotate(90deg);
       }
 
-      :hover{
+      /* :hover{
         background-color:${colors.brandingSalmon};
-      }
+      } */
     }
 
   & .slick-slide {
@@ -401,6 +405,16 @@ export const content = css`
     min-height: 159px;
     background: radial-gradient(95.63% 266.17% at 100% 116.35%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%);
 
-   
-
+    @media (min-width: 320px) and (max-width: 767px) {
+      min-height: 105px;
+    }
+`
+export const speakersContent = css`
+    @media (min-width: 320px) and (max-width: 767px) {
+      div{
+      &:nth-of-type(2){
+        display: none;
+      }
+    }
+    }
 `

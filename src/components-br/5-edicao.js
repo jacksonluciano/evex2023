@@ -67,8 +67,9 @@ const QuintaEdicao = () => {
           </div>
         </Row>
         <Row>
-          <Col xs={6} className="px-0">
+          <Col xs={12} lg={6} className="px-0">
             <div css={content}>
+              <div className="info-content">
               <p>
                 Após o enorme sucesso das últimas edições virtuais e presenciais
                 em Lisboa, o EVEx vai desembarcar este ano pela primeira vez no
@@ -82,35 +83,40 @@ const QuintaEdicao = () => {
                 promoverá uma expedição energética inédita e transformadora,
                 mediante formato composto por três eventos:
               </p>
+              <br/>
               <Link css={commonBtn} to="/brasil/o-evex#last-editions">
                 Edições passadas
               </Link>
+              </div>
             </div>
           </Col>
-          <Col xs={6} className="px-0">
+          <Col xs={12} lg={6} className="px-0">
             <div css={sideColumn}>
+             
               <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
               <p>
                 <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
               </p>
             </div>
             <div css={sideColumn}>
+             
               <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
               <p>
-                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+                <b>24, 25 e 26 de setembro</b> | 100% online e ao vivo
               </p>
             </div>
             <div css={sideColumn}>
-              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              
+              <h5>EVEx Lisboa 2024 – Lisbon Energy Experience</h5>
               <p>
-                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+                <b>08 e 09 de outubro</b> | Reitoria da Universidade NOVA de Lisboa
               </p>
             </div>
           </Col>
         </Row>
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
-            <div css={[lisboaTwo, lightBg]}>
+            <div css={[lisboaTwo]}>
               <img className="evex-2024" src={Evex2024} />
               <div>
                 <h2 css={[secTitle, mb45]}>EVEx Brasil 2024</h2>
