@@ -9,7 +9,7 @@ const EvexLastEditions = () => {
     <section id="last-editions">
       <Container fluid>
         <Row>
-          <Col xs={4} className='px-0'>
+          <Col xs={2} lg={4} className='px-0'>
             <div css={sideColumn}></div>
             <div css={sideColumn}></div>
             <div css={sideColumn}></div>
@@ -17,7 +17,7 @@ const EvexLastEditions = () => {
             <div css={sideColumn}></div>
           </Col>
 
-          <Col xs={4} className='px-0'>
+          <Col xs={8} lg={4} className='px-0'>
             <div css={centerColumn}></div>
             <div css={content}>
               <h2>Edições Passadas</h2>
@@ -30,7 +30,7 @@ const EvexLastEditions = () => {
             <div css={centerColumn}></div>
           </Col>
 
-          <Col xs={4} className='px-0'>
+          <Col xs={2} lg={4} className='px-0'>
             <div css={sideColumn}></div>
             <div css={sideColumn}></div>
             <div css={sideColumn}></div>

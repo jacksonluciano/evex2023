@@ -11,6 +11,13 @@ export const sectionHeroDescription = css`
   justify-content: center;
   margin-top: 96px;
   min-height: 671px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+   justify-content: flex-start;
+   align-items: flex-start;
+    min-height: auto;
+    background: #e3e3e2;
+  }
 `
 
 export const evexImageBg = css`
@@ -28,9 +35,39 @@ export const evexImageBg = css`
     /* height: 100%; */
     object-fit: cover;
   }
+  @media (min-width: 320px) and (max-width: 767px) {
+    display: none;
+  }
+`
+export const evexImageBgMobile = css`
+    display: none;
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 100%;
+    display: block;
+
+    .logoEvex{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    img{
+      width: 100%;
+      &:nth-of-type(1){
+        width: 60%;
+      }
+      &:nth-of-type(2){
+        width: 100%;
+      }
+    }
+  }
 `
 
 export const description = css`
+ @media (min-width: 320px) and (max-width: 767px) {
+   padding: 24px;
+  }
   p {
     color: #000;
     font-size: 16px;

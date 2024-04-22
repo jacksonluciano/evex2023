@@ -12,5 +12,9 @@ export const title = css`
     margin-bottom: 0;
     padding: 25px;
     text-align: center;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+   font-size: 24px;
+  }
   }
 `

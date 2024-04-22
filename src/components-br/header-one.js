@@ -129,7 +129,7 @@ const HeaderOne = () => {
               >
                 <i className="mei-magnifying-glass"></i>
               </a> */}
-               <ul  css={socialList}>
+               {/* <ul  css={socialList}>
               <li>
                 <a href="https://www.instagram.com/evexenergy/">
                   <img src={SocialIcons.instagram} alt="instagram" className="socialicon" style={{width: '23.5px'}} />
@@ -140,7 +140,7 @@ const HeaderOne = () => {
                   <img src={SocialIcons.linkedin} alt="linkedin" />
                 </a>
               </li>
-            </ul>
+            </ul> */}
               {/* <a
                 href="#"
                 className="menu mobilemenu d-none d-md-none d-lg-none"

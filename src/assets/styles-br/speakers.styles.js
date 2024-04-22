@@ -348,6 +348,11 @@ export const speakersTitle = css`
   .heroTitle {
     position: relative;
     z-index: 99;
+    top: 120px;
+
+    @media (max-width: 1366px) {
+      top:54px
+    }
   }
 
   h2 {
@@ -369,7 +374,7 @@ export const speakersTitle = css`
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-59%);
   }
 
 

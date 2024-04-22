@@ -32,19 +32,19 @@ const Editions = () => {
 
       <Container>
         <Row css={container}>
-          <Col xs={3}>
+          <Col xs={12} lg={3}>
             <img src={LogoEvex2020} alt='Logo do EVEx 2020' />
           </Col>
 
-          <Col xs={3}>
+          <Col xs={12} lg={3}>
             <img src={LogoEvex2021} alt='Logo do EVEx 2021' />
           </Col>
 
-          <Col xs={3}>
+          <Col xs={12} lg={3}>
             <img src={LogoEvex2022} alt='Logo do EVEx 2022' />
           </Col>
 
-          <Col xs={3}>
+          <Col xs={12} lg={3}>
             <img src={LogoEvex2023} alt='Logo do EVEx 2023' />
           </Col>
         </Row>
