@@ -369,3 +369,66 @@ export const SocialIcons = {
   twitter: twitterIcon,
   youtube: youtubeIcon,
 };
+
+/* ----- Página 'Papers' ----- */
+
+export const downloadLinks = [
+  {
+    number: 1,
+    name: 'Normas',
+    url: 'https://evex.energy/static/EVEx2023%20-%20Regras%20de%20Formatac%CC%A7a%CC%83o-f501aea02e951e8e5be14e013e311d19.pdf'
+  },
+  {
+    number: 2,
+    name: 'Eixos Temáticos',
+    url: 'https://evex.energy/static/EVEx2023%20-%20Eixos%20Tema%CC%81ticos-1ab47d81c184b6360a8ea9539952b3e6.pdf',
+  },
+  {
+    number: 3,
+    name: 'Formulário de Resumo',
+    url: 'https://www.playbook.com/s/jacksonides/GkGbSc2tRcAaeZ92hUEJsiEE'
+  },
+  {
+    number: 4,
+    name: 'Template de Apresentação',
+    url: 'https://www.playbook.com/s/jacksonides/vhyHpyb4GSxNoT3DSmsoV5cX'
+  },
+  {
+    number: 5,
+    name: 'Template de Artigo',
+    url: '#'
+  }
+]
+
+export const publicationsLinks = [
+  {
+    number: 1,
+    name: 'Energia em Tempos de Pandemia',
+    url: 'https://evex.energy/static/e-book%20Energia%20em%20Tempos%20de%20Pandemia-092065a62f6383b5dd5223bd01cd22a1.pdf'
+  },
+  {
+    number: 2,
+    name: 'O Futuro da Energia Pós-Pandemia',
+    url: '#'
+  },
+  {
+    number: 3,
+    name: 'Anais do EVEx 2020',
+    url: 'https://evex.energy/static/Anais%20EVEx%202020-d87f240d1cddb16c3dfaac8657021dd7.pdf'
+  },
+  {
+    number: 4,
+    name: 'Anais do EVEx 2021',
+    url: 'https://evex.energy/static/Anais%20EVEx%202021%20-%20Energy%20Virtual%20Experience%20-4728dca2e22d820879143312c391ffe4.pdf'
+  },
+  {
+    number: 5,
+    name: 'Anais do EVEx Lisboa 2022',
+    url: '#'
+  },
+  {
+    number: 6,
+    name: 'Anais do EVEx Lisboa 2023',
+    url: '#'
+  }
+]

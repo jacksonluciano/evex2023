@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { css } from '@emotion/react'
+import PinkElementImage from '@/images-br/papers/papers-pink-element02.svg'
 
 export const bgPapers = css`
   background: #e3e2e2;
@@ -10,12 +11,24 @@ export const bgPapers = css`
     position: absolute;
     top: 230px;
   }
+
+  @media (max-width: 992px) {
+    .logo {
+      width: 30px;
+    }
+  }
 `
 
 export const imageContainer = css`
   align-items: center;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 992px) {
+    img {
+      display: none;
+    }
+  }
 `
 
 export const container = css`
@@ -77,9 +90,60 @@ export const contentContainer = css`
       }
     }
   }
+
+  @media (max-width: 992px) {
+    /* background: url(${PinkElementImage});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    padding: 0px 15px;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .title {
+      padding: 0 15px;
+      text-align: center;
+    }
+
+    .content {
+      padding: 0 32px;
+      
+      .item {
+        align-items: center;
+
+        &_number {
+          position: relative;
+        }
+
+        &_one, &_two, &_three {
+          top: 0;
+          left: 0;
+          flex: 1 0 57px;
+          text-align: right;
+        }
+
+        &_content {
+          font-size: 14px;
+          left: 0;
+          text-align: justify;
+          text-justify: inter-word;
+        }
+      }
+    }
+  }
 `
 
 export const accordion = css`
   padding-bottom: 600px;
   padding-top: 67px;
+
+  @media (max-width: 768px) {
+    padding: 60px 15px 300px;
+  }
 `

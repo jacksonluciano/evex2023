@@ -5,9 +5,13 @@ export const AccordionContainer = styled.div(props => ({
   margin: '0 auto',
   maxWidth: props.width ?? '100%',
   width: '100%',
-  background: props.isOpen 
-    ? 'radial-gradient(96.86% 103.53% at 110.14% 116.49%, #FF06B5 3.05%, #F73C6E 29.36%, #E3E3E2 100%)'
-    : 'transparent',
+  background: props.isOpen
+    ? 'radial-gradient(92.86% 124.53% at 88.14% 108.49%, #FF06B5 3.05%, #F73C6E 29.36%, #E3E3E2 100%)'
+    : 'transparent'
+  // background: props.isOpen 
+  //   ? 'radial-gradient(96.86% 103.53% at 110.14% 116.49%, #FF06B5 3.05%, #F73C6E 29.36%, #E3E3E2 100%)'
+  //   : 'transparent',
+    
 }))
 
  export const AccordionHeader = styled.div(props => ({
@@ -48,6 +52,21 @@ export const AccordionContainer = styled.div(props => ({
     left: 0,
     bottom: 0,
     background: '#000'
+  },
+
+  '@media (max-width: 768px)': {
+    padding: '20px',
+
+    '.header_content' : {
+      'h3': {
+        fontSize: '40px',
+      }
+    },
+
+    '.header_button': {
+      width: '45px',
+      height: '48px'
+    }
   }
 }))
 
@@ -70,6 +89,16 @@ export const AccordionCollapse = styled.div(props => ({
       lineHeight: '36px',
       textAlign: 'left',
       textDecoration: 'underline',
+    }
+  },
+
+  '@media (max-width: 768px)': {
+    '.body_informations': {
+      gap: '20px',
+
+      'a': {
+        fontSize: '18px'
+      }
     }
   }
 }))
