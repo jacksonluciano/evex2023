@@ -8,7 +8,6 @@ export const sectionHeroPapers = css`
   background-color: #d9d9d9;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +36,56 @@ export const sectionHeroPapers = css`
       line-height: 21.79px;
       text-align: left;
 
+    }
+  }
+
+  @media (max-width: 768px) {
+    background: #d9d9d9;
+    padding: 0px;
+
+    .bg_papers_mobile {
+      background-image: url(${BgPinkImage});
+      background-color: #d9d9d9;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 30px 10px;
+    }
+
+    .container {
+      max-width: 100%;
+    }
+
+    .row {
+      gap: 32px;
+    }
+
+    .title_container {
+      .title {
+        font-size: 60px;
+      }
+    }
+
+    .content_container {
+      padding-bottom: 20px;
+      p {
+        text-align: justify;
+        text-justify: inter-word;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .title_container {
+      .title {
+        font-size: 45px;
+      }
+    }
+
+    .content_container {
+      p {
+        font-size: 14px;
+      }
     }
   }
 `

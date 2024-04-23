@@ -2,6 +2,7 @@
 import React from 'react'
 import { jsx } from '@emotion/react'
 import { Container, Col, Row } from 'react-bootstrap'
+import { downloadLinks, publicationsLinks } from '@/data-br'
 import Accordion from './accordion'
 import 'react-accessible-accordion/dist/fancy-example.css'
 import PinkElementImage from '@/images-br/papers/papers-pink-element02.svg'
@@ -14,13 +15,14 @@ import {
   imageContainer
 } from '../assets/styles-br/papers-observations.styles'
 
+
 const PapersObservations = () => {
   return (
     <section css={bgPapers}>
       <img className='logo' src={PapersLogo} alt='logo papers' />
       <Container>
         <Row css={container}>
-          <Col xs={12} md={12} lg={7} css={imageContainer}>
+          <Col xs={12} md={12} lg={0} xl={7} css={imageContainer} className='px-0'>
             <img
               src={PinkElementImage}
               alt='background'
@@ -28,7 +30,7 @@ const PapersObservations = () => {
             />
           </Col>
 
-          <Col xs={12} md={12} lg={5} css={contentContainer}>
+          <Col xs={12} md={12} lg={12} xl={5} css={contentContainer} className='px-0'>
             <h3 className='title'>Observações</h3>
             <div className='content'>
               <div className='item'>
@@ -57,8 +59,8 @@ const PapersObservations = () => {
       </Container>
 
       <Container css={accordion}>
-        <Row>
-          <Col xs={12}>
+        <Row className='mx-0'>
+          <Col xs={12} className='px-0'>
             <Accordion
               width='630px'
               accordionHeader={
@@ -68,17 +70,22 @@ const PapersObservations = () => {
               }
               accordionBody={
                 <>
-                  <a href='#' target='_blank'>Normas</a>
-                  <a href='#' target='_blank'>Eixos Temáticos</a>
-                  <a href='#' target='_blank'>Formulário de Resumo</a>
-                  <a href='#' target='_blank'>Template de Apresentação</a>
-                  <a href='#' target='_blank'>Template de Artigo</a>
+                  {downloadLinks?.map(item => (
+                    <a
+                      key={item?.number}
+                      href={item?.url}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      {item?.name}
+                    </a>
+                  ))}
                 </>
               }
             />
           </Col>
 
-          <Col xs={12}>
+          <Col xs={12} className='px-0'>
             <Accordion
               width='630px'
               accordionHeader={
@@ -88,12 +95,16 @@ const PapersObservations = () => {
               }
               accordionBody={
                 <>
-                  <a href='#' target='_blank'>Energia em Tempos de Pandemia</a>
-                  <a href='#' target='_blank'>O Futuro da Energia Pós-Pandemia</a>
-                  <a href='#' target='_blank'>Anais do EVEx 2020</a>
-                  <a href='#' target='_blank'>Anais do EVEx 2021</a>
-                  <a href='#' target='_blank'>Anais do EVEx Lisboa 2022</a>
-                  <a href='#' target='_blank'>Anais do EVEx Lisboa 2023</a>
+                  {publicationsLinks?.map(item => (
+                    <a
+                      key={item?.number}
+                      href={item?.url}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      {item?.name}
+                    </a>
+                  ))}
                 </>
               }
             />

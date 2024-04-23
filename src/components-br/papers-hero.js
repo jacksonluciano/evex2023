@@ -11,7 +11,7 @@ const PapersHero = () => {
     <section css={sectionHeroPapers}>
       <Container>
         <Row>
-          <Col xs={12} sm={12} lg={6}>
+          <Col xs={12} sm={12} lg={6} className='bg_papers_mobile'>
             <div className='title_container'>
               <h2 className='title'>Call for<br /> Papers/<br /> Projects</h2>
             </div>

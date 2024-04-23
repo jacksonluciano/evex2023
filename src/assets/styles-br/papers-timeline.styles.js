@@ -14,6 +14,19 @@ export const timelineTitle = css`
     margin-bottom: 0;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    padding: 15px 10px;
+    h2 {
+      font-size: 60px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 45px;
+    }
+  }
 `
 
 export const data = css`
@@ -40,5 +53,26 @@ export const data = css`
     font-weight: 700;
     line-height: 30px;
     text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    span:first-of-type {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    span:last-of-type {
+      font-size: 23px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    span:first-of-type {
+      font-size: 16px;
+    }
+
+    span:last-of-type {
+      font-size: 21px;
+    }
   }
 `
