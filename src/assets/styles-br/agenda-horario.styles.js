@@ -187,6 +187,17 @@ export const eventTypeTitle = css`
   }
 `
 
+export const content = css`
+  position: relative;
+  padding-bottom: 200px;
+  background-color: #e3e3e2;
+`
+export const imgOrange = css`
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+`
+
 export const participantsContainer = css`
   display: flex;
   flex-direction: column;
