@@ -3,8 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Gradient from "@/images-br/comite-br/green-gradient.png";
 import Elemen01 from "@/images-br/comite-br/element01.svg";
-import Elemen02 from "@/images-br/comite-br/element02.svg";
-import Elemen03 from "@/images-br/comite-br/element03.svg";
+import Elemen03 from "@/images-br/comite-br/Element03.svg";
 import SpeakersWord from "@/images-br/comite-br/word.svg";
 
 import { ComiteData } from "@/data-br";
