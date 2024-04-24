@@ -5,7 +5,7 @@ import { colors } from "../styles/layout.styles";
 export const abAgency = css`
   background-color: #e3e3e2;
   position: relative;
-  /* overflow-x: hidden; */
+  overflow-x: clip;
 
   img {
     width: 100%;
@@ -327,8 +327,8 @@ export const element11 = css`
     transform: rotate(180deg);
   @media (min-width: 320px) and (max-width: 767px) {
     right: auto;
-    left: 0;
-    width: 70% !important;
+    left: -40px;
+    width: 100px !important;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     left: 0px;
@@ -342,7 +342,8 @@ export const element12 = css`
     right: 0px;
     z-index: 1;
   @media (min-width: 320px) and (max-width: 767px) {
-    display: none;
+    right: -40px;
+    width: 100px !important;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     right: 0px;
