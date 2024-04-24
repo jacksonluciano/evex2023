@@ -63,7 +63,7 @@ const QuintaEdicao = () => {
       <Container fluid>
         <Row>
           <div css={gradient}>
-            <h1>5º Edição do EVEx</h1>
+            <h1>5ª Edição do EVEx</h1>
           </div>
         </Row>
         <Row>
@@ -100,7 +100,7 @@ const QuintaEdicao = () => {
             </div>
             <div css={sideColumn}>
              
-              <h5>EVEx Brasil 2024 - Energy Virtual Experience</h5>
+              <h5>EVEx 2024 - Energy Virtual Experience</h5>
               <p>
                 <b>24, 25 e 26 de setembro</b> | 100% online e ao vivo
               </p>

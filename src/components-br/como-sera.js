@@ -45,10 +45,10 @@ const ComoSera = () => {
       <Row css={reverse}>
         <Col lg={5} md={5} sm={12} css={header}>
           <div className='title_container'>
-            <h2 className='title'>Nata Energy <br /> Experience</h2>
+            <h2 className='title'>Natal Energy <br /> Experience</h2>
             <p>Experiências Interativas, Conteúdos de Alto Nível e Networking Estratégico</p>
             <br/>
-            <Link to="/brasil/inscricoes" css={commonBtn}>Por que Natal?</Link>
+            <Link to="/brasil/inscricoes" css={commonBtn}>Inscreva-se agora</Link>
           </div>
         </Col>
         <Col lg={7} md={7} sm={12} className='px-0'>

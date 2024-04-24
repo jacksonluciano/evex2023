@@ -165,6 +165,8 @@ export const dateBlock = css`
   a {
       padding: 16px 18px;
       font-size: 15px;
+      position: absolute;
+      bottom: 30px;
     }
 
   ul {

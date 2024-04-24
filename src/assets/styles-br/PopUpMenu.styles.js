@@ -223,7 +223,7 @@ export const dlMenuWrapBr = css`
   transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
   width: 100%;
   z-index: 99;
-  margin-top: 170px;
+  margin-top: 220px;
 
   button {
     border: none;
@@ -238,7 +238,7 @@ export const dlMenuWrapBr = css`
     transform-style: preserve-3d;
 
     li {
-      margin: 28px 0;
+      margin: 14px 0;
       position: relative;
       display: block;
       text-align: center;
