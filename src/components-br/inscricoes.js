@@ -4,6 +4,7 @@ import { Link } from "gatsby";
 import Element01 from '@/images-br/home-br/inscricao_elem1.png'
 import Element02 from '@/images-br/home-br/inscricao_elem2.png'
 import Element03 from '@/images-br/home-br/inscricao_elem3.png'
+import inscriElement from '@/images-br/inscri.png'
 import Bg from '@/images-br/home-br/bg-speakers.jpg'
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
@@ -45,9 +46,7 @@ const Inscricoes = () => {
             <Col css={sectionTitle} lg={6}>
               <div className="inscriTitle">
                 <h2>Inscrições</h2>
-                <img src={Element03} />
-                <img src={Element02}/>
-                <img src={Element01} />               
+                <img src={inscriElement} />          
                 
               </div>
             </Col>
