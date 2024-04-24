@@ -46,5 +46,6 @@ export const radialElement = css`
 
     @media (min-width: 320px) and (max-width: 767px) {
       width: 452px;
+      height: 320px;
   }
 `

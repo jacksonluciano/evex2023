@@ -360,6 +360,9 @@ export const speakersTitle = css`
     font-family: 'bw_gradual_demobold';
     font-size: 140px;
     text-decoration: none;
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 50px;
+    }
   }
 
   p {

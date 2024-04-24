@@ -213,6 +213,10 @@ export const contact = css`
         width: 39px;
         bottom: 300px;
       }
+      @media (min-width: 768px) and (max-width: 1300px) {
+        width: 88px;
+        bottom: 106px;
+      }
     }
   }
 `;

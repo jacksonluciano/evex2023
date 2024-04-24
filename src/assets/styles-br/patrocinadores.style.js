@@ -137,7 +137,7 @@ export const about = css`
   .ouro {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     ul {
       margin: 0;
       padding: 0;
@@ -220,7 +220,7 @@ export const about = css`
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
       @media (min-width: 320px) and (max-width: 767px) {
@@ -243,7 +243,7 @@ export const about = css`
           height: 22px;
         }
         :nth-of-type(6) img {
-          height: 38px;
+          height: 86px;
         }
 
         @media (min-width: 320px) and (max-width: 767px) {
@@ -252,7 +252,7 @@ export const about = css`
           float: left;
         }
         img {
-          height: 38px;
+          height: 86px;
 
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
@@ -331,21 +331,21 @@ export const element11 = css`
     width: 70% !important;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
-    left: 70px;
+    left: 0px;
   }
 `;
 
 export const element12 = css`
   position: absolute;
     width: 300px !important;
-    top: 700px;
-    right: -14px;
+    top: 1000px;
+    right: 0px;
     z-index: 1;
   @media (min-width: 320px) and (max-width: 767px) {
     display: none;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
-    right: 190px;
+    right: 0px;
   }
 `;
 

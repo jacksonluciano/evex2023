@@ -69,17 +69,16 @@ const Patrocinadores = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               
-           <img css={element11} src={Element11} />   
-           <img css={element12} src={Element12} />
-              <section className='diamante'>
+
+              {/* <section className='diamante'>
                 <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                   </ul>
-               </section>
-
+               </section> */}
+{/* 
                <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>
                   <ul>
@@ -87,7 +86,7 @@ const Patrocinadores = () => {
                     <li><img src={Img} /></li>
                     <li><img src={Img} /></li>
                   </ul>
-               </section>
+               </section> */}
 
                <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
@@ -96,7 +95,7 @@ const Patrocinadores = () => {
                   </ul>
                </section>
 
-               <section className='prata'>
+               {/* <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
                     <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
@@ -104,17 +103,17 @@ const Patrocinadores = () => {
                     <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
                <section className='bronze'>
                 <h4 css={secDesk}>Patrocínio Bronze</h4>
                   <ul>
-                    <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li>
+                    {/* <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li> */}
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
-                    <li><a href="https://www.ativ.pt" target="_blank"><img src={Pat07} /></a></li>
+                    {/* <li><a href="https://www.ativ.pt" target="_blank"><img src={Pat07} /></a></li>
                     <li><a href="http://www.hega-tech.com" target="_blank"><img src={Pat08} /></a></li>
                     <li><a href="https://www.blomstein.com" target="_blank"><img src={Pat09} /></a></li>
-                    <li><a href="https://renewing.pt" target="_blank"><img src={Pat10} /></a></li>
+                    <li><a href="https://renewing.pt" target="_blank"><img src={Pat10} /></a></li> */}
                   </ul>
                </section>
 
@@ -129,21 +128,23 @@ const Patrocinadores = () => {
                     <li><img src={Img1} /></li>
                     <li><img src={Img3} /></li>
                     {/* <li><img src={Img4} /></li> */}
-                    <li><img src={Img5} /></li>
+                    {/* <li><img src={Img5} /></li> */}
                   </ul>
                   <ul>
-                    <li><img src={Img6} /></li>
+                    {/* <li><img src={Img6} /></li> */}
                     <li><img src={Img7} /></li>
-                    <li><img src={Img8} /></li>
+                     <li><img src={Img14} /></li>
+                     <li><img src={Img11} /></li>
+                    {/* <li><img src={Img8} /></li>
                     <li><img src={Img9} /></li>
-                    <li><img src={Img10} /></li>
+                    <li><img src={Img10} /></li> */}
                   </ul>
                   <ul>
-                    <li><img src={Img11} /></li>
-                    <li><img src={Img12} /></li>
-                    <li><img src={Img13} /></li>
-                    <li><img src={Img14} /></li>
-                    <li><img src={Img15} /></li>
+                    
+                    {/* <li><img src={Img12} /></li>
+                    <li><img src={Img13} /></li> */}
+                   
+                    {/* <li><img src={Img15} /></li> */}
                     
                   </ul>
                </section>
@@ -152,6 +153,8 @@ const Patrocinadores = () => {
           </Col>
         </Row>
       </Container>
+      <img css={element11} src={Element11} />   
+           <img css={element12} src={Element12} />
     </section>
   );
 };
