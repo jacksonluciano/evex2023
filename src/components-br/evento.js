@@ -15,7 +15,8 @@ import {
   lastcontainer,
   slider,
   teamSlider,
-  teamPagination
+  teamPagination,
+  reverse
 } from '../assets/styles-br/evento.styles'
 import SixIcon from '@/images-br/o-evex/6.svg'
 import TwoIcon from '@/images-br/o-evex/2.svg'
@@ -86,7 +87,7 @@ const Evento = () => {
   return (
     <section>
       <Container fluid>
-        <Row>
+        <Row css={reverse}>
           <Col lg={7} md={7} sm={12} className='px-0'>
             <Swiper css={slider} {...carousel01Options}>
               <span id="main-slider-prev01">

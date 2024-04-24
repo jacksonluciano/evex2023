@@ -85,7 +85,7 @@ const QuintaEdicao = () => {
               </p>
               <br/>
               <Link css={commonBtn} to="/brasil/o-evex#last-editions">
-                Edições passadas
+                Edições Passadas
               </Link>
               </div>
             </div>
@@ -100,7 +100,7 @@ const QuintaEdicao = () => {
             </div>
             <div css={sideColumn}>
              
-              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              <h5>EVEx Brasil 2024 - Energy Virtual Experience</h5>
               <p>
                 <b>24, 25 e 26 de setembro</b> | 100% online e ao vivo
               </p>

@@ -96,7 +96,7 @@ export const about = css`
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    color: ${colors.secondaryMain};
+    color: #000;
   }
 
   button {
@@ -143,6 +143,7 @@ export const lisboaTwo = css`
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
+    color: #000;
   }
 
   button {
@@ -160,6 +161,9 @@ export const lisboaTwo = css`
     height: 475px;
     @media (min-width: 320px) and (max-width: 767px) {
      width: 32px;
+   }
+   @media (max-width: 1365px) {
+     width: 70px;
    }
   }
 `;

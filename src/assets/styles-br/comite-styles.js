@@ -394,3 +394,21 @@ export const speakerCard = css`
     bottom: 0;
   }
 `;
+
+export const element01 = css`
+position: absolute;
+    top: 490px;
+    left: -170px;
+    z-index: 1;
+`;
+export const Word = css`
+position: absolute;
+    top: 40%;
+    left: 0px;
+    z-index: 9;
+`;
+export const element03 = css`
+       position: absolute;
+    bottom: -80px;
+    right: 0;
+`;

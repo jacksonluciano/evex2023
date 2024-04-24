@@ -3,8 +3,13 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Element8 from "@/images/elements/element-08.png";
 import Gradient from "@/images-br/speakers-br/circle-gradient.png";
+import Elemen01 from "@/images-br/speakers/element01.svg";
+import Elemen02 from "@/images-br/speakers/element02.svg";
+import Elemen03 from "@/images-br/speakers/element03.svg";
+import Elemen04 from "@/images-br/speakers/element04.svg";
+import SpeakersWord from "@/images-br/speakers/speakers.svg";
 
-import { TeamOneData } from "@/data";
+import { TeamOneData } from "@/data-br";
 import TeamCard from "@/components-br/team-card";
 import { jsx } from "@emotion/react";
 import "swiper/swiper-bundle.min.css";
@@ -17,7 +22,12 @@ import {
   speakersTitle,
   element,
   speakerCard,
-  speakersCards
+  speakersCards,
+  element01,
+  element02,
+  element03,
+  element04,
+  Word
 } from "../assets/styles-br/speakers.styles";
 
 import { commonSection } from "../assets/styles/layout.styles";
@@ -85,6 +95,7 @@ const TeamCarousel = () => {
         </Row>
       </Container>
       <Container css={speakersCards}>
+       
         <Row>
           {posts.map((post, index) => (
             <Col css={speakerCard} lg={3} md={3}>
@@ -92,7 +103,12 @@ const TeamCarousel = () => {
             </Col>
           ))}
         </Row>
+        <img src={Elemen01} css={element01} />
+        <img src={Elemen02} css={element02} />
+        <img src={Elemen03} css={element03} />
+        <img src={Elemen04} css={element04} />
       </Container>
+        <img src={SpeakersWord} css={Word} />
       
     </section>
   );

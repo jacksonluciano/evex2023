@@ -30,7 +30,7 @@ export const evexImageBg = css`
   .bgEvex {
     left: -190px;
     position: absolute;
-    top: -260px;
+    top: -280px;
     /* width: 100%; */
     /* height: 100%; */
     object-fit: cover;

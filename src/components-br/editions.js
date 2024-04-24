@@ -15,7 +15,7 @@ const Editions = () => {
     <section>
       <Container fluid>
         <Row>
-          <Col xs={8} css={title}>
+          <Col xs={10} lg={8} css={title}>
             <div className='title_container'>
               <img src={FourIcon} />
               <div className='title'>
@@ -25,8 +25,8 @@ const Editions = () => {
             </div>
           </Col>
 
-          <Col xs={2} css={bg}></Col>
-          <Col xs={2} css={bg}></Col>
+          <Col xs={12} lg={2} css={bg}></Col>
+          <Col xs={2} lg={2} css={bg}></Col>
         </Row>
       </Container>
 

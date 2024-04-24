@@ -220,7 +220,7 @@ export const singleTM = css`
 
 export const tmImg = css`
   position: relative;
-  border-radius: 0 0 8px 8px;
+  /* border-radius: 0 0 8px 8px; */
     overflow: hidden;
 
   & img {
@@ -239,14 +239,13 @@ export const tmImg = css`
 
 export const speakerInfo = css`
   display: flex;
-  /* background: radial-gradient(106.26% 100% at 56.11% 100%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%); */
-  background: radial-gradient(98.78% 167.82% at 119.61% 148.7%, #01F201 3.05%, #4CD6D9 50.45%, #E3E3E2 82.11%) ;
-  position: absolute;
+  background: radial-gradient(98.78% 167.82% at 119.61% 148.7%, #01F201 3.05%, #4CD6D9 55.45%, #E3E3E2 111.11%);
   bottom: 0px;
   z-index: 2;
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
+  height: 184px;
 
   h4{
     font-family: 'bw_gradual_demobold';
@@ -259,6 +258,9 @@ export const speakerInfo = css`
     font-size: 14px;
     color:  #000;
     line-height: 21px;
+    span{
+      font-weight: 500;
+    }
   }
 
 `
@@ -381,3 +383,5 @@ export const element = css`
       bottom:-77px
     }
 `
+
+

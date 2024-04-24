@@ -324,10 +324,11 @@ export const header = css`
   p {
     color: #000;
     line-height: 24px;
+    font-size: 20px;
   }
 
   .title_container {
-    max-width: 357px;
+    max-width: 384px;
     margin: 0 auto;
 
     .title {

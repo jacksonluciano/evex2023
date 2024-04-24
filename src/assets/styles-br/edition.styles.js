@@ -1,9 +1,14 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
-import { colorsBr } from '../styles/layout.styles'
+import { css } from "@emotion/react";
+import { colorsBr } from "../styles/layout.styles";
 
 export const title = css`
-  background: radial-gradient(101.67% 300.32% at 107.15% 108.84%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
+  background: radial-gradient(
+    101.67% 300.32% at 107.15% 108.84%,
+    ${colorsBr.themeRed} 3.05%,
+    ${colorsBr.secondaryYellow} 57.43%,
+    #e3e3e2 100%
+  );
 
   .title_container {
     align-items: center;
@@ -21,27 +26,42 @@ export const title = css`
       left: -13px;
 
       h2 {
-        font-family: 'bw_gradual_demobold';
+        font-family: "bw_gradual_demobold";
         font-size: 56px;
         font-weight: 700;
         line-height: 67.2px;
         margin-bottom: 0px;
+        @media (min-width: 320px) and (max-width: 767px) {
+          font-size: 28px;
+          line-height: 32px;
+        }
       }
     }
   }
-`
+`;
 
 export const bg = css`
-  background: radial-gradient(90.25% 112.75% at 108.37% 105.86%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 68.68%, #E3E3E2 100%);
-`
+  background: radial-gradient(
+    90.25% 112.75% at 108.37% 105.86%,
+    ${colorsBr.themeRed} 3.05%,
+    ${colorsBr.secondaryYellow} 68.68%,
+    #e3e3e2 100%
+  );
+  @media (min-width: 320px) and (max-width: 767px) {
+    &:nth-of-type(2) {
+      display: none;
+    }
+  }
+`;
 
 export const container = css`
   margin-top: 121px;
 
   @media (min-width: 320px) and (max-width: 767px) {
-     div{
+    margin-top: 32px;
+    div {
       text-align: center;
-      margin-bottom: 24px;
-     }
+      margin-bottom: 32px;
     }
-`
+  }
+`;

@@ -279,10 +279,10 @@ export const socialList = css`
         margin-bottom: -4px;
       }
     }
-    a:hover img,
+    /* a:hover img,
     a:hover svg {
       filter: invert(61%) sepia(55%) saturate(446%) hue-rotate(307deg)
         brightness(101%) contrast(89%);
-    }
+    } */
   }
 `;
