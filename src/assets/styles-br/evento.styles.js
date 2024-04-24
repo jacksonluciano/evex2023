@@ -22,10 +22,6 @@ export const slider = css`
       width: auto !important;
       transform: rotate(270deg);
     }
-
-    :hover {
-      background-color: ${colors.brandingSalmon};
-    }
     &.swiper-button-disabled {
       display: none;
     }
@@ -99,9 +95,17 @@ export const content = css`
     align-items: flex-start;
     position: relative;
 
+    @media (min-width: 320px) and (max-width: 767px) {
+        padding: 32px 0;
+      }
+
     img {
       height: 100%;
       max-height: 114px;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        max-height: 90px;
+      }
     }
 
     h3 {
@@ -176,10 +180,6 @@ export const teamSlider = css`
     img {
       transform: rotate(90deg);
     }
-
-    :hover {
-      background-color: ${colors.brandingSalmon};
-    }
   }
 
   & .slick-slide {
@@ -238,8 +238,16 @@ export const teamPagination = css`
 
 export const lastcontainer = css`
   margin: 50px 0 295px;
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin: 50px 0 24px;
+  }
 
   .slider {
     width: 375px !important;
+  }
+`;
+export const reverse = css`
+  @media (min-width: 320px) and (max-width: 767px) {
+    flex-direction: column-reverse;
   }
 `;

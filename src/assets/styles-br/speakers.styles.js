@@ -7,6 +7,7 @@ export const team = css`
   padding: 146px 0 80px !important;
   background-color: #e3e3e2;
   position: relative;
+  overflow-x: clip;
 
   h2 {
     font-size: 56px;
@@ -386,8 +387,35 @@ export const speakersCards = css`
 
 export const speakerCard = css`
   margin-bottom: 32px;
+  z-index: 2;
 
   div div:nth-of-type(1) {
     bottom: 0;
   }
+`;
+export const element01 = css`
+ position: absolute;
+ right: -236px;
+    top: -86px;
+`;
+export const element02 = css`
+    position: absolute;
+    top: 200px;
+    left: -200px;
+`;
+export const element03 = css`
+ position: absolute;
+ right: -236px;
+    top: 50%;
+`;
+export const element04 = css`
+ position: absolute;
+ left: -170px;
+    bottom: -114px;
+`;
+export const Word = css`
+    position: absolute;
+    left: 0;
+    top: 53%;
+    width: 154px;
 `;

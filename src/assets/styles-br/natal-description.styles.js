@@ -1,9 +1,10 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
-import { colorsBr, colors } from '../styles/layout.styles'
+import { css } from "@emotion/react";
+import { colorsBr, colors } from "../styles/layout.styles";
 
 export const slider = css`
-  #main-slider-next01, #main-slider-next02 {
+  #main-slider-next01,
+  #main-slider-next02 {
     width: 48px;
     height: 48px;
     background-color: #ffffff;
@@ -17,21 +18,22 @@ export const slider = css`
     align-items: center;
     cursor: pointer;
 
-    img{
+    img {
       width: auto !important;
       transform: rotate(270deg);
     }
 
-    :hover{
+    :hover {
       /* background-color:${colors.brandingSalmon}; */
-      background-color: #08F016;
+      background-color: #08f016;
     }
-    &.swiper-button-disabled{
+    &.swiper-button-disabled {
       display: none;
     }
   }
 
-  #main-slider-prev01, #main-slider-prev02 {
+  #main-slider-prev01,
+  #main-slider-prev02 {
     width: 48px;
     height: 48px;
     background-color: #ffffff;
@@ -45,52 +47,60 @@ export const slider = css`
     align-items: center;
     cursor: pointer;
 
-    img{
+    img {
       width: auto !important;
       transform: rotate(90deg);
     }
 
-    :hover{
+    :hover {
       /* background-color:${colors.brandingSalmon}; */
-      background-color: #08F016;
+      background-color: #08f016;
     }
 
-    &.swiper-button-disabled{
+    &.swiper-button-disabled {
       display: none;
     }
   }
 
-  .swiper-pagination{
+  .swiper-pagination {
     text-align: center;
 
-    .swiper-pagination-bullet{
+    .swiper-pagination-bullet {
       width: 13px;
       height: 13px;
-      background-color: #08F016;
-      border:1px solid #08F016;
+      background-color: #08f016;
+      border: 1px solid #08f016;
       opacity: 0.5;
     }
-    .swiper-pagination-bullet-active{
-      background-color: #08F016;
+    .swiper-pagination-bullet-active {
+      background-color: #08f016;
       opacity: 1;
     }
   }
-`
+`;
 
 export const imgFull = css`
   width: 100%;
   /* height: 100%; */
   max-height: 542px;
-`
+`;
 
 export const description = css`
   align-items: center;
-  background: radial-gradient(109.31% 145.98% at 109.31% 100%, ${colorsBr.themeGreen} 3.05%, ${colorsBr.secondaryBlue} 27.63%, #E3E3E2 100%);
+  background: radial-gradient(
+    109.31% 145.98% at 109.31% 100%,
+    ${colorsBr.themeGreen} 3.05%,
+    ${colorsBr.secondaryBlue} 27.63%,
+    #e3e3e2 100%
+  );
   display: flex;
   justify-content: center;
 
   .description_container {
     max-width: 510px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      padding: 24px 12px;
+    }
 
     p {
       color: #000;
@@ -99,39 +109,69 @@ export const description = css`
       line-height: 21.79px;
     }
   }
-`
+`;
 
 export const bg = css`
-  background: radial-gradient(76.58% 139.19% at 97.41% 97.62%, ${colorsBr.themeGreen} 3.05%, ${colorsBr.secondaryBlue} 49.44%, #E3E3E2 100%);
-
-`
+  background: radial-gradient(
+    76.58% 139.19% at 97.41% 97.62%,
+    ${colorsBr.themeGreen} 3.05%,
+    ${colorsBr.secondaryBlue} 49.44%,
+    #e3e3e2 100%
+  );
+  @media (min-width: 320px) and (max-width: 767px) {
+      &:nth-of-type(2){
+        display: none;
+      }
+    }
+`;
 
 export const header = css`
-  background: radial-gradient(76.58% 139.19% at 97.41% 97.62%, ${colorsBr.themeGreen} 3.05%, ${colorsBr.secondaryBlue} 49.44%, #E3E3E2 100%);
+  background: radial-gradient(
+    76.58% 139.19% at 97.41% 97.62%,
+    ${colorsBr.themeGreen} 3.05%,
+    ${colorsBr.secondaryBlue} 49.44%,
+    #e3e3e2 100%
+  );
   /* padding: 58px 45px 58px 200px; */
   padding-block: 58px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding-block: 38px;
+    justify-content: flex-start;
+      }
 
   .title_container {
     max-width: 589px;
     margin-right: 45px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-right: 0px;
+      }
 
     .title {
-      font-family: 'bw_gradual_demobold';
+      font-family: "bw_gradual_demobold";
       font-size: 56px;
       font-weight: 700;
       line-height: 67.2px;
       margin: 0;
       text-align: left;
+      @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 22px;
+        line-height: 28px;
+      }
     }
   }
-`
+`;
 
 export const content = css`
   align-items: center;
-  background: radial-gradient(102.27% 195.06% at 102.27% 103.18%, ${colorsBr.themeGreen} 3.05%, ${colorsBr.secondaryBlue} 27.63%, #E3E3E2 100%);
+  background: radial-gradient(
+    102.27% 195.06% at 102.27% 103.18%,
+    ${colorsBr.themeGreen} 3.05%,
+    ${colorsBr.secondaryBlue} 27.63%,
+    #e3e3e2 100%
+  );
   display: flex;
   justify-content: flex-end;
 
@@ -146,10 +186,9 @@ export const content = css`
       font-weight: 400;
       line-height: 21.79px;
       text-align: left;
-
     }
   }
-`
+`;
 
 export const section = css`
   position: relative;
@@ -161,15 +200,18 @@ export const section = css`
     top: 50%;
     transform: translateY(-50%);
     width: 130px;
+    @media  (max-width: 1365px) {
+      width: 30px;
+  }
   }
 `
 
 export const teamSlider = css`
   margin-left: 135px;
   position: relative;
-  margin-bottom:32px;
+  margin-bottom: 32px;
 
-  img{
+  img {
     width: 100%;
   }
 
@@ -177,60 +219,59 @@ export const teamSlider = css`
     margin-left: 0px;
   }
 
-  #main-slider-next{
-      width: 48px;
-      height: 48px;
-      background-color: #fff;
-      border: 1px solid #000;
-      position: absolute;
-      right: 17px;
-      top: 158px;
-      z-index: 2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
+  #main-slider-next {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+    right: 17px;
+    top: 158px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
-      img{
-        transform: rotate(270deg);
-      }
-      &.swiper-button-disabled {
+    img {
+      transform: rotate(270deg);
+    }
+    &.swiper-button-disabled {
+      display: none;
+    }
+  }
+  #main-slider-prev {
+    width: 48px;
+    height: 48px;
+    background-color: ${colors.secondaryMain};
+    border: 1px solid #000;
+    position: absolute;
+    left: 17px;
+    top: 158px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &.swiper-button-disabled {
       display: none;
     }
 
+    img {
+      transform: rotate(90deg);
     }
-    #main-slider-prev{
-      width: 48px;
-      height: 48px;
-      background-color:${colors.secondaryMain};
-      border: 1px solid #000;
-      position: absolute;
-      left: 17px;
-      top: 158px;
-      z-index: 2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
 
-      &.swiper-button-disabled{
-        display: none;
-      }
-
-      img{
-        transform: rotate(90deg);
-      }
-
-      :hover{
-        background-color:${colors.brandingSalmon};
-      }
+    :hover {
+      background-color: ${colors.brandingSalmon};
     }
+  }
 
   & .slick-slide {
     margin: 0 15px;
     outline: none;
   }
-`
+`;
 
 export const teamPagination = css`
   position: relative;
@@ -255,7 +296,7 @@ export const teamPagination = css`
     -webkit-transition: all ease 400ms;
     -moz-transition: all ease 400ms;
 
-    .swiper-pagination{
+    .swiper-pagination {
       bottom: -32px;
     }
 
@@ -278,7 +319,7 @@ export const teamPagination = css`
       outline: none;
     }
   }
-`
+`;
 
 export const lastcontainer = css`
   margin: 50px 0 295px;
@@ -286,4 +327,38 @@ export const lastcontainer = css`
   .slider {
     width: 375px !important;
   }
-`
+`;
+export const reverse = css`
+   @media (min-width: 320px) and (max-width: 767px) {
+      flex-direction: column-reverse;
+  }
+`;
+
+export const natalHeroContainer = css`
+  background-color: #e3e3e2;
+  margin-top: 96px;
+
+  .hero_container {
+    padding: 81.5px 10px 31.5px;
+    position: relative;
+
+    h2 {
+      color: #fff;
+      font-family: "bw_gradual_demobold";
+      font-size: 140px;
+      font-weight: 800;
+      text-align: center;
+      position: relative;
+      z-index: 3;
+    }
+
+    img {
+      position: absolute;
+      top: -75px;
+      z-index: 2;
+      max-width: 1046px;
+      width: 100%;
+    }
+  }
+`;
+

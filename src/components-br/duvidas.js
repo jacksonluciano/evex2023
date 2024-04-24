@@ -206,7 +206,7 @@ const Duvidas = () => {
                 Seja patrocinador(a) do EVEx Brasil 2024 e posicione sua marca na vanguarda da Transição Energética Ibero-Latino-Americana. Entre em contato com nosso time comercial e receba uma proposta personalizada para a sua empresa. 
                 </p>
                 <a href="https://wa.me/+351912349476" css={commonBtn}>
-                  fale conosco
+                  Fale conosco
                 </a>
                 {/* <button css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}

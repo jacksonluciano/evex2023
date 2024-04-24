@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Element7 from "@/images/elements/element-07.svg";
 import Arrow from "@/images/icons/arrow-down.svg";
-import { TeamOneData } from "@/data";
+import { TeamOneData } from "@/data-br";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TeamCard from "@/components-br/team-card";
 import { jsx } from "@emotion/react";

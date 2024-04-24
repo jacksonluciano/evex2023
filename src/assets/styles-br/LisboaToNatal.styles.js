@@ -103,7 +103,7 @@ export const about = css`
     color: #ffffff;
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 640px;
     text-align: center;
 
     @media (min-width: 320px) and (max-width: 767px) {

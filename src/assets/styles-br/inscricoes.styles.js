@@ -364,7 +364,7 @@ export const sectionTitle = css`
       position: absolute;
       &:nth-of-type(1) {
         left: -123px;
-        top: -110px;
+        top: -225px;
         width: auto;
       }
       &:nth-of-type(2) {

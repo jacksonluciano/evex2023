@@ -220,7 +220,7 @@ export const singleTM = css`
 
 export const tmImg = css`
   position: relative;
-  border-radius: 0 0 8px 8px;
+  /* border-radius: 0 0 8px 8px; */
     overflow: hidden;
 
   & img {
@@ -240,12 +240,13 @@ export const tmImg = css`
 export const speakerInfo = css`
   display: flex;
   background: radial-gradient(106.26% 100% at 56.11% 100%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%);
-  position: absolute;
+  /* position: absolute; */
   bottom: 0px;
   z-index: 2;
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
+  height: 191px;
 
   h4{
     font-family: 'bw_gradual_demobold';

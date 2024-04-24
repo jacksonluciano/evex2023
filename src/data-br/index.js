@@ -50,6 +50,34 @@ import EvexBrasilImg04 from '@/images-br/home-br/carousel-quemsomos-04.jpg'
 import EvexBrasilImg05 from '@/images-br/home-br/carousel-quemsomos-05.jpg'
 import EvexBrasilImg06 from '@/images-br/home-br/carousel-quemsomos-06.jpg'
 
+import Speaker01 from "@/images-br/speakers/Alexandre-Ramos.png"
+import Speaker02 from "@/images-br/speakers/Elbia-Gannoum.png"
+import Speaker03 from "@/images-br/speakers/Nelson-Lage.png"
+import Speaker04 from "@/images-br/speakers/Agnes-da-Costa.png"
+import Speaker05 from "@/images-br/speakers/Teresa-Ponce-de-Leão.png"
+import Speaker06 from "@/images-br/speakers/Alexandre-Zucarato.png"
+import Speaker07 from "@/images-br/speakers/Heloísa-Borges.png"
+import Speaker08 from "@/images-br/speakers/Wagner-Ferreira.png"
+import Speaker09 from "@/images-br/speakers/Maria-João-Rolim.png"
+import Speaker10 from "@/images-br/speakers/Luís-Barroso.png"
+import Speaker11 from "@/images-br/speakers/Fernanda-Delgado.png"
+import Speaker12 from "@/images-br/speakers/Gustavo-De-Marchi.png"
+import Speaker13 from "@/images-br/speakers/Renata-Beckert-Isfer.png"
+import Speaker14 from "@/images-br/speakers/Caio-César-Cavalcanti.png"
+import Speaker15 from "@/images-br/speakers/Solange-David.png"
+import Speaker16 from "@/images-br/speakers/Camila-Schoti.png"
+import Speaker17 from "@/images-br/speakers/Cácia-Pimentel.png"
+import Speaker18 from "@/images-br/comite-br/carlosHenggler.png"
+import Speaker19 from "@/images-br/comite-br/Filipe-Matias.png"
+import Speaker20 from "@/images-br/comite-br/Ricardo-nunes.png"
+
+import Speaker21 from "@/images-br/comite-br/Rui-Pestana.png"
+import Speaker22 from "@/images-br/comite-br/Natália-Moreno.png"
+import Speaker23 from "@/images-br/comite-br/Caio-Alves.png"
+import Speaker24 from "@/images-br/comite-br/Alice-Khouri.png"
+import Speaker25 from "@/images-br/comite-br/Hirdan-Medeiros.png"
+
+
 import instagramIcon from "@/images-br/instagram.svg"
 import linkedinIcon from "@/images-br/linkedin.svg"
 import twitterIcon from "@/images/icons/twitter.svg"
@@ -359,7 +387,7 @@ export const FunfactBrData = [
   },
   {
     title: "Speakers",
-    countNumber: 10,
+    countNumber: 50,
   },
 ];
 
@@ -369,6 +397,7 @@ export const SocialIcons = {
   twitter: twitterIcon,
   youtube: youtubeIcon,
 };
+
 
 /* ----- Página 'Papers' ----- */
 
@@ -432,3 +461,234 @@ export const publicationsLinks = [
     url: '#'
   }
 ]
+
+
+export const TeamOneData = {
+  sectionContent: {
+    title: "Speakers",
+  },
+  posts: [
+    {
+      image: Speaker01,
+      name: "Alexandre Ramos",
+      designation: "Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker02,
+      name: "Elbia Gannoum",
+      designation: "Presidente, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    },
+    {
+      image: Speaker03,
+      name: "Nelson Lage",
+      designation: "Presidente, ADENE – Agência para a Energia de Portugal",
+    },
+    {
+      image: Speaker04,
+      name: "Agnes da Costa",
+      designation: "Diretora, ANEEL – Agência Nacional de Energia Elétrica",
+    },
+    {
+      image: Speaker05,
+      name: "Teresa Ponce de Leão",
+      designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia de Portugal",
+    },
+    {
+      image: Speaker06,
+      name: "Alexandre Zucarato",
+      designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico",
+    },
+    {
+      image: Speaker07,
+      name: "Heloísa Borges",
+      designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
+    },
+    {
+      image: Speaker08,
+      name: "Wagner Ferreira",
+      designation: "Diretor Institucional e Jurídico, ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica",
+    },
+    {
+      image: Speaker09,
+      name: "Maria João Rolim",
+      designation: "Sócia, Rolim Goulart Cardoso Advogados",
+    },
+    {
+      image: Speaker10,
+      name: "Luís Barroso",
+      designation: "CEO, Mobi.E",
+    },
+    {
+      image: Speaker11,
+      name: "Fernanda Delgado",
+      designation: "Diretora Executiva, ABIHV – Associação Brasileira da Indústria de Hidrogênio Verde",
+    },
+    {
+      image: Speaker12,
+      name: "Gustavo De Marchi",
+      designation: "Consultor Jurídico, FGV Energia",
+    },
+    {
+      image: Speaker13,
+      name: "Renata Isfer",
+      designation: "Presidente, ABiogás – Associação Brasileira do Biogás",
+    },
+    {
+      image: Speaker14,
+      name: "Caio César Cavalcanti",
+      designation: "Presidente e Fundador, EVEx",
+    },
+    {
+      image: Speaker15,
+      name: "Solange David ",
+      designation: "Chair Women in Energy, CIGRE Internacional",
+    },
+    {
+      image: Speaker16,
+      name: "Camila Schoti",
+      designation: "Diretora de Marketing, (re)energisa",
+    },
+    {
+      image: Speaker17,
+      name: "Cácia Pimentel ",
+      designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
+    },
+  ]
+};
+
+
+
+export const ComiteData = {
+  sectionContent: {
+    title: "Speakers",
+  },
+  posts: [
+    {
+      image: Speaker14,
+      name: "Caio Cesar Cavalcanti",
+      designation: "Presidente e fundador, ",
+      place: "CCEE – Câmara de Comercialização de Energia Elétrica"
+    },
+    {
+      image: Speaker05,
+      name: "Teresa Ponce de Leão",
+      designation: "Presidente, ",
+      place: "LNEG – Laboratório Nacional de Energia e Geologia"
+    },
+    {
+      image: Speaker01,
+      name: "Alexandre Ramos",
+      designation: "Presidente, ",
+      place: "CCEE – Câmara de Comercialização de Energia Elétrica"
+    },
+    {
+      image: Speaker09,
+      name: "Maria João Rolim",
+      designation: "PhD em Direito da Energia e Sustentabilidade, ",
+      place: "CEPMLP/Universidade de Dundee"
+    },
+    {
+      image: Speaker03,
+      name: "Nelson Lage",
+      designation: "Presidente, ",
+      place: "ADENE – Agência para a Energia"
+    },
+    {
+      image: Speaker15,
+      name: "Solange David",
+      designation: "Vice-Presidente do Conselho de Administração, ",
+      place: "Santo Antônio Energia"
+    },
+    {
+      image: Speaker18,
+      name: "Carlos Henggeler",
+      designation: "Professor Catedrático, ",
+      place: "Universidade de Coimbra"
+    },
+    {
+      image: Speaker11,
+      name: "Fernanda Delgado",
+      designation: "Diretora Executiva, ",
+      place: "ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde"
+    },
+    {
+      image: Speaker19,
+      name: "Filipe Matias",
+      designation: "Diretor de Serviços Jurídicos, ",
+      place: "ERSE – Entidade Reguladora dos Serviços Energéticos"
+    },
+    {
+      image: Speaker02,
+      name: "Elbia Gannoum",
+      designation: "Presidente, ",
+      place: "ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias"
+    },
+    {
+      image: Speaker20,
+      name: "Ricardo Nunes",
+      designation: "Chief Strategy Officer, ",
+      place: "OMIP – The Iberian Energy Derivates Exchange"
+    },
+    {
+      image: Speaker07,
+      name: "Heloísa Borges",
+      designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, ",
+      place: "EPE – Empresa de Pesquisa Energética"
+    },
+    {
+      image: Speaker21,
+      name: "Rui Pestana",
+      designation: "Assessor do Gestor do Sistema, ",
+      place: "REN – Rede Elétrica Nacional"
+    },
+    {
+      image: Speaker13,
+      name: "Renata Isfer",
+      designation: "Presidente, ",
+      place: "ABiogás – Associação Brasileira do Biogás"
+    },
+    {
+      image: Speaker12,
+      name: "Gustavo de Marchi",
+      designation: "Consultor Jurídico, ",
+      place: "FGV Energia"
+    },
+    {
+      image: Speaker24,
+      name: "Alice Khouri",
+      designation: "Fundadora, ",
+      place: "Women in ESG Portugal"
+    },
+    {
+      image: Speaker08,
+      name: "Wagner Ferreira",
+      designation: "Diretor Institucional e Jurídico, ",
+      place: "ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica"
+    },
+    {
+      image: Speaker22,
+      name: "Natália Moreno",
+      designation: "Docente, ",
+      place: "Universidade de Coimbra"
+    },
+    {
+      image: Speaker23,
+      name: "Caio Alves",
+      designation: "Ex-Assessor da Diretoria, ",
+      place: "ANEEL – Agência Nacional de Energia Elétrica"
+    },
+    {
+      image: Speaker17,
+      name: "Cácia Pimentel",
+      designation: "Ex-Assessor da Diretoria, ",
+      place: "ANEEL – Agência Nacional de Energia Elétrica"
+    },
+    {
+      image: Speaker25,
+      name: "Hirdan Medeiros",
+      designation: "Professora Colaboradora, ",
+      place: "PPGE/USP"
+    },
+  ]
+};
+

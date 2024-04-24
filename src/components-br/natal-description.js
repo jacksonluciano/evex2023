@@ -18,7 +18,8 @@ import {
   section,
   slider,
   teamPagination,
-  teamSlider
+  teamSlider,
+  reverse
 } from '../assets/styles-br/natal-description.styles'
 import Arrow from '@/images/icons/arrow-down.svg'
 import NatalLogo from '@/images-br/natal/natal-logo.svg'
@@ -88,7 +89,7 @@ const NatalDescription = () => {
 
   return (
     <>
-      <section>
+     <section>
         <Container fluid>
           <Row>
             <Col lg={6} md={6} sm={12} className='px-0'>
@@ -135,23 +136,23 @@ const NatalDescription = () => {
       <section css={section}>
         <Container fluid>
           <Row>
-            <Col xs={7} md={7} sm={12} css={header}>
+            <Col xs={9} md={7} sm={12} css={header}>
               <div className='title_container'>
                 <h2 className='title'>SERHS Natal <br /> Grand Hotel & Resort</h2>
               </div>
             </Col>
-            <Col xs={5} md={5} sm={0} className='px-0'>
+            <Col xs={3} md={5} sm={0} className='px-0'>
               <Container fluid style={{ height: '100%' }}>
                 <Row style={{ height: '100%' }}>
-                  <Col xs={6} css={bg} className='px-0'></Col>
-                  <Col xs={6} css={bg} className='px-0'></Col>
+                  <Col xs={12} lg={6} css={bg} className='px-0'></Col>
+                  <Col xs={6} lg={6} css={bg} className='px-0'></Col>
                 </Row>
               </Container>
             </Col>
           </Row>
 
-          <Row>
-            <Col xs={7} md={7} sm={12} className='px-0' css={content}>
+          <Row css={reverse}>
+            <Col xs={12} md={7} sm={12} className='px-0' css={content}>
               <div className='content_container'>
                 <p>
                   O EVEx Brasil 2024 será realizado no SERHS Natal Grand Hotel & Resort, que oferece toda a infraestrutura necessária para o formato do evento, além de ser condizente com o seu principal público-alvo – as mais importantes lideranças e autoridades dos mercados ibérico e latino-americano de energia.
@@ -163,7 +164,7 @@ const NatalDescription = () => {
               </div>
             </Col>
 
-            <Col xs={5} md={5} sm={12} className='px-0'>
+            <Col xs={12} md={5} sm={12} className='px-0'>
               <Swiper css={slider} {...carousel02Options}>
                 <span id="main-slider-prev02">
                   <img src={Arrow} />

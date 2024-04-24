@@ -56,6 +56,12 @@ export const aboutWidget = css`
     margin-bottom: 24px;
   }
 
+  button{
+    &:hover{
+      box-shadow: inset 0px 0px 0px 3px #1e1e1c;
+    }
+  }
+
   @media (min-width: 320px) and (max-width: 767px) {
     padding-right: 0;
     margin-top: 0;
@@ -244,9 +250,9 @@ export const subscribeFrom = css`
     padding: 21px 28px;
 
     &:hover {
-      background-color: ${colors.secondaryMain};
-      color: ${colors.primaryMain};
-      box-shadow: none;
+      background-color: #fff;
+      color: #000;
+      box-shadow: inset 0px 0px 0px 3px #1e1e1c;
     }
   }
 

@@ -10,6 +10,9 @@ export const whatWedo = css`
   background-size: cover;
   padding: 118px 0 66px;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 24px 0;
+  }
 `;
 
 export const videoWrap = css`
@@ -31,11 +34,11 @@ export const videoWrap = css`
   @media (min-width: 320px) and (max-width: 767px) {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
+    padding-top: 10px;
     height: 0;
     overflow: hidden;
     width: 100%;
-    margin: 80px 0;
+    margin: 0;
     border-radius: 10px;
     z-index: 2;
   }
