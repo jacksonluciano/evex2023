@@ -162,7 +162,7 @@ export const lisboaTwo = css`
     @media (min-width: 320px) and (max-width: 767px) {
      width: 32px;
    }
-   @media (max-width: 1365px) {
+   @media (min-width: 768px) and (max-width: 1365px) {
      width: 70px;
    }
   }
