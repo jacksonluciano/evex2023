@@ -5,10 +5,13 @@ import { Container, Col, Row } from 'react-bootstrap'
 import {
   sectionHeroPapers
 } from '../assets/styles-br/papers-hero.styles'
+import BgPinkMobile from '@/images-br/papers/bg-mobile.svg'
 
 const PapersHero = () => {
   return (
     <section css={sectionHeroPapers}>
+
+      <img src={BgPinkMobile} className='bg_mobile' />
       <Container>
         <Row>
           <Col xs={12} sm={12} lg={6} className='bg_papers_mobile'>

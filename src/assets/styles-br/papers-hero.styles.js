@@ -12,6 +12,11 @@ export const sectionHeroPapers = css`
   align-items: center;
   justify-content: center;
   padding: 109px 0 102px;
+  position: relative;
+
+  .bg_mobile {
+    display: none;
+  }
 
   .title_container {
     align-items: center;
@@ -25,6 +30,8 @@ export const sectionHeroPapers = css`
       font-size: 100px;
       font-weight: 700;
       margin-bottom: 0;
+      position: relative;
+      z-index: 2;
     }
   }
 
@@ -35,29 +42,44 @@ export const sectionHeroPapers = css`
       font-weight: 400;
       line-height: 21.79px;
       text-align: left;
-
+      position: relative;
+      z-index: 2;
     }
   }
 
   @media (max-width: 768px) {
     background: #d9d9d9;
-    padding: 0px;
-
-    .bg_papers_mobile {
-      background-image: url(${BgPinkImage});
-      background-color: #d9d9d9;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 30px 10px;
-    }
-
-    .container {
-      max-width: 100%;
+    padding: 140px 0 34px;
+    
+    .bg_mobile {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
     }
 
     .row {
-      gap: 32px;
+      gap: 118px;
+    }
+
+    .title_container {
+      .title {
+        font-size: 80px;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    padding: 109px 0 34px;
+
+    .container {
+      max-width: 100%;
+      padding-inline: 30px;
+    }
+
+    .bg_mobile {
+      top: 5px;
     }
 
     .title_container {
@@ -67,24 +89,22 @@ export const sectionHeroPapers = css`
     }
 
     .content_container {
-      padding-bottom: 20px;
       p {
-        text-align: justify;
-        text-justify: inter-word;
+        font-size: 12px;
+        line-height: auto;
       }
     }
   }
 
-  @media (max-width: 576px) {
-    .title_container {
-      .title {
-        font-size: 45px;
-      }
+  @media (max-width: 450px) {
+    padding: 83px 0 34px;
+    .row {
+      gap: 85px;
     }
 
-    .content_container {
-      p {
-        font-size: 14px;
+    .title_container {
+      .title {
+        font-size: 50px;
       }
     }
   }

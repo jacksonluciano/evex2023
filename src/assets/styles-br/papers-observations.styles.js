@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { css } from '@emotion/react'
-import PinkElementImage from '@/images-br/papers/papers-pink-element02.svg'
 
 export const bgPapers = css`
   background: #e3e2e2;
@@ -14,25 +13,48 @@ export const bgPapers = css`
 
   @media (max-width: 992px) {
     .logo {
-      width: 30px;
+      width: 60px;
+      top: 400px;
     }
   }
-`
 
-export const imageContainer = css`
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  @media (max-width: 768px) {
+    .logo {
+      width: 60px;
+    }
+  }
 
-  @media (max-width: 992px) {
-    img {
+  @media (max-width: 576px) {
+    .logo {
       display: none;
     }
   }
 `
 
+export const imageContainer = css`
+  img {
+    display: block;
+    margin-inline: auto;
+    max-width: 544px;
+    width: 100%;
+  }
+
+  @media (max-width: 576px) {
+    padding: 0px 33px;
+  }
+`
+
 export const container = css`
   padding-block: 117px;
+
+  @media (max-width: 768px) {
+    gap: 40px;
+  }
+
+  @media (max-width: 576px) {
+    gap: 55px;
+    padding: 55px 0px 88px;
+  }
 `
 
 export const contentContainer = css`
@@ -42,6 +64,7 @@ export const contentContainer = css`
     font-weight: 700;
     line-height: 67.2px;
     margin-bottom: 33px;
+    padding-left: 30px;
     text-align: left;
   }
 
@@ -58,30 +81,34 @@ export const contentContainer = css`
         color: #ffffff;
         font-family: 'bw_gradual_demobold';
         font-size: 90px;
+        font-weight: 700;
         line-height: 1;
         margin-bottom: 0;
-        position: absolute;
+        /* position: absolute; */
+        position: relative;
+        flex: 1 0 57px;
       }
 
       &_one {
         top: -10px;
+        left: 32px;
       }
 
       &_two {
-        left: -15px;
         top: -20px;
+        left: 20px;
       }
 
       &_three {
-        left: -16px;
-        top: -13px;
+        top: -10px;
+        left: 20px;
       }
 
       &_content {
         color: #000000;
         font-size: 16px;
         font-weight: 400;
-        left: 25px;
+        /* left: 25px; */
         line-height: 21.79px;
         text-align: left;
         position: relative;
@@ -91,11 +118,46 @@ export const contentContainer = css`
     }
   }
 
+  @media (max-width: 576px) {
+    .title {
+      font-size: 20px;
+      line-height: 120%;
+      margin-bottom: 28px;
+    }
+
+    .content {
+      padding: 0px 27px 0px 7px;
+
+      .item {
+        &_number {
+          flex: 1 0 38px;
+          font-size: 60px;
+        }
+
+        &_one {
+          top: -3px;
+          left: 21px;
+        }
+
+        &_two {
+          top: 0px;
+          left: 14px;
+        }
+
+        &_three {
+          top: 0px;
+          left: 15px;
+        }
+
+        &_content {
+          font-size: 12px;
+          line-height: 150%;
+        }
+      }
+    }
+  }
+
   @media (max-width: 992px) {
-    /* background: url(${PinkElementImage});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; */
     padding: 0px 15px;
   }
 
@@ -104,46 +166,33 @@ export const contentContainer = css`
       font-size: 40px;
     }
   }
-
-  @media (max-width: 576px) {
-    .title {
-      padding: 0 15px;
-      text-align: center;
-    }
-
-    .content {
-      padding: 0 32px;
-      
-      .item {
-        align-items: center;
-
-        &_number {
-          position: relative;
-        }
-
-        &_one, &_two, &_three {
-          top: 0;
-          left: 0;
-          flex: 1 0 57px;
-          text-align: right;
-        }
-
-        &_content {
-          font-size: 14px;
-          left: 0;
-          text-align: justify;
-          text-justify: inter-word;
-        }
-      }
-    }
-  }
 `
 
 export const accordion = css`
   padding-bottom: 600px;
   padding-top: 67px;
+  position: relative;
+
+  .logo_mobile {
+    display: none;
+    width: 33px;
+  }
 
   @media (max-width: 768px) {
-    padding: 60px 15px 300px;
+    padding: 60px 0px 300px;
+
+    .row {
+      gap: 27px;
+      padding-inline: 33px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .logo_mobile {
+      display: initial;
+      position: absolute;
+      left: 0;
+      top: 108px;
+    }
   }
 `
