@@ -22,15 +22,16 @@ const PapersObservations = () => {
       <img className='logo' src={PapersLogo} alt='logo papers' />
       <Container>
         <Row css={container}>
-          <Col xs={12} md={12} lg={0} xl={7} css={imageContainer} className='px-0'>
-            <img
-              src={PinkElementImage}
-              alt='background'
-              style={{ maxWidth: '544px', width: '100%' }}
-            />
+          <Col xs={12} md={12} lg={6} xl={7} className='px-0'>
+            <div css={imageContainer}>
+              <img
+                src={PinkElementImage}
+                alt='background'
+              />
+            </div>
           </Col>
 
-          <Col xs={12} md={12} lg={12} xl={5} css={contentContainer} className='px-0'>
+          <Col xs={12} md={12} lg={6} xl={5} css={contentContainer} className='px-0'>
             <h3 className='title'>Observações</h3>
             <div className='content'>
               <div className='item'>
@@ -58,7 +59,8 @@ const PapersObservations = () => {
         </Row>
       </Container>
 
-      <Container css={accordion}>
+      <Container css={accordion}  className='px-0'>
+        <img className='logo_mobile' src={PapersLogo} alt='logo papers' />
         <Row className='mx-0'>
           <Col xs={12} className='px-0'>
             <Accordion

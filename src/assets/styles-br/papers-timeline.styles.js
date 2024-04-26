@@ -16,15 +16,17 @@ export const timelineTitle = css`
   }
 
   @media (max-width: 768px) {
-    padding: 15px 10px;
+    padding: 32px;
     h2 {
       font-size: 60px;
+      line-height: 120%;
     }
   }
 
   @media (max-width: 576px) {
     h2 {
       font-size: 45px;
+      line-height: 120%;
     }
   }
 `
@@ -37,6 +39,7 @@ export const data = css`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: background 0.3s ease-in-out;
 
   span:first-of-type {
     color: #000000;
@@ -55,6 +58,14 @@ export const data = css`
     text-align: center;
   }
 
+  &:hover {
+    background: radial-gradient(108.47% 275.86% at 108.47% 119.55%, #F73C6E 4.36%, #FF06B5 35.77%, #E3E3E2 93.84%);
+
+    span {
+      color: #ffffff;
+    }
+  }
+
   @media (max-width: 768px) {
     span:first-of-type {
       font-size: 18px;
@@ -67,12 +78,18 @@ export const data = css`
   }
 
   @media (max-width: 576px) {
+    min-height: 90px;
+    padding: 0px 10px;
+
     span:first-of-type {
-      font-size: 16px;
+      font-size: 12px;
+      line-height: 120%;
+      margin-bottom: 5px;
     }
 
     span:last-of-type {
-      font-size: 21px;
+      font-size: 20px;
+      line-height: 120%;
     }
   }
 `

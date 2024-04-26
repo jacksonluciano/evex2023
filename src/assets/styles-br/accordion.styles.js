@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import styled from '@emotion/styled'
+import ArrowIcon from '@/images-br/papers/arrow-mobile-icon.svg'
 
 export const AccordionContainer = styled.div(props => ({
   margin: '0 auto',
@@ -47,6 +48,7 @@ export const AccordionContainer = styled.div(props => ({
   '&::after': {
     content: '""',
     position: 'absolute',
+    // width: props.isOpen ? '250px' : '100%',
     width: '100%',
     height: '2px',
     left: 0,
@@ -60,12 +62,32 @@ export const AccordionContainer = styled.div(props => ({
     '.header_content' : {
       'h3': {
         fontSize: '40px',
+        lineHeight: '150%'
       }
     },
 
     '.header_button': {
       width: '45px',
       height: '48px'
+    }
+  },
+
+  '@media (max-width: 576px)': {
+    padding: props.isOpen ? '10px 22px' : '10px 1px',
+
+    '.header_content': {
+      'h3': {
+        fontSize: '20px'
+      }
+    },
+
+    '.header_button': {
+      width: '35px',
+      height: '37px',
+
+      'img': {
+        content: `url(${ArrowIcon})`
+      }
     }
   }
 }))
@@ -94,10 +116,19 @@ export const AccordionCollapse = styled.div(props => ({
 
   '@media (max-width: 768px)': {
     '.body_informations': {
-      gap: '20px',
+      padding: '28px 22px 40px',
 
       'a': {
-        fontSize: '18px'
+        fontSize: '18px',
+        lineHeight: '150%'
+      }
+    }
+  },
+
+  '@media (max-width: 576px)': {
+    '.body_informations': {
+      'a': {
+        fontSize: '15px'
       }
     }
   }
