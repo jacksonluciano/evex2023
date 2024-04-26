@@ -4,7 +4,7 @@ import { colors } from '../styles/layout.styles'
 
 export const abAgency = css`
   background-color: ${colors.primaryMain};
-  min-height: 710px;
+  /* min-height: 710px; */
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -70,10 +70,13 @@ export const about = css`
 
   h2{
     color: #ffffff;
-    font-family: 'bw_gradual_demomedium';
+    font-family: 'Bw Gradual DEMO';
     text-align: center;
     margin-bottom: 0;
-    font-weight: 700;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 67.2px;
+    margin-bottom: 16px;
     /* text-decoration:underline; */
     /* text-decoration-thickness: 3px; */
     /* text-underline-offset: 6px; */
@@ -84,22 +87,23 @@ export const about = css`
     }
   }
 
-  h3{
-    font-family: 'bw_gradual_demoregular';
+  span{
+    font-family: 'Bw Gradual DEMO';
     color: #ffffff;
     text-align: center;
-    font-weight: 100;
+    font-weight: normal;
     font-size: 56px;
+    margin-bottom: 32px;
     @media (min-width: 320px) and (max-width: 767px) {
      font-size: 20px;
     }
   }
 
   p{
-    font-family: 'bw_gradual_demoregular';
+    font-family: 'Bw Gradual DEMO';
     font-size: 25px;
     line-height: 30px;
-    font-weight: 100;
+    font-weight: 400;
     color: #ffffff;
     text-align: center;
     width: 100%;

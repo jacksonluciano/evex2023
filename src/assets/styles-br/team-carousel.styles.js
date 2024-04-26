@@ -16,7 +16,6 @@ export const team = css`
 
   h2{
     font-size: 56px;
-    font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
     text-decoration: underline;
     text-decoration-thickness: 3px;
@@ -249,8 +248,9 @@ export const speakerInfo = css`
   height: 191px;
 
   h4{
-    font-family: 'bw_gradual_demobold';
-    font-size: 24px;
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
+    font-size: 25px;
     color:  #000;
     margin-bottom: 16px;
   }
@@ -258,7 +258,8 @@ export const speakerInfo = css`
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color:  #000;
-    line-height: 21px;
+    line-height: 19px;
+    letter-spacing: 0;
   }
 
 `

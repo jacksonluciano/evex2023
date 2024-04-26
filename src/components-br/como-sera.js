@@ -26,7 +26,7 @@ import {
 import {
   secTitle,
   secDesk,
-  commonBtn,
+  commonBtnBr,
   noPadding
 } from "../assets/styles/layout.styles";
 
@@ -47,8 +47,8 @@ const ComoSera = () => {
           <div className='title_container'>
             <h2 className='title'>Natal Energy <br /> Experience</h2>
             <p>Experiências Interativas, Conteúdos de Alto Nível e Networking Estratégico</p>
-            <br/>
-            <Link to="/brasil/inscricoes" css={commonBtn}>Inscreva-se agora</Link>
+            
+            <Link to="/brasil/inscricoes" css={commonBtnBr}>Inscreva-se agora</Link>
           </div>
         </Col>
         <Col lg={7} md={7} sm={12} className='px-0'>

@@ -14,7 +14,7 @@ export const header = css`
   /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
 
   &.fixedHeader {
-    background-color: ${colors.secondaryMain};
+    background-color: #ffffff;
     left: 0;
     position: fixed;
     right: 0;
@@ -102,13 +102,13 @@ export const mainMenu = css`
 
       & a {
         display: block;
-        color: ${colors.primaryMain};
-        font-size: 16px;
+        color: #000;
+        font-size: 18px;
         font-weight: 500;
         line-height: 120%;
         position: relative;
-        letter-spacing: -1px;
-        font-family: 'bw_gradual_demomedium';
+        letter-spacing: 0px;
+        font-family: 'Bw Gradual DEMO';
 
         &:hover {
           color: #f68515;

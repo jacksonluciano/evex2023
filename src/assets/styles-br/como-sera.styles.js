@@ -50,11 +50,11 @@ export const about = css`
   align-items: flex-start;
 
   h2 {
-    color: ${colors.primaryMain};
+    color: #000;
     font-family: "bw_gradual_demomedium";
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+    text-underline-offset: 6px; */
     letter-spacing: 0;
 
     @media (min-width: 320px) and (max-width: 767px) {
@@ -67,6 +67,7 @@ export const about = css`
     line-height: 23px;
     font-weight: 400;
     margin-bottom: 8px;
+    letter-spacing: 0;
   }
 
   a {
@@ -150,9 +151,9 @@ export const comoSeraContainer = css`
 
     h2 {
       color: #000;
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
       font-size: 140px;
-      font-weight: 800;
+      font-weight: bold;
       text-align: center;
       position: relative;
       z-index: 3;
@@ -278,7 +279,8 @@ export const section = css`
         justify-content: center;
 
         h4 {
-          font-family: "bw_gradual_demobold";
+          font-family: 'Bw Gradual DEMO';
+          font-weight: bold;
           font-size: 25px;
           @media (min-width: 320px) and (max-width: 767px) {
             font-size: 15px;
@@ -288,6 +290,7 @@ export const section = css`
           color: #000;
           font-size: 15px;
           line-height: 20px;
+          letter-spacing: 0;
           margin: 0;
           @media (min-width: 320px) and (max-width: 767px) {
             font-size: 10px;
@@ -325,6 +328,9 @@ export const header = css`
     color: #000;
     line-height: 24px;
     font-size: 20px;
+    letter-spacing: 0;
+    max-width: 358px;
+    margin-bottom: 24px;
   }
 
   .title_container {
@@ -332,12 +338,21 @@ export const header = css`
     margin: 0 auto;
 
     .title {
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
       font-size: 56px;
-      font-weight: 700;
+      font-weight: bold;
       line-height: 67.2px;
-      margin: 0 0 8px 0;
+      margin: 0;
       text-align: left;
+      letter-spacing: 0;
     }
+  }
+
+  a{
+    display: inline-block;
+    &:hover{
+      text-decoration: none;
+    }
+    
   }
 `;

@@ -27,7 +27,7 @@ import {
 import {
   secTitle,
   secDesk,
-  commonBtn,
+  commonBtnBr,
   noPadding
 } from "../assets/styles/layout.styles";
 
@@ -67,9 +67,11 @@ const ondeSera = () => {
       <Container style={{position: 'relative', zIndex: 2}}>
         <Row>       
           <Col lg={7} md={7} sm={12} css={vidSection} style={{position: 'relative'}} >
-            <img css={imgFull} src={SerhsImg} />
+           <div>
+           <img css={imgFull} src={SerhsImg} />
             <img css={elem1} src={NatalElement1} />
             <img css={elem2} src={NatalElement2} />
+           </div>
           </Col>
           <Col css={pr79} lg={5} md={5} sm={12}>
            <div css={about}>
@@ -80,7 +82,7 @@ const ondeSera = () => {
               <p css={secDesk}>
               Com todos os ambientes voltados para o mar, o resort possui uma arquitetura imponente, permitindo que os participantes do EVEx Brasil também apreciem as belezas do litoral potiguar e tenham uma vista privilegiada do Morro do Careca, cartão postal da cidade.
               </p>
-              <Link to="/brasil/natal" css={commonBtn}>Por que Natal?</Link>
+              <Link to="/brasil/natal" css={commonBtnBr}>Por que Natal?</Link>
            </div>
           </Col>
         </Row>

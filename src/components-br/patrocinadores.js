@@ -118,36 +118,39 @@ const Patrocinadores = () => {
                </section>
 
 
-              <h2 css={[secTitle, mb45]}>Apoio Institucional</h2>
+              {/* <h2 css={[secTitle, mb45]}>Apoio Institucional</h2> */}
               
-              <section className='apoio'>
+              {/* <section className='apoio'>
             
                   <ul>
                     <li><img src={Img16} /></li>
                     <li><img src={Img2} /></li>
                     <li><img src={Img1} /></li>
-                    <li><img src={Img3} /></li>
+                    <li><img src={Img3} /></li> */}
+
                     {/* <li><img src={Img4} /></li> */}
                     {/* <li><img src={Img5} /></li> */}
-                  </ul>
-                  <ul>
+
+                  {/* </ul>
+                  <ul> */}
+                    
                     {/* <li><img src={Img6} /></li> */}
-                    <li><img src={Img7} /></li>
+                    {/* <li><img src={Img7} /></li>
                      <li><img src={Img14} /></li>
-                     <li><img src={Img11} /></li>
+                     <li><img src={Img11} /></li> */}
                     {/* <li><img src={Img8} /></li>
                     <li><img src={Img9} /></li>
                     <li><img src={Img10} /></li> */}
-                  </ul>
-                  <ul>
+                  {/* </ul>
+                  <ul> */}
                     
                     {/* <li><img src={Img12} /></li>
                     <li><img src={Img13} /></li> */}
                    
                     {/* <li><img src={Img15} /></li> */}
                     
-                  </ul>
-               </section>
+                  {/* </ul>
+               </section> */}
                {/* <img css={element13} src={Element13} /> */}
            </div>
           </Col>

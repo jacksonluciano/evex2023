@@ -17,13 +17,14 @@ export const abAgency = css`
     padding: 40px 0 0;
   }
   .natal_logo {
+    width:172px;
     position: absolute;
     right: 0;
-    top: 32px;
+    top: 0px;
     z-index: 1;
-    @media (max-width: 1366px) {
-      top: 118px;
-      width: 90px;
+    @media (max-width: 1367px) {
+      top: 50px;
+      width: 120px;
     }
     @media (min-width: 320px) and (max-width: 767px) {
       width: 34px;
@@ -62,7 +63,7 @@ export const about = css`
 
   h2 {
     color: ${colors.primaryMain};
-    font-family: "bw_gradual_demomedium";
+    font-family: 'Bw Gradual DEMO';
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
@@ -75,18 +76,17 @@ export const about = css`
 
   p {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 21.79px;
     font-weight: 400;
     margin-bottom: 16px;
+    letter-spacing: 0;
     color: #000;
+    max-width: 411px;
   }
 
   a {
     background-color: #000;
-    font-family: "bw_gradual_demomedium";
-    :hover {
-      font-weight: 600;
-    }
+    font-family: 'Bw Gradual DEMO';
     @media (min-width: 320px) and (max-width: 767px) {
       /* margin: 0 auto; */
       z-index: 2;
@@ -160,7 +160,7 @@ export const natalHeroContainer = css`
   overflow: hidden;
 
   .hero_container {
-    padding-top: 24px;
+    padding-top: 32px;
     position: relative;
 
     @media (min-width: 320px) and (max-width: 767px) {
@@ -169,9 +169,9 @@ export const natalHeroContainer = css`
 
     h2 {
       color: #fff;
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
       font-size: 140px;
-      font-weight: 800;
+      font-weight: bold;
       text-align: center;
       position: relative;
       z-index: 3;
@@ -239,9 +239,9 @@ export const header = css`
     margin-right: 45px;
 
     .title {
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
       font-size: 56px;
-      font-weight: 700;
+      font-weight: bold;
       line-height: 67.2px;
       margin: 0;
       text-align: left;
@@ -256,7 +256,7 @@ export const header = css`
 
 export const elem1 = css`
   position: absolute;
-  left: -120px;
+  left: -80px;
   bottom: -60px;
   @media (min-width: 320px) and (max-width: 767px) {
     position: absolute;
@@ -268,7 +268,7 @@ export const elem1 = css`
 `;
 export const elem2 = css`
   position: absolute;
-  right: -26px;
+  right: -16px;
   top: -88px;
   @media (min-width: 320px) and (max-width: 767px) {
     position: absolute;
@@ -278,6 +278,15 @@ export const elem2 = css`
   }
 `;
 export const vidSection = css`
+
+display: flex;
+justify-content: flex-end;
+
+div{
+  width:100%;
+  max-width: 660px;
+}
+
   @media (min-width: 320px) and (max-width: 767px) {
     width: 86%;
     margin: 0 auto;

@@ -133,6 +133,35 @@ export const commonBtn = css`
   }
 `;
 
+
+export const commonBtnBr = css`
+  border: none;
+  font-size: 20px;
+  font-family: 'Bw Gradual DEMO';
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 18px;
+  line-height: 0.8;
+  letter-spacing: 0px;
+  position: relative;
+  outline: none;
+  border: 4px solid #000;
+  
+
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    /* box-shadow: inset 0px 0px 0px 3px #000; */
+  }
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+`;
+
 export const redBg = css`
   padding: 28px 40.5px;
   &:hover {
