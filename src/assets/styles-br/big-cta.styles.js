@@ -48,7 +48,7 @@ export const about = css`
 
   h2 {
     color: ${colors.secondaryMain};
-    font-family: "bw_gradual_demomedium";
+    font-family: 'Bw Gradual DEMO';
     text-align: center;
     text-decoration: underline;
     margin-bottom: 16px;
@@ -163,10 +163,14 @@ export const dateBlock = css`
   transition: all 0.2s;
 
   a {
+      background-color:#000;
       padding: 16px 18px;
       font-size: 15px;
       position: absolute;
       bottom: 30px;
+      font-family: 'Bw Gradual DEMO';
+      font-weight: 500;
+      letter-spacing: 0;
     }
 
   ul {
@@ -220,13 +224,15 @@ export const dateBlock = css`
     a {
       background-color: #ffffff;
       color: #000;
-      border-color: #000;
+      text-decoration: none;
+      box-shadow: inset 0px 0px 0px 3px #000;
       text-decoration: none;
     }
   }
 
   h2 {
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
     color: #ffffff;
     font-size: 40px;
     /* text-decoration: underline;
@@ -241,6 +247,7 @@ export const dateBlock = css`
     margin: 0;
     line-height: 21px;
     margin-bottom: 32px;
+    letter-spacing: 0;
   }
 
   button {

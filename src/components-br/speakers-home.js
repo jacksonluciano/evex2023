@@ -18,7 +18,7 @@ import {
   speakersContent
 } from "../assets/styles-br/speakers-home.styles";
 
-import { commonSection, commonBtn } from "../assets/styles/layout.styles";
+import { commonSection, commonBtnBr } from "../assets/styles/layout.styles";
 
 import SwiperCore, { Pagination, Navigation } from "swiper";
 import { Link } from "gatsby";
@@ -106,7 +106,7 @@ const TeamCarousel = () => {
           {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
         </Swiper>
         <div css={moreBt}>
-          <Link to="/brasil/speakers" css={commonBtn}>
+          <Link to="/brasil/speakers" css={commonBtnBr}>
             Todos os Speakers
           </Link>
         </div>

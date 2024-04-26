@@ -359,7 +359,7 @@ export const BigCtaBrData = [
     date: 'Call for \n Papers/ \nProjects',
     text: 
         `Alô, comunidade acadêmica e científica! Já está aberta a chamada de trabalhos e projetos para apresentação no EVEx Brasil 2024.`,
-        button: 'saiba mais',
+        button: 'Saiba Mais',
         link: '/brasil/papers'
   },
   {

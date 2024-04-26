@@ -34,7 +34,7 @@ import {
   subtitle,
   secDesk,
   commonSection,
-  commonBtn,
+  commonBtnBr,
   redBg,
   noPadding,
   noPaddingRight,
@@ -83,8 +83,8 @@ const QuintaEdicao = () => {
                 promoverá uma expedição energética inédita e transformadora,
                 mediante formato composto por três eventos:
               </p>
-              <br/>
-              <Link css={commonBtn} to="/brasil/o-evex#last-editions">
+
+              <Link css={commonBtnBr} to="/brasil/o-evex#last-editions">
                 Edições Passadas
               </Link>
               </div>
@@ -95,18 +95,17 @@ const QuintaEdicao = () => {
              
               <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
               <p>
-                <b>03 e 04 de julho</b> {`| SERHS Natal Grande Hotel & Resort`}
+                <span>03 e 04 de julho</span> {`| SERHS Natal Grand Hotel & Resort`}
               </p>
             </div>
             <div css={sideColumn}>
              
               <h5>EVEx 2024 - Energy Virtual Experience</h5>
               <p>
-                <b>24, 25 e 26 de setembro</b> | 100% online e ao vivo
+                <span>24, 25 e 26 de setembro</span> | 100% online e ao vivo
               </p>
             </div>
-            <div css={sideColumn}>
-              
+            <div css={sideColumn}>            
               <h5>EVEx Lisboa 2024 – Lisbon Energy Experience</h5>
               <p>
                 <b>08 e 09 de outubro</b> | Reitoria da Universidade NOVA de Lisboa
@@ -138,7 +137,7 @@ const QuintaEdicao = () => {
                   Vamos juntos acelerar a transição energética e
                   industrialização verde na rota ibero-latino-americana?
                 </p>
-                <Link css={commonBtn} to="/brasil/comite">
+                <Link css={commonBtnBr} to="/brasil/comite">
                   Quem Somos?
                 </Link>
               </div>

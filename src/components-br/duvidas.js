@@ -91,7 +91,7 @@ const Duvidas = () => {
             </Col>
 
             <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Media Partner</h4>
+              <h4 css={secDesk}>Parceiro da midia</h4>
               {/* <a href='https://www.serhsnatalgrandhotel.com/' target='_blank'>
                 <img src={Serhs} />
               </a>            */}

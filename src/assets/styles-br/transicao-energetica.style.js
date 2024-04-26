@@ -53,7 +53,8 @@ export const about = css`
 
   h2 {
     color: #000;
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
     text-align: center;
     font-size: 56px;
     /* text-decoration: underline; */
@@ -72,10 +73,11 @@ export const about = css`
     max-width: 920px;
     font-size: 35px;
     line-height: 23px;
-    font-weight: 400;
+    font-weight: 500;
+    letter-spacing: 0;
     text-align: center;
     color: #000;
-    font-family: "bw_gradual_demomedium";
+    font-family: 'Bw Gradual DEMO';
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 20px;
       line-height: 22px;
@@ -181,7 +183,7 @@ export const dateBlock = css`
   align-items: center;
   position: relative;
   z-index: 2;
-  transition: all 0.2s;
+  transition: all 1s;
   height: 125px;
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -189,29 +191,22 @@ export const dateBlock = css`
     height: 85px;
   }
 
-  /* :hover {
-    background-color: ${colors.brandingOrange};
-    h3,
-    p {
-      color: ${colors.primaryMain};
-    }
-  } */
-
   h3 {
-    font-family: "bw_gradual_demomedium";
+    font-family: 'Bw Gradual DEMO';
     color: ${colors.secondaryMain};
     font-size: 40px;
     text-align: center;
   }
 
   P {
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
     color: #000;
     font-size: 24px !important;
     text-align: center;
     padding: 0 10px;
     margin: 0;
     line-height: 28px;
+    font-weight: bold;
 
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 16px !important;

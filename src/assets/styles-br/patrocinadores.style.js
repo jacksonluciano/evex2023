@@ -50,8 +50,9 @@ export const about = css`
   }
 
   h2 {
-    color: ${colors.primaryMain};
-    font-family: "bw_gradual_demobold";
+    color: #000000;
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
     font-size: 25px;
     @media (min-width: 320px) and (max-width: 767px) {
       
@@ -74,7 +75,8 @@ export const about = css`
     font-size: 25px;
     margin-bottom: 16px;
     text-align: center;
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
   }
 
   .diamante {
@@ -215,7 +217,7 @@ export const about = css`
   .bronze {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 140px;
+    /* margin-bottom: 140px; */
     ul {
       margin: 0;
       padding: 0;
@@ -252,7 +254,7 @@ export const about = css`
           float: left;
         }
         img {
-          height: 86px;
+          height: 126px;
 
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
@@ -384,7 +386,8 @@ export const titleHero = css`
 
     h2 {
       margin: 0;
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
+      font-weight: bold;
       font-size: 78px;
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 40px;

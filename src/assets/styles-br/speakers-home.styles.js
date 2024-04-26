@@ -17,7 +17,8 @@ export const team = css`
         color: #000 !important;
         text-decoration: none !important;
         padding-left: 24px;
-        font-family: 'bw_gradual_demobold';
+        font-family: 'Bw Gradual DEMO';
+        font-weight: bold;
         padding-top: 30px;
         @media (min-width: 320px) and (max-width: 767px) {
           font-size: 20px;

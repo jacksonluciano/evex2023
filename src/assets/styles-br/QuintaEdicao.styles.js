@@ -56,7 +56,8 @@ export const gradient = css`
   h1 {
     color: #ffffff;
     text-align: center;
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
     font-size: 120px;
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 38px;
@@ -132,26 +133,29 @@ export const lisboaTwo = css`
 
   h2 {
     color: #000;
-    font-family: "bw_gradual_demobold";
-    margin-bottom: 24px;
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
     letter-spacing: 0;
+    font-size: 56px;
+    margin-bottom: 12px;
   }
 
   p {
     width: 100%;
-    max-width: 450px;
-    font-size: 14px;
-    line-height: 21px;
+    max-width: 458px;
+    font-size: 16px;
+    line-height: 21.79px;
     font-weight: 400;
     color: #000;
+    letter-spacing: 0;
   }
 
-  button {
+  /* button {
     font-family: "bw_gradual_demomedium";
     :hover {
       font-weight: 600;
     }
-  }
+  } */
 
   .evex-2024 {
     position: absolute;
@@ -163,7 +167,7 @@ export const lisboaTwo = css`
      width: 32px;
    }
    @media (min-width: 768px) and (max-width: 1365px) {
-     width: 70px;
+     width: 100px;
    }
   }
 `;
@@ -375,16 +379,27 @@ export const sideColumn = css`
     }
 
   h5 {
+    font-size: 25px;
     margin-bottom: 0px;
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #000;
     @media (min-width: 320px) and (max-width: 767px) {
     font-size: 14px;
     }
   }
   p {
+    font-size: 20px;
     color: #000;
     margin: 0;
-    font-family: "bw_gradual_demomedium";
+    font-family: 'Bw Gradual DEMO';
+    font-weight: 500;
+    letter-spacing: 0;
+    span{
+      font-weight: bold;
+      
+    }
     @media (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     }
@@ -424,22 +439,26 @@ export const content = css`
     max-width: 532px;
 
     h2 {
-      font-family: "bw_gradual_demobold";
+      font-family: 'Bw Gradual DEMO';
       font-size: 56px;
-      font-weight: 700;
+      font-weight: bold;
       line-height: 67.2px;
       margin-bottom: 31px;
     }
 
     p {
       color: #000;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 21.79px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.97px;
+    width: 100%;
+    max-width: 527px;
+    letter-spacing: 0;
     }
 
     a {
       align-self: flex-start;
+      display: inline-block;
     }
   }
 `;

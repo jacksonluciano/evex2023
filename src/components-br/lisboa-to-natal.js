@@ -30,7 +30,7 @@ const LisboaToNatal = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               <h2 css={[secTitle, mb45]}>De Lisboa para Natal:</h2>
-              <h3>EVEx Brasil 2024</h3>
+              <span>EVEx Brasil 2024</span>
               <p css={secDesk}>{sectionContent.text}</p>
            </div>
           </Col>
