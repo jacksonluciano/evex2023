@@ -3,6 +3,7 @@ import React from "react";
 import { jsx } from "@emotion/react";
 import { Container, Col, Row } from "react-bootstrap";
 import BgOrange from "@/images-br/agenda/orange-elements-02.png"
+import Element from "@/images-br/agenda/element.png"
 import {
   div,
   agendaTitle,
@@ -17,8 +18,14 @@ import {
   participantsContainer,
   eventTypeTitle,
   imgOrange,
-  content
+  content,
+  element1,
+  element2,
+  element3,
+  element4,
+  element5
 } from "../assets/styles-br/agenda-horario.styles";
+import { Link } from "gatsby";
 
 const AgendaHorario = () => {
   return (
@@ -30,7 +37,7 @@ const AgendaHorario = () => {
           <Row>
             <Col xs={12} lg={6} css={bgColumnTitle} className="px-0">
               <div css={agendaTitle}>
-                <h2>Dia 03 de Julho</h2>
+               <h2>Dia 03 de Julho</h2>
                 <h3>Horário de Brasília</h3>
               </div>
             </Col>
@@ -40,8 +47,9 @@ const AgendaHorario = () => {
         </Container>
       </Container>
 
-      <Container fluid className="px-0">
-        <div css={container}>
+      <Container fluid className="px-0" style={{position: 'relative'}}>
+        
+        <div id="#tres" css={container}>
           <div css={schedule}>
             <h4 css={title}>Programação Principal</h4>
             <div css={event}>
@@ -238,12 +246,15 @@ const AgendaHorario = () => {
 
           </div>
         </div>
+        <img src={Element} css={element1} />
+        <img src={Element} css={element2} />
+        <img src={Element} css={element3} />
       </Container>
     </section>
         <section>
         <Container fluid className="px-0">
           <div css={div}></div>
-          <Container fluid>
+          <Container id="quatro" fluid>
             <Row>
               <Col xs={12} lg={6} css={bgColumnTitle} className="px-0">
                 <div css={agendaTitle}>
@@ -257,7 +268,7 @@ const AgendaHorario = () => {
           </Container>
         </Container>
   
-        <Container fluid className="px-0">
+        <Container fluid className="px-0" style={{position: 'relative'}}>
           <div css={container}>
             <div css={schedule}>
               <h4 css={title}>Programação Principal</h4>
@@ -360,6 +371,8 @@ const AgendaHorario = () => {
   
             </div>
           </div>
+          <img src={Element} css={element4} />
+          <img src={Element} css={element5} />
         </Container>
         
       </section>

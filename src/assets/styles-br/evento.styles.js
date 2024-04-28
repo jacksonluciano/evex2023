@@ -96,8 +96,8 @@ export const content = css`
     position: relative;
 
     @media (min-width: 320px) and (max-width: 767px) {
-        padding: 32px 0;
-      }
+      padding: 32px 0;
+    }
 
     img {
       height: 100%;
@@ -109,9 +109,9 @@ export const content = css`
     }
 
     h3 {
-      font-family: "bw_gradual_demobold";
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       font-size: 56px;
-      font-weight: 700;
       line-height: 67.2px;
       max-width: 340px;
       position: relative;
@@ -120,6 +120,10 @@ export const content = css`
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 20px;
         line-height: 25px;
+      }
+      @media (min-width: 768px) and (max-width: 1280px) {
+        font-size: 50px;
+        line-height: 58.2px;
       }
     }
   }
@@ -237,7 +241,8 @@ export const teamPagination = css`
 `;
 
 export const lastcontainer = css`
-  margin: 50px 0 295px;
+background-color: #e3e3e2;
+  padding: 50px 0 295px;
   @media (min-width: 320px) and (max-width: 767px) {
     margin: 50px 0 24px;
   }

@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
+import { css } from "@emotion/react";
 
 export const bgPapers = css`
   background: #e3e2e2;
@@ -9,6 +9,9 @@ export const bgPapers = css`
     left: 0;
     position: absolute;
     top: 230px;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 120px;
+    }
   }
 
   @media (max-width: 992px) {
@@ -29,7 +32,7 @@ export const bgPapers = css`
       display: none;
     }
   }
-`
+`;
 
 export const imageContainer = css`
   img {
@@ -37,12 +40,15 @@ export const imageContainer = css`
     margin-inline: auto;
     max-width: 544px;
     width: 100%;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      margin-left: 120px;
+    }
   }
 
   @media (max-width: 576px) {
     padding: 0px 33px;
   }
-`
+`;
 
 export const container = css`
   padding-block: 117px;
@@ -55,13 +61,13 @@ export const container = css`
     gap: 55px;
     padding: 55px 0px 88px;
   }
-`
+`;
 
 export const contentContainer = css`
   .title {
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 56px;
-    font-weight: 700;
     line-height: 67.2px;
     margin-bottom: 33px;
     padding-left: 30px;
@@ -79,9 +85,9 @@ export const contentContainer = css`
 
       &_number {
         color: #ffffff;
-        font-family: 'bw_gradual_demobold';
+        font-family: "Bw Gradual DEMO";
+        font-weight: bold;
         font-size: 90px;
-        font-weight: 700;
         line-height: 1;
         margin-bottom: 0;
         /* position: absolute; */
@@ -166,12 +172,17 @@ export const contentContainer = css`
       font-size: 40px;
     }
   }
-`
+`;
 
 export const accordion = css`
-  padding-bottom: 600px;
+  padding-bottom: 200px;
   padding-top: 67px;
   position: relative;
+
+  h3 {
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
+  }
 
   .logo_mobile {
     display: none;
@@ -195,4 +206,4 @@ export const accordion = css`
       top: 108px;
     }
   }
-`
+`;

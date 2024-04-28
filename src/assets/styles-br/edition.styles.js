@@ -26,14 +26,17 @@ export const title = css`
       left: -13px;
 
       h2 {
-        font-family: "bw_gradual_demobold";
+        font-family: "Bw Gradual DEMO";
+        font-weight: bold;
         font-size: 56px;
-        font-weight: 700;
         line-height: 67.2px;
         margin-bottom: 0px;
         @media (min-width: 320px) and (max-width: 767px) {
           font-size: 28px;
           line-height: 32px;
+        }
+        @media (min-width: 768px) and (max-width: 1280px) {
+          line-height: 61.2px;
         }
       }
     }
@@ -56,6 +59,12 @@ export const bg = css`
 
 export const container = css`
   margin-top: 121px;
+  display: flex;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
 
   @media (min-width: 320px) and (max-width: 767px) {
     margin-top: 32px;
@@ -63,5 +72,10 @@ export const container = css`
       text-align: center;
       margin-bottom: 32px;
     }
+  }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
   }
 `;

@@ -4,19 +4,14 @@ import { colors } from "../styles/layout.styles";
 import bg from "@/images-br/comite-br/bg-comite.jpg";
 
 export const team = css`
-  padding: 146px 0 80px !important;
+  padding: 90px 0 80px !important;
   background-color: #e3e3e2;
   position: relative;
 
   h2 {
     font-size: 56px;
     font-family: "bw_gradual_demomedium";
-    color: ${colors.secondaryMain};
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
-    margin-left: 40px;
-    margin-bottom: 24px;
+    color: #ffffff;
 
     @media (min-width: 320px) and (max-width: 767px) {
       margin-left: 0;
@@ -204,7 +199,8 @@ export const speakerInfo = css`
   width: 100%;
 
   h4 {
-    font-family: "bw_gradual_demoregular";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 24px;
     color: ${colors.secondaryMain};
     margin-bottom: 16px;
@@ -212,9 +208,10 @@ export const speakerInfo = css`
   }
   p {
     font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    color: ${colors.secondaryMain};
+    font-size: 16px;
+    color: #000;
     line-height: 21px;
+    letter-spacing: 0;
   }
 `;
 
@@ -334,6 +331,11 @@ export const element = css`
     left: 50%;
     transform: translate(-46%, 60px);
   }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    top: 306px;
+    left: -89px;
+    height: 300px;
+  }
 `;
 export const speakersTitle = css`
   background-color: #e3e3e2;
@@ -348,17 +350,19 @@ export const speakersTitle = css`
   .heroTitle {
     position: relative;
     z-index: 99;
-    max-width:1000px;
-    margin-left:auto;
+    max-width: 1000px;
+    margin-left: auto;
     margin-right: auto;
     top: 120px;
-    @media (max-width: 1366px) {
-      top:54px
+    @media (min-width: 768px) and (max-width: 1280px) {
+      top: 200px;
+      max-width: 900px;
     }
   }
 
   h2 {
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 100px;
     text-decoration: none;
     line-height: 100px;
@@ -371,20 +375,34 @@ export const speakersTitle = css`
     color: #000000;
     font-size: 16px;
     line-height: 21px;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 100%;
+      max-width: 778px;
+      margin: 32px auto 32px;
+      color: #000000;
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0;
+    }
   }
 
-  img{
+  img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-59%);
+    transform: translate(-50%, -59%);
+    @media (min-width: 768px) and (max-width: 1280px) {
+      transform: translate(-50%, -50%);
+      height: auto;
+    }
   }
-
-
 `;
 
 export const speakersCards = css`
   margin-top: 160px;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    max-width: 1070px;
+  }
 `;
 
 export const speakerCard = css`
@@ -394,21 +412,47 @@ export const speakerCard = css`
     bottom: 0;
   }
 `;
+export const space = css`
+ width: 100%;
+ background-color: #e3e3e2;
+ height: 220px;
+`;
 
 export const element01 = css`
-position: absolute;
-    top: 490px;
-    left: -170px;
+  position: absolute;
+  top: 325px;
+  left: -170px;
+  z-index: 1;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    top: 301px;
+    left: -90px;
     z-index: 1;
+    height: 357px;
+  }
 `;
 export const Word = css`
-position: absolute;
-    top: 40%;
-    left: 0px;
-    z-index: 9;
+  position: absolute;
+  top: 43%;
+  left: 0px;
+  z-index: 1;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    width: 130px;
+    top: 1650px;
+  }
+`;
+export const element02 = css`
+  position: absolute;
+  top: 58%;
+  right: 0;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    position: absolute;
+    top: 2275px;
+    right: 0;
+    height: 456px;
+  }
 `;
 export const element03 = css`
-       position: absolute;
-    bottom: -80px;
-    right: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
 `;

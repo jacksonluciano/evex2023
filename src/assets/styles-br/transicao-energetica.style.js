@@ -171,7 +171,7 @@ export const blocks = css`
 `;
 
 export const dateBlock = css`
-  background: radial-gradient(
+  background-image: radial-gradient(
     97.41% 169.56% at 97.41% 97.62%,
     #01f201 3.05%,
     #4cd6d9 35.31%,
@@ -183,7 +183,7 @@ export const dateBlock = css`
   align-items: center;
   position: relative;
   z-index: 2;
-  transition: all 1s;
+  transition: background-image 1s ease;
   height: 125px;
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -216,7 +216,7 @@ export const dateBlock = css`
   }
 
   &:hover{
-    background: radial-gradient(
+    background-image: radial-gradient(
       100% 188.29% at 100% 103.68%,
       #4cd6d9 4.5%,
       #01f201 35.73%,

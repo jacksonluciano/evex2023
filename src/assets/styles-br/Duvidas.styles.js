@@ -48,15 +48,10 @@ export const about = css`
   align-items: center;
 
   h2 {
-    color: ${colors.primaryMain};
-    font-family: "bw_gradual_demobold";
-    /* &:after {
-      content: "";
-      height: 3px;
-      background-color: ${colors.primaryMain};
-      display: block;
-      margin-top: -3px;
-    } */
+    color: #000;
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
+    letter-spacing: 0;
   }
 
   p {
@@ -100,7 +95,10 @@ export const realization = css`
 
   h4 {
     margin-bottom: 48px;
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 25px;
     /* text-decoration: underline; */
   }
 
@@ -117,9 +115,11 @@ export const contact = css`
   /* padding-bottom: 60px; */
 
   .inner-div {
-    width: 100%;
-    /* max-width: 410px; */
-
+    /* width: 100%; */
+    max-width: 544px;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 500px;
+    }
     /* &.rl {
       float: right;
     } */
@@ -127,17 +127,20 @@ export const contact = css`
 
   h2 {
     font-size: 56px;
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     margin-bottom: 16px;
+    letter-spacing: 0;
   }
 
   p {
     width: 100%;
-    max-width: 500px;
-    font-size: 14px;
+    max-width: 420px;
+    font-size: 16px;
     margin-bottom: 32px;
     color: #000;
-    line-height: 21px;
+    line-height: 22px;
+    letter-spacing: 0;
   }
 
   button {
@@ -146,23 +149,25 @@ export const contact = css`
 
   .content {
     background: radial-gradient(
-      76.58% 213.19% at 97.41% 97.62%,
+      126.95% 124.06% at 103.79% 106.56%,
       #fe05c5 3.05%,
       #ef2483 35.31%,
       #e3e3e2 100%
     );
     position: relative;
     height: 100%;
-    min-height: 244px;
+    min-height: 309px;
   }
 
   #contato {
     background: radial-gradient(
-      76.58% 213.19% at 97.41% 97.62%,
-      #fe05c5 3.05%,
-      #ef2483 35.31%,
-      #e3e3e2 100%
-    );
+        76.58% 213.19% at 97.41% 97.62%,
+        #fe05c5 3.05%,
+        #ef2483 35.31%,
+        #e3e3e2 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -171,7 +176,8 @@ export const contact = css`
     h2 {
       text-decoration: none;
       letter-spacing: 0;
-      font-family: "bw_gradual_demobold";
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 20px;
       }
@@ -181,12 +187,20 @@ export const contact = css`
       display: flex;
       align-self: flex-start;
     }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
   }
 
   #contact-form {
-    padding: 40px 60px;
+    padding: 40px 60px 40px 60px;
     display: flex;
     justify-content: flex-end;
+
+    @media (min-width: 768px) and (max-width: 1280px) {
+      padding: 40px 0px 40px 60px;
+      }
 
     .mobile {
       display: none;
@@ -208,13 +222,13 @@ export const contact = css`
       width: 130px;
       position: absolute;
       left: 0;
-      bottom: 32px;
+      top: 150px;
       @media (min-width: 320px) and (max-width: 767px) {
         width: 39px;
         bottom: 300px;
       }
-      @media (min-width: 768px) and (max-width: 1300px) {
-        width: 88px;
+      @media (min-width: 768px) and (max-width: 1280px) {
+        width: 130px;
         bottom: 106px;
       }
     }
@@ -229,23 +243,25 @@ export const contactFrom = css`
 
   input {
     width: 100%;
-    border: 1px solid ${colors.primaryMain};
-    height: 37px;
+    border: 1px solid #000;
+    height: 59px;
     padding: 10px;
     margin-bottom: 8px;
+    background-color: #ffffff;
   }
 
   textarea {
-    border: 1px solid ${colors.primaryMain};
-    height: 90px;
+    border: 1px solid #000;
+    height: 103px;
     resize: none;
     line-height: 30px;
     padding: 21px 10px;
     margin-bottom: 21px;
+    background-color: #ffffff;
   }
 
   p {
-    color: ${colors.primaryMain};
+    color: #000;
   }
 
   button {
@@ -360,5 +376,55 @@ export const messageBox = css`
     color: #1e1e1c;
     font-size: 14px;
     text-align: center;
+  }
+`;
+
+export const apoio = css`
+  width: 100%;
+  max-width: 980px;
+  margin-bottom: 80px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  h2 {
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 32px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      display: inline;
+    }
+
+    li {
+      margin: 10px;
+      width: 120px;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        width: 20%;
+        padding: 2px;
+        float: left;
+        margin: 0;
+      }
+      /* img{
+              height: 48px;
+          } */
+    }
+  }
+`;
+
+export const pat = css`
+  @media (min-width: 768px) and (max-width: 1280px) {
+    padding-left: 50px !important;
   }
 `;

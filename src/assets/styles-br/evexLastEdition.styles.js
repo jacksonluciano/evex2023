@@ -43,15 +43,18 @@ export const content = css`
     padding: 0 30px;
   }
   h2 {
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 56px;
-    font-weight: 700;
     line-height: 67.2px;
     margin-bottom: 31px;
 
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 20px;
       margin-bottom: 0px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      margin-bottom: 16px;
     }
   }
 
@@ -60,9 +63,14 @@ export const content = css`
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
+    letter-spacing: 0;
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 12px;
       line-height: 18px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      font-size: 16px;
+      line-height: 21px;
     }
   }
 `;

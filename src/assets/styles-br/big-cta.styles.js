@@ -146,9 +146,12 @@ export const abImg = css`
 
 export const blocks = css`
   width: 100%;
-  max-width: 996px;
+  max-width: 1165px;
   margin: 0 auto;
   padding-bottom: 120px;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    width:1070px;
+  }
 `;
 
 export const dateBlock = css`
@@ -219,6 +222,9 @@ export const dateBlock = css`
     h2,
     p {
       color: #000;
+      span{
+        background-color: #000;
+      }
     }
 
     a {
@@ -235,19 +241,33 @@ export const dateBlock = css`
     font-weight: bold;
     color: #ffffff;
     font-size: 40px;
-    /* text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px; */
   }
 
   P {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0;
     margin: 0;
-    line-height: 21px;
+    line-height: 21.79px;
     margin-bottom: 32px;
     letter-spacing: 0;
+    letter-spacing: 0;
+    position: relative;
+    padding-left: 14px !important;
+    span{
+      width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    }
+  }
+
+  .paragraf{
+    padding-left: 0 !important;
   }
 
   button {

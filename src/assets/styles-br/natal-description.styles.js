@@ -25,7 +25,7 @@ export const slider = css`
 
     :hover {
       /* background-color:${colors.brandingSalmon}; */
-      background-color: #08f016;
+      /* background-color: #08f016; */
     }
     &.swiper-button-disabled {
       display: none;
@@ -107,6 +107,10 @@ export const description = css`
       font-size: 16px;
       font-weight: 400;
       line-height: 21.79px;
+      /* @media (min-width: 768px) and (max-width: 1280px) {
+        font-size: 15px;
+        line-height: 21px;
+      } */
     }
   }
 `;
@@ -119,10 +123,10 @@ export const bg = css`
     #e3e3e2 100%
   );
   @media (min-width: 320px) and (max-width: 767px) {
-      &:nth-of-type(2){
-        display: none;
-      }
+    &:nth-of-type(2) {
+      display: none;
     }
+  }
 `;
 
 export const header = css`
@@ -140,25 +144,32 @@ export const header = css`
   @media (min-width: 320px) and (max-width: 767px) {
     padding-block: 38px;
     justify-content: flex-start;
-      }
+  }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    padding-block: 40px;
+    }
 
   .title_container {
     max-width: 589px;
     margin-right: 45px;
     @media (min-width: 320px) and (max-width: 767px) {
       margin-right: 0px;
-      }
+    }
 
     .title {
-      font-family: "bw_gradual_demobold";
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       font-size: 56px;
-      font-weight: 700;
       line-height: 67.2px;
       margin: 0;
       text-align: left;
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 22px;
         line-height: 28px;
+      }
+      @media (min-width: 768px) and (max-width: 1280px) {
+        font-size: 50px;
+        letter-spacing: 0;
       }
     }
   }
@@ -180,6 +191,10 @@ export const content = css`
     max-width: 492px;
     margin-right: 142px;
 
+    @media (min-width: 768px) and (max-width: 1280px) {
+      margin-right: 75px;
+    }
+
     p {
       color: #000000;
       font-size: 16px;
@@ -200,11 +215,15 @@ export const section = css`
     top: 50%;
     transform: translateY(-50%);
     width: 130px;
-    @media  (max-width: 1365px) {
+    @media (min-width: 320px) and (max-width: 767px) {
       width: 30px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 130px;
+      top: 46%;
+    }
   }
-  }
-`
+`;
 
 export const teamSlider = css`
   margin-left: 135px;
@@ -322,15 +341,16 @@ export const teamPagination = css`
 `;
 
 export const lastcontainer = css`
-  margin: 50px 0 295px;
+background-color: #e3e3e2;
+  padding: 50px 0 295px;
 
   .slider {
     width: 375px !important;
   }
 `;
 export const reverse = css`
-   @media (min-width: 320px) and (max-width: 767px) {
-      flex-direction: column-reverse;
+  @media (min-width: 320px) and (max-width: 767px) {
+    flex-direction: column-reverse;
   }
 `;
 
@@ -361,4 +381,3 @@ export const natalHeroContainer = css`
     }
   }
 `;
-

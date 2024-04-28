@@ -7,9 +7,9 @@ export const timelineTitle = css`
 
   h2 {
     color: #ffffff;
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
     font-size: 100px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 120px;
     margin-bottom: 0;
     text-align: center;
@@ -47,13 +47,14 @@ export const data = css`
     font-weight: 400;
     line-height: 27.24px;
     text-align: left;
+    letter-spacing: 0;
   }
 
   span:last-of-type {
     color: #000000;
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
     font-size: 25px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 30px;
     text-align: center;
   }

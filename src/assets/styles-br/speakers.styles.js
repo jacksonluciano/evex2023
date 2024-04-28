@@ -4,7 +4,7 @@ import { colors } from "../styles/layout.styles";
 import bg from "@/images-br/speakers-br/bg-speakers.jpg";
 
 export const team = css`
-  padding: 146px 0 80px !important;
+  padding: 90px 0 80px !important;
   background-color: #e3e3e2;
   position: relative;
   overflow-x: clip;
@@ -351,13 +351,14 @@ export const speakersTitle = css`
     z-index: 99;
     top: 120px;
 
-    @media (max-width: 1366px) {
-      top:54px
+    @media (min-width: 768px) and (max-width: 1280px) {
+      top: 140px;
     }
   }
 
   h2 {
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 140px;
     text-decoration: none;
     @media (min-width: 320px) and (max-width: 767px) {
@@ -374,18 +375,22 @@ export const speakersTitle = css`
     line-height: 21px;
   }
 
-  img{
+  img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-59%);
+    transform: translate(-50%, -59%);
+    @media (min-width: 768px) and (max-width: 1280px) {
+      transform: translate(-50%, -50%);
+    }
   }
-
-
 `;
 
 export const speakersCards = css`
   margin-top: 160px;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    max-width: 1070px;
+  }
 `;
 
 export const speakerCard = css`
@@ -397,28 +402,52 @@ export const speakerCard = css`
   }
 `;
 export const element01 = css`
- position: absolute;
- right: -236px;
-    top: -86px;
+  position: absolute;
+  right: -236px;
+  top: -86px;
 `;
 export const element02 = css`
-    position: absolute;
-    top: 200px;
-    left: -200px;
+  position: absolute;
+  top: 200px;
+  left: -200px;
 `;
 export const element03 = css`
- position: absolute;
- right: -236px;
-    top: 50%;
+  position: absolute;
+  right: -236px;
+  top: 50%;
 `;
 export const element04 = css`
- position: absolute;
- left: -170px;
-    bottom: -114px;
+  position: absolute;
+  left: -170px;
+  bottom: -114px;
 `;
 export const Word = css`
-    position: absolute;
-    left: 0;
-    top: 53%;
-    width: 154px;
+  position: absolute;
+  left: 0;
+  top: 53%;
+  width: 154px;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    width: 110px;
+  }
+`;
+
+export const radialElement = css`
+  background: radial-gradient(
+    circle,
+    #9a2ff6 0%,
+    #cc6ae3 26%,
+    rgba(227, 227, 226, 0) 55%
+  );
+  width: 875px;
+  height: 660px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    width: 452px;
+    height: 320px;
+  }
 `;

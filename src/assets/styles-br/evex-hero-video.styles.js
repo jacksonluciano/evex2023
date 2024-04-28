@@ -11,15 +11,19 @@ export const title = css`
   );
 
   h2 {
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 56px;
-    font-weight: 700;
     margin-bottom: 0;
     padding: 25px;
     text-align: center;
+    letter-spacing: 0;
 
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 28px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      font-size: 50px;
     }
   }
 `;

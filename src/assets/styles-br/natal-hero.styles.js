@@ -4,6 +4,9 @@ import { css } from '@emotion/react'
 export const natalHeroContainer = css`
   background-color: #e3e3e2;
   margin-top: 96px;
+  @media (min-width: 768px) and (max-width: 1280px) {
+    margin-top: 86px;
+  }
 
   .hero_container {
     padding: 81.5px 10px 31.5px;
@@ -14,9 +17,9 @@ export const natalHeroContainer = css`
 
     h2 {
       color: #fff;
-      font-family: 'bw_gradual_demobold';
+      font-family: "Bw Gradual DEMO";
       font-size: 140px;
-      font-weight: 800;
+      font-weight: bold;
       text-align: center;
       position: relative;
       z-index: 3;
@@ -35,7 +38,7 @@ export const natalHeroContainer = css`
   }
 `
 export const radialElement = css`
-    background: radial-gradient(circle, rgba(1, 242, 1, 1) 0%, rgb(76 214 217 / 70%) 22%, rgba(227, 227, 226, 0) 55%);
+    background: radial-gradient(circle, rgba(1, 242, 1, 1) 0%, rgb(76 214 217 / 70%) 26%, rgba(227, 227, 226, 0) 55%);
     width: 875px;
     height: 660px;
     position: absolute;

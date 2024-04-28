@@ -5,6 +5,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 import { sectionHero, informations } from '../assets/styles-br/agenda-hero.styles'
 import OrangeElementVector01 from '@/images-br/agenda/agenda-orange-element01.svg'
 import OrangeElementVector02 from '@/images-br/agenda/agenda-orange-element02.svg'
+import { Link } from 'gatsby'
 
 const AgendaHero = () => {
   return (
@@ -19,8 +20,10 @@ const AgendaHero = () => {
           <img src={OrangeElementVector02} className='element02' />
           <div className='data_container'>
             <div className='data_info'>
+              <a href="#tres">
               <p>Quarta-feira</p>
               <p>03/07/2024</p>
+              </a>
             </div>
 
             <div className='data_info'>

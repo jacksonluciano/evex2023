@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { Link } from "gatsby";
-import Element01 from '@/images-br/home-br/inscricao_elem1.png'
+import Element01 from '@/images-br/element_inscr.svg'
 import Element02 from '@/images-br/home-br/inscricao_elem2.png'
 import Element03 from '@/images-br/home-br/inscricao_elem3.png'
 import inscriElement from '@/images-br/inscri.png'
@@ -14,7 +14,7 @@ import {
   pr79,
   mb45,
   linkBorder,
-  element04,
+  element01,
   element05,
   element08,
   dateBlock,
@@ -97,7 +97,7 @@ const Inscricoes = () => {
                   <h4>R$ 2.240,00</h4>
                   <p>Estudantes</p>
                   <h4>R$ 2.240,00</h4>
-                  <ul>
+                  <ul style={{padding: '0 30px'}}>
                      <p style={{textAlign: 'left', marginLeft: '-20px'}}>O investimento inclui:</p>
                     <li>
                       <p>- Apresentação de 1 trabalho</p>
@@ -115,6 +115,7 @@ const Inscricoes = () => {
               </Col>
           
           </Row>
+          <img src={Element01} css={element01} />
         </div>
 
         {/* <div css={blocks}>
@@ -168,6 +169,7 @@ const Inscricoes = () => {
             
           </Row>
         </div> */}
+        
       </Container>
       <img css={bgElement} src={Bg} />
     </section>

@@ -245,21 +245,23 @@ export const speakerInfo = css`
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
-  height: 184px;
+  height: 200px;
 
   h4{
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 24px;
     color:  #000;
     margin-bottom: 16px;
   }
   p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color:  #000;
     line-height: 21px;
+    letter-spacing:0;
     span{
-      font-weight: 500;
+      font-weight: 700;
     }
   }
 

@@ -8,6 +8,7 @@ import NatalLogo from '@/images-br/home-br/natal.svg'
 import NatalElement1 from '@/images-br/home-br/natal_element_1.svg'
 import NatalElement2 from '@/images-br/home-br/natal_element_2.svg'
 import SerhsImg from '@/images-br/home-br/serhs.jpg'
+import Video from "../components/video";
 import GreenElementImage from '@/images-br/natal/natal-green-element01.svg'
 
 import { 
@@ -30,6 +31,9 @@ import {
   commonBtnBr,
   noPadding
 } from "../assets/styles/layout.styles";
+import { 
+  heroBg
+}  from '../assets/styles-br/HeroVideo.styles'
 
 const ondeSera = () => {
   const { sectionContent, image} = VirtualPresencialData;
@@ -68,7 +72,12 @@ const ondeSera = () => {
         <Row>       
           <Col lg={7} md={7} sm={12} css={vidSection} style={{position: 'relative'}} >
            <div>
-           <img css={imgFull} src={SerhsImg} />
+           <section css={[heroBg]} style={{position:'relative', zIndex: 99, marginTop: 0}}>
+      <Video                     
+        videoSrcURL={`https://player.vimeo.com/video/940376160?h=bc8ffcbb45&api=1&background=1&autoplay=1&loop=1&autopause=0`}
+        videoTitle="Evex Brasil 2024"
+      />
+    </section>
             <img css={elem1} src={NatalElement1} />
             <img css={elem2} src={NatalElement2} />
            </div>
