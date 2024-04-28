@@ -49,7 +49,7 @@ const Footer = () => {
 
   const { black } = LogoBrasil;
   return (
-    <footer css={footer1}>
+    <footer id="footer" css={footer1}>
       <Container fluid>
         <Row css={reverse}>
           <Col xs={12} lg={6} className="px-0">
