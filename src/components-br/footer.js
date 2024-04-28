@@ -19,7 +19,7 @@ import {
   mobileSide
 } from "../assets/styles-br/footer.styles";
 
-import { commonBtn, redBg } from "../assets/styles/layout.styles";
+import { commonBtnBr, redBg } from "../assets/styles/layout.styles";
 import { Row, Col, Container } from "react-bootstrap";
 
 const Footer = () => {
@@ -70,10 +70,10 @@ const Footer = () => {
             </div>
           </Col>
           <Col xs={12} lg={6} className="px-0">
-            <div css={sideColumn} style={{height : '50%'}}>
+            <div css={sideColumn} style={{height : '50%', paddingLeft: '80px'}}>
               <aside css={[widget, aboutWidget]}>
                 <h2>News</h2>
-                <p>Fique por dentro das novidades do EVEx Lisboa 2023.</p>
+                <p>Fique por dentro das novidades do EVEx Brasil 2024.</p>
                 <form
                   method="POST"
                   action="https://formsubmit.co/secretaria@evex.energy"
@@ -92,7 +92,7 @@ const Footer = () => {
                     placeholder="Digite o seu email"
                     name="email"
                   />
-                  <button css={commonBtn} type="submit" name="submit">
+                  <button css={commonBtnBr} type="submit" name="submit">
                     <span>{buttonText}</span>
                   </button>
                   {isVisible ? (

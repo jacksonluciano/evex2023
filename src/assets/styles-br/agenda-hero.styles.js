@@ -6,15 +6,19 @@ import BgImage from '../images-br/agenda/bg-orange.svg'
 export const sectionHero = css`
   margin-top: 96px;
 
+  @media (min-width: 768px) and (max-width: 1280px) {
+    margin-top: 86px;
+    }
+
   .title_container {
     background: radial-gradient(38.02% 147.96% at 50% 100%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
     padding: 32px 0 14px;
 
     .title {
       color: #ffffff;
-      font-family: 'bw_gradual_demobold';
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       font-size: 100px;
-      font-weight: 700;
       margin-bottom: 0;
       text-align: center;
     }
@@ -70,10 +74,9 @@ export const informations = css`
 
   p {
     color: #000000;
-    /* font-family: 'bw_gradual_demobold'; */
-    font-family: 'bw_gradual_demomedium';
+    font-family: "Bw Gradual DEMO";
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
     margin: 0;
     position: relative;
@@ -98,10 +101,12 @@ export const informations = css`
       justify-content: center;
       width: 294px;
       transition: all 0.3s ease-in-out;
+      cursor: pointer;
 
       p {
         color: #ffffff;
-        font-family: 'bw_gradual_demobold';
+        font-family: "Bw Gradual DEMO";
+        font-weight: bold;
         margin: 0;
         transition: color 0.3s ease-in-out;
 

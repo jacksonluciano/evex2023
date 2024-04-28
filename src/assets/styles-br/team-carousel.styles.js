@@ -245,7 +245,7 @@ export const speakerInfo = css`
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
-  height: 191px;
+  height: 208px;
 
   h4{
     font-family: 'Bw Gradual DEMO';

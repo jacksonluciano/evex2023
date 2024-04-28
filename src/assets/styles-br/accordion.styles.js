@@ -25,7 +25,8 @@ export const AccordionContainer = styled.div(props => ({
 
   '.header_content': {
     'h3': {
-      fontFamily: 'bw_gradual_demobold',
+      fontFamily: 'Bw Gradual DEMO',
+      fontWeight: 'bold',
       fontSize: '56px',
       fontWeight: 700,
       lineHeight: '67.2px',
@@ -105,9 +106,9 @@ export const AccordionCollapse = styled.div(props => ({
 
     'a': {
       color: '#000000',
-      fontFamily: 'bw_gradual_demomedium',
+      fontFamily: 'Bw Gradual DEMO',
       fontSize: '30px',
-      fontWeight: 300,
+      fontWeight: 500,
       lineHeight: '36px',
       textAlign: 'left',
       textDecoration: 'underline',

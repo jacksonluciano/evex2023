@@ -173,46 +173,43 @@ export const blocks = css`
       }
     }
   }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    max-width: 889px;
+   
+  }
 `;
 
 export const dateBlock = css`
   background-color: #000;
   height: 100%;
-  padding: 80px 18px;
+  padding: 32px 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 2;
-  transition: all 0.2s;
+  transition: all 0.3s;
+
+  &:hover{
+    background: radial-gradient(190.68% 100% at 50% 100%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%);
+    h2, h3, h4, p{
+      color: #000;
+    }
+  }
 
   @media (min-width: 320px) and (max-width: 767px) {
     width: 95%;
     border: 2px solid ${colors.primaryMain};
   }
 
-  /* &.orange {
-    background-color: ${colors.brandingOrange};
-  }
-
-  &.salmon {
-    background-color: ${colors.brandingSalmon};
-  }
-
-  &.purple {
-    background-color: ${colors.brandingPurple};
-  }
-
-  &.blue {
-    background-color: ${colors.brandingBlue};
-  } */
-
   h2 {
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     color: #ffffff;
     font-size: 25px;
     text-align: center;
+    margin-bottom: 0px;
   }
 
   h3 {
@@ -221,26 +218,27 @@ export const dateBlock = css`
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
     margin-bottom: 24px;
-    font-family: "bw_gradual_demomedium";
+    font-family: "Bw Gradual DEMO";
     font-weight: 500;
     text-align: center;
     color: #ffffff;
   }
 
   h4 {
-    font-family: "bw_gradual_demomedium";
+    font-family: "Bw Gradual DEMO";
     font-weight: 500;
     color: #ffffff;
   }
 
   P {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     padding: 0;
     margin: 0;
     line-height: 21px;
     margin-bottom: 8px;
+    letter-spacing: 0;
 
     &.text {
       margin: 8px 0 40px;
@@ -248,11 +246,16 @@ export const dateBlock = css`
   }
 
   a {
+    font-family: "Open Sans", sans-serif !important;
     width: 250px;
     letter-spacing: 0;
     background-color: #ffffff;
     color: #000;
     font-size: 16px;
+    letter-spacing: 0;
+    :hover{
+      text-decoration: none;
+    }
   }
 
   button {
@@ -273,11 +276,11 @@ export const dateBlock = css`
     }
   }
 
-  ul{
+  ul {
     margin: 24px 0 48px 0;
     padding: 0;
-    li{
-      p{
+    li {
+      p {
         text-align: left;
         margin: 0;
       }
@@ -318,11 +321,9 @@ export const sectionTitle = css`
 
   h2 {
     font-size: 56px;
-    font-family: "bw_gradual_demomedium";
-    color: ${colors.secondaryMain};
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
+    color: #ffffff;
     margin-bottom: 24px;
 
     @media (min-width: 320px) and (max-width: 767px) {
@@ -350,7 +351,8 @@ export const sectionTitle = css`
     h2 {
       position: relative;
       z-index: 3;
-      font-family: "bw_gradual_demobold";
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       text-decoration: none;
       font-size: 94px;
     }
@@ -366,6 +368,12 @@ export const sectionTitle = css`
         left: -123px;
         top: -225px;
         width: auto;
+        @media (min-width: 768px) and (max-width: 1280px) {
+          left: 50%;
+          top: 50%;
+          width: 900px;
+          transform: translate(-40%, -43%);
+        }
       }
       &:nth-of-type(2) {
         top: -124px;
@@ -402,4 +410,11 @@ export const bgElement = css`
   bottom: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+`;
+export const element01 = css`
+  width: auto !important;
+  position: absolute;
+  top: -268px;
+    right: -373px;
+    z-index: 1;
 `;

@@ -17,18 +17,19 @@ export const abAgency = css`
     padding: 40px 0 0;
   }
   .natal_logo {
-    width:172px;
+    width: 172px;
     position: absolute;
     right: 0;
     top: 0px;
     z-index: 1;
-    @media (max-width: 1367px) {
-      top: 50px;
-      width: 120px;
-    }
+    
     @media (min-width: 320px) and (max-width: 767px) {
       width: 34px;
       top: 434px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      top: 85px;
+        width: 130px;
     }
   }
 `;
@@ -63,7 +64,7 @@ export const about = css`
 
   h2 {
     color: ${colors.primaryMain};
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
@@ -82,11 +83,15 @@ export const about = css`
     letter-spacing: 0;
     color: #000;
     max-width: 411px;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      font-size: 15px;
+    line-height: 21px;
+    }
   }
 
   a {
     background-color: #000;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     @media (min-width: 320px) and (max-width: 767px) {
       /* margin: 0 auto; */
       z-index: 2;
@@ -169,7 +174,7 @@ export const natalHeroContainer = css`
 
     h2 {
       color: #fff;
-      font-family: 'Bw Gradual DEMO';
+      font-family: "Bw Gradual DEMO";
       font-size: 140px;
       font-weight: bold;
       text-align: center;
@@ -239,16 +244,21 @@ export const header = css`
     margin-right: 45px;
 
     .title {
-      font-family: 'Bw Gradual DEMO';
+      font-family: "Bw Gradual DEMO";
       font-size: 56px;
       font-weight: bold;
       line-height: 67.2px;
       margin: 0;
       text-align: left;
+      letter-spacing: 0;
 
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 20px;
         line-height: 22px;
+      }
+      @media (min-width: 768px) and (max-width: 1280px) {
+        font-size: 50px;
+        line-height: 60.2px;
       }
     }
   }
@@ -265,6 +275,11 @@ export const elem1 = css`
     width: auto;
     height: 202px;
   }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    left: -34px;
+    bottom: -52px;
+    height: 300px;
+  }
 `;
 export const elem2 = css`
   position: absolute;
@@ -276,16 +291,24 @@ export const elem2 = css`
     top: -29px;
     height: 194px;
   }
+  @media (min-width: 768px) and (max-width: 1280px) {
+    position: absolute;
+    right: -16px;
+    top: -60px;
+    height: 377px;
+  }
 `;
 export const vidSection = css`
+  display: flex;
+  justify-content: flex-end;
 
-display: flex;
-justify-content: flex-end;
-
-div{
-  width:100%;
-  max-width: 660px;
-}
+  div {
+    width: 100%;
+    max-width: 660px;
+    @media (min-width: 768px) and (max-width: 1280px) {
+      max-width: 612px;
+    }
+  }
 
   @media (min-width: 320px) and (max-width: 767px) {
     width: 86%;

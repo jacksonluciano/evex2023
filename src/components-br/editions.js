@@ -4,10 +4,10 @@ import { jsx } from '@emotion/react'
 import { Container, Col, Row } from 'react-bootstrap'
 import FourIcon from '../assets/images-br/o-evex/4.png'
 import { bg, container, title } from '../assets/styles-br/edition.styles'
-import LogoEvex2020 from '../assets/images-br/o-evex/evex01.png'
-import LogoEvex2021 from '../assets/images-br/o-evex/evex02.png'
-import LogoEvex2022 from '../assets/images-br/o-evex/evex03.png'
-import LogoEvex2023 from '../assets/images-br/o-evex/evex04.png'
+import LogoEvex2020 from '../assets/images-br/o-evex/evex2020.svg'
+import LogoEvex2021 from '../assets/images-br/o-evex/evex2021.svg'
+import LogoEvex2022 from '../assets/images-br/o-evex/evex2022.svg'
+import LogoEvex2023 from '../assets/images-br/o-evex/evex2023.svg'
 import Bg from '../assets/images-br/o-evex/bg02.svg'
 
 const Editions = () => {
@@ -50,7 +50,7 @@ const Editions = () => {
         </Row>
       </Container>
 
-      <img src={Bg} width='100%' />
+      <img src={Bg} width='100%' style={{marginTop: '-1px'}} />
     </section>
   )
 }

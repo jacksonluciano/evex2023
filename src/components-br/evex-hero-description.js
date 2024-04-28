@@ -16,7 +16,7 @@ const EvexHeroDescription = () => {
   return (
     <section css={sectionHeroDescription}>
       <Container>
-        <Row style={{ alignItems: 'center' }}>
+        <Row style={{ alignItems: 'center', justifyContent: 'center' }}>
           <Col lg='auto' xs={12} className='px-0'>
             <div css={evexImageBg}>
               <img src={EvexImage} alt='EVEx' />

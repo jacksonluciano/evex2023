@@ -1,38 +1,55 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
+import { css } from "@emotion/react";
 
 export const div = css`
-  background: radial-gradient(110.9% 244.62% at 110.9% 139.19%, #FF4001 3.05%, #E4A939 36.48%, #E3E3E2 100%);
+  background: radial-gradient(
+    110.9% 244.62% at 110.9% 139.19%,
+    #ff4001 3.05%,
+    #e4a939 36.48%,
+    #e3e3e2 100%
+  );
   height: 111px;
   padding-inline: 0px;
-`
+`;
 
 export const bgColumnTitle = css`
-  background: radial-gradient(110.9% 244.62% at 110.9% 139.19%, #FF4001 3.05%, #E4A939 36.48%, #E3E3E2 100%);
+  background: radial-gradient(
+    110.9% 244.62% at 110.9% 139.19%,
+    #ff4001 3.05%,
+    #e4a939 36.48%,
+    #e3e3e2 100%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 14px 0px;
-`
+`;
 
 export const bgColumn = css`
-  background: radial-gradient(115.74% 169.23% at 115.74% 124.86%, #FF4001 3.05%, #E4A939 44.49%, #E3E3E2 100%);
-`
+  background: radial-gradient(
+    115.74% 169.23% at 115.74% 124.86%,
+    #ff4001 3.05%,
+    #e4a939 44.49%,
+    #e3e3e2 100%
+  );
+`;
 
 export const agendaTitle = css`
-
   h2 {
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 56px;
-    font-weight: 700;
     line-height: 67.2px;
+    letter-spacing: 0;
+    margin-bottom: 0;
   }
 
   h3 {
     font-size: 25px;
     font-weight: 400;
     line-height: 34.05px;
-    text-align: left
+    text-align: left;
+    letter-spacing: 0;
   }
 
   @media (max-width: 768px) {
@@ -44,13 +61,13 @@ export const agendaTitle = css`
       font-size: 20px;
     }
   }
-`
+`;
 
 export const container = css`
   background: #e3e3e2;
   display: flex;
   justify-content: center;
-`
+`;
 
 export const schedule = css`
   display: flex;
@@ -66,7 +83,7 @@ export const schedule = css`
   @media (max-width: 576px) {
     padding-inline: 16px;
   }
-`
+`;
 
 export const title = css`
   color: #000000;
@@ -80,7 +97,7 @@ export const title = css`
   @media (max-width: 576px) {
     font-size: 18px;
   }
-`
+`;
 
 export const event = css`
   align-items: center;
@@ -91,9 +108,9 @@ export const event = css`
     background: #000000;
     color: #ffffff;
     display: block;
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 16px;
-    font-weight: 700;
     line-height: 19.2px;
     padding: 8.5px 7.5px;
     text-align: left;
@@ -117,7 +134,7 @@ export const event = css`
       font-size: 18px;
     }
   }
-`
+`;
 
 export const principalEvent = css`
   align-items: center;
@@ -128,16 +145,21 @@ export const principalEvent = css`
     background: #000000;
     color: #ffffff;
     display: block;
-    font-family: 'bw_gradual_demobold';
+    font-family: "Bw Gradual DEMO";
+    font-weight: bold;
     font-size: 16px;
-    font-weight: 700;
     line-height: 19.2px;
     padding: 8.5px 7.5px;
     text-align: left;
   }
 
   p {
-    background: radial-gradient(110.43% 948.02% at 104.65% 147.87%, #FF4001 3.05%, #E4A939 57.43%, #E3E3E2 100%);
+    background: radial-gradient(
+      110.43% 948.02% at 104.65% 147.87%,
+      #ff4001 3.05%,
+      #e4a939 57.43%,
+      #e3e3e2 100%
+    );
     color: #000000;
     font-size: 20px;
     font-weight: 700;
@@ -157,7 +179,7 @@ export const principalEvent = css`
       font-size: 18px;
     }
   }
-`
+`;
 
 export const principalEventDescription = css`
   color: #000000;
@@ -171,7 +193,7 @@ export const principalEventDescription = css`
   @media (max-width: 576px) {
     font-size: 18px;
   }
-`
+`;
 
 export const eventTypeTitle = css`
   font-size: 20px;
@@ -185,18 +207,47 @@ export const eventTypeTitle = css`
   @media (max-width: 576px) {
     font-size: 18px;
   }
-`
+`;
 
 export const content = css`
   position: relative;
   padding-bottom: 200px;
   background-color: #e3e3e2;
-`
+  overflow-x: clip;
+`;
 export const imgOrange = css`
   position: absolute;
   width: 100%;
   bottom: 0;
-`
+`;
+export const element1 = css`
+  position: absolute;
+  top: 30px;
+  left: -250px;
+`;
+export const element2 = css`
+  position: absolute;
+  top: 900px;
+  right: -250px;
+`;
+export const element3 = css`
+  position: absolute;
+  top: 1600px;
+  left: -250px;
+`;
+export const element4 = css`
+ -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  top: 24px;
+    right: -150px;
+`;
+
+export const element5 = css`
+  position: absolute;
+  bottom: 40px;
+  left: -250px;
+`;
 
 export const participantsContainer = css`
   display: flex;
@@ -233,4 +284,4 @@ export const participantsContainer = css`
       }
     }
   }
-`
+`;

@@ -27,7 +27,7 @@ const GlobalStyles = () => {
         /* @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700'); */
         @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-        /* @font-face {
+        @font-face {
           font-family: "bw_gradual_demoregular";
           font-display: swap;
           font-style: normal;
@@ -49,7 +49,7 @@ const GlobalStyles = () => {
           font-style: normal;
           font-named-instance: "Bold";
           src: url(/fonts/bwgradualdemo-bold-webfont.woff2) format("woff2");
-        } */
+        }
 
         @font-face {
           font-family: "Bw Gradual DEMO";

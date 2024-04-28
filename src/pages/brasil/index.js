@@ -9,7 +9,7 @@ import LisboaToNatal from "@/components-br/lisboa-to-natal";
 import HeaderOne from "@/components-br/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
-import HeroVideo from "@/components/hero-video";
+import HeroVideo from "@/components-br/hero-video";
 import OndeSera from "@/components-br/onde-sera";
 import ComoSera from "@/components-br/como-sera";
 // import EvexLisboa2023 from "@/components/evex-lisboa-2023";

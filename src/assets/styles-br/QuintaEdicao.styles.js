@@ -138,6 +138,11 @@ export const lisboaTwo = css`
     letter-spacing: 0;
     font-size: 56px;
     margin-bottom: 12px;
+
+    @media (min-width: 768px) and (max-width: 1280px) {
+      font-size: 50px;
+    }
+
   }
 
   p {
@@ -148,6 +153,11 @@ export const lisboaTwo = css`
     font-weight: 400;
     color: #000;
     letter-spacing: 0;
+
+    @media (min-width: 768px) and (max-width: 1280px) {
+      font-size: 15px;
+      max-width: 420px;
+    }
   }
 
   /* button {
@@ -166,10 +176,11 @@ export const lisboaTwo = css`
     @media (min-width: 320px) and (max-width: 767px) {
      width: 32px;
    }
-   @media (min-width: 768px) and (max-width: 1365px) {
-     width: 100px;
+   @media (min-width: 768px) and (max-width: 1280px) {
+     width: 140px;
    }
   }
+
 `;
 
 export const lightBg = css`

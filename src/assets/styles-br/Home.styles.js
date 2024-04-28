@@ -1,8 +1,6 @@
-
 /** @jsx jsx */
 import { css } from "@emotion/react";
-import homePurple from '../images-br/home-purple.jpg';
-
+import homePurple from "../images-br/home-purple.jpg";
 
 export const homeBg = css`
   position: relative;
@@ -12,8 +10,8 @@ export const homeBg = css`
   justify-content: center;
   align-items: center;
   @media (min-width: 320px) and (max-width: 767px) {
-       background: url(${homePurple}) no-repeat top left 14% / cover;
-    }
+    background: url(${homePurple}) no-repeat top left 14% / cover;
+  }
 `;
 
 export const bannerContent = css`
@@ -22,25 +20,25 @@ export const bannerContent = css`
   h2 {
     font-size: 40px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0px;
     margin: 0;
     color: #fff;
-    font-family: "bw_gradual_demobold";
+    font-family: "Bw Gradual DEMO";
 
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 16px;
     }
 
-    span{
-        display: inline-block;
-        background-color: #000;
-        color: #ffffff;
-        padding: 8px 16px;
-        :first-of-type{
-            color: #000;
-            background-color: #ffffff;
-        }
+    span {
+      display: inline-block;
+      background-color: #000;
+      color: #ffffff;
+      padding: 8px 16px;
+      :first-of-type {
+        color: #000;
+        background-color: #ffffff;
+      }
     }
   }
 
@@ -62,53 +60,53 @@ export const bannerContent = css`
   }
 `;
 
-
 export const Buttons = css`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 48px;
+  padding: 0;
 
-display: flex;
-align-items: center;
-flex-direction: column;
-margin-top: 48px;
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 0;
+  }
 
-@media (min-width: 320px) and (max-width: 767px) {
-      padding: 0;
-    }
-
-  li{
+  li {
     display: inline-block;
     background-color: #000;
     color: #fff;
     margin: 8px 0;
     padding: 8px 32px;
-    width: 383px;
+    width: 399px;
     border: 4px solid #000;
 
-    &:hover{
+    &:hover {
       background-color: #fff;
-      a{
+      a {
         color: #000;
       }
     }
 
-    a{
-      font-family: 'bw_gradual_demomedium';
-        color: #ffffff;
-font-size: 24px;
-line-height: 28px;
-        :hover{
-            text-decoration: none;
-        }
-        span{
-          display: block;
-        }
+    a {
+      font-family: "Bw Gradual DEMO";
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      :hover {
+        text-decoration: none;
+      }
+      span {
+        display: block;
+      }
     }
 
     @media (min-width: 320px) and (max-width: 767px) {
       width: 247px;
       padding: 8px 12px;
-      a{
+      a {
         font-size: 14px;
-        span{
+        span {
           line-height: 20px;
         }
       }

@@ -20,6 +20,8 @@ import { css } from "@emotion/react";
 const Home = ({ title, name }) => {
 
   const [backgroundImage, setBackgroundImage] = useState(homePurple);
+  const [backgroundTextTop, setBackgroundTextTop] = useState('#ffffff');
+  const [backgroundTextBottom, setBackgroundTextBottom] = useState('#000000');
 
   const homeBg = css`
   position: relative;
@@ -42,6 +44,19 @@ const Home = ({ title, name }) => {
         if (prevImage === homeBlue) return homeYellow;
         return homePurple;
       });
+
+      setBackgroundTextTop((prevColor) => {
+        if (prevColor === '#ffffff') return '#000000';
+        if (prevColor === '#000000') return '#ffffff';
+        return '#ffffff';
+      });
+
+      setBackgroundTextBottom((prevColor) => {
+        if (prevColor === '#000000') return '#ffffff';
+        if (prevColor === '#ffffff') return '#000000';
+        return '#000000';
+      });
+
     }, 7000); 
 
     return () => clearInterval(interval);
@@ -55,8 +70,8 @@ const Home = ({ title, name }) => {
 
             <div css={bannerContent} className="banner_content text-center">
             <h2>
-                <span>Escolha abaixo o evento e embarque conosco</span>
-                <span>na rota ibero-latino-americana da energia:</span>
+                <span style={{backgroundColor : backgroundTextTop, color: backgroundTextBottom}}>Escolha abaixo o evento e embarque conosco</span>
+                <span style={{backgroundColor : backgroundTextBottom, color: backgroundTextTop}}>na rota ibero-latino-americana da energia:</span>
             </h2>
               <ul css={Buttons}>
                 <li>

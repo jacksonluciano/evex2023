@@ -5,7 +5,7 @@ import { colors, colorsBr } from "../styles/layout.styles";
 export const footer1 = css`
   position: relative;
   /* padding: 80px 0 !important; */
-  background-color: ${colors.secondaryMain};
+  background-color: #e3e3e2;
 `;
 export const reverse = css`
   @media (min-width: 320px) and (max-width: 767px) {
@@ -22,17 +22,20 @@ export const widget = css`
     letter-spacing: 0px;
     color: #000;
     line-height: 48px;
-    margin: 0 0 16px;
+    margin: 0 0 4px;
     position: relative;
-    font-family: "bw_gradual_demomedium";
-    /* text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 6px; */
-    font-style: normal;
+    font-family: 'Bw Gradual DEMO';
+    font-weight:bold
+  }
+
+  .widget_title{
+    margin-bottom:24px
   }
 
   p {
-    color: ${colors.primaryMain};
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0;
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -49,11 +52,15 @@ export const aboutWidget = css`
   }
 
   & p {
-    font-size: 14px;
-    letter-spacing: 0.56px;
-    color: ${colors.primaryMain};
-    margin: 0;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 0;
     margin-bottom: 24px;
+  }
+
+  :-ms-input-placeholder,
+  ::-webkit-input-placeholder{
+    font-size: 15px;
   }
 
   button{
@@ -244,7 +251,7 @@ export const subscribeFrom = css`
   button {
     background-color: #000;
     color: #ffffff;
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
     border: none;
     box-shadow: none;
     padding: 21px 28px;
@@ -279,7 +286,7 @@ export const sideColumn = css`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 24px 0 24px 60px;
+  padding: 24px 0 24px 120px;
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 24px 32px;
@@ -289,10 +296,10 @@ export const sideColumn = css`
   }
 
   h2 {
-    font-family: "bw_gradual_demobold";
+    font-family: 'Bw Gradual DEMO';
     font-size: 100px;
     line-height: 120px;
-    font-weight: 700;
+    font-weight: bold;
     color: #ffffff;
 
     @media (min-width: 320px) and (max-width: 767px) {
@@ -302,14 +309,16 @@ export const sideColumn = css`
 
   h5 {
     font-weight: 700;
-    margin-bottom: 0px;
+    margin-bottom: 6px;
     color: #000;
+    letter-spacing: 0;
 
     span{
       font-weight: 400;
     }
   }
   p {
+    font-size: 20px;
     color: #000;
     margin: 0;
     line-height: 20px;

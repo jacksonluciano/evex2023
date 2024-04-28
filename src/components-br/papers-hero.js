@@ -3,9 +3,11 @@ import React from 'react'
 import { jsx } from '@emotion/react'
 import { Container, Col, Row } from 'react-bootstrap'
 import {
-  sectionHeroPapers
+  sectionHeroPapers,
+  element
 } from '../assets/styles-br/papers-hero.styles'
 import BgPinkMobile from '@/images-br/papers/bg-mobile.svg'
+import Element from '@/images-br/papers/element.png'
 
 const PapersHero = () => {
   return (
@@ -17,6 +19,7 @@ const PapersHero = () => {
           <Col xs={12} sm={12} lg={6} className='bg_papers_mobile'>
             <div className='title_container'>
               <h2 className='title'>Call for<br /> Papers/<br /> Projects</h2>
+              <img css={element} src={Element} />
             </div>
           </Col>
 

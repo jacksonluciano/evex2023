@@ -567,7 +567,7 @@ export const ComiteData = {
       image: Speaker14,
       name: "Caio Cesar Cavalcanti",
       designation: "Presidente e fundador, ",
-      place: "CCEE – Câmara de Comercialização de Energia Elétrica"
+      place: "Evex - Evergy Virtual Experience"
     },
     {
       image: Speaker05,

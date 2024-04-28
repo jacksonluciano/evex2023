@@ -4,8 +4,8 @@ import BgPinkImage from '../images-br/papers/papers-pink-element01.svg'
 
 export const sectionHeroPapers = css`
   margin-top: 96px;
-  background-image: url(${BgPinkImage});
-  background-color: #d9d9d9;
+  /* background-image: url(${BgPinkImage}); */
+  background-color: #e3e3e2;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -13,6 +13,11 @@ export const sectionHeroPapers = css`
   justify-content: center;
   padding: 109px 0 102px;
   position: relative;
+  overflow: hidden;
+
+  @media (min-width: 768px) and (max-width: 1280px) {
+    margin-top: 86px;
+  }
 
   .bg_mobile {
     display: none;
@@ -26,9 +31,9 @@ export const sectionHeroPapers = css`
 
     .title {
       color: #ffffff;
-      font-family: 'bw_gradual_demobold';
+      font-family: "Bw Gradual DEMO";
+      font-weight: bold;
       font-size: 100px;
-      font-weight: 700;
       margin-bottom: 0;
       position: relative;
       z-index: 2;
@@ -107,5 +112,12 @@ export const sectionHeroPapers = css`
         font-size: 50px;
       }
     }
+  }
+`
+export const element = css`
+  position:absolute;
+ 
+  @media (min-width: 768px) and (max-width: 1280px) {
+    left: -22%;
   }
 `

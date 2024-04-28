@@ -27,7 +27,8 @@ import {
   element02,
   element03,
   element04,
-  Word
+  Word,
+  radialElement
 } from "../assets/styles-br/speakers.styles";
 
 import { commonSection } from "../assets/styles/layout.styles";
@@ -90,6 +91,7 @@ const TeamCarousel = () => {
                 EVEx Brasil 2024.
               </p>
             </div>
+            {/* <div css={radialElement}></div> */}
             <img css={element} src={Gradient} />
           </Col>
         </Row>
