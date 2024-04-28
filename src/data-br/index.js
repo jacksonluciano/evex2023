@@ -136,7 +136,7 @@ export const NavBrLinks = [
   },
   {
     name: "Contato",
-    url: "/brasil/#contato",
+    url: "/brasil/#footer",
   },
 ];
 
