@@ -344,7 +344,7 @@ export const speakersTitle = css`
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  height: 100vh;
+  height: 720px;
   position: relative;
 
   .heroTitle {
@@ -355,7 +355,7 @@ export const speakersTitle = css`
     margin-right: auto;
     top: 120px;
     @media (min-width: 768px) and (max-width: 1280px) {
-      top: 200px;
+      top: 140px;
       max-width: 900px;
     }
   }

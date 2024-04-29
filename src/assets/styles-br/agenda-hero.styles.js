@@ -1,17 +1,22 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
-import { colorsBr } from '../styles/layout.styles'
-import BgImage from '../images-br/agenda/bg-orange.svg'
+import { css } from "@emotion/react";
+import { colorsBr } from "../styles/layout.styles";
+import BgImage from "../images-br/agenda/bg-orange.svg";
 
 export const sectionHero = css`
   margin-top: 96px;
 
   @media (min-width: 768px) and (max-width: 1280px) {
     margin-top: 86px;
-    }
+  }
 
   .title_container {
-    background: radial-gradient(38.02% 147.96% at 50% 100%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%);
+    background: radial-gradient(
+      38.02% 147.96% at 50% 100%,
+      ${colorsBr.themeRed} 3.05%,
+      ${colorsBr.secondaryYellow} 57.43%,
+      #e3e3e2 100%
+    );
     padding: 32px 0 14px;
 
     .title {
@@ -48,7 +53,7 @@ export const sectionHero = css`
       }
     }
   }
-`
+`;
 
 export const informations = css`
   align-items: center;
@@ -97,11 +102,34 @@ export const informations = css`
       background: #000000;
       display: flex;
       flex-direction: column;
-      height: 186px;
       justify-content: center;
-      width: 294px;
       transition: all 0.3s ease-in-out;
       cursor: pointer;
+
+      &:hover {
+        a {
+          text-decoration: none;
+        }
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 294px;
+        height: 186px;
+        &.selected {
+          background: url(${BgImage});
+          background-position: bottom;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          p {
+            color: #000000;
+          }
+        }
+      }
 
       p {
         color: #ffffff;
@@ -132,7 +160,7 @@ export const informations = css`
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
-        
+
         p {
           color: #000000;
         }
@@ -166,4 +194,4 @@ export const informations = css`
       }
     }
   }
-`
+`;

@@ -57,10 +57,8 @@ export const about = css`
     font-weight: bold;
     text-align: center;
     font-size: 56px;
-    /* text-decoration: underline; */
+    letter-spacing: 0;
     margin-bottom: 16px;
-    /* text-decoration-thickness: 3px;
-    text-underline-offset: 6px; */
 
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 20px;

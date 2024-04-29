@@ -93,14 +93,14 @@ const QuintaEdicao = () => {
           <Col xs={12} lg={6} className="px-0">
             <div css={sideColumn}>
              
-              <h5>EVEx Brasil 2024 - Natal Energy Experience</h5>
+              <h5>EVEx Brasil 2024 – Natal Energy Experience</h5>
               <p>
                 <span>03 e 04 de julho</span> {`| SERHS Natal Grand Hotel & Resort`}
               </p>
             </div>
             <div css={sideColumn}>
              
-              <h5>EVEx 2024 - Energy Virtual Experience</h5>
+              <h5>EVEx 2024 – Energy Virtual Experience</h5>
               <p>
                 <span>24, 25 e 26 de setembro</span> | 100% online e ao vivo
               </p>
@@ -134,7 +134,7 @@ const QuintaEdicao = () => {
                   industrial.
                   <br />
                   <br />
-                  Vamos juntos acelerar a transição energética e
+                  Vamos juntos acelerar a transição energética e a
                   industrialização verde na rota ibero-latino-americana?
                 </p>
                 <Link css={commonBtnBr} to="/brasil/comite">

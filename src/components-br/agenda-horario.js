@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from "react";
+import React, { useState } from "react";
 import { jsx } from "@emotion/react";
 import { Container, Col, Row } from "react-bootstrap";
 import BgOrange from "@/images-br/agenda/orange-elements-02.png"
@@ -27,10 +27,13 @@ import {
 } from "../assets/styles-br/agenda-horario.styles";
 import { Link } from "gatsby";
 
-const AgendaHorario = () => {
+const AgendaHorario = ({ agendaSelecionada }) => {
+
+  console.log('agendaSelecionada', agendaSelecionada)
+
   return (
-   <div css={content}>
-     <section>
+   <div id="agenda" css={content}>
+     <section style={{display: agendaSelecionada === 3 && 'block'}}>
       <Container fluid className="px-0">
         <div css={div}></div>
         <Container fluid>
@@ -49,7 +52,7 @@ const AgendaHorario = () => {
 
       <Container fluid className="px-0" style={{position: 'relative'}}>
         
-        <div id="#tres" css={container}>
+        <div css={container} >
           <div css={schedule}>
             <h4 css={title}>Programação Principal</h4>
             <div css={event}>
@@ -74,7 +77,7 @@ const AgendaHorario = () => {
               </p>
             </div>
 
-            <div css={participantsContainer}>
+            {/* <div css={participantsContainer}>
               <div className="participant">
                 <p className="participant_name">Alexandre Fernandes</p>
                 <p className="participant_role">
@@ -114,7 +117,7 @@ const AgendaHorario = () => {
                 <p className="participant_name">Joana Garoupa – Moderadora</p>
                 <p className="participant_role">Diretora Geral, Garoupa INC</p>
               </div>
-            </div>
+            </div> */}
 
             <div css={event}>
               <span>10h45</span>
@@ -132,7 +135,7 @@ const AgendaHorario = () => {
               </p>
             </div>
 
-            <h5 css={eventTypeTitle}>Exposição de Cases</h5>
+            {/* <h5 css={eventTypeTitle}>Exposição de Cases</h5>
 
             <div css={participantsContainer}>
               <div className="participant">
@@ -170,7 +173,7 @@ const AgendaHorario = () => {
                 <p className="participant_name">Fernanda Delgado – Moderadora</p>
                 <p className="participant_role">Diretora Executiva, ABIHV - Associação Brasileira da Indústria de Hidrogênio Verde</p>
               </div>
-            </div>
+            </div> */}
 
             <div css={event}>
               <span>12h30</span>
@@ -251,7 +254,7 @@ const AgendaHorario = () => {
         <img src={Element} css={element3} />
       </Container>
     </section>
-        <section>
+        <section style={{display: agendaSelecionada === 4 && 'block'}}>
         <Container fluid className="px-0">
           <div css={div}></div>
           <Container id="quatro" fluid>

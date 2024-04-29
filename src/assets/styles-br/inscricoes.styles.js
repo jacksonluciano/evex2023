@@ -68,7 +68,7 @@ export const about = css`
   p {
     width: 100%;
     max-width: 920px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
     font-weight: 400;
     text-align: center;
@@ -182,7 +182,7 @@ export const blocks = css`
 export const dateBlock = css`
   background-color: #000;
   height: 100%;
-  padding: 32px 18px;
+  padding: 32px 18px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,6 +253,8 @@ export const dateBlock = css`
     color: #000;
     font-size: 16px;
     letter-spacing: 0;
+    position: absolute;
+    bottom: 34px;
     :hover{
       text-decoration: none;
     }
@@ -337,8 +339,9 @@ export const sectionTitle = css`
     max-width: 755px;
     margin: 16px auto 32px;
     color: ${colors.secondaryMain};
-    font-size: 14px;
+    font-size: 16px;
     line-height: 21px;
+    letter-spacing: 0;
   }
 
   .inscriTitle {

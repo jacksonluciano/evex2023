@@ -567,7 +567,7 @@ export const ComiteData = {
       image: Speaker14,
       name: "Caio Cesar Cavalcanti",
       designation: "Presidente e fundador, ",
-      place: "Evex - Evergy Virtual Experience"
+      place: "EVEx - Evergy Virtual Experience"
     },
     {
       image: Speaker05,
@@ -609,7 +609,7 @@ export const ComiteData = {
       image: Speaker11,
       name: "Fernanda Delgado",
       designation: "Diretora Executiva, ",
-      place: "ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde"
+      place: "ABIHV – Associação Brasileira da Indústria de Hidrogênio Verde"
     },
     {
       image: Speaker19,
@@ -627,7 +627,7 @@ export const ComiteData = {
       image: Speaker20,
       name: "Ricardo Nunes",
       designation: "Chief Strategy Officer, ",
-      place: "OMIP – The Iberian Energy Derivates Exchange"
+      place: "OMIP – The Iberian Energy Derivatives Exchange"
     },
     {
       image: Speaker07,

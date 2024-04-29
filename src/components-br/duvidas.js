@@ -76,31 +76,31 @@ const Duvidas = () => {
   return (
     <section css={[abAgency]}>
       {/* <img css={element14} src={Element14} />    */}
-      <Container fluid>
+      <Container fluid style={{padding: 0}}>
 
         <section css={realization}>
           <Row>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={6} sm={6} xs={6}>
               <h4 css={secDesk}>Promoção e Realização</h4>
               <img src={LogoEvex} />
             </Col>
 
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={6} sm={6} xs={6}>
               <h4 css={secDesk}>Parceiro Estratégico</h4>
               <a href="https://www.rn.gov.br/" target="_blank">
                 <img src={ParceiroRn} />
               </a>
             </Col>
 
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={6} sm={6} xs={6}>
               <h4 css={secDesk}>Hotel Oficial</h4>
               <a href="https://www.serhsnatalgrandhotel.com/" target="_blank">
                 <img src={Serhs} />
               </a>
             </Col>
 
-            <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Parceiro da midia</h4>
+            <Col lg={6} md={6} sm={6} xs={6}>
+              <h4 css={secDesk}>Parceiro da Mídia</h4>
               <a href='#' target='_blank'>
                 <img src={logoEp} style={{width: '100px'}} />
               </a>           
@@ -138,8 +138,8 @@ const Duvidas = () => {
         </section>
 
         <section css={contact}>
-          <Row>
-            <Col id="contact-form" lg={6} md={6} sm={12}>
+          <Row style={{width: '100%', margin: 0}}>
+            <Col id="contact-form" lg={6} md={6} sm={12} xs={12}>
               <img src={EvexContact} />
               <div className="inner-div">
                 <h2 css={secDesk} className="desktop">
@@ -278,7 +278,7 @@ const Duvidas = () => {
                 <Col lg={6} xs={6} className="pr-0">
                   <div className="content" ></div>
                 </Col>
-                <Col lg={6} xs={6} className="pl-0">
+                <Col lg={6} xs={6} className="px-0">
                   <div className="content"></div>
                 </Col>
               </Row>

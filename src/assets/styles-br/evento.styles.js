@@ -244,7 +244,8 @@ export const lastcontainer = css`
 background-color: #e3e3e2;
   padding: 50px 0 295px;
   @media (min-width: 320px) and (max-width: 767px) {
-    margin: 50px 0 24px;
+    margin: 0px;
+    padding-bottom: 24px;
   }
 
   .slider {

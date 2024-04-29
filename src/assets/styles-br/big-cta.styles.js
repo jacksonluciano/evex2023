@@ -11,6 +11,7 @@ export const abAgency = css`
     overflow-x: clip;
   @media (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 0;
+    padding-top: 32px;
   }
   img {
     width: 100%;
@@ -197,7 +198,7 @@ export const dateBlock = css`
     width: 100%;
     max-width: 340px;
     margin: 0 auto 60px;
-    background-color: #000;
+    background-color: #252525;
   }
 
   &.purple {
