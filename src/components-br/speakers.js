@@ -39,43 +39,6 @@ SwiperCore.use([Pagination]);
 
 const TeamCarousel = () => {
   const { sectionContent, posts } = TeamOneData;
-  //   const carouselOptions = {
-  //     spaceBetween: 0,
-  //     loop: false,
-  //     slidesPerView: 1,
-  //     pagination: {
-  //       el: "#team-carousel-pagination",
-  //       type: "bullets",
-  //       clickable: true,
-  //     },
-  //     navigation: {
-  //       nextEl: "#main-slider-next",
-  //       prevEl: "#main-slider-prev",
-  //     },
-  //     breakpoints: {
-  //       0: {
-  //         spaceBetween: 0,
-  //         slidesPerView: 1,
-  //         slidesPerGroup: 1,
-  //       },
-  //       576: {
-  //         spaceBetween: 8,
-  //         slidesPerView: 2,
-  //         slidesPerGroup: 2,
-  //       },
-  //       992: {
-  //         spaceBetween: 8,
-  //         slidesPerView: 3,
-  //         slidesPerGroup: 3,
-  //       },
-  //       1200: {
-  //         spaceBetween: 8,
-  //         slidesPerView: 4,
-  //         slidesPerGroup: 4,
-  //       },
-  //     },
-  //   };
-
   return (
     <section css={[team, commonSection]}>
       <Container fluid>

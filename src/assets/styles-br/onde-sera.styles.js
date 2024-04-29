@@ -236,12 +236,16 @@ export const header = css`
   justify-content: flex-end;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding-block: 38px;
+    padding-block: 36px;
   }
 
   .title_container {
     max-width: 589px;
     margin-right: 45px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      margin-right: 25px;
+      }
 
     .title {
       font-family: "Bw Gradual DEMO";
@@ -253,7 +257,7 @@ export const header = css`
       letter-spacing: 0;
 
       @media (min-width: 320px) and (max-width: 767px) {
-        font-size: 20px;
+        font-size: 19px;
         line-height: 22px;
       }
       @media (min-width: 768px) and (max-width: 1280px) {

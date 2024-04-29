@@ -341,10 +341,14 @@ export const header = css`
       font-family: 'Bw Gradual DEMO';
       font-size: 56px;
       font-weight: bold;
-      line-height: 67.2px;
+      line-height: 47.2px;
       margin: 0;
       text-align: left;
       letter-spacing: 0;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 40px;
+    }
     }
   }
 

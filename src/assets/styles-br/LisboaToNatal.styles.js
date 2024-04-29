@@ -43,7 +43,7 @@ export const pr79 = css`
   z-index: 99;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 32px 16px;
+    padding: 32px 16px 8px;
     justify-content: flex-start;
   }
   @media (min-width: 768px) and (max-width: 990px) {
@@ -84,6 +84,7 @@ export const about = css`
     @media (min-width: 320px) and (max-width: 767px) {
      font-size: 20px;
      line-height: 24px;
+     margin-bottom: 0;
     }
   }
 
@@ -96,6 +97,7 @@ export const about = css`
     margin-bottom: 32px;
     @media (min-width: 320px) and (max-width: 767px) {
      font-size: 20px;
+     margin-bottom: 0;
     }
   }
 
@@ -109,6 +111,7 @@ export const about = css`
     width: 100%;
     max-width: 640px;
     text-align: center;
+    letter-spacing: 0;
 
     @media (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 0;

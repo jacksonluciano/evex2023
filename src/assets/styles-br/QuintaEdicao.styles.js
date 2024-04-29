@@ -56,11 +56,12 @@ export const gradient = css`
   h1 {
     color: #ffffff;
     text-align: center;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
     font-size: 120px;
     @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 38px;
+      font-size: 36px;
+      margin-bottom: 0;
     }
   }
 `;
@@ -133,16 +134,19 @@ export const lisboaTwo = css`
 
   h2 {
     color: #000;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
     letter-spacing: 0;
     font-size: 56px;
     margin-bottom: 12px;
 
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 48px;
+    }
+
     @media (min-width: 768px) and (max-width: 1280px) {
       font-size: 50px;
     }
-
   }
 
   p {
@@ -174,13 +178,12 @@ export const lisboaTwo = css`
     width: auto;
     height: 475px;
     @media (min-width: 320px) and (max-width: 767px) {
-     width: 32px;
-   }
-   @media (min-width: 768px) and (max-width: 1280px) {
-     width: 140px;
-   }
+      width: 32px;
+    }
+    @media (min-width: 768px) and (max-width: 1280px) {
+      width: 140px;
+    }
   }
-
 `;
 
 export const lightBg = css`
@@ -379,40 +382,44 @@ export const sideColumn = css`
   flex-direction: column;
   justify-content: center;
   padding-left: 60px;
-  transition: all .3s;
+  transition: all 0.3s;
 
-  &:hover{
-    background: radial-gradient(76.58% 269.54% at 97.41% 97.62%, #E4A939 0%, #FF4001 35.91%, #E3E3E2 100%);
+  &:hover {
+    background: radial-gradient(
+      76.58% 269.54% at 97.41% 97.62%,
+      #e4a939 0%,
+      #ff4001 35.91%,
+      #e3e3e2 100%
+    );
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 0 26px;
-    }
+  }
 
   h5 {
     font-size: 25px;
     margin-bottom: 0px;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
     letter-spacing: 0;
     color: #000;
     @media (min-width: 320px) and (max-width: 767px) {
-    font-size: 14px;
+      font-size: 14px;
     }
   }
   p {
     font-size: 20px;
     color: #000;
     margin: 0;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: 500;
     letter-spacing: 0;
-    span{
+    span {
       font-weight: bold;
-      
     }
     @media (min-width: 320px) and (max-width: 767px) {
-    font-size: 12px;
+      font-size: 12px;
     }
   }
 `;
@@ -443,14 +450,14 @@ export const content = css`
 
   @media (min-width: 320px) and (max-width: 767px) {
     height: auto;
-    }
+  }
 
   .info-content {
     width: 100%;
     max-width: 532px;
 
     h2 {
-      font-family: 'Bw Gradual DEMO';
+      font-family: "Bw Gradual DEMO";
       font-size: 56px;
       font-weight: bold;
       line-height: 67.2px;
@@ -459,12 +466,12 @@ export const content = css`
 
     p {
       color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21.97px;
-    width: 100%;
-    max-width: 527px;
-    letter-spacing: 0;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.97px;
+      width: 100%;
+      max-width: 527px;
+      letter-spacing: 0;
     }
 
     a {

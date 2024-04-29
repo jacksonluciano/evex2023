@@ -214,6 +214,9 @@ export const content = css`
   padding-bottom: 200px;
   background-color: #e3e3e2;
   overflow-x: clip;
+  section{
+    display: none;
+  }
 `;
 export const imgOrange = css`
   position: absolute;

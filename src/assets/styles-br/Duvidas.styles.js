@@ -77,6 +77,12 @@ export const realization = css`
   max-width: 980px;
   margin: 0 auto 80px;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+   padding-left: 15px;
+   padding-right: 15px;
+
+  }
+
   div div {
     display: flex;
     justify-content: flex-start;
@@ -100,6 +106,10 @@ export const realization = css`
     letter-spacing: 0;
     font-size: 25px;
     /* text-decoration: underline; */
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 20px;
+    text-align: center;
+    }
   }
 
   img {
@@ -157,6 +167,9 @@ export const contact = css`
     position: relative;
     height: 100%;
     min-height: 309px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      min-height: 209px;
+  }
   }
 
   #contato {
@@ -165,8 +178,10 @@ export const contact = css`
         #fe05c5 3.05%,
         #ef2483 35.31%,
         #e3e3e2 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      );
+      @media (min-width: 320px) and (max-width: 767px) {
+      padding-left: 40px !important;
+      }
 
     display: flex;
     flex-direction: column;
@@ -387,6 +402,11 @@ export const apoio = css`
   margin-left: auto;
   margin-right: auto;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
   h2 {
     font-family: "Bw Gradual DEMO";
     font-weight: bold;
@@ -409,6 +429,10 @@ export const apoio = css`
     li {
       margin: 10px;
       width: 120px;
+
+      img{
+        mix-blend-mode: multiply;
+      }
 
       @media (min-width: 320px) and (max-width: 767px) {
         width: 20%;

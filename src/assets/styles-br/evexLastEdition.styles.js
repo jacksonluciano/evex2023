@@ -38,7 +38,11 @@ export const content = css`
   );
   padding: 30px;
   height: 405px;
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 420px) {
+    height: 300px;
+    padding: 20px;
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
     height: 300px;
     padding: 0 30px;
   }
@@ -49,8 +53,13 @@ export const content = css`
     line-height: 67.2px;
     margin-bottom: 31px;
 
-    @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 20px;
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 22px;
+      margin-bottom: 16px;
+      line-height: 22px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      font-size: 24px;
       margin-bottom: 0px;
     }
     @media (min-width: 768px) and (max-width: 1280px) {
@@ -64,8 +73,12 @@ export const content = css`
     font-weight: 400;
     line-height: 21.79px;
     letter-spacing: 0;
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
       font-size: 12px;
+      line-height: 15px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      font-size: 14px;
       line-height: 18px;
     }
     @media (min-width: 768px) and (max-width: 1280px) {

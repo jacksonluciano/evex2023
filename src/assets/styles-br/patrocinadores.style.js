@@ -51,11 +51,10 @@ export const about = css`
 
   h2 {
     color: #000000;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
     font-size: 25px;
     @media (min-width: 320px) and (max-width: 767px) {
-      
     }
   }
 
@@ -75,7 +74,7 @@ export const about = css`
     font-size: 25px;
     margin-bottom: 16px;
     text-align: center;
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
   }
 
@@ -322,15 +321,16 @@ export const realization = css`
 
 export const element11 = css`
   position: absolute;
-    width: 300px !important;
-    top: 280px;
-    left: -15px;
-    z-index: 0;
-    transform: rotate(180deg);
+  width: 300px !important;
+  top: 280px;
+  left: -15px;
+  z-index: 0;
+  transform: rotate(180deg);
   @media (min-width: 320px) and (max-width: 767px) {
     right: auto;
-    left: -40px;
+    left: -20px;
     width: 100px !important;
+    top: 156px;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     left: 0px;
@@ -339,13 +339,19 @@ export const element11 = css`
 
 export const element12 = css`
   position: absolute;
-    width: 300px !important;
-    top: 1000px;
-    right: 0px;
-    z-index: 1;
-  @media (min-width: 320px) and (max-width: 767px) {
-    right: -40px;
-    width: 100px !important;
+  width: 300px !important;
+  top: 1000px;
+  right: 0px;
+  z-index: 1;
+  @media (min-width: 320px) and (max-width: 420px) {
+    right: 0;
+        width: 100px !important;
+        top: 650px;
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
+    right: 0;
+        width: 100px !important;
+        top: 650px;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     right: 0px;
@@ -353,11 +359,28 @@ export const element12 = css`
 `;
 
 export const element13 = css`
+display: none;
   position: absolute;
   width: auto !important;
   right: -15px;
   top: 1040px;
   z-index: 0;
+  @media (min-width: 320px) and (max-width: 420px) {
+    display: block;
+    width: 100px !important;
+    top: 1145px;
+    left: 0px;
+    z-index: 99;
+    transform: scaleX(-1);
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
+    display: block;
+    width: 100px !important;
+    top: 1245px;
+    left: 0px;
+    z-index: 99;
+    transform: scaleX(-1);
+  }
 `;
 
 export const imgFull = css`
@@ -386,7 +409,7 @@ export const titleHero = css`
 
     h2 {
       margin: 0;
-      font-family: 'Bw Gradual DEMO';
+      font-family: "Bw Gradual DEMO";
       font-weight: bold;
       font-size: 78px;
       @media (min-width: 320px) and (max-width: 767px) {

@@ -27,7 +27,7 @@ export const bannerContent = css`
     font-family: "Bw Gradual DEMO";
 
     @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     span {
@@ -39,6 +39,9 @@ export const bannerContent = css`
         color: #000;
         background-color: #ffffff;
       }
+      @media (min-width: 320px) and (max-width: 767px) {
+        padding: 8px;
+    }
     }
   }
 
@@ -79,6 +82,10 @@ export const Buttons = css`
     padding: 8px 32px;
     width: 399px;
     border: 4px solid #000;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        margin: 4px;
+    }
 
     &:hover {
       background-color: #fff;

@@ -3,6 +3,7 @@ import React from "react";
 import { PatrocinadoresData } from "@/data";
 import Element11 from "@/images-br/home-br/element_patrocinio.svg"
 import Element12 from "@/images-br/home-br/element_patrocinio.svg"
+import Element13 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images/pat.png'
 import Img1 from '@/images/apoio/abeeolica.svg'
@@ -42,6 +43,7 @@ import {
   about,
   element11,
   element12,
+  element13,
   titleHero,
 }  from '../assets/styles-br/patrocinadores.style.js'
 import {
@@ -151,13 +153,14 @@ const Patrocinadores = () => {
                     
                   {/* </ul>
                </section> */}
-               {/* <img css={element13} src={Element13} /> */}
+               
            </div>
           </Col>
         </Row>
       </Container>
       <img css={element11} src={Element11} />   
            <img css={element12} src={Element12} />
+           <img css={element13} src={Element13} />
     </section>
   );
 };

@@ -16,7 +16,7 @@ export const team = css`
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-bottom: 24px;
 
     @media (min-width: 320px) and (max-width: 767px) {
@@ -66,35 +66,6 @@ export const singleTM = css`
   -moz-transition: all ease 400ms;
   margin-bottom: 32px;
 
-  /* &:hover {
-    & div:nth-child(1) img {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-    }
-    & div:nth-child(1) {
-      & > div {
-        &:after {
-          width: 100%;
-        }
-        div {
-          visibility: visible;
-          opacity: 1;
-          left: 50px;
-        }
-      }
-    }
-    & div:nth-child(2) {
-      h5 {
-        color: #e62b4a;
-      }
-      h6 {
-        &:after {
-          width: 100%;
-        }
-      }
-    }
-  } */
-
   & div:nth-child(1) {
     //tm_overlay
     & > div {
@@ -108,19 +79,6 @@ export const singleTM = css`
       -webkit-transition: all ease 900ms;
       -o-transition: all ease 900ms;
 
-      /* &:after {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background: rgba(230, 43, 74, 0.7);
-        overflow: hidden;
-        width: 0;
-        height: 100%;
-        content: "";
-        transition: all ease 400ms;
-        -webkit-transition: all ease 400ms;
-        -moz-transition: all ease 400ms;
-      } */
       //team_social
       div {
         position: absolute;
@@ -152,20 +110,6 @@ export const singleTM = css`
                 width: 100%;
               }
             }
-
-            /* &:after {
-              width: 0;
-              height: 1px;
-              content: "";
-              background: #fff;
-              position: absolute;
-              left: 0;
-              right: 0;
-              margin: 0 auto;
-              bottom: -0px;
-              -webkit-transition: all 0.4s ease-out;
-              transition: all 0.4s ease-out;
-            } */
           }
         }
       }
@@ -181,13 +125,6 @@ export const tmImg = css`
     width: 100%;
     height: auto;
     max-width: none;
-    /* width: calc(100% + 20px); */
-    /* -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; */
   }
 `;
 
@@ -345,6 +282,10 @@ export const speakersTitle = css`
   text-align: center;
   height: 100vh;
   position: relative;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    background-size: contain;
+    }
 
   .heroTitle {
     position: relative;
