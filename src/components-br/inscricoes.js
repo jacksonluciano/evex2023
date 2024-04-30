@@ -69,10 +69,10 @@ const Inscricoes = () => {
                   <h2>EVEx Pass Brasil</h2>
                   <p className="text">Ingresso para os<br/> 2 dias de evento</p>
                   {/* <h3>02 a 05 de Outubro</h3> */}
-                  <p>Profissionais (1° lote até 30/04)</p>
-                  <h4>R$ 1.260,00</h4><br/>
-                  <p>Estudantes (1° lote até 30/04)</p>
-                  <h4>R$ 630,00</h4>
+                  <p>Profissionais (1° lote até 17/05)</p>
+                  <h4>R$ 750,00</h4><br/>
+                  <p>Estudantes (1° lote até 17/05)</p>
+                  <h4>R$ 450,00</h4>
                   
                   <ul>
                   <p style={{textAlign: 'left', marginLeft: '-20px'}}>O investimento inclui:</p>
@@ -80,11 +80,11 @@ const Inscricoes = () => {
                       <p>- Acesso à programação completa</p>
                       <p>- Kit de credenciamento</p>
                       <p>- Coffee breaks</p>
-                      <p>- Materiai das apresentações</p>
+                      <p>- Materiais das apresentações</p>
                       <p>- Certificado de participação</p>
                     </li>
                   </ul>
-                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                  <a href="https://www.sympla.com.br/evento/evex-brasil-2024-natal-energy-experience/2432817" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
                   {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
                 </div>
               </Col>
@@ -94,9 +94,9 @@ const Inscricoes = () => {
                   <h2>EVEx Paper/Project Brasil</h2>
                   <p className="text">Ingresso exclusivo para autores<br/> aprovados no evento</p>
                   <p>Profissionais</p>
-                  <h4>R$ 2.240,00</h4>
+                  <h4>R$ 1.260,00</h4>
                   <p>Estudantes</p>
-                  <h4>R$ 2.240,00</h4>
+                  <h4>R$ 756,00</h4>
                   <ul style={{padding: '0 30px'}}>
                      <p style={{textAlign: 'left', marginLeft: '-20px'}}>O investimento inclui:</p>
                     <li>
@@ -109,7 +109,7 @@ const Inscricoes = () => {
                       <p>- Certificado de participação</p>
                     </li>
                   </ul>
-                  <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                  <a href="https://www.sympla.com.br/evento/evex-brasil-2024-natal-energy-experience/2432817" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
                   {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
                 </div>
               </Col>
