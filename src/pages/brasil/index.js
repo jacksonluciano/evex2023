@@ -12,10 +12,7 @@ import MenuContextProvider from "@/context/menu-context";
 import HeroVideo from "@/components-br/hero-video";
 import OndeSera from "@/components-br/onde-sera";
 import ComoSera from "@/components-br/como-sera";
-// import EvexLisboa2023 from "@/components/evex-lisboa-2023";
 import TransicaoEnergetica from "@/components-br/transicao-energetica";
-// import Comite from "@/components/comite";
-// import Faq from "@/components/faq"
 import Bigcta from "@/components-br/big-cta";
 import Patrocinadores from "@/components-br/patrocinadores";
 import Duvidas from "@/components-br/duvidas"
@@ -35,12 +32,6 @@ const HomeOne = () => {
           <ComoSera />         
           <SpeakersHome />
           <Bigcta />
-          {/* <EvexLisboa2023 /> */}
-          {/* <VideoTwo />          */}
-          {/* <FunfactOne /> */}
-          {/* <ClientCarouselOne /> */}
-          {/* <Comite /> */}
-          {/* <Faq /> */}
           <Patrocinadores />
           <Duvidas />
           <Footer />
