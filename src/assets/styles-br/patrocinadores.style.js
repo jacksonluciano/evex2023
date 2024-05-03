@@ -81,13 +81,14 @@ export const about = css`
   .diamante {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
     ul {
       margin: 0;
       padding: 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      justify-content: center;
 
       @media (min-width: 320px) and (max-width: 767px) {
         flex-direction: column;
@@ -98,7 +99,7 @@ export const about = css`
 
       li {
         img {
-          height: 120px;
+          /* height: 120px; */
         }
       }
     }

@@ -17,18 +17,23 @@ import Evex02CarouselImg05 from '@/images-br/o-evex/carousel02-img-05.png'
 import Evex02CarouselImg06 from '@/images-br/o-evex/carousel02-img-06.png'
 import Evex02CarouselImg07 from '@/images-br/o-evex/carousel02-img-07.png'
 import Evex02CarouselImg08 from '@/images-br/o-evex/carousel02-img-08.png'
-import Evex03CarouselImg01 from '@/images-br/o-evex/carousel03-img-01.png'
-import Evex03CarouselImg02 from '@/images-br/o-evex/carousel03-img-02.png'
-import Evex03CarouselImg03 from '@/images-br/o-evex/carousel03-img-03.png'
-import Evex03CarouselImg04 from '@/images-br/o-evex/carousel03-img-04.png'
-import Evex03CarouselImg05 from '@/images-br/o-evex/carousel03-img-05.png'
-import Evex03CarouselImg06 from '@/images-br/o-evex/carousel03-img-06.png'
-import Evex03CarouselImg07 from '@/images-br/o-evex/carousel03-img-07.png'
-import Evex03CarouselImg08 from '@/images-br/o-evex/carousel03-img-08.png'
-import Evex03CarouselImg09 from '@/images-br/o-evex/carousel03-img-09.png'
-import Evex03CarouselImg10 from '@/images-br/o-evex/carousel03-img-10.png'
-import Evex03CarouselImg11 from '@/images-br/o-evex/carousel03-img-11.png'
-import Evex03CarouselImg12 from '@/images-br/o-evex/carousel03-img-12.png'
+
+import Evex03CarouselImg01 from '@/images-br/o-evex/carousel03/01.jpg'
+import Evex03CarouselImg02 from '@/images-br/o-evex/carousel03/02.jpg'
+import Evex03CarouselImg03 from '@/images-br/o-evex/carousel03/03.jpg'
+import Evex03CarouselImg04 from '@/images-br/o-evex/carousel03/04.jpg'
+import Evex03CarouselImg05 from '@/images-br/o-evex/carousel03/05.jpg'
+import Evex03CarouselImg06 from '@/images-br/o-evex/carousel03/06.jpg'
+import Evex03CarouselImg07 from '@/images-br/o-evex/carousel03/07.jpg'
+import Evex03CarouselImg08 from '@/images-br/o-evex/carousel03/08.jpg'
+import Evex03CarouselImg09 from '@/images-br/o-evex/carousel03/081.jpg'
+import Evex03CarouselImg10 from '@/images-br/o-evex/carousel03/09.jpg'
+import Evex03CarouselImg11 from '@/images-br/o-evex/carousel03/10.jpg'
+import Evex03CarouselImg12 from '@/images-br/o-evex/carousel03/11.jpg'
+import Evex03CarouselImg13 from '@/images-br/o-evex/carousel03/12.jpg'
+import Evex03CarouselImg14 from '@/images-br/o-evex/carousel03/13.jpg'
+import Evex03CarouselImg15 from '@/images-br/o-evex/carousel03/14.jpg'
+
 import Natal01CarouselImg01 from '@/images-br/natal/natal-carousel01-img01.png'
 import Natal01CarouselImg02 from '@/images-br/natal/natal-carousel01-img02.png'
 import Natal01CarouselImg03 from '@/images-br/natal/natal-carousel01-img03.png'
@@ -78,6 +83,7 @@ import Speaker24 from "@/images-br/comite-br/Alice-Khouri.png"
 import Speaker25 from "@/images-br/comite-br/Hirdan-Medeiros.png"
 
 import Normas from '@/images-br/files/Regras de formatação - EVEx Brasil 2024.pdf'
+import Eixos from '@/images-br/papers/eixos_tematicos.jpg'
 
 
 import instagramIcon from "@/images-br/instagram.svg"
@@ -139,6 +145,10 @@ export const NavBrLinks = [
   {
     name: "Contato",
     url: "/brasil/#footer",
+  },
+  {
+    name: "Home",
+    url: "/",
   },
 ];
 
@@ -263,6 +273,18 @@ export const EvexData3 = [
   {
     id: 12,
     img: Evex03CarouselImg12
+  },
+  {
+    id: 13,
+    img: Evex03CarouselImg13
+  },
+  {
+    id: 14,
+    img: Evex03CarouselImg14
+  },
+  {
+    id: 15,
+    img: Evex03CarouselImg15
   }
 ]
 
@@ -409,11 +431,11 @@ export const downloadLinks = [
     name: 'Normas',
     url: Normas,
   },
-  // {
-  //   number: 2,
-  //   name: 'Eixos Temáticos',
-  //   url: 'https://evex.energy/static/EVEx2023%20-%20Eixos%20Tema%CC%81ticos-1ab47d81c184b6360a8ea9539952b3e6.pdf',
-  // },
+  {
+    number: 2,
+    name: 'Eixos Temáticos',
+    url: Eixos,
+  },
   {
     number: 3,
     name: 'Formulário de Resumo',

@@ -68,7 +68,7 @@ const ComoSera = () => {
                </div>
                 <div className="text">
                     <h4>Natal Energy Academy</h4>
-                    <p>Apresentações de trabalhos acadêmicos e projetos <br /> científicos na área de energia.</p>
+                    <p>Apresentações de trabalhos, projetos e soluções <br /> inovadoras na área de energia.</p>
                 </div>
              </div>
              <div className="step">
@@ -86,7 +86,7 @@ const ComoSera = () => {
                </div>
                 <div className="text">
                     <h4>Natal Energy Expo/Business</h4>
-                    <p>Exposição de serviços, novas tecnologias e <br /> modelos de negócios para a transição energética.</p>
+                    <p>Exposição de cases de sucesso, novas tecnologias e <br /> oportunidades de negócios na transição energética.</p>
                 </div>
              </div>
           </div>

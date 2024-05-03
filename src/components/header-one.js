@@ -54,7 +54,7 @@ const HeaderOne = () => {
         <Row className="justify-content-between">
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div css={logo}>
-              <Link to="/">
+              <Link to="/lisboa">
                 <img src={LogoImage.light} alt="Evex" className="d-none d-lg-block" />
                 <img src={LogoImage.light} alt="Evex" className="d-block d-md-block d-lg-none" />
               </Link>
