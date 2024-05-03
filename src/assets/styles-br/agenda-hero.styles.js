@@ -69,12 +69,21 @@ export const informations = css`
     position: absolute;
     top: -140px;
     left: 0;
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 110px;
+      top: 0;
+    }
   }
 
   .element02 {
     position: absolute;
     bottom: 0;
     right: 0;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 110px;
+      top: 100px;
+    }
   }
 
   p {

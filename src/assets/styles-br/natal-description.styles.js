@@ -147,7 +147,7 @@ export const header = css`
   }
   @media (min-width: 768px) and (max-width: 1280px) {
     padding-block: 40px;
-    }
+  }
 
   .title_container {
     max-width: 589px;
@@ -190,6 +190,12 @@ export const content = css`
     width: 100%;
     max-width: 492px;
     margin-right: 142px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 100%;
+      max-width: 280px;
+      margin: 32px 12px 0;
+    }
 
     @media (min-width: 768px) and (max-width: 1280px) {
       margin-right: 75px;
@@ -341,8 +347,12 @@ export const teamPagination = css`
 `;
 
 export const lastcontainer = css`
-background-color: #e3e3e2;
+  background-color: #e3e3e2;
   padding: 50px 0 295px;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    padding: 50px 0 32px;
+  }
 
   .slider {
     width: 375px !important;

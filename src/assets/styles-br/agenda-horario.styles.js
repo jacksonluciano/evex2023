@@ -214,7 +214,10 @@ export const content = css`
   padding-bottom: 200px;
   background-color: #e3e3e2;
   overflow-x: clip;
-  section{
+  @media (min-width: 320px) and (max-width: 768px) {
+    padding-bottom: 32px;
+  }
+  section {
     display: none;
   }
 `;
@@ -222,6 +225,9 @@ export const imgOrange = css`
   position: absolute;
   width: 100%;
   bottom: 0;
+  @media (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const element1 = css`
   position: absolute;
@@ -239,11 +245,11 @@ export const element3 = css`
   left: -250px;
 `;
 export const element4 = css`
- -webkit-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   position: absolute;
   top: 24px;
-    right: -150px;
+  right: -150px;
 `;
 
 export const element5 = css`

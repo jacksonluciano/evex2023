@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col xs={12} lg={6} className="px-0">
-            <div css={sideColumn} style={{height : '50%', paddingLeft: '80px'}}>
+            <div css={sideColumn} className="news" style={{height : '50%', paddingLeft: '80px'}}>
               <aside css={[widget, aboutWidget]}>
                 <h2>News</h2>
                 <p>Fique por dentro das novidades do EVEx Brasil 2024.</p>

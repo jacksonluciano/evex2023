@@ -285,12 +285,19 @@ export const speakersTitle = css`
 
   @media (min-width: 320px) and (max-width: 768px) {
     background-size: contain;
+    height: 245px;
     }
 
   .heroTitle {
     position: relative;
     z-index: 99;
     top: 120px;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+      position: relative;
+    z-index: 99;
+    top: 42px;
+    }
 
     @media (min-width: 768px) and (max-width: 1280px) {
       top: 140px;
@@ -314,6 +321,10 @@ export const speakersTitle = css`
     color: #000000;
     font-size: 16px;
     line-height: 21px;
+    @media (min-width: 320px) and (max-width: 768px) {
+    font-size: 12px;
+    line-height: 14px;
+    }
   }
 
   img {

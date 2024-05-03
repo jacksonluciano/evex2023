@@ -293,6 +293,9 @@ export const sideColumn = css`
     &:nth-of-type(1) {
       text-align: center;
     }
+    &.news{
+      padding-left: 32px !important;
+    }
   }
 
   h2 {
