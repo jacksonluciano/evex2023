@@ -5,7 +5,7 @@ import Element11 from "@/images-br/home-br/element_patrocinio.svg"
 import Element12 from "@/images-br/home-br/element_patrocinio.svg"
 import Element13 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
-import Img from '@/images/pat.png'
+import Img from '@/images-br/home-br/petro-govbr.png'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
 import Img3 from '@/images/apoio/ape.jpg'
@@ -72,14 +72,14 @@ const Patrocinadores = () => {
            <div css={about}>
               
 
-              {/* <section className='diamante'>
+              <section className='diamante'>
                 <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
                     <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
+                    {/* <li><img src={Img} /></li>
+                    <li><img src={Img} /></li> */}
                   </ul>
-               </section> */}
+               </section>
 {/* 
                <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>

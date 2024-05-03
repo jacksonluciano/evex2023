@@ -5,7 +5,7 @@ import { colors, colorsBr } from "../styles/layout.styles";
 export const abAgency = css`
   background-color: #e3e3e2;
   position: relative;
-  padding-bottom: 140px;
+  padding-bottom: 112px;
   /* padding-top: 32px; */
 
   @media (min-width: 320px) and (max-width: 767px) {

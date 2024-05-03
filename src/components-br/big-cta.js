@@ -36,7 +36,7 @@ const Bigcta = () => {
                     <li><p><span></span> Transição Energética Justa </p></li>
                     <li><p><span></span> Industrialização Verde </p></li>
                     <li><p><span></span> Descarbonização</p></li>
-                    <li><p><span></span> Segurança Energética</p></li>
+                    <li><p><span></span> Geração Distribuída</p></li>
                     <li><p><span></span> Hidrogênio Verde</p></li>
                     <li><p><span></span> Eólicas Offshore</p></li>
                     <li><p><span></span> Mercado Livre de Energia</p></li>

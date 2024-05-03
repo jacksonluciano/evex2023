@@ -30,6 +30,8 @@ import Img13 from '@/images/apoio/WINESG.svg'
 import Img14 from '@/images/apoio/mackenzie.png'
 import Img15 from '@/images/apoio/fgv_energia.png'
 import Img16 from '@/images/apoio/ccee.png'
+import Img17 from '@/images-br/home-br/ABIHV.png'
+import Img18 from '@/images-br/home-br/ABIOGAS.png'
 
 import {
   abAgency,
@@ -100,7 +102,7 @@ const Duvidas = () => {
             </Col>
 
             <Col lg={6} md={6} sm={6} xs={6}>
-              <h4 css={secDesk}>Parceiro da Mídia</h4>
+              <h4 css={secDesk}>Parceiro de Mídia</h4>
               <a href='#' target='_blank'>
                 <img src={logoEp} style={{width: '100px'}} />
               </a>           
@@ -133,6 +135,14 @@ const Duvidas = () => {
             </li>
             <li>
               <img src={Img14} />
+            </li>
+            <li>
+              <img src={Img17} />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src={Img18} />
             </li>
           </ul>
         </section>

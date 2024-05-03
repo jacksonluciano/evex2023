@@ -81,7 +81,7 @@ const Home = ({ title, name }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/">
+                    <Link to="/lisboa">
                       <span>EVEx 2024</span>
                       <span>Energy Virtual Experience</span>               
                     </Link>

@@ -18,7 +18,7 @@ const PapersTimeLine = () => {
         <Row>
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>
             <span>Data limite para envio de resumos:</span>
-            <span>31/05/2024</span>
+            <span>07/06/2024</span>
           </Col>
 
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>

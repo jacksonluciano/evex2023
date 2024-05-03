@@ -218,6 +218,10 @@ export const NavLinks = [
     name: "Contato",
     url: "/lisboa/#contato",
   },
+  {
+    name: "Home",
+    url: "/",
+  },
 ];
 
 
