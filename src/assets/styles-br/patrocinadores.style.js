@@ -99,7 +99,7 @@ export const about = css`
 
       li {
         img {
-          /* height: 120px; */
+          height: 112px;
         }
       }
     }
@@ -158,7 +158,7 @@ export const about = css`
           float: left;
         }
         img {
-          height: 132px;
+          height: 115px;
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
             max-width: 80%;
@@ -341,7 +341,7 @@ export const element11 = css`
 export const element12 = css`
   position: absolute;
   width: 300px !important;
-  top: 1000px;
+  top: 1154px;
   right: 0px;
   z-index: 1;
   @media (min-width: 320px) and (max-width: 420px) {
