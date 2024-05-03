@@ -25,30 +25,84 @@ const GlobalStyles = () => {
     <Global
       styles={css`
         /* @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700'); */
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-        
+        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
         @font-face {
-          font-family: 'bw_gradual_demoregular';
+          font-family: "bw_gradual_demoregular";
           font-display: swap;
           font-style: normal;
-          font-named-instance: 'Regular';
+          font-named-instance: "Regular";
           src: url(/fonts/bwgradualdemo-regular-webfont.woff2) format("woff2");
         }
 
         @font-face {
-          font-family: 'bw_gradual_demomedium';
+          font-family: "bw_gradual_demomedium";
           font-display: swap;
           font-style: normal;
-          font-named-instance: 'Medium';
+          font-named-instance: "Medium";
           src: url(/fonts/bwgradualdemo-medium-webfont.woff2) format("woff2");
         }
 
         @font-face {
-          font-family: 'bw_gradual_demobold';
+          font-family: "bw_gradual_demobold";
           font-display: swap;
           font-style: normal;
-          font-named-instance: 'Bold';
+          font-named-instance: "Bold";
           src: url(/fonts/bwgradualdemo-bold-webfont.woff2) format("woff2");
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Bold.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Bold.woff) format("woff");
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Medium.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Medium.woff) format("woff");
+          font-weight: 500;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Regular.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Regular.woff) format("woff");
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Light.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Light.woff) format("woff");
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Light.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Light.woff) format("woff");
+          font-weight: 300;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Thin.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Thin.woff) format("woff");
+          font-weight: 100;
+          font-style: normal;
+          font-display: swap;
         }
 
         body,
@@ -62,7 +116,7 @@ const GlobalStyles = () => {
           line-height: 32px;
           letter-spacing: 0.64px;
           font-size: 16px;
-          font-family: 'Open Sans', sans-serif !important;
+          font-family: "Open Sans", sans-serif !important;
           /* font-weight: 400; */
           /* transition: all ease 400ms;
           -webkit-transition: all ease 400ms;
@@ -105,7 +159,7 @@ const GlobalStyles = () => {
           padding: 0;
           list-style: none;
         }
-        p{
+        p {
           color: #686868;
         }
 

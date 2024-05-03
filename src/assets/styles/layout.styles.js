@@ -11,6 +11,17 @@ export const colors = {
   brandingOrange: "#f5a282"
 };
 
+export const colorsBr = {
+  themeRed: "#FF4001",
+  themePink: "#FE05C5",
+  themePurple: "#9A2FF6",
+  themeGreen: "#01F201",
+  secondaryYellow: "#E4A939",
+  secondaryPink: "#EF2483",
+  secondaryPurple: "#CC6AE3",
+  secondaryBlue: "#4CD6D9"
+};
+
 export const commonSection = css`
   padding: 120px 0;
   position: relative;
@@ -75,7 +86,7 @@ export const colorAaa = css`
 
 export const commonBtn = css`
   border: none;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   background: ${colors.primaryMain};
   color: #fff;
@@ -90,6 +101,7 @@ export const commonBtn = css`
   -webkit-transition: all 0.4s ease-out;
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out; */
+  font-family: "bw_gradual_demobold";
 
   &:hover {
     color: #000;
@@ -114,6 +126,35 @@ export const commonBtn = css`
     -ms-transition: all 0.4s ease-out;
     -o-transition: all 0.4s ease-out;
   } */
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+`;
+
+
+export const commonBtnBr = css`
+  border: none;
+  font-size: 20px;
+  font-family: 'Bw Gradual DEMO';
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 18px;
+  line-height: 0.8;
+  letter-spacing: 0px;
+  position: relative;
+  outline: none;
+  border: 4px solid #000;
+  
+
+  &:hover {
+    color: #000;
+    background-color: #fff;
+    /* box-shadow: inset 0px 0px 0px 3px #000; */
+  }
 
   span {
     position: relative;
