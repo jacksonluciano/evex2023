@@ -193,7 +193,7 @@ export const content = css`
 
     @media (min-width: 320px) and (max-width: 767px) {
       width: 100%;
-      max-width: 280px;
+      max-width: 308px;
       margin: 32px 12px 0;
     }
 
