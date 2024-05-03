@@ -347,6 +347,10 @@ export const speakersTitle = css`
   height: 720px;
   position: relative;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+    height: 390px;
+  }
+
   .heroTitle {
     position: relative;
     z-index: 99;
@@ -366,6 +370,10 @@ export const speakersTitle = css`
     font-size: 100px;
     text-decoration: none;
     line-height: 100px;
+    @media (min-width: 320px) and (max-width: 768px) {
+      font-size: 36px;
+    line-height: 40px;
+    }
   }
 
   p {
@@ -375,6 +383,10 @@ export const speakersTitle = css`
     color: #000000;
     font-size: 16px;
     line-height: 21px;
+    @media (min-width: 320px) and (max-width: 768px) {
+      font-size: 12px;
+    line-height: 14px;
+    }
     @media (min-width: 768px) and (max-width: 1280px) {
       width: 100%;
       max-width: 778px;
@@ -400,6 +412,9 @@ export const speakersTitle = css`
 
 export const speakersCards = css`
   margin-top: 160px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-top: 32px;
+    }
   @media (min-width: 768px) and (max-width: 1280px) {
     max-width: 1070px;
   }

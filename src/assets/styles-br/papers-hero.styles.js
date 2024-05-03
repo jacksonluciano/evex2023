@@ -116,6 +116,10 @@ export const sectionHeroPapers = css`
 `
 export const element = css`
   position:absolute;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+   display: none;
+    }
  
   @media (min-width: 768px) and (max-width: 1280px) {
     left: -22%;
