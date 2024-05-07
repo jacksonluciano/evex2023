@@ -6,10 +6,6 @@ export const abAgency = css`
   background-color: #e3e3e2;
   position: relative;
   overflow-x: clip;
-
-  img {
-    width: 100%;
-  }
 `;
 
 export const pr79 = css`
