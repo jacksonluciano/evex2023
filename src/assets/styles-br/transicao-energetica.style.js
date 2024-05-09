@@ -18,7 +18,7 @@ export const abAgency = css`
     }
   }
   @media (min-width: 320px) and (max-width: 767px) {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 `;
 
@@ -206,8 +206,13 @@ export const dateBlock = css`
     line-height: 28px;
     font-weight: bold;
 
-    @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 16px !important;
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 12px !important;
+      line-height: 18px;
+      padding: 0;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      font-size: 12px !important;
       line-height: 18px;
       padding: 0;
     }

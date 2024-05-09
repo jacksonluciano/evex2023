@@ -78,6 +78,7 @@ export const about = css`
     width: 100%;
     max-width: 980px;
     margin-bottom: 64px;
+
     ul {
       margin: 0;
       padding: 0;
@@ -96,6 +97,10 @@ export const about = css`
       li {
         img {
           height: 112px;
+          @media (min-width: 320px) and (max-width: 767px) {
+            width: 75%;
+            height: auto;
+          }
         }
       }
     }
@@ -157,7 +162,7 @@ export const about = css`
           height: 115px;
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
-            max-width: 80%;
+            max-width: 55%;
           }
         }
       }
@@ -253,6 +258,7 @@ export const about = css`
           height: 126px;
 
           @media (min-width: 320px) and (max-width: 767px) {
+            max-width: 100%;
             height: auto !important;
           }
         }
@@ -323,11 +329,17 @@ export const element11 = css`
   left: -15px;
   z-index: 0;
   transform: rotate(180deg);
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 420px) {
     right: auto;
-    left: -20px;
-    width: 100px !important;
-    top: 156px;
+    left: -12px;
+    width: 63px !important;
+    top: 283px;
+  }
+  @media (min-width: 420px) and (max-width: 767px) {
+    left: -18px;
+    width: 90px !important;
+    top: 120px;
+    z-index: 1;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     left: 0px;
@@ -341,14 +353,14 @@ export const element12 = css`
   right: 0px;
   z-index: 1;
   @media (min-width: 320px) and (max-width: 420px) {
-    right: 0;
-        width: 100px !important;
-        top: 650px;
+    right: -13px;
+    width: 77px !important;
+    top: 700px;
   }
   @media (min-width: 421px) and (max-width: 767px) {
     right: 0;
-        width: 100px !important;
-        top: 650px;
+    width: 100px !important;
+    top: 650px;
   }
   @media (min-width: 768px) and (max-width: 1440px) {
     right: 0px;
@@ -356,7 +368,7 @@ export const element12 = css`
 `;
 
 export const element13 = css`
-display: none;
+  display: none;
   position: absolute;
   width: auto !important;
   right: -15px;
@@ -364,17 +376,17 @@ display: none;
   z-index: 0;
   @media (min-width: 320px) and (max-width: 420px) {
     display: block;
-    width: 100px !important;
-    top: 1145px;
-    left: 0px;
+    width: 90px !important;
+    top: 1212px;
+    left: -16px;
     z-index: 99;
     transform: scaleX(-1);
   }
   @media (min-width: 421px) and (max-width: 767px) {
     display: block;
     width: 100px !important;
-    top: 1245px;
-    left: 0px;
+    top: 1328px;
+    left: -20px;
     z-index: 99;
     transform: scaleX(-1);
   }
@@ -401,6 +413,7 @@ export const titleHero = css`
         &:nth-of-type(3) {
           display: none;
         }
+        padding: 24px 0;
       }
     }
 

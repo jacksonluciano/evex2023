@@ -59,9 +59,15 @@ export const gradient = css`
     font-family: "Bw Gradual DEMO";
     font-weight: bold;
     font-size: 120px;
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
       font-size: 36px;
       margin-bottom: 0;
+      padding: 24px 0;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      font-size: 42px;
+      margin-bottom: 0;
+      padding: 24px 0;
     }
   }
 `;
@@ -130,6 +136,11 @@ export const lisboaTwo = css`
 
   @media (min-width: 320px) and (max-width: 767px) {
     padding: 24px 34px 60px;
+
+    a{
+      font-size: 12px;
+      padding: 10px;
+    }
   }
 
   h2 {
@@ -140,8 +151,11 @@ export const lisboaTwo = css`
     font-size: 56px;
     margin-bottom: 12px;
 
-    @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 48px;
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 20px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      font-size: 24px;
     }
 
     @media (min-width: 768px) and (max-width: 1280px) {
@@ -157,6 +171,11 @@ export const lisboaTwo = css`
     font-weight: 400;
     color: #000;
     letter-spacing: 0;
+
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 12px;
+      line-height: 16.34px;
+    }
 
     @media (min-width: 768px) and (max-width: 1280px) {
       font-size: 15px;
@@ -393,8 +412,13 @@ export const sideColumn = css`
     );
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 420px) {
+    padding: 0 18px;
+    height: 91px;
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
     padding: 0 26px;
+    height: 91px;
   }
 
   h5 {
@@ -404,7 +428,10 @@ export const sideColumn = css`
     font-weight: bold;
     letter-spacing: 0;
     color: #000;
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 12px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
       font-size: 14px;
     }
   }
@@ -420,6 +447,7 @@ export const sideColumn = css`
     }
     @media (min-width: 320px) and (max-width: 767px) {
       font-size: 12px;
+      line-height: 18px;
     }
   }
 `;
@@ -432,6 +460,9 @@ export const centerColumn = css`
     ${colorsBr.secondaryYellow} 57.43%,
     #e3e3e2 100%
   );
+  @media (min-width: 320px) and (max-width: 767px) {
+    height: 91px;
+  }
 `;
 
 export const content = css`
@@ -472,11 +503,36 @@ export const content = css`
       width: 100%;
       max-width: 527px;
       letter-spacing: 0;
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+      }
+      @media (min-width: 421px) and (max-width: 768px) {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.97px;
+      }
     }
 
     a {
       align-self: flex-start;
       display: inline-block;
+      @media (min-width: 320px) and (max-width: 767px) {
+        display: none;
+      }
     }
+  }
+`;
+
+export const mobileButton = css`
+  display: none;
+  @media (min-width: 320px) and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    align-self: center;
+    font-size: 12px;
   }
 `;

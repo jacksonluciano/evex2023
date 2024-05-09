@@ -28,6 +28,7 @@ import {
   centerColumn,
   content,
   sideColumn,
+  mobileButton,
 } from "../assets/styles-br/QuintaEdicao.styles";
 import {
   secTitle,
@@ -110,6 +111,11 @@ const QuintaEdicao = () => {
               <p>
                 <b>08 e 09 de outubro</b> | Reitoria da Universidade NOVA de Lisboa
               </p>
+            </div>
+            <div css={[sideColumn,mobileButton]}>            
+            <Link css={commonBtnBr} to="/brasil/o-evex#last-editions">
+                Edições Passadas
+              </Link>
             </div>
           </Col>
         </Row>

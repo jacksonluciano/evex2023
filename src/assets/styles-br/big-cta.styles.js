@@ -8,7 +8,7 @@ export const abAgency = css`
   position: relative;
   /* overflow: hidden; */
   padding-bottom: 160px;
-    overflow-x: clip;
+  overflow-x: clip;
   @media (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 0;
     padding-top: 32px;
@@ -49,7 +49,7 @@ export const about = css`
 
   h2 {
     color: ${colors.secondaryMain};
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     text-align: center;
     text-decoration: underline;
     margin-bottom: 16px;
@@ -150,8 +150,11 @@ export const blocks = css`
   max-width: 1165px;
   margin: 0 auto;
   padding-bottom: 120px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    padding-bottom: 70px;
+  }
   @media (min-width: 768px) and (max-width: 1280px) {
-    width:1070px;
+    width: 1070px;
   }
 `;
 
@@ -167,15 +170,19 @@ export const dateBlock = css`
   transition: all 0.2s;
 
   a {
-      background-color:#000;
-      padding: 16px 18px;
-      font-size: 15px;
-      position: absolute;
-      bottom: 30px;
-      font-family: 'Bw Gradual DEMO';
-      font-weight: 500;
-      letter-spacing: 0;
+    background-color: #000;
+    padding: 16px 18px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    font-family: "Bw Gradual DEMO";
+    font-weight: 500;
+    letter-spacing: 0;
+    @media (min-width: 320px) and (max-width: 420px) {
+     font-size:12px;
+     padding: 10px;
     }
+  }
 
   ul {
     margin: 0;
@@ -194,7 +201,14 @@ export const dateBlock = css`
     }
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 420px) {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto 60px;
+    background-color: #252525;
+    height: 280px;
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
     width: 100%;
     max-width: 340px;
     margin: 0 auto 60px;
@@ -223,7 +237,7 @@ export const dateBlock = css`
     h2,
     p {
       color: #000;
-      span{
+      span {
         background-color: #000;
       }
     }
@@ -238,10 +252,15 @@ export const dateBlock = css`
   }
 
   h2 {
-    font-family: 'Bw Gradual DEMO';
+    font-family: "Bw Gradual DEMO";
     font-weight: bold;
     color: #ffffff;
     font-size: 40px;
+
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 
   P {
@@ -255,19 +274,23 @@ export const dateBlock = css`
     letter-spacing: 0;
     position: relative;
     padding-left: 14px !important;
-    span{
+    span {
       width: 4px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 0;
+      height: 4px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 10px;
+      line-height: 14px;
     }
   }
 
-  .paragraf{
+  .paragraf {
     padding-left: 0 !important;
   }
 

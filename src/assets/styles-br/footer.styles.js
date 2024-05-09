@@ -316,6 +316,10 @@ export const sideColumn = css`
     color: #000;
     letter-spacing: 0;
 
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 16px;
+    }
+
     span{
       font-weight: 400;
     }
@@ -325,6 +329,9 @@ export const sideColumn = css`
     color: #000;
     margin: 0;
     line-height: 20px;
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 16px;
+    }
   }
 `;
 

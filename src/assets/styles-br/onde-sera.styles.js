@@ -23,9 +23,13 @@ export const abAgency = css`
     top: 0px;
     z-index: 1;
     
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
       width: 34px;
-      top: 434px;
+      top: 300px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      width: 34px;
+      top: 360px;
     }
     @media (min-width: 768px) and (max-width: 1280px) {
       top: 85px;
@@ -36,7 +40,7 @@ export const abAgency = css`
 
 export const pr79 = css`
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 32px 0px;
+    padding: 16px 0px 0;
     justify-content: flex-start;
   }
   @media (min-width: 768px) and (max-width: 990px) {
@@ -83,9 +87,13 @@ export const about = css`
     letter-spacing: 0;
     color: #000;
     max-width: 411px;
-    @media (min-width: 768px) and (max-width: 1280px) {
+    @media (min-width: 360px) and (max-width: 420px) {
+      font-size: 12px;
+      line-height: 16.34px;
+    }
+    @media (min-width: 421px) and (max-width: 1280px) {
       font-size: 15px;
-    line-height: 21px;
+      line-height: 21px;
     }
   }
 
@@ -93,13 +101,14 @@ export const about = css`
     background-color: #000;
     font-family: "Bw Gradual DEMO";
     @media (min-width: 320px) and (max-width: 767px) {
-      /* margin: 0 auto; */
+      font-size:12px;
+      padding: 10px;
       z-index: 2;
     }
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-    padding: 32px;
+    padding: 32px 32px 0;
 
     h2 {
       line-height: 68px;
@@ -169,7 +178,7 @@ export const natalHeroContainer = css`
     position: relative;
 
     @media (min-width: 320px) and (max-width: 767px) {
-      padding: 32px 0;
+      padding: 16px 0 0;
     }
 
     h2 {

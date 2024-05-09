@@ -40,7 +40,8 @@ import {
   contactFrom,
   messageBox,
   apoio,
-  pat
+  pat,
+  formFields
 } from "../assets/styles-br/Duvidas.styles";
 import {
   secDesk,
@@ -178,7 +179,7 @@ const Duvidas = () => {
                   />
                   <input type="hidden" name="_captcha" value="false" />
 
-                  <Row>
+                  <Row css={formFields}> 
                     <Col lg={6}>
                       <input
                         css={inputForm}
@@ -201,7 +202,7 @@ const Duvidas = () => {
                     </Col>
                   </Row>
 
-                  <Row>
+                  <Row css={formFields}>
                     <Col lg={6}>
                       <input
                         css={inputForm}

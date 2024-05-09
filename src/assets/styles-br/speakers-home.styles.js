@@ -55,7 +55,7 @@ export const teamSlider = css`
   margin-bottom:32px;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    margin-left: 0px;
+    margin-bottom: 0;
   }
 
   #main-slider-next{
@@ -373,6 +373,13 @@ export const teamPagination = css`
 export const moreBt = css`
   display: flex;
   justify-content: center;
+
+  a{
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 12px;
+      padding: 10px;
+    }
+  }
 
   /* a{
     background-color:${colors.brandingSalmon};

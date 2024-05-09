@@ -65,6 +65,10 @@ export const about = css`
   button {
     font-family: "bw_gradual_demobold";
     font-size: 16px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 12px;
+      padding: 10px;
+  }
   }
   h4 {
     text-decoration: underline;
@@ -155,6 +159,10 @@ export const contact = css`
 
   button {
     margin-bottom: 16px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 12px;
+      padding: 10px;
+  }
   }
 
   .content {
@@ -167,7 +175,10 @@ export const contact = css`
     position: relative;
     height: 100%;
     min-height: 309px;
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
+      min-height: 145px;
+  }
+    @media (min-width: 421px) and (max-width: 767px) {
       min-height: 209px;
   }
   }
@@ -373,6 +384,14 @@ export const element8 = css`
     top: 415px;
   }
 `;
+export const formFields = css`
+    div{
+      &:nth-of-type(1),
+      &:nth-of-type(2){
+        width: 50%;
+      }
+    }
+`;
 
 export const messageBox = css`
   transition: 0.5s ease-in-out;
@@ -435,8 +454,8 @@ export const apoio = css`
       }
 
       @media (min-width: 320px) and (max-width: 767px) {
-        width: 20%;
-        padding: 2px;
+        width: 25%;
+        padding: 8px;
         float: left;
         margin: 0;
       }
@@ -450,5 +469,11 @@ export const apoio = css`
 export const pat = css`
   @media (min-width: 768px) and (max-width: 1280px) {
     padding-left: 50px !important;
+  }
+  a{
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 12px;
+      padding: 10px;
+    }
   }
 `;

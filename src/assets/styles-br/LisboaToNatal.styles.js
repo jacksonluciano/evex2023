@@ -113,11 +113,17 @@ export const about = css`
     text-align: center;
     letter-spacing: 0;
 
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
+      margin-bottom: 0;
+        line-height: 16px;
+        font-size: 12px;
+        width: 80%;
+      }
+    @media (min-width: 421px) and (max-width: 767px) {
         margin-bottom: 0;
         line-height: 21px;
         font-size: 14px;
-        width: 90%;
+        width: 70%;
       }
   }
 

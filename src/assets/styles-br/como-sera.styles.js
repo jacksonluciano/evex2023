@@ -157,6 +157,7 @@ export const comoSeraContainer = css`
       text-align: center;
       position: relative;
       z-index: 3;
+      letter-spacing: 0;
 
       @media (min-width: 320px) and (max-width: 767px) {
         font-size: 40px;
@@ -178,6 +179,12 @@ export const section = css`
   background-color: #e3e3e2;
   position: relative;
   padding-bottom: 40px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    padding-bottom: 0px;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      padding-bottom: 0px;
+    }
 
   .eventSteps {
     .step {
@@ -324,6 +331,21 @@ export const header = css`
   align-items: center;
   justify-content: flex-end;
 
+  @media (min-width: 320px) and (max-width: 420px) {
+        a{
+          font-size: 12px;
+          line-height: 16.34px;
+          padding: 10px;
+        }
+    }
+      @media (min-width: 421px) and (max-width: 767px) {
+        a{
+          font-size:12px;
+          line-height: 16.34px;
+          padding: 10px;
+        }
+    }
+
   p {
     color: #000;
     line-height: 24px;
@@ -331,6 +353,12 @@ export const header = css`
     letter-spacing: 0;
     max-width: 358px;
     margin-bottom: 24px;
+     @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 12px;line-height: 16.34px;max-width:190px;
+    }
+      @media (min-width: 421px) and (max-width: 767px) {
+        font-size: 12px;line-height: 16.34px;max-width:190px;
+    }
   }
 
   .title_container {
@@ -347,8 +375,11 @@ export const header = css`
       letter-spacing: 0;
       margin-bottom: 16px;
 
-      @media (min-width: 320px) and (max-width: 767px) {
-        font-size: 40px;
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 20px;line-height: 24.2px;
+    }
+      @media (min-width: 421px) and (max-width: 767px) {
+        font-size: 20px;line-height: 24.2px;
     }
     }
   }
