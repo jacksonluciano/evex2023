@@ -196,7 +196,7 @@ const Layout = ({ PageTitle, children }) => {
   return (
     <Fragment>
       <Helmet>
-        <title>{PageTitle} - EVEx 2023</title>
+        <title>{PageTitle}</title>
       </Helmet>
       <div id="wrapper">
         <GlobalStyles />

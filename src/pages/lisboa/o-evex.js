@@ -16,7 +16,7 @@ const OevexPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="O EVEx">     
+        <Layout PageTitle="Evex Lisboa - O EVEx">     
          <HeaderOne />
          <EvexHeroVideo />
          <VideoThree/>

@@ -11,7 +11,7 @@ const COmitePage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Comitê Científico e Organizador">     
+        <Layout PageTitle="Evex Brasil - Comitê Científico e Organizador">     
          <HeaderOne />
           <Comite />
           <Footer />

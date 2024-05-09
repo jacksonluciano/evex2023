@@ -23,7 +23,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Home Lisboa">
+        <Layout PageTitle="Evex Lisboa">
           <HeaderOne />
           <HeroVideo />
           <OEvex />

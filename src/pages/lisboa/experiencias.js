@@ -15,7 +15,7 @@ const Experiencias = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Experiências">
+        <Layout PageTitle="Evex Lisboa - Experiências">
           <HeaderOne />
           <ExperienciasHero />
           <EnergyTalks />

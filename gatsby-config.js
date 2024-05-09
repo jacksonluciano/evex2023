@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Colégio Bertoni Med`,
-    description: `O melhor ensino de alta performance do Sul do Brasil`,
-    author: `@wearefractal`,
+    title: `Evex Energy`,
+    description: `Energy Virtual Experience`,
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Evex 2023`,
+        name: `Energy Virtual Experience`,
         short_name: `Evex`,
         start_url: `/`,
         background_color: `#f5f5f5`,

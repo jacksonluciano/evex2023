@@ -24,7 +24,7 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Home">
+        <Layout PageTitle="Evex Energy">
           <Home />
           {/* <HeaderOne />
           <HeroVideo />

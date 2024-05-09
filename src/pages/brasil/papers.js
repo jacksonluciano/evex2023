@@ -12,7 +12,7 @@ const PapersPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle='Papers'>
+        <Layout PageTitle='Evex Brasil - Papers'>
           <HeaderOne />
           <PapersHero />
           <PapersTimeLine />
