@@ -6,7 +6,7 @@ import {
   sectionHeroPapers,
   element
 } from '../assets/styles-br/papers-hero.styles'
-import BgPinkMobile from '@/images-br/papers/bg-mobile.svg'
+import BgPinkMobile from '@/images-br/papers/mobile.png'
 import Element from '@/images-br/papers/element.png'
 
 const PapersHero = () => {

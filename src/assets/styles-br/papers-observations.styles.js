@@ -172,6 +172,17 @@ export const contentContainer = css`
       font-size: 40px;
     }
   }
+
+  @media (min-width: 320px) and (max-width: 420px) {
+    .title {
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    .title {
+      font-size: 20px;
+    }
+  }
 `;
 
 export const accordion = css`

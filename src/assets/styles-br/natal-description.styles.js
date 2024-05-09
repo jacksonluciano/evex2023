@@ -107,10 +107,14 @@ export const description = css`
       font-size: 16px;
       font-weight: 400;
       line-height: 21.79px;
-      /* @media (min-width: 768px) and (max-width: 1280px) {
-        font-size: 15px;
-        line-height: 21px;
-      } */
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 12px;
+        line-height: 16.34px;
+      }
+      @media (min-width: 421px) and (max-width: 767px) {
+        font-size: 14px;
+        line-height: 18px;
+      }
     }
   }
 `;
@@ -163,7 +167,11 @@ export const header = css`
       line-height: 67.2px;
       margin: 0;
       text-align: left;
-      @media (min-width: 320px) and (max-width: 767px) {
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      @media (min-width: 421px) and (max-width: 767px) {
         font-size: 22px;
         line-height: 28px;
       }
@@ -191,12 +199,17 @@ export const content = css`
     max-width: 492px;
     margin-right: 142px;
 
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
       width: 100%;
-      max-width: 308px;
-      margin: 32px 12px 0;
+      max-width: 297px;
+      margin: 32px 12px;
     }
-
+    @media (min-width: 421px) and (max-width: 768px) {
+      width: 100%;
+      max-width: 89%;
+      margin: 32px 12px;
+    }
+    
     @media (min-width: 768px) and (max-width: 1280px) {
       margin-right: 75px;
     }
@@ -207,6 +220,11 @@ export const content = css`
       font-weight: 400;
       line-height: 21.79px;
       text-align: left;
+
+      @media (min-width: 320px) and (max-width: 420px) {
+        font-size: 12px;
+        line-height: 16.79px;
+      }
     }
   }
 `;
@@ -221,8 +239,17 @@ export const section = css`
     top: 50%;
     transform: translateY(-50%);
     width: 130px;
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
       width: 30px;
+        bottom: 103px;
+        transition: none;
+        top: auto;
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      width: 30px;
+        bottom: 160px;
+        transition: none;
+        top: auto;
     }
     @media (min-width: 768px) and (max-width: 1280px) {
       width: 130px;

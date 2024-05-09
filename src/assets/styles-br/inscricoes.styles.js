@@ -65,7 +65,7 @@ export const inscriHero = css`
 
   @media (max-width: 576px) {
     height: auto;
-    padding: 140px 0px 50px;
+    padding: 130px 0px 50px;
 
     .row {
       gap: 50px;
@@ -261,16 +261,32 @@ export const dateBlock = css`
   z-index: 2;
   transition: all 0.3s;
 
-  &:hover{
-    background: radial-gradient(190.68% 100% at 50% 100%, #9A2FF6 3.05%, #CC6AE3 35.31%, #E3E3E2 100%);
-    h2, h3, h4, p, li {
+  &:hover {
+    background: radial-gradient(
+      190.68% 100% at 50% 100%,
+      #9a2ff6 3.05%,
+      #cc6ae3 35.31%,
+      #e3e3e2 100%
+    );
+    h2,
+    h3,
+    h4,
+    p,
+    li {
       color: #000;
     }
   }
 
-  @media (min-width: 320px) and (max-width: 767px) {
-    /* width: 95%; */
-    border: 2px solid ${colors.primaryMain};
+  @media (min-width: 320px) and (max-width: 420px) {
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 421px) and (max-width: 767px) {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h2 {
@@ -338,7 +354,7 @@ export const dateBlock = css`
     letter-spacing: 0;
     position: absolute;
     bottom: 34px;
-    :hover{
+    :hover {
       text-decoration: none;
     }
   }
@@ -381,11 +397,13 @@ export const dateBlock = css`
       font-size: 14px;
     }
 
-    p:nth-of-type(2), p:nth-of-type(3) {
+    p:nth-of-type(2),
+    p:nth-of-type(3) {
       font-size: 12px;
     }
 
-    h4:nth-of-type(2), h4:nth-of-type(3) {
+    h4:nth-of-type(2),
+    h4:nth-of-type(3) {
       font-size: 20px;
     }
 
@@ -568,6 +586,20 @@ export const sectionTitle = css`
   @media (max-width: 576px) {
     p {
       font-size: 12px;
+      padding: 0px 35px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 420px) {
+    p {
+      font-size: 12px;
+      line-height: 16.34px;
+      padding: 0px 35px;
+    }
+  }
+  @media (min-width: 421px) and (max-width: 767px) {
+    p {
+      font-size: 14px;
+      line-height: 18px;
       padding: 0px 35px;
     }
   }

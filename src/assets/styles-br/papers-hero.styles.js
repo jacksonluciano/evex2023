@@ -15,6 +15,10 @@ export const sectionHeroPapers = css`
   position: relative;
   overflow: hidden;
 
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-top: 80px;
+  }
+
   @media (min-width: 768px) and (max-width: 1280px) {
     margin-top: 86px;
   }
@@ -50,6 +54,10 @@ export const sectionHeroPapers = css`
       position: relative;
       z-index: 2;
     }
+
+    @media (min-width: 421px) and (max-width: 768px) {
+    padding-top: 40px;
+  }
   }
 
   @media (max-width: 768px) {
@@ -96,7 +104,7 @@ export const sectionHeroPapers = css`
     .content_container {
       p {
         font-size: 12px;
-        line-height: auto;
+        line-height: 16.34px;
       }
     }
   }

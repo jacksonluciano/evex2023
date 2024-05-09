@@ -19,7 +19,11 @@ export const title = css`
     text-align: center;
     letter-spacing: 0;
 
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 20px;
+    }
+
+    @media (min-width: 421px) and (max-width: 767px) {
       font-size: 28px;
     }
     @media (min-width: 768px) and (max-width: 1280px) {

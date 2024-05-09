@@ -53,6 +53,22 @@ export const sectionHero = css`
       }
     }
   }
+  @media (min-width: 320px) and (max-width: 420px) {
+    .title_container {
+      padding: 40px 0px;
+      .title {
+        font-size: 32px;
+      }
+    }
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      .title_container {
+      padding: 40px 0px;
+      .title {
+        font-size: 40px;
+      }
+    }
+    }
 `;
 
 export const informations = css`
@@ -71,7 +87,7 @@ export const informations = css`
     left: 0;
     @media (min-width: 320px) and (max-width: 768px) {
       width: 110px;
-      top: 0;
+      top: 0px;
     }
   }
 
@@ -82,7 +98,7 @@ export const informations = css`
 
     @media (min-width: 320px) and (max-width: 768px) {
       width: 110px;
-      top: 100px;
+      top: 144px;
     }
   }
 
@@ -203,4 +219,16 @@ export const informations = css`
       }
     }
   }
+  @media (min-width: 320px) and (max-width: 420px) {
+    p {
+      font-size: 16px;
+      max-width: 180px;
+    }
+    }
+    @media (min-width: 421px) and (max-width: 767px) {
+      p {
+      font-size: 16px;
+      max-width: 180px;
+    }
+    }
 `;

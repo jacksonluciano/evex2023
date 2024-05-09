@@ -84,6 +84,10 @@ export const description = css`
     font-weight: 400;
     line-height: 21.79px;
     letter-spacing: 0;
+    @media (min-width: 320px) and (max-width: 420px) {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
   p:first-of-type {

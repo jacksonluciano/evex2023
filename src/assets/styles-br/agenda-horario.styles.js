@@ -233,16 +233,41 @@ export const element1 = css`
   position: absolute;
   top: 30px;
   left: -250px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const element2 = css`
   position: absolute;
   top: 900px;
   right: -250px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: 16px;
+    width: 100px;
+    right: -40px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    top: 16px;
+    width: 100px;
+    right: -40px;
+  }
 `;
 export const element3 = css`
   position: absolute;
   top: 1600px;
   left: -250px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: auto;
+        width: 100px;
+        left: -40px;
+        bottom: 10px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    top: auto;
+        width: 100px;
+        left: -40px;
+        bottom: 10px;
+  }
 `;
 export const element4 = css`
   -webkit-transform: scaleX(-1);
@@ -250,12 +275,34 @@ export const element4 = css`
   position: absolute;
   top: 24px;
   right: -150px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: 16px;
+    width: 100px;
+    right: -40px;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    top: 16px;
+    width: 100px;
+    right: -40px;
+  }
 `;
 
 export const element5 = css`
   position: absolute;
   bottom: 40px;
   left: -250px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: auto;
+        width: 100px;
+        left: -40px;
+        bottom: 10px;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    top: auto;
+        width: 100px;
+        left: -40px;
+        bottom: 10px;
+  }
 `;
 
 export const participantsContainer = css`

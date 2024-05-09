@@ -1,8 +1,13 @@
 /** @jsx jsx */
-import { css } from '@emotion/react'
+import { css } from "@emotion/react";
 
 export const timelineTitle = css`
-  background: radial-gradient(45.85% 216.33% at 50% 123.47%, #FF06B5 3.05%, #F73C6E 24.82%, #E3E3E2 93.84%);
+  background: radial-gradient(
+    45.85% 216.33% at 50% 123.47%,
+    #ff06b5 3.05%,
+    #f73c6e 24.82%,
+    #e3e3e2 93.84%
+  );
   padding: 25px 14px;
 
   h2 {
@@ -29,10 +34,15 @@ export const timelineTitle = css`
       line-height: 120%;
     }
   }
-`
+`;
 
 export const data = css`
-  background: radial-gradient(97.57% 329.56% at 103.82% 179.59%, #FF06B5 3.05%, #F73C6E 24.82%, #E3E3E2 93.84%);
+  background: radial-gradient(
+    97.57% 329.56% at 103.82% 179.59%,
+    #ff06b5 3.05%,
+    #f73c6e 24.82%,
+    #e3e3e2 93.84%
+  );
   height: 100%;
   min-height: 147px;
   display: flex;
@@ -60,7 +70,12 @@ export const data = css`
   }
 
   &:hover {
-    background: radial-gradient(108.47% 275.86% at 108.47% 119.55%, #F73C6E 4.36%, #FF06B5 35.77%, #E3E3E2 93.84%);
+    background: radial-gradient(
+      108.47% 275.86% at 108.47% 119.55%,
+      #f73c6e 4.36%,
+      #ff06b5 35.77%,
+      #e3e3e2 93.84%
+    );
 
     span {
       color: #ffffff;
@@ -93,4 +108,16 @@ export const data = css`
       line-height: 120%;
     }
   }
-`
+
+  @media (min-width: 320px) and (max-width: 420px) {
+    span:first-of-type {
+      max-width: 60%;
+    }
+  }
+
+  @media (min-width: 421px) and (max-width: 767px) {
+    span:first-of-type {
+      max-width: 50%;
+    }
+  }
+`;
