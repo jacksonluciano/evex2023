@@ -268,7 +268,7 @@ export const element = css`
   top: 100px;
   right: 16%;
   @media (min-width: 320px) and (max-width: 767px) {
-    width: 90%;
+    width: 140%;
     left: 50%;
     transform: translate(-46%, 60px);
   }
@@ -285,8 +285,8 @@ export const speakersTitle = css`
 
   @media (min-width: 320px) and (max-width: 768px) {
     background-size: contain;
-    height: 245px;
-    }
+    height: 324px;
+  }
 
   .heroTitle {
     position: relative;
@@ -295,8 +295,8 @@ export const speakersTitle = css`
 
     @media (min-width: 320px) and (max-width: 768px) {
       position: relative;
-    z-index: 99;
-    top: 42px;
+      z-index: 99;
+      top: 42px;
     }
 
     @media (min-width: 768px) and (max-width: 1280px) {
@@ -310,7 +310,7 @@ export const speakersTitle = css`
     font-size: 140px;
     text-decoration: none;
     @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 50px;
+      font-size: 60px;
     }
   }
 
@@ -322,8 +322,9 @@ export const speakersTitle = css`
     font-size: 16px;
     line-height: 21px;
     @media (min-width: 320px) and (max-width: 768px) {
-    font-size: 12px;
-    line-height: 14px;
+      font-size: 12px;
+      line-height: 16.34px;
+      max-width: 294px;
     }
   }
 
@@ -340,6 +341,14 @@ export const speakersTitle = css`
 
 export const speakersCards = css`
   margin-top: 160px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    margin-top: 60px;
+    max-width: 270px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    margin-top: 60px;
+    max-width: 370px;
+  }
   @media (min-width: 768px) and (max-width: 1280px) {
     max-width: 1070px;
   }
@@ -357,27 +366,64 @@ export const element01 = css`
   position: absolute;
   right: -236px;
   top: -86px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    right: -76px;
+    top: 13px;
+    width: 220px;
+  }
 `;
 export const element02 = css`
   position: absolute;
   top: 200px;
   left: -200px;
+
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: 2250px;
+    left: -90px;
+    width: 230px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    top: 2750px;
+    left: -90px;
+    width: 230px;
+  }
 `;
 export const element03 = css`
   position: absolute;
   right: -236px;
   top: 50%;
+  @media (min-width: 320px) and (max-width: 768px) {
+    right: -91px;
+    top: 57%;
+    width: 233px;
+  }
 `;
+
 export const element04 = css`
   position: absolute;
   left: -170px;
   bottom: -114px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    left: -40px;
+    bottom: -96px;
+    width: 200px;
+  }
+
+ 
 `;
 export const Word = css`
   position: absolute;
   left: 0;
   top: 53%;
   width: 154px;
+  @media (min-width: 320px) and (max-width: 420px) {
+    width: 44px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    width: 44px;
+  }
   @media (min-width: 768px) and (max-width: 1280px) {
     width: 110px;
   }

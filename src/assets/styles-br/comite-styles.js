@@ -7,6 +7,7 @@ export const team = css`
   padding: 90px 0 80px !important;
   background-color: #e3e3e2;
   position: relative;
+  overflow-x: clip;
 
   h2 {
     font-size: 56px;
@@ -327,7 +328,7 @@ export const element = css`
   top: 100px;
   right: 16%;
   @media (min-width: 320px) and (max-width: 767px) {
-    width: 90%;
+    width: 140%;
     left: 50%;
     transform: translate(-46%, 60px);
   }
@@ -348,7 +349,8 @@ export const speakersTitle = css`
   position: relative;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    height: 390px;
+    height: 370px;
+    background-size: contain;
   }
 
   .heroTitle {
@@ -358,6 +360,9 @@ export const speakersTitle = css`
     margin-left: auto;
     margin-right: auto;
     top: 120px;
+    @media (min-width: 320px) and (max-width: 767px) {
+      top: 60px;
+    }
     @media (min-width: 768px) and (max-width: 1280px) {
       top: 140px;
       max-width: 900px;
@@ -372,7 +377,7 @@ export const speakersTitle = css`
     line-height: 100px;
     @media (min-width: 320px) and (max-width: 768px) {
       font-size: 36px;
-    line-height: 40px;
+      line-height: 40px;
     }
   }
 
@@ -385,7 +390,8 @@ export const speakersTitle = css`
     line-height: 21px;
     @media (min-width: 320px) and (max-width: 768px) {
       font-size: 12px;
-    line-height: 14px;
+      line-height: 16.34px;
+      max-width: 294px;
     }
     @media (min-width: 768px) and (max-width: 1280px) {
       width: 100%;
@@ -412,9 +418,14 @@ export const speakersTitle = css`
 
 export const speakersCards = css`
   margin-top: 160px;
-  @media (min-width: 320px) and (max-width: 768px) {
-    margin-top: 32px;
-    }
+  @media (min-width: 320px) and (max-width: 420px) {
+    margin-top: 60px;
+    max-width: 270px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    margin-top: 60px;
+    max-width: 370px;
+  }
   @media (min-width: 768px) and (max-width: 1280px) {
     max-width: 1070px;
   }
@@ -428,9 +439,9 @@ export const speakerCard = css`
   }
 `;
 export const space = css`
- width: 100%;
- background-color: #e3e3e2;
- height: 220px;
+  width: 100%;
+  background-color: #e3e3e2;
+  height: 220px;
 `;
 
 export const element01 = css`
@@ -438,6 +449,20 @@ export const element01 = css`
   top: 325px;
   left: -170px;
   z-index: 1;
+
+  @media (min-width: 320px) and (max-width: 420px) {
+    top: 160px;
+    left: -36px;
+    z-index: 1;
+    width: 120px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    top: 290px;
+    left: -26px;
+    z-index: 1;
+    width: 120px;
+  }
+
   @media (min-width: 768px) and (max-width: 1280px) {
     top: 301px;
     left: -90px;
@@ -450,6 +475,14 @@ export const Word = css`
   top: 43%;
   left: 0px;
   z-index: 1;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    top: 53%;
+    left: 0px;
+    z-index: 1;
+    width: 40px;
+  }
+
   @media (min-width: 768px) and (max-width: 1280px) {
     width: 130px;
     top: 1650px;
@@ -459,6 +492,14 @@ export const element02 = css`
   position: absolute;
   top: 58%;
   right: 0;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    top: 53%;
+    right: -43px;
+    width: 247px;
+    transform: rotate(27deg);
+  }
+
   @media (min-width: 768px) and (max-width: 1280px) {
     position: absolute;
     top: 2275px;
@@ -470,4 +511,14 @@ export const element03 = css`
   position: absolute;
   bottom: 0px;
   right: 0;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    bottom: -52px;
+    left: 10px;
+    width: 200px;
+    -webkit-transform: rotate(171deg);
+    -moz-transform: rotate(171deg);
+    -ms-transform: rotate(171deg);
+    transform: rotate(171deg);
+  }
 `;

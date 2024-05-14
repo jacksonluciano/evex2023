@@ -68,7 +68,7 @@ const TeamCarousel = () => {
         </Container>
         <img src={Elemen02} css={element02} />
         <img src={SpeakersWord} css={Word} />
-        <img src={Elemen03} css={element03} />
+        <img src={Elemen02} css={element03} />
       </section>
       <div css={space}></div>
     </>
