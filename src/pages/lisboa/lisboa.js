@@ -13,7 +13,7 @@ const Lisboa = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Evex Lisboa - Lisboa">
+        <Layout PageTitle="EVEx Lisboa - Lisboa">
           <HeaderOne />
           <PorqueLisboa />
           <Reitoria />       

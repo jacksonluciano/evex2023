@@ -11,7 +11,7 @@ const AgendaPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Evex Lisboa - Agenda">     
+        <Layout PageTitle="EVEx Lisboa - Agenda">     
          <HeaderOne />
          <Agenda />
          <Footer />

@@ -11,7 +11,7 @@ const InscricoesPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Evex Lisboa - Inscrições">     
+        <Layout PageTitle="EVEx Lisboa - Inscrições">     
          <HeaderOne />
          <Inscricoess />
          <Footer />

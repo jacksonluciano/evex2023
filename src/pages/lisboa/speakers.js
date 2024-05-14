@@ -11,7 +11,7 @@ const SpeakersPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Evex Lisboa - Speakers">     
+        <Layout PageTitle="EVEx Lisboa - Speakers">     
          <HeaderOne />
           <Speakers />
           <Footer />

@@ -19,7 +19,7 @@ const AgendaPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Evex Brasil - Agenda">
+        <Layout PageTitle="EVEx Brasil - Agenda">
           <HeaderOne />
           <AgendaHero
             agendaSelecionada={agendaSelecionada}

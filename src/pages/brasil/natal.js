@@ -11,7 +11,7 @@ const NatalPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle='Evex Brasil - Natal'>
+        <Layout PageTitle='EVEx Brasil - Natal'>
           <HeaderOne />
           <NatalHero />
           <NatalDescription />
