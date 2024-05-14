@@ -283,9 +283,13 @@ export const speakersTitle = css`
   height: 100vh;
   position: relative;
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (min-width: 320px) and (max-width: 420px) {
     background-size: contain;
     height: 324px;
+  }
+  @media (min-width: 421px) and (max-width: 768px) {
+    background-size: contain;
+    height: 370px;
   }
 
   .heroTitle {
