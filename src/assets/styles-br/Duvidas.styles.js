@@ -437,16 +437,17 @@ export const apoio = css`
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    flex-wrap: wrap;
 
     @media (min-width: 320px) and (max-width: 767px) {
-      display: inline;
+      margin-bottom: 24px;
     }
 
     li {
-      margin: 10px;
+      margin: 10px 24px;
       width: 120px;
 
       img{

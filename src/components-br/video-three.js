@@ -18,7 +18,7 @@ const VideoThree = () => {
               <section>
                 <div css={videoWrap} className="mb-0">
                   <Video
-                    videoSrcURL="https://www.youtube.com/embed/5ah-KK5t8Ok?rel=0"
+                    videoSrcURL="https://www.youtube.com/embed/7BcVpK5X1XE?si=v8PkGNEfuTuTQStZ?rel=0"
                     videoTitle="Highlights EVEx 2022 - Energy Virtual Experience"
                   />
                 </div>

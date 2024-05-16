@@ -32,6 +32,7 @@ import Img15 from '@/images/apoio/fgv_energia.png'
 import Img16 from '@/images/apoio/ccee.png'
 import Img17 from '@/images-br/home-br/ABIHV.png'
 import Img18 from '@/images-br/home-br/ABIOGAS.png'
+import Img19 from "@/images-br/home-br/recell.png";
 
 import {
   abAgency,
@@ -144,6 +145,9 @@ const Duvidas = () => {
           <ul>
             <li>
               <img src={Img18} />
+            </li>
+            <li>
+              <img src={Img19} />
             </li>
           </ul>
         </section>
