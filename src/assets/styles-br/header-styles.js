@@ -220,6 +220,10 @@ export const navigator = css`
     &.search {
       margin-right: 16px;
     }
+
+    img{
+      max-width:100%
+    }
   }
 
   @media (min-width: 320px) and (max-width: 767px) {

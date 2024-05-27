@@ -6,6 +6,8 @@ import Element12 from "@/images-br/home-br/element_patrocinio.svg"
 import Element13 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images-br/home-br/petro-govbr.png'
+import Img19 from '@/images-br/home-br/bn_gov.png'
+import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
 import Img3 from '@/images/apoio/ape.jpg'
@@ -72,14 +74,12 @@ const Patrocinadores = () => {
            <div css={about}>
               
 
-              <section className='diamante'>
+              {/* <section className='diamante'>
                 <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
                     <li><img src={Img} /></li>
-                    {/* <li><img src={Img} /></li>
-                    <li><img src={Img} /></li> */}
                   </ul>
-               </section>
+               </section> */}
 {/* 
                <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>
@@ -93,29 +93,23 @@ const Patrocinadores = () => {
                <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul  style={{display:"flex", justifyContent:'center'}}>
-                    <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
+                    {/* <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li> */}
+                    <li><a target="_blank"><img src={Img19} /></a></li>
                   </ul>
                </section>
 
                {/* <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
-                    <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
-                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li>
-                    <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
-                    <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
+                      <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
                   </ul>
                </section> */}
 
                <section className='bronze'>
-                <h4 css={secDesk}>Patrocínio Bronze</h4>
+                <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
-                    {/* <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li> */}
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
-                    {/* <li><a href="https://www.ativ.pt" target="_blank"><img src={Pat07} /></a></li>
-                    <li><a href="http://www.hega-tech.com" target="_blank"><img src={Pat08} /></a></li>
-                    <li><a href="https://www.blomstein.com" target="_blank"><img src={Pat09} /></a></li>
-                    <li><a href="https://renewing.pt" target="_blank"><img src={Pat10} /></a></li> */}
+                    <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img20} /></a></li>
                   </ul>
                </section>
 
