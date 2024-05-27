@@ -162,7 +162,7 @@ export const about = css`
           height: 115px;
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
-            max-width: 55%;
+            max-width: 80%;
           }
         }
       }
