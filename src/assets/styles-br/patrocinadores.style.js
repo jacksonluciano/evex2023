@@ -253,6 +253,10 @@ export const about = css`
           width: 33.3%;
           padding: 8px;
           float: left;
+
+          &:nth-of-type(2){
+            width:50%;
+          }
         }
         img {
           height: 126px;
@@ -355,7 +359,7 @@ export const element12 = css`
   @media (min-width: 320px) and (max-width: 420px) {
     right: -13px;
     width: 77px !important;
-    top: 700px;
+    top: 540px;
   }
   @media (min-width: 421px) and (max-width: 767px) {
     right: 0;
