@@ -90,13 +90,13 @@ const Patrocinadores = () => {
                   </ul>
                </section> */}
 
-               <section className='ouro'>
+               {/* <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul  style={{display:"flex", justifyContent:'center'}}>
-                    {/* <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li> */}
+                    <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
                     <li><a target="_blank"><img src={Img19} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
                {/* <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
