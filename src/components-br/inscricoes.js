@@ -70,10 +70,10 @@ const Inscricoes = () => {
                 <h2>EVEx Pass Brasil</h2>
                 <p className="text">Ingresso para os<br /> 2 dias de evento</p>
                 {/* <h3>02 a 05 de Outubro</h3> */}
-                <p>Profissionais (1° lote até 17/05)</p>
-                <h4>R$ 750,00</h4><br />
-                <p>Estudantes (1° lote até 17/05)</p>
-                <h4>R$ 450,00</h4>
+                <p>Profissionais (2º lote até 15/06)</p>
+                <h4>R$ 900,00 </h4><br />
+                <p>Estudantes (2º lote até 15/06)</p>
+                <h4>R$ 540,00</h4>
 
                 <ul>
                   <p style={{ textAlign: 'left', marginLeft: '-20px' }}>O investimento inclui:</p>
