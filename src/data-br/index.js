@@ -1,4 +1,5 @@
 import logo from "@/images-br/logo.svg"
+import logoMobile from "@/images-br/logo_mobile.svg"
 import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images-br/orange-elements-01.png"
 import Evex01CarouselImg01 from '@/images-br/o-evex/carousel01/carousel01-img-01.jpg'
@@ -92,7 +93,8 @@ import twitterIcon from "@/images/icons/twitter.svg"
 import youtubeIcon from "@/images-br/youtube.svg"
 
 export const LogoBrasil = {
-  black: logo
+  black: logo,
+  mobile: logoMobile
 };
 
 

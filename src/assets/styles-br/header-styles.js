@@ -58,16 +58,16 @@ export const logo = css`
   text-align: left;
   padding: 0;
   img {
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
   }
 
   @media (max-width: 576px) {
     max-width: 114px;
 
-    img {
+    /* img {
       width: 100%;
-    }
+    } */
   }
 `;
 

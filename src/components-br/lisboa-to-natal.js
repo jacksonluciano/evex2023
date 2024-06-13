@@ -2,7 +2,7 @@
 import React from "react";
 import { LisboaParaNatal } from "@/data-br";
 import LisboaToNatalBg from '@/images-br/home-br/lisboaToNatal.jpg';
-import LisboaToNatalMobileBg from '@/images-br/home-br/lisboaToNatalMobile.jpg';
+import LisboaToNatalMobileBg from '@/images-br/home-br/lisboaToNatalMobile.png';
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
