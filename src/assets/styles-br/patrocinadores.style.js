@@ -187,12 +187,12 @@ export const about = css`
       li {
         padding: 0 16px;
 
-        :nth-of-type(1) img {
+        /* :nth-of-type(1) img {
           height: 68px;
         }
         :nth-of-type(2) img {
           height: 62px;
-        }
+        } */
 
         :nth-of-type(3) img,
         :nth-of-type(4) img {
