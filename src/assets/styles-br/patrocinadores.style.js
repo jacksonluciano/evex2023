@@ -225,13 +225,14 @@ export const about = css`
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 16px;
 
       @media (min-width: 320px) and (max-width: 767px) {
         flex-wrap: wrap;
       }
 
       li {
-        padding: 0 8px;
+        padding: 0 16px;
 
         :nth-of-type(2) img {
           height: 72px;
@@ -259,7 +260,7 @@ export const about = css`
           }
         }
         img {
-          height: 126px;
+          height: 50px;
 
           @media (min-width: 320px) and (max-width: 767px) {
             max-width: 100%;
@@ -271,6 +272,18 @@ export const about = css`
       li{
         img{
           height: 50px;
+        }
+      }
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-direction: column;
+        li{
+          width: 100%;
+          max-width: 300px;
+          :nth-of-type(2){
+            img{
+              height: 40px !important;
+            }
+          }
         }
       }
       }
