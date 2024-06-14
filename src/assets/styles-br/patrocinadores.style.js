@@ -271,7 +271,7 @@ export const about = css`
       :nth-of-type(2){
       li{
         img{
-          height: 50px;
+          height: 40px;
         }
       }
       @media (min-width: 320px) and (max-width: 767px) {
