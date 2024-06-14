@@ -282,7 +282,7 @@ export const about = css`
           max-width: 300px;
           :nth-of-type(2){
             img{
-              height: 20px !important;
+              height: 28px !important;
             }
           }
         }
