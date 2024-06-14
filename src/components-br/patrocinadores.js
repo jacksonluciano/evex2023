@@ -36,6 +36,7 @@ import Pat08 from '@/images/patrocinio/hegatech.png'
 import Pat09 from '@/images/patrocinio/blomstein.png'
 import Pat10 from '@/images/patrocinio/renewing.png'
 import Pat11 from '@/images/patrocinio/ren.png'
+import Pat12 from '@/images/patrocinio/reenergisa.png'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -98,12 +99,13 @@ const Patrocinadores = () => {
                   </ul>
                </section>
 
-               {/* <section className='prata'>
+               <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
-                      <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
+                      <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Pat12} /></a></li>
                   </ul>
-               </section> */}
+               </section>
 
                <section className='bronze'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>

@@ -205,7 +205,7 @@ export const about = css`
           float: left;
         }
         img {
-          height: 50px;
+          height: 36px;
 
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
