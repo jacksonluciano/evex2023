@@ -276,12 +276,13 @@ export const about = css`
       }
       @media (min-width: 320px) and (max-width: 767px) {
         flex-direction: column;
+        gap: 16px;
         li{
           width: 100%;
           max-width: 300px;
           :nth-of-type(2){
             img{
-              height: 40px !important;
+              height: 20px !important;
             }
           }
         }
