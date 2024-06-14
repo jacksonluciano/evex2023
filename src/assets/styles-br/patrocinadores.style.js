@@ -267,6 +267,13 @@ export const about = css`
           }
         }
       }
+      :nth-of-type(2){
+      li{
+        img{
+          height: 50px;
+        }
+      }
+      }
     }
   }
 
