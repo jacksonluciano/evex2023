@@ -56,25 +56,82 @@ const AgendaHorario = ({ agendaSelecionada }) => {
           <div css={schedule}>
             <h4 css={title}>Programação Principal</h4>
             <div css={event}>
-              <span>08h45</span>
+              <span>08h30</span>
               <p>Credenciamento</p>
             </div>
 
-            <div css={event}>
-              <span>09h10</span>
-              <p>Boas Vindas</p>
+            {/* <div css={event}>
+              <span>09h15</span>
+              <p>Boas-Vindas</p>
+            </div> */}
+
+            <div>
+              <div css={principalEvent}>
+                <span>09h15</span>
+                <p>Boas-Vindas</p>
+              </div>
+
+              <p css={principalEventDescription}>
+                <b>Caio César Cavalcanti</b><br/>
+                Presidente do EVEx
+              </p>
+              <p css={principalEventDescription}>
+                <b>Fátima Bezerra (a confirmar)</b><br/>
+                Governadora do Estado do Rio Grande do Norte
+              </p>
             </div>
 
             <div>
               <div css={principalEvent}>
-                <span>09h20</span>
-                <p>Natal Energy Experience - Abertura</p>
+                <span>09h30</span>
+                <p>Natal Energy Experience - Abertura com Autoridades</p>
               </div>
 
               <p css={principalEventDescription}>
-                Transição Energética Justa e Industrialização Verde: na rota
-                ibero-latino-americana
+              <b>Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana</b>
               </p>
+              <p css={principalEventDescription}>
+              Representante do Ministério de Minas e Energia do Brasil
+              </p>
+            </div>
+
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">Alexandre Ramos</p>
+                <p className="participant_role">
+                Presidente da CCEE – Câmara de Comercialização de Energia Elétrica
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Nelson Lage</p>
+                <p className="participant_role">
+                Presidente da ADENE – Agência para a Energia de Portugal
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Elbia Gannoum</p>
+                <p className="participant_role">
+                Membro do Conselho de Desenvolvimento Econômico e Social Sustentável (CDESS) da Presidência da República
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Jeová Lins de Sá</p>
+                <p className="participant_role">
+                Superintendente do Banco do Nordeste no Rio Grande do Norte
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">José Ferreira de Melo Neto</p>
+                <p className="participant_role">
+                Diretor Superintendente do SEBRAE-RN
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Roberto Serquiz</p>
+                <p className="participant_role">
+                Presidente da FIERN – Federação das Indústrias do Rio Grande do Norte
+                </p>
+              </div>
             </div>
 
             {/* <div css={participantsContainer}>
@@ -120,20 +177,57 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             </div> */}
 
             <div css={event}>
-              <span>10h45</span>
+              <span>11h00</span>
               <p>Coffee Break</p>
             </div>
 
             <div>
               <div css={principalEvent}>
-                <span>08h45</span>
+                <span>11h30</span>
                 <p>Natal Energy Expo/Business</p>
               </div>
 
               <p css={principalEventDescription}>
-                Rota do Hidrogênio Verde: projetos e casos de sucesso
+                <b>Rota do Hidrogênio Verde: produção, regulação e certificação </b>
               </p>
             </div>
+
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">Teresa Ponce de Leão</p>
+                <p className="participant_role">
+                Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Eduardo Rossi</p>
+                <p className="participant_role">
+                Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Maria João Rolim</p>
+                <p className="participant_role">
+                Sócia do Rolim Goulart Cardoso Advogados 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Arnaldo Jardim (a confirmar)</p>
+                <p className="participant_role">
+                Deputado Federal do Brasil 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Representante da Petrobras</p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Fernanda Delgado – Moderadora </p>
+                <p className="participant_role">
+                Diretora Executiva da ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde 
+                </p>
+              </div>
+            </div>
+            
 
             {/* <h5 css={eventTypeTitle}>Exposição de Cases</h5>
 
@@ -177,36 +271,108 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
             <div css={event}>
               <span>12h30</span>
-              <p>Almoço</p>
+              <p>Intervalo para Almoço</p>
             </div>
-
-
-            
 
             <div>
               <div css={principalEvent}>
-                <span>14h00</span>
-                <p>Natal Energy Talks</p>
+                <span>14h30</span>
+                <p>Natal Energy MasterClasses</p>
               </div>
 
               <p css={principalEventDescription}>
-              Rota das Eólicas Offshore: para onde os ventos sopram?
+             <b>Rota das Eólicas Offshore: para onde os ventos sopram?</b>
               </p>
             </div>
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">Elbia Gannoum</p>
+                <p className="participant_role">
+                Presidente da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Hugo Fonseca (a confirmar)</p>
+                <p className="participant_role">
+                Coordenador de Desenvolvimento Energético do Estado do Rio Grande do Norte
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Solange David</p>
+                <p className="participant_role">
+                Chair Women in Energy do CIGRE Internacional  
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Mario González </p>
+                <p className="participant_role">
+                Coordenador do Grupo Creation/UFRN – Universidade Federal do Rio Grande do Norte
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Fernanda Scoponi</p>
+                <p className="participant_role">
+                Business Development Manager – Renewables da TotalEnergies 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Jornalista da epbr – Moderadora</p>
+              </div>
+            </div>
+
+
 
             <div>
               <div css={principalEvent}>
-                <span>15h15</span>
+                <span>15h30</span>
                 <p>Natal Energy Expo/Business</p>
               </div>
 
               <p css={principalEventDescription}>
-              Rota do Gás Natural: combustível para a transição
+              <b>Rota do Gás Natural e Biometano: combustíveis para a transição</b>
               </p>
+            </div>
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">Heloísa Borges</p>
+                <p className="participant_role">
+                Diretora de Estudos do Petróleo, Gás e Biocombustíveis da EPE – Empresa de Pesquisa Energética  
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Renata Isfer</p>
+                <p className="participant_role">
+                Presidente de ABiogás – Associação Brasileira do Biogás 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Symone Araújo (a confirmar)</p>
+                <p className="participant_role">
+                Diretora da ANP – Agência Nacional do Petróleo, Gás Natural e Biocombustíveis 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Luiz Gavazza (a confirmar)</p>
+                <p className="participant_role">
+                Presidente da ABEGÁS – Associação Brasileira das Empresas Distribuidoras de Gás Canalizado 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Larissa Dantas</p>
+                <p className="participant_role">
+                Gerente de Relações Institucionais da 3R Petroleum 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Gustavo De Marchi – Moderador </p>
+                <p className="participant_role">
+                Consultor Jurídico da FGV Energia  
+                </p>
+              </div>          
             </div>
 
             <div css={event}>
-              <span>16h00</span>
+              <span>16h30</span>
               <p>Coffee Break</p>
             </div>
             
@@ -217,28 +383,65 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
 
               <p css={principalEventDescription}>
-              Segurança Energética e Transição Climática: na rota da COP30
+                  <b>Segurança Energética e Transição Climática: na rota da COP30</b>
               </p>
+            </div>
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">André Pepitone</p>
+                <p className="participant_role">
+                Diretor Executivo Financeiro de Itaipu Binacional   
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Nelson Lage</p>
+                <p className="participant_role">
+                Presidente da ADENE – Agência para a Energia de Portugal 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Agnes da Costa</p>
+                <p className="participant_role">
+                Diretora da ANEEL – Agência Nacional de Energia Elétrica 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Reynaldo Passanezi</p>
+                <p className="participant_role">
+                CEO da CEMIG – Companhia Energética de Minas Gerais  
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Ludmila Nascimento (a confirmar) </p>
+                <p className="participant_role">
+                Diretora de Energia e Descarbonização da Vale
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Representante da Petrobras</p>
+              </div>          
+              <div className="participant">
+                <p className="participant_name">Rodrigo Polito – Moderador </p>
+                <p className="participant_role">
+                Jornalista Especializado no Setor de Energia  
+                </p>
+              </div>          
             </div>
 
             <div css={event}>
-              <span>18h15</span>
-              <p>Entrega dos Prêmios EVEx Brasil 2024 Personalidades do Ano</p>
-            </div>
-            <div css={event}>
               <span>18h30</span>
-              <p>Coquetel</p>
+              <p>Coquetel powered by (re)energisa</p>
             </div>
             <div css={event}>
-              <span>19h30</span>
-              <p>Encerramento do Primeiro Dia</p>
+              <span>20h30</span>
+              <p>Encerramento do primeiro dia</p>
             </div>
 
             <h4 css={title}>Programação Paralela</h4>
 
             <div>
               <div css={principalEvent}>
-                <span>14h00</span>
+                <span>12h30</span>
                 <p>Natal Energy Academy</p>
               </div>
 
@@ -279,29 +482,111 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <div>
                 <div css={principalEvent}>
                   <span>09h00</span>
-                  <p>Natal Energy Expo/Business</p>
+                  <p>Natal Energy MasterClass</p>
                 </div> 
                 <p css={principalEventDescription}>
-                Rota do Nordeste: potencial para liderar a transição energética
+                  <b>O Pacto Ecológico Europeu</b>
                 </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Teresa Ponce de Leão</p>
+                  <p className="participant_role">
+                  Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal   
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div css={principalEvent}>
+                  <span>09h45</span>
+                  <p>Natal Energy Talks</p>
+                </div> 
+                <p css={principalEventDescription}>
+                  <b>Rota das Infraestruturas Energéticas: modernização e resiliência frente a situações climáticas adversas</b>
+                </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Wagner Ferreira</p>
+                  <p className="participant_role">
+                  Diretor Institucional e Jurídico da ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Medardo Cadena (a confirmar)</p>
+                  <p className="participant_role">
+                  Diretor de Estudos, Projetos e Informação da OLADE – Organização Latino-Americana de Energia    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Luiz Eduardo Diniz Araújo</p>
+                  <p className="participant_role">
+                  Ex-Procurador-Geral da ANEEL – Agência Nacional de Energia Elétrica    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Representante do ONS – Operador Nacional do Sistema Elétrico</p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Representante da CEMIG – Companhia Energética de Minas Gerais</p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Rossana Fonseca – Moderadora </p>
+                  <p className="participant_role">
+                  Sócia do Escritório NDF Advogados     
+                  </p>
+                </div>
               </div>
 
               <div css={event}>
-                <span>10h00</span>
+                <span>10h45</span>
                 <p>Coffe Break</p>
               </div>
 
               <div>
                 <div css={principalEvent}>
-                  <span>10h30</span>
-                  <p>Natal Energy MasterClasses</p>
+                  <span>11h15</span>
+                  <p>Natal Energy Talks</p>
                 </div>
                 <p css={principalEventDescription}>
-                Rota do Mercado Livre de Energia: presente e futuro do consumidor
+                <b>Rota do Mercado Livre de Energia: abertura, desafios e oportunidades</b> 
                 </p>
               </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Fernado Mosna</p>
+                  <p className="participant_role">
+                  Diretor da ANEEL – Agência Nacional de Energia Elétrica    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Gerusa Magalhães</p>
+                  <p className="participant_role">
+                  Vice-Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Camila Schoti</p>
+                  <p className="participant_role">
+                  Diretora Executiva de Marketing & Growth da (re)energiza    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Paulo Tarso (a confirmar)</p>
+                  <p className="participant_role">
+                  Diretor de Comercialização de Energia da Galp Brasil  
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Bernardo Sicsú – Moderador </p>
+                  <p className="participant_role">
+                  Vice-Presidente de Estratégia da ABRACEEL – Associação Brasileira dos Comercializadores de Energia   
+                  </p>
+                </div>
+              </div>
 
-              <div>
+              {/* <div>
                 <div css={principalEvent}>
                   <span>11h30</span>
                   <p>Natal Energy Talks</p>
@@ -309,31 +594,95 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p css={principalEventDescription}>
                 Rota da Eletrificação da Economia: inovações e soluções sustentáveis
                 </p>
-              </div>
+              </div> */}
 
               <div css={event}>
                 <span>12h30</span>
-                <p>Almoço</p>
+                <p>Intervalo para Almoço</p>
               </div>
 
               <div>
                 <div css={principalEvent}>
-                  <span>14h00</span>
-                  <p>Natal Energy Talks</p>
+                  <span>14h30</span>
+                  <p>Natal Energy Expo/Business</p>
                 </div>
                 <p css={principalEventDescription}>
-                Rota do Biogás e Biometano: como abastecer o futuro?
+                <b>Rota da Descarbonização e Eletrificação: rumo a uma economia Net Zero </b>
                 </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Luís Barroso</p>
+                  <p className="participant_role">
+                  CEO da MOBI.E, Entidade Gestora da Rede de Mobilidade Elétrica de Portugal    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Juliana Chagas (a confirmar) </p>
+                  <p className="participant_role">
+                  Gerente Geral de Otimização e Comercialização de Energia da Vale    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Marina Alves</p>
+                  <p className="participant_role">
+                  Diretora de Estratégia, Políticas e Projetos da ADENE – Agência para a Energia de Portugal     
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Rosana Santos</p>
+                  <p className="participant_role">
+                  Diretora Executiva do Instituto E+ Transição Energética  
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Rodrigo Polito – Moderador </p>
+                  <p className="participant_role">
+                  Jornalista Especializado no Setor de Energia   
+                  </p>
+                </div>
               </div>
 
               <div>
                 <div css={principalEvent}>
                   <span>15h15</span>
-                  <p>Natal Energy MasterClasses</p>
+                  <p>Natal Energy Talks</p>
                 </div>
                 <p css={principalEventDescription}>
-                Rota dos Investimentos Verdes: financiamento para tecnologias de baixo carbono
+                <b>Rota da Geração Distribuída: inovações e modelos de negócios</b>
                 </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Lorena Roosevelt </p>
+                  <p className="participant_role">
+                  Gestora do Polo SEBRAE de Energias Renováveis    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Aurélien Maudonnet</p>
+                  <p className="participant_role">
+                  CEO da Helexia Brasil    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Marina Meyer</p>
+                  <p className="participant_role">
+                  Diretora Jurídica do INEL – Instituto Nacional de Energia Limpa     
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Bárbara Rubim (a confirmar)</p>
+                  <p className="participant_role">
+                  Vice-Presidente de Geração Distribuída da ABSOLAR – Associação Brasileira de Energia Solar Fotovoltaica  
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Maria João Rolim – Moderadora </p>
+                  <p className="participant_role">
+                  Sócia do Rolim Goulart Cardoso Advogados   
+                  </p>
+                </div>
               </div>
 
               <div css={event}>
@@ -344,11 +693,40 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <div>
                 <div css={principalEvent}>
                   <span>17h00</span>
-                  <p>Natal Energy Expo/Business</p>
+                  <p>Natal Energy Talks</p>
                 </div>
                 <p css={principalEventDescription}>
-                Rota da Descarbonização: oportunidades rumo a uma economia verde
+                <b>Rota do Nordeste Brasileiro: potencial para liderar a transição energética justa e verde</b>
                 </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Werner Farkatt</p>
+                  <p className="participant_role">
+                  Diretor-Geral do IDEMA – Instituto de Desenvolvimento Sustentável e Meio Ambiente     
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Thiago Mesquita</p>
+                  <p className="participant_role">
+                  Secretario de Meio Ambiente e Urbanismo de Natal    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Rodrigo Mello (a confirmar)</p>
+                  <p className="participant_role">
+                  Diretor do Instituto SENAI de Inovação em Energias Renováveis (ISI-ER)    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Representante do Consórcio Nordeste </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">José Marcelo Costa – Moderador</p>
+                  <p className="participant_role">
+                  Procurador do Estado do Rio Grande do Norte   
+                  </p>
+                </div>
               </div>
 
               <div>
@@ -362,7 +740,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
               <div>
                 <div css={principalEvent}>
-                  <span>09h00</span>
+                  <span>12h30</span>
                   <p>Natal Energy Academy</p>
                 </div>
                 <p css={principalEventDescription}>

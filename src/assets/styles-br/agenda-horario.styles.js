@@ -74,7 +74,7 @@ export const schedule = css`
   flex-direction: column;
   gap: 30px;
   margin: 80px 0;
-  max-width: 690px;
+  max-width: 740px;
 
   @media (max-width: 768px) {
     padding-inline: 10px;
