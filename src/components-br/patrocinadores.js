@@ -6,7 +6,13 @@ import Element12 from "@/images-br/home-br/element_patrocinio.svg"
 import Element13 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images-br/home-br/petro-govbr.png'
-import Img19 from '@/images-br/home-br/bn_gov.png'
+import Img19 from '@/images-br/patrocinio/bn.png'
+import Img191 from '@/images-br/patrocinio/gov.png'
+import Img192 from '@/images-br/patrocinio/adene.png'
+import Img193 from '@/images-br/patrocinio/cemig.png'
+import Img194 from '@/images-br/patrocinio/reenergisa.png'
+import Img195 from '@/images-br/patrocinio/rolim.png'
+import Img196 from '@/images-br/patrocinio/sebrae.png'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -93,22 +99,27 @@ const Patrocinadores = () => {
 
                <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
-                  <ul  style={{display:"flex", justifyContent:'center'}}>
-                    {/* <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li> */}
+                  <ul>
                     <li><a target="_blank"><img src={Img19} /></a></li>
+                    <li><a target="_blank"><img src={Img191} /></a></li>
+                    <li><a target="_blank"><img src={Img192} /></a></li>
                   </ul>
                </section>
 
-               {/* <section className='prata'>
+               <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
-                      <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
-                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Pat12} /></a></li>
+                      <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Img193} /></a></li>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img194} /></a></li>
                   </ul>
-               </section> */}
+                  <ul>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img195} /></a></li>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img196} /></a></li>
+                  </ul>
+               </section>
 
-               <section className='bronze'>
-                <h4 css={secDesk}>Patrocínio Prata</h4>
+               {/* <section className='bronze'>
+                <h4 css={secDesk}>Patrocínio Bronze</h4>
                   <ul>
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
                     <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img20} /></a></li>
@@ -117,7 +128,7 @@ const Patrocinadores = () => {
                     <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Pat12} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
 
               {/* <h2 css={[secTitle, mb45]}>Apoio Institucional</h2> */}

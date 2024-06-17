@@ -141,27 +141,31 @@ export const about = css`
     width: 100%;
     max-width: 980px;
     margin-bottom: 64px;
+    h4{
+      margin-bottom: 24px;
+    }
     ul {
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      gap: 28px;
 
       @media (min-width: 320px) and (max-width: 767px) {
         display: inline;
       }
 
       li {
+        height: 110px;
         @media (min-width: 320px) and (max-width: 767px) {
-          /* width: 33.3%; */
-          padding: 2px;
-          float: left;
+          margin-bottom: 16px;
+          height: 100px;
         }
         img {
-          height: 115px;
+          height: 100%;
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto !important;
+            height: 100% !important;
             max-width: 80%;
           }
         }
@@ -173,6 +177,9 @@ export const about = css`
     width: 100%;
     max-width: 980px;
     margin-bottom: 32px;
+    h4{
+      margin-bottom: 24px;
+    }
     ul {
       margin: 0;
       padding: 0;
@@ -182,10 +189,12 @@ export const about = css`
 
       @media (min-width: 320px) and (max-width: 767px) {
         flex-wrap: wrap;
+        margin-bottom: 0px !important;
       }
 
       li {
         padding: 0 16px;
+        height: 42px;
 
         /* :nth-of-type(1) img {
           height: 68px;
@@ -196,20 +205,41 @@ export const about = css`
 
         :nth-of-type(3) img,
         :nth-of-type(4) img {
-          height: 42px;
+          /* height: 42px; */
         }
 
         @media (min-width: 320px) and (max-width: 767px) {
-          width: 50%;
-          padding: 8px;
-          float: left;
+          width: 100%;
+          height: 40px;
+          margin-bottom: 24px;
         }
         img {
-          height: 36px;
+          height:100%;
 
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto !important;
+            height: 100% !important;
           }
+        }
+      }
+
+      :nth-of-type(1){
+        margin-bottom:24px;
+      }
+      :nth-of-type(2){
+        li{
+          height: 58px;
+        }
+        
+        @media (min-width: 320px) and (max-width: 767px) {
+
+         li{          
+          :nth-of-type(1){
+            width: 30%;
+          }
+          :nth-of-type(2){
+            width: 70%;
+          }
+         }
         }
       }
     }
