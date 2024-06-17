@@ -569,7 +569,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <div className="participant">
                   <p className="participant_name">Camila Schoti</p>
                   <p className="participant_role">
-                  Diretora Executiva de Marketing & Growth da (re)energiza    
+                  Diretora Executiva de Marketing & Growth da (re)energisa    
                   </p>
                 </div>
                 <div className="participant">
