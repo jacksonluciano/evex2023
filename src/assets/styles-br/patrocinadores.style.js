@@ -410,7 +410,7 @@ export const element12 = css`
   @media (min-width: 320px) and (max-width: 420px) {
     right: -13px;
     width: 77px !important;
-    top: 540px;
+    top: 490px;
   }
   @media (min-width: 421px) and (max-width: 767px) {
     right: 0;
