@@ -7,7 +7,7 @@ import Element13 from "@/images-br/home-br/element_patrocinio.svg"
 import { Col, Container, Row } from "react-bootstrap";
 import Img from '@/images-br/home-br/petro-govbr.png'
 import Img19 from '@/images-br/patrocinio/bn.png'
-import Img191 from '@/images-br/patrocinio/gov.png'
+import Img191 from '@/images-br/patrocinio/bn_vertical.png'
 import Img192 from '@/images-br/patrocinio/adene.png'
 import Img193 from '@/images-br/patrocinio/cemig.png'
 import Img194 from '@/images-br/patrocinio/reenergisa.png'
@@ -16,6 +16,9 @@ import Img196 from '@/images-br/patrocinio/sebrae.png'
 import Img197 from '@/images-br/patrocinio/itaipu.png'
 import Img198 from '@/images-br/patrocinio/petro-govbr.png'
 import Img199 from '@/images-br/patrocinio/petro-govbr_vertical.png'
+import Img200 from '@/images-br/patrocinio/enbpar.png'
+import Img201 from '@/images-br/patrocinio/enbparm.png'
+import Img202 from '@/images-br/patrocinio/mmegov.png'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -102,9 +105,14 @@ const Patrocinadores = () => {
                <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul>
-                    <li><a target="_blank"><img src={Img19} /></a></li>
-                    <li><a target="_blank"><img src={Img191} /></a></li>
+                    <li className="desktop"><a target="_blank"><img src={Img19} /></a></li>
+                    <li className="mobile"><a target="_blank"><img src={Img191} /></a></li>
                     <li><a target="_blank"><img src={Img192} /></a></li>
+                  </ul>
+                  <ul>
+                    <li className="desktop"><a target="_blank"><img src={Img200} /></a></li>
+                    <li className="mobile"><a target="_blank"><img src={Img201} /></a></li>
+                    <li className="mobile"><a target="_blank"><img src={Img202} /></a></li>
                   </ul>
                </section>
 

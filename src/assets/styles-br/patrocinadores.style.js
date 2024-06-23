@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "../styles/layout.styles";
 
 export const abAgency = css`
-  background-color: #e3e3e2;
+  background-color: #ffffff;
   position: relative;
   overflow-x: clip;
 `;
@@ -108,12 +108,12 @@ export const about = css`
           height: 160px;
 
           &.mobile{
-          display: block;
-          height: 240px;
-        }
-          &.desktop{
-          display: none;
-        }
+            display: block;
+            height: 240px;
+          }
+            &.desktop{
+            display: none;
+          }
         }
         img {
           height: 100%;
@@ -176,15 +176,34 @@ export const about = css`
       align-items: center;
       gap: 28px;
 
+      margin-bottom: 24px;
+
       @media (min-width: 320px) and (max-width: 767px) {
         display: inline;
+
+        &:nth-of-type(2) li{
+          height: 90px !important;
+        }
       }
 
       li {
-        height: 100px;
+        height: 110px;
+        &.desktop{
+          display: block;
+        }
+        &.mobile{
+          display: none;
+        }
         @media (min-width: 320px) and (max-width: 767px) {
           margin-bottom: 16px;
           height: 100px;
+          &.mobile{
+            display: block;
+            height: 180px;
+          }
+            &.desktop{
+            display: none;
+          }
         }
         img {
           height: 100%;

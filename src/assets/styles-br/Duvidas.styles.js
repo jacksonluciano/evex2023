@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "../styles/layout.styles";
 
 export const abAgency = css`
-  background-color: #e3e3e2;
+  background-color: #ffffff;
   position: relative;
   overflow-x: hidden;
 
@@ -220,6 +220,7 @@ export const contact = css`
   }
 
   #contact-form {
+    background-color: #e3e3e2;
     padding: 40px 60px 40px 60px;
     display: flex;
     justify-content: flex-end;

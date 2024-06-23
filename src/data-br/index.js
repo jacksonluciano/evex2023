@@ -509,21 +509,21 @@ export const TeamOneData = {
       name: "Nelson Lage",
       designation: "Presidente, ADENE – Agência para a Energia de Portugal",
     },
-    {
-      image: Speaker04,
-      name: "Agnes da Costa",
-      designation: "Diretora, ANEEL – Agência Nacional de Energia Elétrica",
-    },
+    // {
+    //   image: Speaker04,
+    //   name: "Agnes da Costa",
+    //   designation: "Diretora, ANEEL – Agência Nacional de Energia Elétrica",
+    // },
     {
       image: Speaker05,
       name: "Teresa Ponce de Leão",
       designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia de Portugal",
     },
-    {
-      image: Speaker06,
-      name: "Alexandre Zucarato",
-      designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico",
-    },
+    // {
+    //   image: Speaker06,
+    //   name: "Alexandre Zucarato",
+    //   designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico",
+    // },
     {
       image: Speaker07,
       name: "Heloísa Borges",
@@ -572,13 +572,13 @@ export const TeamOneData = {
     {
       image: Speaker16,
       name: "Camila Schoti",
-      designation: "Diretora de Marketing, (re)energisa",
+      designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
     },
-    {
-      image: Speaker17,
-      name: "Cácia Pimentel ",
-      designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
-    },
+    // {
+    //   image: Speaker17,
+    //   name: "Cácia Pimentel ",
+    //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
+    // },
   ]
 };
 
@@ -703,12 +703,12 @@ export const ComiteData = {
       designation: "Ex-Assessor da Diretoria, ",
       place: "ANEEL – Agência Nacional de Energia Elétrica"
     },
-    {
-      image: Speaker17,
-      name: "Cácia Pimentel",
-      designation: "Ex-Assessor da Diretoria, ",
-      place: "ANEEL – Agência Nacional de Energia Elétrica"
-    },
+    // {
+    //   image: Speaker17,
+    //   name: "Cácia Pimentel",
+    //   designation: "Ex-Assessor da Diretoria, ",
+    //   place: "ANEEL – Agência Nacional de Energia Elétrica"
+    // },
     {
       image: Speaker25,
       name: "Hirdan Medeiros",

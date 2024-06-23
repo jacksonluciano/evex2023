@@ -15,7 +15,7 @@ import { jsx } from "@emotion/react";
 
 import Img from '@/images/pat.png'
 import Img1 from '@/images/apoio/abeeolica.svg'
-import Img2 from '@/images/apoio/ABRADEE.png'
+import Img2 from '@/images/apoio/abradee2.png'
 import Img3 from '@/images/apoio/ape.jpg'
 import Img4 from '@/images/apoio/enova.png'
 import Img5 from '@/images/apoio/ibp.jpg'
@@ -30,6 +30,9 @@ import Img13 from '@/images/apoio/WINESG.svg'
 import Img14 from '@/images/apoio/mackenzie.png'
 import Img15 from '@/images/apoio/fgv_energia.png'
 import Img16 from '@/images/apoio/ccee.png'
+import Img20 from '@/images/apoio/abraceel.png'
+import Img21 from '@/images/apoio/aner.png'
+import Img22 from '@/images/apoio/creation.png'
 import Img17 from '@/images-br/home-br/ABIHV.png'
 import Img18 from '@/images-br/home-br/ABIOGAS.png'
 import Img19 from "@/images-br/home-br/recell.png";
@@ -104,7 +107,7 @@ const Duvidas = () => {
             </Col>
 
             <Col lg={6} md={6} sm={6} xs={6}>
-              <h4 css={secDesk}>Parceiro de Mídia</h4>
+              <h4 css={secDesk}>Parceira de Mídia</h4>
               <a href='#' target='_blank'>
                 <img src={logoEp} style={{width: '100px'}} />
               </a>           
@@ -124,16 +127,17 @@ const Duvidas = () => {
             <li>
               <img src={Img1} />
             </li>
+           
             <li>
-              <img src={Img3} />
-            </li>
+              <img src={Img20} />
+            </li>  
           </ul>
           <ul>
             <li>
               <img src={Img7} />
             </li>
             <li>
-              <img src={Img11} />
+              <img src={Img22} />
             </li>
             <li>
               <img src={Img14} />
@@ -143,13 +147,18 @@ const Duvidas = () => {
             </li>
           </ul>
           <ul>
+          <li>
+              <img src={Img21} />
+            </li>
             <li>
               <img src={Img18} />
             </li>
             <li>
               <img src={Img19} />
             </li>
+               
           </ul>
+
         </section>
 
         <section css={contact}>
