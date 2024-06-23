@@ -13,6 +13,9 @@ import Img193 from '@/images-br/patrocinio/cemig.png'
 import Img194 from '@/images-br/patrocinio/reenergisa.png'
 import Img195 from '@/images-br/patrocinio/rolim.png'
 import Img196 from '@/images-br/patrocinio/sebrae.png'
+import Img197 from '@/images-br/patrocinio/itaipu.png'
+import Img198 from '@/images-br/patrocinio/petro-govbr.png'
+import Img199 from '@/images-br/patrocinio/petro-govbr_vertical.png'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -81,21 +84,20 @@ const Patrocinadores = () => {
            <div css={about}>
               
 
-              {/* <section className='diamante'>
+              <section className='diamante'>
                 <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
-                    <li><img src={Img} /></li>
+                    <li className="desktop"><img src={Img198} /></li>
+                    <li className="mobile"><img src={Img199} /></li>
                   </ul>
-               </section> */}
-{/* 
+               </section>
+
                <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>
                   <ul>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
-                    <li><img src={Img} /></li>
+                    <li><img src={Img197} /></li>
                   </ul>
-               </section> */}
+               </section>
 
                <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>

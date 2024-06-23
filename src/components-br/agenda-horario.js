@@ -68,7 +68,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div>
               <div css={principalEvent}>
                 <span>09h15</span>
-                <p>BOAS-VINDAS E ENTREGA DO PRÊMIO PERSONALIDADE DO ANO</p>
+                <p>BOAS-VINDAS E ENTREGA DO PRÊMIO EVEx BRASIL PERSONALIDADE DO ANO</p>
               </div>
 
               <p css={principalEventDescription}>
@@ -344,9 +344,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Luiz Gavazza - Presidente da Bahia Gás</p>
+                <p className="participant_name">Luiz Gavazza</p>
                 <p className="participant_role">
-                Presidente da ABEGÁS – Associação Brasileira das Empresas Distribuidoras de Gás Canalizado 
+                Presidente da Bahia Gás
                 </p>
               </div>
               <div className="participant">

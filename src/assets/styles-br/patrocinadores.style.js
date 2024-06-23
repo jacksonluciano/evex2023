@@ -78,12 +78,13 @@ export const about = css`
     width: 100%;
     max-width: 980px;
     margin-bottom: 64px;
-
+    h4{
+      margin-bottom: 24px;
+    }
     ul {
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
       align-items: center;
       justify-content: center;
 
@@ -95,11 +96,30 @@ export const about = css`
       }
 
       li {
+        height: 140px;
+        &.desktop{
+          display: block;
+        }
+        &.mobile{
+          display: none;
+        }
+        @media (min-width: 320px) and (max-width: 767px) {
+          /* width: 50%; */
+          height: 160px;
+
+          &.mobile{
+          display: block;
+          height: 240px;
+        }
+          &.desktop{
+          display: none;
+        }
+        }
         img {
-          height: 112px;
+          height: 100%;
           @media (min-width: 320px) and (max-width: 767px) {
-            width: 75%;
-            height: auto;
+            height: 100% !important;
+            /* max-width: 80%; */
           }
         }
       }
@@ -109,28 +129,32 @@ export const about = css`
   .platina {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 80px;
+    h4{
+      margin-bottom: 24px;
+    }
     ul {
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
       @media (min-width: 320px) and (max-width: 767px) {
-        display: inline;
+        /* display: inline; */
       }
 
       li {
+        height: 150px;
         @media (min-width: 320px) and (max-width: 767px) {
-          width: 50%;
-          padding: 4px;
-          float: left;
+          /* width: 50%; */
+          height: 160px;
         }
         img {
-          height: 96px;
+          height: 100%;
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto;
+            height: 100% !important;
+            /* max-width: 80%; */
           }
         }
       }
@@ -140,7 +164,7 @@ export const about = css`
   .ouro {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 64px;
+    margin-bottom: 80px;
     h4{
       margin-bottom: 24px;
     }
@@ -157,7 +181,7 @@ export const about = css`
       }
 
       li {
-        height: 110px;
+        height: 100px;
         @media (min-width: 320px) and (max-width: 767px) {
           margin-bottom: 16px;
           height: 100px;
