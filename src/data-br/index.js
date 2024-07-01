@@ -83,6 +83,42 @@ import Speaker23 from "@/images-br/comite-br/Caio-Alves.png"
 import Speaker24 from "@/images-br/comite-br/Alice-Khouri.png"
 import Speaker25 from "@/images-br/comite-br/Hirdan-Medeiros.png"
 
+import Speaker26 from "@/images-br/speakers/fatima-bezerra.png"
+import Speaker27 from "@/images-br/speakers/andre-pepitone.png"
+import Speaker28 from "@/images-br/speakers/jose-aldemir-freire.png"
+import Speaker29 from "@/images-br/speakers/marina-melo.png"
+import Speaker30 from "@/images-br/speakers/luiz-gavazza.png"
+import Speaker31 from "@/images-br/speakers/larissa-dantas.png"
+import Speaker32 from "@/images-br/speakers/silvio-torquato.png"
+import Speaker33 from "@/images-br/speakers/wander-azevedo.png"
+import Speaker34 from "@/images-br/speakers/thiago-ivanoski.png"
+import Speaker35 from "@/images-br/speakers/eduardo-rossi.png"
+import Speaker36 from "@/images-br/speakers/matheus-noronha.png"
+import Speaker37 from "@/images-br/speakers/jose-marcelo-costa.png"
+import Speaker38 from "@/images-br/speakers/reynaldo-passanezi.png"
+import Speaker39 from "@/images-br/speakers/zeca-melo.png"
+import Speaker40 from "@/images-br/speakers/hugo-fonseca.png"
+import Speaker41 from "@/images-br/speakers/mario-gonzales.png"
+import Speaker42 from "@/images-br/speakers/nayara-machado.png"
+import Speaker43 from "@/images-br/speakers/rodrigo-polito.png"
+import Speaker44 from "@/images-br/speakers/luiz-eduardo.png"
+import Speaker45 from "@/images-br/speakers/roberta-nanini.png"
+import Speaker46 from "@/images-br/speakers/rossana-fonseca.png"
+import Speaker47 from "@/images-br/speakers/fernando-mosna.png"
+import Speaker48 from "@/images-br/speakers/gerusa-magalhaes.png"
+import Speaker49 from "@/images-br/speakers/bernardo-sicsu.png"
+import Speaker50 from "@/images-br/speakers/marina-alves.png"
+import Speaker51 from "@/images-br/speakers/rosana-santos.png"
+import Speaker52 from "@/images-br/speakers/karine-fragoso.png"
+import Speaker53 from "@/images-br/speakers/lorena-roosevelt.png"
+import Speaker54 from "@/images-br/speakers/aurelio-maudonnet.png"
+import Speaker55 from "@/images-br/speakers/marina-meyer.png"
+import Speaker56 from "@/images-br/speakers/daniel-faro.png"
+import Speaker57 from "@/images-br/speakers/dirceu-simabucuru.png"
+import Speaker58 from "@/images-br/speakers/paulo-prunzel.png"
+
+
+
 import Normas from '@/images-br/files/Regras de formatação - EVEx Brasil 2024.pdf'
 import Eixos from '@/images-br/papers/eixos_tematicos.jpg'
 
@@ -579,6 +615,171 @@ export const TeamOneData = {
     //   name: "Cácia Pimentel ",
     //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
     // },
+    {
+      image: Speaker26,
+      name: "Fátima Bezerra",
+      designation: "Governadora do Estado do Rio Grande do Norte",
+    },
+    {
+      image: Speaker27,
+      name: "André Pepitone",
+      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
+    },
+    {
+      image: Speaker28,
+      name: "José Aldemir Freire",
+      designation: "Diretor de Planejamento, Banco do Nordeste",
+    },
+    {
+      image: Speaker29,
+      name: "Marina Melo",
+      designation: "Diretora Presidente, POTIGÁS – Companhia Potiguar de Gás",
+    },
+    {
+      image: Speaker30,
+      name: "Luiz Gavazza",
+      designation: "Presidente, Bahiagás – Companhia de Gás da Bahia",
+    },
+    {
+      image: Speaker31,
+      name: "Larissa Dantas",
+      designation: "Gerente de Relações Institucionais, 3R Petroleum",
+    },
+    {
+      image: Speaker32,
+      name: "Silvio Torquato",
+      designation: "Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte",
+    },
+    {
+      image: Speaker33,
+      name: "Wander Azevedo ",
+      designation: "Diretor de Comercialização de Energia, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional ",
+    },
+    {
+      image: Speaker34,
+      name: "Thiago Ivanoski ",
+      designation: "Diretor de Estudos Econômico-Energéticos e Ambientais, EPE – Empresa de Pesquisa Energética ",
+    },
+    {
+      image: Speaker35,
+      name: "Eduardo Rossi",
+      designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker36,
+      name: "Matheus Noronha",
+      designation: "Head de Energia Eólica Offshrore, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    },
+    {
+      image: Speaker37,
+      name: "José Marcelo Costa",
+      designation: "Procurador do Estado do Rio Grande do Norte",
+    },
+    {
+      image: Speaker58,
+      name: "Paulo Prunzel",
+      designation: "Engenheiro de Processo com Especialização em Transição Energética, Petrobras",
+    },
+    {
+      image: Speaker38,
+      name: "Reynaldo Passanezi",
+      designation: "CEO, CEMIG – Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker39,
+      name: "Zeca Melo",
+      designation: "Diretor Superintendente, SEBRAE-RN",
+    },
+    {
+      image: Speaker40,
+      name: "Hugo Fonseca",
+      designation: "Coordenador de Desenvolvimento Energético do Estado do Rio Grande do Norte",
+    },
+    {
+      image: Speaker41,
+      name: "Mario González",
+      designation: "Coordenador do Grupo Creation, UFRN – Universidade Federal do Rio Grande do Norte",
+    },
+    {
+      image: Speaker42,
+      name: "Nayara Machado",
+      designation: "Jornalista, epbr",
+    },
+    {
+      image: Speaker43,
+      name: "Rodrigo Polito",
+      designation: "Jornalista Especializado no Setor de Energia, Lead Specialist da PSR",
+    },
+    {
+      image: Speaker44,
+      name: "Luiz Eduardo Diniz Araújo",
+      designation: "Sócio, Wald, Antunes, Vita e Blattner Advogados",
+    },
+    {
+      image: Speaker45,
+      name: "Roberta Nanini Rolim",
+      designation: "Diretora de Regulação, CEMIG – Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker46,
+      name: "Rossana Fonseca",
+      designation: "Sócia, NDF Advogados",
+    },
+    {
+      image: Speaker47,
+      name: "Fernado Mosna",
+      designation: "Diretor, ANEEL – Agência Nacional de Energia Elétrica",
+    },
+    {
+      image: Speaker48,
+      name: "Gerusa Magalhães",
+      designation: "Vice-Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker49,
+      name: "Bernardo Sicsú",
+      designation: "Vice-Presidente de Estratégia, ABRACEEL – Associação Brasileira dos Comercializadores de Energia",
+    },
+    {
+      image: Speaker50,
+      name: "Marina Alves",
+      designation: "Diretora de Estratégia, Políticas e Projetos, ADENE – Agência para a Energia",
+    },
+    {
+      image: Speaker51,
+      name: "Rosana Santos",
+      designation: "Diretora Executiva, Instituto E+ Transição Energética",
+    },
+    {
+      image: Speaker52,
+      name: "Karine Fragoso",
+      designation: "Gerente Geral de Petróleo, Gás, Energias e Naval, Firjan SENA",
+    },
+    {
+      image: Speaker53,
+      name: "Lorena Roosevelt",
+      designation: "Gestora, Polo SEBRAE de Energias Renováveis",
+    },
+    {
+      image: Speaker54,
+      name: "Aurélien Maudonnet",
+      designation: "CEO, Helexia Brasil",
+    },
+    {
+      image: Speaker55,
+      name: "Marina Meyer",
+      designation: "Diretora Jurídica, INEL – Instituto Nacional de Energia Limpa",
+    },
+    {
+      image: Speaker56,
+      name: "Daniel Faro",
+      designation: "Gerente Geral de Geração Renovável da Petrobras",
+    },
+    {
+      image: Speaker57,
+      name: "Dirceu Simabucuru",
+      designation: "Diretor de ESG e Sustentabilidade da CDL Natal ",
+    },
   ]
 };
 
