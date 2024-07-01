@@ -15,7 +15,7 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
     <section css={sectionHero}>
       <Container fluid className="px-0">
         <div className="title_container">
-          <h3 className="title">Agenda Preliminar</h3>
+          <h3 className="title">Agenda Oficial</h3>
         </div>
 
         <div css={informations}>
@@ -43,7 +43,7 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
             </div>
           </div>
 
-          <p>Sujeita à alteração até o dia 28/06/2024</p>
+          {/* <p>Sujeita à alteração até o dia 28/06/2024</p> */}
         </div>
       </Container>
     </section>

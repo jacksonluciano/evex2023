@@ -19,6 +19,8 @@ import Img199 from '@/images-br/patrocinio/petro-govbr_vertical.png'
 import Img200 from '@/images-br/patrocinio/enbpar.png'
 import Img201 from '@/images-br/patrocinio/enbparm.png'
 import Img202 from '@/images-br/patrocinio/mmegov.png'
+import Img203 from '@/images-br/patrocinio/potigas.png'
+import Img204 from '@/images-br/patrocinio/bahiagas.jpg'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -121,10 +123,12 @@ const Patrocinadores = () => {
                   <ul>
                       <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Img193} /></a></li>
                       <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img194} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img204} /></a></li>
                   </ul>
                   <ul>
                       <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img195} /></a></li>
                       <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img196} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img203} /></a></li>
                   </ul>
                </section>
 

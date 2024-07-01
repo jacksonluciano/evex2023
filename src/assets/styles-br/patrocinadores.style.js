@@ -447,7 +447,7 @@ export const element11 = css`
 export const element12 = css`
   position: absolute;
   width: 300px !important;
-  top: 1154px;
+  top: 1400px;
   right: 0px;
   z-index: 1;
   @media (min-width: 320px) and (max-width: 420px) {

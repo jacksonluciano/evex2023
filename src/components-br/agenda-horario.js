@@ -68,7 +68,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div>
               <div css={principalEvent}>
                 <span>09h15</span>
-                <p>BOAS-VINDAS E ENTREGA DO PRÊMIO EVEx BRASIL PERSONALIDADE DO ANO</p>
+                <p>BOAS-VINDAS</p>
               </div>
 
               <p css={principalEventDescription}>
@@ -76,12 +76,8 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 Presidente do EVEx
               </p>
               <p css={principalEventDescription}>
-                <b>Fátima Bezerra</b><br/>
-                Governadora do Estado do Rio Grande do Norte
-              </p>
-              <p css={principalEventDescription}>
-                <b>Elbia Gannoum</b><br/>
-                Membro do Conselho de Desenvolvimento Econômico e Social Sustentável (CDESS) da Presidência da República do Brasil
+                <b>Silvio Torquato</b><br/>
+                Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte
               </p>
             </div>
 
@@ -116,15 +112,27 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Luis Fernando Paroli</p>
+                <p className="participant_name">Wander Azevedo</p>
                 <p className="participant_role">
-                Diretor Presidente da ENBPar, empresa pública vinculada ao Ministério de Minas e Energia do Brasil
+                Diretor de Comercialização de Energia da ENBPar, empresa pública vinculada ao Ministério de Minas e Energia do Brasil
                 </p>
               </div>
               <div className="participant">
                 <p className="participant_name">José Ferreira de Melo Neto</p>
                 <p className="participant_role">
                 Diretor Superintendente do SEBRAE-RN
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">José Aldemir Freire</p>
+                <p className="participant_role">
+                Diretor de Planejamento do Banco do Nordeste do Brasil
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Maria João Rolim – Moderadora</p>
+                <p className="participant_role">
+                Sócia do Rolim Goulart Cardoso Advogados
                 </p>
               </div>
             </div>
@@ -170,6 +178,19 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p className="participant_role">Diretora Geral, Garoupa INC</p>
               </div>
             </div> */}
+            <div>
+              <div css={principalEvent}>
+                <span>10h40</span>
+                <p>Assinatura de protocolos de cooperação</p>
+              </div>
+
+              <p css={principalEventDescription}>
+              <b>Entre ADENE – Agência para a Energia e Polo SEBRAE de Energias Renováveis</b>
+              </p>
+              <p css={principalEventDescription}>
+              <b>Entre Governo do Estado do Rio Grande do Norte e ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde </b>
+              </p>
+            </div>
 
             <div css={event}>
               <span>11h00</span>
@@ -207,9 +228,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Arnaldo Jardim (a confirmar)</p>
+                <p className="participant_name">Paulo Prunzel</p>
                 <p className="participant_role">
-                Deputado Federal do Brasil 
+                Engenheiro de Processo com Especialização em Transição Energética – Petrobras 
                 </p>
               </div>
               <div className="participant">
@@ -269,6 +290,34 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <p>Intervalo para Almoço</p>
             </div>
 
+
+            <div>
+              <div css={principalEvent}>
+                <span>14h00</span>
+                <p>NATAL ENERGY TALKS – ENTREVISTA COM CEO</p>
+              </div>
+
+              <p css={principalEventDescription}>
+             <b>Transição Energética Justa e Industrialização Verde: o papel da CEMIG</b>
+              </p>
+            </div>
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">Reynaldo Passanezi</p>
+                <p className="participant_role">
+                CEO da CEMIG – Companhia Energética de Minas Gerais 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Rodrigo Polito – Moderador</p>
+                <p className="participant_role">
+                Jornalista Especializado no Setor de Energia – Lead Specialist da PSR
+                </p>
+              </div>
+            </div>
+
+
+
             <div>
               <div css={principalEvent}>
                 <span>14h30</span>
@@ -281,9 +330,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             </div>
             <div css={participantsContainer}>
               <div className="participant">
-                <p className="participant_name">Elbia Gannoum</p>
+                <p className="participant_name">Matheus Noronha</p>
                 <p className="participant_role">
-                Presidente da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias 
+                Head de Energia Eólica Offshrore da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias 
                 </p>
               </div>
               <div className="participant">
@@ -299,9 +348,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Mario González </p>
+                <p className="participant_name">Daniel Faro</p>
                 <p className="participant_role">
-                Coordenador do Grupo Creation/UFRN – Universidade Federal do Rio Grande do Norte
+                Gerente Geral de Geração Renovável da Petrobras
                 </p>
               </div>
               <div className="participant">
@@ -312,11 +361,14 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
             </div>
 
-
+            <div css={event}>
+              <span>15h45</span>
+              <p>Coffee Break</p>
+            </div>
 
             <div>
               <div css={principalEvent}>
-                <span>15h45</span>
+                <span>16h15</span>
                 <p>Natal Energy Expo/Business</p>
               </div>
 
@@ -346,7 +398,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <div className="participant">
                 <p className="participant_name">Luiz Gavazza</p>
                 <p className="participant_role">
-                Presidente da Bahia Gás
+                Presidente da Bahiagás – Companhia de Gás da Bahia
                 </p>
               </div>
               <div className="participant">
@@ -380,27 +432,27 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             </div>
             <div css={participantsContainer}>
               <div className="participant">
-                <p className="participant_name">Reynaldo Passanezi</p>
-                <p className="participant_role">
-                CEO da CEMIG – Companhia Energética de Minas Gerais  
-                </p>
-              </div>
-              <div className="participant">
                 <p className="participant_name">André Pepitone</p>
                 <p className="participant_role">
                 Diretor Executivo Financeiro de Itaipu Binacional   
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Ludmila Nascimento</p>
+                <p className="participant_name">Nelson Lage</p>
                 <p className="participant_role">
-                Diretora de Energia e Descarbonização da Vale
+                Presidente da ADENE – Agência para a Energia de Portugal
                 </p>
               </div>          
               <div className="participant">
-                <p className="participant_name">Luis Fernando Paroli </p>
+                <p className="participant_name">Wander Azevedo</p>
                 <p className="participant_role">
-                Diretor Presidente da ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
+                Diretor de Comercialização de Energia da ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
+                </p>
+              </div>          
+              <div className="participant">
+                <p className="participant_name">Thiago Ivanoski</p>
+                <p className="participant_role">
+                Diretor de Estudos Econômico-Energéticos e Ambientais da EPE – Empresa de Pesquisa Energética
                 </p>
               </div>          
               <div className="participant">
@@ -418,19 +470,6 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div css={event}>
               <span>20h30</span>
               <p>Encerramento do primeiro dia</p>
-            </div>
-
-            <h4 css={title}>Programação Paralela</h4>
-
-            <div>
-              <div css={principalEvent}>
-                <span>12h30</span>
-                <p>Natal Energy Academy</p>
-              </div>
-
-              <p css={principalEventDescription}>
-              Apresentações de Trabalhos Acadêmicos e Científicos
-              </p>
             </div>
 
           </div>
@@ -478,6 +517,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal   
                   </p>
                 </div>
+                <div className="participant">
+                  <p className="participant_name">Maria João Rolim – Moderadora</p>
+                  <p className="participant_role">
+                  Sócia do Rolim Goulart Cardoso Advogados   
+                  </p>
+                </div>
               </div>
 
               <div>
@@ -497,15 +542,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Medardo Cadena (a confirmar)</p>
-                  <p className="participant_role">
-                  Diretor de Estudos, Projetos e Informação da OLADE – Organização Latino-Americana de Energia    
-                  </p>
-                </div>
-                <div className="participant">
                   <p className="participant_name">Luiz Eduardo Diniz Araújo</p>
                   <p className="participant_role">
-                  Ex-Procurador-Geral da ANEEL – Agência Nacional de Energia Elétrica    
+                  Sócio do Wald, Antunes, Vita e Blattner Advogados    
                   </p>
                 </div>
                 <div className="participant">
@@ -563,6 +602,31 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </div>
               </div>
 
+
+              <div>
+                <div css={principalEvent}>
+                  <span>12h30</span>
+                  <p>ENTREGA DO PRÊMIO EVEX BRASIL PERSONALIDADE DO ANO</p>
+                </div>
+                <p css={principalEventDescription}>
+                <b>Rota da Descarbonização e Eletrificação: rumo a uma economia Net Zero </b>
+                </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Fátima Bezerra – Personalidade Homenageada </p>
+                  <p className="participant_role">
+                  Governadora do Estado do Rio Grande do Norte    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Elbia Gannoum – Apresentadora</p>
+                  <p className="participant_role">
+                  Presidente da ABEEólica e Membro do Conselho de Desenvolvimento Econômico e Social Sustentável (CDESS) da Presidência da República do Brasil     
+                  </p>
+                </div>
+              </div>
+
               {/* <div>
                 <div css={principalEvent}>
                   <span>11h30</span>
@@ -574,7 +638,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div> */}
 
               <div css={event}>
-                <span>12h30</span>
+                <span>13h00</span>
                 <p>Intervalo para Almoço</p>
               </div>
 
@@ -609,7 +673,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <div className="participant">
                   <p className="participant_name">Karine Fragoso</p>
                   <p className="participant_role">
-                  Gerente de Petróleo, Gás Natural e Naval da FIRJAN – Federação das Indústrias do Rio de Janeiro  
+                  Gerente Geral de Petróleo, Gás, Energias e Naval da Firjan SENAI  
                   </p>
                 </div>
                 <div className="participant">
@@ -620,9 +684,14 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </div>
               </div>
 
+              <div css={event}>
+                <span>15h40</span>
+                <p>Coffee Break</p>
+              </div>
+
               <div>
                 <div css={principalEvent}>
-                  <span>15h15</span>
+                  <span>16h00</span>
                   <p>Natal Energy Talks</p>
                 </div>
                 <p css={principalEventDescription}>
@@ -655,11 +724,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
               </div>
-
-              <div css={event}>
-                <span>16h30</span>
-                <p>Coffee Break</p>
-              </div>
+           
 
               <div>
                 <div css={principalEvent}>
@@ -678,13 +743,10 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Matheus Noronha </p>
+                  <p className="participant_name">Dirceu Simabucuru</p>
                   <p className="participant_role">
-                  Head de Energia Eólica Offshrore da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias    
+                  Diretor de ESG e Sustentabilidade da CDL Natal     
                   </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Representante da Petrobras</p>
                 </div>
                 <div className="participant">
                   <p className="participant_name">José Marcelo Costa – Moderador</p>
@@ -705,12 +767,80 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
               <div>
                 <div css={principalEvent}>
-                  <span>12h30</span>
+                  <span>13h000</span>
                   <p>Natal Energy Academy</p>
                 </div>
                 <p css={principalEventDescription}>
                 Apresentações de Trabalhos Acadêmicos e Científicos
                 </p>
+              </div>
+              <div css={participantsContainer}>
+                <div className="participant">
+                  <p className="participant_name">Atualizações sobre a regulação de CCUS no Brasil: implicações para o ambiental offshore</p>
+                  <p className="participant_role">
+                  Hirdan Katarina de Medeiros Costa  
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Do EOR aos Hubs – a visão da Petrobras para CCUS no Brasil</p>
+                  <p className="participant_role">
+                  Roberto Evelim Penha Borges     
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Créditos de Carbono e Sustentabilidade: Implementação dos ODS nas Políticas de Mitigação Climática Usando MAUT</p>
+                  <p className="participant_role">
+                  Jéssyk Daiana Bianconi   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Diplomacia Científica e a atuação brasileira no Painel Intergovernamental sobre Mudança do Clima (1990 – 2022)</p>
+                  <p className="participant_role">
+                  Daniel Farati de Oliveira Silva   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">ANÁLISE COMPARATIVA ENTRE A EXPERIÊNCIA BRASILEIRA E CHINESA NA ALOCAÇÃO DE DIREITOS DE PROPRIEDADE NA EXPANSÃO DA ENERGIA EÓLICA: PLANEJAMENTO ESTATAL E CONTROLE, LIMITE ESPACIAL E TEMPORAL DE TERRAS ARRENDADAS</p>
+                  <p className="participant_role">
+                  Maria Eduarda Oliveria    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">The decarbonization challenges over the mining sector: Hydrogen and its derivates contribution in the Brazilian Scenario</p>
+                  <p className="participant_role">
+                  Vinicius Andrade dos Santos   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Transição Energética e Agricultura: o papel do nitrogênio na crise climática</p>
+                  <p className="participant_role">
+                  Helena Marinho Ketzer Yacoub   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Transformação mineral das baterias de lítio: a economia circular como caminho para a industrialização verde na mobilidade elétrica</p>
+                  <p className="participant_role">
+                  Mariana Melo Botelho   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Avaliação da produção de hidrogênio eletrolítico utilizando um sistema de microgeração híbrido eólico-solar</p>
+                  <p className="participant_role">
+                  Alice Bastos Holanda   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Densidade de Potência Eólica a partir de ensembles de Modelos Climáticos Regionais no Nordeste do Brasil para o passado recente e futuro</p>
+                  <p className="participant_role">
+                  Augusto de Rubim Costa Gurgel   
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Mulheres no setor eólico offshore: Barreiras e oportunidades</p>
+                  <p className="participant_role">
+                  Andressa Santiso   
+                  </p>
+                </div>
               </div>
   
 
