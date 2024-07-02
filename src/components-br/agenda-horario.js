@@ -118,9 +118,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">José Ferreira de Melo Neto</p>
+                <p className="participant_name">João Hélio Cavalcanti Junior</p>
                 <p className="participant_role">
-                Diretor Superintendente do SEBRAE-RN
+                Diretor Técnico do SEBRAE-RN
                 </p>
               </div>
               <div className="participant">
@@ -232,9 +232,6 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p className="participant_role">
                 Engenheiro de Processo com Especialização em Transição Energética – Petrobras 
                 </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Representante da Petrobras</p>
               </div>
               <div className="participant">
                 <p className="participant_name">Fernanda Delgado – Moderadora </p>
@@ -608,9 +605,6 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   <span>12h30</span>
                   <p>ENTREGA DO PRÊMIO EVEX BRASIL PERSONALIDADE DO ANO</p>
                 </div>
-                <p css={principalEventDescription}>
-                <b>Rota da Descarbonização e Eletrificação: rumo a uma economia Net Zero </b>
-                </p>
               </div>
               <div css={participantsContainer}>
                 <div className="participant">
@@ -711,12 +705,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   CEO da Helexia Brasil    
                   </p>
                 </div>
-                <div className="participant">
+                {/* <div className="participant">
                   <p className="participant_name">Marina Meyer</p>
                   <p className="participant_role">
                   Diretora Jurídica do INEL – Instituto Nacional de Energia Limpa     
                   </p>
-                </div>
+                </div> */}
                 <div className="participant">
                   <p className="participant_name">Maria João Rolim – Moderadora </p>
                   <p className="participant_role">

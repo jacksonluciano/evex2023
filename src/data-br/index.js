@@ -765,11 +765,11 @@ export const TeamOneData = {
       name: "Aurélien Maudonnet",
       designation: "CEO, Helexia Brasil",
     },
-    {
-      image: Speaker55,
-      name: "Marina Meyer",
-      designation: "Diretora Jurídica, INEL – Instituto Nacional de Energia Limpa",
-    },
+    // {
+    //   image: Speaker55,
+    //   name: "Marina Meyer",
+    //   designation: "Diretora Jurídica, INEL – Instituto Nacional de Energia Limpa",
+    // },
     {
       image: Speaker56,
       name: "Daniel Faro",
