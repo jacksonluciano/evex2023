@@ -118,9 +118,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">João Hélio Cavalcanti Junior</p>
+                <p className="participant_name">José Ferreira de Melo Neto</p>
                 <p className="participant_role">
-                Diretor Técnico do SEBRAE-RN
+                Diretor Superintendente do SEBRAE-RN
                 </p>
               </div>
               <div className="participant">
