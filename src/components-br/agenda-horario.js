@@ -345,6 +345,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
+                <p className="participant_name">Mario González</p>
+                <p className="participant_role">
+                Coordenador do Grupo Creation/UFRN – Universidade Federal do Rio Grande do Norte  
+                </p>
+              </div>
+              <div className="participant">
                 <p className="participant_name">Daniel Faro</p>
                 <p className="participant_role">
                 Gerente Geral de Geração Renovável da Petrobras
