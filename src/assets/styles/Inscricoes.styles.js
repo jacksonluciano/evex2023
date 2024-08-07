@@ -174,6 +174,7 @@ export const dateBlock = css`
   position: relative;
   z-index: 2;
   transition: all 0.2s;
+  margin-bottom: 24px;
 
   @media (min-width: 320px) and (max-width: 767px) {
     width: 95%;
@@ -319,4 +320,8 @@ export const underline = css`
     span{
       text-decoration: underline;
     }
+`
+
+export const mb = css`
+    margin-bottom: 40px;
 `

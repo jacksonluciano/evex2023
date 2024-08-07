@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { EvexLisboaData } from "@/data";
-import Regulamento from "@/images/regulamento_tap.pdf"
+import Regulamento from "@/images/Regulamento TAP - EVEx Lisboa 2024.pdf"
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
@@ -33,7 +33,7 @@ const Tap = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Operadora Oficial</h2>
               <p css={secDesk}>
-                A TAP Air Portugal é a operadora oficial do EVEx Lisboa 2023. A todos os participantes do evento que efetuarem a sua reserva de avião e adquirirem o respectivo bilhete através do website da TAP (<a href="https://www.flytap.com/pt-br/">www.flytap.com</a>), a TAP concederá os seguintes descontos:
+                A TAP Air Portugal é a operadora oficial do EVEx Lisboa 2024. A todos os participantes do evento que efetuarem a sua reserva de avião e adquirirem o respectivo bilhete através do website da TAP (<a href="https://www.flytap.com/pt-br/">www.flytap.com</a>), a TAP concederá os seguintes descontos:
               </p>
               <h3>10% em classe econômica;</h3>
               <h3>10% em classe executiva.</h3>
@@ -44,7 +44,7 @@ const Tap = () => {
               <br/><br/><br/>
               <h2 css={[secTitle, mb45]}>Hotel Oficial</h2>
               <p css={secDesk}>
-              O Dom Pedro Lisboa, um dos melhores hotéis cinco estrelas de Lisboa, é o hotel oficial do EVEx Lisboa 2023. Está localizado estrategicamente no coração da cidade e a menos de 3,5 km do local do evento.
+              O Dom Pedro Lisboa, um dos melhores hotéis cinco estrelas de Lisboa, é o hotel oficial do EVEx Lisboa 2024. Está localizado estrategicamente no coração da cidade e a menos de 3,5 km do local do evento.
 Para reservas com condições especiais, siga as seguintes orientações:
               </p>
               <p>

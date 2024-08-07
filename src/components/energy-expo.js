@@ -33,18 +33,22 @@ const Reitoria = () => {
                 {'Energy Expo/ \n Business'}<img src={IconEnergyExpo} />
               </h2>
               <p css={secDesk}>{`
-              As empresas e demais organizações apoiadoras do EVEx podem expor e discutir ações, projetos, produtos, serviços, programas e cenários que tenham relação com a transformação dos mercados ibérico e latino-americano de energia.`}</p>
+              Nos eventos virtuais e presenciais, as empresas e demais organizações apoiadoras do EVEx podem expor e discutir projetos, serviços, cases de sucesso, novas tecnologias, modelos de negócios e outras iniciativas que tenham relação com a transformação dos mercados ibérico e latino-americano de energia rumo a uma economia de baixo carbono.`}</p>
             <p>
-            Exemplos de sessões Energy Expo/Business da edição passada:
-“Comerc Impacta e Vibra: na rota da descarbonização”, promovida pela Comerc Energia em conjunto com a Vibra;
+            Exemplos de painéis de Energy Expo/Business que foram realizados no EVEx 2023:
+            “Geração Distribuída e Comunidades de Energia Renovável: cases, oportunidades e modelos de negócio”;
 <br></br><br></br>
-“Transição Energética e os novos papéis do consumidor-cliente” e “Transformações do Mercado Retalhista”, ambas promovidas pela EDP;
+“Hidrogênio Verde como acelerador da Transição Energética: tecnologias e projetos em desenvolvimento”;
 <br></br><br></br>
-“O potencial do hidrogênio de baixo carbono na Transição Energética”, promovida pela Galp;
+“Abertura e Segurança dos Mercados de Energia: a experiência ibero-brasileira”;
 <br></br><br></br>
-“Segurança Energética e Clima: o papel das cidades” e “Comunidades de Energia Ibero-Americanas”, ambas promovidas pela ADENE e EnR;
+“Mobilidade Elétrica e Sustentável: como acelerar a transição energética no setor dos transportes?”;
 <br></br><br></br>
-“Abertura total do mercado de energia elétrica no Brasil: do atacado ao varejo”, promovida pela ABRACEEL.
+“COP28 e as perspectivas para Mercados de Carbono no combate à Mudança Climática: o que esperar no futuro próximo?”;
+<br></br><br></br>
+”Desafios da estratégia de ESG das empresas em Portugal: entre reporting e diretivas”;
+<br></br><br></br>
+“O Mercado de Carbono na Transição Energética: a experiência ibero-brasileira”.
             </p>
             </div>
           </Col>

@@ -61,7 +61,7 @@ const Agenda = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
               <h2 css={[secTitle, mb45]}>Agenda</h2>
-              <h3 css={secDesk}>EVEx Online – Energy Virtual Experience</h3>
+              <h3 css={secDesk}>EVEx 2024 – Energy Virtual Experience</h3>
             </div>
           </Col>
         </Row>
@@ -97,7 +97,7 @@ const Agenda = () => {
       <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
-              <h3 css={secDesk}>EVEx Presencial – Lisbon Energy Experience</h3>
+              <h3 css={secDesk}>EVEx Lisboa 2024 – Lisbon Energy Experience</h3>
             </div>
           </Col>
         </Row>

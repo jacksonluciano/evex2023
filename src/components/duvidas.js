@@ -4,6 +4,7 @@ import { PatrocinadoresData } from "@/data";
 import Element8 from "@/images/elements/element-08.png"
 import Element14 from "@/images/elements/element-14.svg"
 import Element15 from "@/images/elements/element-15.svg"
+import LogoEp from "@/images/apoio/ep.png"
 import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
 import Hotel from "@/images/hotel_dom_pedro.png" 
@@ -19,7 +20,9 @@ import {
   element15,
   realization,
   contactFrom,
-  messageBox
+  messageBox,
+  eplogo,
+  RowMargin
 } from "../assets/styles/Duvidas.styles";
 import {
   secDesk,
@@ -69,19 +72,25 @@ const Duvidas = () => {
           </Col>
         </Row> */}
         <section css={realization}>
-          <Row>
-            <Col lg={4} md={4} sm={12}>
+          <Row css={RowMargin}>
+            <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Promoção e Realização</h4>
               <img src={LogoEvex} />
             </Col>
-            <Col lg={4} md={4} sm={12}>
+            <Col lg={6} md={6} sm={12}>
+              <h4 css={secDesk}>Parceira de Mídia</h4>
+              <img src={LogoEp} css={eplogo} />
+            </Col>
+          </Row>
+          <Row>
+          <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Hotel Oficial</h4>
               <a href='https://www.dompedrolisboa.com/m/' target='_blank'>
                 <img src={Hotel} />
               </a>
               
             </Col>
-            <Col lg={4} md={4} sm={12}>
+            <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Operadora Oficial</h4>
               <a href='https://www.flytap.com/pt-br/' target='_blank'>
               <img src={LogoTap} />
@@ -96,7 +105,7 @@ const Duvidas = () => {
               <div className="inner-div">
                 <h2 css={secDesk}>Dúvidas e Sugestões</h2>
                 <p>
-                Entre em contato com a gente e tire suas dúvidas, faça sugestões e garanta sua participação nos eventos do EVEx Lisboa 2023.
+                Entre em contato com a gente para tirar dúvidas, fazer sugestões e garantir a sua participação no EVEx Online e no EVEx Lisboa 2024. Sua mensagem será muito bem-vinda!
                 </p>
 
                 <form method="POST" action="https://formsubmit.co/secretaria@evex.energy" encType="multipart/form-data"
@@ -156,7 +165,7 @@ const Duvidas = () => {
               <div id="contato" className="inner-div rl">
                 <h2 css={secDesk}>Patrocínio e Exposição</h2>
                 <p>
-                Seja patrocinador do EVEx Lisboa 2023 e esteja ao lado das maiores empresas na vanguarda da Transição Energética Ibero-Latino-Americana. Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada. 
+                Seja patrocinador do EVEx 2024 e posicione a sua marca na vanguarda da Transição Energética Ibero-Latino-Americana! Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada.
                 </p>
                 <a href="https://wa.me/+351912349476" css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}

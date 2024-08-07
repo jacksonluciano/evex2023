@@ -149,6 +149,7 @@ export const about = css`
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 24px;
 
       @media (min-width: 320px) and (max-width: 767px) {
         display: inline;
@@ -227,7 +228,7 @@ export const about = css`
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
 
       @media (min-width: 320px) and (max-width: 767px) {
@@ -236,6 +237,7 @@ export const about = css`
 
       li {
         padding: 0 8px;
+        margin-bottom: 24px;
 
         :nth-of-type(2) img{
             height: 72px;
@@ -259,10 +261,18 @@ export const about = css`
           float: left;
       }
         img {
-          height: 38px;
+          height: 60px;
 
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
+          }
+        }
+      }
+
+      &:nth-of-type(2){
+        li{
+          img{
+            height: 28px;
           }
         }
       }

@@ -1,7 +1,7 @@
-import logo from "@/images/logo.svg"
+import logo from "@/images/2024/logo.png"
 import logoMobile from "@/images/logo-mobile.svg"
-import logoLuz from "@/images/logo-luz.svg"
-import logoSmall from "@/images/logo-small.svg"
+import logoLuz from "@/images/2024/logo-luz.png"
+import logoSmall from "@/images/2024/logo-small.png"
 import sliderOne01 from "@/images/slider/1_1.jpg"
 import sliderOne02 from "@/images/slider/1_2.jpg"
 import sliderTwo01 from "@/images/slider/2_1.jpg"
@@ -97,16 +97,23 @@ import Evex01 from "@/images/evex1.jpg"
 import Evex02 from "@/images/evex2.jpg"
 import Evex03 from "@/images/evex3.jpg"
 
-import EvexSlide01 from "@/images/oevex/slide01_01.png"
-import EvexSlide02 from "@/images/oevex/slide01_02.png"
-import EvexSlide03 from "@/images/oevex/slide01_03.png"
-import EvexSlide04 from "@/images/oevex/slide01_04.png"
+import EvexSlide01 from "@/images/2024/oevex/abertura/1.jpg"
+import EvexSlide02 from "@/images/2024/oevex/abertura/2.jpg"
+import EvexSlide03 from "@/images/2024/oevex/abertura/3.jpg"
+import EvexSlide04 from "@/images/2024/oevex/abertura/4.jpg"
 import EvexSlide05 from "@/images/oevex/slide01_05.png"
 
-import EvexSlide06 from "@/images/oevex/slide02_01.png"
-import EvexSlide07 from "@/images/oevex/slide02_02.png"
-import EvexSlide08 from "@/images/oevex/slide02_03.png"
-import EvexSlide09 from "@/images/oevex/slide02_04.png"
+import EvexSlide06 from "@/images/2024/oevex/autoridades/1.jpg"
+import EvexSlide07 from "@/images/2024/oevex/autoridades/2.jpg"
+import EvexSlide08 from "@/images/2024/oevex/autoridades/3.jpg"
+import EvexSlide09 from "@/images/2024/oevex/autoridades/4.jpg"
+import EvexSlide10 from "@/images/2024/oevex/autoridades/5.jpg"
+
+import EvexSlide11 from "@/images/2024/oevex/album3/1.jpg"
+import EvexSlide12 from "@/images/2024/oevex/album3/2.jpg"
+import EvexSlide13 from "@/images/2024/oevex/album3/3.jpg"
+import EvexSlide14 from "@/images/2024/oevex/album3/4.jpg"
+import EvexSlide15 from "@/images/2024/oevex/album3/5.jpg"
 
 import EventSpeakers00 from "@/images/oevex/speakers-0.png"
 import EventSpeakers01 from "@/images/oevex/speakers-1.png"
@@ -166,6 +173,25 @@ import Speaker30 from "@/images/speaker/carlos_henggeler.jpg"
 import Speaker31 from "@/images/speaker/cacia_pimentel.jpg"
 import Speaker32 from "@/images/speaker/ricardo_gedra.jpg"
 import Speaker33 from "@/images/speaker/wagner_ferreira.jpg"
+
+import texto1_1 from "@/images/2024/texto1/1.jpg"
+import texto1_2 from "@/images/2024/texto1/2.jpg"
+import texto1_3 from "@/images/2024/texto1/3.jpg"
+import texto1_4 from "@/images/2024/texto1/4.jpg"
+import texto1_5 from "@/images/2024/texto1/5.jpg"
+import texto1_6 from "@/images/2024/texto1/6.jpg"
+import texto1_7 from "@/images/2024/texto1/7.jpg"
+import texto1_8 from "@/images/2024/texto1/8.jpg"
+
+import texto2_1 from "@/images/2024/texto2/1.jpg"
+import texto2_2 from "@/images/2024/texto2/2.jpg"
+import texto2_3 from "@/images/2024/texto2/3.jpg"
+import texto2_4 from "@/images/2024/texto2/4.jpg"
+import texto2_5 from "@/images/2024/texto2/5.jpg"
+import texto2_6 from "@/images/2024/texto2/6.jpg"
+import texto2_7 from "@/images/2024/texto2/7.jpg"
+import texto2_8 from "@/images/2024/texto2/8.jpg"
+
 
 export const LogoImage = {
   light: logo,
@@ -695,7 +721,7 @@ export const FunfactData = [
   },
   {
     title: "Dias",
-    countNumber: 6,
+    countNumber: 5,
   },
   {
     title: "Speakers",
@@ -1410,7 +1436,7 @@ export const OevexData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, com o objetivo de debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Brasil, Portugal e Espanha. Criado em 2020 no início da pandemia, o “V” de seu nome advém de “Virtual”, porque as suas duas primeiras edições foram realizadas de forma online.",
+      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, desde o ano de 2020, com o apoio de empresas e outras organizações. Tem como objetivos principais debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Portugal, Brasil e Espanha.\n\nDepois de quatro edições bem-sucedidas, o EVEx já é reconhecido como o maior e um dos mais relevantes encontros de transição energética do bloco ibero-latino-americano. ",
   },
   button: {
     label: "Lorem ipsum",
@@ -1424,7 +1450,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "No ano passado, a terceira edição do EVEx inaugurou um formato composto por dois eventos, sendo um online e outro físico. Assim, sem abandonar as origens virtuais, o EVEx chegou em Portugal para o seu primeiro encontro presencial, realizado na Reitoria da Universidade NOVA de Lisboa. Sucesso de público e de crítica, o EVEx Lisboa 2022 contou com a participação dos principais agentes dos mercados ibérico e latino-americano de energia, incluindo importantes autoridades públicas.",
+      "Em sua quinta edição anual consecutiva, o EVEx inovou mais uma vez, lançando a rota ibero-latino-americana da energia em um formato composto por três eventos.  O primeiro deles, EVEx Brasil 2024 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica. \n\nO segundo evento, EVEx 2024 – Energy Virtual Experience, ocorrerá nos dias 24 a 26 de setembro, de forma totalmente online e ao vivo. Já o terceiro e último da rota, EVEx Lisboa 2024 – Lisbon Energy Experience, será nos dias 08 e 09 de outubro, na prestigiada Reitoria da Universidade NOVA de Lisboa, em Portugal.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1523,10 +1549,19 @@ export const Evex2Data = [
 
 export const Evex3Data = [
   {
-    img: Evex03
+    img: EvexSlide11
   },
   {
-    img: Evex03
+    img: EvexSlide12
+  },
+  {
+    img: EvexSlide13
+  },
+  {
+    img: EvexSlide14
+  },
+  {
+    img: EvexSlide15
   },
 ]
 
@@ -1581,13 +1616,64 @@ export const SixtySpeakers = [
   },
 ]
 
+export const Evex2024Data = [
+  {
+    img: texto1_1
+  },
+  {
+    img: texto1_2
+  },
+  {
+    img: texto1_3
+  },
+  {
+    img: texto1_4
+  },
+  {
+    img: texto1_5
+  },
+  {
+    img: texto1_6
+  },
+  {
+    img: texto1_7
+  },
+  {
+    img: texto1_8
+  },
+]
+export const QuintaEdicao2024Data = [
+  {
+    img: texto2_1
+  },
+  {
+    img: texto2_2
+  },
+  {
+    img: texto2_3
+  },
+  {
+    img: texto2_4
+  },
+  {
+    img: texto2_5
+  },
+  {
+    img: texto2_6
+  },
+  {
+    img: texto2_7
+  },
+  {
+    img: texto2_8
+  },
+]
+
 export const EvexLisboaData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      `Neste ano, a capital de Portugal e a NOVA continuam a ser a nossa casa.
-      O EVEx, em sua quarta edição, repetirá o formato de sucesso da edição passada e terá novamente dois eventos. O primeiro vai ocorrer totalmente online e ao vivo, nos dias 02 a 05 de outubro. Já o segundo será presencial, na Reitoria da Universidade NOVA de Lisboa, nos dias 25 e 26 de outubro.
-      Mal podemos esperar para regressar com toda a energia!`,
+      `Com o tema “Transição Energética Justa e Industrialização Verde”, o EVEx Online e o EVEx Lisboa reunirão este ano os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades. \n\nAo total, serão 5 dias intensos para troca de conhecimentos, networking de alto nível e novos negócios em prol da transformação energética e industrial. \n\nEmbarque conosco nessa rota que vai impulsionar a sua jornada profissional na transição energética para uma economia de baixo carbono!`,
   },
   button: {
     label: "Lorem ipsum",
@@ -1613,10 +1699,9 @@ export const PatrocinadoresData = {
 
 export const TransicoesEnergeticasData = {
   sectionContent: {
-    title: `Transição Energética e Novas 
-            Tecnologias:`,
+    title: `Transição Energética Justa \ne Industrialização Verde:`,
     text:
-      `De volta ao futuro da energia ibero-latino-americana`,
+      `na rota ibero-latino-americana`,
   },
   button: {
     label: "Lorem ipsum",
@@ -1640,31 +1725,27 @@ export const blocksTeData = [
 
 export const AgendaOnlineData = [
   {
-    date: '02/10/23',
-    day: `Segunda-feira`,
-  },
-  {
-    date: '03/10/23',
+    date: '24/09/24',
     day: `Terça-feira`,
   },
   {
-    date: '04/10/23',
+    date: '25/09/24',
     day: `Quarta-feira`,
   },
   {
-    date: '05/10/23',
+    date: '26/09/24',
     day: `Quinta-feira`,
   },
 ];
 
 export const AgendaPresencialData = [
   {
-    date: '25/10/2023',
-    day: `Quarta-feira`,
+    date: '08/10/2024',
+    day: `Terça-feira`,
   },
   {
-    date: '26/10/2023',
-    day: `Quinta-feira`,
+    date: '09/10/2024',
+    day: `Quarta-feira`,
   },
 ];
 
@@ -2508,12 +2589,12 @@ export const BigCtaData = [
   {
     date: 'Agenda',
     text: 
-        `Com o tema “Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana”, confira a agenda dos eventos do EVEx Lisboa 2023.`,
-        button: 'Agenda Oficial'
+        `Os painéis do EVEx Online e do EVEx Lisboa abordarão temáticas atuais e novas tecnologias no contexto da Transição Energética Ibero-Latino-Americana, como descarbonização, segurança energética, hidrogênio verde, eólicas offshore, gás natural, biometano, mercado de carbono, investimentos verdes, ESG, regulação e ação climática, entre várias outras.`,
+        button: 'Agenda Preliminar'
   },
   {
     date: 'Inscrições',
-      text: 'Participe da 4ª edição do maior intercâmbio ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
+      text: 'Participe da 5ª edição do maior encontro ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
       button: 'Inscreva-se agora'
   },
 ];

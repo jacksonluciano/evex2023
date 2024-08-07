@@ -35,9 +35,10 @@ const Reitoria = () => {
                 {'Reitoria da \n Universidade \n NOVA de \n Lisboa'}
               </h2>
               <p css={secDesk}>{`
-              A Universidade NOVA de Lisboa, que figura entre as 200 melhores universidades do mundo no QS World University Rankings by Subjetc 2023 –referência mundial na avaliação de instituições de ensino superior –, será novamente palco do nosso encontro presencial.
-              No ano passado, fomos muito bem acolhidos no prédio da Reitoria da NOVA, localizado no Campus de Campolide. Os seus espaços de alto nível, especialmente projetados para a realização de eventos, permitiram-nos realizar uma edição física inesquecível.
-              Fundada em agosto de 1973, a NOVA celebra, este ano, 50 anos de existência. Nós estaremos lá para comemorar essa data especial durante a realização do EVEx Lisboa 2023. Vamos juntos?`}</p>
+              O EVEx Lisboa será realizado, pelo terceiro ano consecutivo, na Reitoria da Universidade NOVA de Lisboa. 
+              O edifício da Reitoria da NOVA está localizado no Campus de Campolide e conta com espaços de alto nível, especialmente projetados para a realização de eventos. Inclusive, já foi reconhecido com o Prémio Valmor de Arquitetura.
+              No QS World University Rankings by Subject 2025, a Universidade NOVA figura entre as 400 melhores instituições de ensino superior, num universo de 1.500 em todo o mundo. 
+              `}</p>
             </div>
             <img css={element08} src={Element08} />
           </Col>

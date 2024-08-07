@@ -68,14 +68,7 @@ const Evento = () => {
               <div>
                 <h2 css={[secTitle, mb45]}>+ 60 Speakers</h2>
                 <p css={secDesk}>
-                  A agenda dos dois dias contou com o contributo de mais de 60
-                  Speakers, sendo ocupada por discussões de alto nível sobre
-                  temáticas diversas, como o futuro do consumidor na transição
-                  energética; abertura dos mercados de energia no MIBEL e no
-                  Brasil; transformações do mercado retalhista; segurança e
-                  formação de preços; guerra na Europa, crise energética e
-                  descarbonização da economia; segurança de abastecimento;
-                  hidrogênio verde; mercado de carbono e comunidades de energia.
+                Participaram do EVEx Lisboa 2023 mais de 60 speakers de 03 países: Portugal, Brasil e Espanha. Eles discutiram temáticas essenciais para a aceleração da transição energética e de novas tecnologias no eixo ibero-latino-americano, como hidrogênio verde, eólicas offshore, geração distribuída, comunidades de energia, abertura de mercado, ESG, descarbonização, mobilidade elétrica, ação climática e mercado de carbono. 
                 </p>
               </div>
             </div>
@@ -112,16 +105,10 @@ const Evento = () => {
             <div css={[lisboaTwo, darkBg]}>
               <div>
                 <h2 css={[secTitle, mb45]}>
-                  Missão <br></br> Abraceel
+                  Missão <br></br> EVEx
                 </h2>
                 <p css={secDesk}>
-                  O EVEx Lisboa também foi palco da Missão ABRACEEL – Associação
-                  Brasileira dos Comercializadores de Energia, liderada por seu
-                  Presidente Executivo, Rodrigo Ferreira, que levou ao evento um
-                  grupo de mais de 40 pessoas, entre profissionais das empresas
-                  associadas, da ANEEL, do Congresso Nacional e do Ministério de
-                  Minas e Energia do Brasil, para conhecer aspectos do MIBEL –
-                  Mercado Ibérico de Eletricidade.
+                Com o apoio conjunto da CCEE, ABRADEE e ABEEólica, o EVEx também organizou uma missão especial para Portugal, reunindo um seleto grupo de executivos e profissionais do setor de energia do Brasil, para participar das discussões do EVEx Lisboa 2023, bem como conhecer melhor o funcionamento e as especificidades do Mercado Ibérico de Eletricidade (MIBEL), que integra os sistemas elétricos de Portugal e da Espanha.
                 </p>
               </div>
             </div>
@@ -132,13 +119,7 @@ const Evento = () => {
             <div css={[lisboaTwo, darkBg]}>
               <div>
                 <p css={secDesk}>
-                  Um dos frutos da missão foi a negociação de um acordo de
-                  cooperação entre a ABRACEEL e a ACEMEL – Associação dos
-                  Comercializadores de Energia no Mercado Liberalizado (na
-                  ocasião, presidida por Ricardo Antunes), com vista à troca de
-                  informações e condução de inciativas comuns para o
-                  desenvolvimento do mercado livre de energia do Brasil e de
-                  Portugal.
+                A missão promoveu uma imersão executiva no centro das transformações do MIBEL, objetivando que os participantes pudessem expandir os respectivos horizontes sobre a transição energética global e compreender como a experiência ibérica pode contribuir para a evolução brasileira e para as atuações deles no setor. No dia 27 de outubro de 2023, foram realizadas visitas técnicas e reuniões exclusivas na ERSE – Entidade Reguladora dos Serviços Energéticos, na sede da EDP e na ENSE – Entidade Nacional para o Setor Energético.
                 </p>
               </div>
             </div>
@@ -156,14 +137,7 @@ const Evento = () => {
               <div>
                 <h2 css={[secTitle, mb45]}>Prêmios EVEx</h2>
                 <p css={secDesk}>
-                  A advogada Maria João Rolim, personalidade homenageada no EVEx
-                  2021, e Caio César Cavalcanti, fundador do EVEx, entregaram os
-                  Prêmios EVEx Personalidades do Ano 2022 para: Teresa Ponce de
-                  Leão, Presidente do Laboratório Nacional de Energia e Geologia
-                  – LNEG, na categoria “Personalidade da Península Ibérica”, e
-                  Reynaldo Passanezi, CEO da Companhia Energética de Minas
-                  Gerais – Cemig, na categoria “Personalidade da América
-                  Latina”.
+                O Prêmio EVEx Lisboa 2023 Personalidade do Ano foi entregue para Elbia Gannoum, Presidente da ABEEólica, na categoria América Latina, e para Nelson Lage, Presidente da ADENE, na categoria Península Ibérica. Filipe Matias Santos, Diretor de Serviços Jurídicos da ERSE, e Solange David, Women in Energy do CIGRE International, também tiveram os seus trabalhos reconhecidos no evento com a Homenagem EVEx Honra ao Mérito. 
                 </p>
               </div>
             </div>
@@ -174,18 +148,16 @@ const Evento = () => {
             <div css={[lisboaTwo]}>
               <div>
                 <h2 css={[secTitle, mb45]}>
-                  Especial <br></br> MegaWhat
+                  Jantar de<br></br> Confraternização
                 </h2>
                 <p css={secDesk}>
-                  A MegaWhat, media partner do EVEx desde a sua primeira edição,
-                  esteve presente no EVEx Lisboa 2022. A CEO, Larissa Araium, e
-                  os jornalistas, Camila Maia e Rodrigo Polito, além de
-                  representarem a MegaWhat como moderadores de painéis, fizeram
-                  uma cobertura especial das principais discussões do evento.
+                O jantar de confraternização da Missão e do EVEx Lisboa 2023 foi realizado no restaurante Terraço Editorial, com vista para o emblemático Elevador de Santa Justa.
+Uma verdadeira experiência gastronômica portuguesa, assinada pelo Chef Rui Rebelo, que proporcionou momentos especiais de networking e descontração entre os participantes.
+
                   <br></br>{" "}
-                  <a href={Pdf} target="_blank">
+                  {/* <a href={Pdf} target="_blank">
                     Confira o editorial aqui
-                  </a>
+                  </a> */}
                   .
                 </p>
               </div>

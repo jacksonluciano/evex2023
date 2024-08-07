@@ -21,6 +21,9 @@ import Img13 from '@/images/apoio/WINESG.svg'
 import Img14 from '@/images/apoio/mackenzie.png'
 import Img15 from '@/images/apoio/fgv_energia.png'
 import Img16 from '@/images/apoio/ccee.png'
+import Img17 from '@/images/apoio/abraceel.png'
+import Img18 from '@/images/apoio/ABIOGAS.png'
+import Img19 from '@/images/apoio/ABIHV.png'
 
 import Pat01 from '@/images/patrocinio/adene.jpeg'
 import Pat02 from '@/images/patrocinio/cemig.png'
@@ -33,6 +36,9 @@ import Pat08 from '@/images/patrocinio/hegatech.png'
 import Pat09 from '@/images/patrocinio/blomstein.png'
 import Pat10 from '@/images/patrocinio/renewing.png'
 import Pat11 from '@/images/patrocinio/ren.png'
+import Pat12 from '@/images/patrocinio/itaipu.png'
+import Pat13 from '@/images/patrocinio/enbpar.png'
+import Pat14 from '@/images/patrocinio/demarest.svg'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -79,16 +85,20 @@ const Patrocinadores = () => {
 
                <section className='ouro'>
                 <h4 css={secDesk}>Ouro</h4>
-                  <ul  style={{display:"flex", justifyContent:'center'}}>
+                  <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
                     <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
+                    <li><a href="https://www.adene.pt" target="_blank"><img src={Pat12} /></a></li>
+                  </ul>
+                  <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
+                    <li><a href="#" target="_blank"><img src={Pat13} /></a></li>
                   </ul>
                </section>
 
                <section className='prata'>
                 <h4 css={secDesk}>Prata</h4>
                   <ul>
-                    <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
-                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li>
+                    {/* <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
+                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li> */}
                     <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
                   </ul>
@@ -97,12 +107,10 @@ const Patrocinadores = () => {
                <section className='bronze'>
                 <h4 css={secDesk}>Bronze</h4>
                   <ul>
-                    <li><a href="https://www.ren.pt" target="_blank"><img src={Pat11} /></a></li>
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
-                    <li><a href="https://www.ativ.pt" target="_blank"><img src={Pat07} /></a></li>
-                    <li><a href="http://www.hega-tech.com" target="_blank"><img src={Pat08} /></a></li>
-                    <li><a href="https://www.blomstein.com" target="_blank"><img src={Pat09} /></a></li>
-                    <li><a href="https://renewing.pt" target="_blank"><img src={Pat10} /></a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#" target="_blank"><img src={Pat14} /></a></li>
                   </ul>
                </section>
 
@@ -113,27 +121,26 @@ const Patrocinadores = () => {
             
                   <ul>
                     <li><img src={Img16} /></li>
-                    <li><img src={Img2} /></li>
-                    <li><img src={Img1} /></li>
-                    <li><img src={Img3} /></li>
-                    {/* <li><img src={Img4} /></li> */}
-                    <li><img src={Img5} /></li>
-                  </ul>
-                  <ul>
-                    <li><img src={Img6} /></li>
                     <li><img src={Img7} /></li>
-                    <li><img src={Img8} /></li>
-                    <li><img src={Img9} /></li>
-                    <li><img src={Img10} /></li>
+                    <li><img src={Img3} /></li>
+                    <li><img src={Img1} /></li>
+                    <li><img src={Img17} /></li>                 
                   </ul>
                   <ul>
+                    <li><img src={Img2} /></li>
+                    <li><img src={Img13} /></li>
+                    <li><img src={Img18} /></li>
+                    <li><img src={Img19} /></li>
+                  </ul>
+                  {/* <ul>
                     <li><img src={Img11} /></li>
                     <li><img src={Img12} /></li>
-                    <li><img src={Img13} /></li>
+                    
+                    <li><img src={Img10} /></li>
                     <li><img src={Img14} /></li>
                     <li><img src={Img15} /></li>
                     
-                  </ul>
+                  </ul> */}
                </section>
                {/* <img css={element13} src={Element13} /> */}
            </div>

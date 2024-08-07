@@ -31,7 +31,10 @@ const EnergyAcademy = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Energy<br></br> Academy <img src={IconEnergy} /></h2>
               <p css={secDesk}>
-              Minicursos e workshops na área de energia lecionados por professores e investigadores científicos de prestigiadas universidades lusófonas, de que são exemplos a Universidade de Coimbra, a Universidade de São Paulo, a Universidade de Lisboa e a Universidade NOVA de Lisboa. Na EVEx Academy, também ocorrem as apresentações dos trabalhos aprovados na Call for Papers/Projects de cada edição do EVEx. Para informações sobre a chamada de trabalhos do EVEx Lisboa 2023, acesse “Comitê” no menu deste site.
+              Minicursos e workshops na área energética lecionados por professores e investigadores de centros de pesquisa e prestigiadas universidades lusófonas, de que são exemplos a Universidade de Coimbra, Universidade de Lisboa, a Universidade de São Paulo, o Mackenzie Integridade e o FGV CERI.
+              </p>
+              <p css={secDesk}>
+              Na EVEx Academy, também ocorrem as apresentações dos trabalhos aprovados na Call for Papers/Projects de cada edição do evento. Para informações sobre a chamada de trabalhos do EVEx 2024, acesse a aba “Papers” no menu deste site.
               </p>
            </div>
           </Col>

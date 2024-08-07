@@ -38,7 +38,7 @@ const PatrocinadoresEvento = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Patrocinadores</h2>
-              <p>A terceira edição do EVEx foi assim especial e histórica, principalmente, por marcar a sua chegada em ambiente físico, estreitando ainda mais os “laços energéticos” entre Brasil, Portugal e Espanha, com o apoio fundamental dos seguintes patrocinadores:</p>
+              <p>Os eventos do EVEx 2023 foram realizados com o patrocínio de grandes empresas e entidades atuantes no eixo ibero-latino-americano da energia, para as quais tecemos agradecimentos especiais: </p>
            <img css={element7} src={Element07} />   
               {/* <section className='diamante'>
                 <h4 css={secDesk}>Diamante</h4>
@@ -83,11 +83,9 @@ const PatrocinadoresEvento = () => {
                </section> */}
 
                <p css={patrocinadores} className="text-center">
-                · Patrocínio Diamante: Galp.<br/>
-· Patrocínio Platina: ADENE – Agência para a Energia e European Energy Network (EnR).<br/>
-· Patrocínio Ouro: Cemig e Governo do Estado de Minas Gerais.<br/>
-· Patrocínio Prata: EDP, Elétron Energy, Norte Energia e Comerc Energia.<br/>
-· Patrocínio Bronze: REN, Enel Brasil e ROLIM Advogados.<br/>
+                · Patrocínio Ouro: ADENE – Agência para a Energia;<br/>
+                · Patrocínio Prata: EDP, Galp, CEMIG e Governo do Estado de Minas Gerais;<br/>
+                · Patrocínio Bronze: REN, Mota-Engil Renewing, Mota-Engil ATIV, HEGATECH,<br/> BLOMNSTEIN e Rolim Goulart Cardoso Advogados.<br/>
                </p>
 
            </div>

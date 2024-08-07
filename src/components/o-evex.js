@@ -1,8 +1,14 @@
 /** @jsx jsx */
 import React from "react";
-import { OevexData } from "@/data";
+import { OevexData, Evex2024Data } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
+import Arrow from "@/images/icons/arrow-down.svg";
 import { jsx } from '@emotion/react'
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination } from "swiper/core";
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css";
 
 import { 
   abAgency,
@@ -10,7 +16,8 @@ import {
   mb45,
   about,
   element01,
-  imgFull
+  imgFull,
+  slider
 }  from '../assets/styles/Oevex.style'
 import {
   secTitle,
@@ -19,8 +26,22 @@ import {
   noPaddingLeft
 } from "../assets/styles/layout.styles";
 
+SwiperCore.use([Pagination, Navigation]);
+
 const OEvex = () => {
   const { sectionContent, image, element} = OevexData;
+
+  const testimonialsOptions = {
+    pagination: {
+      clickable: true,
+    },
+    navigation: {
+      nextEl: "#main-slider-next",
+      prevEl: "#main-slider-prev",
+    },
+    slidesPerView: 1,
+  };
+
   return (
     <section css={[abAgency]}>
       <Container fluid>
@@ -33,7 +54,26 @@ const OEvex = () => {
            </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={[noPaddingRight, noPaddingLeft]}>
-            <img css={imgFull} src={image} />
+            {/* <img css={imgFull} src={image} /> */}
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {Evex2024Data.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
       </Container>

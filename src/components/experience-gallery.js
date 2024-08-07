@@ -69,13 +69,7 @@ const TeamCarousel = () => {
           <Col lg={12}>
              <h2>Lisbon Energy Experience</h2>
              <p>
-             As quatro experiências interativas EVEx que nasceram 
-             no virtual foram reproduzidas em espaços da Reitoria 
-             da NOVA (Auditório, Sala do Senado e Átrio), promovendo, 
-             assim, mais de 10 painéis de Lisbon Energy Talks, 
-             Lisbon Energy MasterClasses, Lisbon Energy Academy e 
-             Lisbon Energy Expo/Business, seguidos de debates, 
-             coffee breaks e networking.
+             As experiências interativas do EVEx Lisboa 2023 promoveram discussões de alto nível e diversos momentos para conexões valiosas, através de 13 painéis, 04 coffee breaks e 01 coquetel. Foram dois dias repletos de importantes debates, networking estratégico e oportunidades de negócios na Transição Energética Ibero-Latino-Americana.   
              </p>
           </Col>
         </Row>

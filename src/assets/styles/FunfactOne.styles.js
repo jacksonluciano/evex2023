@@ -130,4 +130,7 @@ export const logoLight = css`
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  img{
+    max-width: 349px;
+  }
 `;

@@ -51,11 +51,7 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     <p>
-                    Incentivar a produção acadêmica e científica na área de energia é uma das missões do EVEx.
-A chamada de trabalhos desta edição continuará abrindo um espaço de debate e grande visibilidade para apresentações de pesquisas, projetos e soluções inovadoras desenvolvidas por estudantes, professores, pesquisadores, startups e empresas.
-Os resumos deverão ser enviados exclusivamente para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, normas, formulário e eixos temáticos abaixo disponíveis.
-Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Online ou no EVEx Presencial, após as devidas inscrições dos autores.
-As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023, em formato digital (e-book). Confira abaixo as publicações organizadas pelo EVEx.
+                    Incentivar a produção acadêmica e científica na área de energia é uma das missões do EVEx. A chamada de trabalhos da edição de 2024 abrirá um espaço de debate e grande visibilidade para apresentações de pesquisas, projetos e soluções inovadoras desenvolvidas por estudantes, professores, pesquisadores, startups e empresas. Os resumos deverão ser enviados exclusivamente para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, normas, formulário e eixos temáticos abaixo disponíveis. Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Online ou no EVEx Lisboa, após as devidas inscrições dos autores. As versões finais dos trabalhos serão publicadas nos Anais do EVEx 2024, em formato digital (e-book). Confira abaixo anais de edições passadas e outras publicações organizadas pelo EVEx.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -74,9 +70,9 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p>Data limite para envio de resumos: <span>20/09/2023;</span></p>
-                    <p>Data limite para divulgação das propostas selecionadas: <span>22/09/2023;</span></p>
-                    <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2024.</span></p>
+                    <p>Data limite para envio de resumos: <span>06/09/2024;</span></p>
+                    <p>Data limite para divulgação das propostas selecionadas: <span>11/09/2024;</span></p>
+                    <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2025.</span></p>
                    
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -95,13 +91,13 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p css={mb32}>{`1) O simples envio de resumos para avaliação não exige qualquer inscrição/pagamento no EVEx Lisboa 2023;`}</p>
+                    <p css={mb32}>{`1) A submissão de resumos para avaliação não exige qualquer inscrição prévia no EVEx 2024. Apenas é necessário o correto preenchimento do formulário, disponível abaixo para download, e envio do mesmo dentro do prazo estipulado no cronograma descrito acima.`}</p>
 
-                    <p css={mb32}>{`2) A inscrição e o respectivo pagamento deverão ser realizados somente após a possível aprovação da proposta enviada;`}</p>
+                    <p css={mb32}>{`2) Somente após a possível aprovação da proposta submetida, a inscrição – incluindo o seu pagamento – deverá ser realizada na categoria EVEx Paper/Project Online ou Lisboa, dentro do prazo estipulado na carta de aceite.`}</p>
 
-                    <p css={mb32}>{`3) A inscrição deverá ser feita na categoria EVEx Paper/Project (Online ou Presencial, de acordo com o evento escolhido pelo autor), dentro do prazo estipulado na divulgação da lista de aprovados;`}</p>
+                    <p css={mb32}>{`3) Os autores que tiverem dois ou mais resumos aprovados poderão realizar as apresentações de todos eles no evento, caso assim desejem, desde que efetuem a inscrição e o pagamento de cada trabalho a ser apresentado.`}</p>
 
-                    <p css={mb32}>{`4) Os autores que tiverem dois ou mais resumos aprovados poderão realizar a apresentação de todos, alguns ou apenas um, desde que realizem a inscrição e o pagamento de cada trabalho que desejarem apresentar no(s) evento(s).`}</p>
+                    {/* <p css={mb32}>{`4) Os autores que tiverem dois ou mais resumos aprovados poderão realizar a apresentação de todos, alguns ou apenas um, desde que realizem a inscrição e o pagamento de cada trabalho que desejarem apresentar no(s) evento(s).`}</p> */}
                 
                    
                   </AccordionItemPanel>
@@ -172,7 +168,7 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                     </p>
                     <p css={mb16}>
                       <a>
-                        <img src={Publicacao} /> Energia nos Tempos da Pandemia: Da segunda onda ao cenário vacinal no contexto ibero-americano
+                        <img src={Publicacao} /> O Futuro da Energia Pós-Pandemia
                       </a>
                     </p>
                     <p css={mb16}>
@@ -183,6 +179,16 @@ As versões finais dos trabalhos serão publicadas nos Anais do EVEx Lisboa 2023
                     <p css={mb16}>
                       <a href={Anais2021} target="_blank">
                         <img src={Publicacao} /> Anais EVEx 2021
+                      </a>
+                    </p>
+                    <p css={mb16}>
+                      <a href={'#'} target="_blank">
+                        <img src={Publicacao} /> Anais EVEx 2022
+                      </a>
+                    </p>
+                    <p css={mb16}>
+                      <a href={'#'} target="_blank">
+                        <img src={Publicacao} /> Anais EVEx 2023
                       </a>
                     </p>
                 

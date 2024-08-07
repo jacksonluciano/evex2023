@@ -65,11 +65,7 @@ const Evento = () => {
             <div css={about}>
              <div>
              <p css={secDesk}>
-                Em seguida, nos dias 29 e 30 de novembro de 2022, ocorreu o
-                primeiro evento presencial do EVEx, na Reitoria da Universidade
-                NOVA de Lisboa, com um público seleto formado por 250
-                especialistas do mundo da energia, de acadêmicos a executivos
-                C-Level, de jornalistas a reguladores e protagonistas políticos.
+             Já nos dias 25 e 26 de outubro, foi realizado o segundo evento presencial do EVEx em Portugal, novamente na prestigiada Reitoria da Universidade NOVA de Lisboa. Assim, o EVEx Lisboa 2023 – Lisbon Energy Experience recebeu um público altamente qualificado, formado por cerca de 200 especialistas portugueses, brasileiros e espanhóis, entre os quais executivos C-Level, lideranças, autoridades, reguladores, jornalistas e acadêmicos da área energética.
               </p>
              </div>
             </div>
@@ -103,12 +99,7 @@ const Evento = () => {
              <div>
              <h2 css={[secTitle, mb45]}>Autoridades</h2>
               <p css={secDesk}>
-                Entre as autoridades participantes, estavam o então Secretário de
-                Estado do Ambiente e da Energia de Portugal, João Galamba; o
-                Presidente da ADENE – Agência para a Energia, Nelson Lage; o
-                Presidente do MIBGAS – Mercado Ibérico de Gás Natural, Raúl
-                Yunta Huete; e o Embaixador do Brasil em Portugal, Raimundo
-                Carreiro.
+              Entre as autoridades participantes do painel de abertura do EVEx Lisboa 2023, estavam Alexandre Fernandes, Presidente da ENSE – Entidade Nacional para o Setor Energético; Bruno Veloso, Vice-Presidente do Conselho de Administração da ADENE – Agência para a Energia; Alexandre Ramos Peixoto, Presidente da CCEE – Câmara de Comercialização de Energia Elétrica; e Thiago Prado, Presidente da EPE – Empresa de Pesquisa Energética.
               </p>
              </div>
               <img css={element2} src={Element02} />
@@ -140,16 +131,30 @@ const Evento = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={lisboaTwo}>
               <p css={secDesk}>
-                Destacaram-se também as participações do Diretor de Serviços
-                Jurídicos da ERSE – Entidade Reguladora dos Serviços
-                Energéticos, Filipe Matias Santos, e do Procurador-Geral da
-                ANEEL – Agência Nacional de Energia Elétrica, Luiz Eduardo Diniz
-                Araújo.
+              Com moderação da advogada e economista Maria João Rolim, o Fórum C-Level do evento contou com as participações de Jerónimo Meira da Cunha, Diretor-Geral da DGEG – Direção Geral de Energia e Geologia; Nelson Lage, Presidente da ADENE – Agência para a Energia; André Pepitone, Diretor Executivo Financeiro da Itaipu Binacional; e Alexandre Zucarato, Diretor de Planejamento do ONS – Operador Nacional do Sistema Elétrico.
               </p>
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={Evex3} />
+          <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {Evex3Data.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
       </Container>

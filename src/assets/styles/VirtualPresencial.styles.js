@@ -132,3 +132,78 @@ export const abImg = css`
     right: -5px;
   }
 `
+
+export const slider = css`
+
+  #main-slider-next{
+        width: 48px;
+        height: 48px;
+        background-color:${colors.secondaryMain};
+        border: 1px solid #000;
+        position: absolute;
+        right: 17px;
+        top: 45%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        img{
+          width: auto !important;
+          transform: rotate(270deg);
+        }
+
+        :hover{
+          background-color:${colors.brandingSalmon};
+        }
+        &.swiper-button-disabled{
+          display: none;
+        }
+  }
+
+  #main-slider-prev{
+        width: 48px;
+        height: 48px;
+        background-color:${colors.secondaryMain};
+        border: 1px solid #000;
+        position: absolute;
+        left: 17px;
+        top: 45%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        img{
+          width: auto !important;
+          transform: rotate(90deg);
+        }
+
+        :hover{
+          background-color:${colors.brandingSalmon};
+        }
+
+        &.swiper-button-disabled{
+          display: none;
+        }
+  }
+
+  .swiper-pagination{
+    text-align: left;
+    margin-left: 20px;
+
+    .swiper-pagination-bullet{
+      width: 16px;
+      height: 16px;
+      background-color:${colors.secondaryMain};
+      border:1px solid ${colors.primaryMain};
+      opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+      background-color:${colors.primaryMain};
+    }
+  }
+
+`

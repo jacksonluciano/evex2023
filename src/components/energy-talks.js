@@ -31,8 +31,10 @@ const EnergyTalks = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>Energy Talks <img src={IconEnergy} /></h2>
               <p css={secDesk}>
-              Os painéis da EVEx Talks proporcionam um intenso diálogo ibero-latino-americano, para o compartilhamento de informações e conhecimentos em prol de uma transição energética sustentável e bem-sucedida. São estabelecidas redes e sinergias entre CEOs, executivos de grandes empresas, membros de governos, reguladores, investidores, representantes de instituições e associações, advogados, pesquisadores, além de outros profissionais com atuação direta nos mais variados segmentos energéticos.
-Na edição passada, por exemplo, foram abordados temas como Transição Energética Justa, Guerra na Europa, Crise Energética, Descarbonização da Economia, Segurança de Abastecimento, Eólicas Offshore, Comunidades de Energia e Mercado de Carbono.
+              Os painéis da EVEx Talks proporcionam um intenso diálogo ibero-latino-americano, para o compartilhamento de informações e conhecimentos em prol de uma transição energética sustentável e bem-sucedida. São estabelecidas redes e sinergias entre executivos C-Level, membros de governos, políticos, reguladores, investidores, representantes de instituições e associações, investigadores científicos e acadêmicos, para além de outros profissionais e empreendedores atuantes nos mais variados setores energéticos e em indústrias associadas. 
+              </p>
+              <p>
+              No EVEx 2023, por exemplo, foram abordados temas como Eólicas Offshore na Península Ibérica e na América Latina; Segurança Energética, Descarbonização da Economia e Ação Climática; ESG e Inovação; Mobilidade Elétrica e Sustentável para a Transição Energética, entre outros.
               </p>
            </div>
           </Col>

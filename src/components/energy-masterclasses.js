@@ -44,22 +44,22 @@ const EnergyMasterclasses = () => {
                 {'MasterClasses'}
               </h2>
               <p css={secDesk}>{`
-              Na EVEx MasterClassses, os participantes podem aprender diretamente com profissionais que são referências nos seus campos de atuação, em especial, no Brasil e em Portugal. São discutidas diversas questões técnicas, políticas, econômicas, jurídicas e regulatórias de temáticas que estão na agenda dos setores energéticos.`}</p>
+              Na EVEx MasterClasses, os participantes podem aprender diretamente com profissionais que são referências nos seus campos de atuação, em especial, no Brasil e em Portugal. São discutidas diversas questões técnicas, políticas, econômicas, jurídicas e regulatórias que estão na agenda dos setores energéticos ibero-latino-americanos.`}</p>
             <p>
-            Exemplos de Energy MasterClasses da edição passada:
-“Transição Energética em Portugal”, com João Galamba, Secretário de Estado do Ambiente e da Energia de Portugal;
+            Exemplos de Energy MasterClasses que foram realizadas no EVEx 2023:
+            “Transição Energética na Indústria de Petróleo & Gás: integração com renováveis e geopolítica em tempos de Guerra”, com Maurício Tolmasquim, Diretor de Transição Energética e Sustentabilidade da Petrobras;
 <br></br><br></br>
-“Energias Renováveis no contexto político e econômico da Transição Energética”, com Elbia Gannoum, CEO da ABEEólica;
+“Arbitragem e Transição Energética Justa: resolução de conflitos rumo a uma economia de baixo carbono e redução de desigualdades”, com Solange David, Women in Energy do CIGRE Internacional, e Filipe Matias Santos, Diretor de Serviços Jurídicos da ERSE;
 <br></br><br></br>
-“Medidas de resposta à crise de preços da energia”, com Filipe Matias Santos, Diretor de Serviços Jurídicos da ERSE;
+“Redes do Futuro: modernização dos Mercados Ibérico e Brasileiro de Energia à luz da sustentabilidade”, com Ferrari Careto, CEO da E-Redes, e Wagner Ferreira, na ocasião Diretor Institucional e Jurídico da ABRADEE;
 <br></br><br></br>
-“Uma visão sobre o setor elétrico brasileiro: presente e futuro.”, com Solange David, Vice-Presidente do Conselho de Administração da SAE;
+“Instrumentos Financeiros para a Descarbonização e Ação Climática do BNDES”, com Carla Primavera, Superintendente da Área de Transição Energética e Clima do BNDES;
 <br></br><br></br>
-“Políticas e contratação de novas tecnologias na Transição Energética”, com Joisa Dutra, Fundadora e Diretora do FGV CERI;
+“Biocombustíveis para a Descarbonização do Setor de Aviação”, com Luana Gaspar, Head de Descarbonização da PSR Energy & Consulting;
 <br></br><br></br>
-“Abertura dos Mercados no MIBEL e no Brasil: premissas, resultados alcançados e desafios”, com Ricardo Nunes, Presidente da Direção da ACEMEL, e Rodrigo Ferreira, Presidente Executivo da ABRACEEL;
+“Apoio às PME no caminho para a circularidade: a classificação eCIRCULAR”, com Paulo Santos, Diretor de Sustentabilidade e Mobilidade da ADENE – Agência para a Energia; 
 <br></br><br></br>
-“O papel do hidrogênio verde na Transição Energética”, com Maria João Rolim, Sócia do ROLIM Advogados, e Diego Almeida, Head of Hydrogen Business Development da Galp.
+“Indústria Verde: urgência global, oportunidade econômica e justiça social”, com Rosana Santos, Diretora Executiva do Instituto E+ Transição Energética.
             </p>
             </div>
           </Col>

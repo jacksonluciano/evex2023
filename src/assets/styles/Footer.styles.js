@@ -76,7 +76,8 @@ export const contactWidget = css`
     margin: 0;
     line-height: 20px;
 
-    &:nth-of-type(2){
+    &:nth-of-type(2),
+    &:nth-of-type(4){
       margin-bottom: 32px;
     }
 
@@ -243,3 +244,7 @@ export const subscribeFrom = css`
     }
   }
 `;
+
+export const logoSmall=css`
+   max-width: 99px;
+`

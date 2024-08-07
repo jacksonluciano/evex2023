@@ -11,7 +11,8 @@ import {
   contactWidget,
   socialWidget,
   subscribeFrom,
-  messageBox
+  messageBox,
+  logoSmall
 } from "../assets/styles/Footer.styles";
 
 import { commonBtn, redBg } from "../assets/styles/layout.styles";
@@ -55,7 +56,7 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a> */}
               <h2>News</h2>
-              <p>Fique por dentro das novidades do EVEx Lisboa 2023.</p>
+              <p>Fique por dentro das novidades do EVEx Lisboa 2024.</p>
               <form 
                 method="POST" 
                 action="https://formsubmit.co/secretaria@evex.energy" 
@@ -96,6 +97,11 @@ const Footer = () => {
               <p>
                 <a href="#">comite@evex.energy</a>
               </p>
+
+              <p>Caio César Cavalcanti | CEO</p>
+              <p>
+                <a href="#">caiocavalcanti@evex.energy</a>
+              </p>
             </aside>
           </div>
           <div className="col-lg-3 col-sm-2 col-md-3">
@@ -124,7 +130,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <img src={small} />
+              <img css={logoSmall} src={small} />
             </aside>
           </div>
         </div>

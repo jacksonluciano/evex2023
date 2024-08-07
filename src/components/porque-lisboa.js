@@ -65,13 +65,7 @@ const PorqueLisboa = () => {
             <div css={about}>
               <h2 css={[secTitle, mb45]}>Por que Lisboa?</h2>
               <p css={secDesk}>
-                Lisboa foi escolhida para sediar os eventos presenciais do EVEx,
-                por ser uma das cidades da Península Ibérica que mais tem
-                ganhado destaque no cenário internacional. Nos World Travel
-                Awards 2022, conhecidos como os “Óscares do Turismo”, recebeu o
-                prêmio global de Melhor Destino Europeu. Do Castelo de São Jorge
-                ao Parque das Nações; da Praça do Comércio até a Torre de Belém;
-                são muitos os pontos turísticos que a tornam inesquecível.
+              Lisboa foi escolhida para sediar os eventos presenciais do EVEx na Península Ibérica, em virtude de ser uma das cidades que mais tem ganhado destaque no cenário internacional. Na World Travel Awards 2024, foi consagrada como o “Melhor Destino Urbano da Europa”. Do Castelo de São Jorge ao Parque das Nações; da Praça do Comércio até a Torre de Belém; são muitos os pontos turísticos que a tornam inesquecível.
               </p>
             </div>
             <img css={element17} src={Element17} />
@@ -138,12 +132,7 @@ const PorqueLisboa = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={lisboaTwo}>
               <p css={secDesk}>
-                Em complemento à programação do EVEx Lisboa 2023, os
-                participantes do evento poderão ter uma experiência gastronômica
-                única, que vai muito além do bacalhau e do pastel de nata. Em
-                Alfama, no Bairro Alto e no Cais de Sodré, também poderão
-                descobrir a noite lisboeta, uma das mais animadas e boemias de
-                toda a Europa.
+              Em complemento à programação do EVEx Lisboa 2024 – Lisbon Energy Experience, os participantes do evento poderão ter uma experiência gastronômica única, que vai muito além do bacalhau e do pastel de nata. Em Alfama, no Bairro Alto e no Cais de Sodré também poderão descobrir a noite lisboeta, uma das mais animadas e boemias de toda a Europa.
               </p>
             </div>
           </Col>

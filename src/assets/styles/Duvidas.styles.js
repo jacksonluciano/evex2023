@@ -289,3 +289,10 @@ export const messageBox=css`
     text-align: center;
     }
 `
+export const eplogo=css`
+    height: 90px;
+    width: auto !important;
+`
+export const RowMargin=css`
+  margin-bottom: 50px;
+`
