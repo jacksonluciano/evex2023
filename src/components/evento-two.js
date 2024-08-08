@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { useState } from "react";
-import { LisboaData, SixtySpeakers, Evex2Data, Evex3Data } from "@/data";
+import { LisboaData, SixtySpeakers, Missao01Data, Missao02Data, PremiosData, JantarData } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
@@ -99,7 +99,26 @@ const Evento = () => {
         <div css={divider}></div>
         <Row>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={Abraceel} />
+            {/* <img src={Abraceel} /> */}
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {Missao01Data.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, darkBg]}>
@@ -125,12 +144,50 @@ const Evento = () => {
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={Acemel} />
+            {/* <img src={Acemel} /> */}
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {Missao02Data.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
         <Row>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={Premios} />
+            {/* <img src={Premios} /> */}
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {PremiosData.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo, darkBg, premiosMobile]}>
@@ -165,7 +222,26 @@ Uma verdadeira experiência gastronômica portuguesa, assinada pelo Chef Rui Reb
             </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>
-            <img src={MegaWhat} />
+            {/* <img src={MegaWhat} /> */}
+            <Swiper css={slider} {...testimonialsOptions}>
+              <span id="main-slider-prev">
+                <img src={Arrow} />
+              </span>
+
+              <span id="main-slider-next">
+                <img src={Arrow} />
+              </span>
+
+              {JantarData.map(({ img }, index) => (
+                <SwiperSlide key={index}>
+                  <img css={imgFull} src={img} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            <div
+              className="swiper-pagination"
+              id="client-carousel-pagination"
+            ></div>
           </Col>
         </Row>
       </Container>

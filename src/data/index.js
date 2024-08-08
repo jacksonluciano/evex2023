@@ -115,23 +115,58 @@ import EvexSlide13 from "@/images/2024/oevex/album3/3.jpg"
 import EvexSlide14 from "@/images/2024/oevex/album3/4.jpg"
 import EvexSlide15 from "@/images/2024/oevex/album3/5.jpg"
 
-import EventSpeakers00 from "@/images/oevex/speakers-0.png"
-import EventSpeakers01 from "@/images/oevex/speakers-1.png"
-import EventSpeakers02 from "@/images/oevex/speakers-2.png"
-import EventSpeakers03 from "@/images/oevex/speakers-3.png"
-import EventSpeakers04 from "@/images/oevex/speakers-4.png"
-import EventSpeakers05 from "@/images/oevex/speakers-5.png"
+import EventSpeakers00 from "@/images/2024/oevex/60speakers/1.jpg"
+import EventSpeakers01 from "@/images/2024/oevex/60speakers/2.jpg"
+import EventSpeakers02 from "@/images/2024/oevex/60speakers/3.jpg"
+import EventSpeakers03 from "@/images/2024/oevex/60speakers/4.jpg"
+import EventSpeakers04 from "@/images/2024/oevex/60speakers/5.jpg"
+import EventSpeakers05 from "@/images/2024/oevex/60speakers/6.jpg"
+import EventSpeakers06 from "@/images/2024/oevex/60speakers/7.jpg"
+import EventSpeakers07 from "@/images/2024/oevex/60speakers/8.jpg"
+import EventSpeakers08 from "@/images/2024/oevex/60speakers/9.jpg"
+import EventSpeakers09 from "@/images/2024/oevex/60speakers/10.jpg"
+import EventSpeakers10 from "@/images/2024/oevex/60speakers/11.jpg"
+import EventSpeakers11 from "@/images/2024/oevex/60speakers/12.jpg"
 
+import Gallery01 from "@/images/2024/oevex/experience/1.jpg"
+import Gallery02 from "@/images/2024/oevex/experience/2.jpg"
+import Gallery03 from "@/images/2024/oevex/experience/3.jpg"
+import Gallery04 from "@/images/2024/oevex/experience/4.jpg"
+import Gallery05 from "@/images/2024/oevex/experience/5.jpg"
+import Gallery06 from "@/images/2024/oevex/experience/6.jpg"
+import Gallery07 from "@/images/2024/oevex/experience/7.jpg"
+import Gallery08 from "@/images/2024/oevex/experience/8.jpg"
+import Gallery09 from "@/images/2024/oevex/experience/9.jpg"
+import Gallery10 from "@/images/2024/oevex/experience/10.jpg"
 
-import Gallery01 from "@/images/lisbon_energy/lisbon_energy_01.png"
-import Gallery02 from "@/images/lisbon_energy/lisbon_energy_02.png"
-import Gallery03 from "@/images/lisbon_energy/lisbon_energy_03.png"
-import Gallery04 from "@/images/lisbon_energy/lisbon_energy_04.png"
-import Gallery05 from "@/images/lisbon_energy/lisbon_energy_05.png"
-import Gallery06 from "@/images/lisbon_energy/lisbon_energy_06.png"
-import Gallery07 from "@/images/lisbon_energy/lisbon_energy_07.png"
-import Gallery08 from "@/images/lisbon_energy/lisbon_energy_08.png"
-import Gallery09 from "@/images/lisbon_energy/lisbon_energy_09.png"
+import Missao01_1 from "@/images/2024/oevex/missao/01/1.jpg"
+import Missao01_2 from "@/images/2024/oevex/missao/01/2.jpg"
+import Missao01_3 from "@/images/2024/oevex/missao/01/3.jpg"
+import Missao01_4 from "@/images/2024/oevex/missao/01/4.jpg"
+import Missao01_5 from "@/images/2024/oevex/missao/01/5.jpg"
+
+import Missao02_1 from "@/images/2024/oevex/missao/02/1.jpg"
+import Missao02_2 from "@/images/2024/oevex/missao/02/2.jpg"
+import Missao02_3 from "@/images/2024/oevex/missao/02/3.jpg"
+import Missao02_4 from "@/images/2024/oevex/missao/02/4.jpg"
+import Missao02_5 from "@/images/2024/oevex/missao/02/5.jpg"
+
+import Premio_1 from "@/images/2024/oevex/premio/1.jpg"
+import Premio_2 from "@/images/2024/oevex/premio/2.jpg"
+import Premio_3 from "@/images/2024/oevex/premio/3.jpg"
+import Premio_4 from "@/images/2024/oevex/premio/4.jpg"
+import Premio_5 from "@/images/2024/oevex/premio/5.jpg"
+import Premio_6 from "@/images/2024/oevex/premio/6.jpg"
+
+import Jantar_1 from "@/images/2024/oevex/jantar/1.jpg"
+import Jantar_2 from "@/images/2024/oevex/jantar/2.jpg"
+import Jantar_3 from "@/images/2024/oevex/jantar/3.jpg"
+import Jantar_4 from "@/images/2024/oevex/jantar/4.jpg"
+import Jantar_5 from "@/images/2024/oevex/jantar/5.jpg"
+import Jantar_6 from "@/images/2024/oevex/jantar/6.jpg"
+import Jantar_7 from "@/images/2024/oevex/jantar/7.jpg"
+import Jantar_8 from "@/images/2024/oevex/jantar/8.jpg"
+import Jantar_9 from "@/images/2024/oevex/jantar/9.jpg"
 
 // import EventSpeakers from "@/images/event/speakers.png"
 
@@ -1565,6 +1600,93 @@ export const Evex3Data = [
   },
 ]
 
+export const Missao01Data = [
+  {
+    img: Missao01_1
+  },
+  {
+    img: Missao01_2
+  },
+  {
+    img: Missao01_3
+  },
+  {
+    img: Missao01_4
+  },
+  {
+    img: Missao01_5
+  },
+]
+
+export const Missao02Data = [
+  {
+    img: Premio_1
+  },
+  {
+    img: Premio_2
+  },
+  {
+    img: Premio_3
+  },
+  {
+    img: Premio_4
+  },
+  {
+    img: Premio_5
+  },
+  {
+    img: Premio_6
+  },
+]
+
+export const PremiosData = [
+  {
+    img: Missao02_1
+  },
+  {
+    img: Missao02_2
+  },
+  {
+    img: Missao02_3
+  },
+  {
+    img: Missao02_4
+  },
+  {
+    img: Missao02_5
+  },
+]
+
+export const JantarData = [
+  {
+    img: Jantar_1
+  },
+  {
+    img: Jantar_2
+  },
+  {
+    img: Jantar_3
+  },
+  {
+    img: Jantar_4
+  },
+  {
+    img: Jantar_5
+  },
+  {
+    img: Jantar_6
+  },
+  {
+    img: Jantar_7
+  },
+  {
+    img: Jantar_8
+  },
+  {
+    img: Jantar_9
+  },
+]
+
 export const ExperienceGalleryData = [
   {
     img: Gallery01
@@ -1593,6 +1715,9 @@ export const ExperienceGalleryData = [
   {
     img: Gallery09
   },
+  {
+    img: Gallery10
+  },
 ]
 
 export const SixtySpeakers = [
@@ -1613,6 +1738,24 @@ export const SixtySpeakers = [
   },
   {
     img: EventSpeakers05
+  },
+  {
+    img: EventSpeakers06
+  },
+  {
+    img: EventSpeakers07
+  },
+  {
+    img: EventSpeakers08
+  },
+  {
+    img: EventSpeakers09
+  },
+  {
+    img: EventSpeakers10
+  },
+  {
+    img: EventSpeakers11
   },
 ]
 
