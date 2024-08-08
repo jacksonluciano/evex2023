@@ -7,7 +7,6 @@ import {
   heroBg
 }  from '../assets/styles/HeroVideo.styles'
 
-
 const HeroVideo = () => {
   return (
     <section css={[heroBg]}>

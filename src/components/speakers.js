@@ -62,7 +62,6 @@ const TeamCarousel = () => {
 //       },
 //     },
 //   };
-
   return (
     <section css={[team,commonSection]}>
       <Container>

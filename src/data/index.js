@@ -2886,7 +2886,6 @@ export const CallToActionTwoData = [
   },
 ];
 
-
 export const FaqData = [
   {
     question: "Call for Papers/Projects",
