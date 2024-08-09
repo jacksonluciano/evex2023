@@ -16,7 +16,6 @@ import {
   mb45,
   about,
   element01,
-  imgFull,
   slider
 }  from '../assets/styles/Oevex.style'
 import {
@@ -66,7 +65,7 @@ const OEvex = () => {
 
               {Evex2024Data.map(({ img }, index) => (
                 <SwiperSlide key={index}>
-                  <img css={imgFull} src={img} />
+                  <img src={img} />
                 </SwiperSlide>
               ))}
             </Swiper>

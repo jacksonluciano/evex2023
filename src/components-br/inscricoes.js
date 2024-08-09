@@ -22,7 +22,6 @@ import {
   blocks,
   asideBlock,
   sectionTitle,
-  underline,
   inscriHero,
   bgElement
 } from "../assets/styles-br/inscricoes.styles";
@@ -52,7 +51,7 @@ const Inscricoes = () => {
               </div>
             </Col>
             <Col css={sectionTitle} lg={6}>
-              <p css={underline}>
+              <p>
                 Prepare-se para viver uma experiência única e transformadora! <br /><br /> Serão dois dias de debates intensos, networking estratégico e conexões valiosas que vão impulsionar sua jornada profissional na transição energética rumo a uma economia verde. Escolha abaixo sua categoria de inscrição no EVEx Brasil 2024 e garanta sua vaga na rota ibero-latino-americana da energia! <br /><br /> Observação: para pagamentos através de depósito, transferência bancária ou PIX, envie solicitação via e-mail (<span>secretaria@evex.energy</span>).
               </p>
             </Col>

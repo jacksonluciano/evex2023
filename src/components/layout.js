@@ -4,7 +4,7 @@ import { Global, css } from "@emotion/react";
 import { Helmet } from "react-helmet";
 import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
-import SearchPopup from "@/components/search-popup";
+// import SearchPopup from "@/components/search-popup";
 import PopupMenu from "@/components/popup-menu";
 import { Link as ScrollLink } from "react-scroll";
 import { jsx } from "@emotion/react";
@@ -174,7 +174,7 @@ const GlobalStyles = () => {
 };
 
 const Layout = ({ PageTitle, children }) => {
-  const { searchStatus } = useContext(SearchContext);
+  // const { searchStatus } = useContext(SearchContext);
   const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
 
@@ -202,7 +202,7 @@ const Layout = ({ PageTitle, children }) => {
         <GlobalStyles />
         {children}
       </div>
-      {true === searchStatus ? <SearchPopup /> : null}
+      {/* {true === searchStatus ? <SearchPopup /> : null} */}
       {true === menuStatus ? <PopupMenu /> : null}
 
       {/* {scrollTop === true ? (
