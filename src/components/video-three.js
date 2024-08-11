@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import React, { Fragment, useState } from "react";
-import { VideoThreeData } from "@/data";
+// import { VideoThreeData } from "@/data";
 import ModalVideo from "react-modal-video";
 import Video from "@/components/video";
 import Element05 from "@/images/elements/element-05.svg"
@@ -23,7 +23,7 @@ import {
 
 const VideoThree = () => {
   const [isOpen, setOpen] = useState(false);
-  const { sectionContent, video } = VideoThreeData;
+  // const { sectionContent, video } = VideoThreeData;
   return (
     <Fragment>
       <section css={[commonSection,whatWedo]}>
@@ -35,7 +35,7 @@ const VideoThree = () => {
           </Row> */}
           <Row>
             <Col lg={12}>
-             <section css={video}>
+             <section>
               <div css={videoWrap} className="mb-0"> 
               <Video
             videoSrcURL="https://www.youtube.com/embed/7BcVpK5X1XE?si=2ZWLY5OyUolLft2r"

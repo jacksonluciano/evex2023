@@ -5,7 +5,7 @@ import Download from '@/images/icons/icon-download.svg'
 import Publicacao from '@/images/icons/icon-pub.svg'
 import Normas from '@/images/EVEx2023 - Regras de Formatação.pdf'
 import Eixos from '@/images/EVEx2023 - Eixos Temáticos.pdf'
-import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
+// import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
 import Anais from '@/images/Anais EVEx 2020.pdf'
 import Anais2021 from '@/images/Anais EVEx 2021 - Energy Virtual Experience .pdf'
 import { jsx } from "@emotion/react";
@@ -162,7 +162,7 @@ const Faq = () => {
                   <AccordionItemPanel css={resposta}>
                     
                     <p css={mb16}>
-                      <a href={Ebook} target="_blank">
+                      <a href={"#"} target="_blank">
                         <img src={Publicacao} /> Energia em Tempos de Pandemia
                       </a>
                     </p>
