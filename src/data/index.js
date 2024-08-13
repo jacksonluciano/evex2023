@@ -115,6 +115,15 @@ import EvexSlide11 from "@/images/2024/oevex/album3/1.jpg"
 import EventSpeakers00 from "@/images/2024/oevex/60speakers/1.jpg"
 
 import Gallery01 from "@/images/2024/oevex/experience/1.jpg"
+import Gallery02 from "@/images/2024/oevex/experience/2.jpg"
+import Gallery03 from "@/images/2024/oevex/experience/3.jpg"
+import Gallery04 from "@/images/2024/oevex/experience/4.jpg"
+import Gallery05 from "@/images/2024/oevex/experience/5.jpg"
+import Gallery06 from "@/images/2024/oevex/experience/6.jpg"
+import Gallery07 from "@/images/2024/oevex/experience/7.jpg"
+import Gallery08 from "@/images/2024/oevex/experience/8.jpg"
+import Gallery09 from "@/images/2024/oevex/experience/9.jpg"
+import Gallery010 from "@/images/2024/oevex/experience/10.jpg"
 
 import Missao01_1 from "@/images/2024/oevex/missao/01/1.jpg"
 
@@ -170,22 +179,22 @@ import Speaker36 from "@/images/speaker/2024/thiago_prado.jpg"
 import Speaker37 from "@/images/speaker/2024/caio_cesar_cavalcanti.jpg"
 
 import texto1_1 from "@/images/2024/texto1/1.jpg"
-// import texto1_2 from "@/images/2024/texto1/2.jpg"
-// import texto1_3 from "@/images/2024/texto1/3.jpg"
-// import texto1_4 from "@/images/2024/texto1/4.jpg"
-// import texto1_5 from "@/images/2024/texto1/5.jpg"
-// import texto1_6 from "@/images/2024/texto1/6.jpg"
-// import texto1_7 from "@/images/2024/texto1/7.jpg"
-// import texto1_8 from "@/images/2024/texto1/8.jpg"
+import texto1_2 from "@/images/2024/texto1/2.jpg"
+import texto1_3 from "@/images/2024/texto1/3.jpg"
+import texto1_4 from "@/images/2024/texto1/4.jpg"
+import texto1_5 from "@/images/2024/texto1/5.jpg"
+import texto1_6 from "@/images/2024/texto1/6.jpg"
+import texto1_7 from "@/images/2024/texto1/7.jpg"
+import texto1_8 from "@/images/2024/texto1/8.jpg"
 
 import texto2_1 from "@/images/2024/texto2/1.jpg"
-// import texto2_2 from "@/images/2024/texto2/2.jpg"
-// import texto2_3 from "@/images/2024/texto2/3.jpg"
-// import texto2_4 from "@/images/2024/texto2/4.jpg"
-// import texto2_5 from "@/images/2024/texto2/5.jpg"
-// import texto2_6 from "@/images/2024/texto2/6.jpg"
-// import texto2_7 from "@/images/2024/texto2/7.jpg"
-// import texto2_8 from "@/images/2024/texto2/8.jpg"
+import texto2_2 from "@/images/2024/texto2/2.jpg"
+import texto2_3 from "@/images/2024/texto2/3.jpg"
+import texto2_4 from "@/images/2024/texto2/4.jpg"
+import texto2_5 from "@/images/2024/texto2/5.jpg"
+import texto2_6 from "@/images/2024/texto2/6.jpg"
+import texto2_7 from "@/images/2024/texto2/7.jpg"
+import texto2_8 from "@/images/2024/texto2/8.jpg"
 
 
 export const LogoImage = {
@@ -1465,6 +1474,33 @@ export const ExperienceGalleryData = [
   {
     img: Gallery01
   },
+  {
+    img: Gallery02
+  },
+  {
+    img: Gallery03
+  },
+  {
+    img: Gallery04
+  },
+  {
+    img: Gallery05
+  },
+  {
+    img: Gallery06
+  },
+  {
+    img: Gallery07
+  },
+  {
+    img: Gallery08
+  },
+  {
+    img: Gallery09
+  },
+  {
+    img: Gallery010
+  },
 ]
 
 export const SixtySpeakers = [
@@ -1477,12 +1513,53 @@ export const Evex2024Data = [
   {
     img: texto1_1
   },
+  {
+    img: texto1_2
+  },
+  {
+    img: texto1_3
+  },
+  {
+    img: texto1_4
+  },
+  {
+    img: texto1_5
+  },
+  {
+    img: texto1_6
+  },
+  {
+    img: texto1_7
+  },
+  {
+    img: texto1_8
+  },
 ]
 export const QuintaEdicao2024Data = [
   {
     img: texto2_1
   },
-
+  {
+    img: texto2_2
+  },
+  {
+    img: texto2_3
+  },
+  {
+    img: texto2_4
+  },
+  {
+    img: texto2_5
+  },
+  {
+    img: texto2_6
+  },
+  {
+    img: texto2_7
+  },
+  {
+    img: texto2_8
+  },
 ]
 
 export const EvexLisboaData = {
