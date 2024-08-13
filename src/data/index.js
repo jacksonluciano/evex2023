@@ -107,75 +107,22 @@ import Evex02 from "@/images/evex2.jpg"
 import Evex03 from "@/images/evex3.jpg"
 
 import EvexSlide01 from "@/images/2024/oevex/abertura/1.jpg"
-import EvexSlide02 from "@/images/2024/oevex/abertura/2.jpg"
-import EvexSlide03 from "@/images/2024/oevex/abertura/3.jpg"
-import EvexSlide04 from "@/images/2024/oevex/abertura/4.jpg"
-import EvexSlide05 from "@/images/oevex/slide01_05.png"
 
 import EvexSlide06 from "@/images/2024/oevex/autoridades/1.jpg"
-import EvexSlide07 from "@/images/2024/oevex/autoridades/2.jpg"
-import EvexSlide08 from "@/images/2024/oevex/autoridades/3.jpg"
-import EvexSlide09 from "@/images/2024/oevex/autoridades/4.jpg"
-import EvexSlide10 from "@/images/2024/oevex/autoridades/5.jpg"
 
 import EvexSlide11 from "@/images/2024/oevex/album3/1.jpg"
-import EvexSlide12 from "@/images/2024/oevex/album3/2.jpg"
-import EvexSlide13 from "@/images/2024/oevex/album3/3.jpg"
-import EvexSlide14 from "@/images/2024/oevex/album3/4.jpg"
-import EvexSlide15 from "@/images/2024/oevex/album3/5.jpg"
 
 import EventSpeakers00 from "@/images/2024/oevex/60speakers/1.jpg"
-// import EventSpeakers01 from "@/images/2024/oevex/60speakers/2.jpg"
-// import EventSpeakers02 from "@/images/2024/oevex/60speakers/3.jpg"
-// import EventSpeakers03 from "@/images/2024/oevex/60speakers/4.jpg"
-// import EventSpeakers04 from "@/images/2024/oevex/60speakers/5.jpg"
-// import EventSpeakers05 from "@/images/2024/oevex/60speakers/6.jpg"
-// import EventSpeakers06 from "@/images/2024/oevex/60speakers/7.jpg"
-// import EventSpeakers07 from "@/images/2024/oevex/60speakers/8.jpg"
-// import EventSpeakers08 from "@/images/2024/oevex/60speakers/9.jpg"
-// import EventSpeakers09 from "@/images/2024/oevex/60speakers/10.jpg"
-// import EventSpeakers10 from "@/images/2024/oevex/60speakers/11.jpg"
-// import EventSpeakers11 from "@/images/2024/oevex/60speakers/12.jpg"
 
 import Gallery01 from "@/images/2024/oevex/experience/1.jpg"
-// import Gallery02 from "@/images/2024/oevex/experience/2.jpg"
-// import Gallery03 from "@/images/2024/oevex/experience/3.jpg"
-// import Gallery04 from "@/images/2024/oevex/experience/4.jpg"
-// import Gallery05 from "@/images/2024/oevex/experience/5.jpg"
-// import Gallery06 from "@/images/2024/oevex/experience/6.jpg"
-// import Gallery07 from "@/images/2024/oevex/experience/7.jpg"
-// import Gallery08 from "@/images/2024/oevex/experience/8.jpg"
-// import Gallery09 from "@/images/2024/oevex/experience/9.jpg"
-// import Gallery10 from "@/images/2024/oevex/experience/10.jpg"
 
 import Missao01_1 from "@/images/2024/oevex/missao/01/1.jpg"
-import Missao01_2 from "@/images/2024/oevex/missao/01/2.jpg"
-import Missao01_3 from "@/images/2024/oevex/missao/01/3.jpg"
-import Missao01_4 from "@/images/2024/oevex/missao/01/4.jpg"
-import Missao01_5 from "@/images/2024/oevex/missao/01/5.jpg"
 
 import Missao02_1 from "@/images/2024/oevex/missao/02/1.jpg"
-import Missao02_2 from "@/images/2024/oevex/missao/02/2.jpg"
-import Missao02_3 from "@/images/2024/oevex/missao/02/3.jpg"
-import Missao02_4 from "@/images/2024/oevex/missao/02/4.jpg"
-import Missao02_5 from "@/images/2024/oevex/missao/02/5.jpg"
 
 import Premio_1 from "@/images/2024/oevex/premio/1.jpg"
-import Premio_2 from "@/images/2024/oevex/premio/2.jpg"
-import Premio_3 from "@/images/2024/oevex/premio/3.jpg"
-import Premio_4 from "@/images/2024/oevex/premio/4.jpg"
-import Premio_5 from "@/images/2024/oevex/premio/5.jpg"
-import Premio_6 from "@/images/2024/oevex/premio/6.jpg"
 
 import Jantar_1 from "@/images/2024/oevex/jantar/1.jpg"
-import Jantar_2 from "@/images/2024/oevex/jantar/2.jpg"
-import Jantar_3 from "@/images/2024/oevex/jantar/3.jpg"
-import Jantar_4 from "@/images/2024/oevex/jantar/4.jpg"
-import Jantar_5 from "@/images/2024/oevex/jantar/5.jpg"
-import Jantar_6 from "@/images/2024/oevex/jantar/6.jpg"
-import Jantar_7 from "@/images/2024/oevex/jantar/7.jpg"
-import Jantar_8 from "@/images/2024/oevex/jantar/8.jpg"
-import Jantar_9 from "@/images/2024/oevex/jantar/9.jpg"
 
 // import EventSpeakers from "@/images/event/speakers.png"
 
@@ -1476,29 +1423,11 @@ export const Evex1Data = [
   {
     img: EvexSlide01
   },
-  {
-    img: EvexSlide02
-  },
-  {
-    img: EvexSlide03
-  },
-  {
-    img: EvexSlide04
-  },
 ]
 
 export const Evex2Data = [
   {
     img: EvexSlide06
-  },
-  {
-    img: EvexSlide07
-  },
-  {
-    img: EvexSlide08
-  },
-  {
-    img: EvexSlide09
   },
 ]
 
@@ -1506,35 +1435,11 @@ export const Evex3Data = [
   {
     img: EvexSlide11
   },
-  {
-    img: EvexSlide12
-  },
-  {
-    img: EvexSlide13
-  },
-  {
-    img: EvexSlide14
-  },
-  {
-    img: EvexSlide15
-  },
 ]
 
 export const Missao01Data = [
   {
     img: Missao01_1
-  },
-  {
-    img: Missao01_2
-  },
-  {
-    img: Missao01_3
-  },
-  {
-    img: Missao01_4
-  },
-  {
-    img: Missao01_5
   },
 ]
 
@@ -1542,38 +1447,11 @@ export const Missao02Data = [
   {
     img: Premio_1
   },
-  {
-    img: Premio_2
-  },
-  {
-    img: Premio_3
-  },
-  {
-    img: Premio_4
-  },
-  {
-    img: Premio_5
-  },
-  {
-    img: Premio_6
-  },
 ]
 
 export const PremiosData = [
   {
     img: Missao02_1
-  },
-  {
-    img: Missao02_2
-  },
-  {
-    img: Missao02_3
-  },
-  {
-    img: Missao02_4
-  },
-  {
-    img: Missao02_5
   },
 ]
 
@@ -1581,155 +1459,30 @@ export const JantarData = [
   {
     img: Jantar_1
   },
-  {
-    img: Jantar_2
-  },
-  {
-    img: Jantar_3
-  },
-  {
-    img: Jantar_4
-  },
-  {
-    img: Jantar_5
-  },
-  {
-    img: Jantar_6
-  },
-  {
-    img: Jantar_7
-  },
-  {
-    img: Jantar_8
-  },
-  {
-    img: Jantar_9
-  },
 ]
 
 export const ExperienceGalleryData = [
   {
     img: Gallery01
   },
-  // {
-  //   img: Gallery02
-  // },
-  // {
-  //   img: Gallery03
-  // },
-  // {
-  //   img: Gallery04
-  // },
-  // {
-  //   img: Gallery05
-  // },
-  // {
-  //   img: Gallery06
-  // },
-  // {
-  //   img: Gallery07
-  // },
-  // {
-  //   img: Gallery08
-  // },
-  // {
-  //   img: Gallery09
-  // },
-  // {
-  //   img: Gallery10
-  // },
 ]
 
 export const SixtySpeakers = [
   {
     img: EventSpeakers00
   },
-  // {
-  //   img: EventSpeakers01
-  // },
-  // {
-  //   img: EventSpeakers02
-  // },
-  // {
-  //   img: EventSpeakers03
-  // },
-  // {
-  //   img: EventSpeakers04
-  // },
-  // {
-  //   img: EventSpeakers05
-  // },
-  // {
-  //   img: EventSpeakers06
-  // },
-  // {
-  //   img: EventSpeakers07
-  // },
-  // {
-  //   img: EventSpeakers08
-  // },
-  // {
-  //   img: EventSpeakers09
-  // },
-  // {
-  //   img: EventSpeakers10
-  // },
-  // {
-  //   img: EventSpeakers11
-  // },
 ]
 
 export const Evex2024Data = [
   {
     img: texto1_1
   },
-  // {
-  //   img: texto1_2
-  // },
-  // {
-  //   img: texto1_3
-  // },
-  // {
-  //   img: texto1_4
-  // },
-  // {
-  //   img: texto1_5
-  // },
-  // {
-  //   img: texto1_6
-  // },
-  // {
-  //   img: texto1_7
-  // },
-  // {
-  //   img: texto1_8
-  // },
 ]
 export const QuintaEdicao2024Data = [
   {
     img: texto2_1
   },
-  // {
-  //   img: texto2_2
-  // },
-  // {
-  //   img: texto2_3
-  // },
-  // {
-  //   img: texto2_4
-  // },
-  // {
-  //   img: texto2_5
-  // },
-  // {
-  //   img: texto2_6
-  // },
-  // {
-  //   img: texto2_7
-  // },
-  // {
-  //   img: texto2_8
-  // },
+
 ]
 
 export const EvexLisboaData = {
