@@ -107,10 +107,21 @@ import Evex02 from "@/images/evex2.jpg"
 import Evex03 from "@/images/evex3.jpg"
 
 import EvexSlide01 from "@/images/2024/oevex/abertura/1.jpg"
+import EvexSlide02 from "@/images/2024/oevex/abertura/2.jpg"
+import EvexSlide03 from "@/images/2024/oevex/abertura/3.jpg"
+import EvexSlide04 from "@/images/2024/oevex/abertura/4.jpg"
 
 import EvexSlide06 from "@/images/2024/oevex/autoridades/1.jpg"
+import EvexSlide07 from "@/images/2024/oevex/autoridades/2.jpg"
+import EvexSlide08 from "@/images/2024/oevex/autoridades/3.jpg"
+import EvexSlide09 from "@/images/2024/oevex/autoridades/4.jpg"
+import EvexSlide10 from "@/images/2024/oevex/autoridades/5.jpg"
 
 import EvexSlide11 from "@/images/2024/oevex/album3/1.jpg"
+import EvexSlide12 from "@/images/2024/oevex/album3/2.jpg"
+import EvexSlide13 from "@/images/2024/oevex/album3/3.jpg"
+import EvexSlide14 from "@/images/2024/oevex/album3/4.jpg"
+import EvexSlide15 from "@/images/2024/oevex/album3/5.jpg"
 
 import EventSpeakers00 from "@/images/2024/oevex/60speakers/1.jpg"
 
@@ -1432,17 +1443,50 @@ export const Evex1Data = [
   {
     img: EvexSlide01
   },
+  {
+    img: EvexSlide02
+  },
+  {
+    img: EvexSlide03
+  },
+  {
+    img: EvexSlide04
+  },
 ]
 
 export const Evex2Data = [
   {
     img: EvexSlide06
   },
+  {
+    img: EvexSlide07
+  },
+  {
+    img: EvexSlide08
+  },
+  {
+    img: EvexSlide09
+  },
+  {
+    img: EvexSlide10
+  },
 ]
 
 export const Evex3Data = [
   {
     img: EvexSlide11
+  },
+  {
+    img: EvexSlide12
+  },
+  {
+    img: EvexSlide13
+  },
+  {
+    img: EvexSlide14
+  },
+  {
+    img: EvexSlide15
   },
 ]
 
