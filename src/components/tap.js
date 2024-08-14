@@ -42,7 +42,7 @@ const Tap = () => {
               </p>
               <a href={Regulamento} target="_blank" css={commonBtn}>Regulamento TAP</a>
               <br/><br/><br/>
-              <h2 css={[secTitle, mb45]}>Hotel Oficial</h2>
+              {/* <h2 css={[secTitle, mb45]}>Hotel Oficial</h2>
               <p css={secDesk}>
               O Dom Pedro Lisboa, um dos melhores hotéis cinco estrelas de Lisboa, é o hotel oficial do EVEx Lisboa 2024. Está localizado estrategicamente no coração da cidade e a menos de 3,5 km do local do evento.
 Para reservas com condições especiais, siga as seguintes orientações:
@@ -52,7 +52,7 @@ Para reservas com condições especiais, siga as seguintes orientações:
 2.	Selecione o Hotel: Dom Pedro Lisboa;<br/>
 3.	Preencha as informações de Check-in, Check-out, Quartos e Adultos,<br/> utilizando ao final o Promo Code: EVEX23
 
-              </p>
+              </p> */}
            </div>
           </Col>
         </Row>
