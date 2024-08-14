@@ -154,7 +154,7 @@ const Evento = () => {
                 <img src={Arrow} />
               </span>
 
-              {Missao02Data.map(({ img }, index) => (
+              {PremiosData.map(({ img }, index) => (
                 <SwiperSlide key={index}>
                   <img css={imgFull} src={img} />
                 </SwiperSlide>
@@ -178,7 +178,7 @@ const Evento = () => {
                 <img src={Arrow} />
               </span>
 
-              {PremiosData.map(({ img }, index) => (
+              {Missao02Data.map(({ img }, index) => (
                 <SwiperSlide key={index}>
                   <img css={imgFull} src={img} />
                 </SwiperSlide>
