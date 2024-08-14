@@ -110,9 +110,9 @@ const Inscricoes = () => {
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>08 e 09 de Outubro</h3>
                   <p>Profissionais (1° lote até 06/09)</p>
-                  <h4>€ 210,00 / R$ 1.400,00</h4>
+                  <h4>€ 238,00 / R$ 1.428,00</h4>
                   <p>Estudantes (1° lote até 06/09)</p>
-                  <h4>€ 126,00 / R$ 840,00</h4>
+                  <h4>€ 142,80 / R$ 856,80</h4>
                   <p className="text">
                   Acesso à programação completa do EVEx Lisboa<br></br> 
                     Kit de credenciamento<br></br> 
@@ -132,9 +132,9 @@ const Inscricoes = () => {
                   <h2>EVEx Paper/Project Lisboa</h2>
                   <h3>Apresentação de trabalho e publicação</h3>
                   <p>Profissionais</p>
-                  <h4>€ 320,00 / R$ 2.100,00</h4>
+                  <h4>€ 320,00 / R$ 1.920,00</h4>
                   <p>Estudantes</p>
-                  <h4>€ 160,00 / R$ 1.050,00</h4>
+                  <h4>€ 160,00 / R$ 960,00</h4>
                   <p className="text">
                     Publicação nos Anais do EVEx 2024 (ISBN de Portugal)<br></br> 
                     Acesso à programação completa do EVEx Lisboa<br></br> 
