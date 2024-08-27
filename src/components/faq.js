@@ -3,8 +3,8 @@ import React from "react";
 import Arrow from '@/images/icons/arrow-down.svg'
 import Download from '@/images/icons/icon-download.svg'
 import Publicacao from '@/images/icons/icon-pub.svg'
-import Normas from '@/images/EVEx2023 - Regras de Formatação.pdf'
-import Eixos from '@/images/EVEx2023 - Eixos Temáticos.pdf'
+import Normas from '@/images/2024/Regras de Formatação.pdf'
+import Eixos from '@/images/2024/Eixos_Tematicos.jpeg'
 // import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
 import Anais from '@/images/Anais EVEx 2020.pdf'
 import Anais2021 from '@/images/Anais EVEx 2021 - Energy Virtual Experience .pdf'
@@ -70,8 +70,8 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p>Data limite para envio de resumos: <span>06/09/2024;</span></p>
-                    <p>Data limite para divulgação das propostas selecionadas: <span>11/09/2024;</span></p>
+                    <p>Data limite para envio de resumos: <span>15/09/2024;</span></p>
+                    <p>Data limite para divulgação das propostas selecionadas: <span>17/09/2024;</span></p>
                     <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2025.</span></p>
                    
                   </AccordionItemPanel>
@@ -128,11 +128,11 @@ const Faq = () => {
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href='https://www.playbook.com/s/jacksonides/GkGbSc2tRcAaeZ92hUEJsiEE' target="_blank">
+                      <a href='https://www.playbook.com/s/jacksonides/omUr3sKcR8KqDm444qBi2KVy?assetToken=X7tsntf84N36aVoPeaWudEi5' target="_blank">
                         <img src={Download} /> Template Resumo
                       </a>
                     </p>
-                    <p css={mb16}>
+                    {/* <p css={mb16}>
                       <a href="https://www.playbook.com/s/jacksonides/vhyHpyb4GSxNoT3DSmsoV5cX" target="_blank">
                         <img src={Download} /> Template Apresentação
                       </a>
@@ -141,7 +141,7 @@ const Faq = () => {
                       <a href="#">
                         <img src={Download} /> Template Artigo
                       </a>
-                    </p>
+                    </p> */}
                 
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -167,7 +167,7 @@ const Faq = () => {
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a>
+                      <a href={"https://www.playbook.com/s/jacksonides/hkyvoKaw3ajgk9eF2Kmj9gVr?assetToken=wNoixtVi5n1qCgN4vHuGLAH2"} target="_blank">
                         <img src={Publicacao} /> O Futuro da Energia Pós-Pandemia
                       </a>
                     </p>
@@ -182,7 +182,7 @@ const Faq = () => {
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href={'#'} target="_blank">
+                      <a href={'https://www.playbook.com/s/jacksonides/TXAaboCSqz7uvXGT5QztYWKn?assetToken=nmVCsbc9hFCmDNB496YFYW5v'} target="_blank">
                         <img src={Publicacao} /> Anais EVEx 2022
                       </a>
                     </p>
