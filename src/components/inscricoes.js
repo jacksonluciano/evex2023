@@ -50,58 +50,6 @@ const Inscricoes = () => {
         <div css={blocks}>
           <Row>
           <Col css={sectionTitle} lg={12}>
-             <h2>Online</h2>
-          </Col>
-
-              <Col lg={6} md={6} sm={12} css={mb}>
-                <div css={dateBlock} className="orange" >
-                  <h2>EVEx Pass</h2>
-                  <h3>24 a 26 de Setembro</h3>
-                  <p>Profissionais (1° lote até 31/08)</p>
-                  <h4>R$ 315,00</h4>
-                  <p>Estudantes (1° lote até 31/08)</p>
-                  <h4>R$ 189,00</h4>
-                  <p className="text">
-                  Acesso a todas as sessões do EVEx Online <br></br> 
-                  +20 horas de conteúdo exclusivo <br></br> 
-                  Materiais das apresentações <br></br> 
-                  Gravações do evento <br></br> 
-                  Certificado de participação
-                  </p>
-                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a> */}
-                  <a href="https://www.sympla.com.br/evento-online/evex-2024-energy-virtual-experience/2594684" target="_blank" css={commonBtn}>Inscreva-se agora</a>
-                </div>
-                <div css={asideBlock}></div>
-              </Col>
-
-              <Col lg={6} md={6} sm={12} css={mb}>
-                <div css={dateBlock} className="salmon" >
-                  <h2>EVEx Paper/Project</h2>
-                  <h3>Apresentação de trabalho e publicação</h3>
-                  <p>Profissionais</p>
-                  <h4>R$ 750,00</h4>
-                  <p>Estudantes</p>
-                  <h4>R$ 525,00</h4>
-                  <p className="text">
-                    Publicação nos Anais do EVEx 2024 (ISBN de Portugal)<br></br> 
-                    Acesso a todas as sessões do EVEx Online<br></br> 
-                    +20 horas de conteúdo exclusivo<br></br> 
-                    Materiais das apresentações<br></br> 
-                    Gravações do evento<br></br> 
-                    Certificado de participação
-                  </p>
-                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a> */}
-                  <a href="https://www.sympla.com.br/evento-online/evex-2024-energy-virtual-experience/2594684" target="_blank" css={commonBtn}>Inscreva-se agora</a>
-                </div>
-                <div css={asideBlock}></div>
-              </Col>
-          
-          </Row>
-        </div>
-
-        <div css={blocks}>
-          <Row>
-          <Col css={sectionTitle} lg={12}>
              <h2>Presencial</h2>
           </Col>
             
@@ -109,10 +57,10 @@ const Inscricoes = () => {
                 <div css={dateBlock} className="purple" >
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>08 e 09 de Outubro</h3>
-                  <p>Profissionais (1° lote até 06/09)</p>
-                  <h4>€ 238,00 / R$ 1.428,00</h4>
-                  <p>Estudantes (1° lote até 06/09)</p>
-                  <h4>€ 142,80 / R$ 856,80</h4>
+                  <p>Profissionais (2° lote até 23/09)</p>
+                  <h4>€ 272,00 / R$ 1.632,00</h4>
+                  <p>Estudantes (2° lote até 23/09)</p>
+                  <h4>€ 163,20 / R$ 979,20</h4>
                   <p className="text">
                   Acesso à programação completa do EVEx Lisboa<br></br> 
                     Kit de credenciamento<br></br> 
@@ -155,6 +103,59 @@ const Inscricoes = () => {
           </Row>
           <img css={element04} src={Element04} />
         </div>
+
+        <div css={blocks}>
+          <Row>
+          <Col css={sectionTitle} lg={12}>
+             <h2>Online</h2>
+          </Col>
+
+              <Col lg={6} md={6} sm={12} css={mb}>
+                <div css={dateBlock} className="orange" >
+                  <h2>EVEx Pass</h2>
+                  <h3>26 a 28 de Novembro</h3>
+                  <p>Profissionais (1° lote)</p>
+                  <h4>R$ 315,00</h4>
+                  <p>Estudantes (1° lote)</p>
+                  <h4>R$ 189,00</h4>
+                  <p className="text">
+                  Acesso a todas as sessões do EVEx Online <br></br> 
+                  +20 horas de conteúdo exclusivo <br></br> 
+                  Materiais das apresentações <br></br> 
+                  Gravações do evento <br></br> 
+                  Certificado de participação
+                  </p>
+                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience/2166801" target="_blank" css={commonBtn}>Inscreva-se</a> */}
+                  <a href="https://www.sympla.com.br/evento-online/evex-2024-energy-virtual-experience/2594684" target="_blank" css={commonBtn}>Inscreva-se agora</a>
+                </div>
+                <div css={asideBlock}></div>
+              </Col>
+
+              <Col lg={6} md={6} sm={12} css={mb}>
+                <div css={dateBlock} className="salmon" >
+                  <h2>EVEx Paper/Project</h2>
+                  <h3>Apresentação de trabalho e publicação</h3>
+                  <p>Profissionais</p>
+                  <h4>R$ 750,00</h4>
+                  <p>Estudantes</p>
+                  <h4>R$ 525,00</h4>
+                  <p className="text">
+                    Publicação nos Anais do EVEx 2024 (ISBN de Portugal)<br></br> 
+                    Acesso a todas as sessões do EVEx Online<br></br> 
+                    +20 horas de conteúdo exclusivo<br></br> 
+                    Materiais das apresentações<br></br> 
+                    Gravações do evento<br></br> 
+                    Certificado de participação
+                  </p>
+                  {/* <a href="https://www.sympla.com.br/evento-online/evex-lisboa-2023-energy-virtual-experience-papers-projects/2166802" target="_blank" css={commonBtn}>Inscreva-se</a> */}
+                  <a href="https://www.sympla.com.br/evento-online/evex-2024-energy-virtual-experience/2594684" target="_blank" css={commonBtn}>Inscreva-se agora</a>
+                </div>
+                <div css={asideBlock}></div>
+              </Col>
+          
+          </Row>
+        </div>
+
       </Container>
       <img css={element05} src={Element05} />
       <img css={element08} src={Element08} />
