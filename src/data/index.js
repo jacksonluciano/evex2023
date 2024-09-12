@@ -1372,7 +1372,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "Em sua quinta edição anual consecutiva, o EVEx inovou mais uma vez, lançando a rota ibero-latino-americana da energia em um formato composto por três eventos.  O primeiro deles, EVEx Brasil 2024 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica. \n\nO segundo evento, EVEx 2024 – Energy Virtual Experience, ocorrerá nos dias 24 a 26 de setembro, de forma totalmente online e ao vivo. Já o terceiro e último da rota, EVEx Lisboa 2024 – Lisbon Energy Experience, será nos dias 08 e 09 de outubro, na prestigiada Reitoria da Universidade NOVA de Lisboa, em Portugal.",
+      "Em sua quinta edição anual consecutiva, o EVEx inovou mais uma vez, lançando a rota ibero-latino-americana da energia em um formato composto por três eventos.  O primeiro deles, EVEx Brasil 2024 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica. \n\nO segundo evento, EVEx Lisboa 2024 – Lisbon Energy Experience, será nos dias 08 e 09 de outubro, na prestigiada Reitoria da Universidade NOVA de Lisboa, em Portugal. Já o terceiro e último da rota, EVEx 2024 – Energy Virtual Experience, ocorrerá nos dias 26, 27 e 28 de novembro, de forma totalmente online e ao vivo.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1662,15 +1662,15 @@ export const blocksTeData = [
 
 export const AgendaOnlineData = [
   {
-    date: '24/09/24',
+    date: '26/11/24',
     day: `Terça-feira`,
   },
   {
-    date: '25/09/24',
+    date: '27/11/24',
     day: `Quarta-feira`,
   },
   {
-    date: '26/09/24',
+    date: '28/11/24',
     day: `Quinta-feira`,
   },
 ];
