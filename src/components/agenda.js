@@ -61,13 +61,13 @@ const Agenda = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
               <h2 css={[secTitle, mb45]}>Agenda</h2>
-              <h3 css={secDesk}>EVEx 2024 – Energy Virtual Experience</h3>
+              <h3 css={secDesk}>EVEx Lisboa 2024 – Lisbon Energy Experience </h3>
             </div>
           </Col>
         </Row>
         <div css={blocks}>
           <Row>
-            {AgendaOnlineData.map(({ date, day }, index) => (
+            {AgendaPresencialData.map(({ date, day }, index) => (
               <Col lg={6} md={6} sm={12}>
                 <div onClick={()=>handleSelectedOn(index)} css={dateBlock} key={index}  className={selectedOn === index ? 'orangeBg' : ''}>
                   <h3>{date}</h3>
@@ -81,8 +81,8 @@ const Agenda = () => {
           <img css={element3} src={element03} />
         </div>
         <section css={contentData}>    
-            {/* {ContentData.map(({ text }, index) => (
-              selectedOn != null && selectedOn === index ?
+                       {/* {ContentData2.map(({ text }, index) => (
+              selectedPres != null && selectedPres === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
@@ -98,13 +98,13 @@ const Agenda = () => {
       <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
-              <h3 css={secDesk}>EVEx Lisboa 2024 – Lisbon Energy Experience</h3>
+              <h3 css={secDesk}>EVEx 2024 – Energy Virtual Experience</h3>
             </div>
           </Col>
         </Row>
         <div css={blocks}>
           <Row>
-            {AgendaPresencialData.map(({ date, day }, index) => (
+            {AgendaOnlineData.map(({ date, day }, index) => (
               <Col lg={6} md={6} sm={12}>
                 <div onClick={()=>handleSelectedPress(index)} css={[dateBlock,datePresBlock]} key={index}  className={selectedPres === index ? 'orangeBg' : ''}>
                   <h3>{date}</h3>
@@ -118,13 +118,14 @@ const Agenda = () => {
          
         </div>
         <section css={[contentData,contentPresData]}>    
-            {/* {ContentData2.map(({ text }, index) => (
-              selectedPres != null && selectedPres === index ?
+             {/* {ContentData.map(({ text }, index) => (
+              selectedOn != null && selectedOn === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
             ))}       */}
+
             <h4 style={{textAlign: 'center', color: '#fff'}}>Disponível em breve</h4>
         </section>
         <img css={element5} src={element05} />

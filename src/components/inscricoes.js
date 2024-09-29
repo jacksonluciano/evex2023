@@ -57,10 +57,10 @@ const Inscricoes = () => {
                 <div css={dateBlock} className="purple" >
                   <h2>EVEx Pass Lisboa</h2>
                   <h3>08 e 09 de Outubro</h3>
-                  <p>Profissionais (2° lote até 23/09)</p>
-                  <h4>€ 272,00 / R$ 1.632,00</h4>
-                  <p>Estudantes (2° lote até 23/09)</p>
-                  <h4>€ 163,20 / R$ 979,20</h4>
+                  <p>Profissionais (Último Lote)</p>
+                  <h4>€ 440,00 / R$ 2.860,00</h4>
+                  <p>Estudantes (Último Lote)</p>
+                  <h4>€ 220,00 / R$ 1.430,00</h4>
                   <p className="text">
                   Acesso à programação completa do EVEx Lisboa<br></br> 
                     Kit de credenciamento<br></br> 
@@ -93,9 +93,11 @@ const Inscricoes = () => {
                   </p>
                   {/* <button css={commonBtn}>Inscreva-se em euros (€)</button>
                   <button css={commonBtn}>Inscreva-se em reais (R$)</button> */}
+                  <button css={commonBtn}>Inscrições encerradas (€)</button>
+                  <button css={commonBtn}>Inscrições encerradas (R$)</button>
                   {/* <button css={commonBtn}>Inscrições encerradas</button> */}
-                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991362200027?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
-                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991448628537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>                  
+                  {/* <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991362200027?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
+                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991448628537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>                   */}
                 </div>
                 <div css={asideBlock}></div>
               </Col>
