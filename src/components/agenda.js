@@ -69,7 +69,7 @@ const Agenda = () => {
           <Row>
             {AgendaPresencialData.map(({ date, day }, index) => (
               <Col lg={6} md={6} sm={12}>
-                <div onClick={()=>handleSelectedOn(index)} css={dateBlock} key={index}  className={selectedOn === index ? 'orangeBg' : ''}>
+                <div onClick={()=>handleSelectedPress(index)} css={dateBlock} key={index} className={selectedPres === index ? 'orangeBg' : ''}>
                   <h3>{date}</h3>
                   <p>{day}</p>
                   <p>Horário de Brasília</p>
@@ -81,14 +81,14 @@ const Agenda = () => {
           <img css={element3} src={element03} />
         </div>
         <section css={contentData}>    
-                       {/* {ContentData2.map(({ text }, index) => (
+                       {ContentData2.map(({ text }, index) => (
               selectedPres != null && selectedPres === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
-            ))}       */}
-            <h4 style={{textAlign: 'center'}}>Disponível em breve</h4>
+            ))}      
+            {/* <h4 style={{textAlign: 'center'}}>Disponível em breve</h4> */}
         </section>
         <img css={element7} src={element07} />
       </Container>
@@ -106,7 +106,7 @@ const Agenda = () => {
           <Row>
             {AgendaOnlineData.map(({ date, day }, index) => (
               <Col lg={6} md={6} sm={12}>
-                <div onClick={()=>handleSelectedPress(index)} css={[dateBlock,datePresBlock]} key={index}  className={selectedPres === index ? 'orangeBg' : ''}>
+                <div onClick={()=>handleSelectedOn(index)} css={[dateBlock,datePresBlock]} key={index} className={selectedOn === index ? 'orangeBg' : ''} >
                   <h3>{date}</h3>
                   <p>{day}</p>
                   <p>Horário de Portugal</p>
