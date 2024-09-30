@@ -86,7 +86,7 @@ const TeamCarousel = () => {
         {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
       </Swiper>
       <div css={moreBt}>
-        <Link to='/speakers' css={commonBtn}>Todos os Speakers</Link>
+        <Link to='/lisboa/speakers' css={commonBtn}>Todos os Speakers</Link>
       </div>
       <img css={element} src={Element7} />
       </Container>

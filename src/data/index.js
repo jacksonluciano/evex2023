@@ -176,7 +176,7 @@ import Speaker22 from "@/images/speaker/carla_primavera.jpg"
 import Speaker23 from "@/images/speaker/2024/nelson_lage.jpg"
 import Speaker24 from "@/images/speaker/2024/reynaldo_passanezi.jpg"
 import Speaker25 from "@/images/speaker/heloisa_borges.jpg"
-import Speaker26 from "@/images/speaker/2024/andre_pepitone.jpg"
+// import Speaker26 from "@/images/speaker/2024/andre_pepitone.jpg"
 import Speaker27 from "@/images/speaker/solange_david.jpg"
 import Speaker28 from "@/images/speaker/carlos_quintella.jpg"
 import Speaker29 from "@/images/speaker/julia_seixas.jpg"
@@ -185,7 +185,7 @@ import Speaker31 from "@/images/speaker/cacia_pimentel.jpg"
 import Speaker32 from "@/images/speaker/ricardo_gedra.jpg"
 import Speaker33 from "@/images/speaker/wagner_ferreira.jpg"
 import Speaker34 from "@/images/speaker/2024/luizbarroso.jpg"
-import Speaker35 from "@/images/speaker/2024/jeronimo.jpg"
+// import Speaker35 from "@/images/speaker/2024/jeronimo.jpg"
 import Speaker36 from "@/images/speaker/2024/thiago_prado.jpg"
 import Speaker37 from "@/images/speaker/2024/caio_cesar_cavalcanti.jpg"
 import Speaker38 from "@/images/speaker/2024/maria_da_graca_carvalho.jpg"
@@ -743,11 +743,11 @@ export const TeamOneData = {
       name: "Ricardo Nunes",
       designation: "Chief Strategy Officer, OMIP – The Iberian Energy Derivates Exchange",
     },
-    {
-      image: Speaker35,
-      name: "Jerónimo Meira da Cunha",
-      designation: "Diretor Geral, DGEG – Direção Geral de Energia e Geologia",
-    },
+    // {
+    //   image: Speaker35,
+    //   name: "Jerónimo Meira da Cunha",
+    //   designation: "Diretor Geral, DGEG – Direção Geral de Energia e Geologia",
+    // },
     // {
     //   image: Speaker25,
     //   name: "Heloísa Borges",
@@ -773,11 +773,11 @@ export const TeamOneData = {
       name: "Maria João Rolim",
       designation: "Sócia, Rolim Goulart Cardoso",
     },
-    {
-      image: Speaker26,
-      name: "André Pepitone",
-      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
-    },
+    // {
+    //   image: Speaker26,
+    //   name: "André Pepitone",
+    //   designation: "Diretor Executivo Financeiro, Itaipu Binacional",
+    // },
     {
       image: Speaker24,
       name: "Reynaldo Passanezi",
