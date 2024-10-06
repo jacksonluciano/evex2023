@@ -2237,7 +2237,7 @@ export const ContentData2 = [
     <h3 style="margin-bottom:4px">Dia 08 de Outubro</h3>
     <p>Horário de Portugal Continental</p>
 
-    <b>08h45 – Credenciação e Welcome Coffee</b></br></br>
+    <b>08h45 – Credenciamento e Welcome Coffee</b></br></br>
     <b>09h15 – Boas-Vindas</b></br></br>
 
             <p style="padding-left:45px">
@@ -2275,7 +2275,7 @@ export const ContentData2 = [
 
             <p style="padding-left:45px">
               <b>Alice Khouri – Moderadora</b></br>
-              Membro do Centro de Finanças Sustentáveis da CATÓLICA-LISBON
+              Membro do Conselho Operacional do Centro de Finanças Sustentáveis da CATÓLICA-LISBON
             </p> </br>
 
 
@@ -2300,7 +2300,7 @@ export const ContentData2 = [
     Eólicas Offshore: o potencial ibero-latino-americano</br></br>
 
             <p style="padding-left:45px">
-              <b>Elbia Gannoum</b></br>
+              <b>Elbia Gannoum – Energy Virtual Experience</b></br>
               Presidente Executiva da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias
             </p>
             <p style="padding-left:45px">
@@ -2308,26 +2308,22 @@ export const ContentData2 = [
               Diretor de Serviços Jurídicos da ERSE – Entidade Reguladora dos Serviços Energéticos
             </p>
             <p style="padding-left:45px">
-              <b>Susana Serôdio</b></br>
-              Head of Policy and Market Intelligence da APREN – Associação Portuguesa de Energias Renováveis
+              <b>Marco Alves</b></br>
+              CEO da WavEC – Offshore Renewables
             </p>
             <p style="padding-left:45px">
               <b>Ligia Schlittler</b></br>
               Sócia do TozziniFreire Advogados
             </p>
             <p style="padding-left:45px">
-              <b>José Pinheiro (a confirmar)</b></br>
-              Country Manager - Southern Europe, OW Ocean Winds
-            </p>
-            <p style="padding-left:45px">
-              <b>Miguel Prado</b> - Moderador</br>
-              Jornalista do Expresso
+              <b>Juliana Barbosa – Moderadora</b></br>
+              Investigadora da Unidade de Economia de Recursos do LNEG – Laboratório Nacional de Energia e Geologia
             </p>
             </br>
 
                 <b>12h30</b> – Intervalo</br></br>
 
-<b>14h15 – Lisbon Energy MasterClass</b></br>
+<b>14h00 – Lisbon Energy MasterClass</b></br>
 Avaliando as oportunidades de uma transição energética eficiente na América Latina</br></br>
 
             <p style="padding-left:45px">
@@ -2352,12 +2348,11 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
               Presidente da EPE – Empresa de Pesquisa Energética
             </p> 
             <p style="padding-left:45px">
-              <b>Marisete Pereira </b></br>
+              <b>Marisete Pereira – Energy Virtual Experience</b></br>
               Presidente da ABRAGE – Associação Brasileira das Empresas Geradoras de Energia Elétrica 
             </p> 
             <p style="padding-left:45px">
               <b>Jorge Sousa</b></br>
-              ISEL & INESC-ID
               Presidente da APEEN – Associação Portuguesa de Economia da Energia              
             </p> 
             <p style="padding-left:45px">
@@ -2386,9 +2381,9 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
               <b>Karine Fragoso</b></br>
               Gerente Geral de Petróleo, Gás, Energias e Naval da Firjan SENAI              
             </p> 
-
             <p style="padding-left:45px">
-              <b>Moderador</b></br>                    
+              <b>Cácia Pimentel – Moderadora</b></br>
+              Coordenadora Executiva do Centro Mackenzie de Estudos de Políticas Públicas e Integridade              
             </p> 
             </br>
 
@@ -2418,7 +2413,9 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
             Jornalista do Jornal Económico
             </p> </br>
 
-            <b>18h30 – Encerramento do Primeiro Dia</b></br></br>
+            <b>18h30 – Coquetel</b></br></br>
+
+            <b>19h30 – Encerramento do Primeiro Dia</b></br></br>
 
     `
   },
@@ -2427,7 +2424,7 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
     <h3 style="margin-bottom:4px">Dia 09 de Outubro</h3>
     <p>Horário de Portugal Continental</p>
 
-    <b>09h00 – Lisbon Energy Experience – Abertura do Segundo Dia</b></br></br>
+    <b>09h00 – Lisbon Energy Academy – Abertura do Segundo Dia</b></br></br>
 
             <p style="padding-left:45px">
               <b>Júlia Seixas </b></br>
@@ -2438,8 +2435,8 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
     Hidrogênio Verde: regulamentação, projetos e cases de sucesso</br></br>
 
     <p style="padding-left:45px">
-      <b>Fátima Bezerra (a confirmar)</b></br>
-      Governadora do Estado do Rio Grande do Norte
+      <b>Hugo Fonseca</b></br>
+      Secretário-Adjunto de Desenvolvimento Econômico do Rio Grande do Norte
     </p>
     <p style="padding-left:45px">
       <b>André Pina</b></br>
@@ -2488,17 +2485,6 @@ Península Ibérica e Brasil: territórios líderes na transição para energias
             </br>
 
             <b>12h00 – Intervalo</b></br></br>
-
-      
-
-            <b>14h00 – Lisbon Energy Academy</b></br>
-            Lançamento do Tomo X do Livro “Temas Relevantes no Direito de Energia Elétrica”</br></br>
-
-
-            <p style="padding-left:45px">
-              <b>Fábio Amorim da Rocha</b></br>
-              Coordenador da Obra
-            </p> 
            </br>
 
 <b>14h30 – Lisbon Energy Talks</b></br>
@@ -2506,7 +2492,7 @@ Finanças Sustentáveis e Energia: como os investimentos verdes e o ESG podem ac
 
             <p style="padding-left:45px">
               <b>Cristina Melo Antunes </b></br>
-              ESG | Green Finance - Business Leader do Santander Portugal 
+              ESG | Sustainable Finance - Business Leader do Santander Portugal 
             </p> 
             <p style="padding-left:45px">
               <b>Filipa Saldanha</b></br>
@@ -2514,7 +2500,7 @@ Finanças Sustentáveis e Energia: como os investimentos verdes e o ESG podem ac
             </p> 
             <p style="padding-left:45px">
               <b>Marina Aidar</b></br>
-              Sócia do Demarest Advogados 
+              Sócia da Área de Infraestrutura e Financiamento de Projetos do Demarest Advogados 
             </p> 
             <p style="padding-left:45px">
             <b>Rita Rendeiro</b></br>
@@ -2522,13 +2508,10 @@ Finanças Sustentáveis e Energia: como os investimentos verdes e o ESG podem ac
           </p> 
             <p style="padding-left:45px">
               <b>Alice Khouri – Moderadora</b></br>
-              Fundadora do Women in ESG Portugal  
+              Head of Legal da Helexia Portugal  
             </p> </br>
 
-            <b>15h30</b> – Coffee Break</br></br>
-
-
- <b>16h00 – Lisbon Energy MasterClasses </b></br>
+ <b>15h30 – Lisbon Energy MasterClasses </b></br>
  Mulheres para a Transição Energética e Clima</br></br>
             
                         <p style="padding-left:45px">
@@ -2547,11 +2530,12 @@ Finanças Sustentáveis e Energia: como os investimentos verdes e o ESG podem ac
                         <b>Cácia Pimentel </b></br>
                         Coordenadora Executiva do Centro Mackenzie de Estudos de Políticas Públicas e Integridade 
                       </p> 
-                        <p style="padding-left:45px">
-                          <b>Representante do Programa Mulheres na Energia da APE</b></br>
-                        </p> </br>
+                      <p style="padding-left:45px">
+                      <b>Flávia Lima – Moderadora</b></br>
+                      Membro da Equipa de Implementação do Mulheres na Energia – APE 
+                    </p>  </br>
 
-
+                    <b>16h30 – Coffee Break  </b></br></br>
 
 <b>17h00 – Lisbon Energy Talks</b></br>
 Comunidades de Energia, Mobilidade Elétrica e Ação Climática Local</br></br>
@@ -2568,8 +2552,8 @@ Comunidades de Energia, Mobilidade Elétrica e Ação Climática Local</br></br>
             </p>
            
             <p style="padding-left:45px">
-            <b>José Rui Felizardo (a confirmar)</b></br>
-            CEO da CEiiA
+            <b>Ana Paula Rodrigues</b></br>
+            Vice-Presidente da ADENE – Agência para a Energia
             </p>
             <p style="padding-left:45px">
             <b>Representante da ADENE</b></br>
