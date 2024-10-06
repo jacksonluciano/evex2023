@@ -193,7 +193,7 @@ import Speaker39 from "@/images/speaker/2024/paulo_carmona.jpg"
 import Speaker40 from "@/images/speaker/2024/vitor_santos.jpg"
 import Speaker41 from "@/images/speaker/2024/raul_santamaria.jpg"
 import Speaker42 from "@/images/speaker/2024/joao_manso_neto.jpg"
-import Speaker43 from "@/images/speaker/2024/susana_serodio.jpg"
+// import Speaker43 from "@/images/speaker/2024/susana_serodio.jpg"
 import Speaker44 from "@/images/speaker/2024/ligia_schlittler.jpg"
 import Speaker45 from "@/images/speaker/2024/marisete_pereira.jpg"
 import Speaker46 from "@/images/speaker/2024/jorge_sousa.jpg"
@@ -207,7 +207,7 @@ import Speaker53 from "@/images/speaker/2024/gerusa_cortes.jpg"
 import Speaker54 from "@/images/speaker/2024/camila_schoti.jpg"
 import Speaker55 from "@/images/speaker/2024/guilhermo_soler.jpg"
 import Speaker56 from "@/images/speaker/2024/ana_luis_de_sousa.jpg"
-import Speaker57 from "@/images/speaker/2024/fabio_amorim.jpg"
+// import Speaker57 from "@/images/speaker/2024/fabio_amorim.jpg"
 import Speaker58 from "@/images/speaker/2024/cristina_antunes.jpg"
 import Speaker59 from "@/images/speaker/2024/filipa_saldanha.jpg"
 import Speaker60 from "@/images/speaker/2024/marina_aidar.jpg"
@@ -217,6 +217,11 @@ import Speaker63 from "@/images/speaker/2024/roberta_nanini.jpg"
 import Speaker64 from "@/images/speaker/2024/luis_barroso.jpg"
 import Speaker65 from "@/images/speaker/2024/jose_queiros_de_almeida.jpg"
 import Speaker66 from "@/images/speaker/2024/debora_melo_fernandes.jpg"
+import Speaker67 from "@/images/speaker/2024/ana_paula_rodrigues.jpg"
+import Speaker68 from "@/images/speaker/2024/flavia_lima.jpg"
+import Speaker69 from "@/images/speaker/2024/hugo_fonseca.jpg"
+import Speaker70 from "@/images/speaker/2024/juliana_barbosa.jpg"
+import Speaker71 from "@/images/speaker/2024/marco_alves.jpg"
 
 import texto1_1 from "@/images/2024/texto1/1.jpg"
 import texto1_2 from "@/images/2024/texto1/2.jpg"
@@ -833,11 +838,11 @@ export const TeamOneData = {
       name: "João Manso Neto",
       designation: "CEO, Grupo Greenvolt",
     },
-    {
-      image: Speaker43,
-      name: "Susana Serôdio",
-      designation: "Head of Policy and Market Intelligence da APREN – Associação Portuguesa de Energias Renováveis",
-    },
+    // {
+    //   image: Speaker43,
+    //   name: "Susana Serôdio",
+    //   designation: "Head of Policy and Market Intelligence da APREN – Associação Portuguesa de Energias Renováveis",
+    // },
     {
       image: Speaker44,
       name: "Ligia Schlittler",
@@ -903,15 +908,15 @@ export const TeamOneData = {
       name: "Ana Luís de Sousa ",
       designation: "Secretária Executiva, APE – Associação Portuguesa da Energia",
     },
-    {
-      image: Speaker57,
-      name: "Fábio Amorim",
-      designation: "Coordenador, “Temas Relevantes no Direito de Energia Elétrica”",
-    },
+    // {
+    //   image: Speaker57,
+    //   name: "Fábio Amorim",
+    //   designation: "Coordenador, “Temas Relevantes no Direito de Energia Elétrica”",
+    // },
     {
       image: Speaker58,
       name: "Cristina Melo Antunes ",
-      designation: "ESG | Green Finance – Business Leader, Santander Portugal ",
+      designation: "ESG | Sustainable Finance – Business Leader, Santander Portugal",
     },
     {
       image: Speaker59,
@@ -952,6 +957,31 @@ export const TeamOneData = {
       image: Speaker66,
       name: "Débora Melo Fernandes ",
       designation: "Sócia, Pérez-Llorca",
+    },
+    {
+      image: Speaker67,
+      name: "Ana Paula Rodrigues",
+      designation: "Vice-Presidente da ADENE – Agência para a Energia",
+    },
+    {
+      image: Speaker68,
+      name: "Flávia Lima",
+      designation: "Membro da Equipa de Implementação do Mulheres na Energia – APE",
+    },
+    {
+      image: Speaker69,
+      name: "Hugo Fonseca",
+      designation: "Secretário-Adjunto de Desenvolvimento Econômico do Rio Grande do Norte",
+    },
+    {
+      image: Speaker70,
+      name: "Juliana Barbosa",
+      designation: "Investigadora da Unidade de Economia de Recursos do LNEG – Laboratório Nacional de Energia e Geologia",
+    },
+    {
+      image: Speaker71,
+      name: "Marco Alves",
+      designation: "CEO da WavEC – Offshore Renewables",
     },
         // {
     //   image: Speaker28,
