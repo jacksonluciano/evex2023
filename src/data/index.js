@@ -2585,9 +2585,7 @@ Comunidades de Energia, Mobilidade Elétrica e Ação Climática Local</br></br>
             <b>Ana Paula Rodrigues</b></br>
             Vice-Presidente da ADENE – Agência para a Energia
             </p>
-            <p style="padding-left:45px">
-            <b>Representante da ADENE</b></br>
-            </p> 
+
             <p style="padding-left:45px">
             <b>Débora Melo Fernandes – Moderadora</b></br>
             Sócia do Pérez-Llorca
