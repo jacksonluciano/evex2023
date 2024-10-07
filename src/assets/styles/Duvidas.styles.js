@@ -290,8 +290,8 @@ export const messageBox=css`
     }
 `
 export const eplogo=css`
-    height: 90px;
-    width: auto !important;
+    height: auto;
+    width: 190px !important;
 `
 export const RowMargin=css`
   margin-bottom: 50px;

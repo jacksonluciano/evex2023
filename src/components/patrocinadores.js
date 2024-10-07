@@ -39,6 +39,7 @@ import Pat11 from '@/images/patrocinio/ren.png'
 import Pat12 from '@/images/patrocinio/itaipu.png'
 import Pat13 from '@/images/patrocinio/enbpar.png'
 import Pat14 from '@/images/patrocinio/demarest.svg'
+import Pat15 from '@/images/patrocinio/copel.png'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -102,6 +103,9 @@ const Patrocinadores = () => {
                     <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
                   </ul>
+                  <ul>
+                    <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat15} /></a></li>
+                  </ul>
                </section>
 
                <section className='bronze'>
@@ -123,13 +127,13 @@ const Patrocinadores = () => {
                     <li><img src={Img16} /></li>
                     <li><img src={Img7} /></li>
                     <li><img src={Img3} /></li>
-                    <li><img src={Img1} /></li>
-                    <li><img src={Img17} /></li>                 
+                    {/* <li><img src={Img17} /></li>                  */}
                   </ul>
                   <ul>
-                    <li><img src={Img2} /></li>
+                    <li><img src={Img1} /></li>
+                    {/* <li><img src={Img2} /></li> */}
                     <li><img src={Img13} /></li>
-                    <li><img src={Img18} /></li>
+                    {/* <li><img src={Img18} /></li> */}
                     <li><img src={Img19} /></li>
                   </ul>
                   {/* <ul>

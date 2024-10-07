@@ -28,7 +28,7 @@ const Bigcta = () => {
                 <div css={dateBlock} key={index} className={index == 1 ? 'purple' : ''}>
                   <h2>{date}</h2>
                   <p>{text}</p>
-                  <Link to={index == 1 ? '/inscricoes' : '/agenda'} css={commonBtn}>{button}</Link>
+                  <Link to={index == 1 ? '/lisboa/inscricoes' : '/lisboa/agenda'} css={commonBtn}>{button}</Link>
                 </div>
                 <div css={asideBlock}></div>
               </Col>

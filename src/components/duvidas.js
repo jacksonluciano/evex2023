@@ -4,7 +4,7 @@ import { PatrocinadoresData } from "@/data";
 import Element8 from "@/images/elements/element-08.png"
 import Element14 from "@/images/elements/element-14.svg"
 import Element15 from "@/images/elements/element-15.svg"
-import LogoEp from "@/images/apoio/ep.png"
+import LogoEixos from "@/images/apoio/eixos.png"
 import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
 import Hotel from "@/images/hotel_dom_pedro.png" 
@@ -79,18 +79,18 @@ const Duvidas = () => {
             </Col>
             <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Parceira de Mídia</h4>
-              <img src={LogoEp} css={eplogo} />
+              <img src={LogoEixos} css={eplogo} />
             </Col>
           </Row>
           <Row>
-          <Col lg={6} md={6} sm={12}>
+          {/* <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Hotel Oficial</h4>
               <a href='https://www.dompedrolisboa.com/m/' target='_blank'>
                 <img src={Hotel} />
               </a>
               
-            </Col>
-            <Col lg={6} md={6} sm={12}>
+            </Col> */}
+            <Col lg={12} md={12} sm={12}>
               <h4 css={secDesk}>Operadora Oficial</h4>
               <a href='https://www.flytap.com/pt-br/' target='_blank'>
               <img src={LogoTap} />

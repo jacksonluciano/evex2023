@@ -216,6 +216,19 @@ export const about = css`
             height: auto !important;
           }
         }
+        &:nth-of-type(1){
+            img{
+              height: 50px;
+            }
+        }
+      }
+      &:nth-of-type(2){
+        margin-top: 16px;
+        li{
+          img{
+            height: 90px;
+          }
+        }
       }
     }
   }

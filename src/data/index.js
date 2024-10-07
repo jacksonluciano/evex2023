@@ -2604,7 +2604,7 @@ export const BigCtaData = [
     date: 'Agenda',
     text: 
         `Os painéis do EVEx Online e do EVEx Lisboa abordarão temáticas atuais e novas tecnologias no contexto da Transição Energética Ibero-Latino-Americana, como descarbonização, segurança energética, hidrogênio verde, eólicas offshore, gás natural, biometano, mercado de carbono, investimentos verdes, ESG, regulação e ação climática, entre várias outras.`,
-        button: 'Agenda Preliminar'
+        button: 'Agenda Oficial'
   },
   {
     date: 'Inscrições',
