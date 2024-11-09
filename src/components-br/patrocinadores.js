@@ -100,7 +100,7 @@ const Patrocinadores = () => {
                <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>
                   <ul>
-                    <li><img src={Img197} /></li>
+                    <li><a href="https://www.itaipu.gov.br/" target="_blank"><img src={Img197} /></a></li>
                   </ul>
                </section>
 

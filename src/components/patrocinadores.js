@@ -88,7 +88,7 @@ const Patrocinadores = () => {
                 <h4 css={secDesk}>Ouro</h4>
                   <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
                     <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
-                    <li><a href="https://www.adene.pt" target="_blank"><img src={Pat12} /></a></li>
+                    <li><a href="https://www.itaipu.gov.br/" target="_blank"><img src={Pat12} /></a></li>
                   </ul>
                   <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
                     <li><a href="#" target="_blank"><img src={Pat13} /></a></li>
