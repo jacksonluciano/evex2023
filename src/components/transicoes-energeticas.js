@@ -53,7 +53,7 @@ const TransicoesEnergeticas = () => {
               </Col>
             <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock}>
-                  <h3>26 a 28 de Novembro</h3>
+                  <h3>10 a 12 de Dezembro</h3>
                   <p>Energy Virtual Experience<br/>Evento Online</p>
                 </div>
                 <div css={asideBlock}></div>

@@ -109,7 +109,7 @@ const Agenda = () => {
                 <div onClick={()=>handleSelectedOn(index)} css={[dateBlock,datePresBlock]} key={index} className={selectedOn === index ? 'orangeBg' : ''} >
                   <h3>{date}</h3>
                   <p>{day}</p>
-                  <p>Horário de Portugal</p>
+                  <p>Horário de Brasília</p>
                 </div>
                 <div css={[asideBlock,asidePresBlock]}></div>
               </Col>

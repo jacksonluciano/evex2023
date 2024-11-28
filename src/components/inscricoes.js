@@ -68,9 +68,9 @@ const Inscricoes = () => {
                     Materiais das apresentações<br></br> 
                     Certificado de participação
                   </p>
-                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991362200027?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
-                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991448628537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>
-                  {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
+                  {/* <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991362200027?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
+                  <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991448628537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a> */}
+                  <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
@@ -93,9 +93,9 @@ const Inscricoes = () => {
                   </p>
                   {/* <button css={commonBtn}>Inscreva-se em euros (€)</button>
                   <button css={commonBtn}>Inscreva-se em reais (R$)</button> */}
-                  <button css={commonBtn}>Inscrições encerradas (€)</button>
-                  <button css={commonBtn}>Inscrições encerradas (R$)</button>
-                  {/* <button css={commonBtn}>Inscrições encerradas</button> */}
+                  {/* <button css={commonBtn}>Inscrições encerradas (€)</button>
+                  <button css={commonBtn}>Inscrições encerradas (R$)</button> */}
+                  <button css={commonBtn}>Inscrições encerradas</button>
                   {/* <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991362200027?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={commonBtn}>Inscreva-se em euros (€)</a>
                   <a href="https://www.eventbrite.pt/e/evex-lisboa-2024-lisbon-energy-experience-tickets-991448628537?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl" target="_blank" css={[commonBtn,linkBorder]}>Inscreva-se em reais (R$)</a>                   */}
                 </div>
@@ -115,7 +115,7 @@ const Inscricoes = () => {
               <Col lg={6} md={6} sm={12} css={mb}>
                 <div css={dateBlock} className="orange" >
                   <h2>EVEx Pass</h2>
-                  <h3>26 a 28 de Novembro</h3>
+                  <h3>10 a 12 de Dezembro</h3>
                   <p>Profissionais (1° lote)</p>
                   <h4>R$ 315,00</h4>
                   <p>Estudantes (1° lote)</p>
