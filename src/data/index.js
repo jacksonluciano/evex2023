@@ -1949,12 +1949,12 @@ Rota da Descarbonização da Indústria <br></br>
 Rota do Hidrogênio Verde<br></br>
 
             <p style="padding-left:45px">
-              <b>Luis Viga</b>
+              <b>Luis Viga</b></br> 
               Brazil Country Manager da Fortescue
             </p>
 
             <p style="padding-left:45px">
-              <b>Ricardo Gedra</b>
+              <b>Ricardo Gedra</b></br> 
               Gerente de Desenvolvimento de Novos Negócios da CCEE – Câmara de Comercialização de Energia Elétrica 
             </p>
 
