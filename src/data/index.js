@@ -1898,7 +1898,7 @@ export const ContentData = [
             Presidente e Fundador, EVEx
             </p>
     
-    <b>09h30 (BR) / 12h30 (PT) –</b></br> Abertura
+    <b>09h30 (BR) / 12h30 (PT) – Abertura</b></br>
     Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana
     <br></br>
 
@@ -1923,7 +1923,8 @@ export const ContentData = [
             Lead Specialist da PSR</br></br> 
             </p>
             
-<b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b></br>  Rota da Descarbonização da Indústria <br></br>
+<b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b></br>  
+Rota da Descarbonização da Indústria <br></br>
 
             <p style="padding-left:45px">
               <b>Alexandre Fernandes</b></br>
@@ -1939,12 +1940,12 @@ export const ContentData = [
             </p>
             <p style="padding-left:45px">
               <b>Felipe Maciel – Moderador </b></br>
-              Coordenador de Energia, Rolim Goulart Cardoso Advogados</br></br> 
+              Diretor Executivo da Agência Eixos</br></br> 
             </p>  
 
 <b>12h00 (BR) / 15h00 (PT) – Intervalo</b><br></br>
 
-<b>14h00 (BR) / 17h00 (PT) – Energy Virtual Expo/Business</b>
+<b>14h00 (BR) / 17h00 (PT) – Energy Virtual Expo/Business</b></br> 
 Rota do Hidrogênio Verde<br></br>
 
             <p style="padding-left:45px">
@@ -1968,7 +1969,7 @@ Rota do Hidrogênio Verde<br></br>
             </p>
           </br>
 
-<b>15h30 (BR) / 18h30 (PT) – Energy Virtual Talks</b>
+<b>15h30 (BR) / 18h30 (PT) – Energy Virtual Talks</b></br> 
 Transição Energética Justa: desafios jurídico-regulatórios<br></br>
 
             <p style="padding-left:45px">
@@ -1991,7 +1992,7 @@ Transição Energética Justa: desafios jurídico-regulatórios<br></br>
               Head of Legal da Helexia Portugal  
             </p></br>
 
-<b>16h45 (BR) / 19h45 (PT) – Energy Virtual Talks</b>
+<b>16h45 (BR) / 19h45 (PT) – Energy Virtual Talks</b></br> 
 Rota das Eólicas Offshore<br></br>
 
             <p style="padding-left:45px">
@@ -2036,7 +2037,7 @@ Rota das Eólicas Offshore<br></br>
               Coordenadora Executiva do Mackenzie Integridade 
             </p></br>
 
-   <b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b>
+   <b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b></br> 
    Rota da Eletrificação da Economia<br></br>
 
           <p style="padding-left:45px">
@@ -2063,6 +2064,7 @@ Rota das Eólicas Offshore<br></br>
 <b>12h15 (BR) / 15h15 (PT) – Intervalo</b><br></br>
 
 <b>14h00 (BR) / 17h00 (PT) – Energy Virtual Academy</b><br></br>
+Direito da Energia, Transição Energética e Mudanças Climáticas
 
           <p style="padding-left:45px">
             <b>Hirdan Medeiros Costa</b></br>
