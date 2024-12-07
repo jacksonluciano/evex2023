@@ -1888,290 +1888,385 @@ export const AgendaPresencialData = [
 export const ContentData = [
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 02 de Outubro</h3>
-    <p>Horário de Brasília</p>
+    <h3 style="margin-bottom:4px">Dia 10 de Dezembro</h3>
+    <p>Horário de Brasília / Horário de Lisboa</p>
 
-    <b>09h15 BR | 13h15 PT – Boas-vindas</b><br></br>
+    <b>09h20 (BR) / 12h20 (PT) – Boas-Vindas</b><br></br>
 
             <p>
             <b>Caio César Cavalcanti</b></br>
             Presidente e Fundador, EVEx
             </p>
     
-    <b>09h20 BR | 13h20 PT – Painel de Abertura</b></br> Transição Energética e Novas Tecnologias: de volta ao futuro da energia ibero-latino-americana <br></br>
+    <b>09h30 (BR) / 12h30 (PT) –</b></br> Abertura
+    Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana
+    <br></br>
 
             <p style="padding-left:45px">
-            <b>Nelson Lage</b></br>
-            Presidente, ADENE - Agência para a Energia 
+              <b>Nelson Lage</b></br>
+              Presidente da ADENE – Agência para a Energia 
+            </p>
             <p style="padding-left:45px">
             <b>Teresa Ponce de Leão</b></br>
-            Presidente, LNEG - Laboratório Nacional de Energia e Geologia
-            <p style="padding-left:45px">
-            <b>André Pepitone</b></br>
-            Diretor Financeiro Executivo, Itaipu Binacional 
-            <p style="padding-left:45px">
-            <b>Medardo Cadena</b></br>
-            Director de Estudios, Proyectos e Información (DEP), OLADE - Organización Latinoamericana de Energía 
+            Presidente do LNEG – Laboratório Nacional de Energia e Geologia
+            </p>
             <p style="padding-left:45px">
             <b>Maria João Rolim</b></br>
-            Sócia, Rolim Goulart Cardoso Advogados 
+            Sócia do Rolim Goulart Cardoso Advogados 
+            </p>
+            <p style="padding-left:45px">
+            <b>Gustavo Naciff</b></br>
+            Superintendente Adjunto da EPE – Empresa de Pesquisa Energética 
+            </p>
             <p style="padding-left:45px">
             <b>Rodrigo Polito – Moderador</b></br>
-            Jornalista, PSR - Energy Consulting and Analytics</br></br> </p>
+            Lead Specialist da PSR</br></br> 
+            </p>
             
-<b>11h00 BR | 15h00 PT – Energy Virtual Talks</b></br>  Debate Além-Mar: a evolução do potencial das Eólicas Offshore<br></br>
+<b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b></br>  Rota da Descarbonização da Indústria <br></br>
 
             <p style="padding-left:45px">
-              <b>Alexandra de Marichalar</b></br>
-              Director of Iberia Offshore Wind, TotalEnergies
+              <b>Alexandre Fernandes</b></br>
+              Presidente da ENSE – Entidade Nacional para o Setor Energético
             </p>
             <p style="padding-left:45px">
-              <b>Matheus Noronha</b></br>
-              Head de Energia Eólica Offshore, ABEEólica - Associação Brasileira de Energia Eólica e Novas Tecnologias
+              <b>Rosana Santos</b></br>
+              Diretora Executiva do Instituto E+ Transição Energética
             </p>
             <p style="padding-left:45px">
-              <b>Teresa Simões</b></br>
-              Responsável de Área - Energia Eólica, LNEG - Laboratório Nacional de Energia e Geologia
+              <b>Karine Fragoso</b></br>
+              Gerente Geral de Petróleo, Gás, Energias e Naval da Firjan SENAI
             </p>
             <p style="padding-left:45px">
-              <b>Caio Alves – Moderador</b></br>
+              <b>Felipe Maciel – Moderador </b></br>
               Coordenador de Energia, Rolim Goulart Cardoso Advogados</br></br> 
-            </p>
+            </p>  
 
-<b>12h15 BR | 16h15 PT – Intervalo</b><br></br>
+<b>12h00 (BR) / 15h00 (PT) – Intervalo</b><br></br>
 
-<b>14h00 BR | 18h00 PT – Energy Virtual MasterClasses</b>
-Instrumentos Financeiros para a Descarbonização e Ação Climática do BNDES<br></br>
-
-            <p style="padding-left:45px">
-              <b>Carla Primavera</b>
-              Superintendente da Área de Transição Energética e Clima, BNDES - Banco Nacional de Desenvolvimento Econômico e Social
-            </p>
+<b>14h00 (BR) / 17h00 (PT) – Energy Virtual Expo/Business</b>
+Rota do Hidrogênio Verde<br></br>
 
             <p style="padding-left:45px">
-              <b>Maria João Rolim – Moderadora</b></br>
-              Sócia, Rolim Goulart Cardoso Advogados
-            </p></br>
-
-<b>15h30 BR | 19h30 PT – Energy Virtual Expo/Business</b>
-Hidrogênio Verde como acelerador da Transição Energética<br></br>
-
-            <p style="padding-left:45px">
-              <b>Luis Viga</b></br>
-              Presidente do Conselho, ABIHV - Associação Brasileira da Inústria do Hidrogênio Verde
+              <b>Luis Viga</b>
+              Brazil Country Manager da Fortescue
             </p>
 
             <p style="padding-left:45px">
-              <b>Paulo Alvarenga</b></br>
-              CEO, thyssenkrupp South America
+              <b>Ricardo Gedra</b>
+              Gerente de Desenvolvimento de Novos Negócios da CCEE – Câmara de Comercialização de Energia Elétrica 
             </p>
 
             <p style="padding-left:45px">
-              <b>Afonso Henriques Moreira Santos</b></br>
-              Professor, Instituto de Recursos Naturais da UNIFEI, Universidade Federal de Itajubá
-            </p>
-
-            <p style="padding-left:45px">
-              <b>Lígia Schlittler</b></br>
-              Sócia, Felsberg Advogados
+              <b>Maria João Rolim</b></br>
+              Sócia do Rolim Goulart Cardoso Advogados
             </p>
 
             <p style="padding-left:45px">
               <b>Fernanda Delgado – Moderadora</b></br>
-              Especialista em Energia, Petróleo e Gás 
-            </p></br>
+              CEO da ABIHV – Associação Brasileira da Inústria do Hidrogênio Verde
+            </p>
+          </br>
 
-<b>16h30 BR | 20h30 PT – Energy Virtual MasterClasses</b>
-O Desafio da Regulação na Transição Energética: uma visão histórico-legal<br></br>
+<b>15h30 (BR) / 18h30 (PT) – Energy Virtual Talks</b>
+Transição Energética Justa: desafios jurídico-regulatórios<br></br>
 
             <p style="padding-left:45px">
-              <b>Solange David</b></br>
-              Vice-Presidente do Conselho de Administração, Santo Antônio Energia
+              <b>Filipe Matias Santos</b></br>
+              Diretor Jurídico da ERSE – Entidade Reguladora dos Serviços Energéticos
             </p>
 
             <p style="padding-left:45px">
-              <b>Caio Alves – Moderador</b></br>
-              Coordenador de Energia, Rolim Goulart Cardoso Advogados
+              <b>Wagner Ferreira</b></br>
+              Sócio do Caputo, Bastos e Serra Advogados
+            </p>
+
+            <p style="padding-left:45px">
+              <b>Luiz Eduardo Diniz Araújo</b></br>
+              Sócio do Wald, Antunes, Vita e Blattner Advogados 
+            </p>
+
+            <p style="padding-left:45px">
+              <b>Alice Khouri – Moderadora</b></br>
+              Head of Legal da Helexia Portugal  
             </p></br>
 
-<b>17h30 BR | 21h30 PT – Encerramento do Primeiro Dia</b><br></br>
+<b>16h45 (BR) / 19h45 (PT) – Energy Virtual Talks</b>
+Rota das Eólicas Offshore<br></br>
+
+            <p style="padding-left:45px">
+              <b>Rafael Palhares</b></br>
+              Diretor de Desenvolvimento de Negócios da Ocean Winds Brasil e América Latina 
+            </p>
+            <p style="padding-left:45px">
+              <b>Ricardo de Luca</b></br>
+              Country Director Brazil da Corio Generation
+            </p>
+            <p style="padding-left:45px">
+              <b>Mario González</b></br>
+              Coordenador do Creation UFRN  
+            </p>
+            <p style="padding-left:45px">
+              <b>Juliana Melcop</b></br>
+              Sócia do Veirano Advogados 
+            </p>
+
+            <p style="padding-left:45px">
+              <b>Matheus Noronha – Moderador </b></br>
+              Head de Energia Eólica Offshore da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias
+            </p></br>
+
+<b>18h00 (BR) / 21h00 (PT) – Encerramento do Primeiro Dia</b><br></br>
 `
   },
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 03 de Outubro</h3>
-    <p>Horário de Brasília</p>
+    <h3 style="margin-bottom:4px">Dia 11 de Dezembro</h3>
+    <p>Horário de Brasília / Horário de Lisboa </p>
 
-    <b>09h00 BR | 13h00 PT – Energy Virtual MasterClasses</b><br>
-    Biocombustíveis para a Descarbonização do Setor de Aviação</br></br>
+    <b>10h00 (BR) / 13h00 (PT) – Energy Virtual MasterClass</b><br>
+    Análise de Riscos no Setor Elétrico Brasileiro: as várias camadas decisórias</br></br>
 
             <p style="padding-left:45px">
-              <b>Luana Gaspar</b></br>
-              Head of Descarbonization, PSR Energy & Consulting
+              <b>Solange David</b></br>
+              Chairperson do Women in Energy do CIGRE
+            </p></br>
+            <p style="padding-left:45px">
+              <b>Cácia Pimentel – Moderadora </b></br>
+              Coordenadora Executiva do Mackenzie Integridade 
             </p></br>
 
-   <b>10h00 BR | 14h00 PT – Energy Virtual Talks</b>
-   Mobilidade Elétrica e Sustentável para a Transição Energética<br></br>
+   <b>11h00 (BR) / 14h00 (PT) – Energy Virtual Expo/Business</b>
+   Rota da Eletrificação da Economia<br></br>
 
           <p style="padding-left:45px">
-            <b>Hélder Rodrigues</b></br>
-            Coordenador de Mobilidade Sustentável, ADENE - Agência para a Energia
+            <b>Maria João Coelho</b></br>
+            Diretora Geral da ELECPOR – Associação Portuguesa das Empresas do Sector Eléctrico
           </p>
           <p style="padding-left:45px">
-            <b>Nuno Valadares Reis</b></br>
-            Head of Smart Charging Business Development, Mota-Engil Renewing
+            <b>Rafael Kelman</b></br>
+            Diretor Executivo da PSR  
           </p>
           <p style="padding-left:45px">
             <b>Luís Barroso</b></br>
-            CEO, Mobi.E
+            CEO da Mobi.E  
           </p>
           <p style="padding-left:45px">
-            <b>Débora Melo Fernandes – Moderadora</b></br>
-            Sócia, Gama Glória
-          </p></br>
-
-<b>11h00 BR | 15h00 PT – Energy Virtual Expo/Business</b></br>
-Desafios da estratégia de ESG das empresas em Portugal: entre reporting e diretivas<br></br>
-
-          <p style="padding-left:45px">
-            <b>João Crispim</b></br>
-            Head of Corporate ESG, Grupo Casais
+            <b>Vitor Caram</b></br>
+            Diretor de Expansão LATAM na ODATA  
           </p>
           <p style="padding-left:45px">
-            <b>Nuno Fitas Mendes</b></br>
-            CEO, REN Portgas
-          </p>
-          <p style="padding-left:45px">
-            <b>Filipa Pantaleão</b></br>
-            Diretora Técnica, EGF</br>
-            Administradora, Valorsul/Grupo Mota-Engil
-          </p>
-          <p style="padding-left:45px">
-            <b>Alice Khouri – Moderadora </b></br>
-            Founder, Women in ESG Portugal
+            <b>Nayara Machado – Moderadora</b></br>
+            Editora da Agência Eixos
           </p></br>
 
-<b>12h00 BR | 16h00 PT – Intervalo</b><br></br>
+<b>12h15 (BR) / 15h15 (PT) – Intervalo</b><br></br>
 
-<b>14h00 BR | 18h00 PT – Energy Virtual MasterClasses</b><br></br>
-
-          <p style="padding-left:45px">
-            <b>Camila Ramos</b></br>
-            Managing Director and Founder, CELA - Clean Energy Latin America
-          </p></br>
-
-<b>15h30 BR | 19h30 PT – Energy Virtual Academy </b></br>
-Adaptação de Tarifas a um Setor Elétrico Descentralizado<br></br>
+<b>14h00 (BR) / 17h00 (PT) – Energy Virtual Academy</b><br></br>
 
           <p style="padding-left:45px">
-            <b>Joisa Dutra</b></br>
-            Fundadora e Diretora, FGV CERI - Centro de Estudos em Regulação e Infraestrutura
+            <b>Hirdan Medeiros Costa</b></br>
+            Livre Docente, Pós-Doc, Doutora e Mestre em Energia. Advogada e Economista
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Silvia Cupertino – Moderadora</b></br>
+            Consultora Legislativa do Senado Federal na área de Minas e Energia
           </p></br>
 
-<b>16h30 BR | 20h30 PT – Energy Virtual Academy</b></br>
-Apresentação de Trabalhos Acadêmicos e Científicos<br></br>
+<b>15h30 (BR) / 18h30 (PT) – Energy Virtual Expo/Business</b></br>
+Rota do Mercado Livre de Energia<br></br>
 
-<b>18h00 BR | 22h00 PT – Encerramento do Segundo Dia</b><br></br>
+          <p style="padding-left:45px">
+            <b>Adriana Sambiase </b></br>
+            Gerente Executiva de Cadastro e Contratos da CCEE – Câmara de Comercialização de Energia Elétrica
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Ângela Oliveira </b></br>
+            Diretora de Relações Institucionais da ABRACEEL – Associação Brasileira dos Comercializadores de Energia 
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Silla Motta – Moderadora</b></br>
+            CEO da Donna Lamparina
+          </p></br>
+
+<b>16h30 (BR) / 19h30 (PT) – Energy Virtual Talks</b></br>
+Rota da Geração Distribuída<br></br>
+
+        <p style="padding-left:45px">
+            <b>Carlos Evangelista</b></br>
+            Presidente da ABGD – Associação Brasileira de Geração Distribuída
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Joiris Dachery</b></br>
+            CEO e Fundadora do Energês 
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Fabio Di Lallo</b></br>
+            Sócio do Veirano Advogados 
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Silla Motta – Moderadora</b></br>
+            CEO da Donna Lamparina
+          </p></br>
+
+<b>17h30 (BR) / 20h30 (PT) – Encerramento do Segundo Dia</b><br></br>
     `
   },
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 04 de Outubro</h3>
-    <p>Horário de Brasília</p>
+    <h3 style="margin-bottom:4px">Dia 12 de Dezembro</h3>
+    <p>Horário de Brasília / Horário de Lisboa</p>
 
-    <b>09h00 BR | 13h00 PT – Energy Virtual MasterClasses</b></br>
-    Apoio às PME no caminho para a circularidade: a classificação eCIRCULAR</br></br>
+    <b>09h00 (BR) / 12h00 (PT) – Energy Virtual Academy</b></br>
+    Apresentações de Trabalhos Acadêmicos e Científicos</br></br>
 
             <p style="padding-left:45px">
-              <b>Paulo Santos</b></br>
-              Diretor de Sustabildiade e Mobilidade, ADENE - Agência para a Energia
+              <b>Hirdan Medeiros Costa – Moderadora </b></br>
+              Livre Docente, Pós-Doc, Doutora e Mestre em Energia. Advogada e Economista 
             </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Análise Sobre Os Impactos Ambientais Da Produção de Amônia Azul Nas Very Large Floating Structures</b></br></br>
+              Thomas de Almeida Schroter 
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Sustentabilidade e Utilização: A Aplicação da Amônia Azul na Agricultura Brasileira</b></br></br>
+              Natham Gabriel Franco 
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Políticas e investimentos voltados para a exploração de P&G em bacias marítimas e terrestres no Brasil, e perspectivas em relação à transição energética</b></br></br>
+              Alice Takako Hirose 
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Comparative Analysis of Waste-to-Energy Strategies in Brazil and the European Union: Insights for Sustainable Policy Development</b></br></br>
+              Marcos Eduardo Melo dos Santos
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Efeitos do petróleo na inflação brasileira</b></br></br>
+              Leonardo de Freitas
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Licenciamento ambiental do avanço tecnológico: uma análise da implementação de sistema embarcado de GNL em plataforma móvel de pequena escala</b></br></br>
+              Giovanna Chaves
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Análise de Emissões de CO2 em Área de Estação Petroquímica para Implementação de Projeto HUB CCS nos Campos de Merluza e Lagosta, Cubatão – SP</b></br></br>
+              Livia Koch Sposito
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Desenvolvimento e Aplicabilidade de Matriz de Impactos em projetos de Small-Scale Modular Floating Liquefied Natural Gas</b></br></br>
+              Marina Ligabue da Silva Siqueira
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Política de Preços de Combustíveis e o Futuro da Energia no Brasil</b></br></br>
+              Francisco Gonçalves e Souza
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Análise regulatória de HUBS integrados para armazenamento geológico de CO2 em ambientes offshore</b></br></br>
+              Giulia Chiesa Bellini
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Modelagem de Variáveis Econômicas e Ambientais na Perfuração de Poços de Petróleo</b></br></br>
+              Dalmo S. Amorim Jr.
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	Parâmetros para uma Transição Energética Justa no Sistema Interamericano de Direitos Humanos</b></br></br>
+              Camilo de Lélis Diniz de Farias
+            </p></br>
+
+    
   
-    <b>10h05 BR | 14h05 PT – Energy Virtual Expo/Business</b></br>
-    O Mercado de Carbono na Transição Energética: a experiência ibero-brasileira<br></br>
+<b>11h00 (BR) / 14h00 (PT) – Energy Virtual MasterClass</b></br>
+Pobreza Energética em Portugal: Desafios e Soluções Inovadoras<br></br>
 
             <p style="padding-left:45px">
-              <b>José Costa Pinheiro</b></br>
-              Especialista em Crédito de Carbono, Mota-Engil ATIV
+              <b>Rita Gomes Varela</b></br>
+              Direção de Indústria e Transição Energética da ADENE – Agência para a Energia 
             </p>
             <p style="padding-left:45px">
-              <b>Sérgio Silva</b></br>
-              Gestor de Sequestro de Carbono, Mota-Engil ATIV
+              <b>Rita Sargento</b></br>
+              Direção de Sustentabilidade e Mobilidade da ADENE – Agência para a Energia
             </p>
             <p style="padding-left:45px">
-            <b>Fabiano Machado</b></br>
-            Diretor, Apsis Carbon
-          </p>
-          <p style="padding-left:45px">
-            <b>Cácia Pimentel </b></br>
-            Coordenadora Executiva, Centro Mackenzie de Estudos
-              de Políticas Públicas e Integridade
-          </p>
-            <p style="padding-left:45px">
-              <b>Vivian Marcondes – Moderadora</b></br>
-              Climate, Sustainability and Energy Specialist, Rolim Goulart Cardoso Advogados 
-            </p></br>
-  
-<b>11h00 BR | 15h00 PT – Energy Virtual Talks</b></br>
-Transição Energética: desafios tecnológicos <br></br>
-
-            <p style="padding-left:45px">
-              <b>Vitor Santos</b></br>
-              Professor Catedrático, ISEG - Instituto de Economia e Gestão - da Universidade de Lisboa
-            </p>
-            <p style="padding-left:45px">
-              <b>João Gonçalo Maciel</b></br>
-              Managing Director NEW R&D Centre for New Energy Technologies, EDP
-            </p>
-            <p style="padding-left:45px">
-              <b>Thereza Cristina Aquino</b></br>
-              Consultora Associada, GESEL - Grupo de Estudos do Setor Elétrico - UFRJ
-            </p>
-            <p style="padding-left:45px">
-              <b>Natália Moreno – Moderadora </b></br>
-              Docente, Faculdade de Direito da Universidade de Coimbra
+              <b>Israel Lacerda de Araújo – Moderador</b></br>
+              Consultor Legislativo do Senado Federal do Brasil
             </p></br>
 
+<b>12h00 (BR) / 15h00 (PT) – Intervalo</b><br></br>
 
-<b>14h00 BR | 18h00 PT – Energy Virtual Expo/Busines</b></br>
-Transição Energética: combustível do futuro<br></br>
+<b>14h30 (BR) / 17h30 (PT) – Energy Virtual MasterClass</b></br>
+Segurança de Mercado<br></br>
+
 
             <p style="padding-left:45px">
-              <b>Marlon Arraes Jardim Leal</b></br>
-              Diretor do Departamento de Biocombustíveis, Ministério de Minas e Energia 
-            </p>
-            <p style="padding-left:45px">
-              <b>Heloísa Borges Esteves </b></br>
-              Diretora de Estudos de Petróleo, Gás Natural e Biocombustíveis, EPE - Empresa de Pesquisa Energética 
-            </p>
-            <p style="padding-left:45px">
-              <b>Renata Beckert Isfer </b></br>
-              Presidente, ABiogás - Associação Brasileira do Biogás 
-            </p>
-            <p style="padding-left:45px">
-            <b>Débora Cardoso Vieira</b></br>
-            Diretora de Biogás, Raízen
+            <b>Eduardo Rossi</b></br>
+            Conselheiro da CCEE – Câmara de Comercialização de Energia Elétrica
           </p>
             <p style="padding-left:45px">
-              <b>Maria João Rolim – Moderadora </b></br>
-              Sócia, Rolim Goulart Cardoso Advogados 
+              <b>Caio Alves – Moderador</b></br>
+              Head de Regulação do Rolim Goulart Cardoso Advogados 
             </p>
         
-<b>15h30 BR | 19h30 PT – Energy Virtual MasterClasses</b></br>
-Indústria Verde: urgência global, oportunidade econômica e justiça social<br></br>
+<b>15h30 (BR) / 18h30 (PT) – Energy Virtual Talks</b></br>
+Rota do Financiamento Climático<br></br>
 
             <p style="padding-left:45px">
-              <b>Rosana Santos</b></br>
-              Diretora Executiva, Instituto E+ Transição Energética  
+              <b>Agnes da Costa</b></br>
+              Diretora da ANEEL – Agência Nacional de Energia Elétrica  
             </p>
             <p style="padding-left:45px">
-              <b>Gustavo Santiago - Moderador</b></br>
-              Secretário-Geral, ABDEM - Associação Brasileira de Direito de Energia e do Meio Ambiente   
+              <b>Alessandra Amaral</b></br>
+              Diretora Executiva da ADELAT – Asociación de Distribuidoras de Energía Eléctrica Latinoamericanas  
+            </p>
+            <p style="padding-left:45px">
+              <b>Alice Khouri</b></br>
+              Head of Legal da Helexia Portugal  
+            </p>
+            <p style="padding-left:45px">
+              <b>Vivian Marcondes </b></br>
+              Advogada Sênior do Rolim Goulart Cardoso Advogados   
+            </p>
+            <p style="padding-left:45px">
+              <b>Cácia Pimentel – Moderadora</b></br>
+              Coordenadora Executiva do Mackenzie Integridade  
             </p></br>
 
-            <b>16h30 BR | 20h30 PT – Energy Virtual Academy</b></br>
-            Apresentação de Trabalhos Acadêmicos e Científicos <br></br>
-            <b>18h00 BR | 22h00 PT – Encerramento do Terceiro Dia</b><br></br>
+<b>16h45 (BR) / 19h45 (PT) – Energy Virtual Expo/Business</b></br>
+Rota do Gás Natural e Biometano<br></br>
+            
+          <p style="padding-left:45px">
+            <b>Heloisa Borges Esteves </b></br>
+            Diretora de Estudos do Petróleo, Gás e Biocombustíveis da EPE – Empresa de Pesquisa Energética  
+          </p>
+          <p style="padding-left:45px">
+            <b>Renata Beckert Isfer </b></br>
+            Presidente da ABiogás – Associação Brasileira do Biogás   
+          </p>
+          <p style="padding-left:45px">
+            <b>Manuela Kayath</b></br>
+            Diretora Presidente da MDC Energia  
+          </p>
+          <p style="padding-left:45px">
+            <b>Larisse Stelitano</b></br>
+            Diretora Técnica e Comercial da Bahiagás – Companhia de Gás da Bahia
+          </p>
+          <p style="padding-left:45px">
+            <b>Maria João Rolim – Moderadora</b></br>
+            Sócia do Rolim Goulart Cardoso Advogados   
+          </p></br> <br></br>
+
+  <b>18h00 (BR) / 21h00 (PT) – Encerramento do Evento</b><br></br>
 
     `
   },
