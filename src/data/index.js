@@ -1949,8 +1949,8 @@ Rota da Descarbonização da Indústria <br></br>
 Rota do Hidrogênio Verde<br></br>
 
             <p style="padding-left:45px">
-              <b>Luis Viga</b></br> 
-              Brazil Country Manager da Fortescue
+              <b>André Bueno</b></br> 
+              Coordenador Acadêmico do IBDE – Instituto Brasileiro de Estudos do Direito da Energia
             </p>
 
             <p style="padding-left:45px">
@@ -2087,6 +2087,14 @@ Rota do Mercado Livre de Energia<br></br>
             Diretora de Relações Institucionais da ABRACEEL – Associação Brasileira dos Comercializadores de Energia 
           </p></br>
           <p style="padding-left:45px">
+            <b>Urias Martiniano Neto</b></br>
+            Sócio Fundador do UMN Advogados 
+          </p></br>
+          <p style="padding-left:45px">
+            <b>Gislaine Barcelos</b></br>
+            Especialista em Projetos Estruturados e Gestão de Parcerias Estratégicas do Grupo Equatorial Energia
+          </p></br>
+          <p style="padding-left:45px">
             <b>Silla Motta – Moderadora</b></br>
             CEO da Donna Lamparina
           </p></br>
@@ -2185,6 +2193,11 @@ Rota da Geração Distribuída<br></br>
             <p style="padding-left:45px">
               <b>•	Parâmetros para uma Transição Energética Justa no Sistema Interamericano de Direitos Humanos</b></br></br>
               Camilo de Lélis Diniz de Farias
+            </p></br>
+
+            <p style="padding-left:45px">
+              <b>•	O Papel Estratégico do Hidrogênio Verde na Transição Energética: Percepções dos Impactos no Mercado Livre de Energia no Brasil</b></br></br>
+              Lourenço Lopes Gomes
             </p></br>
 
     
