@@ -1,4 +1,5 @@
 import logo from "@/images-br/logo.svg"
+import logo2025 from "@/images-br/logo2025.png"
 import logoMobile from "@/images-br/logo_mobile.svg"
 import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images-br/orange-elements-01.png"
@@ -129,7 +130,7 @@ import twitterIcon from "@/images/icons/twitter.svg"
 import youtubeIcon from "@/images-br/youtube.svg"
 
 export const LogoBrasil = {
-  black: logo,
+  black: logo2025,
   mobile: logoMobile
 };
 
@@ -420,19 +421,20 @@ export const BigCtaBrData = [
   {
     date: 'Call for \n Papers/ \nProjects',
     text: 
-        `Alô, comunidade acadêmica e científica! Já está aberta a chamada de trabalhos e projetos para apresentação no EVEx Brasil 2024.`,
-        button: 'Saiba Mais',
+        `Não perca a chance de apresentar o seu trabalho no EVEx Brasil 2025! A Call for Papers/Projects está aberta até o dia 23 de junho. Envie seu resumo e participe!
+`,
+        button: 'Saiba mais',
         link: '/brasil/papers'
   },
   {
-    date: 'Rotas \nTemáticas',
+    date: 'Principais \nTemas',
       text: '- Transição Energética Justa \n - Industrialização Verde \nDescarbonização \nSegurança Energética \nHidrogênio Verde \nEólicas Offshore \nMercado Livre de Energia \nCombustíveis do Futuro',
-      button: 'Agenda Preliminar',
+      button: 'Confira a agenda',
       link: '/brasil/agenda'
   },
   {
     date: 'Inscrições \nEVEx Pass',
-      text: 'Participe da primeira parada da rota ibero-latino-americana da transição energética e industrialização verde. O EVEx Brasil 2024 espera pela sua energia!',
+      text: 'Garanta o seu passaporte para o maior intercâmbio ibero-americano de conhecimentos, negócios e conexões na área da transição energética. O EVEx Brasil 2025 espera pela sua energia!',
       button: 'Inscreva-se agora',
       link: '/brasil/inscricoes'
   },

@@ -33,14 +33,14 @@ const Bigcta = () => {
                   <h2>{date}</h2>
                   {index == 1 ? 
                   <ul>
-                    <li><p><span></span> Transição Energética Justa </p></li>
-                    <li><p><span></span> Industrialização Verde </p></li>
+                    <li><p><span></span> Transição Energética</p></li>
+                    <li><p><span></span> Ação Climática </p></li>
                     <li><p><span></span> Descarbonização</p></li>
-                    <li><p><span></span> Geração Distribuída</p></li>
                     <li><p><span></span> Hidrogênio Verde</p></li>
                     <li><p><span></span> Eólicas Offshore</p></li>
-                    <li><p><span></span> Mercado Livre de Energia</p></li>
                     <li><p><span></span> Combustíveis do Futuro</p></li>
+                    <li><p><span></span> Mercado Livre de Energia</p></li>
+                    <li><p><span></span> Novas Tecnologias e Soluções</p></li>
                   </ul> : 
                   <p className="paragraf">{text}</p>}
   

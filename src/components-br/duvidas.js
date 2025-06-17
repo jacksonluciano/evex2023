@@ -37,6 +37,12 @@ import Img20 from '@/images/apoio/abraceel.png'
 import Img21 from '@/images/apoio/aner.png'
 import Img22 from '@/images/apoio/creation.png'
 import Img23 from '@/images-br/home-br/ndf.png'
+import Img24 from '@/images/apoio/eixos.png'
+import Img25 from '@/images/apoio/epe.png'
+import Img26 from '@/images/apoio/ons.png'
+import Img27 from '@/images/apoio/abren.png'
+import Img28 from '@/images/apoio/aper.png'
+import Img29 from '@/images/apoio/inte.png'
 
 import {
   abAgency,
@@ -88,30 +94,39 @@ const Duvidas = () => {
 
         <section css={realization}>
           <Row>
-            <Col lg={6} md={6} sm={6} xs={6}>
-              <h4 css={secDesk}>Promoção e Realização</h4>
-              <img src={LogoEvex} />
-            </Col>
+            
 
             <Col lg={6} md={6} sm={6} xs={6}>
-              <h4 css={secDesk}>Parceiro Estratégico</h4>
+              <h4 css={secDesk}>Estado Anfitrião</h4>
               <a href="https://www.rn.gov.br/" target="_blank">
                 <img src={ParceiroRn} />
               </a>
             </Col>
 
             <Col lg={6} md={6} sm={6} xs={6}>
-              <h4 css={secDesk}>Hotel Oficial</h4>
-              <a href="https://www.serhsnatalgrandhotel.com/" target="_blank">
-                <img src={Serhs} />
+              <h4 css={secDesk}>Promoção e Realização</h4>
+              <img src={LogoEvex} />
+            </Col>
+
+            <Col lg={6} md={6} sm={6} xs={6}>
+              <h4 css={secDesk}>Parceira de Conteúdo</h4>
+              <a href="https://www.ccee.org.br/" target="_blank">
+                <img src={Img16} />
               </a>
             </Col>
 
             <Col lg={6} md={6} sm={6} xs={6}>
               <h4 css={secDesk}>Parceira de Mídia</h4>
               <a href='#' target='_blank'>
-                <img src={logoEp} style={{width: '100px'}} />
+                <img src={Img24} style={{width: '200px'}} />
               </a>           
+            </Col>
+
+            <Col lg={12} md={12} sm={12} xs={12}>
+              <h4 css={secDesk}>Hotel Oficial</h4>
+              <a href="https://www.serhsnatalgrandhotel.com/" target="_blank">
+                <img src={Serhs} />
+              </a>
             </Col>
           </Row>
         </section>
@@ -120,37 +135,41 @@ const Duvidas = () => {
           <h2>Apoio Institucional</h2>
           <ul>
             <li>
-              <img src={Img16} />
+              <img src={Img25} />
             </li>
             <li>
-              <img src={Img2} />
+              <img src={Img26} />
             </li>
             <li>
               <img src={Img1} />
             </li>
+            <li>
+              <img src={Img17} />
+            </li>
            
             <li>
-              <img src={Img20} />
+              <img src={Img27} />
             </li>  
           </ul>
           <ul>
+          <li>
+              <img src={Img28} />
+            </li>  
+          <li>
+              <img src={Img21} />
+            </li>
+            <li>
+              <img src={Img29} />
+            </li>
             <li>
               <img src={Img7} />
             </li>
             <li>
               <img src={Img22} />
             </li>
-            <li>
-              <img src={Img14} />
-            </li>
-            <li>
-              <img src={Img17} />
-            </li>
+            
           </ul>
-          <ul>
-          <li>
-              <img src={Img21} />
-            </li>
+          {/* <ul>
             <li>
               <img src={Img18} />
             </li>
@@ -160,7 +179,7 @@ const Duvidas = () => {
             <li>
               <img src={Img23} />
             </li>            
-          </ul>
+          </ul> */}
 
         </section>
 
@@ -286,7 +305,7 @@ const Duvidas = () => {
                   Patrocínio e<br /> Exposição
                 </h2>
                 <p style={{ maxWidth: "500px" }}>
-                  Seja patrocinador(a) do EVEx Brasil 2024 e posicione sua marca
+                  Seja patrocinador(a) do EVEx Brasil 2025 e posicione sua marca
                   na vanguarda da Transição Energética Ibero-Latino-Americana.
                   Entre em contato com nosso time comercial e receba uma
                   proposta personalizada para a sua empresa.

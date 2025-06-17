@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { TransicoesEnergeticasData, blocksTeData } from "@/data";
 import Evex2024Brasil from "@/images-br/home-br/evex2024brasil.png";
+import Evex2025Brasil from "@/images-br/home-br/site_Evex 2025 verde.png";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import { FunfactBrData } from "@/data-br";
@@ -39,9 +40,9 @@ const TransicaoEnergetica = () => {
               <img src={Evex2024Brasil} />
               <div className="info">
                 <h2 css={[secTitle, mb45]}>
-                  {`Transição Energética Justa e \n Industrialização Verde:`}
+                  {`Transição Energética e Ação Climática: \n sinergias ibero-americanas rumo à COP30`}
                 </h2>
-                <p css={secDesk}>na rota ibero-latino-americana</p>
+                {/* <p css={secDesk}>na rota ibero-latino-americana</p> */}
               </div>
             </div>
           </Col>

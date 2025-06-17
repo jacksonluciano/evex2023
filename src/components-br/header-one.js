@@ -58,7 +58,7 @@ const HeaderOne = () => {
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div css={logo}>
               <Link to="/brasil">
-                <img src={LogoBrasil.black} alt="Evex" className="d-none d-lg-block" />
+                <img width={'200px'} src={LogoBrasil.black} alt="Evex" className="d-none d-lg-block" />
                 <img src={LogoBrasil.mobile} alt="Evex" className="d-block d-md-block d-lg-none" />
               </Link>
             </div>

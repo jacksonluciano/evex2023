@@ -64,7 +64,7 @@ const QuintaEdicao = () => {
       <Container fluid>
         <Row>
           <div css={gradient}>
-            <h1>5ª Edição do EVEx</h1>
+            <h1>6ª Edição do EVEx</h1>
           </div>
         </Row>
         <Row>
@@ -72,17 +72,10 @@ const QuintaEdicao = () => {
             <div css={content}>
               <div className="info-content">
               <p>
-                Após o enorme sucesso das últimas edições virtuais e presenciais
-                em Lisboa, o EVEx vai desembarcar este ano pela primeira vez no
-                Brasil, para iniciar uma edição especial do maior e mais
-                prestigiado encontro de transição energética da Península
-                Ibérica e da América Latina.
+              Com o tema “Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30”, a sexta edição do EVEx – Energy Virtual Experience contará com um formato composto por três eventos que prometem impulsionar a agenda energética para a 30ª Conferência das Nações Unidas sobre Mudança do Clima.
               </p>
               <p>
-                Com o tema “Transição Energética Justa e Industrialização Verde:
-                na rota ibero-latino-americana”, a quinta edição do EVEx
-                promoverá uma expedição energética inédita e transformadora,
-                mediante formato composto por três eventos:
+              Conheça o calendário do EVEx 2025 e participe conosco do maior intercâmbio de Transição Energética da Península Ibérica e da América Latina:
               </p>
 
               <Link css={commonBtnBr} to="/brasil/o-evex#last-editions">
@@ -94,24 +87,27 @@ const QuintaEdicao = () => {
           <Col xs={12} lg={6} className="px-0">
             <div css={sideColumn}>
              
-              <h5>EVEx Brasil 2024 – Natal Energy Experience</h5>
+              <h5>EVEx Brasil 2025 – Natal Energy Experience</h5>
               <p>
-                <span>03 e 04 de julho</span> {`| SERHS Natal Grand Hotel & Resort`}
+                <span>03 e 04 de julho</span> {`| Natal, Rio Grande do Norte`}<br/>
+                {`SERHS Natal Grand Hotel & Resort`}
+              </p>
+            </div>
+            <div css={sideColumn}>            
+              <h5>EVEx Lisboa 2025 – Lisbon Energy Experience</h5>
+              <p>
+                <b>07 e 08 de outubro</b> | Lisboa, Portugal <br/>
+                LNEG – Laboratório Nacional de Energia e Geologia 
               </p>
             </div>
             <div css={sideColumn}>
              
-              <h5>EVEx 2024 – Energy Virtual Experience</h5>
+              <h5>EVEx COP30 – Energy Virtual Experience</h5>
               <p>
-                <span>24, 25 e 26 de setembro</span> | 100% online e ao vivo
+                <span>03 a 05 de novembro de 2025</span><br/> online e ao vivo
               </p>
             </div>
-            <div css={sideColumn}>            
-              <h5>EVEx Lisboa 2024 – Lisbon Energy Experience</h5>
-              <p>
-                <b>08 e 09 de outubro</b> | Reitoria da Universidade NOVA de Lisboa
-              </p>
-            </div>
+            
             <div css={[sideColumn,mobileButton]}>            
             <Link css={commonBtnBr} to="/brasil/o-evex#last-editions">
                 Edições Passadas
@@ -124,24 +120,15 @@ const QuintaEdicao = () => {
             <div css={[lisboaTwo]}>
               <img className="evex-2024" src={Evex2024} />
               <div>
-                <h2 css={[secTitle, mb45]}>EVEx Brasil 2024</h2>
+                <h2 css={[secTitle, mb45]}>EVEx Brasil 2025</h2>
                 <p css={secDesk}>
-                  Nos dias 03 e 04 de julho, o EVEx Brasil 2024 vai reunir na
-                  cidade de Natal, capital do Rio Grande do Norte, os principais
-                  agentes dos mercados ibérico e latino-americano de energia,
-                  incluindo executivos C-Level, renomados especialistas e
-                  autoridades públicas, sobretudo do Brasil e de Portugal.
+                Após o grande sucesso da edição passada, o EVEx retorna este ano a Natal para realizar um evento ainda maior e melhor, com mais inovações, trocas de conhecimentos e networking de alto nível.
                   <br />
                   <br />
-                  O objetivo do evento é promover a troca de conhecimentos e
-                  experiências entre players e stakeholders do setor, visando a
-                  impulsionar soluções sustentáveis, tecnologias inovadoras e
-                  novos negócios em prol da transformação energética e
-                  industrial.
+                  O EVEx Brasil 2025 – Natal Energy Experience ocorrerá nos dias 03 e 04 de julho, novamente no SERHS Natal Grand Hotel & Resort, reunindo importantes players, autoridades e especialistas dos mercados ibérico e latino-americano de energia, com destaque para Brasil e Portugal.
                   <br />
                   <br />
-                  Vamos juntos acelerar a transição energética e a
-                  industrialização verde na rota ibero-latino-americana?
+                  O objetivo é promover discussões estratégicas, novas tecnologias e negócios sustentáveis em prol de uma transição climática e energética mais justa, eficaz e inclusiva na região ibero-americana, com especial enfoque no Nordeste brasileiro.
                 </p>
                 <Link css={commonBtnBr} to="/brasil/comite">
                   Quem Somos?

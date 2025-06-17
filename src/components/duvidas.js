@@ -165,7 +165,7 @@ const Duvidas = () => {
               <div id="contato" className="inner-div rl">
                 <h2 css={secDesk}>Patrocínio e Exposição</h2>
                 <p>
-                Seja patrocinador do EVEx 2024 e posicione a sua marca na vanguarda da Transição Energética Ibero-Latino-Americana! Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada.
+                Seja patrocinador do EVEx 2025 e posicione a sua marca na vanguarda da Transição Energética Ibero-Latino-Americana! Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada.
                 </p>
                 <a href="https://wa.me/+351912349476" css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}

@@ -73,7 +73,7 @@ const Footer = () => {
             <div css={sideColumn} className="news" style={{height : '50%', paddingLeft: '80px'}}>
               <aside css={[widget, aboutWidget]}>
                 <h2>News</h2>
-                <p>Fique por dentro das novidades do EVEx Brasil 2024.</p>
+                <p>Fique por dentro das novidades do EVEx Brasil 2025.</p>
                 <form
                   method="POST"
                   action="https://formsubmit.co/secretaria@evex.energy"

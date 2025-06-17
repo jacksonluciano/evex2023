@@ -86,7 +86,7 @@ const ondeSera = () => {
            <div css={about}>
               {/* <h2 css={[secTitle, mb45]}>Do Virtual ao <br/> Presencial</h2> */}
               <p css={secDesk}>
-              O luxuoso SERHS Natal Grand Hotel & Resort será a casa do EVEx Brasil 2024, por oferecer um excelente atendimento e toda a infraestrutura necessária para a realização do evento. Encontra-se localizado na Via Costeira, principal avenida de Natal, próximo de importantes pontos turísticos, como as praias de Ponta Negra e Areia Preta.
+              O luxuoso SERHS Natal Grand Hotel & Resort será, mais uma vez, a casa do EVEx Brasil, por oferecer um excelente atendimento e toda a infraestrutura necessária para a realização do evento. Encontra-se localizado na Via Costeira, principal avenida de Natal, próximo de importantes pontos turísticos, como as praias de Ponta Negra e Areia Preta.
               </p>
               <p css={secDesk}>
               Com todos os ambientes voltados para o mar, o resort possui uma arquitetura imponente, permitindo que os participantes do EVEx Brasil também apreciem as belezas do litoral potiguar e tenham uma vista privilegiada do Morro do Careca, cartão postal da cidade.

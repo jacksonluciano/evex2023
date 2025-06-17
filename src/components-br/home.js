@@ -82,7 +82,7 @@ const Home = ({ title, name }) => {
                 </li>
                 <li>
                     <Link to="/lisboa">
-                      <span>EVEx Lisboa 2024</span>
+                      <span>EVEx Lisboa 2025</span>
                       <span>Lisbon Energy Experience</span>
                     </Link>
                 </li>

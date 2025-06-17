@@ -88,23 +88,23 @@ const Patrocinadores = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
               
-
+{/* 
               <section className='diamante'>
                 <h4 css={secDesk}>Patrocínio Diamante</h4>
                   <ul>
                     <li className="desktop"><img src={Img198} /></li>
                     <li className="mobile"><img src={Img199} /></li>
                   </ul>
-               </section>
+               </section> */}
 
-               <section className='platina'>
+               {/* <section className='platina'>
                 <h4 css={secDesk}>Patrocínio Platina</h4>
                   <ul>
                     <li><a href="https://www.itaipu.gov.br/" target="_blank"><img src={Img197} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
-               <section className='ouro'>
+               {/* <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul>
                     <li className="desktop"><a target="_blank"><img src={Img19} /></a></li>
@@ -116,9 +116,9 @@ const Patrocinadores = () => {
                     <li className="mobile"><a target="_blank"><img src={Img201} /></a></li>
                     <li className="mobile"><a target="_blank"><img src={Img202} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
-               <section className='prata'>
+               {/* <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
                       <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Img193} /></a></li>
@@ -130,7 +130,7 @@ const Patrocinadores = () => {
                       <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img196} /></a></li>
                       <li><a href="#" target="_blank"><img src={Img203} /></a></li>
                   </ul>
-               </section>
+               </section> */}
 
                {/* <section className='bronze'>
                 <h4 css={secDesk}>Patrocínio Bronze</h4>
