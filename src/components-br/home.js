@@ -70,26 +70,26 @@ const Home = ({ title, name }) => {
 
             <div css={bannerContent} className="banner_content text-center">
             <h2>
-                <span style={{backgroundColor : backgroundTextTop, color: backgroundTextBottom}}>Escolha abaixo o evento e embarque conosco</span>
-                <span style={{backgroundColor : backgroundTextBottom, color: backgroundTextTop}}>na rota ibero-latino-americana da energia:</span>
+                <span style={{backgroundColor : backgroundTextTop, color: backgroundTextBottom}}>Escolha abaixo o evento e participe da 6ª edição do maior</span>
+                <span style={{backgroundColor : backgroundTextBottom, color: backgroundTextTop}}>intercâmbio ibero-americano de transição energética:</span>
             </h2>
               <ul css={Buttons}>
                 <li>
                     <Link to="/brasil">
-                        <span>EVEx Brasil 2024 </span>
+                        <span>EVEx Brasil 2025 </span>
                         <span>Natal Energy Experience</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/lisboa">
-                      <span>EVEx 2024</span>
-                      <span>Energy Virtual Experience</span>               
                     </Link>
                 </li>
                 <li>
                     <Link to="/lisboa">
                       <span>EVEx Lisboa 2024</span>
                       <span>Lisbon Energy Experience</span>
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/lisboa">
+                      <span>EVEx COP30</span>
+                      <span>Energy Virtual Experience</span>               
                     </Link>
                 </li>
               </ul>
