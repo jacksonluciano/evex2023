@@ -7,6 +7,7 @@ import { jsx } from "@emotion/react";
 import Arrow from "@/images/icons/arrow-down.svg";
 import Element02 from "@/images-br/orange-elements-02.png";
 import Evex2024 from "@/images-br/home-br/2024.svg";
+import Evex2025 from "@/images-br/home-br/2025.png";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
