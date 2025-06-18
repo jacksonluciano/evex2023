@@ -52,8 +52,19 @@ const Inscricoes = () => {
             </Col>
             <Col css={sectionTitle} lg={6}>
               <p>
-                Prepare-se para viver uma experiência única e transformadora! <br /><br /> Serão dois dias de debates intensos, networking estratégico e conexões valiosas que vão impulsionar sua jornada profissional na transição energética rumo a uma economia verde. Escolha abaixo sua categoria de inscrição no EVEx Brasil 2024 e garanta sua vaga na rota ibero-latino-americana da energia! <br /><br /> Observação: para pagamentos através de depósito, transferência bancária ou PIX, envie solicitação via e-mail (<span>secretaria@evex.energy</span>).
+              Esteja lado a lado com as principais lideranças e autoridades que estão fazendo a transição energética acontecer no espaço ibero-americano.  <br />
+             </p>
+             <p>
+              Esteja lado a lado com as principais lideranças e autoridades que estão fazendo a transição energética acontecer no espaço ibero-americano.  <br />
+             </p>
+             <p>
+              EEscolha abaixo a sua categoria de inscrição no EVEx Brasil 2025 e garanta a sua vaga no futuro da energia! <br />
+             </p>
+
+             <p>
+              Observação: para pagamentos através de depósito, transferência bancária ou PIX, envie solicitação via e-mail (<span>secretaria@evex.energy</span>).
               </p>
+        
             </Col>
           </Row>
         </div>
@@ -69,16 +80,25 @@ const Inscricoes = () => {
                 <h2>EVEx Pass Brasil</h2>
                 <p className="text">Ingresso para os<br /> 2 dias de evento</p>
                 {/* <h3>02 a 05 de Outubro</h3> */}
-                <p>Profissionais (3° lote)</p>
-                <h4>R$ 1.080,00</h4><br />
-                <p>Estudantes (3° lote)</p>
-                <h4>R$ 702,00</h4>
+                <p>Profissionais</p>
+                <div className="price-block">
+                  <h4>R$ 1.750,00 até 20/06/25</h4>
+                  <h4>R$ 2.000,00 até 29/06/25</h4>
+                  <h4>R$ 2.500,00 até 03/07/25</h4>
+                </div>
+
+                <div className="price-block">
+                <p>Estudantes</p>
+                  <h4>R$ 1.225,00 até 20/06/25</h4>
+                  <h4>R$ 1.400,00 até 29/06/25</h4>
+                  <h4>R$ 1.750,00 até 03/07/25</h4>
+                </div>
 
                 <ul>
                   <p style={{ textAlign: 'left', marginLeft: '-20px' }}>O investimento inclui:</p>
                   <li>Acesso à programação completa</li>
                   <li>Kit de credenciamento</li>
-                  <li>Coffee breaks</li>
+                  <li>4 Coffee breaks</li>
                   <li>Materiais das apresentações</li>
                   <li>Certificado de participação</li>
                   {/* <li>
@@ -89,7 +109,7 @@ const Inscricoes = () => {
                     <p>- Certificado de participação</p>
                   </li> */}
                 </ul>
-                <a href="https://www.sympla.com.br/evento/evex-brasil-2024-natal-energy-experience/2432817" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                <a href="https://www.sympla.com.br/evento/evex-brasil-2025-natal-energy-experience/2973088" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
                 {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
               </div>
             </Col>
@@ -99,16 +119,16 @@ const Inscricoes = () => {
                 <h2>EVEx Paper/Project Brasil</h2>
                 <p className="text">Ingresso exclusivo para autores<br /> aprovados no evento</p>
                 <p>Profissionais</p>
-                <h4>R$ 1.260,00</h4><br />
+                <h4>R$ 1.600,00 até 01/07</h4><br />
                 <p>Estudantes</p>
-                <h4>R$ 756,00</h4>
+                <h4>R$ 1.120,00 até 01/07</h4>
                 <ul style={{ padding: '0 30px' }}>
                   <p style={{ textAlign: 'left', marginLeft: '-20px' }}>O investimento inclui:</p>
                   <li>Apresentação de 1 trabalho</li>
-                  <li>Publicação internacional nos Anais do EVEx 2024</li>
+                  <li>Publicação internacional nos Anais do EVEx 2025</li>
                   <li>Acesso à programação completa</li>
                   <li>Kit de credenciamento</li>
-                  <li>Coffee breaks</li>
+                  <li>4 Coffee breaks</li>
                   <li>Materiais das apresentações</li>
                   <li>Certificado de participação</li>
                   {/* <li>
@@ -121,7 +141,7 @@ const Inscricoes = () => {
                     <p>- Certificado de participação</p>
                   </li> */}
                 </ul>
-                <a href="https://www.sympla.com.br/evento/evex-brasil-2024-natal-energy-experience/2432817" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
+                <a href="https://www.sympla.com.br/evento/evex-brasil-2025-natal-energy-experience/2973088" target="_blank" css={commonBtn}>Faça sua inscrição aqui</a>
                 {/* <a href="#" target="_blank" css={commonBtn}>Inscrições encerradas</a> */}
               </div>
             </Col>

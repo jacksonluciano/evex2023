@@ -23,7 +23,8 @@ import {
   element2,
   element3,
   element4,
-  element5
+  element5,
+  under
 } from "../assets/styles-br/agenda-horario.styles";
 import { Link } from "gatsby";
 
@@ -68,20 +69,74 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div>
               <div css={principalEvent}>
                 <span>09h15</span>
-                <p>BOAS-VINDAS</p>
+                <p>Natal Energy Experience | Abertura com Lideranças e Autoridades </p><br/><br/>
               </div>
+
+              <div css={event}>
+                <p css={under}>Cerimônia de abertura</p>
+              </div>
+
+              <p css={principalEventDescription}>
+                <b>Boas Vindas</b><br/>
+              </p>
 
               <p css={principalEventDescription}>
                 <b>Caio César Cavalcanti</b><br/>
                 Presidente do EVEx
               </p>
               <p css={principalEventDescription}>
-                <b>Silvio Torquato</b><br/>
-                Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte
+                <b>Fátima Bezerra</b><br/>
+                Governadora do Estado do Rio Grande do Norte
               </p>
+
+              <div css={event}>
+                <p css={under}>Painel de Abertura</p>
+              </div>
+
+              <p css={principalEventDescription}>
+              <b>Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30</b><br/><br/>
+              </p>
+                <div css={participantsContainer}>
+                  <div className="participant">
+                    <p className="participant_name">Representante do Ministério de Minas e Energia do Brasil</p>
+                    <p className="participant_role"></p>
+                  </div>
+                  <div className="participant">
+                    <p className="participant_name">Representante do Ministério do Ambiente e Energia de Portugal</p>
+                    <p className="participant_role"></p>
+                  </div>
+                  <div className="participant">
+                  <p className="participant_name">Alexandre Ramos</p>
+                  <p className="participant_role">
+                  Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">André Pepitone</p>
+                  <p className="participant_role">
+                  Diretor Executivo Financeiro de Itaipu Binacional
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">João Hélio Cavalcanti</p>
+                  <p className="participant_role">
+                    Diretor Técnico do SEBRAE-RN
+                  </p>
+                </div>
+                <div className="participant">
+                    <p className="participant_name">Representante do Banco do Nordeste</p>
+                    <p className="participant_role"></p>
+                </div>
+                <div className="participant">
+                <p className="participant_name">Maria João Rolim – Moderadora</p>
+                <p className="participant_role">
+                Sócia do Rolim Goulart Cardoso Advogados
+                </p>
+              </div>
+              </div>
             </div>
 
-            <div>
+            {/* <div>
               <div css={principalEvent}>
                 <span>09h40</span>
                 <p>Natal Energy Experience <i style={{letterSpacing: '-2px'}}> --</i> Abertura com Autoridades</p>
@@ -90,9 +145,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <p css={principalEventDescription}>
               <b>Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana</b>
               </p>
-            </div>
+            </div> */}
 
-            <div css={participantsContainer}>
+            {/* <div css={participantsContainer}>
               <div className="participant">
                 <p className="participant_name">Alexandre Ramos</p>
                 <p className="participant_role">
@@ -135,7 +190,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 Sócia do Rolim Goulart Cardoso Advogados
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* <div css={participantsContainer}>
               <div className="participant">
@@ -178,19 +233,19 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p className="participant_role">Diretora Geral, Garoupa INC</p>
               </div>
             </div> */}
-            <div>
-              <div css={principalEvent}>
-                <span>10h40</span>
-                <p>Assinatura de protocolos de cooperação</p>
-              </div>
+              {/* <div>
+                <div css={principalEvent}>
+                  <span>10h40</span>
+                  <p>Assinatura de protocolos de cooperação</p>
+                </div>
 
-              <p css={principalEventDescription}>
-              <b>Entre ADENE – Agência para a Energia e Polo SEBRAE de Energias Renováveis</b>
-              </p>
-              <p css={principalEventDescription}>
-              <b>Entre Governo do Estado do Rio Grande do Norte e ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde </b>
-              </p>
-            </div>
+                <p css={principalEventDescription}>
+                <b>Entre ADENE – Agência para a Energia e Polo SEBRAE de Energias Renováveis</b>
+                </p>
+                <p css={principalEventDescription}>
+                <b>Entre Governo do Estado do Rio Grande do Norte e ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde </b>
+                </p>
+              </div> */}
 
             <div css={event}>
               <span>11h00</span>
@@ -204,7 +259,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
 
               <p css={principalEventDescription}>
-                <b>Rota do Hidrogênio Verde: produção, regulação e certificação </b>
+                <b>Curtailment, Armazenamento de Energia e Data Centers</b>
               </p>
             </div>
 

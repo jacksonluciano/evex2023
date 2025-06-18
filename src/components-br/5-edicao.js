@@ -119,7 +119,7 @@ const QuintaEdicao = () => {
         <Row>
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={[lisboaTwo]}>
-              <img className="evex-2024" src={Evex2024} />
+              <img className="evex-2024" src={Evex2025} />
               <div>
                 <h2 css={[secTitle, mb45]}>EVEx Brasil 2025</h2>
                 <p css={secDesk}>

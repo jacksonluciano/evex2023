@@ -252,7 +252,7 @@ export const blocks = css`
 export const dateBlock = css`
   background-color: #252525;
   height: 100%;
-  padding: 32px 18px 80px;
+  padding: 32px 18px 80px 0;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -260,6 +260,13 @@ export const dateBlock = css`
   position: relative;
   z-index: 2;
   transition: all 0.3s;
+
+  .price-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+
 
   &:hover {
     background: radial-gradient(

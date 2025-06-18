@@ -341,3 +341,10 @@ export const participantsContainer = css`
     }
   }
 `;
+
+export const under = css`
+ text-decoration: underline;
+ padding-left: 76px;
+ margin: 16px 0 8px 0 !important;
+
+`;

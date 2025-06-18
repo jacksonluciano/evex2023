@@ -138,7 +138,8 @@ export const LogoBrasil = {
 export const LisboaParaNatal = {
   sectionContent: {
     title: "De Lisboa para Natal",
-    text: `O maior e mais prestigiado encontro de Transição Energética da Península Ibérica e da América Latina`,
+    text: `O maior e mais prestigiado encontro de `,
+    feature: `Transição Energética da Península Ibérica e da América Latina`
   },
   button: {
     label: "Lorem ipsum",
@@ -533,29 +534,34 @@ export const TeamOneData = {
   },
   posts: [
     {
+      image: Speaker26,
+      name: "Fátima Bezerra",
+      designation: "Governadora do Estado do Rio Grande do Norte",
+    },
+    {
       image: Speaker01,
       name: "Alexandre Ramos",
       designation: "Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
     },
     {
-      image: Speaker02,
-      name: "Elbia Gannoum",
-      designation: "Presidente, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+      image: Speaker04,
+      name: "Agnes da Costa",
+      designation: "Diretora da ANEEL – Agência Nacional de Energia Elétrica",
     },
     {
       image: Speaker03,
       name: "Nelson Lage",
       designation: "Presidente, ADENE – Agência para a Energia de Portugal",
     },
-    // {
-    //   image: Speaker04,
-    //   name: "Agnes da Costa",
-    //   designation: "Diretora, ANEEL – Agência Nacional de Energia Elétrica",
-    // },
     {
       image: Speaker05,
       name: "Teresa Ponce de Leão",
       designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia de Portugal",
+    },
+    {
+      image: Speaker02,
+      name: "Elbia Gannoum",
+      designation: "Presidente, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
     },
     // {
     //   image: Speaker06,
@@ -617,11 +623,6 @@ export const TeamOneData = {
     //   name: "Cácia Pimentel ",
     //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
     // },
-    {
-      image: Speaker26,
-      name: "Fátima Bezerra",
-      designation: "Governadora do Estado do Rio Grande do Norte",
-    },
     {
       image: Speaker27,
       name: "André Pepitone",

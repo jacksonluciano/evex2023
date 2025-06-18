@@ -184,3 +184,15 @@ export const abImg = css`
     right: -5px;
   }
 `
+
+
+export const text = css`
+    margin-bottom: 8px;
+    font-size: 32px !important; 
+`
+
+export const feature = css`
+    font-size: 32px !important; 
+    font-weight: 700 !important;
+    max-width: fit-content !important;
+`
