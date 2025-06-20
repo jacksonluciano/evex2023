@@ -50,12 +50,16 @@ import Natal03CarouselImg05 from '@/images-br/natal/03/natal-carousel03-img05.jp
 import Natal03CarouselImg06 from '@/images-br/natal/03/natal-carousel03-img06.jpg'
 import Natal03CarouselImg07 from '@/images-br/natal/03/natal-carousel03-img07.jpg'
 import Natal03CarouselImg08 from '@/images-br/natal/03/natal-carousel03-img08.jpg'
-import EvexBrasilImg01 from '@/images-br/home-br/carousel-quemsomos-01.jpg'
-import EvexBrasilImg02 from '@/images-br/home-br/carousel-quemsomos-02.jpg'
-import EvexBrasilImg03 from '@/images-br/home-br/carousel-quemsomos-03.jpg'
-import EvexBrasilImg04 from '@/images-br/home-br/carousel-quemsomos-04.jpg'
-import EvexBrasilImg05 from '@/images-br/home-br/carousel-quemsomos-05.jpg'
-import EvexBrasilImg06 from '@/images-br/home-br/carousel-quemsomos-06.jpg'
+import EvexBrasilImg01 from '@/images-br/home-br/new/carousel-quemsomos-01.jpg'
+import EvexBrasilImg02 from '@/images-br/home-br/new/carousel-quemsomos-02.jpg'
+import EvexBrasilImg03 from '@/images-br/home-br/new/carousel-quemsomos-03.jpg'
+import EvexBrasilImg04 from '@/images-br/home-br/new/carousel-quemsomos-04.jpg'
+import EvexBrasilImg05 from '@/images-br/home-br/new/carousel-quemsomos-05.jpg'
+import EvexBrasilImg06 from '@/images-br/home-br/new/carousel-quemsomos-06.jpg'
+import EvexBrasilImg07 from '@/images-br/home-br/new/carousel-quemsomos-07.jpg'
+import EvexBrasilImg08 from '@/images-br/home-br/new/carousel-quemsomos-08.jpg'
+import EvexBrasilImg09 from '@/images-br/home-br/new/carousel-quemsomos-09.jpg'
+import EvexBrasilImg10 from '@/images-br/home-br/new/carousel-quemsomos-10.jpg'
 
 import Speaker01 from "@/images-br/speakers/Alexandre-Ramos.png"
 import Speaker02 from "@/images-br/speakers/Elbia-Gannoum.png"
@@ -414,6 +418,18 @@ export const EvexBrasil2024 = [
   },
   {
     img: EvexBrasilImg06
+  },
+  {
+    img: EvexBrasilImg07
+  },
+  {
+    img: EvexBrasilImg08
+  },
+  {
+    img: EvexBrasilImg09
+  },
+  {
+    img: EvexBrasilImg10
   },
 ]
 
