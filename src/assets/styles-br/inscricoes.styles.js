@@ -265,6 +265,13 @@ export const dateBlock = css`
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
+
+    h4{
+      @media (min-width: 320px) and (max-width: 768px) {
+        font-size: 20px !important;
+      }
+    }
+
   }
 
 
