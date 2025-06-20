@@ -55,10 +55,7 @@ const Inscricoes = () => {
               Esteja lado a lado com as principais lideranças e autoridades que estão fazendo a transição energética acontecer no espaço ibero-americano.  <br />
              </p>
              <p>
-              Esteja lado a lado com as principais lideranças e autoridades que estão fazendo a transição energética acontecer no espaço ibero-americano.  <br />
-             </p>
-             <p>
-              EEscolha abaixo a sua categoria de inscrição no EVEx Brasil 2025 e garanta a sua vaga no futuro da energia! <br />
+              Escolha abaixo a sua categoria de inscrição no EVEx Brasil 2025 e garanta a sua vaga no futuro da energia! <br />
              </p>
 
              <p>
@@ -84,14 +81,14 @@ const Inscricoes = () => {
                 <div className="price-block">
                   <h4>R$ 1.750,00 até 20/06/25</h4>
                   <h4>R$ 2.000,00 até 29/06/25</h4>
-                  <h4>R$ 2.500,00 até 03/07/25</h4>
+                  <h4>R$ 2.200,00 até 03/07/25</h4>
                 </div>
 
                 <div className="price-block">
                 <p>Estudantes</p>
                   <h4>R$ 1.225,00 até 20/06/25</h4>
                   <h4>R$ 1.400,00 até 29/06/25</h4>
-                  <h4>R$ 1.750,00 até 03/07/25</h4>
+                  <h4>R$ 1.540,00 até 03/07/25</h4>
                 </div>
 
                 <ul>
