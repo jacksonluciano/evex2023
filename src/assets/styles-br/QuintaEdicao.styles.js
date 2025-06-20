@@ -198,9 +198,11 @@ export const lisboaTwo = css`
     height: 475px;
     @media (min-width: 320px) and (max-width: 767px) {
       width: 32px;
+      height:auto;
     }
     @media (min-width: 768px) and (max-width: 1280px) {
       width: 140px;
+      height:auto;
     }
   }
 `;

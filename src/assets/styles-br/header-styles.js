@@ -65,9 +65,9 @@ export const logo = css`
   @media (max-width: 576px) {
     max-width: 114px;
 
-    /* img {
+    img {
       width: 100%;
-    } */
+    }
   }
 `;
 

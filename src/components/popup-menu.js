@@ -188,7 +188,7 @@ const PopupMenu = () => {
         <div className="row">
           <div css={logoMobileBr}>
           <Link to="/">
-                <img src={LogoBrasil.black} alt="" />
+                <img style={{'width':'192px'}} src={LogoBrasil.black} alt="" />
               </Link>
               <ul  css={socialList}>
               <li>

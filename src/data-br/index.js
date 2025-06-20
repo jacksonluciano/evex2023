@@ -135,7 +135,7 @@ import youtubeIcon from "@/images-br/youtube.svg"
 
 export const LogoBrasil = {
   black: logo2025,
-  mobile: logoMobile
+  mobile: logo2025
 };
 
 

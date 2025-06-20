@@ -189,10 +189,35 @@ export const abImg = css`
 export const text = css`
     margin-bottom: 8px;
     font-size: 32px !important; 
+    @media (min-width: 320px) and (max-width: 420px) {
+      margin-bottom: 0;
+        line-height: 16px;
+        font-size: 12px !important;
+        
+      }
+    @media (min-width: 421px) and (max-width: 767px) {
+        margin-bottom: 0;
+        line-height: 21px;
+        font-size: 14px !important;
+        
+      }
 `
 
 export const feature = css`
     font-size: 32px !important; 
     font-weight: 700 !important;
     max-width: fit-content !important;
+
+    @media (min-width: 320px) and (max-width: 420px) {
+      margin-bottom: 0;
+        line-height: 16px;
+        font-size: 12px !important;
+        
+      }
+    @media (min-width: 421px) and (max-width: 767px) {
+        margin-bottom: 0;
+        line-height: 21px;
+        font-size: 14px !important;
+        
+      }
 `
