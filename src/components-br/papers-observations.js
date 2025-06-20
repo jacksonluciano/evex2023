@@ -37,21 +37,21 @@ const PapersObservations = () => {
               <div className='item'>
                 <p className='item_number item_one'>1</p>
                 <p className='item_content'>
-                  A submissão de resumos para avaliação não exige qualquer inscrição prévia no EVEx Brasil 2024. Apenas o correto preenchimento e envio do formulário (disponível abaixo para download) dentro do prazo estipulado no cronograma acima descrito.
+                A submissão de resumos para avaliação não exige qualquer inscrição prévia no EVEx Brasil. Apenas é necessário o correto preenchimento e envio do formulário de resumo dentro do prazo estipulado no cronograma acima descrito.
                 </p>
               </div>
 
               <div className='item'>
                 <p className='item_number item_two'>2</p>
                 <p className='item_content'>
-                  Somente após a possível aprovação da proposta submetida, a inscrição (incluindo o pagamento) deverá ser realizada na categoria EVEx Paper/Project Brasil, também dentro do prazo estipulado no cronograma.
+              Somente após a possível aprovação da proposta submetida, a inscrição deverá ser realizada na categoria “EVEx Paper/Project”, conforme prazo também estipulado no cronograma.
                 </p>
               </div>
 
               <div className='item'>
                 <p className='item_number item_three'>3</p>
                 <p className='item_content'>
-                  Os autores que tiverem dois ou mais resumos aprovados poderão realizar as apresentações de todos eles no evento, caso assim desejem, desde que efetuem a inscrição e o pagamento de cada trabalho a ser apresentado.
+                Os autores que tiverem dois ou mais resumos aprovados poderão escolher qual será apresentado no evento. 
                 </p>
               </div>
             </div>

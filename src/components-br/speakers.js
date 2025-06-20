@@ -47,11 +47,7 @@ const TeamCarousel = () => {
             <div className="heroTitle">
               <h2>{sectionContent.title}</h2>
               <p>
-                A primeira parada da rota ibero-latino-americana da energia, em
-                Natal/RN, vai acelerar a transição energética e industrialização
-                verde na região, através de importantes discussões com grandes
-                nomes da área. Conheça abaixo os speakers já confirmados para o
-                EVEx Brasil 2024.
+              Renomados especialistas, executivos C-Level e autoridades do Brasil e de Portugal, com protagonismo na transição energética ibero-americana, serão speakers do EVEx Brasil 2025 – Natal Energy Experience. Conheça os nomes confirmados:
               </p>
             </div>
             {/* <div css={radialElement}></div> */}

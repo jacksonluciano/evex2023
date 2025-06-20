@@ -117,15 +117,15 @@ const NatalDescription = () => {
             <Col lg={6} md={6} sm={12} css={description}>
               <div className='description_container'>
                 <p>
-                  A cidade de Natal foi escolhida para sediar o primeiro evento presencial do EVEx no Brasil, por estar localizada em uma região estratégica do Nordeste do país, com abundância de recursos naturais e grande potencial para a transição energética.
+                Natal será novamente a cidade-sede do EVEx Brasil, sobretudo, em virtude de sua localização estratégica no Nordeste do país, onde há abundância de recursos naturais para a geração de energia renovável e, assim, cada vez mais oportunidades na transição energética. 
                 </p>
 
                 <p>
-                  O seu estado, o Rio Grande do Norte, é um dos líderes na América Latina em geração de energias renováveis, principalmente eólica e solar. Além disso, conta com diversos projetos de hidrogênio verde e descarbonização, recebendo inúmeros investimentos e obtendo importantes avanços nos últimos anos.
+                O seu estado, o Rio Grande do Norte, é líder em produção de energia eólica no Brasil e vem recebendo inúmeros investimentos em diversas áreas energéticas, como a primeira planta-piloto de hidrogênio renovável da Petrobras (na Usina Termelétrica do Vale do Açu, em Alto do Rodrigues). A produção onshore de petróleo e gás natural na região também é expressiva.
                 </p>
 
                 <p>
-                  Os participantes do EVEx Brasil 2024 poderão aproveitar a realização do evento para conhecer as belezas da capital potiguar, uma vez que é considerada um dos destinos turísticos mais procurados do mundo, sendo famosa por suas belas praias, dunas e lagoas.
+                Além disso, os participantes do EVEx Brasil 2025 poderão aproveitar a realização do evento para conhecer as belezas da capital potiguar, uma vez que é considerada um dos destinos turísticos mais procurados do mundo, sendo famosa por suas belas praias, dunas e lagoas. 
                 </p>
               </div>
             </Col>
@@ -155,7 +155,7 @@ const NatalDescription = () => {
             <Col xs={12} md={7} sm={12} className='px-0' css={content}>
               <div className='content_container'>
                 <p>
-                  O EVEx Brasil 2024 será realizado no SERHS Natal Grand Hotel & Resort, que oferece toda a infraestrutura necessária para o formato do evento, além de ser condizente com o seu principal público-alvo – as mais importantes lideranças e autoridades dos mercados ibérico e latino-americano de energia.
+                  O EVEx Brasil 2025 será realizado no SERHS Natal Grand Hotel & Resort, que oferece toda a infraestrutura necessária para o formato do evento, além de ser condizente com o seu principal público-alvo – as mais importantes lideranças e autoridades dos mercados ibérico e latino-americano de energia.
                 </p>
 
                 <p>

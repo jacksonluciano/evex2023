@@ -18,27 +18,27 @@ const PapersTimeLine = () => {
         <Row>
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>
             <span>Data limite para envio de resumos:</span>
-            <span>07/06/2024</span>
+            <span>23/06/2025</span>
           </Col>
 
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>
             <span>Data limite para divulgação das propostas selecionadas:</span>
-            <span>10/06/2024</span>
+            <span>24/06/2025</span>
           </Col>
 
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>
             <span>Período para inscrição dos autores aprovados:</span>
-            <span>de 11/06/2024 a 17/06/2024</span>
+            <span>de 25/06/2025 a 27/06/2025</span>
           </Col>
 
           <Col xs={12} sm={12} lg={6} css={data} className='px-0'>
             <span>Apresentação no evento:</span>
-            <span>de 03/07/2024 a 04/07/2024</span>
+            <span>de 03/07/2025 e 04/07/2025</span>
           </Col>
 
           <Col xs={12} css={data} className='px-0'>
             <span>Data limite para envio da versão final dos trabalhos:</span>
-            <span>30/09/2024</span>
+            <span>31/10/2025</span>
           </Col>
         </Row>
       </Container>

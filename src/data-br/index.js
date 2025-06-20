@@ -575,34 +575,9 @@ export const TeamOneData = {
       designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia de Portugal",
     },
     {
-      image: Speaker02,
-      name: "Elbia Gannoum",
-      designation: "Presidente, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
-    },
-    // {
-    //   image: Speaker06,
-    //   name: "Alexandre Zucarato",
-    //   designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico",
-    // },
-    {
-      image: Speaker07,
-      name: "Heloísa Borges",
-      designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
-    },
-    {
-      image: Speaker08,
-      name: "Wagner Ferreira",
-      designation: "Diretor Institucional e Jurídico, ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica",
-    },
-    {
-      image: Speaker09,
-      name: "Maria João Rolim",
-      designation: "Sócia, Rolim Goulart Cardoso Advogados",
-    },
-    {
-      image: Speaker10,
-      name: "Luís Barroso",
-      designation: "CEO, Mobi.E",
+      image: Speaker27,
+      name: "André Pepitone",
+      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
     },
     {
       image: Speaker11,
@@ -610,49 +585,14 @@ export const TeamOneData = {
       designation: "Diretora Executiva, ABIHV – Associação Brasileira da Indústria de Hidrogênio Verde",
     },
     {
-      image: Speaker12,
-      name: "Gustavo De Marchi",
-      designation: "Consultor Jurídico, FGV Energia",
+      image: Speaker19,
+      name: "Filipe Matias",
+      designation: "Diretor de Serviços Jurídicos"
     },
     {
-      image: Speaker13,
-      name: "Renata Isfer",
-      designation: "Presidente, ABiogás – Associação Brasileira do Biogás",
-    },
-    {
-      image: Speaker14,
-      name: "Caio César Cavalcanti",
-      designation: "Presidente e Fundador, EVEx",
-    },
-    {
-      image: Speaker15,
-      name: "Solange David ",
-      designation: "Chair Women in Energy, CIGRE Internacional",
-    },
-    {
-      image: Speaker16,
-      name: "Camila Schoti",
-      designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
-    },
-    // {
-    //   image: Speaker17,
-    //   name: "Cácia Pimentel ",
-    //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
-    // },
-    {
-      image: Speaker27,
-      name: "André Pepitone",
-      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
-    },
-    {
-      image: Speaker28,
-      name: "José Aldemir Freire",
-      designation: "Diretor de Planejamento, Banco do Nordeste",
-    },
-    {
-      image: Speaker29,
-      name: "Marina Melo",
-      designation: "Diretora Presidente, POTIGÁS – Companhia Potiguar de Gás",
+      image: Speaker09,
+      name: "Maria João Rolim",
+      designation: "Sócia, Rolim Goulart Cardoso Advogados",
     },
     {
       image: Speaker30,
@@ -660,34 +600,44 @@ export const TeamOneData = {
       designation: "Presidente, Bahiagás – Companhia de Gás da Bahia",
     },
     {
-      image: Speaker31,
-      name: "Larissa Dantas",
-      designation: "Gerente de Relações Institucionais, 3R Petroleum",
+      image: Speaker08,
+      name: "Wagner Ferreira",
+      designation: "Diretor Institucional e Jurídico, ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica",
     },
     {
-      image: Speaker32,
-      name: "Silvio Torquato",
-      designation: "Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte",
+      image: Speaker16,
+      name: "Camila Schoti",
+      designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
+    },
+    // {
+    //   image: Speaker02,
+    //   name: "Elbia Gannoum",
+    //   designation: "Presidente, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    // },
+    // {
+    //   image: Speaker06,
+    //   name: "Alexandre Zucarato",
+    //   designation: "Diretor de Planejamento, ONS – Operador Nacional do Sistema Elétrico",
+    // },
+    // {
+    //   image: Speaker07,
+    //   name: "Heloísa Borges",
+    //   designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
+    // },
+    {
+      image: Speaker10,
+      name: "Luís Barroso",
+      designation: "CEO, Mobi.E",
     },
     {
-      image: Speaker33,
-      name: "Wander Azevedo ",
-      designation: "Diretor de Comercialização de Energia, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional ",
+      image: Speaker15,
+      name: "Solange David ",
+      designation: "Chair Women in Energy, CIGRE Internacional",
     },
     {
-      image: Speaker34,
-      name: "Thiago Ivanoski ",
-      designation: "Diretor de Estudos Econômico-Energéticos e Ambientais, EPE – Empresa de Pesquisa Energética ",
-    },
-    {
-      image: Speaker35,
-      name: "Eduardo Rossi",
-      designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
-    },
-    {
-      image: Speaker36,
-      name: "Matheus Noronha",
-      designation: "Head de Energia Eólica Offshrore, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+      image: Speaker29,
+      name: "Marina Melo",
+      designation: "Diretora Presidente, POTIGÁS – Companhia Potiguar de Gás",
     },
     {
       image: Speaker37,
@@ -695,110 +645,172 @@ export const TeamOneData = {
       designation: "Procurador do Estado do Rio Grande do Norte",
     },
     {
-      image: Speaker58,
-      name: "Paulo Prunzel",
-      designation: "Engenheiro de Processo com Especialização em Transição Energética, Petrobras",
-    },
-    {
-      image: Speaker38,
-      name: "Reynaldo Passanezi",
-      designation: "CEO, CEMIG – Companhia Energética de Minas Gerais",
-    },
-    {
-      image: Speaker39,
-      name: "Zeca Melo",
-      designation: "Diretor Superintendente, SEBRAE-RN",
-    },
-    {
-      image: Speaker40,
-      name: "Hugo Fonseca",
-      designation: "Coordenador de Desenvolvimento Energético do Estado do Rio Grande do Norte",
-    },
-    {
       image: Speaker41,
       name: "Mario González",
       designation: "Coordenador do Grupo Creation, UFRN – Universidade Federal do Rio Grande do Norte",
     },
-    {
-      image: Speaker42,
-      name: "Nayara Machado",
-      designation: "Jornalista, epbr",
-    },
-    {
-      image: Speaker43,
-      name: "Rodrigo Polito",
-      designation: "Jornalista Especializado no Setor de Energia, Lead Specialist da PSR",
-    },
-    {
-      image: Speaker44,
-      name: "Luiz Eduardo Diniz Araújo",
-      designation: "Sócio, Wald, Antunes, Vita e Blattner Advogados",
-    },
-    {
-      image: Speaker45,
-      name: "Roberta Nanini Rolim",
-      designation: "Diretora de Regulação, CEMIG – Companhia Energética de Minas Gerais",
-    },
-    {
-      image: Speaker46,
-      name: "Rossana Fonseca",
-      designation: "Sócia, NDF Advogados",
-    },
-    {
-      image: Speaker47,
-      name: "Fernado Mosna",
-      designation: "Diretor, ANEEL – Agência Nacional de Energia Elétrica",
-    },
-    {
-      image: Speaker48,
-      name: "Gerusa Magalhães",
-      designation: "Vice-Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
-    },
-    {
-      image: Speaker49,
-      name: "Bernardo Sicsú",
-      designation: "Vice-Presidente de Estratégia, ABRACEEL – Associação Brasileira dos Comercializadores de Energia",
-    },
-    {
-      image: Speaker50,
-      name: "Marina Alves",
-      designation: "Diretora de Estratégia, Políticas e Projetos, ADENE – Agência para a Energia",
-    },
-    {
-      image: Speaker51,
-      name: "Rosana Santos",
-      designation: "Diretora Executiva, Instituto E+ Transição Energética",
-    },
-    {
-      image: Speaker52,
-      name: "Karine Fragoso",
-      designation: "Gerente Geral de Petróleo, Gás, Energias e Naval, Firjan SENA",
-    },
-    {
-      image: Speaker53,
-      name: "Lorena Roosevelt",
-      designation: "Gestora, Polo SEBRAE de Energias Renováveis",
-    },
-    {
-      image: Speaker54,
-      name: "Aurélien Maudonnet",
-      designation: "CEO, Helexia Brasil",
-    },
+    // {
+    //   image: Speaker12,
+    //   name: "Gustavo De Marchi",
+    //   designation: "Consultor Jurídico, FGV Energia",
+    // },
+    // {
+    //   image: Speaker13,
+    //   name: "Renata Isfer",
+    //   designation: "Presidente, ABiogás – Associação Brasileira do Biogás",
+    // },
+    // {
+    //   image: Speaker14,
+    //   name: "Caio César Cavalcanti",
+    //   designation: "Presidente e Fundador, EVEx",
+    // },
+
+   
+    // {
+    //   image: Speaker17,
+    //   name: "Cácia Pimentel ",
+    //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
+    // },
+
+    // {
+    //   image: Speaker28,
+    //   name: "José Aldemir Freire",
+    //   designation: "Diretor de Planejamento, Banco do Nordeste",
+    // },
+   
+   
+    // {
+    //   image: Speaker31,
+    //   name: "Larissa Dantas",
+    //   designation: "Gerente de Relações Institucionais, 3R Petroleum",
+    // },
+    // {
+    //   image: Speaker32,
+    //   name: "Silvio Torquato",
+    //   designation: "Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte",
+    // },
+    // {
+    //   image: Speaker33,
+    //   name: "Wander Azevedo ",
+    //   designation: "Diretor de Comercialização de Energia, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional ",
+    // },
+    // {
+    //   image: Speaker34,
+    //   name: "Thiago Ivanoski ",
+    //   designation: "Diretor de Estudos Econômico-Energéticos e Ambientais, EPE – Empresa de Pesquisa Energética ",
+    // },
+    // {
+    //   image: Speaker35,
+    //   name: "Eduardo Rossi",
+    //   designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
+    // },
+    // {
+    //   image: Speaker36,
+    //   name: "Matheus Noronha",
+    //   designation: "Head de Energia Eólica Offshrore, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    // },
+
+    // {
+    //   image: Speaker58,
+    //   name: "Paulo Prunzel",
+    //   designation: "Engenheiro de Processo com Especialização em Transição Energética, Petrobras",
+    // },
+    // {
+    //   image: Speaker38,
+    //   name: "Reynaldo Passanezi",
+    //   designation: "CEO, CEMIG – Companhia Energética de Minas Gerais",
+    // },
+    // {
+    //   image: Speaker39,
+    //   name: "Zeca Melo",
+    //   designation: "Diretor Superintendente, SEBRAE-RN",
+    // },
+    // {
+    //   image: Speaker40,
+    //   name: "Hugo Fonseca",
+    //   designation: "Coordenador de Desenvolvimento Energético do Estado do Rio Grande do Norte",
+    // },
+
+    // {
+    //   image: Speaker42,
+    //   name: "Nayara Machado",
+    //   designation: "Jornalista, epbr",
+    // },
+    // {
+    //   image: Speaker43,
+    //   name: "Rodrigo Polito",
+    //   designation: "Jornalista Especializado no Setor de Energia, Lead Specialist da PSR",
+    // },
+    // {
+    //   image: Speaker44,
+    //   name: "Luiz Eduardo Diniz Araújo",
+    //   designation: "Sócio, Wald, Antunes, Vita e Blattner Advogados",
+    // },
+    // {
+    //   image: Speaker45,
+    //   name: "Roberta Nanini Rolim",
+    //   designation: "Diretora de Regulação, CEMIG – Companhia Energética de Minas Gerais",
+    // },
+    // {
+    //   image: Speaker46,
+    //   name: "Rossana Fonseca",
+    //   designation: "Sócia, NDF Advogados",
+    // },
+    // {
+    //   image: Speaker47,
+    //   name: "Fernado Mosna",
+    //   designation: "Diretor, ANEEL – Agência Nacional de Energia Elétrica",
+    // },
+    // {
+    //   image: Speaker48,
+    //   name: "Gerusa Magalhães",
+    //   designation: "Vice-Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
+    // },
+    // {
+    //   image: Speaker49,
+    //   name: "Bernardo Sicsú",
+    //   designation: "Vice-Presidente de Estratégia, ABRACEEL – Associação Brasileira dos Comercializadores de Energia",
+    // },
+    // {
+    //   image: Speaker50,
+    //   name: "Marina Alves",
+    //   designation: "Diretora de Estratégia, Políticas e Projetos, ADENE – Agência para a Energia",
+    // },
+    // {
+    //   image: Speaker51,
+    //   name: "Rosana Santos",
+    //   designation: "Diretora Executiva, Instituto E+ Transição Energética",
+    // },
+    // {
+    //   image: Speaker52,
+    //   name: "Karine Fragoso",
+    //   designation: "Gerente Geral de Petróleo, Gás, Energias e Naval, Firjan SENA",
+    // },
+    // {
+    //   image: Speaker53,
+    //   name: "Lorena Roosevelt",
+    //   designation: "Gestora, Polo SEBRAE de Energias Renováveis",
+    // },
+    // {
+    //   image: Speaker54,
+    //   name: "Aurélien Maudonnet",
+    //   designation: "CEO, Helexia Brasil",
+    // },
     // {
     //   image: Speaker55,
     //   name: "Marina Meyer",
     //   designation: "Diretora Jurídica, INEL – Instituto Nacional de Energia Limpa",
     // },
-    {
-      image: Speaker56,
-      name: "Daniel Faro",
-      designation: "Gerente Geral de Geração Renovável da Petrobras",
-    },
-    {
-      image: Speaker57,
-      name: "Dirceu Simabucuru",
-      designation: "Diretor de ESG e Sustentabilidade da CDL Natal ",
-    },
+    // {
+    //   image: Speaker56,
+    //   name: "Daniel Faro",
+    //   designation: "Gerente Geral de Geração Renovável da Petrobras",
+    // },
+    // {
+    //   image: Speaker57,
+    //   name: "Dirceu Simabucuru",
+    //   designation: "Diretor de ESG e Sustentabilidade da CDL Natal ",
+    // },
   ]
 };
 
