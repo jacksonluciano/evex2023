@@ -75,11 +75,11 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
 
               <div css={event}>
-                <p css={under}>Cerimônia de abertura</p>
+                <p css={under}>Cerimônia de Abertura</p>
               </div>
 
               <p css={principalEventDescription}>
-                <b>Boas Vindas</b><br/>
+                <b>Boas-Vindas</b><br/>
               </p>
 
               <p css={principalEventDescription}>
@@ -126,8 +126,8 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                    <p className="participant_name">Representante do Banco do Nordeste</p>
-                    <p className="participant_role"></p>
+                    <p className="participant_name">José Aldemir Freire</p>
+                    <p className="participant_role">Diretor de Planejamento do Banco do Nordeste do Brasil</p>
                 </div>
                 <div className="participant">
                 <p className="participant_name">Maria João Rolim – Moderadora</p>
@@ -420,7 +420,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Natália Bezutti – Moderadora (a confirmar)</p>
+                <p className="participant_name">Natália Bezutti – Moderadora</p>
                 <p className="participant_role">
                 Jornalista e Sócia da MegaWhat
                 </p>
@@ -626,9 +626,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Rosana Santos</p>
+                  <p className="participant_name">Clauber Leite</p>
                   <p className="participant_role">
-                  Diretora Executiva do Instituto E+ Transição Energética   
+                  Diretor de Energia Sustentável e Bioeconomia do Instituto E+ Transição Energética    
                   </p>
                 </div>
                 <div className="participant">
@@ -709,9 +709,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Rodrigo Ferreira (a confirmar)</p>
+                  <p className="participant_name">Frederico Rodrigues</p>
                   <p className="participant_role">
-                  Presidente Executivo da ABRACEEL – Associação Brasileira dos Comercializadores de Energia    
+                  Vice-Presidente Executivo da ABRACEEL – Associação Brasileira dos Comercializadores de Energia    
                   </p>
                 </div>
                 <div className="participant">
@@ -755,6 +755,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   <p className="participant_name">Manuel Casquiço</p>
                   <p className="participant_role">
                   Diretor de Indústria e Transição Energética da ADENE – Agência para a Energia de Portugal     
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Roberto Wagner</p>
+                  <p className="participant_role">
+                  Presidente do CREA-RN – Conselho Regional de Engenharia e Agronomia do Rio Grande do Norte    
                   </p>
                 </div>
                 <div className="participant">
@@ -833,6 +839,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
+                  <p className="participant_name">Maria João Rolim</p>
+                  <p className="participant_role">
+                  Sócia do Rolim Goulart Cardoso Advogados  
+                  </p>
+                </div>
+                <div className="participant">
                   <p className="participant_name">Gabriel Chiappini – Moderador </p>
                   <p className="participant_role">
                   Jornalista da Agência Eixos    
@@ -848,7 +860,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <div>
                 <div css={principalEvent}>
                   <span>16h00</span>
-                  <p>Natal Energy MasterClasses</p>
+                  <p>Natal Energy Talks</p>
                 </div>
                 <p css={principalEventDescription}>
                 <b>Eólicas Offshore: cenário atual e perspectivas futuras  </b>
@@ -904,15 +916,26 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Larisse Stelitano (a confirmar)</p>
+                  <p className="participant_name">Rudinei Miranda</p>
                   <p className="participant_role">
-                  Diretora Técnica Comercial da Bahiagás – Companhia de Gás da Bahia      
+                  Presidente da ANER – Associação Nacional das Entidades Representativas de Energias Renováveis      
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Maria João Rolim – Moderadora</p>
+                  <p className="participant_name">Giovane Rosa</p>
                   <p className="participant_role">
-                  Sócia do Rolim Goulart Cardoso Advogados
+                  CEO da Gás Orgânico
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Representante da Bahiagás</p>
+                  <p className="participant_role">
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Moderador a definir</p>
+                  <p className="participant_role">
+
                   </p>
                 </div>
               </div>

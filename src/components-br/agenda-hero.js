@@ -27,8 +27,8 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
                 onClick={() => handleClickBotao(3)}
                 className={agendaSelecionada === 3 && 'selected'}
               >
-                <p>Quarta-feira</p>
-                <p>03/07/2024</p>
+                <p>Quinta-feira</p>
+                <p>03/07/2025</p>
               </a>
             </div>
 
@@ -37,8 +37,8 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
                 onClick={() => handleClickBotao(4)}
                 className={agendaSelecionada === 4 && 'selected'}
               >
-                <p>Quinta-feira</p>
-                <p>04/07/2024</p>
+                <p>Sexta-feira</p>
+                <p>04/07/2025</p>
               </a>
             </div>
           </div>

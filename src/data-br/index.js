@@ -124,8 +124,8 @@ import Speaker58 from "@/images-br/speakers/paulo-prunzel.png"
 
 
 
-import Normas from '@/images-br/files/Regras de formatação - EVEx Brasil 2024.pdf'
-import Eixos from '@/images-br/papers/eixos_tematicos.jpg'
+import Normas from '@/images-br/files/Regras de Formatação - Artigo 2025.pdf'
+import Eixos from '@/images-br/files/Eixos Temáticos - EVEx Brasil 2025.pdf'
 
 
 import instagramIcon from "@/images-br/instagram.svg"
@@ -438,7 +438,7 @@ export const BigCtaBrData = [
   {
     date: 'Call for \n Papers/ \nProjects',
     text: 
-        `Não perca a chance de apresentar o seu trabalho no EVEx Brasil 2025! A Call for Papers/Projects está aberta até o dia 23 de junho. Envie seu resumo e participe!
+        `Não perca a chance de apresentar o seu trabalho no EVEx Brasil 2025! A Call for Papers/Projects está aberta até o dia 26 de junho. Envie seu resumo e participe!
 `,
         button: 'Saiba mais',
         link: '/brasil/papers'
@@ -496,7 +496,8 @@ export const downloadLinks = [
   {
     number: 3,
     name: 'Formulário de Resumo',
-    url: 'https://www.playbook.com/s/jacksonides/DiP39QUHTmbHUt4wDcbPHoNu?assetToken=cFhJTkRq8iZ2sgHgPEAHpWmx'
+    url: 'https://www.playbook.com/s/jacksonides/g6st2einXv88tyfCvjzEMLXS'
+    
   },
   // {
   //   number: 4,
