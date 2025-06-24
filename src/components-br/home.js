@@ -2,9 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { jsx } from '@emotion/react'
 import { Link } from "gatsby";
-import homePurple from '@/images-br/home-purple.jpg';
-import homeBlue from '@/images-br/home-blue.jpg';
-import homeYellow from '@/images-br/home-yellow.jpg';
+import homePurple from '@/images-br/home/IMG_3895-min.jpeg';
+import homeBlue from '@/images-br/home/IMG_3867-min.jpeg';
+import homeYellow from '@/images-br/home/IMG_0086-min.jpeg';
+import homeGreen from '@/images-br/home/IMG_0085-min.jpeg';
 
 import { 
     homeBg,
@@ -42,6 +43,7 @@ const Home = ({ title, name }) => {
       setBackgroundImage((prevImage) => {
         if (prevImage === homePurple) return homeBlue;
         if (prevImage === homeBlue) return homeYellow;
+        if (prevImage === homeYellow) return homeGreen;
         return homePurple;
       });
 
@@ -57,7 +59,7 @@ const Home = ({ title, name }) => {
         return '#000000';
       });
 
-    }, 7000); 
+    }, 4000); 
 
     return () => clearInterval(interval);
   }, []);
