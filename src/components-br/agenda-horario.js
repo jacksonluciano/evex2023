@@ -114,20 +114,32 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">André Pepitone</p>
+                  <p className="participant_name">Teresa Ponce de Leão</p>
                   <p className="participant_role">
-                  Diretor Executivo Financeiro de Itaipu Binacional
+                  Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">João Hélio Cavalcanti</p>
+                  <p className="participant_name">Wander Azevedo</p>
                   <p className="participant_role">
-                    Diretor Técnico do SEBRAE-RN
+                  Diretor de Comercialização de Energia, Projetos Estratégicos e Estudos de Mercado da ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
                   </p>
+                </div>
+                <div className="participant">
+                    <p className="participant_name">André Pepitone</p>
+                    <p className="participant_role">Diretor Executivo Financeiro da Itaipu Binacional </p>
+                </div>
+                <div className="participant">
+                    <p className="participant_name">José Marcelo Costa</p>
+                    <p className="participant_role">Procurador do Estado do Rio Grande do Norte</p>
                 </div>
                 <div className="participant">
                     <p className="participant_name">José Aldemir Freire</p>
                     <p className="participant_role">Diretor de Planejamento do Banco do Nordeste do Brasil</p>
+                </div>
+                <div className="participant">
+                    <p className="participant_name">Zeca Melo </p>
+                    <p className="participant_role">Superintendente do SEBRAE-RN</p>
                 </div>
                 <div className="participant">
                 <p className="participant_name">Maria João Rolim – Moderadora</p>
@@ -268,9 +280,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div css={participantsContainer}>
               <div className="participant">
                 <p className="participant_name">• Exposição de Estudo: Armazenamento de Energia</p>
-                <p className="participant_name">Manuel Casquiço</p>
+                <p className="participant_name">Jorge Marques</p>
                 <p className="participant_role">
-                Diretor de Indústria e Transição Energética da ADENE – Agência para a Energia de Portugal
+                Diretor de Formação, Informação e Educação da ADENE – Agência para a Energia de Portugal
                 </p>
               </div>
               <div className="participant">
@@ -357,21 +369,21 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <div>
               <div css={principalEvent}>
                 <span>14h00</span>
-                <p>Natal Energy MasterClass | Apagão Ibérico 2025</p>
+                <p>Natal Energy MasterClass | Segurança de Mercado</p>
               </div>
 
             </div>
             <div css={participantsContainer}>
               <div className="participant">
-                <p className="participant_name">Filipe Matias Santos</p>
+                <p className="participant_name">Eduardo Rossi</p>
                 <p className="participant_role">
-                Diretor Jurídico da ERSE – Entidade Reguladora dos Serviços Energéticos de Portugal 
+                Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica 
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">José Marcelo Costa – Moderador</p>
+                <p className="participant_name">Caio Alves – Moderador</p>
                 <p className="participant_role">
-                Procurador do Estado do Rio Grande do Norte
+                Head de Regulação do Rolim Goulart Cardoso Advogados
                 </p>
               </div>
             </div>
@@ -402,15 +414,15 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Adriana Waltrick (a confirmar)</p>
+                <p className="participant_name">Adriana Waltrick</p>
                 <p className="participant_role">
                 CEO da SPIC Brasil  
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Diogo Mac Cord (a confirmar)</p>
+                <p className="participant_name">Rudinei Miranda</p>
                 <p className="participant_role">
-                Vice-Presidente de Estratégia, Novos Negócios e Transformação Digital da COPEL
+                Presidente da ANER – Associação Nacional das Entidades Representativas de Energias Renováveis
                 </p>
               </div>
               <div className="participant">
@@ -430,7 +442,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
             <div css={event}>
               <span>15h30</span>
-              <p>Coffee Break</p>
+              <p>Coffee Break powered by CEMIG</p>
             </div>
 
             <div>
@@ -451,21 +463,15 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">Reynaldo Passanezi</p>
+                <p className="participant_name">Roberta Nanini</p>
                 <p className="participant_role">
-                CEO da CEMIG – Companhia Energética de Minas Gerais 
+                Diretora de Regulação e Relações Institucionais da CEMIG – Companhia Energética de Minas Gerais  
                 </p>
               </div>
               <div className="participant">
                 <p className="participant_name">Marisete Pereira</p>
                 <p className="participant_role">
                 Presidente da ABRAGE – Associação Brasileira de Empresas Geradoras de Energia Elétrica 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Wander Azevedo </p>
-                <p className="participant_role">
-                Diretor de Comercialização de Energia, Projetos Estratégicos e Estudos de Mercado da ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
                 </p>
               </div>
               <div className="participant">
@@ -498,30 +504,30 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </p>
             </div>
             <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Pietro Mendes</p>
-                <p className="participant_role">
-                Secretário de Petróleo, Gás Natural e Biocombustíveis do Ministério de Minas e Energia do Brasil   
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Luiz Gavazza</p>
-                <p className="participant_role">
-                CEO da Bahiagás – Companhia de Gás da Bahia
-                </p>
-              </div>          
-              <div className="participant">
+            <div className="participant">
                 <p className="participant_name">Marina Melo</p>
                 <p className="participant_role">
                 CEO da Potigás – Companhia Potiguar de Gás 
                 </p>
-              </div>          
+              </div>
               <div className="participant">
-                <p className="participant_name">Carlos Camargo</p>
+                <p className="participant_name">Carlos Camargo de Colón</p>
                 <p className="participant_role">
                 CEO da Gasmig – Companhia de Gás de Minas Gerais 
                 </p>
-              </div>          
+              </div>
+              <div className="participant">
+                <p className="participant_name">Cristiane Schimidt</p>
+                <p className="participant_role">
+                CEO da MSGÁS – Companhia de Gás do Estado de Mato Grosso do Sul 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Magno Bernardo, representando Luiz Gavazza,</p>
+                <p className="participant_role">
+                CEO da Bahiagás – Companhia de Gás da Bahia
+                </p>
+              </div>                                
               <div className="participant">
                 <p className="participant_name">Felipe Maciel – Moderador</p>
                 <p className="participant_role">
@@ -557,12 +563,6 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 Diretor Executivo da Agência Eixos 
                 </p>
               </div>
-              <div className="participant">
-                <p className="participant_name">•	Entidade Setorial do Ano</p>
-                <p className="participant_role">
-                ADENE – Agência para a Energia 
-                </p>
-              </div>
             </div>
 
             <div css={event}>
@@ -570,7 +570,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               <p>Coquetel powered by EVEx – Energy Virtual Experience</p>
             </div>
             <div css={event}>
-              <span>20h00</span>
+              <span>20h30</span>
               <p>Encerramento do primeiro dia</p>
             </div>
 
@@ -638,6 +638,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
+                  <p className="participant_name">Yuri Tisi</p>
+                  <p className="participant_role">
+                  Presidente Executivo da ABREN – Associação Brasileira de Recuperação Energética de Resíduos    
+                  </p>
+                </div>
+                <div className="participant">
                   <p className="participant_name">Rossana Fonseca  – Moderadora</p>
                   <p className="participant_role">
                   Sócia do NDF Advogados   
@@ -645,44 +651,23 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 </div>
               </div>
 
-              {/* <div>
+              <div>
                 <div css={principalEvent}>
-                  <span>09h45</span>
-                  <p>Natal Energy Talks</p>
+                  <span>10h00</span>
+                  <p>Entrega do Prêmio EVEx Brasil 2025</p>
                 </div> 
-                <p css={principalEventDescription}>
-                  <b>Rota das Infraestruturas Energéticas: modernização e resiliência frente a situações climáticas adversas</b>
-                </p>
               </div>
               <div css={participantsContainer}>
                 <div className="participant">
-                  <p className="participant_name">Wagner Ferreira</p>
+                  <p className="participant_name">•	Entidade Setorial do Ano</p>
                   <p className="participant_role">
-                  Diretor Institucional e Jurídico da ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica    
+                  ADENE – Agência para a Energia     
                   </p>
                 </div>
-                <div className="participant">
-                  <p className="participant_name">Luiz Eduardo Diniz Araújo</p>
-                  <p className="participant_role">
-                  Sócio do Wald, Antunes, Vita e Blattner Advogados    
-                  </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Roberta Nanini Rolim</p>
-                  <p className="participant_role">
-                  Diretora de Regulação da CEMIG – Companhia Energética de Minas Gerais    
-                  </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Rossana Fonseca – Moderadora </p>
-                  <p className="participant_role">
-                  Sócia do Escritório NDF Advogados     
-                  </p>
-                </div>
-              </div> */}
+              </div>
 
               <div css={event}>
-                <span>10h00</span>
+                <span>10h10</span>
                 <p>Coffe Break</p>
               </div>
 
@@ -697,15 +682,15 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
               <div css={participantsContainer}>
                 <div className="participant">
-                  <p className="participant_name">Gerusa Côrtes</p>
-                  <p className="participant_role">
-                  Vice-Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica    
-                  </p>
-                </div>
-                <div className="participant">
                   <p className="participant_name">Filipe Matias Santos</p>
                   <p className="participant_role">
                   Diretor Jurídico da ERSE – Entidade Reguladora dos Serviços Energéticos de Portugal    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Cesar Pereira</p>
+                  <p className="participant_role">
+                  Gerente Executivo de Regulação, Informações ao Mercado & Capacitação da CCEE – Câmara de Comercialização de Energia Elétrica    
                   </p>
                 </div>
                 <div className="participant">
@@ -718,6 +703,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   <p className="participant_name">Camila Schotti</p>
                   <p className="participant_role">
                   Diretora Executiva de Marketing e Growth da (re)energisa    
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Williman Oliveira</p>
+                  <p className="participant_role">
+                  Presidente da APER – Associação Potiguar de Energias Renováveis    
                   </p>
                 </div>
                 <div className="participant">
@@ -792,20 +783,20 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   <p>Natal Energy MasterClass</p>
                 </div>
                 <p css={principalEventDescription}>
-                <b>Segurança de Mercado</b>
+                <b>Apagão Ibérico 2025</b>
                 </p>
               </div>
               <div css={participantsContainer}>
                 <div className="participant">
-                  <p className="participant_name">Eduardo Rossi</p>
+                  <p className="participant_name">Filipe Matias Santos</p>
                   <p className="participant_role">
-                  Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica   
+                  Diretor Jurídico da ERSE – Entidade Reguladora dos Serviços Energéticos de Portugal   
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Caio Alves – Moderador </p>
+                  <p className="participant_name">José Marcelo Costa – Moderador </p>
                   <p className="participant_role">
-                  Head de Regulação do Rolim Goulart Cardoso Advogados    
+                  Procurador do Estado do Rio Grande do Norte   
                   </p>
                 </div>
               </div>
@@ -868,9 +859,14 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </div>
               <div css={participantsContainer}>
                 <div className="participant">
+                  <p className="participant_name">Werner Farkatt</p>
+                  <p className="participant_role">
+                  Presidente do IDEMA – Instituto de Desenvolvimento Sustentável e Meio Ambiente do Rio Grande do Norte  </p>
+                </div>
+                <div className="participant">
                   <p className="participant_name">Mario González </p>
                   <p className="participant_role">
-                  Coordenador do Creation/UFRN – Universidade Federal do Rio Grande do Norte                  </p>
+                  Coordenador do Creation/UFRN – Universidade Federal do Rio Grande do Norte</p>
                 </div>
                 <div className="participant">
                   <p className="participant_name">Matheus Noronha </p>
@@ -910,32 +906,27 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Yuri Tisi</p>
-                  <p className="participant_role">
-                  Presidente Executivo da ABREN – Associação Brasileira de Recuperação Energética de Resíduos      
-                  </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Rudinei Miranda</p>
-                  <p className="participant_role">
-                  Presidente da ANER – Associação Nacional das Entidades Representativas de Energias Renováveis      
-                  </p>
-                </div>
-                <div className="participant">
                   <p className="participant_name">Giovane Rosa</p>
                   <p className="participant_role">
-                  CEO da Gás Orgânico
+                  CEO da Gás Orgânico     
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Representante da Bahiagás</p>
+                  <p className="participant_name">Magno Bernardo</p>
                   <p className="participant_role">
+                  Assessor de Tecnologia de Gás Natural da Bahiagás – Companhia de Gás da Bahia      
                   </p>
                 </div>
                 <div className="participant">
-                  <p className="participant_name">Moderador a definir</p>
+                  <p className="participant_name">Amanda Gondim</p>
                   <p className="participant_role">
-
+                  Coordenadora da Rede Brasileira de Bioquerosene e Hidrocarbonetos Sustentáveis para Aviação
+                  </p>
+                </div>
+                <div className="participant">
+                  <p className="participant_name">Leonardo Pivotto – Moderador</p>
+                  <p className="participant_role">
+                  Doutor em Desenvolvimento e Meio Ambiente e Docente do IFRN
                   </p>
                 </div>
               </div>
