@@ -70,13 +70,13 @@ import Speaker06 from "@/images-br/speakers/Alexandre-Zucarato.png"
 import Speaker07 from "@/images-br/speakers/Heloísa-Borges.png"
 import Speaker08 from "@/images-br/speakers/Wagner-Ferreira2.png"
 import Speaker09 from "@/images-br/speakers/Maria-João-Rolim2.png"
-import Speaker10 from "@/images-br/speakers/Luís-Barroso.png"
+import Speaker10 from "@/images-br/speakers/Luís-Barroso2.png"
 import Speaker11 from "@/images-br/speakers/Fernanda-Delgado2.png"
 import Speaker12 from "@/images-br/speakers/Gustavo-De-Marchi.png"
 import Speaker13 from "@/images-br/speakers/Renata-Beckert-Isfer.png"
 import Speaker14 from "@/images-br/speakers/caio.png"
 import Speaker15 from "@/images-br/speakers/Solange-David2.png"
-import Speaker16 from "@/images-br/speakers/Camila-Schoti.png"
+import Speaker16 from "@/images-br/speakers/Camila-Schoti2.png"
 import Speaker17 from "@/images-br/speakers/Cácia-Pimentel.png"
 import Speaker18 from "@/images-br/comite-br/carlosHenggler.png"
 import Speaker19 from "@/images-br/comite-br/Filipe-Matias.png"
@@ -99,17 +99,17 @@ import Speaker32 from "@/images-br/speakers/silvio-torquato.png"
 import Speaker33 from "@/images-br/speakers/wander-azevedo2.png"
 import Speaker34 from "@/images-br/speakers/thiago-ivanoski2.png"
 import Speaker35 from "@/images-br/speakers/eduardo-rossi2.png"
-import Speaker36 from "@/images-br/speakers/matheus-noronha.png"
+import Speaker36 from "@/images-br/speakers/matheus-noronha2.png"
 import Speaker37 from "@/images-br/speakers/jose-marcelo-costa2.png"
 import Speaker38 from "@/images-br/speakers/reynaldo-passanezi.png"
 import Speaker39 from "@/images-br/speakers/zeca-melo2.png"
 import Speaker40 from "@/images-br/speakers/hugo-fonseca2.png"
-import Speaker41 from "@/images-br/speakers/mario-gonzales.png"
+import Speaker41 from "@/images-br/speakers/mario-gonzales2.png"
 import Speaker42 from "@/images-br/speakers/nayara-machado.png"
 import Speaker43 from "@/images-br/speakers/rodrigo-polito.png"
 import Speaker44 from "@/images-br/speakers/luiz-eduardo.png"
 import Speaker45 from "@/images-br/speakers/roberta-nanini2.png"
-import Speaker46 from "@/images-br/speakers/rossana-fonseca.png"
+import Speaker46 from "@/images-br/speakers/rossana-fonseca2.png"
 import Speaker47 from "@/images-br/speakers/fernando-mosna.png"
 import Speaker48 from "@/images-br/speakers/gerusa-magalhaes.png"
 import Speaker49 from "@/images-br/speakers/bernardo-sicsu.png"
@@ -136,6 +136,28 @@ import Speaker69 from "@/images-br/speakers/marisete.png"
 import Speaker70 from "@/images-br/speakers/ricardo-simabuku.png"
 import Speaker71 from "@/images-br/speakers/carlos-camargo.png"
 import Speaker72 from "@/images-br/speakers/cristiane.png"
+import Speaker73 from "@/images-br/speakers/felipe-maciel.png"
+import Speaker74 from "@/images-br/speakers/alessandra-amaral.png"
+import Speaker75 from "@/images-br/speakers/clauber-leite.png"
+import Speaker76 from "@/images-br/speakers/angela-livino.png"
+import Speaker77 from "@/images-br/speakers/yuri-tisi.png"
+import Speaker78 from "@/images-br/speakers/cesar-pereira.png"
+import Speaker79 from "@/images-br/speakers/frederico.png"
+import Speaker80 from "@/images-br/speakers/silla.png"
+import Speaker81 from "@/images-br/speakers/elisa-bastos.png"
+import Speaker82 from "@/images-br/speakers/roberto-wagner.png"
+import Speaker83 from "@/images-br/speakers/manuel-casquiço.png"
+import Speaker84 from "@/images-br/speakers/leandro-xingó.png"
+import Speaker85 from "@/images-br/speakers/ligia-schlittler.png"
+import Speaker86 from "@/images-br/speakers/gabriel-chiappini.png"
+import Speaker87 from "@/images-br/speakers/werner-farkatt.png"
+import Speaker88 from "@/images-br/speakers/diogo.png"
+import Speaker89 from "@/images-br/speakers/giovane.png"
+import Speaker90 from "@/images-br/speakers/williman.png"
+import Speaker91 from "@/images-br/speakers/amanda.png"
+import Speaker92 from "@/images-br/speakers/rudinei.png"
+import Speaker93 from "@/images-br/speakers/leonardo.png"
+
 
 
 
@@ -740,16 +762,142 @@ export const TeamOneData = {
       name: "Cristiane Schimidt ",
       designation: "CEO, MSGÁS – Companhia de Gás do Estado de Mato Grosso do Sul",
     },
+    {
+      image: Speaker73,
+      name: "Felipe Maciel",
+      designation: "Diretor Executivo, agência eixos ",
+    },
+    {
+      image: Speaker74,
+      name: "Alessandra Amaral",
+      designation: "Presidente Executiva, ADELAT – Asociación de Distribuidoras de Energía Eléctrica Latinoamericanas  ",
+    },
+    {
+      image: Speaker75,
+      name: "Clauber Leite",
+      designation: "Diretor de Energia Sustentável e Bioeconomia, Instituto E+ Transição Energética  ",
+    },
+    {
+      image: Speaker76,
+      name: "Angela Livino",
+      designation: "Consultora de Energia, OLADE – Organização Latino-Americana de Energia",
+    },
+    {
+      image: Speaker77,
+      name: "Yuri Tisi",
+      designation: "Presidente Executivo, ABREN – Associação Brasileira de Recuperação Energética de Resíduos ",
+    },
+        {
+      image: Speaker46,
+      name: "Rossana Fonseca",
+      designation: "Sócia, NDF Advogados",
+    },
+    {
+      image: Speaker78,
+      name: "Cesar Pereira",
+      designation: "Gerente Executivo de Regulação, Informações ao Mercado & Capacitação, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker79,
+      name: "Frederico Rodrigues",
+      designation: "Vice-Presidente Executivo, ABRACEEL – Associação Brasileira dos Comercializadores de Energia ",
+    },
+    {
+      image: Speaker16,
+      name: "Camila Schoti",
+      designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
+    },
+    {
+      image: Speaker80,
+      name: "Silla Motta",
+      designation: "CEO, Donna Lamparina",
+    },
+    {
+      image: Speaker81,
+      name: "Elisa Bastos",
+      designation: "Diretora de Assuntos Corporativos, ONS – Operador Nacional do Sistema Elétrico",
+    },
+    {
+      image: Speaker10,
+      name: "Luís Barroso",
+      designation: "CEO, MOBI.E – Entidade Gestora da Rede de Mobilidade Elétrica de Portugal",
+    },
+    {
+      image: Speaker82,
+      name: "Roberto Wagner",
+      designation: "Presidente, CREA-RN – Conselho Regional de Engenharia e Agronomia do Rio Grande do Norte",
+    },
+    {
+      image: Speaker83,
+      name: "Manuel Casquiço",
+      designation: "Diretor de Indústria e Transição Energética, ADENE – Agência para a Energia de Portugal",
+    },
+    {
+      image: Speaker84,
+      name: "Leandro Xingó",
+      designation: "Diretor de Gestão Corporativa e Sustentabilidade, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional",
+    },
+    {
+      image: Speaker85,
+      name: "Lígia Schlittler",
+      designation: "Sócia, TozziniFreire Advogados",
+    },
+    {
+      image: Speaker86,
+      name: "Gabriel Chiappini",
+      designation: "Jornalista, agência eixos",
+    },
+    {
+      image: Speaker87,
+      name: "Werner Farkatt",
+      designation: "Presidente, IDEMA – Instituto de Desenvolvimento Sustentável e Meio Ambiente do Rio Grande do Norte",
+    },
+    {
+      image: Speaker41,
+      name: "Mario González",
+      designation: "Coordenador do Grupo Creation, UFRN – Universidade Federal do Rio Grande do Norte",
+    },
+       {
+      image: Speaker36,
+      name: "Matheus Noronha",
+      designation: "Head de Energia Eólica Offshrore, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    },
+    {
+      image: Speaker88,
+      name: "Diogo Pignataro",
+      designation: "Presidente, INTÉ – Instituto Nacional de Transição Energética ",
+    },
+    {
+      image: Speaker89,
+      name: "Giovane Rosa",
+      designation: "CEO, Gás Orgânico",
+    },
+    {
+      image: Speaker90,
+      name: "Williman Oliveira",
+      designation: "Presidente, APER – Associação Potiguar de Energias Renováveis",
+    },
+    {
+      image: Speaker91,
+      name: "Amanda Gondim",
+      designation: "Coordenadora, Rede Brasileira de Bioquerosene e Hidrocarbonetos Sustentáveis para Aviação",
+    },
+    {
+      image: Speaker92,
+      name: "Rudinei Miranda",
+      designation: "Presidente da ANER – Associação Nacional das Entidades Representativas de Energias Renováveis",
+    },
+    {
+      image: Speaker93,
+      name: "Leonardo Pivotto",
+      designation: "Docente, IFRN – Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+    },
     // {
     //   image: Speaker30,
     //   name: "Luiz Gavazza",
     //   designation: "Presidente, Bahiagás – Companhia de Gás da Bahia",
     // },
-    // {
-    //   image: Speaker16,
-    //   name: "Camila Schoti",
-    //   designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
-    // },
+
     // {
     //   image: Speaker02,
     //   name: "Elbia Gannoum",
@@ -765,19 +913,11 @@ export const TeamOneData = {
     //   name: "Heloísa Borges",
     //   designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
     // },
-    {
-      image: Speaker10,
-      name: "Luís Barroso",
-      designation: "CEO, Mobi.E",
-    },
+
    
 
 
-    {
-      image: Speaker41,
-      name: "Mario González",
-      designation: "Coordenador do Grupo Creation, UFRN – Universidade Federal do Rio Grande do Norte",
-    },
+
     // {
     //   image: Speaker12,
     //   name: "Gustavo De Marchi",
@@ -864,11 +1004,7 @@ export const TeamOneData = {
     //   name: "Roberta Nanini Rolim",
     //   designation: "Diretora de Regulação, CEMIG – Companhia Energética de Minas Gerais",
     // },
-    // {
-    //   image: Speaker46,
-    //   name: "Rossana Fonseca",
-    //   designation: "Sócia, NDF Advogados",
-    // },
+
     // {
     //   image: Speaker47,
     //   name: "Fernado Mosna",

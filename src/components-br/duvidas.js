@@ -105,7 +105,7 @@ const Duvidas = () => {
 
             <Col lg={6} md={6} sm={6} xs={6}>
               <h4 css={secDesk}>Promoção e Realização</h4>
-              <img src={LogoEvex} />
+              <img style={{width:'200px', height: 'auto'}} src={LogoEvex} />
             </Col>
 
             <Col lg={6} md={6} sm={6} xs={6}>

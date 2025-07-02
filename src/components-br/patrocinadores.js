@@ -26,6 +26,9 @@ import Img206 from '@/images-br/patrocinio/bancone.png'
 import Img207 from '@/images-br/patrocinio/mme.png'
 import Img208 from '@/images-br/patrocinio/gov.png'
 import Img209 from '@/images-br/patrocinio/copel.png'
+import Img210 from '@/images-br/patrocinio/ndf.png'
+import Img211 from '@/images-br/patrocinio/caputo.png'
+import Img212 from '@/images-br/patrocinio/ejup.png'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -145,6 +148,20 @@ const Patrocinadores = () => {
                     <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img196} /></a></li>
                     <li><a href="#" target="_blank"><img src={Img203} /></a></li>
                     <li><a href="#" target="_blank"><img src={Img209} /></a></li>
+                  </ul>
+                  {/* <ul>
+                    <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
+                    <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Pat12} /></a></li>
+                  </ul> */}
+               </section>
+               <br/><br/>
+               <section className='bronze'>
+                <h4 css={secDesk}>Patrocínio EXPO/BUSINESS</h4>
+                  <ul>
+                    <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img195} /></a></li>
+                    <li><a href="#" target="_blank"><img style={{width:'230px', height: 'auto'}} src={Img210} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img211} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img212} /></a></li>
                   </ul>
                   {/* <ul>
                     <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
