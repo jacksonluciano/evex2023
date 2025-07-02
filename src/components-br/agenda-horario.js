@@ -100,14 +100,6 @@ const AgendaHorario = ({ agendaSelecionada }) => {
               </p>
                 <div css={participantsContainer}>
                   <div className="participant">
-                    <p className="participant_name">Representante do Ministério de Minas e Energia do Brasil</p>
-                    <p className="participant_role"></p>
-                  </div>
-                  <div className="participant">
-                    <p className="participant_name">Representante do Ministério do Ambiente e Energia de Portugal</p>
-                    <p className="participant_role"></p>
-                  </div>
-                  <div className="participant">
                   <p className="participant_name">Alexandre Ramos</p>
                   <p className="participant_role">
                   Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica

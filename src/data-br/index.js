@@ -61,25 +61,26 @@ import EvexBrasilImg08 from '@/images-br/home-br/new/carousel-quemsomos-08.jpg'
 import EvexBrasilImg09 from '@/images-br/home-br/new/carousel-quemsomos-09.jpg'
 import EvexBrasilImg10 from '@/images-br/home-br/new/carousel-quemsomos-10.jpg'
 
-import Speaker01 from "@/images-br/speakers/Alexandre-Ramos.png"
+import Speaker01 from "@/images-br/speakers/Alexandre-Ramos2.png"
 import Speaker02 from "@/images-br/speakers/Elbia-Gannoum.png"
-import Speaker03 from "@/images-br/speakers/Nelson-Lage.png"
-import Speaker04 from "@/images-br/speakers/Agnes-da-Costa.png"
-import Speaker05 from "@/images-br/speakers/Teresa-Ponce-de-Leão.png"
+import Speaker03 from "@/images-br/speakers/Nelson-Lage2.png"
+import Speaker04 from "@/images-br/speakers/Agnes-da-Costa2.png"
+import Speaker05 from "@/images-br/speakers/Teresa-Ponce-de-Leão2.png"
 import Speaker06 from "@/images-br/speakers/Alexandre-Zucarato.png"
 import Speaker07 from "@/images-br/speakers/Heloísa-Borges.png"
-import Speaker08 from "@/images-br/speakers/Wagner-Ferreira.png"
-import Speaker09 from "@/images-br/speakers/Maria-João-Rolim.png"
+import Speaker08 from "@/images-br/speakers/Wagner-Ferreira2.png"
+import Speaker09 from "@/images-br/speakers/Maria-João-Rolim2.png"
 import Speaker10 from "@/images-br/speakers/Luís-Barroso.png"
-import Speaker11 from "@/images-br/speakers/Fernanda-Delgado.png"
+import Speaker11 from "@/images-br/speakers/Fernanda-Delgado2.png"
 import Speaker12 from "@/images-br/speakers/Gustavo-De-Marchi.png"
 import Speaker13 from "@/images-br/speakers/Renata-Beckert-Isfer.png"
-import Speaker14 from "@/images-br/speakers/Caio-César-Cavalcanti.png"
-import Speaker15 from "@/images-br/speakers/Solange-David.png"
+import Speaker14 from "@/images-br/speakers/caio.png"
+import Speaker15 from "@/images-br/speakers/Solange-David2.png"
 import Speaker16 from "@/images-br/speakers/Camila-Schoti.png"
 import Speaker17 from "@/images-br/speakers/Cácia-Pimentel.png"
 import Speaker18 from "@/images-br/comite-br/carlosHenggler.png"
 import Speaker19 from "@/images-br/comite-br/Filipe-Matias.png"
+import Speaker199 from "@/images-br/speakers/Filipe-Matias2.png"
 import Speaker20 from "@/images-br/comite-br/Ricardo-nunes.png"
 
 import Speaker21 from "@/images-br/comite-br/Rui-Pestana.png"
@@ -88,26 +89,26 @@ import Speaker23 from "@/images-br/comite-br/Caio-Alves.png"
 import Speaker24 from "@/images-br/comite-br/Alice-Khouri.png"
 import Speaker25 from "@/images-br/comite-br/Hirdan-Medeiros.png"
 
-import Speaker26 from "@/images-br/speakers/fatima-bezerra.png"
-import Speaker27 from "@/images-br/speakers/andre-pepitone.png"
-import Speaker28 from "@/images-br/speakers/jose-aldemir-freire.png"
-import Speaker29 from "@/images-br/speakers/marina-melo.png"
+import Speaker26 from "@/images-br/speakers/fatima-bezerra2.png"
+import Speaker27 from "@/images-br/speakers/andre-pepitone2.png"
+import Speaker28 from "@/images-br/speakers/jose-aldemir-freire2.png"
+import Speaker29 from "@/images-br/speakers/marina-melo2.png"
 import Speaker30 from "@/images-br/speakers/luiz-gavazza.png"
 import Speaker31 from "@/images-br/speakers/larissa-dantas.png"
 import Speaker32 from "@/images-br/speakers/silvio-torquato.png"
-import Speaker33 from "@/images-br/speakers/wander-azevedo.png"
-import Speaker34 from "@/images-br/speakers/thiago-ivanoski.png"
-import Speaker35 from "@/images-br/speakers/eduardo-rossi.png"
+import Speaker33 from "@/images-br/speakers/wander-azevedo2.png"
+import Speaker34 from "@/images-br/speakers/thiago-ivanoski2.png"
+import Speaker35 from "@/images-br/speakers/eduardo-rossi2.png"
 import Speaker36 from "@/images-br/speakers/matheus-noronha.png"
-import Speaker37 from "@/images-br/speakers/jose-marcelo-costa.png"
+import Speaker37 from "@/images-br/speakers/jose-marcelo-costa2.png"
 import Speaker38 from "@/images-br/speakers/reynaldo-passanezi.png"
-import Speaker39 from "@/images-br/speakers/zeca-melo.png"
-import Speaker40 from "@/images-br/speakers/hugo-fonseca.png"
+import Speaker39 from "@/images-br/speakers/zeca-melo2.png"
+import Speaker40 from "@/images-br/speakers/hugo-fonseca2.png"
 import Speaker41 from "@/images-br/speakers/mario-gonzales.png"
 import Speaker42 from "@/images-br/speakers/nayara-machado.png"
 import Speaker43 from "@/images-br/speakers/rodrigo-polito.png"
 import Speaker44 from "@/images-br/speakers/luiz-eduardo.png"
-import Speaker45 from "@/images-br/speakers/roberta-nanini.png"
+import Speaker45 from "@/images-br/speakers/roberta-nanini2.png"
 import Speaker46 from "@/images-br/speakers/rossana-fonseca.png"
 import Speaker47 from "@/images-br/speakers/fernando-mosna.png"
 import Speaker48 from "@/images-br/speakers/gerusa-magalhaes.png"
@@ -121,6 +122,20 @@ import Speaker55 from "@/images-br/speakers/marina-meyer.png"
 import Speaker56 from "@/images-br/speakers/daniel-faro.png"
 import Speaker57 from "@/images-br/speakers/dirceu-simabucuru.png"
 import Speaker58 from "@/images-br/speakers/paulo-prunzel.png"
+import Speaker59 from "@/images-br/speakers/adriana.png"
+import Speaker60 from "@/images-br/speakers/jorge-marques2.png"
+import Speaker61 from "@/images-br/speakers/fernando2.png"
+import Speaker62 from "@/images-br/speakers/vital.png"
+import Speaker63 from "@/images-br/speakers/magno.png"
+import Speaker64 from "@/images-br/speakers/francisco-silva.png"
+import Speaker65 from "@/images-br/speakers/marilia-rabassa.png"
+import Speaker66 from "@/images-br/speakers/mauricio.png"
+import Speaker67 from "@/images-br/speakers/Caio-Alves.png"
+import Speaker68 from "@/images-br/speakers/natalia-buzetti.png"
+import Speaker69 from "@/images-br/speakers/marisete.png"
+import Speaker70 from "@/images-br/speakers/ricardo-simabuku.png"
+import Speaker71 from "@/images-br/speakers/carlos-camargo.png"
+import Speaker72 from "@/images-br/speakers/cristiane.png"
 
 
 
@@ -550,6 +565,11 @@ export const TeamOneData = {
     title: "Speakers",
   },
   posts: [
+        {
+      image: Speaker14,
+      name: "Caio César Cavalcanti",
+      designation: "CEO e Fundador, EVEx – Energy Virtual Experience",
+    },
     {
       image: Speaker26,
       name: "Fátima Bezerra",
@@ -558,12 +578,22 @@ export const TeamOneData = {
     {
       image: Speaker01,
       name: "Alexandre Ramos",
-      designation: "Presidente do CAd, CCEE – Câmara de Comercialização de Energia Elétrica",
+      designation: "Presidente do Conselho de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
     },
     {
       image: Speaker04,
       name: "Agnes da Costa",
       designation: "Diretora da ANEEL – Agência Nacional de Energia Elétrica",
+    },
+    {
+      image: Speaker59,
+      name: "Adriana Waltrick",
+      designation: "CEO, SPIC Brasil",
+    },
+    {
+      image: Speaker27,
+      name: "André Pepitone",
+      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
     },
     {
       image: Speaker03,
@@ -576,19 +606,9 @@ export const TeamOneData = {
       designation: "Presidente, LNEG – Laboratório Nacional de Energia e Geologia de Portugal",
     },
     {
-      image: Speaker27,
-      name: "André Pepitone",
-      designation: "Diretor Executivo Financeiro, Itaipu Binacional",
-    },
-    {
-      image: Speaker11,
-      name: "Fernanda Delgado",
-      designation: "Diretora Executiva, ABIHV – Associação Brasileira da Indústria de Hidrogênio Verde",
-    },
-    {
-      image: Speaker19,
-      name: "Filipe Matias",
-      designation: "Diretor de Serviços Jurídicos"
+      image: Speaker28,
+      name: "José Aldemir Freire",
+      designation: "Diretor de Planejamento, Banco do Nordeste",
     },
     {
       image: Speaker09,
@@ -596,20 +616,140 @@ export const TeamOneData = {
       designation: "Sócia, Rolim Goulart Cardoso Advogados",
     },
     {
-      image: Speaker30,
-      name: "Luiz Gavazza",
-      designation: "Presidente, Bahiagás – Companhia de Gás da Bahia",
+      image: Speaker11,
+      name: "Fernanda Delgado",
+      designation: "CEO, ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde",
+    },
+    {
+      image: Speaker40,
+      name: "Hugo Fonseca",
+      designation: "Secretário-Adjunto de Desenvolvimento Econômico, Rio Grande do Norte",
+    },
+       {
+      image: Speaker33,
+      name: "Wander Azevedo ",
+      designation: "Diretor de Comercialização de Energia, Projetos Estratégicos e Estudos de Mercado, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional",
+    },
+    {
+      image: Speaker199,
+      name: "Filipe Matias Santos",
+      designation: "Diretor Jurídico, ERSE – Entidade Reguladora dos Serviços Energéticos de Portugal"
+    },
+    {
+      image: Speaker60,
+      name: "Jorge Marques",
+      designation: "Diretor de Formação, Informação e Educação, ADENE – Agência para a Energia de Portugal",
+    },
+    {
+      image: Speaker61,
+      name: "Fernando Alves Pinto",
+      designation: "Vogal Executivo do Conselho de Administração, ENSE – Entidade Nacional para o Setor Energético de Portugal",
+    },
+    {
+      image: Speaker37,
+      name: "José Marcelo Costa",
+      designation: "Procurador do Estado do Rio Grande do Norte",
+    },
+    {
+      image: Speaker62,
+      name: "Vital Neto",
+      designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker63,
+      name: "Magno Bernardo",
+      designation: "Assessor de Tecnologia de Gás Natural, Bahiagás – Companhia de Gás da Bahia",
+    },
+    {
+      image: Speaker15,
+      name: "Solange David ",
+      designation: "Chairperson do Women in Energy, CIGRE Internacional",
+    },
+    {
+      image: Speaker64,
+      name: "Francisco Silva",
+      designation: "Diretor Técnico Regulatório, ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias",
+    },
+    {
+      image: Speaker39,
+      name: "Zeca Melo",
+      designation: "Superintendente, SEBRAE-RN",
+    },
+    {
+      image: Speaker65,
+      name: "Marília Rabassa",
+      designation: "Head de Consultoria e Sócia, CELA – Clean Energy Latin America",
+    },
+    {
+      image: Speaker66,
+      name: "Maurício Godoi",
+      designation: "Subeditor, CanalEnergia – Informa Markets",
+    },
+    {
+      image: Speaker35,
+      name: "Eduardo Rossi",
+      designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica",
+    },
+    {
+      image: Speaker67,
+      name: "Caio Alves",
+      designation: "Head de Regulação, Rolim Goulart Cardoso Advogados",
+    },
+      {
+      image: Speaker34,
+      name: "Thiago Ivanoski ",
+      designation: "Diretor de Estudos Econômico-Energéticos e Ambientais, EPE – Empresa de Pesquisa Energética ",
+    },
+    {
+      image: Speaker68,
+      name: "Natália Buzetti",
+      designation: "Jornalista e Sócia, MegaWhat",
+    },
+     {
+      image: Speaker45,
+      name: "Roberta Nanini Rolim",
+      designation: "Diretora de Regulação e Relações Institucionais, CEMIG – Companhia Energética de Minas Gerais",
+    },
+    {
+      image: Speaker69,
+      name: "Marisete Pereira",
+      designation: "Presidente, ABRAGE – Associação Brasileira de Empresas Geradoras de Energia Elétrica",
+    },
+    {
+      image: Speaker70,
+      name: "Ricardo Simabuku",
+      designation: "Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica ",
     },
     {
       image: Speaker08,
       name: "Wagner Ferreira",
-      designation: "Diretor Institucional e Jurídico, ABRADEE – Associação Brasileira de Distribuidores de Energia Elétrica",
+      designation: "Sócio, Caputo, Bastos e Serra Advogados",
     },
     {
-      image: Speaker16,
-      name: "Camila Schoti",
-      designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
+      image: Speaker29,
+      name: "Marina Melo",
+      designation: "CEO, Potigás – Companhia Potiguar de Gás",
     },
+    {
+      image: Speaker71,
+      name: "Carlos Camargo de Colón",
+      designation: "CEO, Gasmig – Companhia de Gás de Minas Gerais",
+    },
+    {
+      image: Speaker72,
+      name: "Cristiane Schimidt ",
+      designation: "CEO, MSGÁS – Companhia de Gás do Estado de Mato Grosso do Sul",
+    },
+    // {
+    //   image: Speaker30,
+    //   name: "Luiz Gavazza",
+    //   designation: "Presidente, Bahiagás – Companhia de Gás da Bahia",
+    // },
+    // {
+    //   image: Speaker16,
+    //   name: "Camila Schoti",
+    //   designation: "Diretora Executiva de Marketing & Growth, (re)energisa",
+    // },
     // {
     //   image: Speaker02,
     //   name: "Elbia Gannoum",
@@ -630,21 +770,9 @@ export const TeamOneData = {
       name: "Luís Barroso",
       designation: "CEO, Mobi.E",
     },
-    {
-      image: Speaker15,
-      name: "Solange David ",
-      designation: "Chair Women in Energy, CIGRE Internacional",
-    },
-    {
-      image: Speaker29,
-      name: "Marina Melo",
-      designation: "Diretora Presidente, POTIGÁS – Companhia Potiguar de Gás",
-    },
-    {
-      image: Speaker37,
-      name: "José Marcelo Costa",
-      designation: "Procurador do Estado do Rio Grande do Norte",
-    },
+   
+
+
     {
       image: Speaker41,
       name: "Mario González",
@@ -660,11 +788,7 @@ export const TeamOneData = {
     //   name: "Renata Isfer",
     //   designation: "Presidente, ABiogás – Associação Brasileira do Biogás",
     // },
-    // {
-    //   image: Speaker14,
-    //   name: "Caio César Cavalcanti",
-    //   designation: "Presidente e Fundador, EVEx",
-    // },
+
 
    
     // {
@@ -673,11 +797,7 @@ export const TeamOneData = {
     //   designation: "Coordenadora Executiva, Centro Mackenzie de Estudos de Políticas Públicas e Integridade ",
     // },
 
-    // {
-    //   image: Speaker28,
-    //   name: "José Aldemir Freire",
-    //   designation: "Diretor de Planejamento, Banco do Nordeste",
-    // },
+
    
    
     // {
@@ -690,11 +810,7 @@ export const TeamOneData = {
     //   name: "Silvio Torquato",
     //   designation: "Secretário de Desenvolvimento Econômico do Estado do Rio Grande do Norte",
     // },
-    // {
-    //   image: Speaker33,
-    //   name: "Wander Azevedo ",
-    //   designation: "Diretor de Comercialização de Energia, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional ",
-    // },
+ 
     // {
     //   image: Speaker34,
     //   name: "Thiago Ivanoski ",
@@ -726,11 +842,7 @@ export const TeamOneData = {
     //   name: "Zeca Melo",
     //   designation: "Diretor Superintendente, SEBRAE-RN",
     // },
-    // {
-    //   image: Speaker40,
-    //   name: "Hugo Fonseca",
-    //   designation: "Coordenador de Desenvolvimento Energético do Estado do Rio Grande do Norte",
-    // },
+ 
 
     // {
     //   image: Speaker42,
@@ -930,12 +1042,7 @@ export const ComiteData = {
       designation: "Docente, ",
       place: "Universidade de Coimbra"
     },
-    {
-      image: Speaker23,
-      name: "Caio Alves",
-      designation: "Ex-Assessor da Diretoria, ",
-      place: "ANEEL – Agência Nacional de Energia Elétrica"
-    },
+   
     // {
     //   image: Speaker17,
     //   name: "Cácia Pimentel",

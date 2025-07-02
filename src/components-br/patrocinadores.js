@@ -21,6 +21,11 @@ import Img201 from '@/images-br/patrocinio/enbparm.png'
 import Img202 from '@/images-br/patrocinio/mmegov.png'
 import Img203 from '@/images-br/patrocinio/potigas.png'
 import Img204 from '@/images-br/patrocinio/bahiagas.jpg'
+import Img205 from '@/images-br/patrocinio/spic.png'
+import Img206 from '@/images-br/patrocinio/bancone.png'
+import Img207 from '@/images-br/patrocinio/mme.png'
+import Img208 from '@/images-br/patrocinio/gov.png'
+import Img209 from '@/images-br/patrocinio/copel.png'
 import Img20 from '@/images-br/home-br/sebrae.svg'
 import Img1 from '@/images/apoio/abeeolica.svg'
 import Img2 from '@/images/apoio/ABRADEE.png'
@@ -104,45 +109,48 @@ const Patrocinadores = () => {
                   </ul>
                </section> */}
 
-               {/* <section className='ouro'>
+               <section className='ouro'>
                 <h4 css={secDesk}>Patrocínio Ouro</h4>
                   <ul>
-                    <li className="desktop"><a target="_blank"><img src={Img19} /></a></li>
-                    <li className="mobile"><a target="_blank"><img src={Img191} /></a></li>
+                    {/* <li className="desktop"><a target="_blank"><img src={Img19} /></a></li>
+                    <li className="mobile"><a target="_blank"><img src={Img191} /></a></li> */}
+                    <li><a target="_blank"><img src={Img197} /></a></li>
                     <li><a target="_blank"><img src={Img192} /></a></li>
+                    <li><a target="_blank"><img style={{width:'250px', height: 'auto'}} src={Img205} /></a></li>
                   </ul>
-                  <ul>
+                  {/* <ul>
                     <li className="desktop"><a target="_blank"><img src={Img200} /></a></li>
                     <li className="mobile"><a target="_blank"><img src={Img201} /></a></li>
                     <li className="mobile"><a target="_blank"><img src={Img202} /></a></li>
-                  </ul>
-               </section> */}
+                  </ul> */}
+               </section>
 
-               {/* <section className='prata'>
+               <section className='prata'>
                 <h4 css={secDesk}>Patrocínio Prata</h4>
                   <ul>
-                      <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Img193} /></a></li>
-                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img194} /></a></li>
-                      <li><a href="#" target="_blank"><img src={Img204} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img206} /></a></li>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img201} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img207} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img208} /></a></li>
                   </ul>
                   <ul>
-                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img195} /></a></li>
-                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img196} /></a></li>
-                      <li><a href="#" target="_blank"><img src={Img203} /></a></li>
+                      <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img204} /></a></li>
+                      <li><a href="#" target="_blank"><img src={Img193} /></a></li>
                   </ul>
-               </section> */}
-
-               {/* <section className='bronze'>
+               </section>
+<br/><br/>
+               <section className='bronze'>
                 <h4 css={secDesk}>Patrocínio Bronze</h4>
                   <ul>
-                    <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
-                    <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img20} /></a></li>
+                    <li><a href="https://sebrae.com.br/sites/PortalSebrae/" target="_blank"><img src={Img196} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img203} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img209} /></a></li>
                   </ul>
-                  <ul>
+                  {/* <ul>
                     <li><a href="https://www.cemig.com.br/" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Pat12} /></a></li>
-                  </ul>
-               </section> */}
+                  </ul> */}
+               </section>
 
 
               {/* <h2 css={[secTitle, mb45]}>Apoio Institucional</h2> */}
