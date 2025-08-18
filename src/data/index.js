@@ -223,21 +223,21 @@ import Speaker69 from "@/images/speaker/2024/hugo_fonseca.jpg"
 import Speaker70 from "@/images/speaker/2024/juliana_barbosa.jpg"
 import Speaker71 from "@/images/speaker/2024/marco_alves.jpg"
 
-import texto1_1 from "@/images/2024/texto1/t1.jpg"
-import texto1_2 from "@/images/2024/texto1/t2.jpg"
-import texto1_3 from "@/images/2024/texto1/t3.jpg"
-import texto1_4 from "@/images/2024/texto1/t4.jpg"
-import texto1_5 from "@/images/2024/texto1/t5.jpg"
-import texto1_6 from "@/images/2024/texto1/t6.jpg"
+import texto1_1 from "@/images/2024/texto1/2025/t1.jpg"
+import texto1_2 from "@/images/2024/texto1/2025/t2.jpg"
+import texto1_3 from "@/images/2024/texto1/2025/t3.jpg"
+import texto1_4 from "@/images/2024/texto1/2025/t4.jpg"
+import texto1_5 from "@/images/2024/texto1/2025/t5.jpg"
+import texto1_6 from "@/images/2024/texto1/2025/t6.jpg"
 // import texto1_7 from "@/images/2024/texto1/7.jpg"
 // import texto1_8 from "@/images/2024/texto1/8.jpg"
 
-import texto2_1 from "@/images/2024/texto2/t1.jpg"
-import texto2_2 from "@/images/2024/texto2/t2.jpg"
-import texto2_3 from "@/images/2024/texto2/t3.jpg"
-import texto2_4 from "@/images/2024/texto2/t4.jpg"
-import texto2_5 from "@/images/2024/texto2/t5.jpg"
-import texto2_6 from "@/images/2024/texto2/t6.jpg"
+import texto2_1 from "@/images/2024/texto2/2025/t1.jpg"
+import texto2_2 from "@/images/2024/texto2/2025/t2.jpg"
+import texto2_3 from "@/images/2024/texto2/2025/t3.jpg"
+import texto2_4 from "@/images/2024/texto2/2025/t4.jpg"
+import texto2_5 from "@/images/2024/texto2/2025/t5.jpg"
+import texto2_6 from "@/images/2024/texto2/2025/t6.jpg"
 // import texto2_7 from "@/images/2024/texto2/7.jpg"
 // import texto2_8 from "@/images/2024/texto2/8.jpg"
 
@@ -1797,12 +1797,6 @@ export const QuintaEdicao2024Data = [
   {
     img: texto2_6
   },
-  // {
-  //   img: texto2_7
-  // },
-  // {
-  //   img: texto2_8
-  // },
 ]
 
 export const EvexLisboaData = {
