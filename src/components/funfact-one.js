@@ -53,7 +53,7 @@ const FunfactOne = () => {
           
         </div>
        <div css={logoLight}>
-          <img src={LogoImage.luz} />
+          <img src={LogoImage.cop30} />
        </div>
 
        <img src={Element04} css={element04} />

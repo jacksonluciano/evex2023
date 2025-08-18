@@ -1,7 +1,10 @@
 import logo from "@/images/2024/logo.png"
+import logo25 from "@/images/2024/logo2025.png"
 import logoMobile from "@/images/logo-mobile.svg"
 import logoLuz from "@/images/2024/logo-luz.png"
 import logoSmall from "@/images/2024/logo-small.png"
+import logoSmall25 from "@/images/2024/logo-small25.png"
+import logoCop30 from "@/images/2024/logo-cop30.png"
 // import sliderOne01 from "@/images/slider/1_1.jpg"
 // import sliderOne02 from "@/images/slider/1_2.jpg"
 // import sliderTwo01 from "@/images/slider/2_1.jpg"
@@ -239,10 +242,11 @@ import texto2_6 from "@/images/2024/texto2/2025/t6.jpg"
 
 
 export const LogoImage = {
-  light: logo,
+  light: logo25,
   mobile: logoMobile,
   luz: logoLuz,
-  small: logoSmall
+  small: logoSmall25,
+  cop30: logoCop30,
 };
 
 export const SocialIcons = {
