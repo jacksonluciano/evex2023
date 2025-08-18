@@ -229,8 +229,6 @@ import texto1_3 from "@/images/2024/texto1/2025/t3.jpg"
 import texto1_4 from "@/images/2024/texto1/2025/t4.jpg"
 import texto1_5 from "@/images/2024/texto1/2025/t5.jpg"
 import texto1_6 from "@/images/2024/texto1/2025/t6.jpg"
-// import texto1_7 from "@/images/2024/texto1/7.jpg"
-// import texto1_8 from "@/images/2024/texto1/8.jpg"
 
 import texto2_1 from "@/images/2024/texto2/2025/t1.jpg"
 import texto2_2 from "@/images/2024/texto2/2025/t2.jpg"
@@ -238,8 +236,6 @@ import texto2_3 from "@/images/2024/texto2/2025/t3.jpg"
 import texto2_4 from "@/images/2024/texto2/2025/t4.jpg"
 import texto2_5 from "@/images/2024/texto2/2025/t5.jpg"
 import texto2_6 from "@/images/2024/texto2/2025/t6.jpg"
-// import texto2_7 from "@/images/2024/texto2/7.jpg"
-// import texto2_8 from "@/images/2024/texto2/8.jpg"
 
 
 export const LogoImage = {
