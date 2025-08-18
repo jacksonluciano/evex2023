@@ -131,6 +131,7 @@ export const logoLight = css`
   justify-content: center;
   padding-top: 40px;
   img{
-    max-width: 349px;
+    width: 100%;
+    max-width: 700px;
   }
 `;
