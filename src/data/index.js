@@ -223,23 +223,23 @@ import Speaker69 from "@/images/speaker/2024/hugo_fonseca.jpg"
 import Speaker70 from "@/images/speaker/2024/juliana_barbosa.jpg"
 import Speaker71 from "@/images/speaker/2024/marco_alves.jpg"
 
-import texto1_1 from "@/images/2024/texto1/1.jpg"
-import texto1_2 from "@/images/2024/texto1/2.jpg"
-import texto1_3 from "@/images/2024/texto1/3.jpg"
-import texto1_4 from "@/images/2024/texto1/4.jpg"
-import texto1_5 from "@/images/2024/texto1/5.jpg"
-import texto1_6 from "@/images/2024/texto1/6.jpg"
-import texto1_7 from "@/images/2024/texto1/7.jpg"
-import texto1_8 from "@/images/2024/texto1/8.jpg"
+import texto1_1 from "@/images/2024/texto1/t1.jpg"
+import texto1_2 from "@/images/2024/texto1/t2.jpg"
+import texto1_3 from "@/images/2024/texto1/t3.jpg"
+import texto1_4 from "@/images/2024/texto1/t4.jpg"
+import texto1_5 from "@/images/2024/texto1/t5.jpg"
+import texto1_6 from "@/images/2024/texto1/t6.jpg"
+// import texto1_7 from "@/images/2024/texto1/7.jpg"
+// import texto1_8 from "@/images/2024/texto1/8.jpg"
 
-import texto2_1 from "@/images/2024/texto2/1.jpg"
-import texto2_2 from "@/images/2024/texto2/2.jpg"
-import texto2_3 from "@/images/2024/texto2/3.jpg"
-import texto2_4 from "@/images/2024/texto2/4.jpg"
-import texto2_5 from "@/images/2024/texto2/5.jpg"
-import texto2_6 from "@/images/2024/texto2/6.jpg"
-import texto2_7 from "@/images/2024/texto2/7.jpg"
-import texto2_8 from "@/images/2024/texto2/8.jpg"
+import texto2_1 from "@/images/2024/texto2/t1.jpg"
+import texto2_2 from "@/images/2024/texto2/t2.jpg"
+import texto2_3 from "@/images/2024/texto2/t3.jpg"
+import texto2_4 from "@/images/2024/texto2/t4.jpg"
+import texto2_5 from "@/images/2024/texto2/t5.jpg"
+import texto2_6 from "@/images/2024/texto2/t6.jpg"
+// import texto2_7 from "@/images/2024/texto2/7.jpg"
+// import texto2_8 from "@/images/2024/texto2/8.jpg"
 
 
 export const LogoImage = {
@@ -1557,7 +1557,7 @@ export const OevexData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, desde o ano de 2020, com o apoio de empresas e outras organizações. Tem como objetivos principais debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Portugal, Brasil e Espanha.\n\nDepois de quatro edições bem-sucedidas, o EVEx já é reconhecido como o maior e um dos mais relevantes encontros de transição energética do bloco ibero-latino-americano. ",
+      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, desde o ano de 2020, com o apoio de empresas e outras organizações. Tem como objetivos principais debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Portugal, Brasil e Espanha.\n\nDepois de cinco edições bem-sucedidas, o EVEx já é reconhecido como o maior e um dos mais relevantes encontros de transição energética do bloco ibero-latino-americano.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1571,7 +1571,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "Em sua quinta edição anual consecutiva, o EVEx inovou mais uma vez, lançando a rota ibero-latino-americana da energia em um formato composto por três eventos.  O primeiro deles, EVEx Brasil 2024 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica. \n\nO segundo evento, EVEx Lisboa 2024 – Lisbon Energy Experience, será nos dias 08 e 09 de outubro, na prestigiada Reitoria da Universidade NOVA de Lisboa, em Portugal. Já o terceiro e último da rota, EVEx 2024 – Energy Virtual Experience, ocorrerá nos dias 10, 11 e 12 de dezembro, de forma totalmente online e ao vivo.",
+      "Em sua sexta edição anual consecutiva, o EVEx continua com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nO segundo evento, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, no LNEG – Laboratório Nacional de Energia e Geologia de Portugal. Finalizando a edição, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03 a 05 de novembro, de forma totalmente online e ao vivo.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1771,12 +1771,12 @@ export const Evex2024Data = [
   {
     img: texto1_6
   },
-  {
-    img: texto1_7
-  },
-  {
-    img: texto1_8
-  },
+  // {
+  //   img: texto1_7
+  // },
+  // {
+  //   img: texto1_8
+  // },
 ]
 export const QuintaEdicao2024Data = [
   {
@@ -1797,19 +1797,20 @@ export const QuintaEdicao2024Data = [
   {
     img: texto2_6
   },
-  {
-    img: texto2_7
-  },
-  {
-    img: texto2_8
-  },
+  // {
+  //   img: texto2_7
+  // },
+  // {
+  //   img: texto2_8
+  // },
 ]
 
 export const EvexLisboaData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      `Com o tema “Transição Energética Justa e Industrialização Verde”, o EVEx Online e o EVEx Lisboa reunirão este ano os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades. \n\nAo total, serão 5 dias intensos para troca de conhecimentos, networking de alto nível e novos negócios em prol da transformação energética e industrial. \n\nEmbarque conosco nessa rota que vai impulsionar a sua jornada profissional na transição energética para uma economia de baixo carbono!`,
+      `Com o tema “Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30”, o EVEx Lisboa e o EVEx COP30 Online reunirão este ano os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades.\n\nAo todo, serão cinco dias voltados para troca de conhecimentos, networking de alto nível e novos negócios em prol de uma transição climática e energética mais justa, eficaz e inclusiva. 
+`,
   },
   button: {
     label: "Lorem ipsum",
@@ -1835,9 +1836,9 @@ export const PatrocinadoresData = {
 
 export const TransicoesEnergeticasData = {
   sectionContent: {
-    title: `Transição Energética Justa \ne Industrialização Verde:`,
+    title: `Transição Energética \ne Ação Climática:`,
     text:
-      `na rota ibero-latino-americana`,
+      `sinergias ibero-americanas rumo à COP30`,
   },
   button: {
     label: "Lorem ipsum",
