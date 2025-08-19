@@ -145,6 +145,7 @@ const Patrocinadores = () => {
                 <h4 css={secDesk}>Bronze</h4>
                   <ul>
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img211} /></a></li>
                   </ul>
                   <ul>
                     <li><a href="#" target="_blank"><img src={Pat14} /></a></li>
@@ -160,7 +161,7 @@ const Patrocinadores = () => {
                     <li><img src={Img3} /></li>
                     <li><img src={Img20} /></li>
                     <li><img src={Img21} /></li>
-                    {/* <li><img src={Img17} /></li>                  */}
+                    {/* <li><img src={Img17} /></li>*/}
                   </ul>
                   <ul>
                     {/* <li><img src={Img1} /></li> */}
