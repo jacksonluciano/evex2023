@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { EvexLisboaData } from "@/data";
-import Regulamento from "@/images/Regulamento TAP - EVEx Lisboa 2024.pdf"
+import Regulamento from "@/images/regulamento_tap_EVEx_2025_en.pdf"
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from '@emotion/react'
 
