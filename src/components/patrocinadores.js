@@ -100,6 +100,13 @@ const Patrocinadores = () => {
                   </ul>
                </section> */}
 
+                <section className='platina'>
+                <h4 css={secDesk}>Anfitrião</h4>
+                  <ul style={{display:"flex", justifyContent:'center', gap: '24px', marginBottom: '24px'}}>
+                    <li><img style={{height:'60px'}} src={Img7} /></li>
+                  </ul>
+               </section>
+
                <section className='ouro'>
                 <h4 css={secDesk}>Ouro</h4>
                   <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
