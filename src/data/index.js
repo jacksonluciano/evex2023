@@ -1857,26 +1857,26 @@ export const blocksTeData = [
 
 export const AgendaOnlineData = [
   {
-    date: '10/12/2024',
+    date: '03/11/2025',
+    day: `Segunda-feira`,
+  },
+  {
+    date: '04/11/2025',
     day: `Terça-feira`,
   },
   {
-    date: '11/12/2024',
+    date: '05/11/2025',
     day: `Quarta-feira`,
-  },
-  {
-    date: '12/12/2024',
-    day: `Quinta-feira`,
   },
 ];
 
 export const AgendaPresencialData = [
   {
-    date: '08/10/2024',
+    date: '07/10/2025',
     day: `Terça-feira`,
   },
   {
-    date: '09/10/2024',
+    date: '08/10/2025',
     day: `Quarta-feira`,
   },
 ];

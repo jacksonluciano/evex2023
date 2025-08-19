@@ -61,7 +61,7 @@ const Agenda = () => {
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
               <h2 css={[secTitle, mb45]}>Agenda</h2>
-              <h3 css={secDesk}>EVEx Lisboa 2024 – Lisbon Energy Experience </h3>
+              <h3 css={secDesk}>EVEx Lisboa 2025 – Lisbon Energy Experience </h3>
             </div>
           </Col>
         </Row>
@@ -81,14 +81,14 @@ const Agenda = () => {
           <img css={element3} src={element03} />
         </div>
         <section css={contentData}>    
-                       {ContentData2.map(({ text }, index) => (
+                       {/* {ContentData2.map(({ text }, index) => (
               selectedPres != null && selectedPres === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
-            ))}      
-            {/* <h4 style={{textAlign: 'center'}}>Disponível em breve</h4> */}
+            ))}       */}
+            <h4 style={{textAlign: 'center'}}>Disponível em breve</h4>
         </section>
         <img css={element7} src={element07} />
       </Container>
@@ -98,7 +98,7 @@ const Agenda = () => {
       <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
-              <h3 css={secDesk}>EVEx 2024 – Energy Virtual Experience</h3>
+              <h3 css={secDesk}>EVEx COP30 – Energy Virtual Experience</h3>
             </div>
           </Col>
         </Row>
@@ -118,15 +118,15 @@ const Agenda = () => {
          
         </div>
         <section css={[contentData,contentPresData]}>    
-             {ContentData.map(({ text }, index) => (
+             {/* {ContentData.map(({ text }, index) => (
               selectedOn != null && selectedOn === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
-            ))}      
+            ))}       */}
 
-            {/* <h4 style={{textAlign: 'center', color: '#fff'}}>Disponível em breve</h4> */}
+            <h4 style={{textAlign: 'center', color: '#fff'}}>Disponível em breve</h4>
         </section>
         <img css={element5} src={element05} />
         <img css={element8} src={element08} />
