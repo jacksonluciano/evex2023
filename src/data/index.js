@@ -1557,7 +1557,7 @@ export const OevexData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, desde o ano de 2020, com o apoio de empresas e outras organizações. Tem como objetivos principais debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Portugal, Brasil e Espanha.\n\nDepois de cinco edições bem-sucedidas, o EVEx já é reconhecido como o maior e um dos mais relevantes encontros de transição energética do bloco ibero-latino-americano.",
+      "O EVEx – Energy Virtual Experience é uma iniciativa pioneira e internacional que reúne especialistas da área de energia, desde o ano de 2020, com apoio de empresas e outras organizações. Os seus objetivos principais são debater tendências, trocar experiências e encontrar plataformas de cooperação para acelerar a transição energética nos países da Península Ibérica e da América Latina – em especial, Portugal, Brasil e Espanha.\n\nDepois de cinco edições bem-sucedidas, o EVEx já é reconhecido como o maior e um dos mais relevantes encontros de transição energética do bloco ibero-latino-americano.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1571,7 +1571,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "Em sua sexta edição anual consecutiva, o EVEx continua com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nO segundo evento, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, no LNEG – Laboratório Nacional de Energia e Geologia de Portugal. Finalizando a edição, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03 a 05 de novembro, de forma totalmente online e ao vivo.",
+      "Este ano, na sua sexta edição, o EVEx conta com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nJá o segundo, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, em Portugal, no campus do Laboratório Nacional de Energia e Geologia (LNEG) em Alfragide, na região de Lisboa. Por fim, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03 a 05 de novembro, de forma online e ao vivo, aquecendo o debate para a 30ª Conferência das Nações Unidas sobre Mudança do Clima.",
   },
   button: {
     label: "Lorem ipsum",
@@ -1803,7 +1803,8 @@ export const EvexLisboaData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      `Com o tema “Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30”, o EVEx Lisboa e o EVEx COP30 Online reunirão este ano os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades.\n\nAo todo, serão cinco dias voltados para troca de conhecimentos, networking de alto nível e novos negócios em prol de uma transição climática e energética mais justa, eficaz e inclusiva. 
+      `Com o tema “Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30”, o EVEx Lisboa 2025 e o EVEx COP30 reunirão os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades.\n\nAo todo, serão cinco dias voltados para trocas de conhecimentos, networking de alto nível e novos negócios em prol de uma transição climática e energética mais justa, eficaz e inclusiva.\n\nVamos juntos discutir o presente e o futuro da energia com quem está na liderança do setor?!
+ 
 `,
   },
   button: {
@@ -2708,12 +2709,12 @@ export const BigCtaData = [
   {
     date: 'Agenda',
     text: 
-        `Os painéis do EVEx Online e do EVEx Lisboa abordarão temáticas atuais e novas tecnologias no contexto da Transição Energética Ibero-Latino-Americana, como descarbonização, segurança energética, hidrogênio verde, eólicas offshore, gás natural, biometano, mercado de carbono, investimentos verdes, ESG, regulação e ação climática, entre várias outras.`,
-        button: 'Agenda Oficial'
+        `Entre as temáticas que serão abordadas no EVEx 2025, destacam-se: transição energética; ação climática; descarbonização; segurança energética; hidrogênio verde; biometano; gás natural; geração distribuída; mobilidade elétrica; armazenamento de energia; data centers; comercialização de energia; investimentos sustentáveis e financiamento climático.`,
+        button: 'Agenda Preliminar'
   },
   {
     date: 'Inscrições',
-      text: 'Participe da 5ª edição do maior encontro ibero-latino-americano de conhecimentos, networking e negócios na área da transição energética.',
+      text: 'Participe da 6ª edição do maior intercâmbio ibero-americano de conhecimentos, conexões e negócios na área da transição energética.',
       button: 'Inscreva-se agora'
   },
 ];

@@ -56,7 +56,7 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a> */}
               <h2>News</h2>
-              <p>Fique por dentro das novidades do EVEx Lisboa 2024.</p>
+              <p>Fique por dentro das novidades do EVEx Lisboa 2025.</p>
               <form 
                 method="POST" 
                 action="https://formsubmit.co/secretaria@evex.energy" 
@@ -111,12 +111,6 @@ const Footer = () => {
               <li>
                   <a href="https://www.youtube.com/channel/UCKJjSpLyJVn_6VVqzM9RKTw?app=desktop" target="_blank">
                     <i className="fa fa-youtube-play"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/evexenergy" target="_blank">
-                    {/* <i className="fa fa-twitter"></i> */}
-                    <svg width="22px" viewBox="0 0 24 24" aria-label="Twitter" role="img" class="r-18jsvk2 r-4qtqp9 r-yyyyoo r-16y2uox r-lwhw9o r-dnmrzs r-bnwqim r-1plcrui r-lrvibr"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
                   </a>
                 </li>
                 <li>

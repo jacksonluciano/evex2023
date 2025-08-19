@@ -226,7 +226,7 @@ export const about = css`
         margin-top: 16px;
         li{
           img{
-            height: 90px;
+            /* height: 90px; */
           }
         }
       }

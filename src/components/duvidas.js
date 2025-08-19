@@ -7,6 +7,7 @@ import Element15 from "@/images/elements/element-15.svg"
 import LogoEixos from "@/images/apoio/eixos.png"
 import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
+import LogoCcee from "@/images/apoio/ccee.png" 
 import Hotel from "@/images/hotel_dom_pedro.png" 
 import { Col, Container, Row } from "react-bootstrap";  
 import { useLocation } from '@reach/router';
@@ -78,8 +79,8 @@ const Duvidas = () => {
               <img src={LogoEvex} />
             </Col>
             <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Parceira de Mídia</h4>
-              <img src={LogoEixos} css={eplogo} />
+              <h4 css={secDesk}>Parceira de Conteúdo</h4>
+              <img src={LogoCcee} css={eplogo} />
             </Col>
           </Row>
           <Row>
@@ -90,7 +91,11 @@ const Duvidas = () => {
               </a>
               
             </Col> */}
-            <Col lg={12} md={12} sm={12}>
+            <Col lg={6} md={6} sm={12}>
+              <h4 css={secDesk}>Parceira de Mídia</h4>
+              <img src={LogoEixos} css={eplogo} />
+            </Col>
+            <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Operadora Oficial</h4>
               <a href='https://www.flytap.com/pt-br/' target='_blank'>
               <img src={LogoTap} />
@@ -105,7 +110,7 @@ const Duvidas = () => {
               <div className="inner-div">
                 <h2 css={secDesk}>Dúvidas e Sugestões</h2>
                 <p>
-                Entre em contato com a gente para tirar dúvidas, fazer sugestões e garantir a sua participação no EVEx Online e no EVEx Lisboa 2024. Sua mensagem será muito bem-vinda!
+                Entre em contato com a gente para tirar dúvidas e fazer sugestões. Sua mensagem será muito bem-vinda.
                 </p>
 
                 <form method="POST" action="https://formsubmit.co/secretaria@evex.energy" encType="multipart/form-data"
@@ -165,7 +170,7 @@ const Duvidas = () => {
               <div id="contato" className="inner-div rl">
                 <h2 css={secDesk}>Patrocínio e Exposição</h2>
                 <p>
-                Seja patrocinador do EVEx 2025 e posicione a sua marca na vanguarda da Transição Energética Ibero-Latino-Americana! Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada.
+                Seja patrocinador(a) do EVEx 2025 e posicione a sua marca na vanguarda da transição energética ibero-americana. Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada. 
                 </p>
                 <a href="https://wa.me/+351912349476" css={commonBtn}>
                   fale conosco <i className="fa fa-whatsapp"></i>{" "}

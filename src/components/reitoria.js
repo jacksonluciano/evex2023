@@ -32,12 +32,16 @@ const Reitoria = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={about}>
               <h2 css={[secTitle, mb45]}>
-                {'Reitoria da \n Universidade \n NOVA de \n Lisboa'}
+                {/* {'Reitoria da \n Universidade \n NOVA de \n Lisboa'} */}
+                {'LNEG – \n Laboratório \n Nacional \n de Energia \n e Geologia '}
               </h2>
               <p css={secDesk}>{`
-              O EVEx Lisboa será realizado, pelo terceiro ano consecutivo, na Reitoria da Universidade NOVA de Lisboa. 
-              O edifício da Reitoria da NOVA está localizado no Campus de Campolide e conta com espaços de alto nível, especialmente projetados para a realização de eventos. Inclusive, já foi reconhecido com o Prémio Valmor de Arquitetura.
-              No QS World University Rankings by Subject 2025, a Universidade NOVA figura entre as 400 melhores instituições de ensino superior, num universo de 1.500 em todo o mundo. 
+              O EVEx Lisboa 2025 – Lisbon Energy Experience será realizado nos dias 07 e 08 de outubro, em Portugal, no campus do LNEG – Laboratório Nacional de Energia e Geologia em Alfragide, na região de Lisboa.
+
+O LNEG é um centro de investigação, com o estatuto de laboratório do Estado, atualmente sob a tutela do Ministério do Ambiente e Energia de Portugal, que tem por missão impulsionar e realizar ações de investigação, de demonstração e transferência de conhecimento, de assistência técnica e tecnológica e de apoio laboratorial dirigidas às empresas, nos domínios da energia e geologia.
+
+A pareceria entre o EVEx e o LNEG pretende fortalecer a troca de conhecimentos e experiências, para acelerar a transição energética nos países da Península Ibérica e da América Latina.
+ 
               `}</p>
             </div>
             <img css={element08} src={Element08} />

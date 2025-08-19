@@ -50,7 +50,7 @@ const VideoTwo = () => {
                     </a>
                   </div> */}
                     <Video
-            videoSrcURL="https://www.youtube.com/embed/7BcVpK5X1XE?si=2ZWLY5OyUolLft2r"
+            videoSrcURL="https://www.youtube.com/embed/pDAkTFwNzRA?si=SJ63vTvliT4VEJxT"
             videoTitle="Highlights EVEx Lisboa 2022"
           />
                 </div>

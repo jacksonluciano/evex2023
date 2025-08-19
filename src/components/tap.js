@@ -36,7 +36,7 @@ const Tap = () => {
                 A TAP Air Portugal é a operadora oficial do EVEx Lisboa 2024. A todos os participantes do evento que efetuarem a sua reserva de avião e adquirirem o respectivo bilhete através do website da TAP (<a href="https://www.flytap.com/pt-br/">www.flytap.com</a>), a TAP concederá os seguintes descontos:
               </p>
               <h3>10% em classe econômica;</h3>
-              <h3>10% em classe executiva.</h3>
+              <h3>15% em classe executiva.</h3>
               <p css={[secDesk,underline]}>
                 Os descontos são aplicáveis para viagens de ida e volta de qualquer destino TAP para Lisboa e são válidos apenas em voos operados pela TAP. Para demais condições e instruções de como efetuar a reserva online, consulte o regulamento abaixo disponível para download. Qualquer dúvida, entre em contato com a secretaria do EVEx através do e-mail <span>secretaria@evex.energy</span>.
               </p>

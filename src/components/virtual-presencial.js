@@ -50,7 +50,7 @@ const virtualPresencial = () => {
            <div css={about}>
               <h2 css={[secTitle, mb45]}>6ª Edição</h2>
               <p css={secDesk}>{sectionContent.text}</p>
-              <Link to="/lisboa/o-evex" css={commonBtn}>Destaques EVEx 2023</Link>
+              <Link to="/lisboa/o-evex" css={commonBtn}>Destaques do EVEx</Link>
            </div>
           </Col>
           <Col lg={6} md={6} sm={12} css={noPadding}>

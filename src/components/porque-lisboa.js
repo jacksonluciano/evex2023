@@ -132,7 +132,7 @@ const PorqueLisboa = () => {
           <Col css={noPadding} lg={6} md={6} sm={12}>
             <div css={lisboaTwo}>
               <p css={secDesk}>
-              Em complemento à programação do EVEx Lisboa 2024 – Lisbon Energy Experience, os participantes do evento poderão ter uma experiência gastronômica única, que vai muito além do bacalhau e do pastel de nata. Em Alfama, no Bairro Alto e no Cais de Sodré também poderão descobrir a noite lisboeta, uma das mais animadas e boemias de toda a Europa.
+              Em complemento à programação do EVEx Lisboa 2025 – Lisbon Energy Experience, os participantes do evento poderão ter uma experiência gastronômica única, que vai muito além do bacalhau e do pastel de nata. Em Alfama, no Bairro Alto e no Cais de Sodré também poderão descobrir a noite lisboeta, uma das mais animadas e boemias de toda a Europa.
               </p>
             </div>
           </Col>

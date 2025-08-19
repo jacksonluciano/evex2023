@@ -51,7 +51,7 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     <p>
-                    Incentivar a produção acadêmica e científica na área de energia é uma das missões do EVEx. A chamada de trabalhos da edição de 2024 abrirá um espaço de debate e grande visibilidade para apresentações de pesquisas, projetos e soluções inovadoras desenvolvidas por estudantes, professores, pesquisadores, startups e empresas. Os resumos deverão ser enviados exclusivamente para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, normas, formulário e eixos temáticos abaixo disponíveis. Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Online ou no EVEx Lisboa, após as devidas inscrições dos autores. As versões finais dos trabalhos serão publicadas nos Anais do EVEx 2024, em formato digital (e-book). Confira abaixo anais de edições passadas e outras publicações organizadas pelo EVEx.
+                    Incentivar a produção acadêmica e científica na área de energia é uma das missões do EVEx. A Call for Papers/Projects da edição de 2025 abrirá um espaço de debate e grande visibilidade para apresentações de trabalhos e projetos desenvolvidos por estudantes, pesquisadores, startups e profissionais de diversos setores energéticos. Os resumos deverão ser enviados, exclusivamente, para o e-mail do Comitê Científico (comite@evex.energy), conforme cronograma, formulário e eixos temáticos abaixo disponíveis. Todas as propostas recebidas dentro do prazo serão analisadas. As mais bem avaliadas poderão ser apresentadas no EVEx Lisboa 2025 ou no EVEx COP30 mediante inscrição dos respectivos autores na categoria “EVEx Paper/Project”. As versões finais dos trabalhos serão publicadas nos Anais do EVEx 2025, em formato digital (e-book). Confira abaixo Anais de edições passadas e outras publicações organizadas pelo EVEx.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -70,9 +70,16 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p>Data limite para envio de resumos: <span>15/09/2024;</span></p>
+                    {/* <p>Data limite para envio de resumos: <span>15/09/2024;</span></p>
                     <p>Data limite para divulgação das propostas selecionadas: <span>17/09/2024;</span></p>
-                    <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2025.</span></p>
+                    <p>Data limite para envio da versão final dos trabalhos: <span>31/01/2025.</span></p> */}
+
+                    <p>Data limite para envio de resumos: <span>19/09/2025</span></p>
+                    <p>Data limite para divulgação das propostas selecionadas: <span>24/09/2025</span></p>
+                    <p>Período para inscrição dos autores aprovados:<span>25/09/2025 a 02/10/2025</span></p>
+                    <p>Apresentações no EVEx Lisboa: <span>07/10/2025 e 08/10/2025</span></p>
+                    <p>Data limite para envio da versão final dos trabalhos: <span>15/12/2025</span></p>
+
                    
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -91,11 +98,11 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p css={mb32}>{`1) A submissão de resumos para avaliação não exige qualquer inscrição prévia no EVEx 2024. Apenas é necessário o correto preenchimento do formulário, disponível abaixo para download, e envio do mesmo dentro do prazo estipulado no cronograma descrito acima.`}</p>
+                    <p css={mb32}>{`1) A submissão de resumos para avaliação não exige qualquer inscrição prévia no EVEx 2025. Apenas é necessário o correto preenchimento e envio do formulário de resumo dentro do prazo estipulado no cronograma acima descrito.`}</p>
 
-                    <p css={mb32}>{`2) Somente após a possível aprovação da proposta submetida, a inscrição – incluindo o seu pagamento – deverá ser realizada na categoria EVEx Paper/Project Online ou Lisboa, dentro do prazo estipulado na carta de aceite.`}</p>
+                    <p css={mb32}>{`2) Somente após a possível aprovação da proposta submetida, a inscrição deverá ser realizada na categoria “EVEx Paper/Project”, conforme prazo também estipulado no cronograma.`}</p>
 
-                    <p css={mb32}>{`3) Os autores que tiverem dois ou mais resumos aprovados poderão realizar as apresentações de todos eles no evento, caso assim desejem, desde que efetuem a inscrição e o pagamento de cada trabalho a ser apresentado.`}</p>
+                    <p css={mb32}>{`3) Os autores que tiverem dois ou mais resumos aprovados poderão escolher qual será apresentado no evento.`}</p>
 
                     {/* <p css={mb32}>{`4) Os autores que tiverem dois ou mais resumos aprovados poderão realizar a apresentação de todos, alguns ou apenas um, desde que realizem a inscrição e o pagamento de cada trabalho que desejarem apresentar no(s) evento(s).`}</p> */}
                 

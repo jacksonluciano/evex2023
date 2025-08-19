@@ -24,6 +24,22 @@ import Img16 from '@/images/apoio/ccee.png'
 import Img17 from '@/images/apoio/abraceel.png'
 import Img18 from '@/images/apoio/ABIOGAS.png'
 import Img19 from '@/images/apoio/ABIHV.png'
+import Img20 from '@/images/apoio/epe.png'
+import Img21 from '@/images/apoio/ons.png'
+
+import Img193 from '@/images-br/patrocinio/cemig.png'
+import Img201 from '@/images-br/patrocinio/enbparm.png'
+import Img202 from '@/images-br/patrocinio/mmegov.png'
+import Img203 from '@/images-br/patrocinio/potigas.png'
+import Img204 from '@/images-br/patrocinio/bahiagas.jpg'
+import Img205 from '@/images-br/patrocinio/spic.png'
+import Img206 from '@/images-br/patrocinio/bancone.png'
+import Img207 from '@/images-br/patrocinio/mme.png'
+import Img208 from '@/images-br/patrocinio/gov.png'
+import Img209 from '@/images-br/patrocinio/copel.png'
+import Img210 from '@/images-br/patrocinio/ndf.png'
+import Img211 from '@/images-br/patrocinio/caputo.png'
+import Img212 from '@/images-br/patrocinio/ejup.png'
 
 import Pat01 from '@/images/patrocinio/adene.jpeg'
 import Pat02 from '@/images/patrocinio/cemig.png'
@@ -90,22 +106,32 @@ const Patrocinadores = () => {
                     <li><a href="https://www.adene.pt" target="_blank"><img src={Pat01} /></a></li>
                     <li><a href="https://www.itaipu.gov.br/" target="_blank"><img src={Pat12} /></a></li>
                   </ul>
-                  <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
+                  {/* <ul  style={{display:"flex", justifyContent:'center', gap: '24px'}}>
                     <li><a href="#" target="_blank"><img src={Pat13} /></a></li>
-                  </ul>
+                  </ul> */}
                </section>
 
                <section className='prata'>
                 <h4 css={secDesk}>Prata</h4>
-                  <ul>
-                    {/* <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
-                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li> */}
+                  {/* <ul>
+                    <li><a href="https://www.galp.com/corp/pt/" target="_blank"><img src={Pat04} /></a></li>
+                    <li><a href="https://www.edp.pt/particulares/" target="_blank"><img src={Pat03} /></a></li>
                     <li><a href="https://www.cemig.com.br" target="_blank"><img src={Pat02} /></a></li>
                     <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat05} /></a></li>
                   </ul>
                   <ul>
                     <li><a href="https://www.mg.gov.br" target="_blank"><img src={Pat15} /></a></li>
-                  </ul>
+                  </ul> */}
+
+                   <ul>
+                        <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img201} /></a></li>
+                        <li><a href="#" target="_blank"><img src={Img207} /></a></li>
+                        <li><a href="#" target="_blank"><img src={Img208} /></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img204} /></a></li>
+                        <li><a href="#" target="_blank"><img src={Img193} /></a></li>
+                    </ul>
                </section>
 
                <section className='bronze'>
@@ -124,17 +150,17 @@ const Patrocinadores = () => {
               <section className='apoio'>
             
                   <ul>
-                    <li><img src={Img16} /></li>
-                    <li><img src={Img7} /></li>
                     <li><img src={Img3} /></li>
+                    <li><img src={Img20} /></li>
+                    <li><img src={Img21} /></li>
                     {/* <li><img src={Img17} /></li>                  */}
                   </ul>
                   <ul>
-                    <li><img src={Img1} /></li>
+                    {/* <li><img src={Img1} /></li> */}
                     {/* <li><img src={Img2} /></li> */}
-                    <li><img src={Img13} /></li>
+                    {/* <li><img src={Img13} /></li> */}
                     {/* <li><img src={Img18} /></li> */}
-                    <li><img src={Img19} /></li>
+                    {/* <li><img src={Img19} /></li> */}
                   </ul>
                   {/* <ul>
                     <li><img src={Img11} /></li>
