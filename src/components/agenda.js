@@ -81,14 +81,14 @@ const Agenda = () => {
           <img css={element3} src={element03} />
         </div>
         <section css={contentData}>    
-                       {/* {ContentData2.map(({ text }, index) => (
+                       {ContentData2.map(({ text }, index) => (
               selectedPres != null && selectedPres === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
-            ))}       */}
-            <h4 style={{textAlign: 'center'}}>Disponível em breve</h4>
+            ))}      
+            {/* <h4 style={{textAlign: 'center'}}>Disponível em breve</h4> */}
         </section>
         <img css={element7} src={element07} />
       </Container>

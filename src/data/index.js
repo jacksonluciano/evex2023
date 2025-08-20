@@ -1884,18 +1884,12 @@ export const AgendaPresencialData = [
 export const ContentData = [
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 10 de Dezembro</h3>
+    <h3 style="margin-bottom:4px">Dia 07 de Outubro (terça-feira)</h3>
     <p>Horário de Brasília / Horário de Lisboa</p>
 
-    <b>09h20 (BR) / 12h20 (PT) – Boas-Vindas</b><br></br>
-
-            <p>
-            <b>Caio César Cavalcanti</b></br>
-            Presidente e Fundador, EVEx
-            </p>
+    <b>08h30 – Boas-Vindas</b><br></br>
     
-    <b>09h30 (BR) / 12h30 (PT) – Abertura</b></br>
-    Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana
+    <b>09h15 – Lisbon Energy Experience | Abertura com Lideranças e Autoridades</b></br>
     <br></br>
 
             <p style="padding-left:45px">
@@ -2370,335 +2364,88 @@ Missão EVEx | CCEE | ABRADEE | ABEEólica ao EVEx Lisboa e ao Mercado Ibérico:
 export const ContentData2 = [
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 08 de Outubro</h3>
-    <p>Horário de Portugal Continental</p>
+    <h3 style="margin-bottom:4px">Dia 07 de Outubro (terça-feira) </h3>
 
-    <b>08h45 – Credenciamento e Welcome Coffee</b></br></br>
-    <b>09h15 – Boas-Vindas</b></br></br>
-
-            <p style="padding-left:45px">
-            <b>Caio César Cavalcanti</b></br>
-            Presidente e Fundador do EVEx
-          </p> </br>
-
-    <b>09h30 – Lisbon Energy Experience – Abertura</b></br>
-    Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana</br></br>
-
-            <p style="padding-left:45px">
-              <b>Maria da Graça Carvalho</b></br>
-              Ministra do Ambiente e Energia de Portugal
-            </p> 
-
-            <p style="padding-left:45px">
-              <b>Nelson Lage</b></br>
-              Presidente da ADENE – Agência para a Energia 
-            </p> 
-
-            <p style="padding-left:45px">
-              <b>Alexandre Ramos</b></br>
-              Presidente da CCEE – Câmara de Comercialização de Energia Elétrica
-            </p> 
-
-            <p style="padding-left:45px">
-              <b>Vitor Santos</b></br>
-              Professor Catedrático do ISEG – Instituto de Economia e Gestão – da Universidade de Lisboa
-            </p> 
-
-            <p style="padding-left:45px">
-              <b>Maria João Rolim</b></br>
-              Sócia do Rolim Goulart Cardoso Advogados 
-            </p> 
-
-            <p style="padding-left:45px">
-              <b>Alice Khouri – Moderadora</b></br>
-              Membro do Conselho Operacional do Centro de Finanças Sustentáveis da CATÓLICA-LISBON
-            </p> </br>
-
-
+    <b>08h30 – Credenciamento</b></br></br>
   
-   <b>10h40 – Entrega dos Prêmios EVEx Personalidades do Ano</b></br></br>
+   <b>11h30 – Lisbon Energy Experience </b></br>
+    Abertura com Lideranças e Autoridades </br></br>
 
-    <p style="padding-left:45px">
-      <i style="font-size:16px; font-style: normal">Personalidade da Península Ibérica</i><br>
-      <b>Maria da Graça Carvalho</b><br>
-      Ministra do Ambiente e Energia de Portugal
-    </p>
-    <p style="padding-left:45px">
-    <i style="font-size:16px; font-style: normal">Personalidade da América Latina</i><br>
-      <b>Alexandre Ramos</b><br>
-      Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica
-    </p>
+            <p style="padding-left:45px">
+              <b>•	Boas-vindas</b></br>
+            </p> 
+
+            <p style="padding-left:45px">
+              <b>•	Painel de Abertura – Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30</b></br>
+            </p> 
+
+            <p style="padding-left:45px">
+              <b>•	Assinatura de Protocolo de Colaboração entre o LNEG e a EPE</b></br>
+            </p> 
+ </br>
 
     <b>11h00</b> – Coffee Break</br></br>
 
 
     <b>11h30 – Lisbon Energy Talks</b></br>
-    Eólicas Offshore: o potencial ibero-latino-americano</br></br>
+    Hidrogênio Verde e Biometano: caminhos para um futuro sustentável</br></br>
 
-            <p style="padding-left:45px">
-              <b>Elbia Gannoum – Energy Virtual Experience</b></br>
-              Presidente Executiva da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias
-            </p>
-            <p style="padding-left:45px">
-              <b>Filipe Matias Santos</b></br>
-              Diretor de Serviços Jurídicos da ERSE – Entidade Reguladora dos Serviços Energéticos
-            </p>
-            <p style="padding-left:45px">
-              <b>Marco Alves</b></br>
-              CEO da WavEC – Offshore Renewables
-            </p>
-            <p style="padding-left:45px">
-              <b>Ligia Schlittler</b></br>
-              Sócia do TozziniFreire Advogados
-            </p>
-            <p style="padding-left:45px">
-              <b>Juliana Barbosa – Moderadora</b></br>
-              Investigadora da Unidade de Economia de Recursos do LNEG – Laboratório Nacional de Energia e Geologia
-            </p>
-            </br>
-
-                <b>12h30</b> – Intervalo</br></br>
+    <b>12h30</b> – Almoço</br></br>
 
 <b>14h00 – Lisbon Energy MasterClass</b></br>
-Avaliando as oportunidades de uma transição energética eficiente na América Latina</br></br>
+Gás Natural: energia para a transição e neoeindustrialização</br></br>
 
-            <p style="padding-left:45px">
-            <b>Luiz Barroso</b></br>
-            CEO da PSR – Energy Consulting and Analytics
-            </p> 
-            <p style="padding-left:45px">
-            <b>Solange David – Moderadora
-            </b></br>
-            Membro do Conselho Consultivo da Norte Energia
-            </p> </br>
 
-<b>15h00 – Lisbon Energy Expo/Business</b></br>
-Península Ibérica e Brasil: territórios líderes na transição para energias limpas</br></br>
+<b>15h00 – Lisbon Energy Talks </b></br>
+Segurança Energética, Resiliência Climática e Riscos de Apagões: experiências ibero-americanas</br></br>
 
-            <p style="padding-left:45px">
-              <b>Teresa Ponce de Leão</b></br>
-              Presidente do LNEG – Laboratório Nacional de Energia e Geologia
-            </p> 
-            <p style="padding-left:45px">
-              <b>Thiago Prado</b></br>
-              Presidente da EPE – Empresa de Pesquisa Energética
-            </p> 
-            <p style="padding-left:45px">
-              <b>Marisete Pereira – Energy Virtual Experience</b></br>
-              Presidente da ABRAGE – Associação Brasileira das Empresas Geradoras de Energia Elétrica 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Jorge Sousa</b></br>
-              Presidente da APEEN – Associação Portuguesa de Economia da Energia              
-            </p> 
-            <p style="padding-left:45px">
-              <b>João Torres – Moderador</b></br>
-              Presidente da APE – Associação Portuguesa da Energia
-            </p> </br>
+<b>16h00 – Coffee Break</b></br></br>
 
-            <b>16h00 – Coffee Break</b></br></br>
-
-            <b>16h30 – Lisbon Energy Expo/Business</b></br>
-            Gás Natural e Biometano: combustíveis complementares para a transição</br></br>
-
-            <p style="padding-left:45px">
-              <b>Paulo Carmona</b></br>
-              Diretor-Geral da DGEG – Direção Geral de Energia e Geologia 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Raúl Santamaría Álvarez</b></br>
-              Director General de MIBGAS – Mercado Ibérico del Gas
-            </p> 
-            <p style="padding-left:45px">
-              <b>Nuno Fitas Mendes</b></br>
-              CEO da REN Portgás 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Karine Fragoso</b></br>
-              Gerente Geral de Petróleo, Gás, Energias e Naval da Firjan SENAI              
-            </p> 
-            <p style="padding-left:45px">
-              <b>Cácia Pimentel – Moderadora</b></br>
-              Coordenadora Executiva do Centro Mackenzie de Estudos de Políticas Públicas e Integridade              
-            </p> 
-            </br>
+<b>16h30 – Lisbon Energy Expo/Business</b></br>
+Comercialização de Energia na Transição: expansão, democratização e inovação </br></br>
 
 
 
-    <b>17h30 – Lisbon Energy Talks – Fórum C-Level</b></br>
-    Transição e Integração Energética na Península Ibérica e na América Latina: desafios em matéria de infraestruturas e descarbonização</br></br>
+<b>17h30 – Entrega dos Prêmios EVEx Lisboa 2025 – Personalidades do Ano</b></br></br>
 
-            <p style="padding-left:45px">
-            <b>Alexandre Fernandes</b></br>
-            Presidente da ENSE – Entidade Nacional para o Setor Energético
-            </p> 
-            <p style="padding-left:45px">
-            <b>Reynaldo Passanezi</b></br>
-            CEO da CEMIG – Companhia Energética de Minas Gerais
-            </p> 
-            <p style="padding-left:45px">
-            <b>João Manso Neto</b></br>
-            CEO do Grupo Greenvolt
-            </p> 
-            <p style="padding-left:45px">
-            <b>Alessandra Amaral</b></br>
-            Diretora Executiva da ADELAT – Asociación de Distribuidoras de Energía Eléctrica Latinoamericanas
-            </p> 
-            <p style="padding-left:45px">
-            <b>André Cabrita-Mendes – Moderadora</b></br>
-            Jornalista do Jornal Económico
-            </p> </br>
 
-            <b>18h30 – Coquetel</b></br></br>
 
-            <b>19h30 – Encerramento do Primeiro Dia</b></br></br>
+<b>18h00 – Encerramento do Primeiro Dia</b></br></br>
 
     `
   },
   {
     text:`
-    <h3 style="margin-bottom:4px">Dia 09 de Outubro</h3>
-    <p>Horário de Portugal Continental</p>
+    <h3 style="margin-bottom:4px">Dia 08 de Outubro (quarta-feira)</h3>
 
-    <b>09h00 – Lisbon Energy Academy – Abertura do Segundo Dia</b></br></br>
+    <b>09h00 – Abertura</b></br></br>
 
-            <p style="padding-left:45px">
-              <b>Júlia Seixas </b></br>
-              Pró-Reitora da Universidade NOVA de Lisboa 
-            </p> </br>
+    <b>10h00 – Lisbon Energy Talks </b></br>
+    Transição Energética e Indústria Verde: desafios e oportunidades na Península Ibérica e na América Latina </br></br>
 
-    <b>09h30 – Lisbon Energy Expo/Business </b></br>
-    Hidrogênio Verde: regulamentação, projetos e cases de sucesso</br></br>
-
-    <p style="padding-left:45px">
-      <b>Hugo Fonseca</b></br>
-      Secretário-Adjunto de Desenvolvimento Econômico do Rio Grande do Norte
-    </p>
-    <p style="padding-left:45px">
-      <b>André Pina</b></br>
-      Diretor Associado de Estratégia e Origem de Hidrogênio da EDP Renováveis
-    </p>
-    <p style="padding-left:45px">
-      <b>Manuel Costeira da Rocha</b></br>
-      Diretor de Estratégia Tecnológica da Smartenergy
-    </p>
-    <p style="padding-left:45px">
-      <b>Rodrigo Leão</b></br>
-      Gerente Executivo de Energia Renovável da Petrobras
-    </p>
-    <p style="padding-left:45px">
-      <b>Maria João Rolim</b></br>
-      Sócia do Rolim Goulart Cardoso Advogados
-    </p></br>
-
-   <b>10h30 – Coffee Break</b></br></br>
+   <b>11h00 – Coffee Break</b></br></br>
   
-   <b>11h00 – Lisbon Energy Expo/Business</b></br>
-   Mercado Livre de Energia: o consumidor no centro da transição energética </br></br>
+   <b>11h30 – Lisbon Energy Expo/Business</b></br>
+   Investimentos Sustentáveis e Financiamento Climático: por uma transição justa e eficiente </br></br>
 
-            <p style="padding-left:45px">
-              <b>Ricardo Nunes</b></br>
-              Chief Strategy Officer do OMIP – The Iberian Energy Derivates Exchange e OMIClear – The Iberian Energy Clearing House 
-            </p> 
 
-            <p style="padding-left:45px">
-              <b>Gerusa Côrtes</b></br>
-              Vice-Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica
-            </p> 
-            <p style="padding-left:45px">
-              <b>Camila Schoti
-              </b></br>
-              Diretora Executiva de Marketing & Growth da (re)energisa 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Guillermo Soler</b></br>
-              Diretor-Geral da Endesa Portugal 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Ana Luís de Sousa – Moderadora</b></br>
-              Secretária Executiva da APE – Associação Portuguesa da Energia
-            </p> 
-            </br>
+    <b>12h00 – Almoço</b></br></br>
+    </br>
 
-            <b>12h00 – Intervalo</b></br></br>
-           </br>
+<b>14h00 – Lisbon Energy Talks</b></br>
+Energia, Geopolítica e Descarbonização: o que esperar da COP30?</br></br>
 
-<b>14h30 – Lisbon Energy Talks</b></br>
-Finanças Sustentáveis e Energia: como os investimentos verdes e o ESG podem acelerar a transição?</br></br>
-
-            <p style="padding-left:45px">
-              <b>Cristina Melo Antunes </b></br>
-              ESG | Sustainable Finance - Business Leader do Santander Portugal 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Filipa Saldanha</b></br>
-              Diretora de Sustentabilidade do Crédito Agrícola 
-            </p> 
-            <p style="padding-left:45px">
-              <b>Marina Aidar</b></br>
-              Sócia da Área de Infraestrutura e Financiamento de Projetos do Demarest Advogados 
-            </p> 
-            <p style="padding-left:45px">
-            <b>Rita Rendeiro</b></br>
-            Sócia do CCSL Advogados 
-          </p> 
-            <p style="padding-left:45px">
-              <b>Alice Khouri – Moderadora</b></br>
-              Head of Legal da Helexia Portugal  
-            </p> </br>
-
- <b>15h30 – Lisbon Energy MasterClasses </b></br>
- Mulheres para a Transição Energética e Clima</br></br>
+ <b>15h00 – Lisbon Energy MasterClasses </b></br>
+ IA, Data Centers e Eletrificação: como viabilizar projetos e atender à crescente demanda energética?</br></br>
             
-                        <p style="padding-left:45px">
-                          <b>Solange David</b></br>
-                          Chairperson do Women in Energy do CIGRE
-                        </p> 
-                        <p style="padding-left:45px">
-                          <b>Susana Viseu </b></br>
-                          Presidente da BUSINESS as NATURE – Associação para a Produção e Consumo Sustentável e a Economia Circular 
-                        </p> 
-                        <p style="padding-left:45px">
-                          <b>Roberta Nanini</b></br>
-                          Diretora Regulatória da CEMIG – Companhia Energética de Minas Gerais
-                        </p> 
-                        <p style="padding-left:45px">
-                        <b>Cácia Pimentel </b></br>
-                        Coordenadora Executiva do Centro Mackenzie de Estudos de Políticas Públicas e Integridade 
-                      </p> 
-                      <p style="padding-left:45px">
-                      <b>Flávia Lima – Moderadora</b></br>
-                      Membro da Equipa de Implementação do Mulheres na Energia – APE 
-                    </p>  </br>
 
-                    <b>16h30 – Coffee Break  </b></br></br>
+<b>16h00 – Coffee Break  </b></br></br>
 
-<b>17h00 – Lisbon Energy Talks</b></br>
-Comunidades de Energia, Mobilidade Elétrica e Ação Climática Local</br></br>
+<b>16h30 – Lisbon Energy Expo/Business </b></br>
+Geração Distribuída, Mobilidade Elétrica e Armazenamento de Energia</br></br>
 
 
-
-            <p style="padding-left:45px">
-            <b>Luís Barroso</b></br>
-            CEO da MOBI.E
-            </p> 
-            <p style="padding-left:45px">
-            <b>José Queirós de Almeida</b></br>
-            CEO da Greenvolt Comunidades
-            </p>
-           
-            <p style="padding-left:45px">
-            <b>Ana Paula Rodrigues</b></br>
-            Vice-Presidente da ADENE – Agência para a Energia
-            </p>
-
-            <p style="padding-left:45px">
-            <b>Débora Melo Fernandes – Moderadora</b></br>
-            Sócia do Pérez-Llorca
-            </p>
-            </br>
-
-            <b>18h00 – Encerramento do Evento</b></br></br>
+ <b>17h30 – Encerramento do Evento</b></br></br>
 
     `
   },
