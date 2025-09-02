@@ -4,7 +4,7 @@ import Arrow from '@/images/icons/arrow-down.svg'
 import Download from '@/images/icons/icon-download.svg'
 import Publicacao from '@/images/icons/icon-pub.svg'
 import Normas from '@/images/2024/Regras de Formatação.pdf'
-import Eixos from '@/images/2024/Eixos_Tematicos.jpeg'
+import Eixos from '@/images/2025/Call-for-papers.pdf'
 // import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
 import Anais from '@/images/Anais EVEx 2020.pdf'
 import Anais2021 from '@/images/Anais EVEx 2021 - Energy Virtual Experience .pdf'
@@ -124,18 +124,18 @@ const Faq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel css={resposta}>
                     
-                    <p css={mb16}>
+                    {/* <p css={mb16}>
                       <a href={Normas} target="_blank">
                         <img src={Download} /> Normas
                       </a>
-                    </p>
+                    </p> */}
                     <p css={mb16}>
                       <a href={Eixos} target="_blank">
                         <img src={Download} /> Eixos Temáticos
                       </a>
                     </p>
                     <p css={mb16}>
-                      <a href='https://www.playbook.com/s/jacksonides/omUr3sKcR8KqDm444qBi2KVy?assetToken=X7tsntf84N36aVoPeaWudEi5' target="_blank">
+                      <a href='https://www.playbook.com/s/jacksonides/3dDmbhNAFtRc5k4FkJDgMnxZ?assetToken=7hou99ndNEK7zPt3kXPtydHs' target="_blank">
                         <img src={Download} /> Template Resumo
                       </a>
                     </p>

@@ -2368,7 +2368,7 @@ export const ContentData2 = [
 
     <b>08h30 – Credenciamento</b></br></br>
   
-   <b>11h30 – Lisbon Energy Experience </b></br>
+   <b>09h30 – Lisbon Energy Experience </b></br>
     Abertura com Lideranças e Autoridades </br></br>
 
             <p style="padding-left:45px">

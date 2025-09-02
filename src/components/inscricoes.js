@@ -52,7 +52,7 @@ Obs.: aos valores apresentados acresce taxa da plataforma de pagamento; para pag
         <div css={blocks}>
           <Row>
           <Col css={sectionTitle} lg={12}>
-             <h2>EVEx Lisboa 2025</h2>
+             <h2>EVEx Lisboa</h2>
           </Col>
             
           <Col lg={6} md={6} sm={12}>
