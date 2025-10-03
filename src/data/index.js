@@ -2584,34 +2584,159 @@ Comercialização de Energia na Transição: expansão, democratização e inova
     text:`
     <h3 style="margin-bottom:4px">Dia 08 de Outubro (quarta-feira)</h3>
 
-    <b>09h00 – Abertura</b></br></br>
+    <b>09h00 – Abertura do Segundo Dia</b></br></br>
 
-    <b>10h00 – Lisbon Energy Talks </b></br>
+     <p style="padding-left:45px">
+              <b>Jean Barroca</b></br>
+              Secretário de Estado Adjunto e da Energia de Portugal     
+            </p>
+
+    <b>09h30 – Lisbon Energy Talks </b></br>
     Transição Energética e Indústria Verde: desafios e oportunidades na Península Ibérica e na América Latina </br></br>
 
-   <b>11h00 – Coffee Break</b></br></br>
+    <p style="padding-left:45px">
+    <b>Bruno Veloso</b></br>
+    Vice-Presidente do Conselho de Administração, ADENE
+  </p>
+ <p style="padding-left:45px">
+    <b>Rosana Santos</b></br>
+    Diretora Executiva, Instituto E+ Transição Energética 
+  </p>
+ <p style="padding-left:45px">
+    <b>Artur Trindade </b></br>
+    Diretor Executivo, RELOP – Associação de Reguladores de Energia dos Países de Língua Oficial Portuguesa 
+  </p>
+ <p style="padding-left:45px">
+    <b>Solange David </b></br>
+    Chairperson, Women in Energy, CIGRE Internacional 
+  </p>
+ <p style="padding-left:45px">
+    <b>Juliana Barbosa </b></br>
+    Investigadora Sénior na Unidade de Economia de Recursos, LNEG 
+  </p>
+
+  <p style="padding-left:45px">
+              <b>Caio Alves </b>– Moderador </br>
+             Head de Regulação, Rolim Goulart Cardoso Advogados 
+            </p>
+
+   <b>10h30 – Coffee Break & Networking</b></br></br>
   
-   <b>11h30 – Lisbon Energy Expo/Business</b></br>
+   <b>11h00 – Lisbon Energy Talks</b></br>
    Investimentos Sustentáveis e Financiamento Climático: por uma transição justa e eficiente </br></br>
 
+    <p style="padding-left:45px">
+    <b>Maria João Coelho</b></br>
+    Diretora-Geral, ELECPOR – Associação Portuguesa das Empresas do Sector Eléctrico
+  </p>
+ <p style="padding-left:45px">
+    <b>Marina Aidar</b></br>
+   Sócia da Área de Infraestrutura e Financiamento de Projetos, Demarest Advogados  
+  </p>
+ <p style="padding-left:45px">
+    <b>Ana Luís de Sousa </b></br>
+    Diretora Executiva, APE – Associação Portuguesa da Energia  
+  </p>
+ <p style="padding-left:45px">
+    <b>Representante da Galp (a confirmar)</b></br>
+  </p>
 
-    <b>12h00 – Almoço</b></br></br>
-    </br>
+  <p style="padding-left:45px">
+              <b>Virginia Parente  </b>– Moderadora </br>
+             Professora, Instituto de Energia e Ambiente da USP 
+            </p>
+
+
+    <b>12h00 – Intervalo para Almoço</b></br></br>
 
 <b>14h00 – Lisbon Energy Talks</b></br>
-Energia, Geopolítica e Descarbonização: o que esperar da COP30?</br></br>
+IA, Data Centers e Eletrificação: como viabilizar projetos e atender à crescente demanda energética?</br></br>
 
- <b>15h00 – Lisbon Energy MasterClasses </b></br>
- IA, Data Centers e Eletrificação: como viabilizar projetos e atender à crescente demanda energética?</br></br>
+    <p style="padding-left:45px">
+    <b>André Pina</b></br>
+    Senior Director, Hydrogen & Data Centers Strategy and Business Development, EDP Renewables
+  </p>
+    <p style="padding-left:45px">
+    <b>Maria João Rolim </b></br>
+    Sócia, Rolim Goulart Cardoso Advogados 
+  </p>
+ <p style="padding-left:45px">
+    <b>Vital Neto</b></br>
+   Conselheiro de Administração, CCEE   
+  </p>
+ <p style="padding-left:45px">
+    <b>João Santos-Vitor</b></br>
+    M&A and Business Development, Lightsource bp  
+  </p>
+ <p style="padding-left:45px">
+    <b>Wagner Ferreira</b></br>
+    Sócio, Caputo, Bastos e Serra Advogados 
+  </p>
+
+  <p style="padding-left:45px">
+              <b>André Cabrita-Mendes </b>– Moderador  </br>
+             Jornalista, Jornal Económico  
+            </p>
+
+ <b>15h00 – Lisbon Energy Expo/Business </b></br>
+ Geração Distribuída, Mobilidade Elétrica e Armazenamento de Energia: sinergias para o futuro</br></br>
+
+     <p style="padding-left:45px">
+    <b>Luís Barroso </b></br>
+    Presidente, MOBI.E 
+  </p>
+ <p style="padding-left:45px">
+    <b>Bárbara Rubim </b></br>
+   Vice-Presidente do Conselho de Administração, ABSOLAR – Associação Brasileira de Energia Solar Fotovoltaica  
+  </p>
+ <p style="padding-left:45px">
+    <b>Paulo Nogueira</b></br>
+    Coordenador da Área de Transição Energética da Direção de Indústria e Transição Energética, ADENE 
+  </p>
+ <p style="padding-left:45px">
+    <b>Jorge Sousa (a confirmar)</b></br>
+    Professor, ISEL/INESC-ID 
+  </p>
+
+  <p style="padding-left:45px">
+              <b>Silla Motta </b>– Moderadora  </br>
+             CEO, Donna Lamparina 
+            </p>
             
 
-<b>16h00 – Coffee Break  </b></br></br>
+<b>16h00 – Coffee Break & Networking  </b></br></br>
 
-<b>16h30 – Lisbon Energy Expo/Business </b></br>
-Geração Distribuída, Mobilidade Elétrica e Armazenamento de Energia</br></br>
+<b>16h30 – Lisbon Energy Energy Talks  </b></br>
+O Poder da Inovação e da Comunicação na Transição Energética: diálogo ibero-americano  </br></br>
+
+     <p style="padding-left:45px">
+    <b>Cristiana Kumaira </b></br>
+    Diretora de Comunicação e Marketing, CEMIG
+  </p>
+ <p style="padding-left:45px">
+    <b>Raquel Mendes </b></br>
+   Head of European Affairs, EDP 
+  </p>
+ <p style="padding-left:45px">
+    <b>Lurian Klein</b></br>
+    Innovation Project Manager, Cleanwatts Digital
+  </p>
+ <p style="padding-left:45px">
+    <b>Ana Rita Antunes </b></br>
+    Coordenadora Executiva, Coopérnico  
+  </p>
+ <p style="padding-left:45px">
+    <b>Representante da Galp (a confirmar)</b></br>
+   
+  </p>
+
+  <p style="padding-left:45px">
+              <b>Nayara Machado </b>– Moderadora  </br>
+             Jornalista, agência eixos 
+            </p>
 
 
- <b>17h30 – Encerramento do Evento</b></br></br>
+ <b>17h30 – Lisbon Energy Experience | Encerramento </b></br></br>
 
     `
   },
