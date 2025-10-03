@@ -36,10 +36,12 @@ import Img205 from '@/images-br/patrocinio/spic.png'
 import Img206 from '@/images-br/patrocinio/bancone.png'
 import Img207 from '@/images-br/patrocinio/mme.png'
 import Img208 from '@/images-br/patrocinio/gov.png'
-import Img209 from '@/images-br/patrocinio/copel.png'
+import Img209 from '@/images/patrocinio/copel.svg'
 import Img210 from '@/images-br/patrocinio/ndf.png'
 import Img211 from '@/images-br/patrocinio/caputo.png'
 import Img212 from '@/images-br/patrocinio/ejup.png'
+import Img213 from '@/images/patrocinio/ense.svg'
+import Img214 from '@/images/patrocinio/mobi.e.svg'
 
 import Pat01 from '@/images/patrocinio/adene.jpeg'
 import Pat02 from '@/images/patrocinio/cemig.png'
@@ -134,6 +136,7 @@ const Patrocinadores = () => {
                         <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img201} /></a></li>
                         <li><a href="#" target="_blank"><img src={Img207} /></a></li>
                         <li><a href="#" target="_blank"><img src={Img208} /></a></li>
+                        <li><a href="#" target="_blank"><img src={Img213} /></a></li>
                     </ul>
                     <ul>
                         <li><a href="https://www.reenergisa.com.br/" target="_blank"><img src={Img204} /></a></li>
@@ -146,6 +149,8 @@ const Patrocinadores = () => {
                   <ul>
                     <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li>
                     <li><a href="#" target="_blank"><img src={Img211} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img209} /></a></li>
+                    <li><a href="#" target="_blank"><img src={Img214} /></a></li>
                   </ul>
                   <ul>
                     <li><a href="#" target="_blank"><img src={Pat14} /></a></li>
