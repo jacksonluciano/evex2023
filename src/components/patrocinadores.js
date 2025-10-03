@@ -26,6 +26,10 @@ import Img18 from '@/images/apoio/ABIOGAS.png'
 import Img19 from '@/images/apoio/ABIHV.png'
 import Img20 from '@/images/apoio/epe.png'
 import Img21 from '@/images/apoio/ons.png'
+import Img22 from '@/images/apoio/Firjan.svg'
+import Img23 from '@/images/apoio/ONIP.svg'
+import Img24 from '@/images/apoio/abegás.svg'
+import Img25 from '@/images/apoio/Ordem dos Engenheiros.svg'
 
 import Img193 from '@/images-br/patrocinio/cemig.png'
 import Img201 from '@/images-br/patrocinio/enbparm.png'
@@ -167,12 +171,12 @@ const Patrocinadores = () => {
                     <li><img src={Img20} /></li>
                     <li><img src={Img21} /></li>
                     {/* <li><img src={Img17} /></li>*/}
+                    <li><img src={Img22} /></li>
                   </ul>
                   <ul>
-                    {/* <li><img src={Img1} /></li> */}
-                    {/* <li><img src={Img2} /></li> */}
-                    {/* <li><img src={Img13} /></li> */}
-                    {/* <li><img src={Img18} /></li> */}
+                    <li><img src={Img23} /></li>
+                    <li><img src={Img24} /></li>
+                    <li><img src={Img25} /></li>
                     {/* <li><img src={Img19} /></li> */}
                   </ul>
                   {/* <ul>
