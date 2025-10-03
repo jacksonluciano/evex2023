@@ -2443,7 +2443,7 @@ export const ContentData2 = [
             </p>
             <p style="padding-left:45px">
               <b>Magno Bernardo</b></br>
-              DAssessor de Tecnologia de Gás Natural, Bahiagás – Companhia de Gás da Bahia   
+              Assessor de Tecnologia de Gás Natural, Bahiagás – Companhia de Gás da Bahia   
             </p>
             <p style="padding-left:45px">
               <b>Fernado Alves Pinto  </b>– Moderador </br>
@@ -2460,7 +2460,7 @@ Gás Natural: energia para a transição e (re)industrialização </br></br>
               Presidente, ENSE – Entidade Nacional para o Setor Energéticos  
             </p>
             <p style="padding-left:45px">
-              <b>Marina MeloHeloisa Borges </b></br>
+              <b>Heloisa Borges </b></br>
               Diretora de Estudos do Petróleo, Gás Natural e Biocombustíveis, EPE   
             </p>
             <p style="padding-left:45px">
@@ -2571,7 +2571,7 @@ Comercialização de Energia na Transição: expansão, democratização e inova
               Strategic Advisor, EDP
             </p>
               <p>
-              <b>•	Personalidade da Península Ibérica</b></br>
+              <b>•	Personalidade da América Latina</b></br>
               <b>André Pepitone </b></br>
               Diretor Financeiro Executivo, Itaipu Binacional 
             </p>
