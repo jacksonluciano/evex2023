@@ -2368,49 +2368,215 @@ export const ContentData2 = [
 
     <b>08h30 – Credenciamento</b></br></br>
   
-   <b>09h30 – Lisbon Energy Experience </b></br>
+   <b>09h15 – Lisbon Energy Experience </b></br>
     Abertura com Lideranças e Autoridades </br></br>
 
-            <p style="padding-left:45px">
+            <p>
               <b>•	Boas-vindas</b></br>
             </p> 
 
             <p style="padding-left:45px">
+              <b>Caio César Cavalcanti</b></br>
+              Presidente e Fundador, EVEx – Energy Virtual Experience 
+            </p>
+
+            <p style="padding-left:45px">
+              <b>Maria da Graça Carvalho (a confirmar)</b></br>
+              Ministra do Ambiente e Energia de Portugal  
+            </p> </br>
+
+            <p>
               <b>•	Painel de Abertura – Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30</b></br>
             </p> 
 
             <p style="padding-left:45px">
+              <b>Teresa Ponce de Leão</b></br>
+              Presidente, LNEG – Laboratório Nacional de Energia e Geologia  
+            </p>
+            <p style="padding-left:45px">
+              <b>Alexandre Ramos</b></br>
+              Presidente, CCEE – Câmara de Comercialização de Energia Elétrica   
+            </p>
+            <p style="padding-left:45px">
+              <b>Nelson Lage</b></br>
+              Presidente, ADENE – Agência para a Energia  
+            </p>
+            <p style="padding-left:45px">
+              <b>Thiago Prado</b></br>
+              Presidente, EPE – Empresa de Pesquisa Energética  
+            </p>
+            <p style="padding-left:45px">
+              <b>Marcio Rea</b></br>
+              Diretor-Geral, ONS – Operador Nacional do Sistema Elétrico  
+            </p>
+            <p style="padding-left:45px">
+              <b>André Pepitone</b></br>
+              Diretor Financeiro Executivo, Itaipu Binacional   
+            </p>
+            <p style="padding-left:45px">
+              <b>Maria João Rolim </b>– Moderadora </br>
+              Embaixadora, EVEx   
+            </p>
+
+            <p>
               <b>•	Assinatura de Protocolo de Colaboração entre o LNEG e a EPE</b></br>
-            </p> 
+            </p>
  </br>
 
-    <b>11h00</b> – Coffee Break</br></br>
+    <b>11h00</b> – Coffee Break & Networking powered by MOBI.E</br></br>
 
 
     <b>11h30 – Lisbon Energy Talks</b></br>
-    Hidrogênio Verde e Biometano: caminhos para um futuro sustentável</br></br>
+    Hidrogênio Verde e Biometano: estratégias e soluções para a descarbonização</br></br>
 
-    <b>12h30</b> – Almoço</br></br>
+                <p style="padding-left:45px">
+              <b>Nuno Fitas Mendes</b></br>
+              Administrador-Delegado, REN Portgás  
+            </p>
+            <p style="padding-left:45px">
+              <b>Marina Melo</b></br>
+              Diretora-Presidente, Potigás – Companhia Potiguar de Gás   
+            </p>
+            <p style="padding-left:45px">
+              <b>Alexandre Calmon</b></br>
+              Sócio, COSRO – Costa Rodrigues Advogados 
+            </p>
+            <p style="padding-left:45px">
+              <b>Magno Bernardo</b></br>
+              DAssessor de Tecnologia de Gás Natural, Bahiagás – Companhia de Gás da Bahia   
+            </p>
+            <p style="padding-left:45px">
+              <b>Fernado Alves Pinto  </b>– Moderador </br>
+              Vogal Executivo, ENSE – Entidade Nacional para o Setor Energético   
+            </p>
 
-<b>14h00 – Lisbon Energy MasterClass</b></br>
-Gás Natural: energia para a transição e neoeindustrialização</br></br>
+    <b>12h30</b> – Intervalo para Almoço</br></br>
+
+<b>14h00 – Lisbon Energy Expo/Business</b></br>
+Gás Natural: energia para a transição e (re)industrialização </br></br>
+
+            <p style="padding-left:45px">
+              <b>Alexandre Fernandes</b></br>
+              Presidente, ENSE – Entidade Nacional para o Setor Energéticos  
+            </p>
+            <p style="padding-left:45px">
+              <b>Marina MeloHeloisa Borges </b></br>
+              Diretora de Estudos do Petróleo, Gás Natural e Biocombustíveis, EPE   
+            </p>
+            <p style="padding-left:45px">
+              <b>Luiz Gavazza</b></br>
+              Diretor-Presidente, Bahiagás – Companhia de Gás da Bahia 
+            </p>
+            <p style="padding-left:45px">
+              <b>Gema Blanco Salvá</b></br>
+              Adjunta Dirección General, MIBGAS – Mercado Ibérico del Gas   
+            </p>
+            <p style="padding-left:45px">
+              <b>Karine Fragoso</b></br>
+              Gerente-Geral de Petróleo, Gás, Energias e Naval, Firjan SENAI   
+            </p>
+            <p style="padding-left:45px">
+              <b>Gustavo De Marchi   </b>– Moderador </br>
+              Consultor, FGV Energia    
+            </p>
 
 
 <b>15h00 – Lisbon Energy Talks </b></br>
 Segurança Energética, Resiliência Climática e Riscos de Apagões: experiências ibero-americanas</br></br>
 
-<b>16h00 – Coffee Break</b></br></br>
+            <p style="padding-left:45px">
+              <b>João Conceição </b></br>
+              Administrador Executivo, REN – Redes Energéticas Nacionais   
+            </p>
+            <p style="padding-left:45px">
+              <b>Vitor Santos </b></br>
+              Professor Catedrático, ISEG – Instituto de Economia e Gestão, Universidade de Lisboa   
+            </p>
+            <p style="padding-left:45px">
+              <b>Elisa Bastos </b></br>
+              Diretora de Assuntos Corporativos, ONS – Operador Nacional do Sistema Elétrico
+            </p>
+            <p style="padding-left:45px">
+              <b>Filipe Matias Santos </b></br>
+              Diretor Jurídico, ERSE – Entidade Reguladora dos Serviços Energéticos   
+            </p>
+            <p style="padding-left:45px">
+              <b>António Coutinho</b></br>
+              Presidente, APE – Associação Portuguesa da Energia    
+            </p>
+            <p style="padding-left:45px">
+              <b>João Torres  </b>– Moderador </br>
+              Strategic Advisor, EDP  
+            </p>
+
+<b>16h00 – Coffee Break & Networking</b></br></br>
 
 <b>16h30 – Lisbon Energy Expo/Business</b></br>
+A CCEE e o Avanço da Regulação Setorial no Brasil</br></br>
+
+  <p style="padding-left:45px">
+    <b>Ricardo Simabuku</b></br>
+    Conselheiro de Administração, CCEE – Câmara de Comercialização de Energia Elétrica     
+  </p>
+
+  <p>
+          <b>•	Debate</b></br>
+        </p> 
+
+        <p style="padding-left:45px">
+    <b>Danilo Forte</b></br>
+    Deputado Federal do Brasil     
+  </p>
+
+  <p style="padding-left:45px">
+              <b>Wagner Ferreira  </b>– Moderador </br>
+              Sócio, Caputo, Bastos e Serra Advogados 
+            </p>
+
+
+<b>17h15 – Lisbon Energy Expo/Business  </b></br>
 Comercialização de Energia na Transição: expansão, democratização e inovação </br></br>
 
+ <p style="padding-left:45px">
+    <b>Ricardo Nunes</b></br>
+    Chief Strategy Officer, OMIP – The Iberian Energy Derivatives Exchange 
+  </p>
+ <p style="padding-left:45px">
+    <b>João Nuno Serra</b></br>
+    Presidente, ACEMEL – Associação dos Comercializadores de Energia no Mercado Liberalizado
+  </p>
+ <p style="padding-left:45px">
+    <b>Sérgio Lopes Cabral</b></br>
+    Vice-Presidente de Comercialização, CEMIG – Companhia Energética de Minas Gerais 
+  </p>
+ <p style="padding-left:45px">
+    <b>Wander Azevedo</b></br>
+    Diretor de Comercialização de Energia, ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
+  </p>
+ <p style="padding-left:45px">
+    <b>Paulo Tarso </b></br>
+    Head of Supply & Trading Americas, Galp 
+  </p>
 
+  <p style="padding-left:45px">
+              <b>Silla Motta   </b>– Moderadora </br>
+             CEO, Donna Lamparina 
+            </p>
 
-<b>17h30 – Entrega dos Prêmios EVEx Lisboa 2025 – Personalidades do Ano</b></br></br>
+<b>18h15 – Entrega dos Prêmios EVEx Lisboa 2025 – Personalidades do Ano</b></br></br>
 
+              <p>
+              <b>•	Personalidade da Península Ibérica</b></br>
+              <b>João Torres</b></br>
+              Strategic Advisor, EDP
+            </p>
+              <p>
+              <b>•	Personalidade da Península Ibérica</b></br>
+              <b>André Pepitone </b></br>
+              Diretor Financeiro Executivo, Itaipu Binacional 
+            </p>
 
-
-<b>18h00 – Encerramento do Primeiro Dia</b></br></br>
+<b>18h30 – Encerramento do Primeiro Dia</b></br></br>
 
     `
   },
