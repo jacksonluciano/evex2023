@@ -1473,14 +1473,14 @@ export const ComiteData = {
     },
     {
       image: Comite23,
-      name: "Heloísa Borges",
+      name: "Heloisa Borges",
       description: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, EPE – Empresa de Pesquisa Energética",
     },
-    {
-      image: Comite11,
-      name: "Rui Pestana",
-      description: "Assessor da Divisão do Gestor do Sistema, REN – Redes Energéticas Nacionais",
-    },
+    // {
+    //   image: Comite11,
+    //   name: "Rui Pestana",
+    //   description: "Assessor da Divisão do Gestor do Sistema, REN – Redes Energéticas Nacionais",
+    // },
     {
       image: Comite24,
       name: "Renata Isfer",
