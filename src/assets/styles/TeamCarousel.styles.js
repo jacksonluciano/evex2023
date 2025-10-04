@@ -242,12 +242,13 @@ export const speakerInfo = css`
   background-color: ${colors.primaryMain};
   border-radius: 8px;
   border:1px solid ${colors.secondaryMain};
-  position: absolute;
+  /* position: absolute; */
   bottom: 1px;
   z-index: 2;
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
+  /* margin-top: -24px; */
 
   h4{
     font-family: 'bw_gradual_demoregular';

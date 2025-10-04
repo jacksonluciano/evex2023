@@ -68,7 +68,7 @@ const TeamCarousel = () => {
         <Row>
           <Col css={speakersTitle} lg={12}>
              <h2>{sectionContent.title}</h2>
-             <p>Personalidades de renome e protagonismo nos mercados energéticos da Península Ibérica e da América Latina, conheça os speakers já confirmados para o EVEx Lisboa 2024. Nas próximas semanas, anunciaremos mais nomes. </p>
+             <p>Personalidades de renome e protagonismo nos mercados ibérico e latino-americano de energia, conheça os speakers confirmados para o EVEx Lisboa 2025 – Lisbon Energy Experience.</p>
           </Col>
         </Row>
 
