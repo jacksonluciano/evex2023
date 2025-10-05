@@ -164,8 +164,11 @@ export const about = css`
         img {
           height: 132px;
           @media (min-width: 320px) and (max-width: 767px) {
-            height: auto !important;
-            max-width: 80%;
+            /* height: auto !important;
+            max-width: 80%; */
+            object-fit: contain;   
+            object-position: center; 
+            display: block;      
           }
         }
       }
@@ -305,7 +308,8 @@ export const about = css`
       align-items: center;
 
       @media (min-width: 320px) and (max-width: 767px) {
-        display: inline;
+        /* display: inline; */
+        margin-bottom: 8px;
       }
 
       li {

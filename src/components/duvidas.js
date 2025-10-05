@@ -103,7 +103,7 @@ const Duvidas = () => {
               </a>
             </Col>
             <Col lg={12} md={12} sm={12}>
-              <h4 css={secDesk}>Exposiçaõ</h4>
+              <h4 css={secDesk}>Exposição</h4>
               <a href='#' target='_blank'>
               <img src={LogoTesla} />
               </a>
