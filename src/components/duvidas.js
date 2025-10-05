@@ -8,6 +8,7 @@ import LogoEixos from "@/images/apoio/eixos.png"
 import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
 import LogoCcee from "@/images/apoio/ccee.png" 
+import LogoTesla from "@/images/apoio/tesla.svg" 
 import Hotel from "@/images/hotel_dom_pedro.png" 
 import { Col, Container, Row } from "react-bootstrap";  
 import { useLocation } from '@reach/router';
@@ -102,9 +103,9 @@ const Duvidas = () => {
               </a>
             </Col>
             <Col lg={12} md={12} sm={12}>
-              <h4 css={secDesk}>Tesla</h4>
-              <a href='https://www.flytap.com/pt-br/' target='_blank'>
-              <img src={LogoTap} />
+              <h4 css={secDesk}>Exposiçaõ</h4>
+              <a href='#' target='_blank'>
+              <img src={LogoTesla} />
               </a>
             </Col>
           </Row>
