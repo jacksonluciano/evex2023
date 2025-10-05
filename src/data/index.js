@@ -826,7 +826,7 @@ export const TeamOneData = {
     },
     {
       image: Speaker25,
-      name: "Heloísa Borges",
+      name: "Heloisa Borges",
       designation: "Diretora de Estudos do Petróleo, Gás Natural e Biocombustíveis, EPE",
     },
     {
@@ -877,7 +877,7 @@ export const TeamOneData = {
     {
       image: Speaker112,
       name: "Reynaldo Passanezi ",
-      designation: "CEO, Floene",
+      designation: "CEO, CEMIG – Companhia Energética de Minas Gerais",
     },
     {
       image: Speaker83,
@@ -2991,7 +2991,7 @@ export const BigCtaData = [
     date: 'Agenda',
     text: 
         `Entre as temáticas que serão abordadas no EVEx 2025, destacam-se: transição energética; ação climática; descarbonização; segurança energética; hidrogênio verde; biometano; gás natural; geração distribuída; mobilidade elétrica; armazenamento de energia; data centers; comercialização de energia; investimentos sustentáveis e financiamento climático.`,
-        button: 'Agenda Preliminar'
+        button: 'Agenda Oficial'
   },
   {
     date: 'Inscrições',

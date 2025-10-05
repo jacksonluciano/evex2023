@@ -1138,7 +1138,7 @@ export const ComiteData = {
     },
     {
       image: Speaker07,
-      name: "Heloísa Borges",
+      name: "Heloisa Borges",
       designation: "Diretora de Estudos do Petróleo, Gás e Biocombustíveis, ",
       place: "EPE – Empresa de Pesquisa Energética"
     },

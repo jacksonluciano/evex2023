@@ -101,6 +101,12 @@ const Duvidas = () => {
               <img src={LogoTap} />
               </a>
             </Col>
+            <Col lg={12} md={12} sm={12}>
+              <h4 css={secDesk}>Tesla</h4>
+              <a href='https://www.flytap.com/pt-br/' target='_blank'>
+              <img src={LogoTap} />
+              </a>
+            </Col>
           </Row>
         </section>
 
