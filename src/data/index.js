@@ -204,7 +204,7 @@ import Speaker47 from "@/images/speaker/2025/nuno fitas.png"
 import Speaker48 from "@/images/speaker/2025/Karine Fragoso.png"
 import Speaker49 from "@/images/speaker/2024/alessandra_amaral.jpg"
 import Speaker50 from "@/images/speaker/2024/andre_cabrita_mendes.jpg"
-import Speaker51 from "@/images/speaker/2025/andre.png"
+import Speaker51 from "@/images/speaker/2025/carlos-mata.png"
 import Speaker52 from "@/images/speaker/2024/manuel_costeira_da_rocha.jpg"
 import Speaker53 from "@/images/speaker/2024/gerusa_cortes.jpg"
 import Speaker54 from "@/images/speaker/2024/camila_schoti.jpg"
@@ -991,7 +991,7 @@ export const TeamOneData = {
     },
     {
       image: Speaker51,
-      name: "André Pina",
+      name: "Carlos Mata",
       designation: "Senior Director, Hydrogen & Data Centers Strategy and Business Development, EDP Renewables",
     },
     {
@@ -2608,8 +2608,8 @@ export const ContentData2 = [
             </p>
 
             <p style="padding-left:45px">
-              <b>Maria da Graça Carvalho (a confirmar)</b></br>
-              Ministra do Ambiente e Energia de Portugal  
+              <b>Teresa Ponce de Leão</b></br>
+              Presidente, LNEG – Laboratório Nacional de Energia e Geologia
             </p> </br>
 
             <p>
@@ -2647,6 +2647,9 @@ export const ContentData2 = [
 
             <p>
               <b>•	Assinatura de Protocolo de Colaboração entre o LNEG e a EPE</b></br>
+            </p>
+            <p>
+              <b>•	Assinatura de Protocolo de Colaboração entre a ADENE e a EPE</b></br>
             </p>
  </br>
 
@@ -2884,9 +2887,6 @@ Comercialização de Energia na Transição: expansão, democratização e inova
     <b>Ana Luís de Sousa </b></br>
     Diretora Executiva, APE – Associação Portuguesa da Energia  
   </p>
- <p style="padding-left:45px">
-    <b>Representante da Galp (a confirmar)</b></br>
-  </p>
 
   <p style="padding-left:45px">
               <b>Virginia Parente  </b>– Moderadora </br>
@@ -2900,7 +2900,7 @@ Comercialização de Energia na Transição: expansão, democratização e inova
 IA, Data Centers e Eletrificação: como viabilizar projetos e atender à crescente demanda energética?</br></br>
 
     <p style="padding-left:45px">
-    <b>André Pina</b></br>
+    <b>Carlos Mata</b></br>
     Senior Director, Hydrogen & Data Centers Strategy and Business Development, EDP Renewables
   </p>
     <p style="padding-left:45px">
@@ -2967,10 +2967,6 @@ O Poder da Inovação e da Comunicação na Transição Energética: diálogo ib
  <p style="padding-left:45px">
     <b>Ana Rita Antunes </b></br>
     Coordenadora Executiva, Coopérnico  
-  </p>
- <p style="padding-left:45px">
-    <b>Representante da Galp (a confirmar)</b></br>
-   
   </p>
 
   <p style="padding-left:45px">
