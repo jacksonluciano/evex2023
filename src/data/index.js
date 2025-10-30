@@ -1798,7 +1798,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "Este ano, na sua sexta edição, o EVEx conta com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nJá o segundo, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, em Portugal, no campus do Laboratório Nacional de Energia e Geologia (LNEG) em Alfragide, na região de Lisboa. Por fim, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03 a 05 de novembro, de forma online e ao vivo, aquecendo o debate para a 30ª Conferência das Nações Unidas sobre Mudança do Clima.",
+      "Este ano, na sua sexta edição, o EVEx conta com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nJá o segundo, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, em Portugal, no campus do Laboratório Nacional de Energia e Geologia (LNEG) em Alfragide, na região de Lisboa. Por fim, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03, 04 e 07 de novembro, de forma online e ao vivo, aquecendo o debate para a 30ª Conferência das Nações Unidas sobre Mudança do Clima.",
   },
   button: {
     label: "Lorem ipsum",
@@ -2092,8 +2092,8 @@ export const AgendaOnlineData = [
     day: `Terça-feira`,
   },
   {
-    date: '05/11/2025',
-    day: `Quarta-feira`,
+    date: '07/11/2025',
+    day: `Sexta-feira`,
   },
 ];
 
