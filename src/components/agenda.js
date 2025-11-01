@@ -118,15 +118,15 @@ const Agenda = () => {
          
         </div>
         <section css={[contentData,contentPresData]}>    
-             {/* {ContentData.map(({ text }, index) => (
+             {ContentData.map(({ text }, index) => (
               selectedOn != null && selectedOn === index ?
               <Col key={index} lg={12} md={12} sm={12}>
                 <div dangerouslySetInnerHTML={{ __html: text }} />
               </Col>
                : null
-            ))}       */}
+            ))}      
 
-            <h4 style={{textAlign: 'center', color: '#fff'}}>Disponível em breve</h4>
+            {/* <h4 style={{textAlign: 'center', color: '#fff'}}>Disponível em breve</h4> */}
         </section>
         <img css={element5} src={element05} />
         <img css={element8} src={element08} />
