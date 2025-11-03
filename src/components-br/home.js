@@ -89,10 +89,10 @@ const Home = ({ title, name }) => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/lisboa">
+                    <a href="https://drive.google.com/file/d/1-G3vpsMJ-_ZSf-9nvAc16OY429Jylg1r/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                       <span>EVEx COP30</span>
                       <span>Energy Virtual Experience</span>               
-                    </Link>
+                    </a>
                 </li>
               </ul>
              
