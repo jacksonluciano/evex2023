@@ -89,7 +89,7 @@ const Home = ({ title, name }) => {
                     </Link>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1-G3vpsMJ-_ZSf-9nvAc16OY429Jylg1r/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1KOiYcEAa11y9Gt0VfB38w1ruOOZI24l8/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                       <span>EVEx COP30</span>
                       <span>Energy Virtual Experience</span>               
                     </a>

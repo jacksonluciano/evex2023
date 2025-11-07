@@ -2263,7 +2263,7 @@ export const ContentData = [
            
             <p style="padding-left:45px">
               <b>Angela Livino</b></br>
-              Consultora de Energia, OLADE – Organização Latino-Americana de Energia
+              Professora e Pesquisadora, FGV
             </p>
             <p style="padding-left:45px">
               <b>Jorge Marques</b></br>
