@@ -117,7 +117,7 @@ const Patrocinadores = () => {
                   <ul>
                     {/* <li className="desktop"><a target="_blank"><img src={Img19} /></a></li>
                     <li className="mobile"><a target="_blank"><img src={Img191} /></a></li> */}
-                    <li><a target="_blank"><img src={Img197} /></a></li>
+                    <li><a href="https://www.itaipu.gov.br/" target="_blank"><img src={Img197} /></a></li>
                     <li><a target="_blank"><img src={Img192} /></a></li>
                     <li><a target="_blank"><img style={{width:'250px', height: 'auto'}} src={Img205} /></a></li>
                   </ul>
