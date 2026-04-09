@@ -73,7 +73,7 @@ const GlobalStyles = () => {
           font-family: "Bw Gradual DEMO";
           src: url(/fonts/BwGradualDEMO-Regular.woff2) format("woff2"),
             url(/fonts/BwGradualDEMO-Regular.woff) format("woff");
-          font-weight: normal;
+          font-weight: 400;
           font-style: normal;
           font-display: swap;
         }
@@ -101,6 +101,23 @@ const GlobalStyles = () => {
           src: url(/fonts/BwGradualDEMO-Thin.woff2) format("woff2"),
             url(/fonts/BwGradualDEMO-Thin.woff) format("woff");
           font-weight: 100;
+          font-style: normal;
+          font-display: swap;
+        }
+
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-Black.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-Black.woff2) format("woff");
+          font-weight: 800;
+          font-style: normal;
+          font-display: swap;
+        }
+        @font-face {
+          font-family: "Bw Gradual DEMO";
+          src: url(/fonts/BwGradualDEMO-ExtraBold.woff2) format("woff2"),
+            url(/fonts/BwGradualDEMO-ExtraBold.woff2) format("woff");
+          font-weight: 700;
           font-style: normal;
           font-display: swap;
         }
