@@ -172,6 +172,11 @@ export const BirdsRow = styled.div`
   max-width: 900px;
   margin: 0 auto;
   pointer-events: none;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin: 0 auto 16px;
+    }
+  
 `
 
 export const BirdLeft = styled.div`
@@ -218,8 +223,18 @@ export const MainTitle = styled.h1`
   margin: 0.2rem 0 0;
   letter-spacing: -5px;
 
+  img{
+    width: 80%;
+    margin: 0 auto;
+  }
+
    @media (min-width: 320px) and (max-width: 767px) {
     font-size: 70px;
+
+    img{
+    width: 90%;
+    margin: 0 auto;
+  }
     }
 `
 
@@ -285,6 +300,7 @@ export const IntroText = styled.p`
   @media (min-width: 320px) and (max-width: 767px) {
     font-size: 1em;
     line-height: 1.2em;
+    width: 90%;
     }
 `
 
@@ -504,6 +520,13 @@ transform: translate(-50%, 0);
     background-color: ${colors.cream};
     margin-bottom: 0;
     padding-top: 24px;
+
+    .eventcard:nth-child(2){
+      order: 3;
+    }
+    .eventcard:nth-child(4){
+      order: 4;
+    }
     }
 
 `
@@ -512,10 +535,27 @@ export const EventCard = styled.div`
   position: relative;
   @media (min-width: 320px) and (max-width: 767px) {
     text-align: center;
-
+    
+    &:nth-child(1){
+      span{
+        left: -36px;
+        top: 4px;
+      }
+    }&:nth-child(2){
+      span{
+        left: -36px;
+        top: 4px;
+      }
+    }&:nth-child(3){
+      span{
+        left: -36px;
+        top: 4px;
+      }
+    }
     &:nth-child(4){
       span{
-        left: 88px;
+        left:-36px;
+        top: 4px;
       }
     }
   }
@@ -523,10 +563,10 @@ export const EventCard = styled.div`
 
 export const EventIcon = styled.span`
     position: absolute;
-    left: -45px;
+    left: -50px;
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   background: ${({ color }) => color || colors.pinkBright};
   transform: rotate(45deg);
   margin-right: 0.5rem;
@@ -537,8 +577,9 @@ export const EventIcon = styled.span`
 
   @media (min-width: 320px) and (max-width: 767px) {
     left: 40px;
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
+    border: 6px solid #e8527a;
     }
 
 `
@@ -554,33 +595,36 @@ export const EventTitleRow = styled.div`
 
 export const EventName = styled.h4`
   font-family: "Bw Gradual DEMO";
-  font-weight: bold;
+  font-weight: 700;
   color: ${colors.dark};
   margin:0;
-  font-size: 1.6em;
+  font-size: 28px;
+  letter-spacing: 0;
+  position: relative;
 `
 
 export const EventDesc = styled.p`
 font-family: "Bw Gradual DEMO";
-  font-size: 1.2rem;
-  color: #444;
+  font-size: 22px;
+  color: ${colors.dark};
   font-weight: 500;
   margin-bottom: 0.1rem;
   margin:0;
   line-height: 24px;
+  letter-spacing: 0;
 `
 
 export const EventDate = styled.p`
 font-family: "Bw Gradual DEMO";
   font-size: 1.1rem;
-  color: #444;
+  color: ${colors.dark};
   margin:0;
   line-height: 24px;
   font-weight: 500;
 
-  strong {
+  span {
     font-weight: 600;
-    color: ${colors.darkBlue};
+    color: ${colors.dark};
   }
 `
 
@@ -596,18 +640,18 @@ font-weight: 500;
 export const CtaButton = styled.a`
   display: inline-block;
   background: ${colors.blue};
-  color: ${colors.white};
+  color: ${colors.cream};
   font-family: "Bw Gradual DEMO";
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 18px;
     letter-spacing: 0;
-    padding: 0.3rem 0.8rem;
+    padding: 2px 12px;
     border-radius: 20px;
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.15s, background 0.15s;
     transition: transform 0.15s, background 0.15s;
     margin-top: 0.3rem;
-  box-shadow: -4px 4px 0px 0px ${colors.greenLight} ;
+  box-shadow: -5px 6px 0px 0px #B1CF6F ;
 
   &:hover{
     text-decoration: none;
@@ -631,7 +675,7 @@ export const FreeTag = styled.span`
 
 export const FooterSection = styled.section`
   background: ${colors.pinkBright};
-  padding: 2.5rem 1rem 0;
+  padding: 2.5rem 0 0;
   text-align: center;
   position: relative;
 
@@ -681,9 +725,11 @@ export const FooterBirds = styled.div`
 export const EcosystemTitle = styled.p`
   font-family: "Bw Gradual DEMO";
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 26px;
   color: ${colors.cream};
   margin-bottom: 1rem;
+  letter-spacing: 0;
+  line-height: 32px;
   @media (min-width: 320px) and (max-width: 767px) {
     font-size: 1em;
     line-height: 1.4em;
@@ -712,13 +758,12 @@ background-image: url(${blueBg});
   gap: 0.4rem;
   color: ${colors.gold};
   font-family: "Bw Gradual DEMO";
-  font-weight: 500;
-  font-size: clamp(0.85rem, 2.5vw, 1rem);
+  font-weight: bold;
   padding: 0.6rem 1.4rem;
   cursor: pointer;
   transition: transform 0.15s, background 0.15s;
   background-size: contain;
-    font-size: 1.3em;
+    font-size:22px;
     height: 60px;
     text-align: center;
     background-size: cover;
@@ -744,7 +789,7 @@ export const EmailRow = styled.div`
   justify-content: center;
   align-items: center;
   margin: 1.5rem auto;
-  font-size: 0.9rem;
+  font-size: 18px;
   color: ${colors.darkBlue};
   font-weight: 600;
    img{

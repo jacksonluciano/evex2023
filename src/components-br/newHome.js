@@ -17,6 +17,7 @@ import floralL from '@/images-br/newhome/florall.svg';
 import floralR from '@/images-br/newhome/floralr.svg';
 import birdBtl from '@/images-br/newhome/birdBtl.svg';
 import birdBtr from '@/images-br/newhome/birdBtr.svg';
+import logo from '@/images-br/newhome/logo.svg';
 
 
 import { 
@@ -104,10 +105,10 @@ const Home = () => {
                 <img className='desktop' src={birdLeft} alt='left' />
               </BirdLeft>
               <div style={{ flex: 1 }}>
-              <MainTitle>EVEx 2026</MainTitle>
-                <SubTitle>
+              <MainTitle><img src={logo} alt='logo' /></MainTitle>
+                {/* <SubTitle>
                     JOÃO PESSOA <span>|</span> LISBOA <span>|</span> VIRTUAL
-                </SubTitle>
+                </SubTitle> */}
               </div>
               <BirdRight>
                 <img className='desktop' src={birdRight} alt='rihgt' />
@@ -143,14 +144,16 @@ const Home = () => {
                 <img className='floral-right desktop' src={floralR} alt='floral' />
               <CalendarGrid>
                 {events.map((ev) => (
-                  <EventCard key={ev.id}>
-                 <EventIcon color={ev.color} aria-hidden="true" />
+                  <EventCard className='eventcard' key={ev.id}>
                     <EventTitleRow>
-                      <EventName>{ev.name}</EventName>
+                      <EventName>
+                 <EventIcon color={ev.color} aria-hidden="true" />
+                        {ev.name}
+                        </EventName>
                     </EventTitleRow>
                     <EventDesc>{ev.desc}</EventDesc>
                     <EventDate>
-                      <strong>{ev.date}</strong> | {ev.venue}
+                      <span>{ev.date}</span> | {ev.venue}
                     </EventDate>
                     {ev.note && <EventNote>{ev.note}</EventNote>}
                     {ev.cta && (
