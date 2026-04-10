@@ -298,7 +298,7 @@ export const IntroText = styled.p`
     font-weight: 500;
   }
   @media (min-width: 320px) and (max-width: 767px) {
-    font-size: 1em;
+    font-size: 17px;
     line-height: 1.2em;
     width: 90%;
     }

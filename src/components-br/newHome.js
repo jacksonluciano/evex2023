@@ -66,7 +66,7 @@ const events = [
       id: 2,
       color: "#c8302a",
       name: "Missão EVEx 2026",
-      desc: "Mercado Ibérico",
+      desc: "Mercado Ibérico de Energia",
       date: "05 e 06 de Novembro",
       venue: "Pós-EVEx Lisboa",
       note: "Vagas limitadas – Inscrições em breve",
