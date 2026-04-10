@@ -147,7 +147,7 @@ const Home = () => {
                   <EventCard className='eventcard' key={ev.id}>
                     <EventTitleRow>
                       <EventName>
-                 <EventIcon color={ev.color} aria-hidden="true" />
+                        <EventIcon color={ev.color} aria-hidden="true" />
                         {ev.name}
                         </EventName>
                     </EventTitleRow>
