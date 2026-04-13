@@ -143,7 +143,7 @@ export const HeroSection = styled.section`
   position: relative;
   padding: 2rem 1rem 0;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
 
   /* &::before {
     content: '';
@@ -273,9 +273,9 @@ export const TaglineBadge = styled.div`
 
   @media (min-width: 320px) and (max-width: 767px) {
     background-size: contain;
-        height: 72px;
-        font-size: 1em;
-        width: 300px;
+    height: 62px;
+        font-size: 14px;
+        width: 258px;
         background-repeat: no-repeat;
         margin: 0 auto;
 
@@ -366,6 +366,22 @@ export const CityBottom = styled.div`
   .desktop{display:none;}
   .mobile{display:block;}
   }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    & .floral-left,
+    & .floral-right{
+        width: 150px;
+    }
+    & .floral-left{
+    top: -160px;
+    left: 40px;
+  }
+
+  & .floral-right{
+    top: -160px;
+    right: 40px;
+  }
+  }
 `
 
 export const CityTaglineBadge = styled.div`
@@ -402,6 +418,13 @@ transform: translate(-50%, 0);
         span{
           line-height: 4px;
         }
+    }
+
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      font-size: 1.6em;
+      height: 81px;
+      bottom: 30px;
+      max-width: 434px;
     }
 `
 
@@ -809,4 +832,32 @@ export const EmailRow = styled.div`
 
 export const BottomBorder = styled.div`
 
+`
+export const ImgMobile = styled.div`
+
+  position: relative;
+ 
+
+  & img{
+    position: absolute;
+    display: none;
+  }
+
+  img:nth-of-type(1){
+    left: -28px;
+    top: -14px;
+    width: 85px;
+  }
+
+  img:nth-of-type(2){
+    right: -28px;
+    top: -14px;
+    width: 85px;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    & img{
+      display: block;
+    }
+  }
 `

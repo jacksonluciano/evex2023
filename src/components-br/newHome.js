@@ -17,6 +17,8 @@ import floralL from '@/images-br/newhome/florall.svg';
 import floralR from '@/images-br/newhome/floralr.svg';
 import birdBtl from '@/images-br/newhome/birdBtl.svg';
 import birdBtr from '@/images-br/newhome/birdBtr.svg';
+import leftmobile from '@/images-br/newhome/left-mobile.svg';
+import rightMobile from '@/images-br/newhome/right-mobile.svg';
 import logo from '@/images-br/newhome/logo.svg';
 
 
@@ -27,7 +29,7 @@ import {
     BirdLeft,
     BirdRight,
     MainTitle,
-    SubTitle,
+    ImgMobile,
     TaglineBadge,
     IntroText,
     City,
@@ -116,10 +118,14 @@ const Home = () => {
             </BirdsRow>
   
   
-            <TaglineBadge>
-              <span>Pulsar Ibero-Americano: </span>
-              O Ritmo da Nova Energia
-            </TaglineBadge>
+          <ImgMobile>
+            <img className='mobile' src={leftmobile} alt='left' />
+                <TaglineBadge>
+                  <span>Pulsar Ibero-Americano: </span>
+                  O Ritmo da Nova Energia
+                </TaglineBadge>
+              <img className='mobile' src={rightMobile} alt='rihgt' />
+          </ImgMobile>
   
             <IntroText>
               O Ciclo 2026 do EVEx já começou! Enquanto preparamos nossa nova
