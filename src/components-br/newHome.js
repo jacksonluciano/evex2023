@@ -89,7 +89,7 @@ const events = [
       desc: "Energy Virtual Experience",
       date: "01 a 03 de Dezembro",
       venue: "Plataforma Online",
-      free: true,
+      note: "Acesso Gratuito",
     },
   ]
 

@@ -538,6 +538,13 @@ transform: translate(-50%, 0);
     gap: 2rem 3rem;
   }
 
+  .eventcard:nth-child(4){
+      p:last-child{
+        font-weight: 800;
+        font-style: normal;
+      }
+    }
+
   @media (min-width: 320px) and (max-width: 767px) {
     position: relative;
     background-color: ${colors.cream};
@@ -683,15 +690,15 @@ export const CtaButton = styled.a`
   }
 `
 
-export const FreeTag = styled.span`
-  display: inline-block;
+export const FreeTag = styled.p`
+  /* display: inline-block; */
   background: transparent;
   color: ${colors.blue};
   font-family: "Bw Gradual DEMO";
   font-weight: 800;
   font-size: 1rem;
-  padding: 0.1rem 0rem;
-  border-radius: 20px;
+  /* padding: 0.1rem 0rem; */
+  /* border-radius: 20px; */
 `
 
 // ─── Footer / Ecosystem ─────────────────────────────────────────────────────
