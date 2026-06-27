@@ -19,7 +19,12 @@ export const colorsBr = {
   secondaryYellow: "#E4A939",
   secondaryPink: "#EF2483",
   secondaryPurple: "#CC6AE3",
-  secondaryBlue: "#4CD6D9"
+  secondaryBlue: "#4CD6D9",
+  evex2026PrimaryBlue: '#004D93',
+  evex2026TextColorYellow: '#FFEEC1',
+  evex2026PrimaryOrange: '#F5921D',
+  evex2026DarkOrange: '#923C10',
+  evex2026CreamYellow: '#FFEFC3'
 };
 
 export const commonSection = css`
