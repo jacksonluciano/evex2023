@@ -35,7 +35,7 @@ export const buyTicketLink = css`
     text-decoration: none;
   }
   &:hover p,&:focus p,&:visited p,&:active p {
-    color: #923C10;
+    color: ${colorsBr.evex2026DarkOrange};
   }
 `
 export const EditionDescription = styled.div`

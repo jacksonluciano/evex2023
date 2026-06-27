@@ -23,7 +23,7 @@ export const VideoWrapper = styled.div`
       max-width: 500px
     };
     h2 {
-      color: #4A4A4A;
+      color: ${colorsBr.evex2026Grey};
       font-weight: 500;
       font-size: 32px;
       span {

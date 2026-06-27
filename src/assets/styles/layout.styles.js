@@ -24,7 +24,9 @@ export const colorsBr = {
   evex2026TextColorYellow: '#FFEEC1',
   evex2026PrimaryOrange: '#F5921D',
   evex2026DarkOrange: '#923C10',
-  evex2026CreamYellow: '#FFEFC3'
+  evex2026CreamYellow: '#FFEFC3',
+  evex2026DarkGreen: '#2C5529',
+  evex2026Grey: '#4A4A4A'
 };
 
 export const commonSection = css`

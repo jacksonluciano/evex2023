@@ -9,6 +9,8 @@ import MenuContextProvider from "@/context/menu-context";
 // import HeroVideo from "@/components-br/hero-video";
 import SeventhEditionHero from "@/components-br/SeventhEditionHero";
 import SeventhEditionOverviewSection from "@/components-br/SeventhEditionOverviewSection";
+import RememberEvexPreviosEdition from "@/components-br/RememberEvexPreviousEdition";
+import CeoMessage from "@/components-br/CeoMessage";
 import OndeSera from "@/components-br/onde-sera";
 import ComoSera from "@/components-br/como-sera";
 import TransicaoEnergetica from "@/components-br/transicao-energetica";
@@ -30,6 +32,8 @@ const HomeOne = () => {
           <HeaderOne />
           <SeventhEditionHero />
           <SeventhEditionOverviewSection/>
+          <RememberEvexPreviosEdition/>
+          <CeoMessage/>
           <QuintaEdicao />
           <OndeSera />
           <TransicaoEnergetica />
