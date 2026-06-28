@@ -12,12 +12,12 @@ export const sliderCss = css`
     left: 0;
     top: 0;
     width: 100%;
-    height: 42px;
+    height: 40px;
     background-color: ${colorsBr.evex2026DarkOrange};
     background-image: url(${heroSectionDividerSVG});
     background-repeat: repeat-x;
     background-position: center top;
-    background-size: auto 40px;
+    background-size: auto 100%;
     z-index: 2;
     pointer-events: none;
   }

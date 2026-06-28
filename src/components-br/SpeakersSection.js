@@ -2,17 +2,14 @@
 import React from "react";
 import { jsx } from '@emotion/react'
 
-import yellowCreamBalloonSVG from '@/images-br/2026/yellow-cream-balloon.svg'
-import sliderDecorationTop from '@/images-br/2026/slider-decoration-top.svg'
-import sliderDecorationBottom from '@/images-br/2026/slider-decoration-bottom.svg'
+import sliderDecorationTop from '@/images-br/2026/decoration-bird.svg'
+import sliderDecorationBottom from '@/images-br/2026/decoration-flower.svg'
 import alexandrePng from '@/images-br/2026/speaker-alexandre.png'
 import caioPng from '@/images-br/2026/speaker-caio.png'
 
-import { ExperienceGalleryData} from "@/data";
 
 import { 
   sliderCss,
-  sliderItem,
   speakerCard,
   leftDecoration,
   rightDecoration,

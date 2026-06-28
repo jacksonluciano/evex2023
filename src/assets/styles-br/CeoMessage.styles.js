@@ -10,6 +10,7 @@ export const root = css`
   align-items: center;
   column-gap: 130px;
   padding: 92px 200px;
+  justify-content: space-around;
 `;
 
 export const ceoProfile = css`
