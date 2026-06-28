@@ -29,7 +29,8 @@ export const colorsBr = {
   evex2026DarkGreen: '#2C5529',
   evex2026Grey: '#4A4A4A',
   evex2026PinkBright: '#F15B87',
-  evex2026DarkRed: '#6D180D'
+  evex2026DarkRed: '#6D180D',
+  evex2026BloodRed: '#DE202A'
 };
 
 export const commonSection = css`

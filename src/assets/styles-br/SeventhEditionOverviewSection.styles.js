@@ -55,7 +55,7 @@ export const CountersWrapper = styled.div`
   width: 100%;
   display: flex;
   background-color: ${colorsBr.evex2026PrimaryOrange};
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   column-gap: 20px;
   padding: 36px 80px;

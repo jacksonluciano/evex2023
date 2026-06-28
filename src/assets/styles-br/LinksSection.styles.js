@@ -27,7 +27,7 @@ export const root = css`
       background-image: url(${sectionDividerSVG});
       background-repeat: repeat-x;
       background-position: center top;
-      background-size: auto 126px;
+      background-size: auto 100%;
       z-index: 2;
       pointer-events: none;
     }

@@ -8,8 +8,6 @@ import {
   checkAgendaBtn
 }  from '../assets/styles-br/LinksSection.styles'
 
-import yellowCreamBalloonSVG from '@/images-br/2026/yellow-cream-balloon.svg'
-
 const LinksSection = () => {
   return (
     <section css={root}>
