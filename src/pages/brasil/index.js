@@ -9,15 +9,18 @@ import MenuContextProvider from "@/context/menu-context";
 // import HeroVideo from "@/components-br/hero-video";
 import SeventhEditionHero from "@/components-br/SeventhEditionHero";
 import SeventhEditionOverviewSection from "@/components-br/SeventhEditionOverviewSection";
-import RememberEvexPreviosEdition from "@/components-br/RememberEvexPreviousEdition";
+import RememberEvexPreviousEdition from "@/components-br/RememberEvexPreviousEdition";
 import CeoMessage from "@/components-br/CeoMessage";
+import EvexHighlights from "@/components-br/EvexHighlights";
+import LinksSection from "@/components-br/LinksSection";
+import SpeakersSection from "@/components-br/SpeakersSection"
 import OndeSera from "@/components-br/onde-sera";
 import ComoSera from "@/components-br/como-sera";
 import TransicaoEnergetica from "@/components-br/transicao-energetica";
 import Bigcta from "@/components-br/big-cta";
 import Patrocinadores from "@/components-br/patrocinadores";
 import Duvidas from "@/components-br/duvidas";
-import QuintaEdicao from "@/components-br/5-edicao";
+// import QuintaEdicao from "@/components-br/5-edicao";
 import { Helmet } from "react-helmet";
 
 const HomeOne = () => {
@@ -32,9 +35,11 @@ const HomeOne = () => {
           <HeaderOne />
           <SeventhEditionHero />
           <SeventhEditionOverviewSection/>
-          <RememberEvexPreviosEdition/>
+          <RememberEvexPreviousEdition/>
           <CeoMessage/>
-          <QuintaEdicao />
+          <EvexHighlights/>
+          <LinksSection/>
+          <SpeakersSection/>
           <OndeSera />
           <TransicaoEnergetica />
           <ComoSera />

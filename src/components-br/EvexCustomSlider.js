@@ -34,7 +34,7 @@ const EvexCustomSlider = ({
   const nextRef = React.useRef(null);
 
   return (
-    <section css={[root, rootCss]}>
+    <div css={[root, rootCss]}>
       <div css={sliderHeader}>
         <div className="description">
           {title}
@@ -67,7 +67,7 @@ const EvexCustomSlider = ({
           </SwiperSlide>
         ))}
       </Swiper>
-    </section>
+    </div>
   );
 };
 

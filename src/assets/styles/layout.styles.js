@@ -12,6 +12,7 @@ export const colors = {
 };
 
 export const colorsBr = {
+  white: "#FFFFFF",
   themeRed: "#FF4001",
   themePink: "#FE05C5",
   themePurple: "#9A2FF6",
@@ -26,7 +27,9 @@ export const colorsBr = {
   evex2026DarkOrange: '#923C10',
   evex2026CreamYellow: '#FFEFC3',
   evex2026DarkGreen: '#2C5529',
-  evex2026Grey: '#4A4A4A'
+  evex2026Grey: '#4A4A4A',
+  evex2026PinkBright: '#F15B87',
+  evex2026DarkRed: '#6D180D'
 };
 
 export const commonSection = css`
