@@ -1,11 +1,13 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 import { colors, colorsBr } from "../styles/layout.styles";
+import dividerImg from "@/images-br/2026/hero-section-divider.svg"
 
 export const footer1 = css`
   position: relative;
   /* padding: 80px 0 !important; */
-  background-color: #e3e3e2;
+  background-color: ${colorsBr.evex2026PinkBright};
+  padding: 0px 0 48px;
 `;
 export const reverse = css`
   @media (min-width: 320px) and (max-width: 767px) {
@@ -341,5 +343,63 @@ export const mobileSide = css`
 
   @media (min-width: 320px) and (max-width: 767px) {
     height: 150px !important;
+  }
+`;
+
+export const dividerbg = css`
+ background-color: ${colorsBr.evex2026PrimaryBlue};
+ background-image: url(${dividerImg});
+height: 38px;
+background-repeat: repeat-x;
+background-position: center;
+margin-bottom: 48px;
+`;
+
+export const footerColumn = css`
+  h5{
+    font-size: 28px;
+    font-family: 'Bw Gradual DEMO';
+     margin-bottom: 18px;
+  }
+  p{
+    color: #2F2F2F;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    a{
+      display: block;
+      height: 30px;
+      i{
+      font-size: 2em;
+    }
+    }
+
+  }
+`;
+
+export const footerColumnCenter = css`
+display: flex;
+flex-direction: column;
+align-items: center;
+  h5{
+    font-size: 28px;
+    font-family: 'Bw Gradual DEMO';
+   
+  }
+  p{
+    color: #2F2F2F;
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  p:nth-of-type(2){
+    margin-bottom: 24px;
   }
 `;
