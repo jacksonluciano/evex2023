@@ -84,7 +84,7 @@ export const bannerStyle = css`
 
 export const seventhEditionBannerSection = css`
   position: relative;
-  margin-top: 120px;
+  margin-top: 93px;
   width: 100%;
   height: 600px;
   background-color: ${colorsBr.evex2026PrimaryBlue};

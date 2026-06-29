@@ -19,16 +19,16 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
         </div>
 
         <div css={informations}>
-          <img src={OrangeElementVector01} className="element01" />
-          <img src={OrangeElementVector02} className="element02" />
+          {/* <img src={OrangeElementVector01} className="element01" />
+          <img src={OrangeElementVector02} className="element02" /> */}
           <div className="data_container">
             <div className="data_info">
               <a href="#agenda"
                 onClick={() => handleClickBotao(3)}
                 className={agendaSelecionada === 3 && 'selected'}
               >
-                <p>Quinta-feira</p>
-                <p>03/07/2025</p>
+                <h3>Dia 1</h3>
+                <p>1 de Julho - Quarta feira</p>
               </a>
             </div>
 
@@ -37,8 +37,8 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
                 onClick={() => handleClickBotao(4)}
                 className={agendaSelecionada === 4 && 'selected'}
               >
-                <p>Sexta-feira</p>
-                <p>04/07/2025</p>
+                <h3>Dia 2</h3>
+                <p>2 de Julho - Quinta feira</p>
               </a>
             </div>
           </div>

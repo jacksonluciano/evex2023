@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { LogoBrasil } from "@/data-br";
 import { useLocation } from "@reach/router";
 import Envelop from "@/images-br/home-br/envelop.svg";
-import linkedinIcon from "@/images-br/linkedin.svg"
+import linkedinIcon from "@/images-br/2026/linkedin.svg"
 import footerImg from "@/images-br/footer-img.svg"
-import dividerImg from "@/images-br/2026/hero-section-divider.svg"
+import footerStars from "@/images-br/2026/footer-stars.svg"
 import { jsx } from "@emotion/react";
 
 import {
@@ -21,7 +21,8 @@ import {
   mobileSide,
   footerColumn,
   footerColumnCenter,
-  dividerbg
+  dividerbg,
+  footerStarsStyle
 } from "../assets/styles-br/footer.styles";
 
 import { commonBtnBr, redBg } from "../assets/styles/layout.styles";
@@ -32,7 +33,7 @@ const Footer = () => {
   const searchParams = new URLSearchParams(location.search);
   const formValue = searchParams.get("form");
 
-  const [buttonText, setButtonText] = useState("Inscreva-se");
+  const [buttonText, setButtonText] = useState("Assinar");
 
   const [message, setMessage] = useState("");
   const [isVisible, setIsVisible] = useState(false);
@@ -57,6 +58,9 @@ const Footer = () => {
     <footer id="footer" css={footer1}>
       <div css={dividerbg}>
         {/* <img src={dividerImg} /> */}
+      </div>
+      <div css={footerStarsStyle}>
+        <img src={footerStars} />
       </div>
       <Container fluid>
         {/* <Row css={reverse}>
@@ -168,11 +172,11 @@ const Footer = () => {
         <Container>
    <Row>
             <Col xs={12} lg={4} className="px-0">
-              <div css={footerColumn}>
+              <div className="form" css={footerColumn}>
                 <h5>Fique por dentro do EVEx</h5>
                 <p>Receba em primeira mão as novidades, anúncios e conteúdos exclusivos.</p>
 
-                                <form
+              <form
                   method="POST"
                   action="https://formsubmit.co/secretaria@evex.energy"
                   encType="multipart/form-data"
@@ -243,8 +247,8 @@ const Footer = () => {
                           href="https://www.linkedin.com/company/energy-virtual-experience-evex/"
                           target="_blank"
                         >
-                          {/* <img src={linkedinIcon} /> */}
-                          <i className="fa fa-linkedin-square"></i>
+                          <img src={linkedinIcon} />
+                          {/* <i className="fa fa-linkedin-square"></i> */}
                         </a>
                       </li>
                    
@@ -252,7 +256,7 @@ const Footer = () => {
               </div>
            </Col>
    </Row>
-          <div css={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div css={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '64px', paddingBottom: '32px'}}>
              <img src={footerImg} />
           </div>
         </Container>

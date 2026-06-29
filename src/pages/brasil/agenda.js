@@ -8,7 +8,7 @@ import AgendaHero from "@/components-br/agenda-hero";
 import AgendaHorario from "@/components-br/agenda-horario";
 
 const AgendaPage = () => {
-  const [agendaSelecionada, setAgendaSelecionada] = useState(null)
+  const [agendaSelecionada, setAgendaSelecionada] = useState(3)
 
   const handleClickBotao = (dia) => {
     setAgendaSelecionada(dia);

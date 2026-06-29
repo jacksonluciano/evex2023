@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 import { colors, colorsBr } from "../styles/layout.styles";
-import dividerImg from "@/images-br/2026/hero-section-divider.svg"
+import dividerImg from "@/images-br/2026/footer-divider.svg"
 
 export const footer1 = css`
   position: relative;
@@ -355,6 +355,13 @@ background-position: center;
 margin-bottom: 48px;
 `;
 
+export const footerStarsStyle = css`
+text-align: center;
+img{
+  max-width: 100%;
+}
+`;
+
 export const footerColumn = css`
   h5{
     font-size: 28px;
@@ -372,15 +379,55 @@ export const footerColumn = css`
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin:0px;
+    padding:0px;
 
     a{
       display: block;
       height: 30px;
+      img{
+            height: 25px;
+    margin-top: -3px;
+      }
+      :hover{
+        i{
+          color: #ffffff;
+        }
+      }
       i{
       font-size: 2em;
     }
     }
 
+  }
+
+  &.form{
+    form{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 48px;
+
+        button{
+            padding: 16px 24px;
+            border-radius: 16px;
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+    input[type="email"]{
+        border-radius: 18px;
+        color: #000;
+        padding: 6px 10px;
+        border: 2px solid #000;
+
+        &::placeholder,
+        &::-moz-placeholder,
+        &::-ms-input-placeholder,
+        &::-webkit-input-placeholder {
+          color: #000 !important;
+        }
+    }
   }
 `;
 
@@ -401,5 +448,10 @@ align-items: center;
   }
   p:nth-of-type(2){
     margin-bottom: 24px;
+    text-decoration: underline;
+  }
+  p:nth-of-type(4){
+    margin-bottom: 24px;
+    text-decoration: underline;
   }
 `;

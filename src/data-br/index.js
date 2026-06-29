@@ -1,5 +1,5 @@
 import logo from "@/images-br/logo.svg"
-import logo2025 from "@/images-br/logo2025.png"
+import logo2026 from "@/images-br/2026/logo2026.svg"
 import logoMobile from "@/images-br/logo_mobile.svg"
 import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images-br/orange-elements-01.png"
@@ -171,8 +171,8 @@ import twitterIcon from "@/images/icons/twitter.svg"
 import youtubeIcon from "@/images-br/youtube.svg"
 
 export const LogoBrasil = {
-  black: logo2025,
-  mobile: logo2025
+  black: logo2026,
+  mobile: logo2026
 };
 
 
@@ -191,14 +191,14 @@ export const LisboaParaNatal = {
 };
 
 export const NavBrLinks = [
-  {
-    name: "O EVEx",
-    url: "/brasil/o-evex",
-  },
-  {
-    name: "Natal",
-    url: "/brasil/natal",
-  },
+  // {
+  //   name: "O EVEx",
+  //   url: "/brasil/o-evex",
+  // },
+  // {
+  //   name: "Natal",
+  //   url: "/brasil/natal",
+  // },
   // {
   //   name: "Experiências",
   //   url: "/brasil/experiencias",
@@ -207,14 +207,14 @@ export const NavBrLinks = [
     name: "Speakers",
     url: "/brasil/speakers",
   },
-  {
-    name: "Papers",
-    url: "/brasil/papers",
-  },
-  {
-    name: "Comitê",
-    url: "/brasil/comite",
-  },
+  // {
+  //   name: "Papers",
+  //   url: "/brasil/papers",
+  // },
+  // {
+  //   name: "Comitê",
+  //   url: "/brasil/comite",
+  // },
   {
     name: "Agenda",
     url: "/brasil/agenda",

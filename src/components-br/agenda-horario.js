@@ -24,13 +24,15 @@ import {
   element3,
   element4,
   element5,
-  under
+  under,
+  pinkBreak,
+  timeBlock
 } from "../assets/styles-br/agenda-horario.styles";
 import { Link } from "gatsby";
 
 const AgendaHorario = ({ agendaSelecionada }) => {
 
-  console.log('agendaSelecionada', agendaSelecionada)
+  // console.log('agendaSelecionada', agendaSelecionada)
 
   const i = 0
 
@@ -38,22 +40,72 @@ const AgendaHorario = ({ agendaSelecionada }) => {
    <div id="agenda" css={content}>
      <section style={{display: agendaSelecionada === 3 && 'block'}}>
       <Container fluid className="px-0">
-        <div css={div}></div>
+        {/* <div css={div}></div> */}
         <Container fluid>
           <Row>
-            <Col xs={12} lg={6} css={bgColumnTitle} className="px-0">
+            <Container>
+              <Col xs={12} lg={12} css={bgColumnTitle} className="px-0">
               <div css={agendaTitle}>
-               <h2>Dia 03 de Julho</h2>
-                <h3>Horário de Brasília</h3>
+                <span>Dia 1</span>
+                <h3>O PULSAR DA ESTRATÉGIA E DA LIDERANÇA </h3>
+                <span>1 de Julho de 2026</span>
               </div>
             </Col>
-            <Col xs={0} lg={3} css={bgColumn} className="px-0"></Col>
-            <Col xs={0} lg={3} css={bgColumn} className="px-0"></Col>
+            </Container>
+
+             <Container>
+              <Col xs={12} lg={12} className="px-0">
+              <div css={pinkBreak}>
+                <span>08:45</span>
+                <span>Credenciamento e Welcome Coffe</span>
+              </div>
+            </Col>
+            </Container>
+
           </Row>
         </Container>
       </Container>
 
       <Container fluid className="px-0" style={{position: 'relative'}}>
+
+        <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>09:15</span>
+           </div>
+           <div className="event">
+              
+            <div css={principalEvent}>
+              <span>18h00</span>
+              <p>Entrega dos Prêmios EVEx Brasil 2025 </p>
+            </div>
+
+            <div css={participantsContainer}>
+              <div className="participant">
+                <p className="participant_name">• Personalidade Política Setorial do Ano</p>
+                <p className="participant_name">Veneziano Vital do Rêgo</p>
+                <p className="participant_role">
+                Senador da República e Presidente da Frente Parlamentar de Recursos Naturais e Energia
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">•	Representatividade Setorial do Ano</p>
+                <p className="participant_name">Fernanda Delgado</p>
+                <p className="participant_role">
+                CEO da ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde 
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">•	Comunicação Setorial do Ano</p>
+                <p className="participant_name">Felipe Maciel</p>
+                <p className="participant_role">
+                Diretor Executivo da Agência Eixos 
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>    
+        </Container>
         
         <div css={container} >
           <div css={schedule}>
@@ -568,9 +620,9 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
           </div>
         </div>
-        <img src={Element} css={element1} />
+        {/* <img src={Element} css={element1} />
         <img src={Element} css={element2} />
-        <img src={Element} css={element3} />
+        <img src={Element} css={element3} /> */}
       </Container>
     </section>
         <section style={{display: agendaSelecionada === 4 && 'block'}}>
@@ -1014,12 +1066,12 @@ const AgendaHorario = ({ agendaSelecionada }) => {
   
             </div>
           </div>
-          <img src={Element} css={element4} />
-          <img src={Element} css={element5} />
+          {/* <img src={Element} css={element4} />
+          <img src={Element} css={element5} /> */}
         </Container>
         
       </section>
-      <img src={BgOrange} css={imgOrange} />
+      {/* <img src={BgOrange} css={imgOrange} /> */}
    </div>
   );
 };

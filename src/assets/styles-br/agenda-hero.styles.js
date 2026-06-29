@@ -5,6 +5,7 @@ import BgImage from "../images-br/agenda/bg-orange.svg";
 
 export const sectionHero = css`
   margin-top: 96px;
+  background-color: ${colorsBr.evex2026PrimaryOrange };
 
   @media (min-width: 768px) and (max-width: 1280px) {
     margin-top: 86px;
@@ -73,12 +74,11 @@ export const sectionHero = css`
 
 export const informations = css`
   align-items: center;
-  background-color: #e3e3e2;
+  background-color: ${colorsBr.evex2026PrimaryOrange };
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  padding: 126px 0 83px;
   position: relative;
 
   .element01 {
@@ -116,20 +116,21 @@ export const informations = css`
 
   .data_container {
     display: flex;
-    gap: 50px;
+    /* gap: 50px; */
     /* height: fit-content; */
-    margin-bottom: 80px;
+    margin-bottom: 16px;
     position: relative;
     z-index: 2;
+    width:100%;
 
     .data_info {
-      align-items: center;
-      background: #000000;
+      background: ${colorsBr.evex2026PrimaryBlue};
       display: flex;
       flex-direction: column;
       justify-content: center;
       transition: all 0.3s ease-in-out;
       cursor: pointer;
+      width: 50%;
 
       &:hover {
         a {
@@ -139,19 +140,56 @@ export const informations = css`
 
       a {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
         flex-direction: column;
-        width: 294px;
-        height: 186px;
+        padding: 16px 0 16px 20%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+
+        p {
+             color: ${colorsBr.evex2026CreamYellow};
+             font-weight: 400 !important;
+             margin: 0 !important;
+             opacity: 0.5;transition: all 0.3s ease-in-out;
+          }
+
+        h3{
+          color: ${colorsBr.evex2026CreamYellow};
+          font-family: "Bw Gradual DEMO";
+            font-weight: bold;
+            font-size:20px;
+            margin: 0;
+            line-height: 120%;
+            opacity: 0.5;transition: all 0.3s ease-in-out;
+        }
+
         &.selected {
-          background: url(${BgImage});
+           background-color: ${colorsBr.evex2026PinkBright};
           background-position: bottom;
           background-repeat: no-repeat;
           background-size: cover;
 
+          &:after{
+            transform: translateX(-50%);
+            content: "";
+            position: absolute;
+            height: 6px;
+            width: 95%;
+            background-color: #004D93;
+            bottom: -6px;
+            left: 50%;
+          }
+
+          h3{
+            opacity: 1;
+          }
+
           p {
-            color: #000000;
+             color: ${colorsBr.evex2026CreamYellow};
+             font-weight: 500;
+             margin: 0;
+             opacity: 1;
           }
         }
       }
@@ -159,7 +197,7 @@ export const informations = css`
       p {
         color: #ffffff;
         font-family: "Bw Gradual DEMO";
-        font-weight: bold;
+        font-weight: 400;
         margin: 0;
         transition: color 0.3s ease-in-out;
 
@@ -168,26 +206,24 @@ export const informations = css`
           font-weight: 400;
           line-height: 24px;
           margin-bottom: 10px;
-          text-align: center;
         }
 
         &:last-of-type {
           font-size: 25px;
           font-weight: 700;
           line-height: 30px;
-          text-align: center;
         }
       }
 
       &:hover {
         /* background: radial-gradient(79.29% 73.96% at 97.41% 97.62%, ${colorsBr.themeRed} 3.05%, ${colorsBr.secondaryYellow} 57.43%, #E3E3E2 100%); */
-        background: url(${BgImage});
+        background-color: ${colorsBr.evex2026PinkBright};
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
 
-        p {
-          color: #000000;
+        h3,p{
+          opacity: 1;
         }
       }
     }
