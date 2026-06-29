@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
+import { colorsBr } from "../styles/layout.styles";
 
 export const div = css`
   background: radial-gradient(
@@ -13,12 +14,6 @@ export const div = css`
 `;
 
 export const bgColumnTitle = css`
-  background: radial-gradient(
-    110.9% 244.62% at 110.9% 139.19%,
-    #ff4001 3.05%,
-    #e4a939 36.48%,
-    #e3e3e2 100%
-  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,6 +30,25 @@ export const bgColumn = css`
 `;
 
 export const agendaTitle = css`
+    background-color: #004D93;
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    color: ${colorsBr.evex2026CreamYellow};
+    height: 96px;
+
+    span{
+      font-family: "Bw Gradual DEMO";
+      font-size: 24px;
+      color: ${colorsBr.evex2026CreamYellow};
+      font-weight: 500;
+
+      &:first-of-type{
+        margin-right: 24px;
+      }
+    }
   h2 {
     font-family: "Bw Gradual DEMO";
     font-weight: bold;
@@ -42,14 +56,18 @@ export const agendaTitle = css`
     line-height: 67.2px;
     letter-spacing: 0;
     margin-bottom: 0;
+    color: ${colorsBr.evex2026CreamYellow};
   }
 
   h3 {
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 34.05px;
+     font-family: "Bw Gradual DEMO";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
     text-align: left;
     letter-spacing: 0;
+    color: ${colorsBr.evex2026CreamYellow};
+    margin: 0;
   }
 
   @media (max-width: 768px) {
@@ -63,8 +81,47 @@ export const agendaTitle = css`
   }
 `;
 
+export const pinkBreak = css`
+  background: ${colorsBr.evex2026PinkBright};
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 16px 49px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+
+  span{
+    font-family: "Bw Gradual DEMO";
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+  }
+`;
+
+export const timeBlock = css`
+  background: ${colorsBr.evex2026CreamYellow};
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+ 
+
+  .hour{
+     width: 146px;
+    background: ${colorsBr.evex2026PrimaryBlue};
+  
+    color: ${colorsBr.evex2026CreamYellow};
+    font-family: "Bw Gradual DEMO";
+    font-size: 24px;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+  }
+`;
+
 export const container = css`
-  background: #e3e3e2;
+  background: ${colorsBr.evex2026PrimaryOrange};
   display: flex;
   justify-content: center;
 `;
@@ -212,7 +269,7 @@ export const eventTypeTitle = css`
 export const content = css`
   position: relative;
   padding-bottom: 200px;
-  background-color: #e3e3e2;
+  background-color: ${colorsBr.evex2026PrimaryOrange};
   overflow-x: clip;
   @media (min-width: 320px) and (max-width: 768px) {
     padding-bottom: 32px;

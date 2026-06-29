@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 
-import { colors } from "../styles/layout.styles";
+import { colors, colorsBr } from "../styles/layout.styles";
 
 export const header = css`
   position: absolute;
@@ -9,12 +9,12 @@ export const header = css`
   top: 0;
   width: 100%;
   z-index: 5;
-  background-color: #ffffff;
+  background-color: ${colorsBr.evex2026CreamYellow};
   padding: 11px 40px 11px 45px;
   /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
 
   &.fixedHeader {
-    background-color: #ffffff;
+    background-color: ${colorsBr.evex2026CreamYellow};
     left: 0;
     position: fixed;
     right: 0;
@@ -82,9 +82,10 @@ export const mainMenu = css`
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     max-width: 800px;
+    gap: 24px;
 
     & li {
       list-style: none;
