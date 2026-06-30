@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import { jsx } from "@emotion/react";
 import { Container, Col, Row } from "react-bootstrap";
-import BgOrange from "@/images-br/agenda/orange-elements-02.png"
+import BgBlueimg from "@/images-br/2026/bluebanner-img.svg"
+import RedBalloonSVG from '@/images-br/2026/red-balloon.svg'
 import Element from "@/images-br/agenda/element.png"
 import {
   div,
@@ -26,7 +27,16 @@ import {
   element5,
   under,
   pinkBreak,
-  timeBlock
+  timeBlock,
+  blueBanner,
+  seventhEditionBannerSection,
+  redBallon,
+  buyTicketWrapper,
+  buyTicketLink,
+  bannerWrapper,
+  bannerStyle,
+  RedBalloonWrapper,
+  EditionDescription
 } from "../assets/styles-br/agenda-horario.styles";
 import { Link } from "gatsby";
 
@@ -53,14 +63,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             </Col>
             </Container>
 
-             <Container>
-              <Col xs={12} lg={12} className="px-0">
-              <div css={pinkBreak}>
-                <span>08:45</span>
-                <span>Credenciamento e Welcome Coffe</span>
-              </div>
-            </Col>
-            </Container>
+            
 
           </Row>
         </Container>
@@ -68,15 +71,23 @@ const AgendaHorario = ({ agendaSelecionada }) => {
 
       <Container fluid className="px-0" style={{position: 'relative'}}>
 
+       <Container>
+              <Col xs={12} lg={12} className="px-0">
+              <div css={pinkBreak}>
+                <span>08:45</span>
+                <span>Credenciamento e Welcome Coffe</span>
+              </div>
+            </Col>
+        </Container>
+      
         <Container>           
           <div css={timeBlock}>
            <div className="hour">
               <span>09:15</span>
            </div>
-           <div className="event">
-              
-              <h2>Abertura com lideranças e autoridades</h2>
+           <div className="event">   
 
+            <h2>Abertura com lideranças e autoridades</h2>
             <div className="participantsContainer">
               <div className="participant">
                 <p className="participant_bullet">• Boas Vindas</p>
@@ -90,529 +101,369 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p className="participant_role">
                 CEO e Fundador do EVEx – Energy Virtual Experience
                 </p>
-              </div>
-             
-            </div>
-           </div>
-          </div>    
-        </Container>
-        
-        <div css={container} >
-          <div css={schedule}>
-            <h4 css={title}>Programação Principal</h4>
-            <div css={event}>
-              <span>08h30</span>
-              <p>Credenciamento</p>
+              </div>             
             </div>
 
-            {/* <div css={event}>
-              <span>09h15</span>
-              <p>Boas-Vindas</p>
-            </div> */}
-
-            <div>
-              <div css={principalEvent}>
-                <span>09h15</span>
-                <p>Natal Energy Experience | Abertura com Lideranças e Autoridades </p><br/><br/>
-              </div>
-
-              <div css={event}>
-                <p css={under}>Cerimônia de Abertura</p>
-              </div>
-
-              <p css={principalEventDescription}>
-                <b>Boas-Vindas</b><br/>
-              </p>
-
-              <p css={principalEventDescription}>
-                <b>Caio César Cavalcanti</b><br/>
-                Presidente do EVEx
-              </p>
-              <p css={principalEventDescription}>
-                <b>Fátima Bezerra</b><br/>
-                Governadora do Estado do Rio Grande do Norte
-              </p>
-
-              <div css={event}>
-                <p css={under}>Painel de Abertura</p>
-              </div>
-
-              <p css={principalEventDescription}>
-              <b>Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30</b><br/><br/>
-              </p>
-                <div css={participantsContainer}>
-                  <div className="participant">
-                  <p className="participant_name">Alexandre Ramos</p>
-                  <p className="participant_role">
-                  Presidente do Conselho de Administração da CCEE – Câmara de Comercialização de Energia Elétrica
-                  </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Teresa Ponce de Leão</p>
-                  <p className="participant_role">
-                  Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal
-                  </p>
-                </div>
-                <div className="participant">
-                  <p className="participant_name">Wander Azevedo</p>
-                  <p className="participant_role">
-                  Diretor de Comercialização de Energia, Projetos Estratégicos e Estudos de Mercado da ENBPar – Empresa Brasileira de Participações em Energia Nuclear e Binacional
-                  </p>
-                </div>
-                <div className="participant">
-                    <p className="participant_name">André Pepitone</p>
-                    <p className="participant_role">Diretor Executivo Financeiro da Itaipu Binacional </p>
-                </div>
-                <div className="participant">
-                    <p className="participant_name">José Marcelo Costa</p>
-                    <p className="participant_role">Procurador do Estado do Rio Grande do Norte</p>
-                </div>
-                <div className="participant">
-                    <p className="participant_name">José Aldemir Freire</p>
-                    <p className="participant_role">Diretor de Planejamento do Banco do Nordeste do Brasil</p>
-                </div>
-                <div className="participant">
-                    <p className="participant_name">Zeca Melo </p>
-                    <p className="participant_role">Superintendente do SEBRAE-RN</p>
-                </div>
-                <div className="participant">
-                <p className="participant_name">Maria João Rolim – Moderadora</p>
-                <p className="participant_role">
-                Sócia do Rolim Goulart Cardoso Advogados
-                </p>
-              </div>
-              </div>
-            </div>
-
-            {/* <div>
-              <div css={principalEvent}>
-                <span>09h40</span>
-                <p>Natal Energy Experience <i style={{letterSpacing: '-2px'}}> --</i> Abertura com Autoridades</p>
-              </div>
-
-              <p css={principalEventDescription}>
-              <b>Transição Energética Justa e Industrialização Verde: na rota ibero-latino-americana</b>
-              </p>
-            </div> */}
-
-            {/* <div css={participantsContainer}>
+            <div className="participantsContainer">
               <div className="participant">
-                <p className="participant_name">Alexandre Ramos</p>
+                <p className="participant_bullet">
+                  • Pulsar Ibero-Americano: 
+                  <span>Segurança e Independência Energética na Nova Era da Transição</span>
+                </p>
+                 <p className="participant_name">Veneziano Vital do Rêgo</p>
                 <p className="participant_role">
-                Presidente da CCEE – Câmara de Comercialização de Energia Elétrica
+                Senador e Presidente da Frente Parlamentar de Recursos Naturais e Energia
                 </p>
               </div>
-              <div className="participant">
-                <p className="participant_name">Nelson Lage</p>
-                <p className="participant_role">
-                Presidente da ADENE – Agência para a Energia de Portugal
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">André Pepitone</p>
-                <p className="participant_role">
-                Diretor Executivo Financeiro de Itaipu Binacional
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Wander Azevedo</p>
-                <p className="participant_role">
-                Diretor de Comercialização de Energia da ENBPar, empresa pública vinculada ao Ministério de Minas e Energia do Brasil
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">José Ferreira de Melo Neto</p>
-                <p className="participant_role">
-                Diretor Superintendente do SEBRAE-RN
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">José Aldemir Freire</p>
-                <p className="participant_role">
-                Diretor de Planejamento do Banco do Nordeste do Brasil
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Maria João Rolim – Moderadora</p>
-                <p className="participant_role">
-                Sócia do Rolim Goulart Cardoso Advogados
-                </p>
-              </div>
-            </div> */}
-
-            {/* <div css={participantsContainer}>
               <div className="participant">
                 <p className="participant_name">Alexandre Fernandes</p>
                 <p className="participant_role">
-                  Presidente, ENSE - Entidade Nacional para o Setor Energético
+                Presidente da Entidade Nacional para o Setor Energético – ENSE, Portugal
                 </p>
-              </div>
-
+              </div>             
               <div className="participant">
-                <p className="participant_name">Bruno Veloso</p>
+                <p className="participant_name">André Pepitone</p>
                 <p className="participant_role">
-                  Vice-Presidente do Conselho de Administração, ADENE - Agência
-                  para a Energia
+                Diretor Financeiro Executivo da Itaipu Binacional
                 </p>
-              </div>
-
+              </div>             
               <div className="participant">
                 <p className="participant_name">Alexandre Ramos</p>
                 <p className="participant_role">
-                  Presidente, CCEE - Câmara de Comercialização de Energia
-                  Elétrica
+                Presidente da Companhia Energética de Minas Gerais – CEMIG
                 </p>
-              </div>
-
+              </div>             
               <div className="participant">
-                <p className="participant_name">Thiago Prado</p>
+                <p className="participant_name">Gerusa Côrtes</p>
                 <p className="participant_role">
-                  Presidente, EPE - Empresa de Pesquisa Energética
+                Diretora de Operação de Mercado da Câmara de Comercialização de Energia Elétrica – CCEE
                 </p>
-              </div>
-
+              </div>             
               <div className="participant">
-                <p className="participant_name">Maria João Rolim</p>
-                <p className="participant_role">Sócia, Rolim Goulart Cardoso</p>
-              </div>
-
-              <div className="participant">
-                <p className="participant_name">Joana Garoupa – Moderadora</p>
-                <p className="participant_role">Diretora Geral, Garoupa INC</p>
-              </div>
-            </div> */}
-              {/* <div>
-                <div css={principalEvent}>
-                  <span>10h40</span>
-                  <p>Assinatura de protocolos de cooperação</p>
-                </div>
-
-                <p css={principalEventDescription}>
-                <b>Entre ADENE – Agência para a Energia e Polo SEBRAE de Energias Renováveis</b>
+                <p className="participant_name">Maria João Rolim – Moderadora</p>
+                <p className="participant_role">
+                Embaixadora do EVEx – Energy Virtual Experience
                 </p>
-                <p css={principalEventDescription}>
-                <b>Entre Governo do Estado do Rio Grande do Norte e ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde </b>
-                </p>
-              </div> */}
-
-            <div css={event}>
-              <span>11h00</span>
-              <p>Coffee Break powered by POTIGÁS</p>
+              </div>             
             </div>
 
-            <div>
-              <div css={principalEvent}>
-                <span>11h30</span>
-                <p>Natal Energy Expo/Business</p>
-              </div>
+           </div>
+          </div>    
+        </Container>
 
-              <p css={principalEventDescription}>
-                <b>Curtailment, Armazenamento de Energia e Data Centers</b>
-              </p>
-            </div>
+        <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>11:00</span>
+           </div>
+           <div className="event">   
 
-            <div css={participantsContainer}>
+            <h2>O Pulsar da Matriz e das Baterias:</h2>
+            <h3>Diversidade Energética, Fontes Híbridas e Flexibilidade do Sistema</h3>
+
+            <div className="participantsContainer">
               <div className="participant">
-                <p className="participant_name">• Exposição de Estudo: Armazenamento de Energia</p>
-                <p className="participant_name">Jorge Marques</p>
+                <p className="participant_name">Fernando Mosna</p>
                 <p className="participant_role">
-                Diretor de Formação, Informação e Educação da ADENE – Agência para a Energia de Portugal
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">•	Exposição de Case: Data Centers</p>
-                <p className="participant_name">Vital Neto</p>
-                <p className="participant_role">
-                Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">•	Debate</p>
-                <p className="participant_name">Solange David</p>
-                <p className="participant_role">
-                Chairperson do Women in Energy do CIGRE Internacional 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Francisco Silva</p>
-                <p className="participant_role">
-                Diretor Técnico Regulatório da ABEEólica – Associação Brasileira de Energia Eólica e Novas Tecnologias 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Marília Rabassa</p>
-                <p className="participant_role">
-                Head de Consultoria e Sócia da CELA – Clean Energy Latin America 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Maurício Godoi  – Moderador </p>
-                <p className="participant_role">
-                Subeditor do CanalEnergia – Informa Markets 
-                </p>
-              </div>
-            </div>
-            
-
-            {/* <h5 css={eventTypeTitle}>Exposição de Cases</h5>
-
-            <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Ana Quelhas</p>
-                <p className="participant_role">
-                Managing Director for Hydrogen, EDP Renewables
-                </p>
-              </div>
-
-              <div className="participant">
-                <p className="participant_name">Bruno Galvão</p>
-                <p className="participant_role">Special Counsel, BLOMSTEIN</p>
-              </div>
-            </div>
-
-            <h5 css={eventTypeTitle}>DEBATE</h5>
-
-            <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Gema Blanco-Salvá</p>
-                <p className="participant_role">
-                Ajunta a la Dirección General, MIBGAS - Mercado Iberico del Gas
-                </p>
-              </div>
-
-              <div className="participant">
-                <p className="participant_name">Ricardo Gedra</p>
-                <p className="participant_role">Gerente de Análise e Informações ao Mercado, CCEE - Câmara de Comercialização de Energia Elétrica</p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Afonso Henriques Moreira Santos</p>
-                <p className="participant_role">Membro do Conselho de Administração, CEMIG - Companhia Energética de Minas Gerais</p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Fernanda Delgado – Moderadora</p>
-                <p className="participant_role">Diretora Executiva, ABIHV - Associação Brasileira da Indústria de Hidrogênio Verde</p>
-              </div>
-            </div> */}
-
-            <div css={event}>
-              <span>12h30</span>
-              <p>Intervalo para Almoço</p>
-            </div>
-
-
-            <div>
-              <div css={principalEvent}>
-                <span>14h00</span>
-                <p>Natal Energy MasterClass | Segurança de Mercado</p>
-              </div>
-
-            </div>
-            <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Eduardo Rossi</p>
-                <p className="participant_role">
-                Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Caio Alves – Moderador</p>
-                <p className="participant_role">
-                Head de Regulação do Rolim Goulart Cardoso Advogados
-                </p>
-              </div>
-            </div>
-
-
-
-            <div>
-              <div css={principalEvent}>
-                <span>14h30</span>
-                <p>Natal Energy Talks</p>
-              </div>
-
-              <p css={principalEventDescription}>
-             <b>Segurança Energética, Diversificação da Matriz e Transição Climática: o que esperar da COP30?</b>
-              </p>
-            </div>
-            <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Teresa Ponce de Leão</p>
-                <p className="participant_role">
-                Presidente do LNEG – Laboratório Nacional de Energia e Geologia de Portugal 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Thiago Ivanoski </p>
-                <p className="participant_role">
-                Diretor de Estudos Econômico-Energéticos e Ambientais da EPE – Empresa de Pesquisa Energética
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Adriana Waltrick</p>
-                <p className="participant_role">
-                CEO da SPIC Brasil  
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Rudinei Miranda</p>
-                <p className="participant_role">
-                Presidente da ANER – Associação Nacional das Entidades Representativas de Energias Renováveis
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Maria João Rolim</p>
-                <p className="participant_role">
-                Sócia do Rolim Goulart Cardoso Advogados  
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Natália Bezutti – Moderadora</p>
-                <p className="participant_role">
-                Jornalista e Sócia da MegaWhat
-                </p>
-              </div>
-             
-            </div>
-
-            <div css={event}>
-              <span>15h30</span>
-              <p>Coffee Break powered by CEMIG</p>
-            </div>
-
-            <div>
-              <div css={principalEvent}>
-                <span>16h00</span>
-                <p>Natal Energy Talks</p>
-              </div>
-
-              <p css={principalEventDescription}>
-              <b>Reforma e Modernização do Setor Elétrico Brasileiro</b>
-              </p>
-            </div>
-            <div css={participantsContainer}>
-              <div className="participant">
-                <p className="participant_name">Agnes da Costa</p>
-                <p className="participant_role">
-                Diretora da ANEEL – Agência Nacional de Energia Elétrica  
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Roberta Nanini</p>
-                <p className="participant_role">
-                Diretora de Regulação e Relações Institucionais da CEMIG – Companhia Energética de Minas Gerais  
+                Diretor da Agência Nacional de Energia Elétrica – ANEEL
                 </p>
               </div>
               <div className="participant">
                 <p className="participant_name">Marisete Pereira</p>
                 <p className="participant_role">
-                Presidente da ABRAGE – Associação Brasileira de Empresas Geradoras de Energia Elétrica 
+                Presidente da Associação Brasileira das Empresas Geradoras de Energia Elétrica – ABRAGE
                 </p>
-              </div>
+              </div>             
               <div className="participant">
-                <p className="participant_name">Ricardo Simabuku</p>
+                <p className="participant_name">Alessandra Torres</p>
                 <p className="participant_role">
-                Conselheiro de Administração da CCEE – Câmara de Comercialização de Energia Elétrica 
+                Presidente da Associação Brasileira de Geração de Energia Limpa – ABRAGEL
                 </p>
-              </div>
+              </div>             
               <div className="participant">
-                <p className="participant_name">Wagner Ferreira – Moderador </p>
+                <p className="participant_name">Rudinei Miranda</p>
                 <p className="participant_role">
-                Sócio do Caputo, Bastos e Serra Advogados  
+                Presidente da Associação Nacional das Entidades Representativas de Energias Renováveis – ANER
                 </p>
-              </div>          
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Fernanda De Paula</p>
+                <p className="participant_role">
+                Sócia do Fernanda De Paula Advocacia e Consultoria Jurídica
+                </p>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Silla Motta – Moderadora  </p>
+                <p className="participant_role">
+                CEO da Donna Lamparina
+                </p>
+              </div>             
             </div>
 
-            {/* <div css={event}>
-              <span>17h00</span>
-              <p>Coffee Break</p>
-            </div> */}
-            
-            <div>
-              <div css={principalEvent}>
-                <span>17h00</span>
-                <p>Fórum C-Level</p>
-              </div>
+           </div>
+          </div>    
+        </Container>
 
-              <p css={principalEventDescription}>
-                  <b>Gás Natural: papel na transição e integração energética regional</b>
-              </p>
-            </div>
-            <div css={participantsContainer}>
-            <div className="participant">
-                <p className="participant_name">Marina Melo</p>
-                <p className="participant_role">
-                CEO da Potigás – Companhia Potiguar de Gás 
-                </p>
+        <Container>
+              <Col xs={12} lg={12} className="px-0">
+              <div css={pinkBreak}>
+                <span>12:30</span>
+                <span>Almoço de Networking</span>
               </div>
-              <div className="participant">
-                <p className="participant_name">Carlos Camargo de Colón</p>
-                <p className="participant_role">
-                CEO da Gasmig – Companhia de Gás de Minas Gerais 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Cristiane Schimidt</p>
-                <p className="participant_role">
-                CEO da MSGÁS – Companhia de Gás do Estado de Mato Grosso do Sul 
-                </p>
-              </div>
-              <div className="participant">
-                <p className="participant_name">Magno Bernardo, representando Luiz Gavazza,</p>
-                <p className="participant_role">
-                CEO da Bahiagás – Companhia de Gás da Bahia
-                </p>
-              </div>                                
-              <div className="participant">
-                <p className="participant_name">Felipe Maciel – Moderador</p>
-                <p className="participant_role">
-                Diretor Executivo da Agência Eixos  
-                </p>
-              </div>          
-            </div>
+            </Col>
+        </Container>   
 
-            <div css={principalEvent}>
-              <span>18h00</span>
-              <p>Entrega dos Prêmios EVEx Brasil 2025 </p>
-            </div>
+         <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>13:45</span>
+           </div>
+           <div className="event">   
 
-            <div css={participantsContainer}>
+            <h2>O Ritmo das Moléculas:</h2>
+            <h3>Combustíveis de Baixa Emissão como Vetores para a Descarbonização dos Transportes</h3>
+
+            <div className="participantsContainer">
               <div className="participant">
-                <p className="participant_name">• Personalidade Política Setorial do Ano</p>
-                <p className="participant_name">Veneziano Vital do Rêgo</p>
+                <p className="participant_name">Gustavo De Marchi</p>
                 <p className="participant_role">
-                Senador da República e Presidente da Frente Parlamentar de Recursos Naturais e Energia
+                Presidente da Companhia de Gás de Minas Gerais – Gasmig
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">•	Representatividade Setorial do Ano</p>
-                <p className="participant_name">Fernanda Delgado</p>
+                <p className="participant_name">Fernando Alves Pinto</p>
                 <p className="participant_role">
-                CEO da ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde 
+                Vogal Executivo do Conselho de Administração da Entidade Nacional para o Setor Energético – ENSE, Portugal
                 </p>
-              </div>
+              </div>             
               <div className="participant">
-                <p className="participant_name">•	Comunicação Setorial do Ano</p>
-                <p className="participant_name">Felipe Maciel</p>
+                <p className="participant_name">Patrícia Lima Franco </p>
                 <p className="participant_role">
-                Diretor Executivo da Agência Eixos 
+                Coordenadora de Gás Natural Veicular da Companhia de Gás da Bahia – Bahiagás
                 </p>
-              </div>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Marcelo Martins</p>
+                <p className="participant_role">
+                Economista do Sindicato da Indústria de Fabricação de Álcool do Estado da Paraíba – Sindalcool-PB
+                </p>
+              </div>                          
+              <div className="participant">
+                <p className="participant_name">Nayara Machado – Moderadora </p>
+                <p className="participant_role">
+                Jornalista e Editora da Agência Eixos
+                </p>
+              </div>             
             </div>
 
-            <div css={event}>
-              <span>18h30</span>
-              <p>Coquetel powered by EVEx – Energy Virtual Experience</p>
-            </div>
-            <div css={event}>
-              <span>20h30</span>
-              <p>Encerramento do primeiro dia</p>
+           </div>
+          </div>    
+        </Container> 
+
+         <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>14:45</span>
+           </div>
+           <div className="event">   
+
+            <h2>O Pulsar dos Investimentos:</h2>
+            <h3>Visão de Mercado e a Estratégia dos Grandes Players na Transição</h3>
+
+            <div className="participantsContainer">
+              <div className="participant">
+                <p className="participant_name">Robson Barbosa</p>
+                <p className="participant_role">
+                Secretário Executivo de Energia e Transição Energética do Governo da Paraíba
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Secretário Executivo de Energia e Transição Energética do Governo da Paraíba</p>
+                <p className="participant_role">
+                
+                </p>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Denise Delmiro – Moderadora</p>
+                <p className="participant_role">
+                Apresentadora do JPB1 da TV Cabo Branco – Afiliada Globo na Paraíba
+                </p>
+              </div>             
+                          
             </div>
 
-          </div>
-        </div>
-        {/* <img src={Element} css={element1} />
-        <img src={Element} css={element2} />
-        <img src={Element} css={element3} /> */}
+           </div>
+          </div>    
+        </Container> 
+
+        <Container>
+              <Col xs={12} lg={12} className="px-0">
+              <div css={pinkBreak}>
+                <span>16:00</span>
+                <span>Coffee Break & Networking</span>
+              </div>
+            </Col>
+        </Container> 
+
+        <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>16:30</span>
+           </div>
+           <div className="event">   
+
+            <h2>O Ritmo da Indústria:</h2>
+            <h3>Minerais Críticos e Estratégicos na Autonomia da Transição</h3>
+
+            <div className="participantsContainer">
+              <div className="participant">
+                <p className="participant_name">Teresa Ponce de Leão</p>
+                <p className="participant_role">
+                Presidente do Laboratório Nacional de Energia e Geologia – LNEG, Portugal
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Maria João Rolim</p>
+                <p className="participant_role">
+                Sócia do Rolim Goulart Cardoso Advogados
+                </p>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Cácia Pimentel – Moderadora</p>
+                <p className="participant_role">
+                Diretora do Centro Mackenzie de Políticas Públicas e Políticas de Integridade
+                </p>
+              </div>             
+                          
+            </div>
+
+           </div>
+          </div>    
+        </Container>   
+
+         <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>17:30</span>
+           </div>
+           <div className="event">   
+
+            <h2>O Pulsar da Cooperação:</h2>
+            <h3>Aliança Ibero-Americana no Combate à Pobreza Energética</h3>
+
+            <div className="participantsContainer">
+              <div className="participant">
+                <p className="participant_name">Manuel Casquiço</p>
+                <p className="participant_role">
+                Diretor de Indústria e Transição Energética da ADENE – Agência para a Energia, Portugal
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Mariana Weiss</p>
+                <p className="participant_role">
+                Analista da Empresa de Pesquisa Energética – EPE, Brasil
+                </p>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Julián Cortés Oggero</p>
+                <p className="participant_role">
+                Investigador da RedPE – Red de Pobreza Energética, Chile
+                </p>
+              </div>             
+              <div className="participant">
+                <p className="participant_name">Hugo Lucas</p>
+                <p className="participant_role">
+                Diretor de Conhecimento, Desenvolvimento de Novos Modelos de Negócio e Competitividade do IDAE 
+                (Instituto para la Diversificación y Ahorro de la Energía), Espanha
+                </p>
+              </div>                          
+              <div className="participant">
+                <p className="participant_name">Luiz Miranda – Moderador</p>
+                <p className="participant_role">
+                Fundador da EnergyC
+                </p>
+              </div>             
+                          
+            </div>
+
+           </div>
+          </div>    
+        </Container>  
+
+
+        <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>18:35</span>
+           </div>
+           <div className="event">   
+
+            <h2>Assinatura de Manifestação de Interesse de Cooperação Mútua entre a ADENE e o CEAR/UFPB</h2>
+
+            <div className="participantsContainer">
+              <div className="participant">
+                <p className="participant_name">Bruno Veloso</p>
+                <p className="participant_role">
+                Vice-Presidente da ADENE – Agência para a Energia, Portugal
+                </p>
+              </div>
+              <div className="participant">
+                <p className="participant_name">Euler Macêdo</p>
+                <p className="participant_role">
+                Diretor do Centro de Energias Alternativas e Renováveis da Universidade Federal da Paraíba – CEAR/UFPB
+                </p>
+              </div>                                                            
+            </div>
+           </div>
+          </div>    
+        </Container>  
+
+        <Container>           
+          <div css={timeBlock}>
+           <div className="hour">
+              <span>18:45</span>
+           </div>
+           <div className="event">   
+
+            <h2>Em Tom de Reconhecimento: Prêmio EVEx Brasil 2026</h2>
+
+            <div className="participantsContainer">
+              <div className="participant">
+                <p className="participant_name">• Protagonismo em Regulação e Governança </p>
+                <p className="participant_role">
+                Agnes M. da Costa, Diretora da Agência Nacional de Energia Elétrica – ANEEL
+                </p>
+                <p className="participant_name">• Vanguarda em Planejamento e Inteligência Setorial  </p>
+                <p className="participant_role">
+                Vanguarda em Planejamento e Inteligência Setorial Empresa de Pesquisa Energética – EPE
+                </p>
+                <p className="participant_name">• Excelência em Gestão e Modernização Setorial   </p>
+                <p className="participant_role">
+                Daniel Slaviero, Presidente da Companhia Paranaense de Energia – Copel
+                </p>
+                <p className="participant_name">• Referência em Liderança e Impacto Regional    </p>
+                <p className="participant_role">
+                Luiz Gavazza, Diretor-Presidente da Companhia de Gás da Bahia – Bahiagás
+                </p>
+                <p className="participant_name">• Inovação em Comunicação Setorial     </p>
+                <p className="participant_role">
+                Flávia Fonseca de Albuquerque, Gerente Executiva de Comunicação Institucional da Câmara de Comercialização de Energia Elétrica – CCEE
+                </p>
+              </div>                                                            
+            </div>
+           </div>
+          </div>    
+        </Container>  
+
+        <Container>
+              <Col xs={12} lg={12} className="px-0">
+              <div css={pinkBreak}>
+                <span>19:30</span>
+                <span>Coquetel de Celebração & Networking</span>
+              </div>
+            </Col>
+        </Container> 
+
       </Container>
     </section>
         <section style={{display: agendaSelecionada === 4 && 'block'}}>
@@ -1062,7 +913,29 @@ const AgendaHorario = ({ agendaSelecionada }) => {
         
       </section>
       {/* <img src={BgOrange} css={imgOrange} /> */}
+     <div css={seventhEditionBannerSection}>
+           <EditionDescription>
+             <h1 className="event_name">Participe do EVEx Brasil 2026</h1>
+             <RedBalloonWrapper>
+               <img css={redBallon} src={RedBalloonSVG} />
+             </RedBalloonWrapper>
+             <div css={buyTicketWrapper}>
+               <a
+                 target="_blank" 
+                 css={buyTicketLink} 
+                 href={"https://www.sympla.com.br/evento/evex-brasil-2025-natal-energy-experience/2973088"}
+               >
+                 <p>Garanta sua participação</p>
+               </a>
+             </div>
+             
+           </EditionDescription>
+           <div css={bannerWrapper}>
+             <img css={bannerStyle} src={BgBlueimg}/>
+           </div>
+         </div>
    </div>
+   
   );
 };
 
