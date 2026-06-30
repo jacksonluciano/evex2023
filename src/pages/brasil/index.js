@@ -17,6 +17,7 @@ import EvexHighlights from "@/components-br/EvexHighlights";
 import LinksSection from "@/components-br/LinksSection";
 import SpeakersSection from "@/components-br/SpeakersSection"
 import GetTicketSection from "@/components-br/GetTicketSection";
+import SponsorSection from "@/components-br/SponsorSection";
 
 import { Helmet } from "react-helmet";
 
@@ -40,7 +41,7 @@ const HomeOne = () => {
           <LinksSection/>
           <SpeakersSection/>
           <GetTicketSection/>
-          <Patrocinadores />
+          <SponsorSection />
           <Footer />
         </Layout>
       </SearchContextProvider>

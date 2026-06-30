@@ -10,22 +10,15 @@ import { jsx } from "@emotion/react";
 
 import {
   footer1,
-  sideColumn,
-  widget,
-  aboutWidget,
-  contactWidget,
-  socialWidget,
   subscribeFrom,
   messageBox,
-  reverse,
-  mobileSide,
   footerColumn,
   footerColumnCenter,
-  dividerbg,
-  footerStarsStyle
+  footerStarsStyle,
+  footerClass
 } from "../assets/styles-br/footer.styles";
 
-import { commonBtnBr, redBg } from "../assets/styles/layout.styles";
+import { commonBtnBr } from "../assets/styles/layout.styles";
 import { Row, Col, Container } from "react-bootstrap";
 
 const Footer = () => {
@@ -53,12 +46,8 @@ const Footer = () => {
     }
   }, [formValue]);
 
-  const { black } = LogoBrasil;
   return (
     <footer id="footer" css={footer1}>
-      <div css={dividerbg}>
-        {/* <img src={dividerImg} /> */}
-      </div>
       <div css={footerStarsStyle}>
         <img src={footerStars} />
       </div>
@@ -256,8 +245,8 @@ const Footer = () => {
               </div>
            </Col>
    </Row>
-          <div css={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '64px', paddingBottom: '32px'}}>
-             {/* <img src={footerImg} /> */}
+          <div css={footerClass}>
+             <img src={footerImg} />
           </div>
         </Container>
 

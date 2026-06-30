@@ -14,7 +14,8 @@ import {
   root,
   CardComponent,
   imageWrapper,
-  imgClass
+  imgClass,
+  lighthouseClass
 } from "../assets/styles-br/EvexProgram.styles"
 
 const EvexProgram = () => {
@@ -23,7 +24,7 @@ const EvexProgram = () => {
       title: 'Painéis, masterclasses e entrevistas',
       description: 'Com líderes, executivos e especialistas do Brasil, Portugal, Espanha, Chile e de instituições de referência do espaço ibero-americano.',
       color: colorsBr.evex2026BloodRed,
-      img: <img css={imgClass} src={decorationLighthouse}/>
+      img: <img css={lighthouseClass} src={decorationLighthouse}/>
     },
     {
       title: 'Debates estratégicos de alto nível',
