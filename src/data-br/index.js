@@ -159,7 +159,26 @@ import Speaker92 from "@/images-br/speakers/rudinei.png"
 import Speaker93 from "@/images-br/speakers/leonardo.png"
 
 
-
+import Gallery01 from "@/images-br/2026/carousel/foto 1.png"
+import Gallery02 from "@/images-br/2026/carousel/foto 2.png"
+import Gallery03 from "@/images-br/2026/carousel/foto 3.png"
+import Gallery04 from "@/images-br/2026/carousel/foto 4.png"
+import Gallery05 from "@/images-br/2026/carousel/foto 5.png"
+import Gallery06 from "@/images-br/2026/carousel/foto 6.png"
+import Gallery07 from "@/images-br/2026/carousel/foto 7.png"
+import Gallery08 from "@/images-br/2026/carousel/foto 8.png"
+import Gallery09 from "@/images-br/2026/carousel/foto 9.png"
+import Gallery10 from "@/images-br/2026/carousel/foto 10.png"
+import Gallery11 from "@/images-br/2026/carousel/foto 11.png"
+import Gallery12 from "@/images-br/2026/carousel/foto 12.png"
+import Gallery13 from "@/images-br/2026/carousel/foto 13.png"
+import Gallery14 from "@/images-br/2026/carousel/foto 14.png"
+import Gallery15 from "@/images-br/2026/carousel/foto 15.png"
+import Gallery16 from "@/images-br/2026/carousel/foto 16.png"
+import Gallery17 from "@/images-br/2026/carousel/foto 17.png"
+import Gallery18 from "@/images-br/2026/carousel/foto 18.png"
+import Gallery19 from "@/images-br/2026/carousel/foto 19.png"
+import Gallery20 from "@/images-br/2026/carousel/foto 20.png"
 
 import Normas from '@/images-br/files/Regras de Formatação - Artigo 2025.pdf'
 import Eixos from '@/images-br/files/Eixos Temáticos - EVEx Brasil 2025.pdf'
@@ -470,6 +489,68 @@ export const EvexBrasil2024 = [
   },
 ]
 
+export const ExperienceGalleryData = [
+  {
+    img: Gallery01
+  },
+  {
+    img: Gallery02
+  },
+  {
+    img: Gallery03
+  },
+  {
+    img: Gallery04
+  },
+  {
+    img: Gallery05
+  },
+  {
+    img: Gallery06
+  },
+  {
+    img: Gallery07
+  },
+  {
+    img: Gallery08
+  },
+  {
+    img: Gallery09
+  },
+  {
+    img: Gallery10
+  },
+  {
+    img: Gallery11
+  },
+  {
+    img: Gallery12
+  },
+  {
+    img: Gallery13
+  },
+  {
+    img: Gallery14
+  },
+  {
+    img: Gallery15
+  },
+  {
+    img: Gallery16
+  },
+  {
+    img: Gallery17
+  },
+  {
+    img: Gallery18
+  },
+  {
+    img: Gallery19
+  },
+  {
+    img: Gallery20
+  },
+]
 
 export const BigCtaBrData = [
   {

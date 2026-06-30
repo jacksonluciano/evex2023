@@ -21,6 +21,12 @@ export const sliderCss = css`
     z-index: 2;
     pointer-events: none;
   }
+
+  .swiper-slide {
+    width: 100% !important;
+    max-width: 500px !important;
+    height: 100%;
+  }
 `
 
 export const imageCard = css`

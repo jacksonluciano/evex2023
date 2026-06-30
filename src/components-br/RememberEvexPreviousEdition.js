@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { jsx } from '@emotion/react'
-import { ExperienceGalleryData} from "@/data";
+import { ExperienceGalleryData} from "@/data-br";
 
 import { 
   imageCard,
