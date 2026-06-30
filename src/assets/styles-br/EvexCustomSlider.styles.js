@@ -19,7 +19,7 @@ export const slider = css`
 
 export const root = css`
   width: 100%;
-  height: 800px;
+  min-height: 800px;
   position: relative;
   overflow: hidden;
   padding: 135px 120px;
@@ -61,6 +61,21 @@ export const root = css`
     background: #ededed;
     opacity: 1;
   }
+  @media (max-width: 768px) {
+    padding: 100px 120px
+  }
+  @media (max-width: 425px) {
+    padding: 64px 16px;
+    .description {
+      row-gap: 16px;
+      h2 {
+        max-width: 300px;
+      }
+      p {
+        max-width: 325px;
+      }
+    }
+  }
 `;
 
 export const sliderHeader = css`
@@ -95,5 +110,8 @@ export const sliderArrows = css`
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
+  @media (max-width: 425px) {
+    display: none;
   }
 `;

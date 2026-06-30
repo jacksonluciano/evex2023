@@ -98,7 +98,7 @@ export const buyTicketLink = css`
   justify-content: center;
   text-decoration: none;
   p {
-    color: ${colorsBr.white};
+    color: #000000;
     font-weight: 700;
     font-size: 16px;
     margin: 0;
@@ -108,7 +108,7 @@ export const buyTicketLink = css`
     text-decoration: none;
   }
   &:hover p,&:focus p,&:visited p,&:active p {
-    color: ${colorsBr.white};
+    color: #000000;
   }
 `
 

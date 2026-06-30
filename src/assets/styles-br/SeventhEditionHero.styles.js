@@ -11,6 +11,17 @@ export const redBallon = css`
   margin: 28px 0px 20px 0px;
   position: absolute;
   left: -16px;
+  @media (max-width: 768px) {
+    width: 365px;
+  }
+`
+
+export const buyTicketWrapper = css`
+  @media (max-width: 768px) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
 `
 
 export const buyTicketLink = css`
@@ -66,6 +77,32 @@ export const EditionDescription = styled.div`
     font-size: 16px;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 768px) {
+    padding: 28px 32px;
+    max-width: unset;
+    margin: 0px auto;
+    min-height: 600px;
+    .event_description {
+      max-width: 400px;
+    }
+  }
+  @media (max-width: 425px) {
+    padding: 28px 24px;
+    margin: 0 auto;
+    max-width: 375px;
+    min-height: 530px;
+    .event_name {
+      font-size: 36px;
+    };
+    .event_description {
+      width: 315px;
+    } 
+  }
+  @media (max-width: 375px) {
+    margin: 0;
+  }
+
 `
 export const RedBalloonWrapper = styled.div`
   position: relative;
@@ -77,16 +114,47 @@ export const RedBalloonWrapper = styled.div`
   margin-bottom: 24px;
 `
 
+export const bannerWrapper = css`
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 258px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background-color: ${colorsBr.evex2026PrimaryBlue};
+      background-image: url(${heroSectionDividerSVG});
+      background-repeat: repeat-x;
+      background-position: center bottom;
+      background-size: auto 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+  }
+`
+
 export const bannerStyle = css`
   width: 910px;
   height: 515px;
+  @media (max-width: 768px) {
+    width: 425px;
+    height: 258px;
+  }
+  @media (max-width: 375px) {
+    width: 375px;
+    height: 258px;
+  }
 `
 
 export const seventhEditionBannerSection = css`
   position: relative;
   margin-top: 93px;
   width: 100%;
-  height: 600px;
+  min-height: 600px;
   background-color: ${colorsBr.evex2026PrimaryBlue};
   padding: 44px 0 32px 168px;
   display: flex;
@@ -107,5 +175,9 @@ export const seventhEditionBannerSection = css`
     background-size: auto 100%;
     z-index: 2;
     pointer-events: none;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    padding: 0px;
   }
 `

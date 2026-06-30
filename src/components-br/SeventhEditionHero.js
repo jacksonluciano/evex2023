@@ -11,7 +11,9 @@ import {
   redBallon,
   RedBalloonWrapper,
   buyTicketLink,
-  bannerStyle
+  bannerStyle,
+  bannerWrapper,
+  buyTicketWrapper
 }  from '../assets/styles-br/SeventhEditionHero.styles'
 
 
@@ -26,17 +28,20 @@ const SeventhEditionHero = () => {
         <RedBalloonWrapper>
           <img css={redBallon} src={RedBalloonSVG} />
         </RedBalloonWrapper>
-        
-        <a
-          target="_blank" 
-          css={buyTicketLink} 
-          href={"https://www.sympla.com.br/evento/evex-brasil-2025-natal-energy-experience/2973088"}
-        >
-          <p>Garanta sua participação</p>
-        </a>
+        <div css={buyTicketWrapper}>
+          <a
+            target="_blank" 
+            css={buyTicketLink} 
+            href={"https://www.sympla.com.br/evento/evex-brasil-2025-natal-energy-experience/2973088"}
+          >
+            <p>Garanta sua participação</p>
+          </a>
+        </div>
         
       </EditionDescription>
-      <img css={bannerStyle} src={BannerFrame}/>
+      <div css={bannerWrapper}>
+        <img css={bannerStyle} src={BannerFrame}/>
+      </div>
     </section>
   );
 };

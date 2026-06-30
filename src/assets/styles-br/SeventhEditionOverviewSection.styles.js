@@ -36,7 +36,13 @@ export const VideoWrapper = styled.div`
       font-size: 16px;
     }
   }
-
+  @media (max-width: 768px) {
+    padding: 57px 16px;
+    .video_description {
+      flex-direction: column;
+      row-gap: 16px;
+    }
+  }
 `
 export const videoLayout = css`
   position: relative;
@@ -51,12 +57,14 @@ export const videoLayout = css`
   }
 `
 export const CountersWrapper = styled.div`
-  height: 200px;
+  min-height: 200px;
+  height: auto;
   width: 100%;
   display: flex;
   background-color: ${colorsBr.evex2026PrimaryOrange};
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   column-gap: 20px;
   padding: 36px 80px;
 
@@ -65,6 +73,8 @@ export const CountersWrapper = styled.div`
     align-items: center;
     flex-shrink: 0;
     gap: 24px;
+    flex: 1 1 0;
+    justify-content: space-around;
   }
 
   .counter_element {
@@ -107,6 +117,17 @@ export const CountersWrapper = styled.div`
   .counter_label {
     font-size: 20px;
     font-weight: 500;
+  }
+  @media(max-width: 1420px) {
+    .vertical_bar {
+      display: none;
+    }
+  }
+  @media(max-width: 768px) {
+    row-gap: 42px;
+  }
+  @media(max-width: 425px) {
+    padding: 36px;
   }
 `
 

@@ -86,10 +86,41 @@ export const root = css`
     z-index: 2;
     pointer-events: none;
   }
+  @media(max-width: 1064px) {
+    padding: 100px 16px;
+  }
 `
 
 export const illustration = css`
   position: absolute;
   bottom: -15px;
   right: 60px;
+  @media(max-width: 1368px) {
+    width: 720px;
+  }
+  @media(max-width: 1180px) {
+    width: 650px
+  }
+  @media(max-width: 1064px) {
+    width: 700px
+  }
+  @media(max-width: 1000px){
+    width: 600px
+  }
+  @media(max-width: 700px){
+    width: 500px;
+    height: 400px;
+  }
+  @media(max-width: 550px){
+    width: 400px;
+    height: 350px
+  }
+  @media(max-width: 425px){
+    width: 370px;
+    height: 335px
+  }
+  @media(max-width: 375px){
+    width: 330px;
+    height: 310px
+  }
 `

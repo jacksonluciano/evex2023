@@ -20,16 +20,16 @@ import {
 
 SwiperCore.use([Pagination, Navigation]);
 
-const EvexCustomSlider = ({
-  title,
-  description,
-  items,
-  renderItem,
-  slidesPerView = 2.9,
-  spaceBetween = 12,
-  rootCss,
-  sliderCss,
-}) => {
+const EvexCustomSlider = (props) => {
+  const {
+    title,
+    description,
+    items,
+    renderItem,
+    rootCss,
+    sliderCss,
+    ...rest
+  } = props
   const prevRef = React.useRef(null);
   const nextRef = React.useRef(null);
 
@@ -50,8 +50,6 @@ const EvexCustomSlider = ({
       <Swiper
         css={[slider, sliderCss]}
         modules={[Pagination, Navigation]}
-        slidesPerView={slidesPerView}
-        spaceBetween={spaceBetween}
         centeredSlides={false}
         pagination={{ clickable: true }}
         onBeforeInit={(swiper) => {
@@ -60,6 +58,7 @@ const EvexCustomSlider = ({
             swiper.params.navigation.nextEl = nextRef.current;
           }
         }}
+        {...rest}
       >
         {items.map((item, index) => (
           <SwiperSlide key={item?.id ?? index}>

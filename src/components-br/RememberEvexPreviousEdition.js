@@ -17,8 +17,18 @@ const RememberEvexPreviousEdition = () => {
         title={<h2>Reviva o EVEx Brasil 2025</h2>}
         description={<p>Confira alguns dos principais momentos da última edição.</p>}
         items={ExperienceGalleryData}
-        slidesPerView={2.9}
-        spaceBetween={12}
+        breakpoints={{
+          425: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 1,
+          },
+          1440: {
+            slidesPerView: 2,
+            spaceBetween: 12,
+          }
+        }}
         renderItem={(item) => <img css={imageCard} src={item.img} alt="" />}
         rootCss={sliderCss}
       />
