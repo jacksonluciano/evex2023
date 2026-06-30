@@ -17,7 +17,7 @@ const LinksSection = () => {
         <a
           target="_blank" 
           css={checkAgendaBtn} 
-          href={"http://localhost:8000/brasil/agenda"}
+          href={"https://evex.energy/brasil/agenda/"}
         >
           <p className="btnTitle">Confira a agenda</p>
         </a>
@@ -36,7 +36,7 @@ const LinksSection = () => {
         <a
           target="_blank" 
           css={checkAgendaBtn} 
-          href={"http://localhost:8000/brasil/agenda"}
+          href={"https://evex.energy/brasil/agenda/"}
         >
           <p className="btnTitle">Confira a agenda</p>
         </a>

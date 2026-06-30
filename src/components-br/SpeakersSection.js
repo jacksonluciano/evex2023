@@ -89,8 +89,11 @@ const SpeakersSection = () => {
           1400: {
             slidesPerView: 4,
           },
-          1440: {
+          1800: {
             slidesPerView: 5,
+          },
+          2200: {
+            slidesPerView: 6,
           }
         }}
         renderItem={(item, index) => {

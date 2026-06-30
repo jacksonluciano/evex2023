@@ -361,6 +361,18 @@ img{
   max-width: 100%;
 }
 `;
+export const footerClass = css`
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding-top: 64px;
+  padding-bottom: 32px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+`
 
 export const footerColumn = css`
   h5{

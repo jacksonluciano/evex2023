@@ -15,16 +15,6 @@ export const root = css`
     background: #D9D9D9;
     opacity: 1;
   }
-  .swiper-slide {
-    /* width: 100%;
-    height: 100%; */
-  }
-  @media (max-width: 1400px) {
-    .swiper-slide {
-      /* flex-shrink: 1;
-      margin-right: 12px; */
-    } 
-  }
 `
 export const sliderCss = css`
   background-color: #000000;
@@ -72,17 +62,6 @@ export const speakerCard = (bgColor) => css`
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-  @media(max-width: 1330px) {
-    /* width: 250px; */
-  }
-
-  @media(max-width: 1280px) {
-    /* width: 220px; */
-  }
-
-  @media(max-width: 1080px) {
-    /* width: 180px; */
   }
   @media(max-width: 768px) {
     width: 270px;

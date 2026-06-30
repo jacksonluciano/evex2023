@@ -141,6 +141,7 @@ export const buyTicketLink = css`
     text-align: center;
     p {
       font-size: 14px;
+      line-height: 18px;
     }
   }
 `

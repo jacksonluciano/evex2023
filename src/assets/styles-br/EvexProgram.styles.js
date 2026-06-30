@@ -40,7 +40,13 @@ export const imgClass = css`
   justify-content: center;
   width: 100%;
   height: 100%;
+`
 
+export const lighthouseClass = css`
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const CardComponent = styled.div`
@@ -121,5 +127,6 @@ export const imageWrapper = (bgColor) => css`
   @media(max-width: 768px) {
     width: 110px;
     height: 90px;
+    flex-shrink: 0;
   }
 `

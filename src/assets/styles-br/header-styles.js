@@ -231,9 +231,6 @@ export const navigator = css`
     padding-top: 0;
 
     a{
-      display:flex;
-      justify-content: center;
-
       i{
         padding: 20px 0 10px 10px;
       }
