@@ -27,14 +27,35 @@ export const sliderCss = css`
     max-width: 500px !important;
     height: 100%;
   }
+  @media (max-width: 768px) {
+    &::before {
+      height: 16px;
+    }
+  }
 `
 
 export const imageCard = css`
   border-radius: 16px;
   object-fit: cover;
   display: block;
-  width: 500px;
+  width: 480px;
   height: 500px;
+  @media(max-width: 720px) {
+    width: 440px;
+    height: 480px;
+  }
+  @media(max-width: 660px) {
+    width: 400px;
+    height: 480px;
+  }
+  @media(max-width: 600px) {
+    width: 340px;
+    height: 480px;
+  }
+  @media(max-width: 570px) {
+    width: 340px;
+    height: 480px;
+  }
   @media(max-width: 425px) {
     width: 320px;
     height: 480px;

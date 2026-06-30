@@ -291,3 +291,10 @@ export const socialList = css`
     } */
   }
 `;
+
+export const responsiveHmenu = css`
+  @media (max-width: 576px) {
+    width: 40px;
+    height: 40px;
+  }
+`

@@ -39,23 +39,27 @@ export const root = css`
     }
   }
   &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -63px;
-      width: 100%;
-      height: 126px;
-      background-image: url(${sectionDividerSVG});
-      background-repeat: repeat-x;
-      background-position: center top;
-      background-size: auto 100%;
-      z-index: 2;
-      pointer-events: none;
-    }
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -63px;
+    width: 100%;
+    height: 126px;
+    background-image: url(${sectionDividerSVG});
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto 100%;
+    z-index: 2;
+    pointer-events: none;
+  }
   @media(max-width: 768px) {
     padding: 50px 16px 100px;
     .title_wrapper {
       text-align:center;
+    }
+    &::before {
+      height: 32px;
+      bottom: -16px;
     }
   }
 `
@@ -75,5 +79,10 @@ export const highlight = css`
     font-size: 24px;
     margin: 0px;
     line-height: 120%;
+  }
+  @media(max-width: 768px) {
+    h2 {
+      font-size: 18px;
+    }
   }
 `

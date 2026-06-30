@@ -15,6 +15,11 @@ export const slider = css`
     position: absolute;
     bottom: -32px !important;
   }
+  @media (max-width: 768px) {
+    .swiper-pagination {
+      bottom: -56px !important;
+    }
+  }
 `;
 
 export const root = css`

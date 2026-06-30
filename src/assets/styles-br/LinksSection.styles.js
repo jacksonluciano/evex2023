@@ -3,6 +3,7 @@ import { css } from "@emotion/react";
 import { colorsBr } from "../styles/layout.styles";
 import sectionDividerSVG from "@/images-br/2026/links-section-divider.svg";
 import yellowCreamBalloonSVG from '@/images-br/2026/yellow-cream-balloon.svg'
+import yellowCreamBalloonMobileSVG from '@/images-br/2026/yellow-cream-balloon-mobile.svg'
 import styled from "@emotion/styled";
 
 export const root = css`
@@ -36,8 +37,15 @@ export const root = css`
     padding: 50px;
   }
   @media (max-width: 768px){
-    flex-direction: column;
-    padding: 64px 16px;
+    padding: 40px 16px 42px;
+  }
+  @media (max-width: 425px){
+    padding: 80px 16px;
+    row-gap: 32px;
+    &::before {
+      bottom: -16px;
+      height: 32px;
+    }
   }
 `
 
@@ -56,9 +64,6 @@ export const Balloon = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  h2, p {
-    
-  }
   h2 {
     margin: 0 0 21px;
     font-family: "Bw Gradual DEMO";
@@ -124,8 +129,10 @@ export const Balloon = styled.div`
       margin-bottom: 8px;
     }
   }
-  @media (max-width: 375px){
-    width: 370px;
+  @media (max-width: 425px){
+    width: 340px;
+    background-image: url(${yellowCreamBalloonMobileSVG});
+    padding: 55px 46px;
   }
 `
 
@@ -141,7 +148,7 @@ export const checkAgendaBtn = css`
   justify-content: center;
   text-decoration: none;
   margin-top: 32px;
-  p {
+  p.btnTitle {
     color: #000000;
     font-weight: 500;
     font-size: 16px;
@@ -158,5 +165,6 @@ export const checkAgendaBtn = css`
   }
   @media (max-width: 512px){
     margin-top: 8px;
+    height: 45px;
   }
 `

@@ -257,7 +257,7 @@ const Footer = () => {
            </Col>
    </Row>
           <div css={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: '64px', paddingBottom: '32px'}}>
-             <img src={footerImg} />
+             {/* <img src={footerImg} /> */}
           </div>
         </Container>
 

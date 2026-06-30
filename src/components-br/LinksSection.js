@@ -19,7 +19,7 @@ const LinksSection = () => {
           css={checkAgendaBtn} 
           href={"http://localhost:8000/brasil/agenda"}
         >
-          <p>Confira a agenda</p>
+          <p className="btnTitle">Confira a agenda</p>
         </a>
       </Balloon>
       <Balloon>
@@ -38,7 +38,7 @@ const LinksSection = () => {
           css={checkAgendaBtn} 
           href={"http://localhost:8000/brasil/agenda"}
         >
-          <p>Confira a agenda</p>
+          <p className="btnTitle">Confira a agenda</p>
         </a>
       </Balloon>
     </section>
