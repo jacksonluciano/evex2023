@@ -6,7 +6,8 @@ import landmarksSVG from '@/images-br/2026/landmark-illustration.svg'
 
 import {
   root,
-  illustration
+  illustration,
+  illustrationWrapper
 } from "../assets/styles-br/EventLocation.styles"
 
 const EventLocation = () => {
@@ -20,7 +21,9 @@ const EventLocation = () => {
           paraibana consolida-se como um cenário ideal para reunir os protagonistas da nova energia.
         </p>
       </div>
+      
       <img css={illustration} src={landmarksSVG}/>
+      
     </section>
   )
 }

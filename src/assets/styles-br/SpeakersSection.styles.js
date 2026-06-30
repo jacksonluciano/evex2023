@@ -15,10 +15,21 @@ export const root = css`
     background: #D9D9D9;
     opacity: 1;
   }
+  .swiper-slide {
+    /* width: 100%;
+    height: 100%; */
+  }
+  @media (max-width: 1400px) {
+    .swiper-slide {
+      /* flex-shrink: 1;
+      margin-right: 12px; */
+    } 
+  }
 `
 export const sliderCss = css`
   background-color: #000000;
   height: 850px;
+  
   .description {
     row-gap: 12px;
     h2 {
@@ -40,12 +51,17 @@ export const sliderCss = css`
       max-width: 430px;
     }
   }
+  @media (max-width: 768px) {
+    padding: 80px 16px;
+    min-height: unset;
+    height: auto;
+  }
 
 `
 
 export const speakerCard = (bgColor) => css`
   position: relative;
-  width: 280px;
+  width: 270px;
   height: 390px;
   border-radius: 16px;
   overflow: visible;
@@ -55,17 +71,31 @@ export const speakerCard = (bgColor) => css`
   .user_wrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   @media(max-width: 1330px) {
-    width: 250px;
+    /* width: 250px; */
   }
 
   @media(max-width: 1280px) {
-    width: 220px;
+    /* width: 220px; */
   }
 
   @media(max-width: 1080px) {
-    width: 180px;
+    /* width: 180px; */
+  }
+  @media(max-width: 768px) {
+    width: 270px;
+    .user_wrapper {
+      width: 100%;
+    }
+  }
+
+  @media(max-width: 425px) {
+    height: 350px;
+    .decoration {
+      display: none;
+    }
   }
 
 `
@@ -73,11 +103,11 @@ export const speakerCard = (bgColor) => css`
 export const speakerPhoto = css`
   object-fit: cover;
   border-radius: 16px 16px 0 0;
-  @media(max-width: 1280px) {
-    width: 220px;
+  @media(max-width: 768px) {
+    width: 270px;
   }
-  @media(max-width: 1080px) {
-    width: 180px;
+  @media(max-width: 425px) {
+    width: 250px;
   }
 `
 
@@ -86,16 +116,27 @@ export const speakerInfo = css`
   padding: 12px 14px 16px;
   border-radius: 0 0 16px 16px;
   font-family: 'Bw Gradual DEMO';
-  height: 120px;
+  min-height: 120px;
   h3 {
+    font-weight: 500;
     margin: 0 0 4px;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
-  p {
+  p, span{    
+    font-weight: 500;
     margin: 0;
-    font-size: 12px;
-    line-height: 140%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  p {
+    color: #6E6E6E 
+  }
+
+  span {
+    color: #0F0B0C;
+    
   }
 `
 

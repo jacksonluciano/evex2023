@@ -53,8 +53,6 @@ export const root = css`
         max-width: 650px;
       }
     }
-    
-    
   }
   &::before {
     content: "";
@@ -86,6 +84,15 @@ export const root = css`
     z-index: 2;
     pointer-events: none;
   }
+  @media(max-width: 700px) {
+    flex-direction: column;
+  }
+  @media(max-width: 768px) {
+    &::before,
+    &::after {
+      height: 16px;
+    }
+  }
   @media(max-width: 1064px) {
     padding: 100px 16px;
   }
@@ -109,18 +116,18 @@ export const illustration = css`
   }
   @media(max-width: 700px){
     width: 500px;
-    height: 400px;
+    height: 360px;
   }
   @media(max-width: 550px){
-    width: 400px;
-    height: 350px
+    width: 460px;
+    height: 340px
   }
   @media(max-width: 425px){
-    width: 370px;
-    height: 335px
+    width: 375px;
+    height: 285px
   }
   @media(max-width: 375px){
     width: 330px;
-    height: 310px
+    height: 260px
   }
 `

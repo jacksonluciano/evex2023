@@ -71,7 +71,7 @@ export const root = css`
     content: "";
     position: absolute;
     left: 0;
-    bottom: -40px;
+    bottom: 0px;
     width: 100%;
     height: 40px;
     background-image: url(${sectionDividerSVG});
@@ -82,6 +82,30 @@ export const root = css`
     z-index: 2;
     pointer-events: none;
   }
+  @media (max-width: 1250px) {
+    height: auto;
+    .content_wrapper {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .content {
+      h2,p {
+        max-width: unset;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    &::after {
+      height: 16px;
+    }
+  }
+  @media(max-width: 600px){
+    padding: 64px 32px;
+    .content_wrapper {
+      padding: 20px 32px;
+    }
+  }
+
 `
 export const buyTicketLink = css`
   position: absolute;
@@ -110,8 +134,25 @@ export const buyTicketLink = css`
   &:hover p,&:focus p,&:visited p,&:active p {
     color: #000000;
   }
+  @media (max-width: 1250px) {
+    position: static;
+  }
+  @media (max-width: 425px) {
+    text-align: center;
+    p {
+      font-size: 14px;
+    }
+  }
 `
 
+export const elementWrapper = css`
+  @media (max-width: 1250px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`
 export const illustration = css`
   position: absolute;
   bottom: -15px;
@@ -120,5 +161,15 @@ export const illustration = css`
     width: 500px;
     height: 500px;
     bottom: -70px;
+  }
+  @media (max-width: 1250px) {
+    position: static;
+    width: 400px;
+    height: 400px;
+    bottom: 50px;
+  }
+  @media (max-width: 600px) {
+    width: 300px;
+    height: 200px;
   }
 `

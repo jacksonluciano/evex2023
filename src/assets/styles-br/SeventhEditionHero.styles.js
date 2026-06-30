@@ -17,7 +17,7 @@ export const redBallon = css`
 `
 
 export const buyTicketWrapper = css`
-  @media (max-width: 768px) {
+  @media (max-width: 425px) {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -83,9 +83,12 @@ export const EditionDescription = styled.div`
     max-width: unset;
     margin: 0px auto;
     min-height: 600px;
-    .event_description {
-      max-width: 400px;
+    .event_name,.event_description {
+      width: auto;
     }
+    /* .event_description {
+      max-width: 400px;
+    } */
   }
   @media (max-width: 425px) {
     padding: 28px 24px;
@@ -119,13 +122,15 @@ export const bannerWrapper = css`
     width: 100%;
     height: 258px;
     position: relative;
+    display: flex;
+    justify-content: center;
     &::after {
       content: '';
       position: absolute;
       left: 0;
       bottom: 0;
       width: 100%;
-      height: 40px;
+      height: 16px;
       background-color: ${colorsBr.evex2026PrimaryBlue};
       background-image: url(${heroSectionDividerSVG});
       background-repeat: repeat-x;
@@ -141,8 +146,11 @@ export const bannerStyle = css`
   width: 910px;
   height: 515px;
   @media (max-width: 768px) {
-    width: 425px;
-    height: 258px;
+    width: 80%;
+    height: 240px;
+  }
+  @media (max-width: 425px) {
+    height: 270px;
   }
   @media (max-width: 375px) {
     width: 375px;
@@ -179,5 +187,11 @@ export const seventhEditionBannerSection = css`
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     padding: 0px;
+    &::after {
+      height: 16px;
+    }
+  }
+  @media (max-width: 580px) {
+    margin-top: 87px;
   }
 `

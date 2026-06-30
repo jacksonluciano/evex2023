@@ -18,15 +18,15 @@ const RememberEvexPreviousEdition = () => {
         description={<p>Confira alguns dos principais momentos da última edição.</p>}
         items={ExperienceGalleryData}
         breakpoints={{
-          425: {
+          0: {
             slidesPerView: 1,
+            spaceBetween: 12,
           },
           768: {
             slidesPerView: 1,
           },
           1440: {
             slidesPerView: 2,
-            spaceBetween: 12,
           }
         }}
         renderItem={(item) => <img css={imageCard} src={item.img} alt="" />}
