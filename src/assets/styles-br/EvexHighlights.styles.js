@@ -5,7 +5,7 @@ import sectionDividerSVG from "@/images-br/2026/links-section-divider.svg";
 
 export const root = css`
   width: 100%;
-  height: 520px;
+  min-height: 520px;
   background-color: ${colorsBr.evex2026PrimaryOrange};
   position: relative;
   overflow-y: visible;
@@ -52,6 +52,12 @@ export const root = css`
       z-index: 2;
       pointer-events: none;
     }
+  @media(max-width: 768px) {
+    padding: 50px 16px 100px;
+    .title_wrapper {
+      text-align:center;
+    }
+  }
 `
 export const highlights = css`
   display: flex;

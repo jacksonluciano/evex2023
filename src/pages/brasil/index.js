@@ -29,14 +29,17 @@ const HomeOne = () => {
     <MenuContextProvider>
       <SearchContextProvider>
         <Layout PageTitle="EVEx Brasil">
+          {/* pendente os decorations */}
           <HeaderOne />
           <SeventhEditionHero />
           <SeventhEditionOverviewSection/>
           <RememberEvexPreviousEdition/>
           <CeoMessage/>
           <EventLocation/>
-          <EvexProgram/>
+          {/* pendente imagens */}
+          <EvexProgram/> 
           <EvexHighlights/>
+          {/* pendentes */}
           <LinksSection/>
           <SpeakersSection/>
           <GetTicketSection/>

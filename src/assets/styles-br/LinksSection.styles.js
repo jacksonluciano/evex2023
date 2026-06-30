@@ -7,7 +7,7 @@ import styled from "@emotion/styled";
 
 export const root = css`
   width: 100%;
-  height: 850px;
+  min-height: 850px;
   background-color: ${colorsBr.evex2026PrimaryBlue};
   position: relative;
   overflow-y: visible;
@@ -31,6 +31,14 @@ export const root = css`
       z-index: 2;
       pointer-events: none;
     }
+  @media (max-width: 1024px){
+    flex-direction: column;
+    padding: 50px;
+  }
+  @media (max-width: 768px){
+    flex-direction: column;
+    padding: 64px 16px;
+  }
 `
 
 export const Balloon = styled.div`
@@ -41,6 +49,7 @@ export const Balloon = styled.div`
 
   width: 500px;
   min-height: 550px;
+
   padding: 90px 86px 127px;
 
   display: flex;
@@ -104,6 +113,20 @@ export const Balloon = styled.div`
   li:last-child {
     margin-bottom: 0;
   }
+  @media (max-width: 512px){
+    width: 400px;
+    padding: 70px 56px;
+    justify-content: center;
+    li {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-bottom: 8px;
+    }
+  }
+  @media (max-width: 375px){
+    width: 370px;
+  }
 `
 
 export const checkAgendaBtn = css`
@@ -119,7 +142,7 @@ export const checkAgendaBtn = css`
   text-decoration: none;
   margin-top: 32px;
   p {
-    color: ${colorsBr.white};
+    color: #000000;
     font-weight: 500;
     font-size: 16px;
     line-height: 160%;
@@ -131,6 +154,9 @@ export const checkAgendaBtn = css`
     text-decoration: none;
   }
   &:hover p,&:focus p,&:visited p,&:active p {
-    color: ${colorsBr.white};
+    color: #000000;
+  }
+  @media (max-width: 512px){
+    margin-top: 8px;
   }
 `

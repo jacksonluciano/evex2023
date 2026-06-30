@@ -4,17 +4,32 @@ import { colorsBr } from "../styles/layout.styles";
 
 export const root = css`
   width: 100%;
-  height: 730px;
+  min-height: 730px;
   background-color: ${colorsBr.evex2026CreamYellow};
   display: flex;
   align-items: center;
   column-gap: 130px;
   padding: 92px 200px;
   justify-content: space-around;
+  @media (max-width: 1150px) {
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 42px 16px;
+  }
 `;
 
 export const ceoProfile = css`
-
+  width: 480px;
+  height: 550px;
+  @media (max-width: 1368px) {
+    width: 370px;
+    height: 420px
+  }
+  @media (max-width: 768px) {
+    width: 350px;
+    height: 400px
+  }
+  
 `
 
 export const ceoMessage = css`
@@ -72,6 +87,13 @@ export const ceoMessage = css`
       font-size: 16px;
       font-weight: 500;
       color: #8F8F8F
+    }
+  }
+  @media (max-width: 1150px) {
+    align-items: center;
+    text-align: center;
+    .title_wrapper,.ceo_presentation {
+      align-items: center;
     }
   }
 `
