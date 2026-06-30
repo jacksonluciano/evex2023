@@ -75,33 +75,23 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">
               
-            <div css={principalEvent}>
-              <span>18h00</span>
-              <p>Entrega dos Prêmios EVEx Brasil 2025 </p>
-            </div>
+              <h2>Abertura com lideranças e autoridades</h2>
 
-            <div css={participantsContainer}>
+            <div className="participantsContainer">
               <div className="participant">
-                <p className="participant_name">• Personalidade Política Setorial do Ano</p>
-                <p className="participant_name">Veneziano Vital do Rêgo</p>
+                <p className="participant_bullet">• Boas Vindas</p>
+                <p className="participant_name">Lucas Ribeiro (a confirmar)</p>
                 <p className="participant_role">
-                Senador da República e Presidente da Frente Parlamentar de Recursos Naturais e Energia
+                Governador do Estado da Paraíba
                 </p>
               </div>
               <div className="participant">
-                <p className="participant_name">•	Representatividade Setorial do Ano</p>
-                <p className="participant_name">Fernanda Delgado</p>
+                <p className="participant_name">Caio César Cavalcanti</p>
                 <p className="participant_role">
-                CEO da ABIHV – Associação Brasileira da Indústria do Hidrogênio Verde 
+                CEO e Fundador do EVEx – Energy Virtual Experience
                 </p>
               </div>
-              <div className="participant">
-                <p className="participant_name">•	Comunicação Setorial do Ano</p>
-                <p className="participant_name">Felipe Maciel</p>
-                <p className="participant_role">
-                Diretor Executivo da Agência Eixos 
-                </p>
-              </div>
+             
             </div>
            </div>
           </div>    

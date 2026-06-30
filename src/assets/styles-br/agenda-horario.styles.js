@@ -105,19 +105,52 @@ export const timeBlock = css`
   overflow: hidden;
   height: 100%;
   width: 100%;
- 
 
   .hour{
-     width: 146px;
+    width: 146px;
     background: ${colorsBr.evex2026PrimaryBlue};
-  
     color: ${colorsBr.evex2026CreamYellow};
     font-family: "Bw Gradual DEMO";
     font-size: 24px;
     text-align: center;
     padding: 16px 0;
     font-weight: 500;
+    margin-right: 27px;
   }
+
+  .event{
+    padding: 16px 0;
+    h2{
+      font-family: "Bw Gradual DEMO";
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #0F0B0C;
+      margin-bottom:16px
+    }
+    .participant_bullet{
+      font-family: "Bw Gradual DEMO";
+      font-size: 20px;
+      font-weight: 500;
+      color: #0F0B0C;
+      padding-left: 8px;
+    }
+    .participant_name{
+      font-family: "Bw Gradual DEMO";
+      font-size: 16px;
+      font-weight: 600;
+     color: #3F3C3D;
+     padding-left: 22px;
+     margin: 0;
+  }
+    .participant_role{
+      font-family: "Bw Gradual DEMO";
+      font-size: 16px;
+      font-weight: 500;
+     color: #3F3C3D;
+     padding-left: 22px;
+  }
+}
 `;
 
 export const container = css`
