@@ -174,7 +174,12 @@ export const timeBlock = css`
       i{
 text-transform: lowercase;
 font-style: normal;
+    display: contents;
       }
+
+       @media (max-width: 768px) {
+       font-size: 20px;
+    }
     }
     h3{
       font-family: "Bw Gradual DEMO";
