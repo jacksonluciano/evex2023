@@ -164,6 +164,7 @@ export const timeBlock = css`
 
   .event{
         padding: 24px 32px 16px 0;
+        min-width: 0;
     h2{
       font-family: "Bw Gradual DEMO";
       font-size: 24px;
@@ -210,6 +211,9 @@ font-style: normal;
      padding-left: 22px;
      margin: 0;
      line-height: 16px;
+      @media (max-width: 768px) {
+       line-height: 160%;
+    }
   }
     .participant_role{
       font-family: "Bw Gradual DEMO";
