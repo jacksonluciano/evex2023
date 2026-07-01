@@ -16,7 +16,8 @@ import {
   mainMenu,
   submenu,
   navigator,
-  socialList
+  socialList,
+  responsiveHmenu
 } from "../assets/styles-br/header-styles";
 
 const HeaderOne = () => {
@@ -155,7 +156,7 @@ const HeaderOne = () => {
                 href="#"
               >
                 {/* <i className="mei-menu"></i> */}
-                <img src={Hmenu} />
+                <img css={responsiveHmenu} src={Hmenu} />
               </a>
             </div>
           </Col>

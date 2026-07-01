@@ -1,6 +1,6 @@
 import React from "react"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className="video">
+  <div className="video" {...props}>
     <iframe
       src={videoSrcURL}
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

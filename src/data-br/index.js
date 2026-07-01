@@ -1,5 +1,5 @@
 import logo from "@/images-br/logo.svg"
-import logo2025 from "@/images-br/logo2025.png"
+import logo2026 from "@/images-br/2026/logo2026.svg"
 import logoMobile from "@/images-br/logo_mobile.svg"
 import oEvex from "@/images/o-evex.jpg"
 import element01 from "@/images-br/orange-elements-01.png"
@@ -159,7 +159,26 @@ import Speaker92 from "@/images-br/speakers/rudinei.png"
 import Speaker93 from "@/images-br/speakers/leonardo.png"
 
 
-
+import Gallery01 from "@/images-br/2026/carousel/foto 1.png"
+import Gallery02 from "@/images-br/2026/carousel/foto 2.png"
+import Gallery03 from "@/images-br/2026/carousel/foto 3.png"
+import Gallery04 from "@/images-br/2026/carousel/foto 4.png"
+import Gallery05 from "@/images-br/2026/carousel/foto 5.png"
+import Gallery06 from "@/images-br/2026/carousel/foto 6.png"
+import Gallery07 from "@/images-br/2026/carousel/foto 7.png"
+import Gallery08 from "@/images-br/2026/carousel/foto 8.png"
+import Gallery09 from "@/images-br/2026/carousel/foto 9.png"
+import Gallery10 from "@/images-br/2026/carousel/foto 10.png"
+import Gallery11 from "@/images-br/2026/carousel/foto 11.png"
+import Gallery12 from "@/images-br/2026/carousel/foto 12.png"
+import Gallery13 from "@/images-br/2026/carousel/foto 13.png"
+import Gallery14 from "@/images-br/2026/carousel/foto 14.png"
+import Gallery15 from "@/images-br/2026/carousel/foto 15.png"
+import Gallery16 from "@/images-br/2026/carousel/foto 16.png"
+import Gallery17 from "@/images-br/2026/carousel/foto 17.png"
+import Gallery18 from "@/images-br/2026/carousel/foto 18.png"
+import Gallery19 from "@/images-br/2026/carousel/foto 19.png"
+import Gallery20 from "@/images-br/2026/carousel/foto 20.png"
 
 import Normas from '@/images-br/files/Regras de Formatação - Artigo 2025.pdf'
 import Eixos from '@/images-br/files/Eixos Temáticos - EVEx Brasil 2025.pdf'
@@ -171,8 +190,8 @@ import twitterIcon from "@/images/icons/twitter.svg"
 import youtubeIcon from "@/images-br/youtube.svg"
 
 export const LogoBrasil = {
-  black: logo2025,
-  mobile: logo2025
+  black: logo2026,
+  mobile: logo2026
 };
 
 
@@ -191,37 +210,37 @@ export const LisboaParaNatal = {
 };
 
 export const NavBrLinks = [
-  {
-    name: "O EVEx",
-    url: "/brasil/o-evex",
-  },
-  {
-    name: "Natal",
-    url: "/brasil/natal",
-  },
+  // {
+  //   name: "O EVEx",
+  //   url: "/brasil/o-evex",
+  // },
+  // {
+  //   name: "Natal",
+  //   url: "/brasil/natal",
+  // },
   // {
   //   name: "Experiências",
   //   url: "/brasil/experiencias",
   // },
   {
     name: "Speakers",
-    url: "/brasil/speakers",
+    url: "/brasil/#speakers",
   },
-  {
-    name: "Papers",
-    url: "/brasil/papers",
-  },
-  {
-    name: "Comitê",
-    url: "/brasil/comite",
-  },
+  // {
+  //   name: "Papers",
+  //   url: "/brasil/papers",
+  // },
+  // {
+  //   name: "Comitê",
+  //   url: "/brasil/comite",
+  // },
   {
     name: "Agenda",
     url: "/brasil/agenda",
   },
   {
     name: "Inscrições",
-    url: "/brasil/inscricoes",
+    url: "/brasil/#get-ticket",
   },
   {
     name: "Contato",
@@ -470,6 +489,68 @@ export const EvexBrasil2024 = [
   },
 ]
 
+export const ExperienceGalleryData = [
+  {
+    img: Gallery01
+  },
+  {
+    img: Gallery02
+  },
+  {
+    img: Gallery03
+  },
+  {
+    img: Gallery04
+  },
+  {
+    img: Gallery05
+  },
+  {
+    img: Gallery06
+  },
+  {
+    img: Gallery07
+  },
+  {
+    img: Gallery08
+  },
+  {
+    img: Gallery09
+  },
+  {
+    img: Gallery10
+  },
+  {
+    img: Gallery11
+  },
+  {
+    img: Gallery12
+  },
+  {
+    img: Gallery13
+  },
+  {
+    img: Gallery14
+  },
+  {
+    img: Gallery15
+  },
+  {
+    img: Gallery16
+  },
+  {
+    img: Gallery17
+  },
+  {
+    img: Gallery18
+  },
+  {
+    img: Gallery19
+  },
+  {
+    img: Gallery20
+  },
+]
 
 export const BigCtaBrData = [
   {
@@ -1194,3 +1275,20 @@ export const ComiteData = {
   ]
 };
 
+export const programBlock = [
+  {
+    hour: "09:15",
+    title: "Abertura com lideranças e autoridades",
+    bullet: "Boas Vindas",
+    participants: [
+      {
+        name: "Lucas Ribeiro (a confirmar)",
+        role: "Governador do Estado da Paraíba"
+      },
+      {
+        name: "Caio César Cavalcanti",
+        role: "CEO e Fundador do EVEx – Energy Virtual Experience"
+      },
+    ]
+  }
+];

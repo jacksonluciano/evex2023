@@ -208,9 +208,9 @@ const Patrocinadores = () => {
           </Col>
         </Row>
       </Container>
-      <img css={element11} src={Element11} />   
+      {/* <img css={element11} src={Element11} />   
            <img css={element12} src={Element12} />
-           <img css={element13} src={Element13} />
+           <img css={element13} src={Element13} /> */}
     </section>
   );
 };
