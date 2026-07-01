@@ -120,7 +120,10 @@ export const pinkBreak = css`
     padding: 16px;
     span{
       flex: 1;
+      &:nth-of-type(2){
+        min-width: 178px;
     }
+   }
    }
 `;
 
