@@ -21,6 +21,7 @@ export const buyTicketWrapper = css`
     display: flex;
     width: 100%;
     justify-content: center;
+    font-size: 14px;
   }
 `
 
@@ -29,7 +30,7 @@ export const buyTicketLink = css`
   height: 45px;
   border-radius: 16px;
   background-color: ${colorsBr.evex2026PrimaryOrange};
-  padding: 13px 50px;
+  padding: 13px 42px;
   cursor: pointer;
   display: flex;
   align-items: center;

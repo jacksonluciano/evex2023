@@ -2,9 +2,21 @@
 import React from "react";
 import { jsx } from "@emotion/react";
 import { Container, Col, Row } from "react-bootstrap";
+import AgendaBanner from "@/images-br/2026/agenda-banner.svg"
+import AgendaBird from "@/images-br/2026/agenda-bird.svg"
+import RedBalloonSVG from '@/images-br/2026/red-balloon.svg'
 import {
   sectionHero,
   informations,
+  seventhEditionBannerSection,
+  EditionDescription,
+  redBallon,
+  RedBalloonWrapper,
+  buyTicketLink,
+  bannerStyle,
+  bannerWrapper,
+  buyTicketWrapper,
+  birdStyle
 } from "../assets/styles-br/agenda-hero.styles";
 import OrangeElementVector01 from "@/images-br/agenda/agenda-orange-element01.svg";
 import OrangeElementVector02 from "@/images-br/agenda/agenda-orange-element02.svg";
@@ -14,9 +26,20 @@ const AgendaHero = ({ agendaSelecionada, handleClickBotao }) => {
   return (
     <section css={sectionHero}>
       <Container fluid className="px-0">
-        <div className="title_container">
-          <h3 className="title">Agenda Oficial</h3>
-        </div>
+          {/* <img src={BgOrange} css={imgOrange} /> */}
+             <div css={seventhEditionBannerSection}>
+                   <EditionDescription>
+                    <img css={birdStyle} src={AgendaBird}/>
+                     <h1 className="event_name">Agenda do Evento</h1>
+                      <p className="event_description">Pulsar Ibero-Americano: O Ritmo da Nova Energia</p>
+                     <RedBalloonWrapper>
+                       <img css={redBallon} src={RedBalloonSVG} />
+                     </RedBalloonWrapper>             
+                   </EditionDescription>
+                   <div css={bannerWrapper}>
+                     <img css={bannerStyle} src={AgendaBanner}/>
+                   </div>
+                 </div>
 
         <div css={informations}>
           {/* <img src={OrangeElementVector01} className="element01" />

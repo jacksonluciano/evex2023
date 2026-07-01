@@ -14,6 +14,12 @@ import fernandoMosna from '@/images-br/2026/speakers/fernando-mosna.png'
 import marisetePereira from '@/images-br/2026/speakers/marisete-pereira.png'
 import robsonBarbosa from '@/images-br/2026/speakers/robson-barbosa.png'
 import sillaMotta from '@/images-br/2026/speakers/silla-motta.png'
+import mariaJoaoRolim from '@/images-br/2026/speakers/maria-joao-rolim.png'
+import teresaPonceDeLeao from '@/images-br/2026/speakers/teresa-ponce.png'
+import ricardoSimabuku from '@/images-br/2026/speakers/ricardo-simabuku.png'
+import caciaPimentel from '@/images-br/2026/speakers/cacia-pimentel.png'
+import gustavoDeMarchi from '@/images-br/2026/speakers/gustavo-de-marchi.png'
+import eulerMacedo from '@/images-br/2026/speakers/euler-macedo.png'
 
 import { 
   sliderCss,
@@ -52,19 +58,19 @@ const SpeakersSection = () => {
   ]
   const speakers = [
     {img: andrePepitone, name: 'André Pepitone', role: 'Diretor Financeiro Executivo', firm: 'Itaipu Binacional'},
-    { name: 'Maria João Rolim', role: 'Sócia', firm: 'Rolim Goulart Cardoso Advogados'},
+    {img: mariaJoaoRolim, name: 'Maria João Rolim', role: 'Sócia', firm: 'Rolim Goulart Cardoso Advogados'},
     {img: fernandoMosna, name: 'Fernando Mosna', role: 'Fernando Mosna', firm: 'ANEEL'},
-    { name: 'Teresa Ponce de Leão', role: 'Presidente', firm: 'LNEG, Portugal'},
+    {img: teresaPonceDeLeao, name: 'Teresa Ponce de Leão', role: 'Presidente', firm: 'LNEG, Portugal'},
     {img: marisetePereira, name: 'Marisete Pereira', role: 'Presidente', firm: 'ABRAGE'},
-    { name: 'Ricardo Simabuku', role: 'Diretor-Presidente Interino', firm: 'CCEE'},
+    {img: ricardoSimabuku, name: 'Ricardo Simabuku', role: 'Diretor-Presidente Interino', firm: 'CCEE'},
     {img: alexandreRamos, name: 'Alexandre Ramos', role: 'Presidente', firm: 'CEMIG'},
     {img: fernandaDePaula, name: 'Fernanda de Paula', role: 'Sócia', firm: 'Fernanda De Paula Advocacia e Consultoria Jurídica'},
     {img: alexandreFernandes, name: 'Alexandre Fernandes', role: 'Presidente', firm: 'ENSE, Portugal'},
-    { name: 'Cácia Pimentel', role: 'Sócia', firm: 'Mackenzie Integridade'},
+    {img: caciaPimentel, name: 'Cácia Pimentel', role: 'Sócia', firm: 'Mackenzie Integridade'},
     {img: robsonBarbosa, name: 'Robson Barbosa', role: 'Secretário Executivo de Energia e Transição Energética', firm: 'Governo da Paraíba'},
-    { name: 'Gustavo de Marchi', role: 'Presidente', firm: 'GASMIG'},
+    {img: gustavoDeMarchi, name: 'Gustavo de Marchi', role: 'Presidente', firm: 'GASMIG'},
     {img: sillaMotta, name: 'Silla Motta', role: 'CEO', firm: 'Donna Lamparina'},
-    { name: 'Euler Macêdo', role: 'Diretor', firm: 'CEAR/UFPB'},
+    {img: eulerMacedo, name: 'Euler Macêdo', role: 'Diretor', firm: 'CEAR/UFPB'},
     {img: caioCesars, name: 'Caio César Cavalcanti', role: 'CEO e Fundador', firm: 'EVEx - Energy Virtual Experience'},
     {name: 'Vital do Rêgo Filho', role: 'Ministro-Presidente', firm: 'Tribunal de Contas da União - TCU'},
   ]

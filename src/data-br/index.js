@@ -1275,3 +1275,20 @@ export const ComiteData = {
   ]
 };
 
+export const programBlock = [
+  {
+    hour: "09:15",
+    title: "Abertura com lideranças e autoridades",
+    bullet: "Boas Vindas",
+    participants: [
+      {
+        name: "Lucas Ribeiro (a confirmar)",
+        role: "Governador do Estado da Paraíba"
+      },
+      {
+        name: "Caio César Cavalcanti",
+        role: "CEO e Fundador do EVEx – Energy Virtual Experience"
+      },
+    ]
+  }
+];
