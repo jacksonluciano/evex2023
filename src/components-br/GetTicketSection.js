@@ -13,7 +13,7 @@ import {
 
 const GetTicketSection = () => {
   return (
-    <section css={root}>
+    <section id="get-ticket" css={root}>
       <div className="content_wrapper">
         <div className="content">
           <h2>Faça Parte do <span>Pulsar Ibero-Americano</span></h2>

@@ -75,7 +75,7 @@ const SpeakersSection = () => {
     {name: 'Vital do Rêgo Filho', role: 'Ministro-Presidente', firm: 'Tribunal de Contas da União - TCU'},
   ]
   return (
-    <section css={root}>
+    <section id="speakers" css={root}>
       <EvexCustomSlider
         title={<h2>Conheça Alguns dos <span>Speakers Confirmados</span></h2>}
         description={<p>Lideranças, especialistas e executivos do Brasil, Portugal, Espanha, Chile e de instituições de referência do espaço ibero-americano.</p>}

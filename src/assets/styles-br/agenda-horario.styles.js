@@ -571,10 +571,10 @@ export const EditionDescription = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 28px 32px;
+    /* padding: 28px 32px; */
     max-width: unset;
     margin: 0px auto;
-    min-height: 600px;
+    /* min-height: 600px; */
     .event_description {
       max-width: 400px;
     }

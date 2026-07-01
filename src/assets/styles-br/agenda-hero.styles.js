@@ -364,7 +364,7 @@ export const EditionDescription = styled.div`
     /* width: 320px; */
     margin-bottom: 8px;
 
-     @media (max-width: 425px) {
+     @media (max-width: 512px) {
       font-size: 36px;
      }
   };
@@ -378,7 +378,7 @@ export const EditionDescription = styled.div`
     padding: 28px 32px;
     max-width: unset;
     margin: 0px auto;
-    min-height: 600px;
+    /* min-height: 600px; */
     .event_description {
       max-width: 400px;
     }

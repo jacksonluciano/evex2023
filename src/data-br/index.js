@@ -224,7 +224,7 @@ export const NavBrLinks = [
   // },
   {
     name: "Speakers",
-    url: "/brasil/speakers",
+    url: "/brasil/#speakers",
   },
   // {
   //   name: "Papers",
@@ -240,7 +240,7 @@ export const NavBrLinks = [
   },
   {
     name: "Inscrições",
-    url: "/brasil/inscricoes",
+    url: "/brasil/#get-ticket",
   },
   {
     name: "Contato",
