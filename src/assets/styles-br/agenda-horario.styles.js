@@ -50,6 +50,10 @@ export const agendaTitle = css`
       &:first-of-type{
         margin-right: 24px;
       }
+
+      &:last-of-type{
+        margin-left: auto;
+      }
     }
   h2 {
     font-family: "Bw Gradual DEMO";
@@ -97,6 +101,7 @@ export const pinkBreak = css`
     font-size: 24px;
     font-weight: 500;
     color: #000;
+    letter-spacing: -1px;
   }
 `;
 
@@ -130,7 +135,11 @@ export const timeBlock = css`
       font-weight: 600;
       text-transform: uppercase;
       color: #0F0B0C;
-      margin-bottom:8px
+      margin-bottom:8px;
+      i{
+text-transform: lowercase;
+font-style: normal;
+      }
     }
     h3{
       font-family: "Bw Gradual DEMO";
@@ -467,7 +476,7 @@ export const under = css`
 
 export const seventhEditionBannerSection = css`
   position: relative;
-  margin-top: 0px;
+  margin-top: 48px;
   width: 100%;
   background-color: ${colorsBr.evex2026PrimaryBlue};
   padding: 16px 0 16px 168px;
@@ -479,13 +488,14 @@ export const seventhEditionBannerSection = css`
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 8px;
     width: 100%;
     height: 40px;
     background-color: ${colorsBr.evex2026PrimaryBlue};
+    background-image: url(${heroSectionDividerSVG});
     background-repeat: repeat-x;
     background-position: center bottom;
-    background-size: auto 100%;
+    background-size: auto 32px;
     z-index: 2;
     pointer-events: none;
   }
@@ -500,6 +510,7 @@ export const EditionDescription = styled.div`
   flex-direction: column;
   row-gap: 8px;
   max-width: 350px;
+      padding: 48px 0;
   
   .event_edition, .event_name, .event_description {
     font-family: "Bw Gradual DEMO";
@@ -513,9 +524,9 @@ export const EditionDescription = styled.div`
 
   };
   .event_name {
-    font-weight: 800;
-    font-size: 46px;
-    width: 320px;
+    font-weight: 700;
+    font-size: 38px;
+    width: 380px;
     margin-bottom: 8px;
   };
   .event_description {
@@ -576,7 +587,7 @@ export const bannerWrapper = css`
       background-image: url(${heroSectionDividerSVG});
       background-repeat: repeat-x;
       background-position: center bottom;
-      background-size: auto 100%;
+      background-size: auto 32px;
       z-index: 2;
       pointer-events: none;
     }
@@ -617,16 +628,16 @@ export const buyTicketWrapper = css`
 
 export const buyTicketLink = css`
   width: 310px;
-  border-radius: 16px;
-  background-color: ${colorsBr.evex2026PrimaryOrange};
-  padding: 13px 50px;
+  background-color: ${colorsBr.evex2026PinkBright};
+  border-radius: 32px;
+  padding: 13px 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   p {
-    color: ${colorsBr.evex2026DarkOrange};
+    color: #000000;
     font-weight: 700;
     font-size: 16px;
     margin: 0;

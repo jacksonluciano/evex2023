@@ -7,7 +7,7 @@ export const footer1 = css`
   position: relative;
   /* padding: 80px 0 !important; */
   background-color: ${colorsBr.evex2026PinkBright};
-  padding: 0px 0 48px;
+  padding: 48px 0 48px;
 `;
 export const reverse = css`
   @media (min-width: 320px) and (max-width: 767px) {
