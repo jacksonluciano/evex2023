@@ -17,10 +17,12 @@ export const VideoWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Bw Gradual DEMO';
     h2, p {
       line-height: 120%;
       margin: 0;
-      max-width: 500px
+      max-width: 500px;
+      letter-spacing: 0%;
     };
     h2 {
       color: ${colorsBr.evex2026Grey};

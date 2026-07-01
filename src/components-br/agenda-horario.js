@@ -36,7 +36,8 @@ import {
   bannerWrapper,
   bannerStyle,
   RedBalloonWrapper,
-  EditionDescription
+  EditionDescription,
+  mobileHour
 } from "../assets/styles-br/agenda-horario.styles";
 import { Link } from "gatsby";
 
@@ -84,7 +85,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Abertura com lideranças e autoridades</h2>
+            <h2><span css={mobileHour}>09:15</span> Abertura com lideranças e autoridades</h2>
             <div className="participantsContainer">
               <div className="participant">
                 <p className="participant_bullet">• Boas Vindas</p>
@@ -161,7 +162,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Pulsar da Matriz e das Baterias:</h2>
+            <h2> <span css={mobileHour}>11:00</span>O Pulsar da Matriz e das Baterias:</h2>
             <h3>Diversidade Energética, Fontes Híbridas e Flexibilidade do Sistema</h3>
 
             <div className="participantsContainer">
@@ -223,7 +224,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Ritmo das Moléculas:</h2>
+            <h2><span css={mobileHour}>14:00</span>O Ritmo das Moléculas:</h2>
             <h3>Combustíveis de Baixa Emissão como Vetores para a Descarbonização dos Transportes</h3>
 
             <div className="participantsContainer">
@@ -270,7 +271,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Pulsar dos Investimentos:</h2>
+            <h2><span css={mobileHour}>15:00</span>O Pulsar dos Investimentos:</h2>
             <h3>Visão de Mercado e a Estratégia dos Grandes Players na Transição</h3>
 
             <div className="participantsContainer">
@@ -315,7 +316,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Ritmo da Indústria:</h2>
+            <h2><span css={mobileHour}>16:30</span>O Ritmo da Indústria:</h2>
             <h3>Minerais Críticos e Estratégicos na Autonomia da Transição</h3>
 
             <div className="participantsContainer">
@@ -351,7 +352,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Pulsar da Cooperação:</h2>
+            <h2><span css={mobileHour}>17:30</span>O Pulsar da Cooperação:</h2>
             <h3>Aliança Ibero-Americana no Combate à Pobreza Energética</h3>
 
             <div className="participantsContainer">
@@ -401,7 +402,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Assinatura de Manifestação de Interesse de Cooperação Mútua entre a ADENE e o CEAR/UFPB</h2>
+            <h2><span css={mobileHour}>18:35</span>Assinatura de Manifestação de Interesse de Cooperação Mútua entre a ADENE e o CEAR/UFPB</h2>
 
             <div className="participantsContainer">
               <div className="participant">
@@ -428,7 +429,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Em Tom de Reconhecimento: Prêmio EVE<i>x</i> Brasil 2026</h2>
+            <h2><span css={mobileHour}>18:45</span>Em Tom de Reconhecimento: Prêmio EVE<i>x</i> Brasil 2026</h2>
 
             <div className="participantsContainer">
               <div className="participant">
@@ -506,7 +507,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Ritmo do Futuro:</h2>
+            <h2><span css={mobileHour}>09:00</span>O Ritmo do Futuro:</h2>
             <h3>Desafios Globais de ESG e Transição entre Dois Continentes</h3>
 
             <div className="participantsContainer">
@@ -553,7 +554,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Movimento Digital:</h2>
+            <h2><span css={mobileHour}>10:30</span>O Movimento Digital:</h2>
             <h3>IA, Redes Inteligentes e a Escalada dos Data Centers Sustentáveis</h3>
 
             <div className="participantsContainer">
@@ -593,7 +594,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>O Pulsar do Nordeste:</h2>
+            <h2><span css={mobileHour}>11:30</span>O Pulsar do Nordeste:</h2>
             <h3>Protagonismo, Inovação e o DNA Paraibano na Vanguarda Energética</h3>
 
             <div className="participantsContainer">
@@ -649,7 +650,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>FÓRUM CCEE – ABERTURA E RITMO DO NOVO MERCADO</h2>
+            <h2><span css={mobileHour}>14:00</span>FÓRUM CCEE – ABERTURA E RITMO DO NOVO MERCADO</h2>
 
             <div className="participantsContainer">
               <div className="participant">
@@ -672,7 +673,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Caminhos para a Abertura Total:</h2>
+            <h2><span css={mobileHour}>14:15</span>Caminhos para a Abertura Total:</h2>
             <h3>Uma Construção Coletiva entre CCEE, Comercializadores e Consumidores</h3>
 
             <div className="participantsContainer">
@@ -713,7 +714,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Segurança de Mercado e Resiliência Financeira:</h2>
+            <h2><span css={mobileHour}>15:30</span>Segurança de Mercado e Resiliência Financeira:</h2>
             <h3>Fortalecendo os Mecanismos de Monitoramento</h3>
 
             <div className="participantsContainer">
@@ -763,7 +764,7 @@ const AgendaHorario = ({ agendaSelecionada }) => {
            </div>
            <div className="event">   
 
-            <h2>Certificação e Rastreabilidade:</h2>
+            <h2><span css={mobileHour}>17:00</span>Certificação e Rastreabilidade:</h2>
             <h3>A Viabilização do Hidrogênio Verde</h3>
 
             <div className="participantsContainer">

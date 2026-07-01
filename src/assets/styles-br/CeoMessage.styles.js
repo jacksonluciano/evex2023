@@ -34,6 +34,7 @@ export const ceoProfile = css`
 
 export const ceoMessage = css`
   font-family: "Bw Gradual DEMO";
+  letter-spacing: 0%;
   .title_wrapper {
     display: flex;
     flex-direction: column;

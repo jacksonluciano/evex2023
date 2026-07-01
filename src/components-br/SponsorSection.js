@@ -45,38 +45,72 @@ const SponsorSection = () => {
         <div className="master">
           <p>Patrocínio master</p>
           <div className="sponsors">
-            <img src={itaipuSVG}/>
-            <img src={cceeSVG}/>
+            <a href="https://www.itaipu.gov.br/" target="_blank" rel="noopener noreferrer">
+              <img src={itaipuSVG} alt="Itaipu" />
+            </a>
+            <a href="https://www.ccee.org.br/" target="_blank" rel="noopener noreferrer">
+              <img src={cceeSVG} alt="CCEE" />
+            </a>
           </div>
         </div>
         <div className="gold">
           <p>Patrocínio ouro</p>
           <div className="sponsors">
-            <img src={adeneSVG}/>
-            <img src={lnegSVG}/>
-            <img src={enseSVG}/>
+            <a href="https://www.adene.pt/" target="_blank" rel="noopener noreferrer">
+              <img src={adeneSVG} alt="ADENE" />
+            </a>
+            <a href="https://www.lneg.pt/en/homepage/" target="_blank" rel="noopener noreferrer">
+              <img src={lnegSVG} alt="LNEG" />
+            </a>
+            <a href="https://www.ense.gov.br/" target="_blank" rel="noopener noreferrer">
+              <img src={enseSVG} alt="ENSE" />
+            </a>
           </div>
         </div>
         <div className="silver">
           <p>Patrocínio prata</p>
           <div className="sponsors">
-            <img src={bancoNordesteSVG}/>
-            <img src={copelSVG}/>
-            <img src={spicBrasilSVG}/>
-            <img src={bahiaGasSVG}/>
-            <img src={fernandaPaulaSVG}/>
+            <a href="https://www.bnb.gov.br/" target="_blank" rel="noopener noreferrer">
+              <img src={bancoNordesteSVG} alt="Banco Nordeste" />
+            </a>
+            <a href="https://www.copel.com/site/" target="_blank" rel="noopener noreferrer">
+              <img src={copelSVG} alt="Copel" />
+            </a>
+            <a href="https://www.spicbrasil.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={spicBrasilSVG} alt="SPIC Brasil" />
+            </a>
+            <a href="https://www.bahiagas.com.br/ " target="_blank" rel="noopener noreferrer">
+              <img src={bahiaGasSVG} alt="Bahia Gás" />
+            </a>
+            <a href="https://fernandadepaula.com/" target="_blank" rel="noopener noreferrer">
+              <img src={fernandaPaulaSVG} alt="Fernanda Paula" />
+            </a>
           </div>
         </div>
         <div className="bronze">
           <p>Patrocínio bronze</p>
           <div className="sponsors">
-            <img src={enparSVG}/>
-            <img src={rolimGoulartSVG}/>
-            <img src={ndfSVG}/>
-            <img src={pbGasSVG}/>
-            <img src={energisaSVG}/>
-            <img src={sebraeSVG}/>
-            <img src={poloSebraeErSVG}/>
+            <a href="https://enbpar.gov.br/" target="_blank" rel="noopener noreferrer">
+              <img src={enparSVG} alt="Enpar" />
+            </a>
+            <a href="https://www.rolim.com/" target="_blank" rel="noopener noreferrer">
+              <img src={rolimGoulartSVG} alt="Rolim Goulart" />
+            </a>
+            <a href="https://ndf.adv.br/" target="_blank" rel="noopener noreferrer">
+              <img src={ndfSVG} alt="NDF" />
+            </a>
+            <a href="https://pbgas.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={pbGasSVG} alt="PB Gás" />
+            </a>
+            <a href="https://www.energisa.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={energisaSVG} alt="Energisa" />
+            </a>
+            <a href="https://sebrae.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={sebraeSVG} alt="Sebrae" />
+            </a>
+            <a href="https://sebrae.com.br/subsites/polos-de-referencia" target="_blank" rel="noopener noreferrer">
+              <img src={poloSebraeErSVG} alt="Polo Sebrae" />
+            </a>
           </div>
         </div>
         <div className="org-wrapper">
@@ -86,12 +120,16 @@ const SponsorSection = () => {
           </div>
           <div className="org">
             <p>Parceria estratégica</p>
-            <img src={cemigSVG}/>
+            <a href="https://www.cemig.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={cemigSVG} alt="Cemig" />
+            </a>
           </div>
         </div>
         <div className="org">
           <p>Parceria de mídia</p>
-          <img src={eixosSVG}/>
+          <a href="https://www.eixos.com.br/" target="_blank" rel="noopener noreferrer">
+            <img src={eixosSVG} alt="Eixos" />
+          </a>
         </div>
       </SponsorsWrapper>
       <div css={decorationWrapper}>

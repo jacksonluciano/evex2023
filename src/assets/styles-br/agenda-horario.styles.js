@@ -53,6 +53,7 @@ export const agendaTitle = css`
 
       &:last-of-type{
         margin-left: auto;
+        color: ${colorsBr.evex2026CreamYellow};
       }
     }
   h2 {
@@ -77,12 +78,23 @@ export const agendaTitle = css`
   }
 
   @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 24px;
+    height: auto;
     h2 {
       font-size: 40px;
+      margin-bottom: 24px;
     }
 
     h3 {
       font-size: 20px;
+      text-align: center;
+    }
+
+    span:last-of-type {
+        display: none;
     }
   }
 `;
@@ -103,6 +115,13 @@ export const pinkBreak = css`
     color: #000;
     letter-spacing: -1px;
   }
+
+   @media (max-width: 768px) {
+    padding: 16px;
+    span{
+      flex: 1;
+    }
+   }
 `;
 
 export const timeBlock = css`
@@ -114,6 +133,19 @@ export const timeBlock = css`
   width: 100%;
   margin-bottom: 16px;
 
+   @media (max-width: 768px) {
+      padding: 16px;  
+
+      h2{
+            display: flex;
+    align-items: flex-start;
+       span{
+        margin-right: 17px;
+        padding:24px;
+       }
+      }
+    }
+
   .hour{
     width: 146px;
     background: ${colorsBr.evex2026PrimaryBlue};
@@ -123,8 +155,11 @@ export const timeBlock = css`
     text-align: center;
     padding: 16px 0;
     font-weight: 500;
-    margin-right: 27px;
-    flex-shrink: 0;
+    margin-right: 27px; 
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .event{
@@ -623,6 +658,19 @@ export const buyTicketWrapper = css`
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+`
+export const mobileHour = css`
+display: none;
+  @media (max-width: 768px) {
+            width: 116px;
+        background-color: #004D93;
+        border-radius: 16px;
+        padding: 13px 20px;
+        cursor: pointer;
+        display: block;
+        color: #ffefc3;
+        text-align: center;
   }
 `
 

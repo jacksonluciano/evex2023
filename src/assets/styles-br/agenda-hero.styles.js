@@ -6,7 +6,7 @@ import styled from "@emotion/styled"
 import heroSectionDividerSVG from '@/images-br/2026/hero-section-divider.svg'
 
 export const sectionHero = css`
-  margin-top: 96px;
+  margin-top: 87px;
   background-color: ${colorsBr.evex2026PrimaryOrange };
 
   @media (min-width: 768px) and (max-width: 1280px) {
@@ -149,6 +149,17 @@ export const informations = css`
         justify-content: center;
         position: relative;
 
+        @media (min-width: 320px) and (max-width: 768px) {
+          padding: 16px;
+
+          p{
+            text-align: left;
+            font-size: 14px !important;
+            text-align: left;
+            line-height: 22px;
+          }
+        }
+
         p {
              color: ${colorsBr.evex2026CreamYellow};
              font-weight: 400 !important;
@@ -234,12 +245,15 @@ export const informations = css`
   @media (max-width: 660px) {
     .data_container {
       flex-direction: column;
-      gap: 30px;
+      /* gap: 30px; */
+       @media (max-width: 576px) {
+        flex-direction: row;
+       }
     }
   }
 
   @media (max-width: 576px) {
-    padding: 60px 0px;
+    padding: 0px;
 
     p {
       font-size: 16px;
@@ -293,9 +307,30 @@ export const seventhEditionBannerSection = css`
     background-image: url(${heroSectionDividerSVG});
     background-repeat: repeat-x;
     background-position: center bottom;
-    background-size: auto 100%;
+    background-size: auto 32px;
     z-index: 2;
     pointer-events: none;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 240px;
+    width: 100%;
+    height: 40px;
+    background-color: ${colorsBr.evex2026PrimaryBlue};
+    background-image: url(${heroSectionDividerSVG});
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: auto 32px;
+    z-index: 2;
+    pointer-events: none;
+    display: none;
+    @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    padding: 0px;
+    display: block;
+  }
   }
   @media (max-width: 768px) {
     flex-direction: column-reverse;
@@ -309,6 +344,7 @@ export const EditionDescription = styled.div`
   row-gap: 8px;
   justify-content: center;
   text-align: center;
+  position: relative;
   
   .event_edition, .event_name, .event_description {
     font-family: "Bw Gradual DEMO";
@@ -327,6 +363,10 @@ export const EditionDescription = styled.div`
     font-size: 72px;
     /* width: 320px; */
     margin-bottom: 8px;
+
+     @media (max-width: 425px) {
+      font-size: 36px;
+     }
   };
   .event_description {
     font-weight: 500;
@@ -346,8 +386,8 @@ export const EditionDescription = styled.div`
   @media (max-width: 425px) {
     padding: 28px 24px;
     margin: 0 auto;
-    max-width: 375px;
-    min-height: 530px;
+    max-width: 100%;
+    min-height: auto;
     .event_name {
       font-size: 36px;
     };
@@ -412,6 +452,10 @@ export const birdStyle = css`
     left: -122px;
     top: 12px;
 
+    @media (max-width: 768px) {
+    display: none;
+  }
+
 `
 
 export const redBallon = css`
@@ -437,6 +481,30 @@ export const buyTicketLink = css`
   width: 310px;
   border-radius: 16px;
   background-color: ${colorsBr.evex2026PrimaryOrange};
+  padding: 13px 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  p {
+    color: ${colorsBr.evex2026DarkOrange};
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &:hover,&:focus,&:visited,&:active {
+    text-decoration: none;
+  }
+  &:hover p,&:focus p,&:visited p,&:active p {
+    color: ${colorsBr.evex2026DarkOrange};
+  }
+`
+export const mobileHour = css`
+  width: 310px;
+  border-radius: 16px;
+  background-color: ${colorsBr.evex2026PrimaryBlue};
   padding: 13px 50px;
   cursor: pointer;
   display: flex;
