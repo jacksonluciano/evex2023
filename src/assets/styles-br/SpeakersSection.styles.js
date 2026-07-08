@@ -72,6 +72,9 @@ export const speakerCard = (bgColor) => css`
     }
   }
 
+  @media(max-width: 400px) {
+    width: 270px
+  }
 `
 
 export const speakerPhoto = css`
