@@ -69,8 +69,8 @@ export const root = css`
   @media (max-width: 768px) {
     padding: 100px 120px
   }
-  @media (max-width: 425px) {
-    padding: 64px 16px;
+  @media (max-width: 460px) {
+    padding: 64px 16px !important;
     .description {
       row-gap: 16px;
       h2 {
@@ -116,7 +116,7 @@ export const sliderArrows = css`
     visibility: hidden;
     pointer-events: none;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 460px) {
     display: none;
   }
 `;

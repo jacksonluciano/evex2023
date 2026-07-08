@@ -8,6 +8,7 @@ export const footer1 = css`
   /* padding: 80px 0 !important; */
   background-color: ${colorsBr.evex2026PinkBright};
   padding: 48px 0 48px;
+  font-family: 'Bw Gradual DEMO';
 `;
 export const reverse = css`
   @media (min-width: 320px) and (max-width: 767px) {

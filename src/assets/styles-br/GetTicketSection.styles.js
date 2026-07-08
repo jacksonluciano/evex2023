@@ -26,6 +26,7 @@ export const root = css`
     position: relative;
     row-gap: 4px;
     h2,p.description {
+      font-family: 'Bw Gradual DEMO';
       letter-spacing: 0%;
       color: ${colorsBr.evex2026CreamYellow}
     }
@@ -122,6 +123,7 @@ export const buyTicketLink = css`
   justify-content: center;
   text-decoration: none;
   p {
+    font-family: 'Bw Gradual DEMO';
     color: #000000;
     font-weight: 700;
     font-size: 16px;

@@ -88,6 +88,7 @@ export const SponsorsWrapper = styled.div`
     flex-direction: column;
     row-gap: 16px;
     p {
+      font-family: 'Bw Gradual DEMO';
       color: #EDEDED;
       font-size: 16px;
       text-transform: uppercase;

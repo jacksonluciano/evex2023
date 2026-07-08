@@ -82,7 +82,7 @@ const SpeakersSection = () => {
         items={speakers}
         breakpoints={{
           0: {
-            slidesPerView: 1,
+            slidesPerView: 1.2,
             spaceBetween: 12,
           },
           520: {
