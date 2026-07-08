@@ -22,9 +22,9 @@ const RememberEvexPreviousEdition = () => {
             slidesPerView: 1,
             spaceBetween: 12,
           },
-          768: {
-            slidesPerView: 1,
-          },
+          // 768: {
+          //   slidesPerView: 1,
+          // },
           1440: {
             slidesPerView: 2,
           }

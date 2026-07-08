@@ -31,6 +31,7 @@ export const sliderCss = css`
     &::before {
       height: 16px;
     }
+    padding: 60px
   }
 `
 
@@ -46,18 +47,14 @@ export const imageCard = css`
   }
   @media(max-width: 660px) {
     width: 400px;
-    height: 480px;
   }
-  @media(max-width: 600px) {
-    width: 340px;
-    height: 480px;
+  @media(max-width: 530px) {
+    width: 350px
   }
-  @media(max-width: 570px) {
-    width: 340px;
-    height: 480px;
+  @media(max-width: 460px) {
+    width: 390px;
   }
   @media(max-width: 425px) {
-    width: 320px;
-    height: 480px;
+    width: 340px;
   }
 `;

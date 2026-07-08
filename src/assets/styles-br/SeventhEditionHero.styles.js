@@ -37,6 +37,7 @@ export const buyTicketLink = css`
   justify-content: center;
   text-decoration: none;
   p {
+    font-family: "Bw Gradual DEMO";
     color: ${colorsBr.evex2026DarkOrange};
     font-weight: 700;
     font-size: 16px;
@@ -87,11 +88,9 @@ export const EditionDescription = styled.div`
     .event_name,.event_description {
       width: auto;
     }
-    /* .event_description {
-      max-width: 400px;
-    } */
   }
-  @media (max-width: 425px) {
+
+  @media (max-width: 460px) {
     padding: 28px 24px;
     margin: 0 auto;
     max-width: 375px;
@@ -121,7 +120,7 @@ export const RedBalloonWrapper = styled.div`
 export const bannerWrapper = css`
   @media (max-width: 768px) {
     width: 100%;
-    height: 258px;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -149,6 +148,10 @@ export const bannerStyle = css`
   @media (max-width: 768px) {
     width: 80%;
     height: 240px;
+  }
+  @media (max-width: 460px) {
+    width: 90%;
+    height: 290px
   }
   @media (max-width: 425px) {
     height: 270px;

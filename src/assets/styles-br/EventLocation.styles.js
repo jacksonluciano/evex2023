@@ -117,10 +117,17 @@ export const illustration = css`
   @media(max-width: 700px){
     width: 500px;
     height: 360px;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto
   }
   @media(max-width: 550px){
-    width: 460px;
-    height: 340px
+    width: 450px;
+    height: 330px
+  }
+  @media(max-width: 450px){
+    width: 420px;
+    height: 320px
   }
   @media(max-width: 425px){
     width: 375px;

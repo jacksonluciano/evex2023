@@ -39,7 +39,7 @@ export const root = css`
   @media (max-width: 768px){
     padding: 40px 16px 42px;
   }
-  @media (max-width: 425px){
+  @media (max-width: 460px){
     padding: 80px 16px;
     row-gap: 32px;
     &::before {

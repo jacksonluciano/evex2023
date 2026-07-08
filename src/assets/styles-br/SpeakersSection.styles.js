@@ -1,10 +1,6 @@
 /** @jsx jsx */
 import { css } from "@emotion/react";
 import { colorsBr } from "../styles/layout.styles";
-import sectionDividerSVG from "@/images-br/2026/links-section-divider.svg";
-import yellowCreamBalloonSVG from '@/images-br/2026/yellow-cream-balloon.svg'
-import styled from "@emotion/styled";
-import { description } from './natal-description.styles';
 
 export const root = css`
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -42,11 +38,10 @@ export const sliderCss = css`
     }
   }
   @media (max-width: 768px) {
-    padding: 80px 16px;
+    padding: 80px 32px;
     min-height: unset;
     height: auto;
   }
-
 `
 
 export const speakerCard = (bgColor) => css`
@@ -64,7 +59,7 @@ export const speakerCard = (bgColor) => css`
     width: 100%;
   }
   @media(max-width: 768px) {
-    width: 270px;
+    width: 300px;
     .user_wrapper {
       width: 100%;
     }
