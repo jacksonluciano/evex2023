@@ -6,8 +6,7 @@ import landmarksSVG from '@/images-br/2026/landmark-illustration.svg'
 
 import {
   root,
-  illustration,
-  illustrationWrapper
+  illustration
 } from "../assets/styles-br/EventLocation.styles"
 
 const EventLocation = () => {
