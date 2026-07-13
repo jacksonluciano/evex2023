@@ -15,7 +15,10 @@ import {
   CardComponent,
   imageWrapper,
   imgClass,
-  lighthouseClass
+  lighthouseClass,
+  decorationBirdClass,
+  decorationFishClass,
+  decorationFlowerClass
 } from "../assets/styles-br/EvexProgram.styles"
 
 const EvexProgram = () => {
@@ -42,19 +45,19 @@ const EvexProgram = () => {
       title: 'Networking qualificado C-Level',
       description: 'Encontros exclusivos entre executivos, autoridades e tomadores de decisão para fortalecer relacionamentos e desenvolver parcerias estratégicas.',
       color: colorsBr.evex2026DarkRed,
-      img: <img css={imgClass} src={decorationBird}/>
+      img: <img css={[imgClass, decorationBirdClass]} src={decorationBird}/>
     },
     {
       title: 'Geração de negócios e parcerias',
       description: 'Um ambiente criado para transformar conexões em oportunidades, projetos e acordos de cooperação.',
       color: colorsBr.evex2026PrimaryOrange,
-      img: <img css={imgClass} src={decorationFish}/>
+      img: <img css={[imgClass, decorationFishClass]} src={decorationFish}/>
     },
     {
       title: 'Conteúdo com visão global',
       description: 'Uma programação alinhada às principais tendências e desafios do setor energético, conectando perspectivas nacionais e internacionais.',
       color: colorsBr.evex2026DarkGreen,
-      img: <img css={imgClass} src={decorationFlower}/>
+      img: <img css={[imgClass, decorationFlowerClass]} src={decorationFlower}/>
     }
   ]
   return (

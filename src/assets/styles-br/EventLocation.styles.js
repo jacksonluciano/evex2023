@@ -100,10 +100,14 @@ export const root = css`
 
 export const illustration = css`
   position: absolute;
-  bottom: -15px;
+  bottom: 15px;
   right: 60px;
+  width: 950px;
+  height: 700px;
   @media(max-width: 1368px) {
     width: 720px;
+    height: auto;
+    bottom: 40px;
   }
   @media(max-width: 1180px) {
     width: 650px
@@ -115,26 +119,28 @@ export const illustration = css`
     width: 600px
   }
   @media(max-width: 700px){
-    width: 500px;
-    height: 360px;
+    width: 600px;
     right: 0px;
     left: 0px;
-    margin: 0 auto
+    margin: 0 auto;
+    bottom: 15px
+  }
+  @media(max-width: 600px){
+    width: 540px;
   }
   @media(max-width: 550px){
-    width: 450px;
-    height: 330px
+    width: 490px;
+  }
+  @media(max-width: 500px){
+    width: 440px;
   }
   @media(max-width: 450px){
     width: 420px;
-    height: 320px
   }
   @media(max-width: 425px){
     width: 375px;
-    height: 285px
   }
   @media(max-width: 375px){
     width: 330px;
-    height: 260px
   }
 `

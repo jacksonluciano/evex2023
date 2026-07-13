@@ -4,7 +4,6 @@ import Footer from "@/components-br/footer";
 import HeaderOne from "@/components-br/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
-import Patrocinadores from "@/components-br/patrocinadores";
 
 // 2026
 import SeventhEditionHero from "@/components-br/SeventhEditionHero";

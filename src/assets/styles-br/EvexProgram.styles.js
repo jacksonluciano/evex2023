@@ -43,10 +43,34 @@ export const imgClass = css`
 `
 
 export const lighthouseClass = css`
-  @media (max-width: 768px) {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -14px;
+  
+`
+export const decorationBirdClass = css`
+  height: 85%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+`
+
+export const decorationFishClass = css`
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+`
+
+export const decorationFlowerClass = css`
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  inset: 0;
+  margin: auto;
 `
 
 export const CardComponent = styled.div`
@@ -124,6 +148,7 @@ export const imageWrapper = (bgColor) => css`
   width: 180px;
   height: 135px;
   overflow: hidden;
+  position: relative;
   @media(max-width: 768px) {
     width: 110px;
     height: 90px;
