@@ -13,7 +13,8 @@ import {
   buyTicketLink,
   bannerStyle,
   bannerWrapper,
-  buyTicketWrapper
+  buyTicketWrapper,
+  buttonsWrapper
 }  from '../assets/styles-br/SeventhEditionHero.styles'
 
 
@@ -25,17 +26,19 @@ const SeventhEditionHero = () => {
         <p className="event_edition">7ª edição do EVEx · 3ª edição do EVEx Brasil</p>
         <h1 className="event_name">Pulsar Ibero-Americano: O Ritmo da Nova Energia</h1>
         <p className="event_description">O principal encontro ibero-americano da transição energética</p>
-        <RedBalloonWrapper>
-          <img css={redBallon} src={RedBalloonSVG} />
-        </RedBalloonWrapper>
-        <div css={buyTicketWrapper}>
-          <a
-            target="_blank" 
-            css={buyTicketLink} 
-            href={"https://www.sympla.com.br/evento/evex-brasil-2026-joao-pessoa-energy-experience/3348983"}
-          >
-            <p>Garanta sua participação</p>
-          </a>
+        <div css={buttonsWrapper}>
+          <RedBalloonWrapper>
+            <img css={redBallon} src={RedBalloonSVG} />
+          </RedBalloonWrapper>
+          <div css={buyTicketWrapper}>
+            <a
+              target="_blank" 
+              css={buyTicketLink} 
+              href={"https://www.sympla.com.br/evento/evex-brasil-2026-joao-pessoa-energy-experience/3348983"}
+            >
+              <p>Garanta sua participação</p>
+            </a>
+          </div>
         </div>
         
       </EditionDescription>

@@ -100,7 +100,7 @@ export const root = css`
       height: 16px;
     }
   }
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     padding: 64px 32px;
     .content_wrapper {
       padding: 20px 32px;
@@ -158,18 +158,22 @@ export const elementWrapper = css`
 `
 export const illustration = css`
   position: absolute;
-  bottom: -15px;
+  bottom: 0;
+  top: 0;
+  margin: auto 0;
   right: 60px;
+
   @media(max-width: 1380px) {
     width: 500px;
     height: 500px;
-    bottom: -70px;
   }
   @media (max-width: 1250px) {
     position: static;
-    width: 400px;
+    width: 500px;
     height: 400px;
-    bottom: 50px;
+  }
+  @media (max-width: 720px) {
+    width: 400px;
   }
   @media (max-width: 600px) {
     width: 300px;
