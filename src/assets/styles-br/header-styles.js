@@ -82,7 +82,7 @@ export const mainMenu = css`
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     max-width: 800px;
     gap: 24px;
