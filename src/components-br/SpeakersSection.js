@@ -92,6 +92,15 @@ const SpeakersSection = () => {
           700: {
             slidesPerView: 2,
           },
+          1100: {
+            slidesPerView: 3,
+          },
+          1250: {
+            slidesPerView: 3.5
+          },
+          1300: {
+            slidesPerView: 3.7,
+          },
           1400: {
             slidesPerView: 4,
           },

@@ -114,18 +114,18 @@ const SponsorSection = () => {
           </div>
         </div>
         <div className="org-wrapper">
-          <div className="org">
+          <div className="org promotion">
             <p>Promoção e realização</p>
             <img src={evexSVG}/>
           </div>
-          <div className="org">
+          <div className="org strategy">
             <p>Parceria estratégica</p>
             <a href="https://www.cemig.com.br/" target="_blank" rel="noopener noreferrer">
               <img src={cemigSVG} alt="Cemig" />
             </a>
           </div>
         </div>
-        <div className="org">
+        <div className="org midia">
           <p>Parceria de mídia</p>
           <a href="https://www.eixos.com.br/" target="_blank" rel="noopener noreferrer">
             <img src={eixosSVG} alt="Eixos" />

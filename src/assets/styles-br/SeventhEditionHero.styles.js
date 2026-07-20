@@ -79,6 +79,14 @@ export const EditionDescription = styled.div`
     font-size: 16px;
     margin-bottom: 10px;
   }
+  @media (max-width: 980px) {
+    padding: 32px 0px 0px 80px;
+    max-width: unset;
+    min-height: 500px;
+    .event_name {
+      width: 650px
+    }
+  }
 
   @media (max-width: 768px) {
     padding: 28px 32px;
@@ -90,7 +98,7 @@ export const EditionDescription = styled.div`
     }
   }
 
-  @media (max-width: 460px) {
+  @media (max-width: 600px) {
     padding: 28px 24px;
     margin: 0 auto;
     max-width: 375px;
@@ -118,7 +126,10 @@ export const RedBalloonWrapper = styled.div`
 `
 
 export const bannerWrapper = css`
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    align-self: flex-end;
+  }
+  @media (max-width: 980px) {
     width: 100%;
     height: 100%;
     position: relative;
@@ -145,16 +156,19 @@ export const bannerWrapper = css`
 export const bannerStyle = css`
   width: 910px;
   height: 515px;
-  @media (max-width: 768px) {
-    width: 80%;
-    height: 240px;
+  @media (max-width: 1250px) {
+    width: 840px;
   }
-  @media (max-width: 460px) {
+  @media (max-width: 1200px) {
+    width: 600px;
+    height: auto;
+  }
+  @media (max-width: 600px) {
     width: 90%;
     height: 290px
   }
   @media (max-width: 425px) {
-    height: 270px;
+    height: 250px;
   }
   @media (max-width: 375px) {
     width: 375px;
@@ -188,7 +202,10 @@ export const seventhEditionBannerSection = css`
     z-index: 2;
     pointer-events: none;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1390px) {
+    padding-left: 50px;
+  }
+  @media (max-width: 980px) {
     flex-direction: column-reverse;
     padding: 0px;
     &::after {

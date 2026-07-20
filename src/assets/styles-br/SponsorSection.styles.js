@@ -72,16 +72,28 @@ export const SponsorsWrapper = styled.div`
   row-gap: 42px;
   align-items: center;
   .master {
-    width: 44%;
+    width: 55%;
+    .sponsors {
+      column-gap: 70px;
+    }
   }
   .gold {
-    width: 70%
+    width: 70%;
+    .sponsors {
+      column-gap: 70px;
+    }
   }
   .silver {
-    width: 94%
+    width: 94%;
+    .sponsors {
+      column-gap: 50px;
+    }
   }
   .bronze {
-    width: 90%
+    width: 90%;
+    .sponsors {
+      column-gap: 70px;
+    }
   }
   .master,.gold,.silver,.bronze,.org {
     display: flex;
@@ -97,16 +109,35 @@ export const SponsorsWrapper = styled.div`
       text-align: center;
     }
     .sponsors {
+      row-gap: 32px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
     }
+  };
+  .midia {
+    img {
+        width: 150px;
+        height: 40px;
+      }
   }
   .org-wrapper {
     display: flex;
     align-items: flex-start;
     column-gap: 42px;
+    .strategy {
+      img {
+        width: 170px;
+        height: 40px;
+      }
+    };
+    .promotion {
+      img {
+        width: 130px;
+        height: 55px;
+      }
+    }
   }
   @media(max-width: 768px) {
     .sponsors {

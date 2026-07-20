@@ -32,7 +32,7 @@ export const root = css`
       z-index: 2;
       pointer-events: none;
     }
-  @media (max-width: 1024px){
+  @media (max-width: 1250px){
     flex-direction: column;
     padding: 50px;
   }
@@ -50,6 +50,7 @@ export const root = css`
 `
 
 export const Balloon = styled.div`
+  box-sizing: border-box;
   background-image: url(${yellowCreamBalloonSVG});
   background-repeat: no-repeat;
   background-position: center;
@@ -57,38 +58,25 @@ export const Balloon = styled.div`
 
   width: 500px;
   min-height: 550px;
-
   padding: 90px 86px 127px;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   text-align: left;
+
   h2 {
     margin: 0 0 21px;
     font-family: "Bw Gradual DEMO";
     font-weight: 800;
     font-size: 24px;
-    line-height: 110%;
+    line-height: 1.1;
     color: #1C1C1C;
-    text-align: left;
-    letter-spacing: 2%;
-  }
-
-  p {
-    margin: 0;
-    font-family: "Bw Gradual DEMO";
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 170%;
-    color: #1C1C1C;
-    text-align: left;
-    letter-spacing: 0%;
   }
 
   ul {
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 
   li {
@@ -98,17 +86,17 @@ export const Balloon = styled.div`
     font-family: "Bw Gradual DEMO";
     font-weight: 400;
     font-size: 14px;
-    line-height: 170%;
+    line-height: 1.5;
     color: #1C1C1C;
-    letter-spacing: 0%;
-
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 
   li::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 11px;
+    top: 9px;
     width: 4px;
     height: 4px;
     border-radius: 50%;
@@ -118,21 +106,57 @@ export const Balloon = styled.div`
   li:last-child {
     margin-bottom: 0;
   }
-  @media (max-width: 512px){
-    width: 400px;
-    padding: 70px 56px;
-    justify-content: center;
-    li {
-      margin-bottom: 0;
-    }
+
+  @media (max-width: 1450px) {
+    width: 440px;
+    min-height: 560px;
+    padding: 72px 54px 88px;
+
     h2 {
-      margin-bottom: 8px;
+      margin-bottom: 14px;
+      font-size: 20px;
+    }
+
+    li {
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 6px;
     }
   }
-  @media (max-width: 425px){
+  @media (max-width: 1250px){
+    a {
+      align-self: center;
+    }
+  }
+
+  @media (max-width: 512px) {
+    width: 400px;
+    min-height: 540px;
+    padding: 70px 56px 78px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 4px;
+    }
+  }
+
+  @media (max-width: 425px) {
     width: 340px;
+    min-height: 520px;
     background-image: url(${yellowCreamBalloonMobileSVG});
-    padding: 55px 46px;
+    padding: 55px 46px 72px;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    li {
+      font-size: 12px;
+      line-height: 1.4;
+    }
   }
 `
 
