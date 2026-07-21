@@ -32,7 +32,7 @@ export const root = css`
       z-index: 2;
       pointer-events: none;
     }
-  @media (max-width: 1250px){
+  @media (max-width: 1300px){
     flex-direction: column;
     padding: 50px;
   }
@@ -63,6 +63,10 @@ export const Balloon = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
+
+  .btnWithoutMargin {
+    margin: 0px !important;
+  }
 
   h2 {
     margin: 0 0 21px;
