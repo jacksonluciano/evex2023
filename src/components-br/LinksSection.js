@@ -17,6 +17,7 @@ const LinksSection = () => {
         <a
           target="_blank" 
           css={checkAgendaBtn} 
+          className="btnWithoutMargin"
           href={"https://evex.energy/brasil/agenda/"}
         >
           <p className="btnTitle">Confira a agenda</p>
