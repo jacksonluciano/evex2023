@@ -62,7 +62,8 @@ const events = [
       desc: "João Pessoa Energy Experience",
       date: "01 e 02 de Julho",
       venue: "Paço dos Leões",
-      cta: { label: "INSCREVA-SE AGORA", href: "https://www.sympla.com.br/evento/evex-brasil-2026-joao-pessoa-energy-experience/3348983?referrer=www.google.com&referrer=www.google.com" },
+      // cta: { label: "INSCREVA-SE AGORA", href: "https://www.sympla.com.br/evento/evex-brasil-2026-joao-pessoa-energy-experience/3348983?referrer=www.google.com&referrer=www.google.com" },
+      note: "Inscrições encerradas",
     },
     {
       id: 2,
@@ -71,7 +72,8 @@ const events = [
       desc: "Mercado Ibérico de Energia",
       date: "05 e 06 de Novembro",
       venue: "Pós-EVEx Lisboa",
-      note: "Vagas limitadas – Inscrições em breve",
+      // note: "Vagas limitadas – Inscrições em breve",
+      cta: { label: "SAIBA MAIS", href: "https://drive.google.com/file/d/1XEiO1EdjsyqtP-mCN2ZRBCwHbV94XgYV/view?usp=drivesdk" },
     },
     {
       id: 3,
@@ -128,13 +130,15 @@ const Home = () => {
           </ImgMobile>
   
             <IntroText>
-              O Ciclo 2026 do EVEx já começou! Enquanto preparamos nossa nova
-              plataforma, confira abaixo o calendário estratégico da nossa{" "}
-              <strong>7ª edição</strong> e garanta sua participação no{" "}
-              <strong>EVEx Brasil</strong> em <strong>João Pessoa</strong>.
+                <strong>O Ciclo EVEx 2026 segue pulsando!</strong><br/><br/>
+
+                Após o sucesso do <strong>EVEx Brasil 2026, em João Pessoa</strong>, seguimos rumo a <strong>Lisboa, Portugal</strong>, para a próxima etapa da nossa <strong>7ª edição.</strong><br/><br/>
+
+                As inscrições para o <strong>EVEx Lisboa 2026</strong>
+ serão abertas em breve. Já estão abertas as inscrições para a <strong>Missão EVEx 2026 | Mercado Ibérico de Energia</strong>, uma imersão técnica pós-evento, nos dias 05 e 06 de novembro.
+
+                Confira abaixo o calendário e participe do <strong>EVEx 2026.</strong>
             </IntroText>
-  
-           
           </HeroSection>
 
            <CityscapeWrapper>
@@ -180,12 +184,12 @@ const Home = () => {
 
             <EcosystemTitle>
               Explore o ecossistema EVEx:<br />
-              acesse os conteúdos de 2025
+              acesse os conteúdos das últimas edições
             </EcosystemTitle>
   
             <EcosystemButtons>
               <EcosystemBtn href="https://evex.energy/brasil">
-                EVEx Brasil 2025
+                EVEx Brasil 2026
               </EcosystemBtn>
               <EcosystemBtn href="https://evex.energy/lisboa">
                 EVEx Lisboa 2025
