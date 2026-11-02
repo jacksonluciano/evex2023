@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const abAgency = css`
-  background-color: transparent;
+  background-color: ${colors.telha};
   position: relative;
   /* overflow-x: hidden; */
 
@@ -42,7 +42,7 @@ export const about = css`
   align-items: center;
 
   img{
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -80,6 +80,9 @@ export const about = css`
     text-decoration: underline;
     margin-bottom: 16px;
     text-align: center;
+    img{
+      width: 500px;
+    }
   }
 
   .diamante {
@@ -102,7 +105,7 @@ export const about = css`
 
       li {
         img {
-          height: 120px;
+          height: 80px;
         }
       }
     }
@@ -162,7 +165,7 @@ export const about = css`
           float: left;
       }
         img {
-          height: 132px;
+          height: 70px;
           @media (min-width: 320px) and (max-width: 767px) {
             /* height: auto !important;
             max-width: 80%; */
@@ -213,7 +216,7 @@ export const about = css`
           float: left;
       }
         img {
-          height: 50px;
+          height: 150px;
          
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
@@ -221,7 +224,7 @@ export const about = css`
         }
         &:nth-of-type(1){
             img{
-              height: 50px;
+              height: 150px;
             }
         }
       }

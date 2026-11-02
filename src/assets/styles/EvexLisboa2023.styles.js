@@ -44,17 +44,24 @@ export const about = css`
   }
 
   h2{
-    color: ${colors.primaryMain};
+    color: ${colors.telha};
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
+    margin-bottom: 12px;
 
     @media (min-width: 320px) and (max-width: 767px) {
         font-size:56px;
         line-height: 68px;
         padding-top: 120px;
       }
+  }
+
+  h4{
+    color: ${colors.telha};
+     font-family: 'bw_gradual_demobold';
+     margin-bottom: 24px;
   }
 
   p{

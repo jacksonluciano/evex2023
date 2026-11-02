@@ -3,23 +3,27 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const funfact = css`
-  padding: 0 0 100px !important;
-  background-color: ${colors.primaryMain};
+  padding: 40px 0 0 !important;
+  background-color: ${colors.telha};
   @media (min-width: 320px) and (max-width: 767px) {
     padding-bottom: 90px !important;
+  }
+
+  .patternBig{
+    width: 100%;
   }
 `;
 
 export const numbers = css`
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.telha};
   display: flex;
-  border: 2px solid #fff;
+  border: 2px solid #FABD43;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
   width: 100%;
   max-width: 1082px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 
   @media (min-width: 320px) and (max-width: 767px) {
     flex-direction: column;
@@ -45,7 +49,7 @@ export const numbers = css`
     width: 100%;
     max-width: 1082px;
     display: block;
-    border: 2px solid #fff;
+    border: 2px solid #FABD43;
     margin-top: 30px;
     margin-left: 30px;
     height: 80px;
@@ -104,7 +108,7 @@ export const singleFunfact = css`
     line-height: 1;
     letter-spacing: 2.4px;
     font-weight: 300;
-    color: #fff;
+    color: #FABD43;
     margin: 0;
 
     @media (min-width: 320px) and (max-width: 767px) {

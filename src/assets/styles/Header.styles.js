@@ -74,7 +74,9 @@ export const mainMenu = css`
     padding: 0;
     display: flex;
     justify-content: space-between;
+    justify-content: start;
     width: 100%;
+    gap: 24px;
 
     & li {
       list-style: none;

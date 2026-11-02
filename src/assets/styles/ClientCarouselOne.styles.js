@@ -3,11 +3,11 @@ import { css } from "@emotion/react";
 import { colors } from './layout.styles'
 
 export const client = css`
-  background-color: ${colors.primaryMain};
+  background-color: #F5EEE8;
   padding: 40px 0 160px !important;
 
   h2{
-    color:${colors.secondaryMain};
+    color:${colors.telha};
     font-size:56px;
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
@@ -18,14 +18,21 @@ export const client = css`
 `;
 
 export const singleClient = css`
+  background-color: ${colors.telha};
   position: relative;
   width: 100%;
   height: auto;
+  min-height: 500px;
   transition: all ease 500ms;
   -moz-transition: all ease 500ms;
   -webkit-transition: all ease 500ms;
-  padding: 24px;
+  padding: 12px;
 
+  p{
+    font-size:16px;
+    font-family: 'bw_gradual_demomedium';
+    font-weight: 400;
+  }
 
   /* &:after {
     width: 4px;
@@ -136,16 +143,26 @@ margin-bottom: 24px;
       background-color: ${colors.brandingOrange};
     }
   
-    &:nth-of-type(2):hover{
-      background-color: ${colors.brandingPurple};
+    &:nth-of-type(2){
+      div{
+        background-color: ${colors.bgBlue};
+      }
+      :hover{
+        background-color: ${colors.brandingPurple};
+      }
     }
 
     &:nth-of-type(3):hover{
       background-color: ${colors.brandingBlue};
     }
 
-    &:nth-of-type(4):hover{
+    &:nth-of-type(4){
+      div{
+        background-color: ${colors.bgBlue};
+      }
+      :hover{
       background-color: ${colors.brandingSalmon};
+    }
     }
   
   h3{
@@ -155,10 +172,11 @@ margin-bottom: 24px;
     margin-bottom: 40px;
     height: 70px;
     margin: 0;
+    color:${colors.secondaryMain};
   }
 
   p{
-    color:${colors.primaryMain};
+    color:${colors.secondaryMain};
     font-size: 16px;
     margin: 0;
     line-height: 23px;

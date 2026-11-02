@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const abAgency = css`
-  background-color: transparent;
+  background-color: ${colors.bgCream};
   position: relative;
   overflow-x: hidden;
 
@@ -117,11 +117,11 @@ export const contact = css`
 
   .inner-div {
     width: 100%;
-    max-width: 410px;
+    /* max-width: 410px; */
 
-    &.rl {
+    /* &.rl {
       float: right;
-    }
+    } */
   }
 
   h2 {

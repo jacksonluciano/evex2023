@@ -9,7 +9,7 @@ import LogoTap from "@/images/logo_tap.svg"
 import LogoEvex from "@/images/logo-evex.png" 
 import LogoCcee from "@/images/apoio/ccee.png" 
 import LogoTesla from "@/images/apoio/tesla.svg" 
-import Hotel from "@/images/hotel_dom_pedro.png" 
+import DuvidasImg from "@/images/2026/caio-duvidas.jpg" 
 import { Col, Container, Row } from "react-bootstrap";  
 import { useLocation } from '@reach/router';
 import { jsx } from "@emotion/react";
@@ -64,7 +64,7 @@ const Duvidas = () => {
   const { sectionContent, element } = PatrocinadoresData;
   return (
     <section css={[abAgency]}>
-      <img css={element14} src={Element14} />   
+      {/* <img css={element14} src={Element14} />    */}
       <Container fluid>
         {/* <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
@@ -73,7 +73,7 @@ const Duvidas = () => {
            </div>
           </Col>
         </Row> */}
-        <section css={realization}>
+        {/* <section css={realization}>
           <Row css={RowMargin}>
             <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Promoção e Realização</h4>
@@ -85,13 +85,6 @@ const Duvidas = () => {
             </Col>
           </Row>
           <Row>
-          {/* <Col lg={6} md={6} sm={12}>
-              <h4 css={secDesk}>Hotel Oficial</h4>
-              <a href='https://www.dompedrolisboa.com/m/' target='_blank'>
-                <img src={Hotel} />
-              </a>
-              
-            </Col> */}
             <Col lg={6} md={6} sm={12}>
               <h4 css={secDesk}>Parceira de Mídia</h4>
               <img src={LogoEixos} css={eplogo} />
@@ -109,10 +102,15 @@ const Duvidas = () => {
               </a>
             </Col>
           </Row>
-        </section>
+        </section> */}
 
         <section css={contact}>
           <Row>
+             <Col lg={6} md={6} sm={12}>
+              <div id="contato" className="inner-div rl">
+                 <img src={DuvidasImg} />
+              </div>
+            </Col>
             <Col lg={6} md={6} sm={12}>
               <div className="inner-div">
                 <h2 css={secDesk}>Dúvidas e Sugestões</h2>
@@ -173,28 +171,12 @@ const Duvidas = () => {
                 </form>
               </div>
             </Col>
-            <Col lg={6} md={6} sm={12}>
-              <div id="contato" className="inner-div rl">
-                <h2 css={secDesk}>Patrocínio e Exposição</h2>
-                <p>
-                Seja patrocinador(a) do EVEx 2025 e posicione a sua marca na vanguarda da transição energética ibero-americana. Entre em contato com o nosso time comercial e receba uma proposta de patrocínio personalizada. 
-                </p>
-                <a href="https://wa.me/+351912349476" css={commonBtn}>
-                  fale conosco <i className="fa fa-whatsapp"></i>{" "}
-                </a>
-                {/* <button css={commonBtn}>
-                  fale conosco <i className="fa fa-whatsapp"></i>{" "}
-                </button>
-                <button css={commonBtn}>
-                  fale conosco <i className="fa fa-whatsapp"></i>{" "}
-                </button> */}
-              </div>
-            </Col>
+           
           </Row>
         </section>
       </Container>
-      <img css={element8} src={Element8} />
-      <img css={element15} src={Element15} />  
+      {/* <img css={element8} src={Element8} />
+      <img css={element15} src={Element15} />   */}
     </section>
   );
 };

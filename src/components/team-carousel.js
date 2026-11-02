@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Element7 from "@/images/elements/element-07.svg";
+import Pattern from "@/images/2026/pattern.svg";
 import Arrow from '@/images/icons/arrow-down.svg'
 import { TeamOneData } from "@/data";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -85,11 +85,11 @@ const TeamCarousel = () => {
         ))}
         {/* <div css={teamPagination} className="swiper-pagination" id="team-carousel-pagination"></div> */}
       </Swiper>
-      <div css={moreBt}>
+      {/* <div css={moreBt}>
         <Link to='/lisboa/speakers' css={commonBtn}>Todos os Speakers</Link>
-      </div>
-      <img css={element} src={Element7} />
+      </div> */}
       </Container>
+      <img src={Pattern} style={{width:'100%'}} />
       
     </section>
   );

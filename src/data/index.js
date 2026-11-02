@@ -1,5 +1,5 @@
 import logo from "@/images/2024/logo.png"
-import logo25 from "@/images/2024/logo2025.png"
+import logo26 from "@/images/2026/logo.svg"
 import logoMobile from "@/images/logo-mobile.svg"
 import logoLuz from "@/images/2024/logo-luz.png"
 import logoSmall from "@/images/2024/logo-small.png"
@@ -86,10 +86,10 @@ import element02 from "@/images/elements/element-02.svg"
 import element05 from "@/images/elements/element-05.svg"
 import virtualPresencial from "@/images/virtualPresencial.png"
 
-import ExperienciaIcon01 from "@/images/icons/icon-talks.svg"
-import ExperienciaIcon02 from "@/images/icons/icon-master-classes.svg"
-import ExperienciaIcon03 from "@/images/icons/icon-academy.svg"
-import ExperienciaIcon04 from "@/images/icons/icon-expo.svg"
+import ExperienciaIcon01 from "@/images/2026/exp1.svg"
+import ExperienciaIcon02 from "@/images/2026/exp2.svg"
+import ExperienciaIcon03 from "@/images/2026/exp3.svg"
+import ExperienciaIcon04 from "@/images/2026/exp4.svg"
 // import ClientCarousel05 from "@/images/client/5.png"
 
 import Lisboa from "@/images/lisboa/lisboa.jpg"
@@ -283,7 +283,7 @@ import texto2_6 from "@/images/2024/texto2/2025/t6.jpg"
 
 
 export const LogoImage = {
-  light: logo25,
+  light: logo26,
   mobile: logoMobile,
   luz: logoLuz,
   small: logoSmall25,
@@ -298,38 +298,38 @@ export const SocialIcons = {
 };
 
 export const NavLinks = [
-  {
-    name: "O EVEx",
-    url: "/lisboa/o-evex",
-  },
-  {
-    name: "Lisboa",
-    url: "/lisboa/lisboa",
-  },
-  {
-    name: "Experiências",
-    url: "/lisboa/experiencias",
-  },
-  {
-    name: "Speakers",
-    url: "/lisboa/speakers",
-  },
-  {
-    name: "Comitê",
-    url: "/lisboa/#comite",
-  },
-  {
-    name: "Papers",
-    url: "/lisboa/#papers",
-  },
+  // {
+  //   name: "O EVEx",
+  //   url: "/lisboa/o-evex",
+  // },
+  // {
+  //   name: "Lisboa",
+  //   url: "/lisboa/lisboa",
+  // },
+  // {
+  //   name: "Experiências",
+  //   url: "/lisboa/experiencias",
+  // },
+  // {
+  //   name: "Speakers",
+  //   url: "/lisboa/speakers",
+  // },
+  // {
+  //   name: "Comitê",
+  //   url: "/lisboa/#comite",
+  // },
+  // {
+  //   name: "Papers",
+  //   url: "/lisboa/#papers",
+  // },
   {
     name: "Agenda",
     url: "/lisboa/agenda",
   },
-  {
-    name: "Inscrições",
-    url: "/lisboa/inscricoes",
-  },
+  // {
+  //   name: "Inscrições",
+  //   url: "/lisboa/inscricoes",
+  // },
   {
     name: "Contato",
     url: "/lisboa/#contato",
@@ -699,25 +699,25 @@ export const ClientCarouselData = {
       url: "#",
       image: ExperienciaIcon01,
       title: 'Energy Talks',
-      text: 'Conversas e debates com líderes e players da indústria energética ibero-latino-americana.'
+      text: 'Painéis e debates na plenária principal sobre mercados, infraestruturas, novas moléculas e os caminhos da transição energética.'
     },
     {
       url: "#",
       image: ExperienciaIcon02,
-      title: 'Energy MasterClasses',
-      text: 'Masterclasses com grandes nomes dos setores energéticos do Brasil, de Portugal e da Espanha.'
+      title: 'Arena CEMIG',
+      text: 'Conversas dinâmicas e insights com lideranças sobre os movimentos que transformam o presente e o futuro da energia.'
     },
     {
       url: "#",
       image: ExperienciaIcon03,
-      title: 'Energy Academy',
-      text: 'Minicursos, workshops e apresentações de trabalhos técnico-científicos no âmbito da energia.'
+      title: 'Missão EVEx',
+      text: 'Visitas técnicas e reuniões exclusivas com instituições e empresas para conhecer de perto o mercado ibérico de energia.'
     },
     {
       url: "#",
       image: ExperienciaIcon04,
-      title: 'Energy Expo/Business',
-      text: 'Exposição de serviços, novas tecnologias e modelos de negócios para a transição energética.'
+      title: 'Energy Business',
+      text: 'Networking com líderes, especialistas e decisores para ampliar relações, desenvolver parcerias e explorar oportunidades de negócios.  '
     },
   ],
 };
@@ -1798,7 +1798,7 @@ export const VirtualPresencialData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      "Este ano, na sua sexta edição, o EVEx conta com um formato composto por três eventos. O primeiro deles, EVEx Brasil 2025 – Natal Energy Experience, foi realizado em julho, na capital do Estado do Rio Grande do Norte, com grande sucesso de público e de crítica.\n\nJá o segundo, EVEx Lisboa 2025 – Lisbon Energy Experience, será nos dias 07 e 08 de outubro, em Portugal, no campus do Laboratório Nacional de Energia e Geologia (LNEG) em Alfragide, na região de Lisboa. Por fim, o EVEx COP30 – Energy Virtual Experience ocorrerá nos dias 03, 04 e 07 de novembro, de forma online e ao vivo, aquecendo o debate para a 30ª Conferência das Nações Unidas sobre Mudança do Clima.",
+      "Em 2026, celebramos a 5ª edição consecutiva do EVEx Lisboa, que integra a 7ª edição do EVEx. Uma trajetória construída com encontros, intercâmbio de experiências e cooperação entre os setores energéticos brasileiro e ibérico. Após o EVEx Brasil, em João Pessoa, o Pulsar Ibero-Americano chega à capital portuguesa para quatro dias de debates, conexões e imersão técnica. O Altis Grand Hotel recebe o evento, seguido pela Missão EVEx no mercado ibérico de energia.",
   },
   button: {
     label: "Lorem ipsum",
@@ -2030,8 +2030,8 @@ export const EvexLisboaData = {
   sectionContent: {
     title: "O EVEx",
     text:
-      `Com o tema “Transição Energética e Ação Climática: sinergias ibero-americanas rumo à COP30”, o EVEx Lisboa 2025 e o EVEx COP30 reunirão os principais players e stakeholders dos mercados ibérico e latino-americano de energia, incluindo executivos C-Level, renomados especialistas e importantes autoridades.\n\nAo todo, serão cinco dias voltados para trocas de conhecimentos, networking de alto nível e novos negócios em prol de uma transição climática e energética mais justa, eficaz e inclusiva.\n\nVamos juntos discutir o presente e o futuro da energia com quem está na liderança do setor?!
- 
+      `Nos dias 03 e 04 de novembro, o Altis Grand Hotel reúne lideranças para discutir mercados, infraestruturas, novas moléculas e recursos estratégicos. Nos dias 05 e 06, a Missão EVEx amplia a experiência com visitas técnicas e reuniões exclusivas no ecossistema energético ibérico.
+Quatro dias para conhecer, conectar, comparar e antecipar os movimentos do setor.
 `,
   },
   button: {
@@ -2060,7 +2060,7 @@ export const TransicoesEnergeticasData = {
   sectionContent: {
     title: `Transição Energética \ne Ação Climática:`,
     text:
-      `sinergias ibero-americanas rumo à COP30`,
+      `Conectando mercados, lideranças e oportunidades entre Brasil e Península Ibérica`,
   },
   button: {
     label: "Lorem ipsum",

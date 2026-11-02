@@ -4,7 +4,7 @@ import { colors } from "../styles/layout.styles";
 
 export const faqSection = css`
 
-background-color: ${colors.primaryMain};
+background-color: ${colors.telha};
 padding-top: 70px !important;
 
   .cbr {
@@ -107,11 +107,11 @@ export const pergunta = css`
     color: #adb5bd;
 
     &.accordion__button{
-        background-color: ${colors.primaryMain};
+        background-color: ${colors.telha};
     }
     
     &[aria-expanded="true"] {
-      background-color: ${colors.brandingOrange};
+      background-color: ${colors.telha};
       color: ${colors.primaryMain};
       font-weight: 700;
       outline: none;
@@ -119,15 +119,15 @@ export const pergunta = css`
      margin-top: 20px;
      padding-bottom: 24px;
      h3{
-      color: ${colors.primaryMain};
+      color: ${colors.secondaryMain};
       &:after{
-        background-color:${colors.primaryMain};
+        background-color:${colors.telha};
         
       }
       span{
-        background-color:${colors.primaryMain};
+        background-color:${colors.telha};
         img{
-          filter: invert(94%) sepia(8%) saturate(5614%) hue-rotate(302deg) brightness(98%) contrast(96%);
+          filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7493%) hue-rotate(106deg) brightness(100%) contrast(99%);
           transform: rotate(180deg);
         }
       }
@@ -152,12 +152,12 @@ export const pergunta = css`
 export const resposta = css`
   padding: 0px 30px 30px;
   transition: 0.3s;
-  background-color: ${colors.brandingOrange};
+  background-color: ${colors.telha};
   
   p {
     font-size: 16px;
     line-height: 23px;
-    color: ${colors.primaryMain};
+    color: ${colors.secondaryMain};
     margin: 0;
     span{
       color: ${colors.brandingBlue};
@@ -172,4 +172,11 @@ export const resposta = css`
       font-size: 14px;
     }
   }
+`;
+
+export const dividerImg = css`
+  position: absolute;
+  bottom: -22px;
+  width: 100%;
+  z-index: 99;
 `;
