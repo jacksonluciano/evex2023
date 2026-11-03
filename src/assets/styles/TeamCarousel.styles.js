@@ -248,7 +248,7 @@ export const speakerInfo = css`
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
-  min-height: 158px;
+  min-height: 95px;
   /* margin-top: -24px; */
 
   h4{
