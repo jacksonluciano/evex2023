@@ -97,7 +97,7 @@ export const singleFunfact = css`
   @media (min-width: 320px) and (max-width: 767px) {
     width: 93% !important;
     padding: 20px 0 !important;
-    border-bottom: 2px solid ${colors.secondaryMain};
+    /* border-bottom: 2px solid ${colors.secondaryMain}; */
     &:nth-of-type(4) {
       border: none;
     }

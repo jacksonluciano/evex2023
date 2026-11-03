@@ -4,7 +4,7 @@ import lineMarker from "../images/line-maker.svg";
 import { colors } from './layout.styles'
 
 export const popUp = css`
-  background: ${colors.primaryMain};
+  background: ${colors.telha};
   display: -webkit-flex;
   display: -ms-flexbox;
   display: -moz-box;

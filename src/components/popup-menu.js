@@ -171,8 +171,8 @@ const PopupMenu = () => {
           </div>
         </div>
       </div>
-      <img css={element} src={Element} />
-      <img css={element8} src={Element8} />
+      {/* <img css={element} src={Element} />
+      <img css={element8} src={Element8} /> */}
     </div>
   </div> : 
   /*----- BRASIL MENU POP UP ----------------------------------------------------------------------------- */

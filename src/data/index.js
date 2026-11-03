@@ -671,11 +671,11 @@ export const FunfactData = [
   },
   {
     title: "Dias",
-    countNumber: 5,
+    countNumber: 4,
   },
   {
     title: "Speakers",
-    countNumber: 100,
+    countNumber: 50,
   },
 ];
 

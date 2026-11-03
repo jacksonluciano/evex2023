@@ -31,7 +31,7 @@ const EvexLisboa2023 = () => {
               <h2 css={[secTitle, mb45]}>EVEx Lisboa + Missão EVEx 2026</h2>
               <h4>No ritmo da nova energia</h4>
               <p css={secDesk}>{sectionContent.text}</p>
-              <Link to="/lisboa/lisboa" css={commonBtn}>Conheça o Missão EVEx</Link>
+              <Link to="/lisboa/lisboa" css={commonBtn}>Conheça a Missão EVEx</Link>
               {/* <img css={element02} src={element} /> */}
            </div>
           </Col>

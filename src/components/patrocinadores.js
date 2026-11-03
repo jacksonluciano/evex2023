@@ -69,6 +69,13 @@ import Diamante from '@/images/2026/patrocinio/diamante.svg'
 import Ouro from '@/images/2026/patrocinio/ouro.svg'
 import Prata from '@/images/2026/patrocinio/prata.svg'
 import Bronze from '@/images/2026/patrocinio/bronze.svg'
+import Media from '@/images/2026/patrocinio/media.svg'
+import Tap from '@/images/2026/patrocinio/tap.svg'
+import Floral from '@/images/2026/floral.svg'
+import Eixos from '@/images/2026/patrocinio/eixos.svg'
+import Evex from '@/images/2026/patrocinio/evex.svg'
+import Operadora from '@/images/2026/patrocinio/op.svg'
+import Promocao from '@/images/2026/patrocinio/promocao.svg'
 import { jsx } from '@emotion/react'
 
 import { 
@@ -155,7 +162,7 @@ const Patrocinadores = () => {
 
                <section className='ouro'>
                 <h4 css={secDesk}><img src={Ouro} /></h4>
-                  <ul style={{display:"flex", justifyContent:'center', gap: '32px'}}>
+                  <ul style={{display:"flex", justifyContent:'center', gap: '48px'}}>
                     {/* <li><a href="https://www.rolim.com" target="_blank"><img src={Pat06} /></a></li> */}
                     <li><a href="#" target="_blank"><img src={Pat01} /></a></li>
                     <li><a href="#" target="_blank"><img src={Img7} /></a></li>
@@ -183,6 +190,31 @@ const Patrocinadores = () => {
                     <li><a href="#" target="_blank"><img src={Img204} /></a></li>
                     <li><a href="#" target="_blank"><img src={Img202} /></a></li>
                   </ul> */}
+               </section>
+
+               <section  style={{width: '100%', maxWidth: '512px', marginBottom:'48px'}}>
+                <img src={Floral} />
+               </section>
+
+               <section className='media-partner'>
+                <h4 css={secDesk}><img src={Media} /></h4>
+                  <ul style={{display:"flex", justifyContent:'center', gap: '32px'}}>
+                    <li><a href="#" target="_blank"><img src={Eixos} /></a></li>
+                  </ul>
+               </section>
+
+               <section className='operadora'>
+                <h4 css={secDesk}><img src={Operadora} /></h4>
+                  <ul style={{display:"flex", justifyContent:'center', gap: '32px'}}>
+                    <li><a href="#" target="_blank"><img src={Tap} /></a></li>
+                  </ul>
+               </section>
+
+               <section className='promocao'>
+                <h4 css={secDesk}><img src={Promocao} /></h4>
+                  <ul style={{display:"flex", justifyContent:'center', gap: '32px'}}>
+                    <li><a href="#" target="_blank"><img src={Evex} /></a></li>
+                  </ul>
                </section>
 
 

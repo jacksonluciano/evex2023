@@ -4,7 +4,7 @@ import { colors } from './layout.styles'
 
 export const team = css`
   padding-bottom: 0px !important;
-  padding-top: 0 !important;
+  padding-top: 32px !important;
   background-color: ${colors.telha};
   position: relative;
  

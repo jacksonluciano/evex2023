@@ -30,11 +30,14 @@ export const team = css`
     }
 
     @media (min-width: 320px) and (max-width: 767px) {
-      margin-left: 0px;
+      font-size: 32px;
+        line-height: 43px;
+        padding-top: 32px;
     }
   }
 
   p{
+    font-family: 'bw_gradual_demomedium';
     width: 100%;
     max-width: 920px;
     font-size: 16px;

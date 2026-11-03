@@ -12,13 +12,20 @@ export const abAgency = css`
   img.evex{
     max-width: 100%;
     width: auto;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        max-width: 85%;
+        margin-inline: auto;
+        margin-bottom: 32px;
+  
+    }
   }
 
 
   @media (min-width: 320px) and (max-width: 767px) {
     .container-fluid .row{
       display: flex;
-      flex-direction: column-reverse;
+      /* flex-direction: column-reverse; */
     }
   }
 
@@ -64,6 +71,7 @@ export const about = css`
   }
 
   p{
+    font-family: 'bw_gradual_demomedium';
     font-size: 16px;
     line-height: 23px;
     font-weight: 400;

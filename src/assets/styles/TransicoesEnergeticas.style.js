@@ -73,10 +73,18 @@ export const about = css`
   .heart{
     width: 140px;
     margin-bottom: 16px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+    }
   }
   .evex2026{
     width: 394px;
     margin-bottom: 24px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+    }
   }
 `
 
@@ -165,7 +173,7 @@ export const dateBlock = css`
     padding: 20px 30px;
     background-color: ${colors.telha};
     h3, p{
-      color: ${colors.primaryMain} !important;
+      /* color: ${colors.primaryMain} !important; */
     }
 
   }
@@ -182,15 +190,22 @@ export const dateBlock = css`
     color: ${colors.secondaryMain};
     font-size: 40px;
     text-align: center;
+    @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 28px;
+  }
   }
 
   P{
+    font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
-    font-size: 24px !important;
+    font-size: 24px;
     text-align: center;
     /* padding: 0 10px; */
     margin: 0;
     line-height: 28px;
+     @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 22px;
+  }
   }
 `
 export const asideBlock = css`
@@ -214,7 +229,7 @@ export const asideBlock = css`
     top: 15px;
     left: 50%;
     transform: translateX(-45%);
-    height: 236px;
+    height: 265px;
     z-index: 1;
   }
 `

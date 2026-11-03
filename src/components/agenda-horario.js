@@ -40,7 +40,8 @@ import {
   mobileHour,
   subTitle,
   localBreak,
-  mibelBreak
+  mibelBreak,
+  hat
 } from "../assets/styles/agenda-horario.styles";
 import { Link } from "gatsby";
 
@@ -91,12 +92,24 @@ const AgendaHorario = ({ agendaSelecionada }) => {
             <h2><span css={mobileHour}>09:30</span> Abertura com lideranças e autoridades</h2>
             <div className="participantsContainer">
               <div className="participant">
+                <p className="participant_bullet">
+                  • Boas Vindas
+                </p>
+                <span css={hat}>Boas Vindas</span>
                 <p className="participant_name">Caio César Cavalcanti</p>
                 <p className="participant_role">
                 CEO e Fundador do EVEx – Energy Virtual Experience
                 </p>
-              </div>             
+              </div> 
               <div className="participant">
+                <span css={hat}>Saudação Institucional</span>
+                <p className="participant_name">Samanda Alves</p>
+                <p className="participant_role">
+                Senadora eleita pelo Rio Grande do Norte, Brasil
+                </p>
+              </div>                
+              <div className="participant">
+                <span css={hat}>DISCURSO DE ABERTURA</span>
                 <p className="participant_name">Alexandre Miguel Santos</p>
                 <p className="participant_role">
                 Diretor-Geral de Energia e Geologia de Portugal
@@ -126,6 +139,18 @@ const AgendaHorario = ({ agendaSelecionada }) => {
                 <p className="participant_name">Alexandre Ramos</p>
                 <p className="participant_role">
                 Presidente da Companhia Energética de Minas Gerais – CEMIG
+                </p>
+              </div>                        
+              <div className="participant">
+                <p className="participant_name">Ludimila Lima</p>
+                <p className="participant_role">
+                Diretora-Substituta da ANEEL
+                </p>
+              </div>                        
+              <div className="participant">
+                <p className="participant_name">Gerusa Côrtes</p>
+                <p className="participant_role">
+                Diretora de Operação de Mercado da CCEE
                 </p>
               </div>                        
               <div className="participant">
@@ -590,7 +615,7 @@ entre Brasil e Portugal
            <div className="event">   
 
             <h2><span css={mobileHour}>09:30</span>ABERTURA DO SEGUNDO DIA</h2>
-            <h5 css={subTitle}>PAINEL DE ABERTURA</h5>
+            <h5 css={subTitle}>PALESTRA MAGNA</h5>
 
             <p className="participant_bullet">
                   • Insegurança Jurídica
@@ -637,9 +662,9 @@ entre Brasil e Portugal
                 </p>
               </div>             
               <div className="participant">
-                <p className="participant_name">Gustavo De Marchi</p>
+                <p className="participant_name">Marise Grinstrein</p>
                 <p className="participant_role">
-                Presidente da GASMIG
+                Diretora Administrativa da GASMIG
                 </p>
               </div>             
               <div className="participant">
@@ -773,7 +798,7 @@ entre Brasil e Portugal
           </div>    
         </Container>
 
-        <Container>           
+        {/* <Container>           
           <div css={timeBlock}>
            <div className="hour">
               <span>14:15</span>
@@ -812,7 +837,7 @@ entre Brasil e Portugal
 
            </div>
           </div>    
-        </Container>
+        </Container> */}
 
         <Container>           
           <div css={timeBlock}>
@@ -885,7 +910,7 @@ entre Brasil e Portugal
                 </p>
               </div>  
               <div className="participant">
-                 <p className="participant_name">Wener Farkatt</p>
+                 <p className="participant_name">Werner Farkatt</p>
                 <p className="participant_role">
                 Diretor-Geral do IDEMA-RN
                 </p>
@@ -923,7 +948,7 @@ entre Brasil e Portugal
         <Container>
               <Col xs={12} lg={12} className="px-0">
               <div css={pinkBreak} style={{marginBottom: '0'}}>
-                <span>16:30</span>
+                <span>16:00</span>
                 <span>Coffee Break</span>
               </div>
             </Col>
@@ -935,11 +960,11 @@ entre Brasil e Portugal
         <Container>           
           <div css={timeBlock}>
            <div className="hour">
-              <span>17:00</span>
+              <span>16:30</span>
            </div>
            <div className="event">   
 
-            <h2><span css={mobileHour}>17:00</span>O Ritmo da Transição</h2>
+            <h2><span css={mobileHour}>16:30</span>O Ritmo da Transição</h2>
             <h3>Da estratégia à implementação</h3>
 
             <div className="participantsContainer">
@@ -949,12 +974,12 @@ entre Brasil e Portugal
                 Diretor de Formação, Informação e Educação da ADENE
                 </p>
               </div>             
-              <div className="participant">
+              {/* <div className="participant">
                  <p className="participant_name">Representante do IDAE</p>
                 <p className="participant_role">
                 Instituto para la Diversificación y Ahorro de la Energía
                 </p>
-              </div>             
+              </div>              */}
               <div className="participant">
                  <p className="participant_name">Carla Achão</p>
                 <p className="participant_role">
@@ -982,11 +1007,12 @@ entre Brasil e Portugal
         <Container>           
           <div css={timeBlock} style={{marginBottom: '80px'}}>
            <div className="hour">
-              <span>17:00</span>
+              <span>17:30</span>
            </div>
            <div className="event">   
 
-            <h2><span css={mobileHour}>17:00</span>ENCERRAMENTO DO EVEx LISBOA 2026</h2>
+            <h2><span css={mobileHour}>17:30</span>ENCERRAMENTO DO EVEx LISBOA 2026</h2>
+            <h3>Assinatura de Protocolo de Cooperação entre o EVEx e a Universidade Autónoma de Lisboa</h3>
 
            </div>
           </div>    

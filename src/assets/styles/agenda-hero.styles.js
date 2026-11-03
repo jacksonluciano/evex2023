@@ -252,6 +252,15 @@ export const informations = css`
           opacity: 1;
         }
       }
+
+      @media (min-width: 320px) and (max-width: 768px) {
+          width: 95%;
+          margin-bottom: 24px;
+
+          a:after{
+            height: 110px;
+          }
+        }
     }
   }
 
@@ -261,6 +270,8 @@ export const informations = css`
       /* gap: 30px; */
        @media (max-width: 576px) {
         flex-direction: row;
+        flex-direction: column;
+        width: 90%;
        }
     }
   }

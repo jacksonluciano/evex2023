@@ -139,7 +139,7 @@ const Footer = () => {
         </div> */}
         <div className="row">
           <div className="col-lg-12 col-sm-12 text-center" style={{marginTop: '100px'}}>
-           <img src={FishesFooter} />
+           <img src={FishesFooter} style={{width: '100%'}} />
           </div>
         </div>
       </div>

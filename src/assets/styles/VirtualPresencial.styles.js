@@ -38,10 +38,12 @@ export const about = css`
   padding: 60px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
   flex-direction: column;
   height: 100%;
   color: ${colors.secondaryMain};
+
+  img{width:100%}
 
   h2{
     color: ${colors.titleLight};
@@ -67,7 +69,10 @@ export const about = css`
     img{
       width: 132px;
   object-fit: contain;
-  flex-shrink: 0;           
+  flex-shrink: 0;        
+  @media (min-width: 320px) and (max-width: 767px) {
+      width: 70px;
+    }   
     }
 
     h2{
@@ -76,6 +81,7 @@ export const about = css`
   }
 
   p{
+    font-family: 'bw_gradual_demomedium';
     max-width: 495px;
     font-size: 16px;
     line-height: 23px;
@@ -99,7 +105,8 @@ export const about = css`
     padding: 32px 12px;
 
     h2{
-      line-height: 68px;
+      line-height: 38px;
+      font-size: 30px;
     }
   }
 `

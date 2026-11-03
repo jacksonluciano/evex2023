@@ -104,7 +104,7 @@ export const pinkBreak = css`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 16px 16px 49px;
+  padding: 16px 16px 16px 16px;
   /* border-radius: 16px; */
   margin-bottom: 16px;
   
@@ -747,12 +747,12 @@ export const mobileHour = css`
 display: none;
   @media (max-width: 768px) {
             width: 116px;
-        background-color: #004D93;
+        background-color: #4F91C9;
         border-radius: 16px;
         padding: 13px 20px;
         cursor: pointer;
         display: block;
-        color: #ffefc3;
+        color: #ffffff;
         text-align: center;
   }
 `
@@ -763,6 +763,17 @@ font-family: "Bw Gradual DEMO";
 font-weight: 500;
 margin: 0;
 padding-top: 8px;
+`
+
+export const hat = css`
+font-size: 14px;
+color: #126092;
+font-family: "Bw Gradual DEMO";
+font-weight: 700;
+margin: 0;
+/* padding-top: 8px; */
+padding-left: 22px;
+text-transform: uppercase;
 `
 
 export const buyTicketLink = css`

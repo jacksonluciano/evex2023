@@ -2,6 +2,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Pattern from "@/images/2026/pattern.svg";
+import Fishes from "@/images/2026/fishes-speaker.svg";
 import Arrow from '@/images/icons/arrow-down.svg'
 import { TeamOneData } from "@/data";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -67,7 +68,7 @@ const TeamCarousel = () => {
       <Container>
         <Row>
           <Col lg={12}>
-             <h2>{sectionContent.title}</h2>
+             <h2>{sectionContent.title} <img src={Fishes} /></h2>
           </Col>
         </Row>
      
