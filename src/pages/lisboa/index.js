@@ -13,11 +13,12 @@ import HeroVideo from "@/components/hero-video";
 import VirtualPresencial from "@/components/virtual-presencial";
 import EvexLisboa2023 from "@/components/evex-lisboa-2023";
 import TransicoesEnergeticas from "@/components/transicoes-energeticas";
-import Comite from "@/components/comite";
+import Missao from "@/components/missao";
 import Faq from "@/components/faq"
 import Bigcta from "@/components/big-cta";
 import Patrocinadores from "@/components/patrocinadores";
 import Duvidas from "@/components/duvidas"
+import SuaMarca from "@/components/sua-marca"
 
 const HomeOne = () => {
   return (
@@ -29,16 +30,17 @@ const HomeOne = () => {
           <OEvex />
           <VirtualPresencial />
           <EvexLisboa2023 />
-          <VideoTwo />         
+          {/* <VideoTwo />          */}
           <FunfactOne />
           <TransicoesEnergeticas />         
           <ClientCarouselOne />
-          <TeamCarousel />
-          <Comite />
+          {/* <TeamCarousel /> */}
+          <Missao />
           <Faq />
           <Bigcta />
           <Patrocinadores />
           <Duvidas />
+          <SuaMarca />
           <Footer />
         </Layout>
       </SearchContextProvider>

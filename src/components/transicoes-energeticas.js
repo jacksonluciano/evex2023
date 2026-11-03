@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import React from "react";
 import { TransicoesEnergeticasData, blocksTeData } from "@/data";
+import Heart from "@/images/2026/heart.svg";
+import Evex2026 from "@/images/2026/evexLisboa2026.svg";
 import { Col, Container, Row } from "react-bootstrap";
 import { jsx } from "@emotion/react";
 
@@ -27,7 +29,9 @@ const TransicoesEnergeticas = () => {
         <Row>
           <Col css={pr79} lg={12} md={12} sm={12}>
             <div css={about}>
-              <h2 css={[secTitle, mb45]}>{sectionContent.title}</h2>
+              {/* <h2 css={[secTitle, mb45]}>{sectionContent.title}</h2> */}
+              <img src={Heart} className="heart" />
+              <img src={Evex2026} className="evex2026"/>
               <p css={secDesk}>{sectionContent.text}</p>
             </div>
           </Col>
@@ -46,21 +50,21 @@ const TransicoesEnergeticas = () => {
             ))} */}
             <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock}>
-                  <h3>07 e 08 de <br/>Outubro</h3>
-                  <p>Lisbon Energy Experience<br/>Evento Presencial</p>
+                  <h3>03 e 04 de Novembro</h3>
+                  <p>EVEx Lisboa 2026<br/> Lisbon Energy Experience<br/> Altis Grand Hotel | Lisboa</p>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
             <Col lg={6} md={6} sm={12}>
                 <div css={dateBlock}>
-                  <h3>03, 04 e 07 de Novembro</h3>
-                  <p>Energy Virtual Experience<br/>Evento Online</p>
+                  <h3>05 e 06 de Novembro</h3>
+                  <p>Missão EVEx 2026<br/> Mercado Ibérico de Energia<br/> Visitas técnicas e reuniões exclusivas</p>
                 </div>
                 <div css={asideBlock}></div>
               </Col>           
           </Row>
         </div>
-        <img css={element05} src={element} />
+        {/* <img css={element05} src={element} /> */}
       </Container>
     </section>
   );

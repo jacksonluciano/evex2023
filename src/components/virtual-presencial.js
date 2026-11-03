@@ -3,6 +3,9 @@ import React from "react";
 import { VirtualPresencialData, QuintaEdicao2024Data } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import Arrow from "@/images/icons/arrow-down.svg";
+import FishL from "@/images/2026/fishl.svg";
+import FishR from "@/images/2026/fishr.svg";
+import Portugal from "@/images/2026/portugal.png";
 import { jsx } from '@emotion/react'
 import { Link } from "gatsby";
 import { Navigation } from "swiper";
@@ -46,15 +49,19 @@ const virtualPresencial = () => {
     <section css={[abAgency]}>
       <Container fluid>
         <Row>
-          <Col css={pr79} lg={6} md={6} sm={12}>
+          <Col css={pr79} lg={12} md={12} sm={12}>
            <div css={about}>
-              <h2 css={[secTitle, mb45]}>6ª Edição</h2>
+              <div className="title">
+                <img src={FishL} className="evex" />
+                  <h2 css={[secTitle, mb45]}>Cinco anos em Portugal</h2>
+                  <img src={FishR} className="evex" />
+              </div>
               <p css={secDesk}>{sectionContent.text}</p>
-              <Link to="/lisboa/o-evex" css={commonBtn}>Destaques do EVEx</Link>
+              <img src={Portugal} />
+              {/* <Link to="/lisboa/o-evex" css={commonBtn}>Destaques do EVEx</Link> */}
            </div>
           </Col>
-          <Col lg={6} md={6} sm={12} css={noPadding}>
-            {/* <img css={imgFull} src={image} /> */}
+          {/* <Col lg={6} md={6} sm={12} css={noPadding}>
             <Swiper css={slider} {...testimonialsOptions}>
               <span id="main-slider-prev">
                 <img src={Arrow} />
@@ -74,7 +81,7 @@ const virtualPresencial = () => {
               className="swiper-pagination"
               id="client-carousel-pagination"
             ></div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </section>

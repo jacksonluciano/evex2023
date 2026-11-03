@@ -5,7 +5,7 @@ import { colors } from './layout.styles'
 export const footer1 = css`
   position: relative;
   padding: 80px 0 !important;
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.telha};
 `;
 
 export const widget = css`
@@ -199,7 +199,7 @@ export const subscribeFrom = css`
 
   & input[type="email"] {
     width: 260px;
-    background: ${colors.primaryMain};
+    background: ${colors.telha};
     color: ${colors.secondaryMain};
     border: 1px solid ${colors.secondaryMain};
     font-weight: 400;

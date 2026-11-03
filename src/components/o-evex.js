@@ -3,6 +3,8 @@ import React from "react";
 import { OevexData, Evex2024Data } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import Arrow from "@/images/icons/arrow-down.svg";
+import Pattern from "@/images/2026/pattern.svg";
+import Evex from "@/images/2026/evex.png";
 import { jsx } from '@emotion/react'
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,7 +18,8 @@ import {
   mb45,
   about,
   element01,
-  slider
+  slider,
+  imgDiv
 }  from '../assets/styles/Oevex.style'
 import {
   secTitle,
@@ -43,18 +46,20 @@ const OEvex = () => {
 
   return (
     <section css={[abAgency]}>
+      <img src={Pattern} />
       <Container fluid>
         <Row>
           <Col css={pr79} lg={6} md={6} sm={12}>
            <div css={about}>
               <h2 css={[secTitle, mb45]}>O EVE<span>x</span></h2>
               <p css={secDesk}>{sectionContent.text}</p>
-              <img css={element01} src={element} />
+              {/* <img css={element01} src={element} /> */}
            </div>
           </Col>
-          <Col lg={6} md={6} sm={12} css={[noPaddingRight, noPaddingLeft]}>
+          <Col lg={6} md={6} sm={12} css={[noPaddingRight, noPaddingLeft, imgDiv]}>
+          <img src={Evex} className="evex" />
             {/* <img css={imgFull} src={image} /> */}
-            <Swiper css={slider} {...testimonialsOptions}>
+            {/* <Swiper css={slider} {...testimonialsOptions}>
               <span id="main-slider-prev">
                 <img src={Arrow} />
               </span>
@@ -72,7 +77,7 @@ const OEvex = () => {
             <div
               className="swiper-pagination"
               id="client-carousel-pagination"
-            ></div>
+            ></div> */}
           </Col>
         </Row>
       </Container>

@@ -8,6 +8,7 @@ import Eixos from '@/images/2025/Call-for-papers.pdf'
 // import Ebook from '@/images/e-book Energia em Tempos de Pandemia.pdf'
 import Anais from '@/images/Anais EVEx 2020.pdf'
 import Anais2021 from '@/images/Anais EVEx 2021 - Energy Virtual Experience .pdf'
+import Divider from "@/images/2026/fishes-divider.svg";
 import { jsx } from "@emotion/react";
 
 import {
@@ -20,7 +21,7 @@ import {
 
 import "react-accessible-accordion/dist/fancy-example.css";
 
-import { faqSection, pergunta, resposta } from "../assets/styles/Faq.style";
+import { faqSection, pergunta, resposta, dividerImg } from "../assets/styles/Faq.style";
 import {
   commonSection,
   mb32,
@@ -206,6 +207,7 @@ const Faq = () => {
           </div>
         </div>
       </div>
+      <img src={Divider} css={dividerImg} />
     </section>
   );
 };

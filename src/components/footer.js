@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { LogoImage } from "@/data";
 import { useLocation } from '@reach/router';
 import { jsx } from "@emotion/react";
+import FishesFooter from "@/images/2026/fishes-footer.svg"
 
 import {
   footer1,
@@ -136,6 +137,11 @@ const Footer = () => {
             </div>
           </div>
         </div> */}
+        <div className="row">
+          <div className="col-lg-12 col-sm-12 text-center" style={{marginTop: '100px'}}>
+           <img src={FishesFooter} style={{width: '100%'}} />
+          </div>
+        </div>
       </div>
     </footer>
   );

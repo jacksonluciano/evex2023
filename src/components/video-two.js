@@ -35,27 +35,6 @@ const VideoTwo = () => {
           </Row> */}
           <Row>
             <Col lg={12}>
-             <section>
-              <div css={videoWrap} className="mb-0"> 
-                  {/* <div css={playVideo}>
-                    <a
-                      className="video_popup"
-                      onClick={e => {
-                        e.preventDefault();
-                        setOpen(true);
-                      }}
-                      href="#"
-                    >
-                      <i className="fa fa-play"></i>
-                    </a>
-                  </div> */}
-                    <Video
-            videoSrcURL="https://www.youtube.com/embed/pDAkTFwNzRA?si=SJ63vTvliT4VEJxT"
-            videoTitle="Highlights EVEx Lisboa 2022"
-          />
-                </div>
-                <img css={element03} src={Element03} />
-             </section>
              
             </Col>
           </Row>

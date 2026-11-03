@@ -8,7 +8,14 @@ export const colors = {
   brandingPurple: "#9a6dac",
   brandingSalmon: "#f18e96",
   brandingBlue: "#727dbc",
-  brandingOrange: "#f5a282"
+  brandingOrange: "#f5a282",
+  telha: "#8B1002",
+  text: "#3C3C4399",
+  titleLight:"#F5EEE8",
+  yellow:"#FABD43",
+  bgBlue: "#126092",
+  bgBlueLight: "#4F91C9",
+  bgCream: "#F5EEE8"
 };
 
 export const colorsBr = {
@@ -57,7 +64,7 @@ export const secTitle = css`
     font-size: 56px;
     line-height: 64px;
     font-weight: 400;
-    color: #f5f5f5;
+    color: #8B1002;
     letter-spacing: -1px;
     margin: 0 0 25px;
     white-space: pre-line;
@@ -99,7 +106,7 @@ export const commonBtn = css`
   border: none;
   font-size: 20px;
   font-weight: 500;
-  background: ${colors.primaryMain};
+  background: ${colors.telha};
   color: #fff;
   text-align: center;
   padding: 18px 24.5px;

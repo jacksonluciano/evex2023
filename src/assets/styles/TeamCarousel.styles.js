@@ -3,9 +3,9 @@ import { css } from "@emotion/react";
 import { colors } from './layout.styles'
 
 export const team = css`
-  padding-bottom: 120px !important;
-  padding-top: 0 !important;
-  background-color: ${colors.primaryMain};
+  padding-bottom: 0px !important;
+  padding-top: 32px !important;
+  background-color: ${colors.telha};
   position: relative;
  
 
@@ -239,7 +239,7 @@ export const tmImg = css`
 
 export const speakerInfo = css`
   display: flex;
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.telha};
   border-radius: 8px;
   border:1px solid ${colors.secondaryMain};
   /* position: absolute; */
@@ -248,6 +248,7 @@ export const speakerInfo = css`
   flex-direction: column;
   padding: 20px 24px 4px;
   width: 100%;
+  min-height: 158px;
   /* margin-top: -24px; */
 
   h4{
@@ -356,9 +357,10 @@ export const teamPagination = css`
 export const moreBt = css`
   display: flex;
   justify-content: center;
+  margin-bottom: 48px;
 
   a{
-    background-color:${colors.brandingSalmon};
+    background-color:${colors.yellow};
     color:${colors.primaryMain};
     font-family: 'bw_gradual_demobold';
     font-size: 16px;
@@ -367,7 +369,7 @@ export const moreBt = css`
     z-index: 2;
 
     :hover{
-      background-color:${colors.brandingSalmon};
+      background-color:${colors.bgBlue};
       box-shadow: none;
     }
   }

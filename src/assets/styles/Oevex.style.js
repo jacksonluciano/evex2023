@@ -3,16 +3,29 @@ import { css } from '@emotion/react'
 import { colors } from './layout.styles'
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
+  background-color: #F5EEE8;
 
   img{
     width: 100%;
   }
 
+  img.evex{
+    max-width: 100%;
+    width: auto;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        max-width: 85%;
+        margin-inline: auto;
+        margin-bottom: 32px;
+  
+    }
+  }
+
+
   @media (min-width: 320px) and (max-width: 767px) {
     .container-fluid .row{
       display: flex;
-      flex-direction: column-reverse;
+      /* flex-direction: column-reverse; */
     }
   }
 
@@ -46,7 +59,7 @@ export const about = css`
   color: ${colors.secondaryMain};
 
   h2{
-    color: ${colors.secondaryMain};
+    color: ${colors.telha};
     font-family: 'bw_gradual_demomedium';
     text-decoration:underline;
     text-decoration-thickness: 3px;
@@ -58,10 +71,11 @@ export const about = css`
   }
 
   p{
+    font-family: 'bw_gradual_demomedium';
     font-size: 16px;
     line-height: 23px;
     font-weight: 400;
-    color: ${colors.secondaryMain};
+    color: ${colors.text};
     @media (min-width: 320px) and (max-width: 767px) {
         margin-bottom: 0;
         line-height: 21px;
@@ -85,6 +99,10 @@ export const element01 = css`
       top: -28px;
       right: -15px;
   }
+`
+export const imgDiv = css`
+        display: flex;
+    align-items: center;
 `
 
 export const abImg = css`

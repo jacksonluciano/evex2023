@@ -3,8 +3,8 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
-  padding-top: 20px;
+  background-color: ${colors.bgCream};
+  padding-top: 80px;
   position: relative;
   overflow: hidden;
   img {
@@ -130,8 +130,8 @@ export const blocks = css`
 `;
 
 export const dateBlock = css`
-  background-color: ${colors.secondaryMain};
-  height: 415px;
+  background-color: ${colors.telha};
+  height: 550px;
   padding: 50px 18px;
   display: flex;
   flex-direction: column;
@@ -145,44 +145,75 @@ export const dateBlock = css`
     width: 94%;
     margin-bottom: 60px;
     border: 2px solid ${colors.secondaryMain};
-    background-color: ${colors.brandingSalmon};
+    background-color: ${colors.telha};
   }
 
   &.purple {
     :hover {
-      background-color: ${colors.brandingPurple};
+      background-color: ${colors.bgBlue};
     }
     @media (min-width: 320px) and (max-width: 767px) {
-      background-color: ${colors.brandingPurple};
+      background-color: ${colors.bgBlue};
     }
   }
 
   &:hover {
-    background-color: ${colors.brandingSalmon};
+    background-color: ${colors.bgBlue};
     h3,
     p {
-      color: ${colors.primaryMain};
+      color: ${colors.bgCream};
     }
   }
 
   h2 {
     font-family: "bw_gradual_demomedium";
-    color: ${colors.primaryMain};
+    color: ${colors.bgCream};
     font-size: 56px;
     text-align: center;
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
+    margin-bottom: 16px;
+  }
+
+  h5{
+    font-family: "bw_gradual_demomedium";
+    color: ${colors.bgCream};
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
   }
 
   P {
-    color: ${colors.primaryMain};
+    color: ${colors.bgCream};
     font-size: 14px;
     text-align: center;
     padding: 0;
     margin: 0;
     line-height: 21px;
     margin-bottom: 32px;
+    font-family: "bw_gradual_demomedium";
+    font-weight: 500;
+
+    &.stars{
+      margin-bottom: 0;
+
+      img{
+        width: 15px;
+        margin-right: 8px;
+      }
+    }
+
+  }
+
+  a{
+    background-color: #ffffff;
+    color: ${colors.telha};
+
+    &:hover{
+      color: ${colors.telha};
+      box-shadow: inset 0px 0px 0px 3px ${colors.telha};
+    }
   }
 
   button {
@@ -190,11 +221,12 @@ export const dateBlock = css`
   }
 `;
 export const asideBlock = css`
+background-color: ${colors.yellow};
   position: absolute;
   width: 100%;
   max-width: 470px;
   display: block;
-  border: 2px solid #fff;
+  /* border: 2px solid #fff; */
   top: 15px;
   left: 42px;
   height: 100%;

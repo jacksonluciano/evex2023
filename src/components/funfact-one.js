@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
 import { FunfactData, LogoImage } from "@/data";
-import Element04 from "@/images/elements/element-04.svg"
+import PatternBig from "@/images/2026/pattern-big.svg"
 import { jsx } from "@emotion/react";
 
 import {
@@ -52,12 +52,12 @@ const FunfactOne = () => {
           ))}
           
         </div>
-       <div css={logoLight}>
+       {/* <div css={logoLight}>
           <img src={LogoImage.cop30} />
-       </div>
+       </div> */}
 
-       <img src={Element04} css={element04} />
       </Container>
+       <img src={PatternBig} className="patternBig" />
     </section>
   );
 };

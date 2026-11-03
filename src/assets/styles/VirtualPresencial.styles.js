@@ -3,11 +3,11 @@ import { css } from '@emotion/react'
 import { colors } from './layout.styles'
 
 export const abAgency = css`
-  background-color: transparent;
+  background-color: ${colors.telha};
 
-  img{
+  /* img{
     width: 100%;
-  }
+  } */
   @media (min-width: 320px) and (max-width: 767px) {
     .container-fluid .row{
       display: flex;
@@ -37,29 +37,57 @@ export const about = css`
   position: relative;
   padding: 60px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: center;  
   flex-direction: column;
   height: 100%;
   color: ${colors.secondaryMain};
-  align-items: flex-start;
+
+  img{width:100%}
 
   h2{
-    color: ${colors.primaryMain};
+    color: ${colors.titleLight};
     font-family: 'bw_gradual_demomedium';
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 6px;
     letter-spacing: 0;
+    text-align:center;
 
     @media (min-width: 320px) and (max-width: 767px) {
      font-size: 54px;
     }
   }
 
+  .title{
+    width: 100%;
+    display: flex;
+  align-items: center;      
+  justify-content: center;  
+  gap: 16px;              
+  margin-bottom:34px ;
+    img{
+      width: 132px;
+  object-fit: contain;
+  flex-shrink: 0;        
+  @media (min-width: 320px) and (max-width: 767px) {
+      width: 70px;
+    }   
+    }
+
+    h2{
+      margin: 0;
+    }
+  }
+
   p{
+    font-family: 'bw_gradual_demomedium';
+    max-width: 495px;
     font-size: 16px;
     line-height: 23px;
     font-weight: 400;
+    color: ${colors.titleLight};
+    text-align:center
   }
 
   a{
@@ -77,7 +105,8 @@ export const about = css`
     padding: 32px 12px;
 
     h2{
-      line-height: 68px;
+      line-height: 38px;
+      font-size: 30px;
     }
   }
 `

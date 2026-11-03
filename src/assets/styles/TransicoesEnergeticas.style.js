@@ -3,7 +3,7 @@ import { css } from '@emotion/react'
 import { colors } from './layout.styles'
 
 export const abAgency = css`
-  background-color: ${colors.primaryMain};
+  background-color: ${colors.telha};
   padding-top: 20px;
   position: relative;
   overflow-x:clip;
@@ -68,6 +68,23 @@ export const about = css`
   button{
     font-family: 'bw_gradual_demobold';
     font-size: 16px;
+  }
+
+  .heart{
+    width: 140px;
+    margin-bottom: 16px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+    }
+  }
+  .evex2026{
+    width: 394px;
+    margin-bottom: 24px;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+       
+    }
   }
 `
 
@@ -139,9 +156,9 @@ export const blocks = css`
 `
 
 export const dateBlock = css`
-  background-color: ${colors.primaryMain};
-  border: 2px solid ${colors.secondaryMain};
-  padding: 50px 37px;
+  background-color: ${colors.telha};
+  border: 2px solid ${colors.yellow};
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,17 +171,17 @@ export const dateBlock = css`
     width: 330px;
     margin: 0 auto 32px;
     padding: 20px 30px;
-    background-color: ${colors.brandingOrange};
+    background-color: ${colors.telha};
     h3, p{
-      color: ${colors.primaryMain} !important;
+      /* color: ${colors.primaryMain} !important; */
     }
 
   }
 
   :hover{
-    background-color: ${colors.brandingOrange};
+    background-color: ${colors.bgBlue};
     h3, p{
-      color: ${colors.primaryMain};
+      color: ${colors.secondaryMain};
     }
   }
 
@@ -173,15 +190,22 @@ export const dateBlock = css`
     color: ${colors.secondaryMain};
     font-size: 40px;
     text-align: center;
+    @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 28px;
+  }
   }
 
   P{
+    font-family: 'bw_gradual_demomedium';
     color: ${colors.secondaryMain};
-    font-size: 24px !important;
+    font-size: 24px;
     text-align: center;
-    padding: 0 10px;
+    /* padding: 0 10px; */
     margin: 0;
     line-height: 28px;
+     @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 22px;
+  }
   }
 `
 export const asideBlock = css`
@@ -189,7 +213,8 @@ export const asideBlock = css`
     width: 100%;
     max-width: 470px;
     display: block;
-    border: 2px solid #fff;
+    background-color: ${colors.yellow};
+    border: 2px solid ${colors.yellow};
     top: 15px;
     left: 30px;
     height: 100%;
@@ -204,7 +229,7 @@ export const asideBlock = css`
     top: 15px;
     left: 50%;
     transform: translateX(-45%);
-    height: 236px;
+    height: 265px;
     z-index: 1;
   }
 `

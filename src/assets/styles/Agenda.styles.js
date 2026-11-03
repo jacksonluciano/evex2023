@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const abAgency = css`
-  background-color: ${colors.secondaryMain};
+  background-color: ${colors.bgCream};
   padding-top: 140px;
   position: relative;
   img {

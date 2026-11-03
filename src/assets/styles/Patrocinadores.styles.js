@@ -3,7 +3,7 @@ import { css } from "@emotion/react";
 import { colors } from "./layout.styles";
 
 export const abAgency = css`
-  background-color: transparent;
+  background-color: ${colors.telha};
   position: relative;
   /* overflow-x: hidden; */
 
@@ -42,7 +42,7 @@ export const about = css`
   align-items: center;
 
   img{
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
@@ -80,12 +80,18 @@ export const about = css`
     text-decoration: underline;
     margin-bottom: 16px;
     text-align: center;
+    img{
+      width: 360px;
+    }
   }
 
   .diamante {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
+    h4{
+      img{width:360px}
+    }
     ul {
       margin: 0;
       padding: 0;
@@ -102,7 +108,7 @@ export const about = css`
 
       li {
         img {
-          height: 120px;
+          height: 70px;
         }
       }
     }
@@ -111,7 +117,7 @@ export const about = css`
   .platina {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     ul {
       margin: 0;
       padding: 0;
@@ -130,7 +136,7 @@ export const about = css`
           float: left;
         }
         img {
-          height: 96px;
+          height: 80px;
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto;
           }
@@ -142,7 +148,7 @@ export const about = css`
   .ouro {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     ul {
       margin: 0;
       padding: 0;
@@ -162,7 +168,7 @@ export const about = css`
           float: left;
       }
         img {
-          height: 132px;
+          height: 60px;
           @media (min-width: 320px) and (max-width: 767px) {
             /* height: auto !important;
             max-width: 80%; */
@@ -178,7 +184,7 @@ export const about = css`
   .prata {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     ul {
       margin: 0;
       padding: 0;
@@ -208,12 +214,12 @@ export const about = css`
 
 
         @media (min-width: 320px) and (max-width: 767px) {
-          width: 50%;
+          width: 90%;
           padding: 8px;
           float: left;
       }
         img {
-          height: 50px;
+          height: 150px;
          
           @media (min-width: 320px) and (max-width: 767px) {
             height: auto !important;
@@ -221,7 +227,7 @@ export const about = css`
         }
         &:nth-of-type(1){
             img{
-              height: 50px;
+              height: 180px;
             }
         }
       }
@@ -239,7 +245,197 @@ export const about = css`
   .bronze {
     width: 100%;
     max-width: 980px;
-    margin-bottom: 140px;
+    margin-bottom: 20px;
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+
+      li {
+        padding: 0 8px;
+        margin-bottom: 24px;
+
+        :nth-of-type(2) img{
+            height: 72px;
+          }
+          :nth-of-type(3) img{
+            height: 42px;
+          }
+          :nth-of-type(4) img{
+            height: 42px;
+          }
+          :nth-of-type(5) img{
+            height: 22px;
+          }
+          :nth-of-type(6) img{
+            height: 38px;
+          }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+        width: 80%;
+        padding: 8px;
+          float: left;
+      }
+        img {
+          height: 60px;
+
+          @media (min-width: 320px) and (max-width: 767px) {
+            height: auto !important;
+          }
+        }
+      }
+
+      &:nth-of-type(2){
+        li{
+          img{
+            height: 28px;
+          }
+        }
+      }
+    }
+  }
+
+  .media-partner {
+    width: 100%;
+    max-width: 980px;
+    margin-bottom: 20px;
+
+    h4{
+      img{width:232px;}
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+
+      li {
+        padding: 0 8px;
+        margin-bottom: 24px;
+
+        :nth-of-type(2) img{
+            height: 72px;
+          }
+          :nth-of-type(3) img{
+            height: 42px;
+          }
+          :nth-of-type(4) img{
+            height: 42px;
+          }
+          :nth-of-type(5) img{
+            height: 22px;
+          }
+          :nth-of-type(6) img{
+            height: 38px;
+          }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+        width: 33.3%;
+        padding: 8px;
+          float: left;
+      }
+        img {
+          height: 35px;
+
+          @media (min-width: 320px) and (max-width: 767px) {
+            height: auto !important;
+          }
+        }
+      }
+
+      &:nth-of-type(2){
+        li{
+          img{
+            height: 28px;
+          }
+        }
+      }
+    }
+  }
+
+  .operadora {
+    width: 100%;
+    max-width: 980px;
+    margin-bottom: 20px;
+
+    h4{
+      img{width:282px;}
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+      }
+
+      li {
+        padding: 0 8px;
+        margin-bottom: 24px;
+
+        :nth-of-type(2) img{
+            height: 72px;
+          }
+          :nth-of-type(3) img{
+            height: 42px;
+          }
+          :nth-of-type(4) img{
+            height: 42px;
+          }
+          :nth-of-type(5) img{
+            height: 22px;
+          }
+          :nth-of-type(6) img{
+            height: 38px;
+          }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+        width: 33.3%;
+        padding: 8px;
+          float: left;
+      }
+        img {
+          height: 90px;
+
+          @media (min-width: 320px) and (max-width: 767px) {
+            height: auto !important;
+          }
+        }
+      }
+
+      &:nth-of-type(2){
+        li{
+          img{
+            height: 28px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .promocao {
+    width: 100%;
+    max-width: 980px;
+    margin-bottom: 20px;
+
+    h4{
+      img{width:282px;}
+    }
     ul {
       margin: 0;
       padding: 0;

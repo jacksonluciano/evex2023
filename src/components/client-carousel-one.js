@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 import { ClientCarouselData } from "@/data";
-import Element6 from "@/images/elements/element-06.svg"
+import Evex2026 from "@/images/2026/evexLisboa2026.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 import { jsx } from '@emotion/react'
@@ -84,11 +84,11 @@ const ClientCarouselOne = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-           <div css={moreBt}>
+           {/* <div css={moreBt}>
               <a href="/experiencias" css={commonBtn}>Saiba mais</a>
-           </div>
+           </div> */}
           </Col>
-          <img css={element} src={Element6} />
+          {/* <img css={element} src={Element6} /> */}
         </Row>
       </Container>
      
