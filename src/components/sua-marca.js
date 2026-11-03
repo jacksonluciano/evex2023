@@ -31,7 +31,7 @@ const SuaMarca = () => {
               <h2 css={[secTitle, mb45]}>Sua marca no ritmo da nova energia</h2>
 
               <p css={secDesk}>Conecte sua empresa a lideranças e decisores do setor energético. Conheça as oportunidades de patrocínio, exposição e ativação no EVEx Lisboa e na Missão EVEx 2026.</p>
-              <Link to="/lisboa/lisboa" css={commonBtn}>Fale com nosso time</Link>
+              <Link to="/#contato" css={commonBtn}>Fale com nosso time</Link>
               {/* <img css={element02} src={element} /> */}
            </div>
           </Col>

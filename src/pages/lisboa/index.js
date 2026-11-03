@@ -34,7 +34,7 @@ const HomeOne = () => {
           <FunfactOne />
           <TransicoesEnergeticas />         
           <ClientCarouselOne />
-          <TeamCarousel />
+          {/* <TeamCarousel /> */}
           <Missao />
           <Faq />
           <Bigcta />

@@ -64,7 +64,7 @@ const Bigcta = () => {
                   <p className="stars" style={{marginBottom:'16px'}}><img src={Bstar} />Certificado de participação</p>
 
                   <p>Entre em contato com a Secretaria para consultar a disponibilidade e receber as condições de inscrição: secretaria@evex.energy</p>
-                  <Link to={'/lisboa/inscricoes'} css={commonBtn}>Inscrições</Link>
+                  <Link to={'#'} css={commonBtn}>Inscrições</Link>
                 </div>
                 <div css={asideBlock}></div>
               </Col>
